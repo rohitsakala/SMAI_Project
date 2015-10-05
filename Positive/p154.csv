@@ -1,0 +1,483 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"402","1","2530953","","2008-08-02 10:47:08","","69","66219","<p>Note: this question is from 2008 and now is of only historic interest.</p>
+
+<hr>
+
+<p>What's the best way to create an iPhone application that runs in landscape mode from the start, regardless of the position of the device?</p>
+
+<p>Both programmatically and using the Interface Builder.</p>
+","136","","294884","","2014-06-15 09:11:04","2014-06-15 09:11:04","iPhone app in landscape mode, 2008 systems","<iphone><objective-c>","9","2","34","","","402","154"
+"1505","1","3507075","","2008-08-04 19:02:36","","17","5757","<p>How do I set the icon that appears on the iPhone for the web sites I create?</p>","83","","83","Zack","2008-08-04 19:07:43","2010-08-17 21:24:58","How do I give my web sites an icon for iPhone?","<iphone><html><favicon><apple-touch-icon>","4","2","3","","","1505","154"
+"1598","1","3490980","","2008-08-04 21:17:51","","59","44407","<p>I'm not sure what the correct size should be.</p>
+
+<p>Many sites seem to repeat that the apple-touch-icon should be 57x57 pixels but cite a broken link as their source.</p>
+
+<p><a href=""http://www.hanselman.com/blog/MakeYourWebsiteMobileAndIPhoneFriendlyAddHomeScreenIPhoneIconsAndAdjustTheViewPort.aspx"">Hanselman</a>'s and <a href=""http://playgroundblues.com/posts/2008/jan/15/iphone-bookmark-iconage/"">playgroundblues</a>'s comments suggest different sizes including 163x163 and 60x60.</p>
+
+<p>Apple's own <a href=""http://www.apple.com/apple-touch-icon.png"">apple.com icon</a> is 129x129!</p>
+
+<p>See my related question:
+<a href=""http://stackoverflow.com/questions/1505/how-do-i-give-my-web-sites-an-icon-for-iphone"">How do I give my web sites an icon for iPhone?</a></p>
+","83","","77914","","2010-11-06 18:45:39","2014-10-21 12:40:52","What are the correct pixel dimensions for an apple-touch-icon?","<iphone><favicon><apple-touch-icon>","11","3","17","","","1598","154"
+"6578","1","6614","","2008-08-09 03:13:04","","105","27885","<p>I'm just beginning to have a look at Objective-C and Cocoa with a view to playing with the iPhone SDK. I'm reasonably comfortable with C's <code>malloc</code> and <code>free</code> concept, but Cocoa's references counting scheme has me rather confused. I'm told it's very elegant once you understand it, but I'm just not over the hump yet.</p>
+
+<p>How do <code>release</code>, <code>retain</code> and <code>autorelease</code> work and what are the conventions about their use?</p>
+
+<p>(Or failing that, what did you read which helped you get it?)</p>
+","797","","63550","Paul","2011-04-06 09:33:43","2013-06-18 11:32:49","Understanding reference counting with Cocoa and Objective-C","<iphone><objective-c><cocoa><memory>","14","0","88","","","6578","154"
+"8756","1","8776","","2008-08-12 12:29:32","","21","20395","<p>Does anyone have any good starting points for me when looking at making web pages/sites/applications specifically for viewing on the iPhone?</p>
+
+<p>I've looked at templates like the one <a href=""http://blog.wired.com/monkeybites/2007/07/meet-joe-hewitt.html"">Joe Hewitt</a> has made, and also seen some templates I can purchase, which I haven't done yet.</p>
+
+<p>I figured someone else had already started on this track and decided that I could probably leech on their newfound knowledge :)</p>
+
+<p>So, does anyone have any pointers? I'm well aware of the problem that the more such a template/framework makes a web app look like a native iPhone app, the more likely I'm going to get into trouble because it just isn't, but for now I want a framework I can start building on, and then in the process figure out how to make it distinctive enough to be perceived as a web app as well as looking like a native iPhone application.</p>
+
+<p>Specifically I'm looking for features like:</p>
+
+<ul>
+<li>stylesheets set up, or pointers to how to do them for iPhone</li>
+<li>page flipping animation, ie. pick an item in a list, list scrolls out of view to the left and information for item scrolls in from the right</li>
+<li>the animation part would have to work with dynamic pages, ie. not just one big page that has divs set up for each sub-item, which at least one such framework had as a sort of quick fix, I would need to have list item picking load the <em>page</em> for that item, and then when loaded, scroll to it</li>
+</ul>
+
+<p><hr /></p>
+
+<p><strong>Edit</strong>: To avoid people reading only the question and answering, before reading my other reply, I'll add my clarification for GPL licensing and similar issues here.</p>
+
+<p>The framework I need to use can not be distributed under a license which would require me to license my own project out under a similar license. The GPL family of licenses allows for exceptions regarding library usage, but this won't apply to this since by necessity, the kind of framework I would need to use would be all source code.</p>
+
+<p>The project can easily accomodate commercial libraries.</p>
+
+<p>Also, I don't need a <em>library</em> or a <em>framework</em> as such, example files that look good and aren't overly obfuscated would be welcome as well.</p>
+","267","lassevk","714","Chris Hanson","2008-12-06 08:59:37","2012-02-25 01:20:06","iPhone web applications, templates, frameworks?","<iphone><web-applications><dashcode>","9","1","17","2012-02-12 19:52:58","","8756","154"
+"11112","1","2028892","","2008-08-14 14:30:17","","7","932","<p>Most wiki software I've presents lots of ""features"" on their pages.  This is fine for desktop users, but is annoying when using an iPhone or other mobile device.  <br /><br />I'd prefer pages that just had the content, along with maybe an Edit button and a Search button.  The editors are also often too fancy for mobile users; a simple multi-line edit field would be better for mobile users than a bunch of formatting controls.</p>
+
+<p>What is a good wiki package for mobile users?</p>
+","1175","Kristopher Johnson","155077","Kristopher Johnson","2015-04-17 10:27:26","2015-04-17 10:27:26","Best Wiki for Mobile Users","<iphone><wiki><mobile-website>","3","0","","","","11112","154"
+"21464","1","21494","","2008-08-21 23:53:36","","9","1570","<p>This is my first post here and I wanted to get some input from people doing iPhone development.  Other than the Apple DevCenter, where are there good sites to learn iPhone developement?</p>
+
+<p>I know Apple has a tough NDA but there has to be people talking about writing applications for the iPhone.</p>
+
+<p>Thank you,
+    Rob Bazinet</p>
+","2305","","137","Flubba","2008-08-23 11:27:36","2012-10-24 14:34:43","Recommended iPhone Development Resources","<iphone><resources>","7","2","9","2012-10-25 17:38:35","","21464","154"
+"22469","1","27771","","2008-08-22 14:20:35","","42","36552","<p>I'm going to be working on some iPhone apps so I've been given a golden ticket to buy a Mac. However the golden ticket isn't worth that much, and I'm thinking iMac. Now, Macs are great, I love 'em and use 'em at home, but I know that the iMac is geared more towards the average consumer than the professional. Is an iMac going to be powerful enough to do iPhone development on?</p>
+
+<p>If it helps any, the only thing I envision doing on the Mac is running XCode and maybe a web browser.</p>
+
+<p>Is there anybody out there doing iPhone development and having trouble running the required tools on their machine? If so, what do you have?</p>
+","543","bpapa","3532040","bpapa","2014-05-07 19:04:57","2014-05-07 19:04:57","What's a good machine for iPhone development?","<iphone><osx><imac>","19","2","8","2012-12-26 19:16:16","","22469","154"
+"22607","1","22666","","2008-08-22 15:08:50","","8","1768","<p>I’m thinking about trying some development for the iPhone, is it possible to install Leopard inside VMWare? I already have a pretty high spec PC with a comfy setup that I’d like to use, or do I need to buy a real Mac?</p>
+","1367","Wilka","","","","2015-09-15 09:24:19","Virtual Mac?","<iphone><osx><virtualization>","6","3","3","","","22607","154"
+"27138","1","2151866","","2008-08-26 00:01:55","","3","3611","<p>I was wondering if I could access the iPhones Core Location framework over a website?</p>
+
+<p>My goal is to build a webapp/website that the iPhone would browse to, then upload its current GPS location. This would be a simple site primary for friends/family so we could locate each other. I can have them manually enter lng/lat but its not the easiest thing to find. If the iPhone could display or upload this automatically it would be great.</p>
+
+<p>I don't own a Mac yet (waiting for the new Mac Book Pro) but would like something a little more automatic right now. Once I have the mac I could download the SDK and build a better version later. For now a webapp version would be great if possible. Thanks.</p>
+","1992","Bernie Perez","147141","","2009-10-07 22:21:15","2012-03-29 20:37:50","iPhone app that access the Core Location framework over web","<iphone><gps><web-applications>","4","0","3","","","27138","154"
+"28551","1","44008","","2008-08-26 16:35:06","","179","44337","<p>In a day or two I'll be ready to submit my iPhone app to the AppStore and I'm curious whether people who have gone through this process have any tips / suggestions for a smooth submission process.</p>
+
+<p>Here's things I've covered;</p>
+
+<ul>
+<li>No memory leaks</li>
+<li>Tested performance on an actual device</li>
+<li>Doesn't crash :)</li>
+<li>Using correct certificates / profile</li>
+</ul>
+
+<p>What I'm a little unsure about are how to configure the ""Bundle Display Name"" /""Bundle Identifier"" and ""Bundle Name"" in info.plist. I understand the first is the text that's shown on the iPhone itself, but what about the last? Does this have to match Bundle Identifier?</p>
+
+<p>Are there any other things I should add to the info.plist? I've noticed that when built for Adhoc distribution my app does not have any author/title information in iTunes.</p>
+","1043","Andrew","19679","Rich B","2011-10-22 16:37:47","2013-11-11 15:39:07","Tips for a successful AppStore submission?","<iphone><ios><app-store>","21","2","166","2012-01-19 08:00:28","","28551","154"
+"30058","1","30079","","2008-08-27 13:15:40","","62","83592","<p>The <a href=""http://developer.apple.com/documentation/AppleApplications/Reference/SafariWebContent/UsingiPhoneApplications/chapter%5F6%5Fsection%5F4.html"">Apple Developer Documentation explains</a> that if you place a link in a web page and then click it whilst using Mobile Safari on the iPhone, the Google Maps application that is provided as standard with the iPhone will launch.</p>
+
+<p>How can I launch the same Google Maps application with a specific address from within my own native iPhone application (i.e. not a web page through Mobile Safari) in the same way that tapping an address in Contacts launches the map?</p>
+
+<p><strong>NOTE:  THIS ONLY WORKS ON THE DEVICE ITSELF.  NOT IN THE SIMULATOR.</strong></p>
+","2183","DavidM","25","Paul","2009-04-28 21:19:29","2013-06-10 11:18:43","How can I launch the Google Maps iPhone application from within my own native application?","<iphone><objective-c><google-maps>","11","1","50","","","30058","154"
+"30953","1","279067","","2008-08-27 19:19:52","","45","56257","<p>I am interested in writing applications for the iPhone and the Android platform. I was hoping to find a middleware / framework that abstracted away some of the differences in the APIs and allow me to specify the target platform at build time. Is there such a framework existing or planned?</p>
+","3022","Thomas","-1","","2008-09-10 14:13:49","2015-06-09 21:47:48","Is there a multiplatform framework for developing iPhone / Android applications?","<iphone><android><frameworks><middleware>","18","0","34","2013-01-10 16:38:00","","30953","154"
+"36019","1","48247","","2008-08-30 15:00:37","","3","2033","<p>I have a secondary Exchange mailbox configured on my iPhone using IMAP. This all appears to work fine except when a message is deleted on the phone, it still shows normally in Outlook. It does not seem to matter what I set the ""remove deleted messages"" setting to on the phone.</p>
+
+<p>I understand this is due to a combination of the phone not expunging the deleted messages and Exchange showing deleted but not expunged messages in Outlook.</p>
+
+<p>I'm looking for an automated solution to this that does not have a large delay between deleting the message on the phone and it disappearing in Outlook. The message should also show in the Deleted Items when deleted from the phone.</p>
+
+<p><hr /></p>
+
+<p>I've thought about creating a background process which connects to the mailbox via IMAP and sits in IDLE mode until there's a deleted message in the folder. It will then expunge the folder and return to IDLE mode. This wouldn't work with more than one folder (without multiple instances) but it would probably do the job.</p>
+
+<p>Any recommendations on an easily scriptable tool or library that supports IMAP IDLE?</p>
+","3736","Jason W","3736","Jason W","2008-09-07 01:54:47","2013-04-30 11:50:06","Deleting messages from Exchange IMAP mailbox on iPhone","<iphone><exchange-server><imap>","1","0","","","","36019","154"
+"37464","1","37522","","2008-09-01 04:55:58","","174","103371","<p>If I create an application on my Mac, is there any way I can get it to run on an iPhone without going through the app store?</p>
+
+<p>It doesn't matter if the iPhone has to be jailbroken, as long as I can still run an application created using the official SDK. For reasons I won't get into, I can't have this program going through the app store.</p>
+","752","Dan Walker","321731","","2014-05-28 03:57:28","2015-09-24 08:39:13","iPhone App Minus App Store?","<iphone><ios><app-store><appstore-approval>","9","0","143","","","37464","154"
+"37822","1","37890","","2008-09-01 12:05:29","","9","5469","<p>I have read that the iPhone SDK (part of Xcode 3) is restricted to Mac's with the intel chipset. Does this restriction apply to only the simulator part of the SDK or the complete shebang?</p>
+
+<p>I have a Powerbook G4 running Leopard and would very much like to do dev on it rather than fork out for a new machine.</p>
+
+<p>It is also worth clarifying that I am interested in development for personal reasons and therefore accept that I would need a certified platform to create a submission for the App Store. </p>
+","2438","Clokey","345188","Clokey","2011-10-30 22:05:40","2011-10-30 22:18:24","Is it just the iPhone simulator that is restricted to Intel only Mac's?","<iphone><xcode><osx>","5","0","7","","","37822","154"
+"42749","1","1534595","","2008-09-03 22:26:55","","0","1584","<p>Can one be simulated by periodicly syncing with GPS and in the meen while working with the accelerometer? I know for example that the N95 accelerometer is invarient to rotation on the Y axis (while beeing face up/down).</p>
+","44972","winter","147141","","2009-10-07 22:20:30","2009-12-22 22:20:09","Does the Iphone 1/2 have a compass inside?","<iphone><gps><n95>","3","0","","","","42749","154"
+"43315","1","43331","","2008-09-04 07:59:57","","73","102082","<p>Using <a href=""http://pyobjc.sourceforge.net/"">PyObjC</a>, you can use Python to write Cocoa applications for OS X. Can I write native iPhone apps using Python and if so, how?</p>
+","2183","DavidM","","","","2015-08-13 17:54:28","Can I write native iPhone apps using Python","<iphone><python><cocoa-touch>","12","2","31","","","43315","154"
+"46220","1","46357","","2008-09-05 16:23:57","","18","27568","<p>I'm writing my first iPhone app, so I haven't gotten around to figuring out much in the way of debugging.
+Essentially my app displays an image and when touched plays a short sound.
+When compiling and building the project in XCode, everything builds successfully, but when the app is run in the iPhone simulator, it crashes.</p>
+
+<p>I get the following error:</p>
+
+<pre><code>Application Specific Information:
+iPhone Simulator 1.0 (70), iPhone OS 2.0 (5A331)
+*** Terminating app due to uncaught exception 'NSUnknownKeyException', 
+reason: '[&lt;UIView 0x34efd0&gt; setValue:forUndefinedKey:]: this class is not key value 
+coding-compliant for the key kramerImage.'
+</code></pre>
+
+<p>kramerImage here is the image I'm using for the background.</p>
+
+<p>I'm not sure what NSUnknownKeyException means or why the class is not key value coding-compliant for the key.</p>
+","2293","Bryan Woods","23649","","2015-08-01 19:09:32","2015-08-01 19:09:32","iPhone app crashing with NSUnknownKeyException setValue:forUndefinedKey:","<iphone><xib><key-value-coding>","8","0","7","2015-08-01 21:52:18","","46220","154"
+"47591","1","","","2008-09-06 15:54:19","","5","1433","<p>Specifically, I am looking to use CA on properties of types other than </p>
+
+<ul>
+<li>integers and doubles</li>
+<li>CGRect, CGPoint, CGSize, and CGAffineTransform structures</li>
+<li>CATransform3D data structures</li>
+<li>CGColor and CGImage references</li>
+</ul>
+
+<p>and in objects other than CALayers or NSViews</p>
+","","Miguel A. Friginal","1288","Bill the Lizard","2008-11-10 15:07:45","2008-11-10 15:07:45","How can I use Core Animation to interpolate property values over time on my own classes?","<iphone><objective-c><cocoa><core-animation>","3","0","","","","47591","154"
+"47941","1","155355","","2008-09-06 23:18:22","","71","49548","<p>I'm trying to upload an application to the iPhone App Store, but I get this error message from iTunes Connect:</p>
+
+<blockquote>
+  <p>The binary you uploaded was invalid. The signature was invalid, or it was not signed with an Apple submission certificate.</p>
+</blockquote>
+
+<hr>
+
+<p>Note: The details of original question have been removed, as this page has turned into a repository for all information about possible causes of that particular error message.</p>
+
+<p>For general information on submitting iPhone applications to the App Store, see <a href=""http://stackoverflow.com/questions/796482/steps-to-upload-an-iphone-application-to-the-appstore"">Steps to upload an iPhone application to the AppStore</a>.</p>
+","1175","Kristopher Johnson","1175","","2012-01-24 19:01:05","2015-08-03 09:00:12","Invalid iPhone Application Binary","<iphone><ios><app-store><code-signing><itunesconnect>","34","1","26","","2008-12-01 18:01:38","47941","154"
+"48338","1","48343","","2008-09-07 11:39:54","","6","1689","<p>According to <a href=""http://groups.google.com/group/v8-users/browse_thread/thread/3f57f8d1c31806a5"" rel=""nofollow"">this discussion</a>, the iphone agreement says that it doesn't allow ""loading of plugins or running interpreted code that has been downloaded"".</p>
+
+<p>Technically, I <strong>would</strong> like to download scripts from our server (embedded in a proprietary protocol).</p>
+
+<p>Does this mean I wouldn't be allowed to run a runtime like v8 in an iphone app?</p>
+
+<p>This is probably more of a legal question.</p>
+","209","CVertex","50776","David Crow","2012-08-29 12:08:09","2012-08-29 12:08:09","Am I allowed to run a javascript runtime (like v8) on the iPhone?","<javascript><iphone><c++>","4","1","1","2012-08-29 12:08:12","","48338","154"
+"51988","1","3448945","","2008-09-09 14:18:23","","78","18406","<p>Have any well-documented or open source projects targeted <code>iPhone</code>, <code>Blackberry</code>, and <code>Android</code> ? Are there other platforms which are better-suited to such an endeavor ? 
+Note that I am particularly asking about client-side software, not web apps, though any information about the difficulties of using web apps across multiple mobile platforms is also interesting.</p>
+","654","Nicholas","474193","","2012-08-03 12:03:24","2014-10-24 10:10:43","What work has been done on cross-platform mobile development?","<iphone><android><blackberry><mobile><webos>","18","0","34","2012-06-14 16:46:02","2011-04-12 18:45:10","51988","154"
+"52561","1","52570","","2008-09-09 18:40:02","","3","1742","<p>What is iPhone's browser tag and how iPhone optimized web site is different from a usual mobile web site?</p>
+
+<p>Thanks!</p>
+","4808","sergeb","","","","2010-06-25 17:15:01","iPhone browser tag and optimized web site","<iphone><html><mobile><mobile-website>","4","0","2","","","52561","154"
+"52816","1","","","2008-09-09 20:23:55","","6","2283","<p>We re trying to work on making a mobile version for one of our asp.net web applications, however we would like to make iPhone specific.</p>
+
+<p>Are there any resources out there which provide best practice guidelines:  </p>
+
+<ul>
+<li>UI Guidelines, any .net control libraries which are iPhone specific.</li>
+<li>Security guidelines - anything special that the iPhone Browser (mobile safari) has.</li>
+<li>Usability Guidelines - navigation tips, button sizes, etc.</li>
+</ul>
+
+<p>Anything else which will help us put together an app which looks native to iPhone.</p>
+","380","Vaibhav","714","Chris Hanson","2008-12-06 08:58:55","2009-06-18 20:22:12","Help on website optimization for iPhone","<asp.net><iphone><dashcode>","6","0","4","","","52816","154"
+"56856","1","59152","","2008-09-11 15:15:52","","5","1307","<p>My application has a need to let the user choose a date from a list of dates conforming to a certain pattern. For instance, they may need to choose a monday from a list Monday's for a month. Is there a way to get a <code>UIDatePicker</code> to limit date choices to a certain subset or should I just use a <code>UIPickerView</code>?</p>
+","1967","drewh","656600","","2013-04-30 11:51:27","2013-04-30 12:06:23","How do I make a UIDatePicker display specific dates?","<iphone><cocoa-touch><cocoa><uidatepicker>","2","1","","","","56856","154"
+"61346","1","61365","","2008-09-14 14:01:07","","4","3377","<p>I am thinking about the design of an iPhone app I'd like to create.  One possible problem is that this application will have to run as root (to access certain network ports).  In a typical UNIX app, I'd just get the app to run with setuid, but I'm wondering if that is possible with an iPhone app.</p>
+
+<p>I've read this question in Apple's forum, which is discouraging:</p>
+
+<p><a href=""http://discussions.apple.com/thread.jspa?threadID=1664575"" rel=""nofollow"">http://discussions.apple.com/thread.jspa?threadID=1664575</a></p>
+
+<p>I understand that Apple wants to limit what a program can do, but there are plenty of good, legitimate reasons for a user to run a program with elevated privileges.  I'm not trying to create a hacker tool here.</p>
+
+<p>I'm sure I could get around this on a jail-broken iPhone, but that's not what I'm after.  Is there any way to run an app with elevated privileges on an unbroken iPhone?</p>
+
+<p>(BTW, there is no need to warn me about the NDA.)</p>
+","1175","Kristopher Johnson","1175","","2008-09-14 21:06:23","2011-06-17 22:21:58","Can an iPhone App Be Run as Root?","<iphone><permissions><setuid>","3","3","2","","","61346","154"
+"61838","1","191935","","2008-09-15 03:51:30","","36","8797","<p>If I have something like a UILabel linked to a xib file, do I need to release it on dealloc of my view? The reason I ask is because I don't alloc it, which makes me think I don't need to release it either?
+eg (in the header):</p>
+
+<pre><code>IBOutlet UILabel *lblExample;
+</code></pre>
+
+<p>in the implementation:</p>
+
+<pre><code>....
+[lblExample setText:@""whatever""];
+....
+
+-(void)dealloc{
+    [lblExample release];//?????????
+}
+</code></pre>
+","6044","rustyshelf","1288","Bill the Lizard","2008-11-10 15:03:57","2012-04-13 04:28:13","Do I need to release xib resources?","<iphone><objective-c><cocoa-touch>","8","0","27","","","61838","154"
+"63408","1","63458","","2008-09-15 14:29:15","","11","5664","<p>When I load my iPhone app it always loads a black screen first then pops up the main window. This happens even with a simple empty app with a single window loaded. I've noticed that when loading, most apps zoom in on the main window (or scale it to fit the screen, however you want to think about it) and then load the content of the screen, with no black screen (see the Contacts app for an example).</p>
+
+<p>How do I achieve this effect?</p>
+","1967","drewh","3830876","","2015-08-24 18:22:57","2015-08-24 18:22:57","iPhone app loading","<iphone><ios>","4","0","2","","","63408","154"
+"64420","1","64763","","2008-09-15 16:27:33","","80","29851","<p>I don't want to take the time to learn Obj-C. I've spent 7+ years doing web application programming. Shouldn't there be a way to use the WebView and just write the whole app in javascript, pulling the files right from the resources of the project?</p>
+","8597","","14343","Ned Batchelder","2008-11-10 00:13:35","2013-06-20 06:56:38","How can I write an iPhone app entirely in JavaScript without making it just a web app?","<javascript><iphone><objective-c>","11","0","61","","","64420","154"
+"66492","1","","","2008-09-15 20:15:13","","5","3809","<p>Is there a way to check to see if an iPhone is online from a web app. That is, in mobile Safari, can I check the online status of the device to see if I should try an AJAX call or not.</p>
+
+<p>In Firefox/regular WebKit, this would be:</p>
+
+<pre><code>if(navigator.onLine) 
+{
+    onlineCode() 
+}
+</code></pre>
+","6842","Ted Roden","137626","Ted","2014-07-08 14:07:55","2014-07-08 14:07:55","Checking online status from an iPhone web app","<javascript><iphone><mobile-safari>","3","0","3","","","66492","154"
+"68196","1","","","2008-09-16 00:19:57","","0","43092","<blockquote>
+  <p><strong>Possible Duplicates:</strong><br />
+  <a href=""http://stackoverflow.com/questions/377672/ipod-touch-iphone-development-on-windows"">ipod touch / iphone development on Windows?</a><br />
+  <a href=""http://stackoverflow.com/questions/113547/iphone-development-on-windows"">iPhone development on Windows</a>  </p>
+</blockquote>
+
+<p>I don't have a mac, but I wish to develop iPhone applications on Windows platform. Is this possible?</p>
+","","james","59087","Joseph Daigle","2009-10-07 16:43:44","2009-11-01 04:34:00","Develop iPhone applications using Microsoft Windows","<windows><osx><iphone>","0","0","0","2009-11-01 16:51:38","","68196","154"
+"72288","1","74193","","2008-09-16 13:40:04","","23","9145","<p>What is the quickest way to come up to speed on OpenGL ES 1.x?</p>
+
+<p>Let's assume I know nothing about OpenGL (which is not entirely true, but it's been a while since I last used OpenGL).  I am most interested in learning this for iPhone-related development, but I'm interested in learning how it works on other platforms as well.</p>
+
+<p>I've found the book <em>OpenGL ES 2.0 Programming Guide</em>, but I am concerned that it might not be the best approach because it focuses on 2.0 rather than 1.x.  My understanding is that 2.0 is not backwards-compatible with 1.x, so I may miss out on some important concepts.</p>
+
+<p>Note: For answers about learning general OpenGL, see <a href=""http://stackoverflow.com/questions/62540/learning-opengl"">http://stackoverflow.com/questions/62540/learning-opengl</a></p>
+
+<p><hr /></p>
+
+<p>Some resources I've found:</p>
+
+<ul>
+<li><a href=""http://khronos.org/opengles/1_X/"">http://khronos.org/opengles/1_X/</a></li>
+<li><a href=""http://www.imgtec.com/powervr/insider/sdk/KhronosOpenGLES1xMBX.asp"">http://www.imgtec.com/powervr/insider/sdk/KhronosOpenGLES1xMBX.asp</a></li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0321336798"">OpenGL Distilled</a> by Paul Martz (a good refresher on OpenGL basics)</li>
+</ul>
+","1175","Kristopher Johnson","44729","","2010-06-18 23:20:14","2012-08-22 08:05:04","Learning OpenGL ES 1.x","<iphone><3d><opengl-es>","9","0","18","","2008-12-03 09:12:12","72288","154"
+"74113","1","74255","","2008-09-16 16:15:04","","35","59206","<p>It seems obvious that some people have been able to figure out how to access the iPhone camera through the SDK (Spore Origins, for example), but I haven't been able to find any helpful information. I don't want anyone to violate their NDA, but does anyone know of any existing (official) resources that show how this can be done? Thanks.</p>
+","5338","Jason Francis","224671","","2010-10-28 20:01:53","2013-12-11 09:43:07","Access the camera with iPhone SDK","<iphone><camera>","4","0","33","","","74113","154"
+"78423","1","81659","","2008-09-16 23:45:40","","3","8370","<p>The error I'm getting:</p>
+
+<pre><code>in /Users/robert/Documents/funWithFrameworks/build/Debug-iphonesimulator/funWithFrameworks.framework/funWithFrameworks, can't link with a main executable
+</code></pre>
+
+<p>Cliff notes:</p>
+
+<ul>
+<li>trying to include framework</li>
+<li>doesn't want to link</li>
+</ul>
+
+<p>More detail:
+I'm developing for a <em>mobile device... hint, hint</em> using Xcode and I'm trying to make my
+own custom framework which I can include from another application. So far, I've done the following:</p>
+
+<ol>
+<li>Create a new project; an iPhone OS window based app.</li>
+<li>Go to target info-> under packaging, change the wrapper extension from app to framework</li>
+<li>Go to Action->new build phase -> copy headers. Change roles of headers  to 'public'</li>
+<li>From my application, I add the framework to the frameworks group.</li>
+</ol>
+","","Robert","691409","amrox","2014-06-04 10:23:15","2014-06-04 10:23:34","Using a custom framework","<iphone><xcode><osx><cocoa>","4","0","","","","78423","154"
+"78599","1","","","2008-09-17 00:16:27","","1","407","<p>I'm working on a game for the iPhone and would like it to be able to submit scores back to the server.  Simple enough, but I want the scores to be verified to actually come from a game-play.  With the (defacto) prohibition on real crypto with the export conditions, what would be the best way to get information back in a secure/verified channel?</p>
+
+<p>All my thoughts lead back to an RSA-style digital signature algorithm, but would prefer something less ""crypto"" to get past that export question.</p>
+
+<p>Thanks!</p>
+","","Casey","","","","2010-10-21 16:20:42","Verified channel to server from app on iPhone","<iphone><http><security>","5","0","","","","78599","154"
+"82691","1","84947","","2008-09-17 12:41:02","","3","1536","<p>I have a java back-end that needs to expose services to clients running in the following environments :</p>
+
+<ul>
+<li>J2ME</li>
+<li>Windows Mobile</li>
+<li>iPhone</li>
+</ul>
+
+<p>I am looking for the best tool for each platform.<br>
+I do not search a technology that works everywhere.<br>
+I need something ""light"" adapted to low speed internet access.  </p>
+
+<p>Right now I am using SOAP. It is verbose and not easy to parse on the mobile. The problem is that I have not seen any real alternative.</p>
+
+<p>Is there a format that works ""out of the box"" with one of these platforms ?<br>
+I would rather not use a bloated library that will increase tremendously the download time of the application.</p>
+
+<p>Everybody seems to agree on JSON. Does anyone has implemented a solution based on JSON running with Objective-C, J2ME, Windows Mobile ?</p>
+
+<p>Note : so far the best solution seems to be Hessian. It works well on Windows Mobile and Objective-C/iPhone . The big problem is J2ME. The J2ME implementation of Hessian has serious limitations. It does not support complex objects. I had written another question about it.   </p>
+
+<p>If you have any ideas, there are very welcome.</p>
+","11897","","656600","Alexandre Victoor","2013-04-30 11:58:32","2013-04-30 11:58:32","What are the best remoting technologies for mobile applications?","<java><iphone><windows-mobile><java-me><mobile>","5","0","","","","82691","154"
+"83687","1","83772","","2008-09-17 14:15:05","","6","5065","<p>I have a need to display a UITableView containing a user's account credentials. For this, I'm using UILabels in UITableViewCells. When I display their password, I'd obviously like to just display a placeholder password character instead of their actual password, similar to a UITextField when it's set to secure text entry mode. In fact, I'd like to use the same character as UITextField uses, instead of '*'. </p>
+
+<p>My question is, what is the character code for the password character the UITextField when it's in secure mode?</p>
+","1967","drewh","","","","2013-03-21 12:44:37","How do I display a substitute password character in a UILabel?","<iphone>","4","0","3","","","83687","154"
+"87290","1","90666","","2008-09-17 20:29:57","","2","20203","<p>Although I don't have an iPhone to test this out, my colleague told me that embedded
+media files such as the one in the snippet below, only works when the iphone is connected over the
+WLAN connection or 3G, and does not work when connecting via GPRS.</p>
+
+<pre><code>&lt;html&gt;&lt;body&gt;
+&lt;object data=""http://joliclic.free.fr/html/object-tag/en/data/test.mp3"" type=""audio/mpeg""&gt;
+   &lt;p&gt;alternate text&lt;/p&gt;
+&lt;/object&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code></pre>
+
+<p>Is there an example URL with a media file, that will play in an iPhone browser 
+when the iphone connects using GPRS (not 3G)?</p>
+","6225","pythonquick","6225","pythonquick","2008-09-17 20:42:37","2009-02-27 18:41:10","How to embed audio/video on HTML page that plays on iPhone browser over GPRS","<iphone><html>","3","0","","","","87290","154"
+"88736","1","88880","","2008-09-17 23:41:47","","8","886","<p>Is there any centralized repository of useful Objective-C / Cocoa libraries as there is for Perl, Ruby, Python, etc.?</p>
+
+<p>In building my first iPhone app, I'm finding myself implementing some very basic functions that would be just a quick ""gem install"" away in Ruby.</p>
+","16952","Robert Sanders","21755","Paul","2008-11-10 14:33:14","2012-04-14 13:03:30","CPAN/gem-like repository for Objective-C and Cocoa?","<iphone><objective-c><cocoa><osx>","9","0","2","","","88736","154"
+"93297","1","107678","","2008-09-18 14:55:04","","6","7586","<p>I want to make a small app that displays a PDF, presenting zoom-able single pages with a previous-next page function.</p>
+","15420","","15420","","2009-01-06 16:08:43","2010-11-02 23:02:19","Newbie wants to create a PDF reader for ipod touch - what's the best approach?","<iphone><pdf><ipod>","5","1","4","","","93297","154"
+"96156","1","1203757","","2008-09-18 19:42:31","","3","2576","<p>Is it possible to use chapters in videos for the iPhone in an application?</p>
+
+<p>For example:
+I have a 3 minutes video to play. I have chapter 1 starting at 0s, chapter 2 at 50s, chapter 3 at 95s.</p>
+
+<p>Can I start plating the video at 50s (chapter 2) until the end? Can I make it play just the chapter 2 from 50s to 95s?</p>
+
+<p>My question is not about how to add chapters to a video. I want to know if this behaviour is available on the iphone.</p>
+","1044","Grégoire","881229","Grégoire","2013-10-05 00:06:51","2013-10-05 00:06:51","chapters in videos for the iPhone","<iphone><video>","3","0","3","","","96156","154"
+"96265","1","","","2008-09-18 19:55:35","","22","13473","<p>I am programming a game on the iPhone.  I am currently using NSTimer to trigger my game update/render.  The problem with this is that (after profiling) I appear to lose a lot of time between updates/renders and this seems to be mostly to do with the time interval that I plug into NSTimer.  </p>
+
+<p>So my question is what is the best alternative to using NSTimer?</p>
+
+<p>One alternative per answer please.</p>
+","25868","","21755","Paul","2008-11-10 14:31:37","2010-11-29 13:14:04","What is a better way to create a game loop on the iPhone other than using NSTimer?","<iphone><objective-c><cocoa>","3","2","27","","","96265","154"
+"99241","1","101584","","2008-09-19 03:18:32","","6","5126","<p>UIWebView is fine for displaying HTML, but I'd like to modify the loaded DOM from my Objective-C program.  Does anybody know how to do that?  This is a third party page, so I can't really include any custom JS to do so...unless I can modify the DOM somehow.</p>
+","16952","Robert Sanders","1288","Bill the Lizard","2008-11-10 15:02:32","2008-11-10 15:02:32","Is there any way to get access to the DOM from Objective-C when using UIWebView?","<iphone><objective-c>","2","0","5","","2008-09-19 03:18:32","99241","154"
+"103421","1","311849","","2008-09-19 16:23:23","","5","5194","<p>I have a sprite loaded as a texture and I need to animate it, allowing it to ""face"" left or right -- essentially sometimes I need to ""flip"" it.   I know that OpenGL has a gltranslate which repositions an object, and glrotate which rotates it.   Is there a method that simply flips it across one axis?  If not, how would you accomplish this?</p>
+","13968","Psychotic Venom","21755","Paul","2008-11-10 14:02:39","2010-11-24 17:23:35","How do I flip a sprite/texture in OpenGLES?","<iphone><objective-c><opengl>","2","1","2","","","103421","154"
+"103480","1","103594","","2008-09-19 16:29:48","","6","2625","<p>I've been programming in C,C++,C# and a few other languages for many years, mainly for Windows and Linux but also embedded platforms. Recently started to do some iPhone programming as a side project so I'm using Apple platforms for the first time since my Apple II days. I'm wondering what other developers that are coming to Mac OSX, Xcode and iPhone SDK think. Here are my impressions, so far:</p>
+
+<ul>
+<li><p>Mac OSX: very confusing, I tend to end up with too many open windows and don't know what's where. Luckily there's the bird's eye view, without it I'd be lost. With the shell at least there's all the familiar stuff so that helps me a lot.</p></li>
+<li><p>Xcode: doesn't feel as good as VisualStudio or Eclipse, the two environments I'm familiar with. I think I could get used to it but I'm wondering if Apple wouldn't be better off with Eclipse. Before I found the setting where all the windows are stuck together I hated it, now I can tolerate it.</p></li>
+<li><p>iPhone SDK: strange indeed. I understand Apple's desire to control their environment but in this day and age it just seems a little sleazy and they are missing out on so much by destroying developer goodwill.</p></li>
+<li><p>Objective-C: I've known about it for years but never even took a look at it. The syntax is off-putting but I'm actually very intrigued by the language. I think it's an interesting third leg between C++ and C#, both of which I like a lot. Is there any chance Obj-C will break out of the Mac sandbox due to the uptick in the popularity of Apple technology?</p></li>
+</ul>
+
+<p>Curious to read your thoughts,</p>
+
+<p>Andrew</p>
+","18321","","14343","Ned Batchelder","2008-11-09 23:42:10","2009-02-04 15:40:17","iPhone programming - impressions, opinions?","<c#><c++><iphone><objective-c><development-environment>","7","0","3","","","103480","154"
+"103537","1","108609","","2008-09-19 16:38:34","","0","3373","<p>I have an OpenGL ES game that I am hacking together.  One part of it involves looking at a large ""map-like"" area and then double-tapping on one part to ""zoom into"" it.   How would you use OpenGL ES to provide this effect (given that it may need to zoom in on different parts of the map).   </p>
+
+<p>I've heard of glScale and glOrtho, but I'm unclear on how they actually work since the whole openGL world is very new to me.  </p>
+","13968","Psychotic Venom","44729","Paul","2010-06-18 23:19:49","2010-06-18 23:19:49","How do I create a zoom effect in OpenGLES on the iPhone?","<iphone><objective-c><opengl-es>","2","0","3","","","103537","154"
+"104583","1","718000","","2008-09-19 19:02:59","","7","8950","<p>I haven't been able to find any documentation on hardware access via the iPhone SDK so far. I'd like to be able to send signals via the dock connector to an external hardware device but haven't seen any evidence that this is accessible via the SDK (not interested in possibilities on jailbroken iPhones).</p>
+
+<p>Anyone have any pointers to docs for this or some idea of what deep dark corner i should look?</p>
+","18590","craigb","714","Chris Hanson","2008-09-20 02:04:07","2011-01-10 17:51:01","Does the iPhone SDK allow hardware access to the dock connector?","<iphone><hardware>","4","0","2","","","104583","154"
+"106627","1","","","2008-09-20 00:52:08","","12","12987","<blockquote>
+  <p><strong>Possible Duplicates:</strong><br>
+  <a href=""http://stackoverflow.com/questions/370427/learn-obj-c-memory-management"">Learn Obj-C Memory Management</a><br>
+  <a href=""http://stackoverflow.com/questions/710288/where-are-the-best-explanations-of-memory-management-for-iphone"">Where are the best explanations of memory management for iPhone?</a>  </p>
+</blockquote>
+
+
+
+<p>I come from a C/C++ background and the dynamic nature of Objective-C is somewhat foreign to me, is there a good resource anyone can point me to for some basic memory management techniques in Objective-C? ex. retaining, releasing, autoreleasing</p>
+
+<p>For instance, is it completely illegal to use a pointer to an Objective-C object and treat it as an array? Are you forced to use NSArray and NSMutableArray for data structures?</p>
+
+<p>I know these are pretty newbie questions, thanks for any help you can offer me.</p>
+","","Andrew","908958","marxidad","2014-05-22 18:18:34","2014-05-22 18:18:34","Memory Management in Objective-C","<iphone><objective-c><cocoa><memory><memory-management>","10","3","4","2011-03-31 18:12:17","","106627","154"
+"107049","1","107663","","2008-09-20 04:04:34","","5","2520","<p>We have a rather simple site (minimal JS) with plain html and CSS.  It is a simple mobile interface for our main application.</p>
+
+<p>We are running into trouble because we have more than one column and several browsers seem to force single columns.</p>
+
+<p>Through some searching I ran into 2 meta tags.</p>
+
+<pre><code>&lt;meta name=""MobileOptimized"" content=""220"" /&gt;
+&lt;meta name=""viewport"" content=""width=320"" /&gt;
+</code></pre>
+
+<p>With these we have a good 'scaled' view for IE Mobile and the iPhone. We have not run into any problems with palm's Blazer. But Blackberry is another matter.</p>
+
+<p>Does the Blackberry have a simple way to control the view of the browser as well?   By simple I mean without making a special page for that device.</p>
+","4923","cwhite","2134","Chris","2008-09-26 20:20:43","2008-11-09 18:12:09","How to make a simple site render correctly on multiple mobile browsers?","<iphone><blackberry><mobile><ie-mobile>","3","0","1","","","107049","154"
+"107456","1","107661","","2008-09-20 06:57:27","","6","1275","<p>So I'm looking at writing an iPhone application that shows things on a map. What frameworks/methodologies are out there for doing this?</p>
+
+<p>Searching around on Google, I could only find this one:
+<a href=""http://code.google.com/p/iphone-google-maps-component/"" rel=""nofollow"">http://code.google.com/p/iphone-google-maps-component/</a></p>
+
+<p>Which according to the issues list is slow, and stops working after a while. Does anyone know of something better, or have any experience with the library above?</p>
+","6044","rustyshelf","","","","2012-12-12 00:45:23","What's the best way to do a mapping application for the iPhone","<iphone><cocoa-touch><maps>","5","2","2","","","107456","154"
+"109429","1","","","2008-09-20 21:15:50","","4","4626","<p>I'm primarily a designer, with a fairly high level of understanding of CSS and HTML. I have an idea for a very simple iPhone app, largely involving a timer, an animated graphic, and some sound. If I get more advanced there could be some simple customization settings </p>
+
+<p>I have no understanding of Objective C, or C of any kind for that matter. (The closest I got was a Pascal course 20 years ago.) Aside from befriending a developer with motivation to help me out, what would be the simplest, most likely method of learning the minimum I need to know to create my own iPhone App?</p>
+","2486915","davebug","21755","Paul","2008-11-10 14:00:12","2015-04-25 12:12:22","What is the easiest way for a non-programmer to learn the basics of iPhone App creation?","<iphone><objective-c>","8","2","2","2012-11-29 01:38:50","","109429","154"
+"111558","1","111816","","2008-09-21 18:04:32","","1","611","<p>There appear to be a lot of unnecessary frameworks loading into my iPhone app.  I didn't link against them in Xcode, and I don't need them.</p>
+
+<p>When I run ""lsof -p"" against them on the iPhone, I see these (and others) that I can't explain:</p>
+
+<ul>
+<li>CoreVideo </li>
+<li>AddressBookUI</li>
+<li>JavaScriptCore</li>
+<li>MobileSync</li>
+<li>EAP8021X</li>
+<li>BluetoothManager</li>
+<li>MusicLibrary</li>
+<li>CoreAudio</li>
+<li>MobileMusicPlayer</li>
+<li>AddressBook</li>
+<li>CoreTelephony</li>
+<li>MobileBluetooth</li>
+<li>Calendar</li>
+<li>TelephonyUI</li>
+<li>WebCore / WebKit</li>
+<li>MediaPlayer</li>
+<li>VideoToolbox</li>
+</ul>
+
+<p>I wonder whether this is contributing to the slow startup times.  My app is very simple.  It is basically a Twitter-like posting client. The only multimedia function is to pick an image from the camera or library, and it uses simple NSURL / NSURLConnection functions to post data to a couple of web services.</p>
+
+<p>This is a jailbroken 2.1 iPhone with a few apps installed from Cydia.  Is this normal?</p>
+","16952","Robert Sanders","21755","Paul","2008-11-10 13:57:27","2008-11-10 13:57:27","Lots of unnecessary frameworks load into my iPhone app - can I prevent this?","<iphone><objective-c>","2","1","","","","111558","154"
+"111653","1","111821","","2008-09-21 18:34:05","","5","4899","<p>Just installed the latest SDK for iPhone 2.1. When I go to File -> New Project in Xcode, under the iPhone OS Application selection, I don't see a template icon for ""Cocoa Touch Application"". Am I missing something? Anything else I need to download other than the iPhone SDK? If not, how do I add it to the ""iPhone OS Application"" templates?</p>
+","877","Mac","1270812","Chris Hanson","2012-04-14 12:40:15","2012-04-14 12:40:15","""Cocoa Touch Application"" Template from Xcode 3.1.1","<iphone><xcode><cocoa-touch><xcode-template>","3","0","2","","","111653","154"
+"113437","1","113488","","2008-09-22 06:21:49","","5","2047","<p>I'm working on an iphone application (not web app) and I'd like to build a form asking a user to indicate a price range. Instead of using two text fields, I would prefer to use a double slider to set the minimum and the maximum price.  I know that it is possible de use a simple slider (sound control for exemple) but i've never seen a double one. Can anyone help ?</p>
+","20238","srobbes","","","","2010-08-08 19:47:44","iPhone application : is-it possible to use a ""double"" slider to select a price range","<iphone><user-interface><user><slider>","3","1","0","","","113437","154"
+"113547","1","","","2008-09-22 07:05:42","","229","313402","<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""http://stackoverflow.com/questions/22358/how-can-i-develop-for-iphone-using-a-windows-development-machine"">How can I develop for iPhone using a Windows development machine?</a>  </p>
+</blockquote>
+
+
+
+<p>Is there a way to develop iPhone (iOS) applications on Windows?  I really don't want to get yet another machine.  </p>
+
+<p>There is a project on <a href=""http://code.google.com/p/winchain/wiki/HowToUse"" rel=""nofollow"">http://code.google.com/p/winchain/wiki/HowToUse</a> that seemed to work with iPhone 1.0, but had limited success with iPhone 2.0, plus it requires all the <a href=""http://en.wikipedia.org/wiki/Cygwin"" rel=""nofollow"">Cygwin</a> insanity.  </p>
+
+<p>Is there anything else, or do I have to buy a Mac?</p>
+","9382","AngryHacker","345188","","2011-10-28 20:33:26","2012-09-17 15:18:21","iPhone development on Windows","<iphone><windows><ios>","0","0","16","2012-09-17 17:15:09","2010-09-17 09:39:38","113547","154"
+"114860","1","114882","","2008-09-22 13:27:25","","6","4515","<p>I am searching for a way to compress JavaScript code for the iPhone. Is there a way to avoid  using a lot of CPU time on the small and rather slow device?</p>
+","19929","Thomaschaaf","63550","Oli","2011-02-02 08:25:36","2011-02-02 08:32:54","What is the best way to pack JavaScript code without getting perfomance flaws?","<javascript><iphone><compression>","8","1","","","","114860","154"
+"121018","1","121034","","2008-09-23 13:33:18","","15","5735","<p>I know there are emulators, but is this good enough? If someone is serious about iPhone development, do they absolutely need an iPhone?</p>
+","3153","Brian R. Bondy","","","","2015-09-24 15:34:23","Is it possible to develop for the iPhone without an iPhone?","<iphone><emulator><mobile-phones>","19","1","4","","","121018","154"
+"121051","1","121071","","2008-09-23 13:38:26","","8","13716","<p>How do I go about making an image or section of the page full screen on the iPhone?</p>
+
+<p>I have an image that is 480 x 320 and I want to pull that up full screen on the iPhone but it has to be within a webpage so that I can make the image a link back to the previous page.</p>
+
+<p>Currently if I drop the image on a blank page and I open it up on the iPhone it just shows up in the top left corner.</p>
+","8897","Smallinov","","","","2013-10-31 16:01:43","iPhone Full Screen Image","<iphone><html><mobile-safari>","3","0","2","","","121051","154"
+"121615","1","124459","","2008-09-23 15:09:51","","7","15936","<p>I'm in the process of adding custom buttons to my iPhone UI and want to make them have the glassy look from Apple's apps. I have a good default glass image, but I'd hate to have to have a separate image for each tint I want (red, green, blue, etc.). </p>
+
+<p>Is there a way to load a grayscale PNG and adjust it to the color I want? Better yet, is there a way to get Apple's glassy look without having to load custom images at all?</p>
+","1967","drewh","","","","2013-07-04 09:06:17","How to tint a UIButton?","<iphone>","6","0","6","","","121615","154"

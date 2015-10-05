@@ -1,0 +1,651 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"123","1","183","","2008-08-01 16:08:52","","58","48903","<p>Is there an existing application or library in Java which will allow me to convert a CSV data file to XML file?  </p>
+
+<p>The XML tags would be provided through possibly the first row containing column headings.</p>
+","78","","759452","Jeff Atwood","2013-11-29 08:56:55","2015-05-13 14:58:31","Java lib or app to convert CSV to XML file?","<java><xml><csv><data-conversion>","17","3","15","","","123","17"
+"126","1","127","","2008-08-01 16:10:30","","49","6894","<p>What is the ""purist"" or ""correct"" way to access an object's properties from within an object method that is not a getter/setter method?</p>
+
+<p>I know that from outside of the object you should use a getter/setter, but from within would you just do:</p>
+
+<p>Java:</p>
+
+<pre><code>String property = this.property;
+</code></pre>
+
+<p>PHP:</p>
+
+<pre><code>$property = $this-&gt;property;
+</code></pre>
+
+<p>or would you do:</p>
+
+<p>Java:</p>
+
+<pre><code>String property = this.getProperty();
+</code></pre>
+
+<p>PHP:</p>
+
+<pre><code>$property = $this-&gt;getProperty();
+</code></pre>
+
+<p>Forgive me if my Java is a little off, it's been a year since I programmed in Java...</p>
+
+<p><strong>EDIT:</strong></p>
+
+<p>It seems people are assuming I am talking about private or protected variables/properties only. When I learned OO I was taught to use getters/setters for every single property even if it was public (and actually I was told never to make any variable/property public). So, I may be starting off from a false assumption from the get go. It appears that people answering this question are maybe saying that you should have public properties and that those don't need getters and setters, which goes against what I was taught, and what I was talking about, although maybe that needs to be discussed as well. That's probably a good topic for a different question though...</p>
+","58","","202431","Gaius","2010-01-20 08:27:13","2015-05-13 10:47:59","How would you access Object properties from within an object method?","<java><php><oop><theory>","19","0","2","2012-05-08 18:11:27","","126","17"
+"382","1","384","","2008-08-02 08:58:27","","35","7169","<p>What is the meaning of the Java warning?</p>
+
+<blockquote>
+  <p>Type safety: The cast from Object to List is actually checking against the erased type List</p>
+</blockquote>
+
+<p>I get this warning when I try to cast an Object to a type with generic information, such as in the following code:</p>
+
+<pre><code>Object object = getMyList();
+List&lt;Integer&gt; list = (List&lt;Integer&gt;) object;
+</code></pre>
+","122","Mike Stone","1563422","","2013-04-21 05:20:42","2015-04-19 17:18:29","What is the meaning of the type safety warning in certain Java generics casts?","<java><generics><warnings><casting><type-safety>","1","1","6","","","382","17"
+"564","1","566","","2008-08-02 21:47:34","","124","106770","<p>I was just sitting at my local <a href=""http://en.wikipedia.org/wiki/Borders_%28UK%29"">Borders</a> sipping coffee and reading <em><a href=""http://rads.stackoverflow.com/amzn/click/1430209879"">More Joel on Software</a></em> (for free) when I came across <a href=""http://en.wikipedia.org/wiki/Joel_Spolsky"">Joel Spolsky</a> saying something about a particular type of programmer knowing the difference between an int and an Integer in Java/C# (Object Oriented Programming Languages).</p>
+
+<p>After a quick 'brain check,' I realized, to my dismay, that I didn't know the answer.</p>
+","25","","63550","Chris Reath","2013-06-10 19:10:33","2015-09-21 16:02:07","What is the difference between an int and an Integer in Java and C#?","<c#><java><integer><int>","15","2","38","","","564","17"
+"2092","1","","","2008-08-05 11:15:16","","7","1490","<p>Looking for books or other references that discuss actually ""how"" to write a code coverage tool in Java; some of the various techniques or tricks - source vs. byte code instrumentation. This is for a scripting language that generates java byte code under the hood.</p>
+","","bill","73488","Ned Batchelder","2010-10-12 02:23:33","2013-01-28 13:27:44","How to get started ""writing"" a code coverage tool?","<java><testing><coldfusion><code-coverage>","5","0","","","","2092","17"
+"2158","1","2245","","2008-08-05 12:15:08","","55","68538","<p>Is there a way to create a JButton with your own button graphic and not just with an image inside the button? </p>
+
+<p>If not, is there another way to create a custom button in java?</p>
+","340","","714968","","2012-06-26 06:51:58","2014-09-22 17:33:24","Creating a custom button in Java","<java><swing><jbutton>","5","0","29","","","2158","17"
+"2931","1","","","2008-08-05 22:23:16","","11","1063","<p>I have been working with JXTA 2.3 for the last year or so for a peer-to-peer computing platform I am developing. I am migrating to JXTA 2.5 and in the process I am trying to clean up a lot of my use of JXTA. For the most part, I approached JXTA with a ""just make it work"" attitude. I used it to jumpstart creating and managing my peer-to-peer overlay network and providing basic communication services. I would like to use it in a more ""JXTA"" way since I am making changes to move to 2.5 anyway.</p>
+
+<p>My first step would be a basic creation of a custom PeerGroup. I see some new new mechanisms that are using the META-INF.services infrastructure of Java. Should I be listing a related PeerGroup implementing object here with a GUID in net.jxta.platform.Module? As I understand it, if I do this, when a group with a spec ID matching the GUID is encountered and joined or created it should automatically use the matching object. I should be able to just manually tie a PeerGroup object to the group but this new method using META-INF seems to be a lot easier to manage.</p>
+
+<p>Does anyone have any pointers or examples of using this infrastructure for PeerGroup implementation? Also, some general information on the META-INF.services mechanism in Java would be helpful.</p>
+","360","","866022","","2012-05-21 17:32:19","2012-05-21 17:32:19","Getting started with a custom JXTA PeerGroup","<java><p2p><jxta>","1","1","2","","","2931","17"
+"2968","1","2985","","2008-08-05 23:49:53","","22","46000","<p>For parsing player commands, I've most often used the <a href=""http://docs.oracle.com/javase/6/docs/api/java/lang/String.html#split%28java.lang.String%29"" rel=""nofollow"">split</a> method to split a string by delimiters and then to then just figure out the rest by a series of <code>if</code>s or <code>switch</code>es. What are some different ways of parsing strings in Java?</p>
+","362","","362","Lane","2014-05-13 17:34:45","2015-08-20 22:13:23","What are the different methods to parse strings in Java?","<java><string><parsing>","15","1","4","2014-05-13 17:04:48","","2968","17"
+"3049","1","3054","","2008-08-06 03:19:19","","22","8345","<p>I need to send and receive data over serial connections (RS-232 and RS-422).</p>
+
+<p>How do I set up and communicate with such a connection?  How do I figure out what the configuration settings (e.g. baud rate) should be and how do I set them?</p>
+
+<p>In particular I am looking to do this in Java, C/C++, or one of the major Unix shells but I also have some interest in serial programming using Windows/Hyperterminal.</p>","462","","","","","2014-09-06 13:01:36","How do I configure and communicate with a serial port?","<java><c++><windows><unix>","11","0","5","","","3049","17"
+"3881","1","3886","","2008-08-06 19:26:30","","286","74374","<p>I have a simple setter method for a property and <code>null</code> is not appropriate for this particular property. I have always been torn in this situation: should I throw an <a href=""http://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html""><code>IllegalArgumentException</code></a>, or a <a href=""http://docs.oracle.com/javase/7/docs/api/java/lang/NullPointerException.html""><code>NullPointerException</code></a>? From the javadocs, both seem appropriate. Is there some kind of an understood standard?  Or is this just one of those things that you should do whatever you prefer and both are really correct?</p>
+","122","","3156863","Chris Fournier","2014-01-17 12:18:34","2015-06-23 13:51:21","IllegalArgumentException or NullPointerException for a null parameter?","<java><exception><null><nullpointerexception><illegalargumentexception>","25","3","84","","","3881","17"
+"4080","1","79845","","2008-08-06 22:45:27","","80","26396","<p>What code analysis tools do you use on your Java projects?</p>
+
+<p>I am interested in all kinds</p>
+
+<ul>
+<li>static code analysis tools (FindBugs, PMD, and any others)</li>
+<li>code coverage tools (Cobertura, Emma, and any others)</li>
+<li>any other instrumentation-based tools </li>
+<li>anything else, if I'm missing something</li>
+</ul>
+
+<p>If applicable, also state what build tools you use and how well these tools integrate with both your IDEs and build tools. </p>
+
+<p>If a tool is only available a specific way (as an IDE plugin, or, say, a build tool plugin) that information is also worth noting.</p>
+","235","","1288","Ned Batchelder","2012-08-09 03:29:08","2014-04-29 06:05:47","What code analysis tools do you use for your Java projects?","<java><code-coverage><static-analysis>","12","1","53","2012-05-05 13:39:59","","4080","17"
+"4149","1","154588","","2008-08-06 23:57:10","","52","19953","<p>I have an application that writes information to file. This information is used post-execution to determine pass/failure/correctness of the application. I'd like to be able to read the file as it is being written so that I can do these pass/failure/correctness checks in realtime.</p>
+
+<p>I assume it is possible to do this, but what are the gotchas involved when using Java? If the reading catches up to the writing, will it just wait for more writes up until the file is closed, or will the read throw an exception at this point? If the latter, what do I do then? </p>
+
+<p>My intuition is currently pushing me towards BufferedStreams. Is this the way to go?</p>
+","488","","845306","","2011-12-22 23:09:42","2015-09-29 19:08:15","How do I use Java to read from a file that is actively being written?","<java><file><file-io>","9","4","14","","","4149","17"
+"4242","1","4247","","2008-08-07 01:05:15","","33","5236","<p>I want to convert a primitive to a string, and I tried:</p>
+
+<pre><code>myInt.toString();
+</code></pre>
+
+<p>This fails with the error:</p>
+
+<pre><code>int cannot be dereferenced
+</code></pre>
+
+<p>Now, I get that primitives are not reference types (ie, not an Object) and so cannot have methods.  However, Java 5 introduced autoboxing and unboxing (a la C#... which I never liked in C#, but that's beside the point).  So with autoboxing, I would expect the above to convert myInt to an Integer and then call toString() on that.</p>
+
+<p>Furthermore, I believe C# allows such a call, unless I remember incorrectly.  Is this just an unfortunate shortcoming of Java's autoboxing/unboxing specification, or is there a good reason for this?</p>
+","122","","131433","erickson","2012-05-23 14:28:15","2014-01-30 23:26:36","Why doesn't Java autoboxing extend to method invocations of methods of the autoboxed types?","<java><autoboxing>","8","0","4","","","4242","17"
+"4630","1","478658","","2008-08-07 12:26:50","","5","2117","<p>Example: I have two shared objects (same should apply to .dlls). The first shared object is from a third-party library, we'll call it libA.so. I have wrapped some of this with JNI and created my own library, libB.so. Now libB depends on libA.</p>
+
+<p>When webstarting, both libraries are places in some webstart working area. My java code attempts to load libB. At this point the system loader will attempt to load libA which is not in the system library path (java.library.path won't help this). The end result is that libB has an unsatisfied link and cannot be used. </p>
+
+<p>I have tried loading libA before libB, but that still does not work. Seems the OS wants to do that loading for me. Is there any way I can make this work other than statically  compiling?</p>","287","","","","","2011-11-07 17:35:00","How can I Java webstart multiple, dependent, native libraries?","<java><jni><java-web-start><nativelibrary>","3","0","","","","4630","17"
+"4922","1","5091","","2008-08-07 16:30:32","","16","3409","<p>I saw this in <a href=""http://stackoverflow.com/a/4384/697449"">an answer to another question</a>, in reference to shortcomings of the java spec:</p>
+
+<blockquote>
+  <p>There are more shortcomings and this is a subtle topic. Check <a href=""http://kiranthakkar.blogspot.com/2007/05/method-overloading-with-new-features-of.html"">this</a> out:</p>
+
+<pre><code>public class methodOverloading{
+     public static void hello(Integer x){
+          System.out.println(""Integer"");
+     }
+
+     public static void hello(long x){
+          System.out.println(""long"");
+     }
+
+     public static void main(String[] args){
+         int i = 5;
+         hello(i);
+     }
+}
+</code></pre>
+  
+  <p>Here ""long"" would be printed (haven't checked it myself), because the compiler choses >widening over autoboxing. Be careful when using autoboxing or don't use it at all!</p>
+</blockquote>
+
+<p><em>Are we sure that this is actually an example of widening instead of autoboxing, or is it something else entirely?</em></p>
+
+<p>On my initial scanning, I would agree with the statement that the output would be ""long"" on the basis of <code>i</code> being declared as a primitive and not an object.  However, if you changed </p>
+
+<pre><code>hello(long x)
+</code></pre>
+
+<p>to</p>
+
+<pre><code>hello(Long x)
+</code></pre>
+
+<p>the output would print ""Integer""</p>
+
+<p>What's really going on here?  I know nothing about the compilers/bytecode interpreters for java...</p>
+","670","","697449","Andy","2012-03-11 22:06:40","2012-03-11 22:06:40","Is this really widening vs autoboxing?","<java><primitive><autoboxing>","3","1","","","","4922","17"
+"5222","1","5224","","2008-08-07 19:39:31","","23","49739","<p>What is the Java equivalent of PHP's <code>$_POST</code>? After searching the web for an hour, I'm still nowhere closer.</p>
+","429","","507738","Stu Thompson","2015-07-25 13:10:57","2015-07-25 13:10:57","Accessing post variables using Java Servlets","<java><http><servlets>","3","0","5","","","5222","17"
+"5328","1","5351","","2008-08-07 21:17:56","","23","3249","<p>So, in Java, the first line of your constructor HAS to be a call to super... be it implicitly calling super(), or explicitly calling another constructor.  What I want to know is, why can't I put a try block around that?</p>
+
+<p>My specific case is that I have a mock class for a test.  There is no default constructor, but I want one to make the tests simpler to read.  I also want to wrap the exceptions thrown from the constructor into a RuntimeException.</p>
+
+<p>So, what I want to do is effectively this:</p>
+
+<pre><code>public class MyClassMock extends MyClass {
+    public MyClassMock() {
+        try {
+            super(0);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    // Mocked methods
+}
+</code></pre>
+
+<p>But Java complains that super isn't the first statement.</p>
+
+<p>My workaround:</p>
+
+<pre><code>public class MyClassMock extends MyClass {
+    public static MyClassMock construct() {
+        try {
+            return new MyClassMock();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public MyClassMock() throws Exception {
+        super(0);
+    }
+
+    // Mocked methods
+}
+</code></pre>
+
+<p>Is this the best workaround?  Why doesn't Java let me do the former?</p>
+
+<hr>
+
+<p>My best guess as to the ""why"" is that Java doesn't want to let me have a constructed object in a potentially inconsistent state... however, in doing a mock, I don't care about that.  It seems I should be able to do the above... or at least I know that the above is safe for my case... or seems as though it should be anyways.</p>
+
+<p>I am overriding any methods I use from the tested class, so there is no risk that I am using uninitialized variables.</p>
+","122","","1345224","","2014-11-06 01:45:28","2014-11-06 03:39:06","Why can't I use a try block around my super() call?","<java><exception><mocking><try-catch>","6","3","2","","","5328","17"
+"5527","1","5532","","2008-08-08 01:04:02","","17","2369","<p>I just saw a <a href=""http://stackoverflow.com/questions/5516/what-happened-to-all-of-the-java-developers-how-can-i-get-started-in-net#5522"" rel=""nofollow"">comment of suggesting J#</a>, and it made me wonder... is there a real, beneficial use of J# over Java?  So, my feeling is that the only reason you would even consider using J# is that management has decreed that the company should jump on the Java bandwagon... and the .NET bandwagon.  If you use J#, you are effectively losing the biggest benefit of picking Java... rich cross platform support.  Sure there is Mono, but it's not as richly supported or as full featured right?  I remember hearing Forms are not fully (perhaps at all) supported.</p>
+
+<p>I'm not trying to bash .NET here, I'm just saying, if you are going to go the Microsoft route, why not just use C#?  If you are going to go the Java route, why would J# enter the picture?</p>
+
+<p>I'm hoping to find some real world cases here, so please especially respond if you've ACTUALLY used J# in a REAL project, and why.</p>","122","","","","","2008-09-12 20:27:48","Is there a real benefit of using J#?","<java><j#>","8","1","1","","","5527","17"
+"5855","1","6687","","2008-08-08 12:40:02","","4","854","<p>I've found many sources that talk about the automated Eclipse PDE process.  I feel these sources don't do a good job explaining what's going on.</p>
+
+<p>I can create the deployable package, in a semi-manual process via the Feature Export.  </p>
+
+<p>The automated process requires knowledge of how the org.eclipse.pde.build scripts work.  I have gotten a build created, but not for JNLP.</p>
+
+<p>Questions:</p>
+
+<ol>
+<li>Has anyone ever deployed RCP through JNLP?</li>
+<li>Were you able to automate the builds?</li>
+</ol>","728","","","","","2012-05-30 21:23:23","Automate builds for Java RCP for deployment with JNLP","<java><build-automation><rcp><jnlp>","1","0","1","","","5855","17"
+"6222","1","7877","","2008-08-08 18:17:50","","6","3837","<p>Is anyone successfully using the latest 64-bit Ganymede release of Eclipse on Windows XP or Vista 64-bit?</p>
+
+<p>Currently I run the normal Eclipse 3.4 distribution on a 32bit JDK and launch &amp; compile my apps with a 64bit JDK. Our previous experience has been that the 64bit Eclipse distro is unstable for us, so I'm curious if anyone is using it successfully.</p>
+
+<p>We are using JDK 1.6.0_05.</p>","235","","15352","Craig Angus","2008-10-11 14:41:37","2010-08-20 06:27:06","Eclipse on win64","<java><eclipse><eclipse-3.4><ganymede>","2","0","","","","6222","17"
+"6392","1","6496","","2008-08-08 21:24:01","","17","19148","<p>I am running a Tomcat application, and I need to display some time values.  Unfortunately, the time is coming up an hour off.  I looked into it and discovered that my default TimeZone is being set to:</p>
+
+<pre><code>sun.util.calendar.ZoneInfo[id=""GMT-08:00"",
+    offset=-28800000,dstSavings=0,useDaylight=false,
+    transitions=0,lastRule=null]
+</code></pre>
+
+<p>Rather than the Pacific time zone.  This is further indicated when I try to print the default time zone's <a href=""http://docs.oracle.com/javase/7/docs/api/java/util/TimeZone.html#getDisplayName()"">display name</a>, and it comes up ""GMT-08:00"", which seems to indicate to me that it is not correctly set to the US Pacific time zone.  I am running on Ubuntu Hardy Heron, upgraded from Gutsy Gibbon.</p>
+
+<p>Is there a configuration file I can update to tell the JRE to use Pacific with all the associated daylight savings time information?  The time on my machine shows correctly, so it doesn't seem to be an OS-wide misconfiguration.</p>
+
+<hr>
+
+<p>Ok, here's an update. A coworker suggested I update JAVA_OPTS in my /etc/profile to include ""-Duser.timezone=US/Pacific"", which worked (I also saw CATALINA_OPTS, which I updated as well). Actually, I just exported the change into the variables rather than use the new /etc/profile (a reboot later will pick up the changes and I will be golden).</p>
+
+<p>However, I still think there is a better solution... there should be a configuration for Java somewhere that says what timezone it is using, or how it is grabbing the timezone. If someone knows such a setting, that would be awesome, but for now this is a decent workaround.</p>
+
+<hr>
+
+<p>I am using 1.5, and it is most definitely a DST problem.  As you can see, the time zone is set to not use daylight savings.  My belief is it is generically set to -8 offset rather than the specific Pacific timezone.  Since the generic -8 offset has no daylight savings info, it's of course not using it, but the question is, where do I tell Java to use Pacific time zone when it starts up?  I'm NOT looking for a programmatic solution, it should be a configuration solution.</p>
+","122","","1102512","Mike Stone","2013-11-26 00:16:23","2013-11-26 00:16:23","Java Time Zone is messed up","<java><linux><timezone>","5","0","10","","","6392","17"
+"6612","1","6655","","2008-08-09 04:29:42","","32","24788","<p>On a recent Java project, we needed a free Java based real-time data plotting utility.  After much searching, we found this tool called the <a href=""http://www.epic.noaa.gov/java/sgt/"">Scientific Graphics Toolkit or SGT</a> from NOAA.  It seemed pretty robust, but we found out that it wasn't terribly configurable.  Or at least not configurable enough to meet our needs.  We ended up digging very deeply into the Java code and reverse engineering the code and changing it all around to make the plot tool look and act the way we wanted it to look and act.  Of course, this killed any chance for future upgrades from NOAA.  </p>
+
+<p>So what free or cheap Java based data plotting tools or libraries do you use?</p>
+
+<p><em>Followup:  Thanks for the <a href=""http://www.jfree.org/jfreechart/"">JFreeChart</a> suggestions.  I checked out their website and it looks like a very nice data charting and plotting utility.  I should have made it clear in my original question that I was looking specifically to plot real-time data.  I corrected my question above to make that point clear.  It appears that <a href=""http://www.jfree.org/jfreechart/faq.html#FAQ5"">JFreeChart support for live data is marginal at best, though</a>.  Any other suggestions out there?</em></p>
+","27687","Kurt Leucht","135589","Kurt Leucht","2011-11-27 13:10:24","2013-11-26 00:17:07","Are there any decent free Java data plotting libraries out there?","<java><configuration><data><plot><freeware>","16","1","16","2013-01-04 22:05:01","","6612","17"
+"6639","1","","","2008-08-09 05:33:22","","47","87029","<p>How should I load files into my Java application?</p>","816","","1737819","","2014-01-30 07:11:29","2014-01-30 07:11:29","How should I load files into my Java application?","<java><file><loading>","5","1","20","","","6639","17"
+"6658","1","6671","","2008-08-09 06:31:25","","79","24860","<p>At work we are currently still using <code>Junit3</code> to run our tests. We have been considering switching over to <code>Junit4</code> for <strong>new</strong> tests being written but I have been keeping an eye on <code>TestNG</code> for a while now. What experiences have you all had with either <code>Junit4</code> or <code>TestNG</code> and which seems to work better for very large numbers of tests. Having flexibility in writing tests is also important to us since our functional tests cover a wide aspect and need to be written in a variety of ways to get results.</p>
+
+<p>Old tests will not be re-written as they do their job just fine. What I would like to see in new tests though is flexibility in the way the test can be written, natural assertions, grouping, and easily distributed test executions.</p>
+","782","","1245337","Sam Merrell","2014-11-25 07:32:55","2015-09-01 23:27:26","Junit vs TestNG","<java><testing><junit><testng>","11","1","22","","","6658","17"
+"6765","1","6902","","2008-08-09 13:23:40","","8","2251","<p>I'm going to start a new project - rewriting an existing system (PHP + SQL Server) from scratch because of some very serious limitations by design.</p>
+
+<p>We have some quite good knowledge of SQL Server (currently we're using SQL Server 2000 in existing system) and we would like to employ its newer version (2008 I guess) in our new project.</p>
+
+<p>I am really fond of technologies that Java offers - particularly Spring Framework and Wicket and I am quite familiar with Java from others projects and assignments before.
+Therefore, we consider using Java and Microsoft SQL Server.</p>
+
+<p>There are two JDBC drivers for SQL Server - jTDS and Microsoft's one - <a href=""http://msdn.microsoft.com/en-us/data/aa937724.aspx"" rel=""nofollow"">http://msdn.microsoft.com/en-us/data/aa937724.aspx</a>. I think we should test both of them.<br/></p>
+
+<p>Are there any limitations in such solution I should know of? Has someone experience with such a technology combination?</p>
+","837","","13302","","2010-11-04 07:17:05","2010-11-04 07:17:05","Java + SQL Server - a viable solution?","<java><sql-server>","5","0","","","","6765","17"
+"6816","1","6840","","2008-08-09 15:40:30","","61","24615","<p>I was hoping someone could help me out with a problem I'm having using the java search function in Eclipse on a particular project.</p>
+
+<p>When using the java search on one particular project, I get an error message saying <code>Class file name must end with .class</code> (see stack trace below). This does not seem to be happening on all projects, just one particular one, so perhaps there's something I should try to get rebuilt?</p>
+
+<p>I have already tried <code>Project -&gt; Clean</code>... and Closing Eclipse, deleting all the built class files and restarting Eclipse to no avail.</p>
+
+<p>The only reference I've been able to find on Google for the problem is at <a href=""http://www.crazysquirrel.com/computing/java/eclipse/error-during-java-search.jspx"">http://www.crazysquirrel.com/computing/java/eclipse/error-during-java-search.jspx</a>, but unfortunately his solution (closing, deleting class files, restarting) did not work for me.</p>
+
+<p>If anyone can suggest something to try, or there's any more info I can gather which might help track it's down, I'd greatly appreciate the pointers.</p>
+
+<pre><code>Version: 3.4.0
+Build id: I20080617-2000
+</code></pre>
+
+<p>Also just found this thread - <a href=""http://www.myeclipseide.com/PNphpBB2-viewtopic-t-20067.html"">http://www.myeclipseide.com/PNphpBB2-viewtopic-t-20067.html</a> - which indicates the same problem may occur when the project name contains a period. Unfortunately, that's not the case in my setup, so I'm still stuck.</p>
+
+<pre><code>Caused by: java.lang.IllegalArgumentException: Class file name must end with .class
+at org.eclipse.jdt.internal.core.PackageFragment.getClassFile(PackageFragment.java:182)
+at org.eclipse.jdt.internal.core.util.HandleFactory.createOpenable(HandleFactory.java:109)
+at org.eclipse.jdt.internal.core.search.matching.MatchLocator.locateMatches(MatchLocator.java:1177)
+at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(JavaSearchParticipant.java:94)
+at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(BasicSearchEngine.java:223)
+at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(BasicSearchEngine.java:506)
+at org.eclipse.jdt.core.search.SearchEngine.search(SearchEngine.java:551)
+at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.internalSearch(RefactoringSearchEngine.java:142)
+at org.eclipse.jdt.internal.corext.refactoring.RefactoringSearchEngine.search(RefactoringSearchEngine.java:129)
+at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.initializeReferences(RenameTypeProcessor.java:594)
+at org.eclipse.jdt.internal.corext.refactoring.rename.RenameTypeProcessor.doCheckFinalConditions(RenameTypeProcessor.java:522)
+at org.eclipse.jdt.internal.corext.refactoring.rename.JavaRenameProcessor.checkFinalConditions(JavaRenameProcessor.java:45)
+at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:225)
+at org.eclipse.ltk.core.refactoring.Refactoring.checkAllConditions(Refactoring.java:160)
+at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:77)
+at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:709)
+at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4650)
+at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:92)
+at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+</code></pre>
+
+<p>Thanks McDowell, closing and opening the project seems to have fixed it (at least for now).</p>
+","797","","814074","Matt Sheppard","2013-12-23 08:14:44","2013-12-23 08:14:44","Class file name must end with .class exception in Java Search","<java><eclipse><search>","6","1","18","","","6816","17"
+"7269","1","46902","","2008-08-10 18:06:04","","3","1373","<p>I'm part of a team that develops a pretty big Swing Java Applet. Most of our code is legacy and there are tons of singleton references. We've bunched all of them to a single ""application context"" singleton. What we now need is to create some way to separate the shared context (shared across all applets currently showing) and non-shared context (specific to each applet currently showing). However, we don't have an ID at each of the locations that call to the singleton, nor do we want to propagate the ID to all locations. What's the easiest way to identify in which applet context we're running? (I've tried messing with classloaders, thread groups, thread ids... so far I could find nothing that will enabled me to ID the origin of the call).</p>
+","931","Ran Biron","","","","2008-09-06 21:12:21","How can I identify in which Java Applet context I'm running without passing an ID?","<java><swing><applet>","3","0","","","","7269","17"
+"7291","1","7294","","2008-08-10 19:00:02","","5","1442","<p>I'm working on an app that converts source code from using one framework to another.<br>
+I really wanted to make the agonizing monotonous job automatic.<br>
+After looking a lot for something that could help me treat source code in an object-oriented way and modify it the closest thing I've found was <a href=""http://jaxme.sourceforge.net/JaxMeJS/docs/index.html"" rel=""nofollow"">JaxMeJS</a> and that's short of what I need too.</p>
+
+<p>I've been working at creating my own parser using <a href=""http://antlr.org/"" rel=""nofollow"">antlr</a>, but would love not having to do it by myself.</p>
+
+<p>Any recommendations? Of course I'd rather a Java solution, but I have an open mind.</p>
+","573","","15168","Dave L.","2015-05-03 02:27:56","2015-05-03 02:27:56","Any good java source code analyzing and modifying libraries?","<java><static-analysis>","3","0","1","2012-08-02 16:06:26","","7291","17"
+"7539","1","7561","","2008-08-11 05:23:02","","29","32007","<p>Recently I tried understanding the use of <strong>java.math.MathContext</strong> but failed to understand properly. Is it used for rounding in <code>java.math.BigDecimal</code>, if yes why does not it round the decimal digits but even mentissa part.</p>
+
+<p>From API docs, I came to know that it follows the standard specified in <code>ANSI X3.274-1996</code> and <code>ANSI X3.274-1996/AM 1-2000</code> specifications but I did not get them to read online.</p>
+
+<p>Please let me know if you have any idea on this.</p>
+","959","","1245337","","2014-11-25 07:17:29","2014-11-25 07:17:29","Use of java.math.MathContext","<java><math><bigdecimal><mathcontext>","5","0","3","","","7539","17"
+"7596","1","13283","","2008-08-11 07:45:20","","25","8850","<p>First of all, I know how to build a Java application. But I have always been puzzled about where to put my classes. There are proponents for organizing the packages in a strictly domain oriented fashion, others separate by tier.</p>
+
+<p>I myself have always had problems with a) with naming, b) with placing</p>
+
+<ol>
+<li>Where do you put your domain specific constants (and what is the best name for such a class)?</li>
+<li>Where do you put classes for stuff which is both infrastructural and domain specific (for instance I have a FileStorageStrategy class, which stores the files either in the database, or alternatively in database)?</li>
+<li>Where to put Exceptions?</li>
+<li>Are there any standards to which I can refer?</li>
+</ol>
+","917","","1677912","","2015-09-12 15:50:24","2015-09-12 15:50:24","How should I structure a Java application, in other words: where do I put my classes?","<java><architecture><organization>","10","1","8","","2009-08-29 17:41:21","7596","17"
+"7661","1","32551","","2008-08-11 10:23:48","","5","16262","<p>Searching for some sample code for converting a point in WGS84 coordinate system to a map position in Google Maps (pixel position), also supporting zoom levels. </p>
+
+<p>If the codes is well commented, then it can also be in some other language.</p>
+
+<p>You can also point me to a open source Java project :)</p>
+
+<p>Some resources found:</p>
+
+<p><a href=""http://trac.openlayers.org/browser/trunk/openlayers/lib/OpenLayers/Layer"" rel=""nofollow"">OpenLayer</a> implementation. </p>
+
+<p><a href=""http://josm.openstreetmap.de/browser/trunk/src/org/openstreetmap/josm/data/projection"" rel=""nofollow"">JOSM</a> project</p>
+
+<p>Excellent <a href=""http://www.jhlabs.com/java/maps/proj/"" rel=""nofollow"">Java Map Projection Library </a> from JH LABS. This is a pure java PROJ.4 port. Does projection from WGS84 to meters. From there it's quite straightforward to convert meters to tile pixels.</p>
+","706","","21960","JaanusSiim","2013-04-30 13:48:12","2015-04-29 01:06:15","Java code for WGS84 to Google map position and back","<java><google-maps><mapping><wgs84>","6","0","4","","","7661","17"
+"7681","1","7688","","2008-08-11 11:33:01","","3","1352","<p>What is the best way to verify/test that a text string is serialized to a byte array with a certain encoding?</p>
+
+<p>In my case, I want to verify that an XML structure is serialized to a byte array with the UTF-8 encoding which is of variable character length. As an example, my current ugly procedure is to inject a character known to require two bytes into the structure before serializing, then replacing the two-byte character with an ASCII character and comparing the serialized array lengths. This should yield two serialized arrays where the array containing the two-byte characters should have length +1.</p>
+
+<p>Plus if the solution is elegant for Java. 
+I can't think of any elegant way to seek for a byte sequence in a byte array. (Could be used to seek for a known byte sequence representing the desired character representation in UTF-8.)</p>
+","972","","","","","2013-01-09 05:53:18","Test serialization encoding","<java><xml><string><serialization><encoding>","2","0","","","","7681","17"
+"7720","1","149971","","2008-08-11 12:37:50","","31","10537","<p>I am writing an application in Java for the desktop using the Eclipse SWT library for GUI rendering.  I think SWT helps Java get over the biggest hurdle for acceptance on the desktop: namely providing a Java application with a consistent, responsive interface that looks like that belonging to any other app on your desktop.  However, I feel that packaging an application is still an issue.  </p>
+
+<p>OS X natively provides an easy mechanism for wrapping Java apps in native application bundles, but producing an app for Windows/Linux that doesn't require the user to run an ugly batch file or click on a .jar is still a hassle.  Possibly that's not such an issue on Linux, where the user is likely to be a little more tech-savvy, but on Windows I'd like to have a regular .exe for him/her to run.</p>
+
+<p>Has anyone had any experience with any of the .exe generation tools for Java that are out there?  I've tried JSmooth but had various issues with it.  Is there a better solution before I crack out Visual Studio and roll my own?</p>
+
+<p><strong>Edit:</strong>  I should perhaps mention that I am unable to spend a lot of money on a commercial solution.</p>
+","998","","56285","alexmcchessers","2010-04-26 11:02:03","2014-08-25 06:17:01","Packaging Java apps for the Windows/Linux desktop","<java><windows><swt><executable><software-distribution>","18","1","25","","","7720","17"
+"7779","1","28154","","2008-08-11 13:30:21","","6","2488","<p>I have read through several reviews on Amazon and some books seem outdated.  I am currently using MyEclipse 6.5 which is using Eclipse 3.3.  I'm interested in hearing from people that have experience learning RCP and what reference material they used to get started.</p>
+","791","","275567","","2012-10-14 04:13:48","2012-10-14 04:13:48","I would like a recommendation for a book on Eclipse's Rich Client Platform (RCP)","<java><eclipse><rcp><myeclipse>","6","0","2","","","7779","17"
+"8219","1","8226","","2008-08-11 21:07:44","","5","314","<p>At my work we are running a group of tests that consist of about 3,000 separate test cases. Previously we were running this entire test suite on one machine, which took about 24-72 hours to complete the entire test run. We now have created our own system for grouping and distributing the tests among about three separate machines and the tests are prioritized so that the core tests get run first for more immediate results and the extra tests run when there is an available machine.</p>
+
+<p>I am curious if anyone has found a good way to distribute their tests among several machines to reduce total test time for a complete run and what tools were used to achieve that. I've done some research and it looks like TestNG is <a href=""http://beust.com/weblog/archives/000362.html"" rel=""nofollow"">moving in this direction</a>, but it looks like it is still under quite a bit of development. </p>
+
+<p>We don't plan on rewriting any of our tests, but as we add new tests and test new products or add-ons I'd like to be able to deal with the fact that we are working with very large numbers of tests. On the other hand, if we can find a tool that would help distribute our Junit <code>3.x</code> tests even in a very basic fashion, that <em>would</em> be helpful since we wouldn't have to maintain our own tooling to do that.</p>
+","782","","1584286","Sam Merrell","2013-07-04 12:08:44","2013-11-26 03:58:10","Test Distribution","<java><testing><enterprise>","3","0","2","","","8219","17"
+"8318","1","8322","","2008-08-11 22:53:50","","7","7423","<p>I need to prevent <a href=""http://www.owasp.org/index.php/Session_Fixation"">Session Fixation</a>, a particular type of session hijacking, in a Java web application running in JBoss. However, it appears that the standard idiom <a href=""http://www.owasp.org/index.php/Session_Fixation_in_Java"">doesn't work in JBoss</a>. Can this be worked around?</p>
+","1054","","","","","2013-05-21 09:36:53","Resolving Session Fixation in JBoss","<java><security><jboss>","4","0","5","","","8318","17"
+"8569","1","13367","","2008-08-12 07:36:14","","19","9634","<p>I'm currently trying to get into the Java EE development with the Spring framework. As I'm new to Spring, it is hard to imaging how a good running project should start off.</p>
+
+<p>Do you have any <em>best practices</em>, tipps or major <em>DO NOTs</em> for a starter? How did you start with Spring - big project or small tutorial-like applications? Which technology did you use right away: AOP, complex Hibernate...</p>
+","834","","834","cringe","2008-08-12 07:55:11","2013-11-26 03:59:25","What's your ""best practice"" for the first Java EE Spring project?","<java><spring><java-ee><aop>","11","1","12","2013-11-18 06:01:19","","8569","17"
+"8599","1","8655","","2008-08-12 08:08:11","","6","1058","<p>Can anyone recommend a good binary XML format? It's for a JavaME application, so it needs to be a) Easy to implement on the server, and b) Easy to write a low-footprint parser for on a low-end JavaME client device.</p>
+
+<p>And it goes without saying that it needs to be smaller than XML, and faster to parse.</p>
+
+<hr>
+
+<p>The data would be something akin to SVG.</p>
+","974","","1288","","2012-04-12 11:14:22","2014-03-21 03:12:40","Best binary XML format for JavaME","<java><xml><java-me><mobile>","4","0","0","","","8599","17"
+"8968","1","9404","","2008-08-12 15:29:18","","7","493","<p>We need to add WorkFlow to our Spring managed application. Does anyone have any useful experience in using any of the myriad of OSS Work Flow solutions? Which one is best? Which one integrates with Spring best? Which ones should we avoid?</p>
+","1126","TiGz","","","","2013-08-18 09:19:43","What OSS project should I look at if I need to do Spring friendly WorkFlow?","<java><spring><workflow>","5","0","","","","8968","17"
+"9044","1","275353","","2008-08-12 16:52:08","","8","6479","<p>I have a base class that represents a database test in TestNG, and I want to specify that all classes extending from this class are of a group ""db-test"", however I have found that this doesn't seem possible.  I have tried the @Test annotation:</p>
+
+<pre><code>@Test(groups = { ""db-test"" })
+public class DBTestBase {
+}
+</code></pre>
+
+<p>However, this doesn't work because the @Test annotation will try to make a bunch of methods into tests, and warnings/errors pop up in eclipse when the tests are run.</p>
+
+<p>So I tried disabling the test, so at least the groups are assigned:</p>
+
+<pre><code>@Test(enabled = false, groups = { ""db-test"" })
+public class DBTestBase {
+}
+</code></pre>
+
+<p>but then any @BeforeTest (and other similar annotations) ALSO get disabled... which is of course not what I want.</p>
+
+<p>I would like some way to annotate a class as being of a particular type of group, but it doesn't quite seem possible in TestNG.  Does anyone have any other ideas?</p>
+","122","Mike Stone","6309","VonC","2008-11-08 22:51:50","2009-03-16 18:31:06","Can I specify a class wide group on a TestNG test case?","<java><testng>","5","1","1","","","9044","17"
+"9361","1","16650","","2008-08-13 00:49:17","","3","1520","<p>I'd like to utilize an ICE Faces fileInput control to fill in the file path &amp; file name for the input to an input field on a web page based on file that the user selects. How can I capture these properties without actually performing any file transfer operations?</p>
+","318","KG","","","","2009-05-06 03:11:40","ICE Faces fileInput file path and file name properties","<java><ajax><jsf><icefaces>","1","0","","","","9361","17"
+"10042","1","25311","","2008-08-13 16:29:22","","91","308195","<p>What's the best way to make a linked list in Java?</p>
+","571","Lance Fisher","2628","Kamikaze Mercenary","2008-09-16 14:02:27","2011-07-13 10:34:26","How do I implement a Linked List in Java?","<java><linked-list>","6","2","55","2012-01-03 20:21:00","","10042","17"
+"10506","1","10549","","2008-08-13 23:57:01","","1","1251","<p>I am having a strange DB2 issue when I run DBUnit tests.  My DBUnit tests are highly customized, but I don't think it is the issue.  When I run the tests, I get a failure SQLCODE: -1084, SQLSTATE: 57019, <a href=""https://www1.columbia.edu/sec/acis/db2/db2m0/sql1000.htm"" rel=""nofollow"">which translates to</a> ""SQL1084C Shared memory segments cannot be allocated.""</p>
+
+<p>It sounds like a weird memory issue, though here's the big strange thing.  If I ssh to the test database server, then go in to db2 and do ""connect to MY_DB"", the tests start succeeding!  This seems to have no relation to the supposed memory error that is being reported.</p>
+
+<p>I have 2 tests, and the first one actually succeeds, the second one is the one that fails.  However, it fails in the DBUnit setup code, when it is obtaining the connection to the DB server to load my xml dataset.</p>
+
+<p>Any ideas what might be going on?</p>
+","122","Mike Stone","","","","2009-06-16 20:32:58","Weird DB2 issue with DBUnit","<java><db2><dbunit>","2","0","","","","10506","17"
+"10586","1","10713","","2008-08-14 02:22:37","","3","3201","<p>I'm currently trying to read in an XML file, make some minor changes (alter the value of some attributes), and write it back out again.</p>
+
+<p>I have intended to use a StAX parser (<code>javax.xml.stream.XMLStreamReader</code>) to read in each event, see if it was one I wanted to change, and then pass it straight on to the StAX writer (<code>javax.xml.stream.XMLStreamReader</code>) if no changes were required.</p>
+
+<p>Unfortunately, that doesn't look to be so simple - The writer has no way to take an event type and a parser object, only methods like <code>writeAttribute</code> and <code>writeStartElement</code>. Obviously I could write a big switch statement with a case for every possible type of element which can occur in an XML document, and just write it back out again, but it seems like a lot of trouble for something which seems like it should be simple.</p>
+
+<p>Is there something I'm missing that makes it easy to write out a very similar XML document to the one you read in with StAX?</p>
+","797","Matt Sheppard","1332690","Derek Park","2012-04-25 16:36:06","2012-04-25 16:36:06","Small modification to an XML document using StAX","<java><xml><stax>","3","0","1","","","10586","17"
+"10980","1","16662","","2008-08-14 13:16:37","","8","1415","<p>I have been looking into IKVMing Apache's FOP project to use with our .NET app.  It's a commercial product, and looking into licensing, IKVM runs into some sticky areas because of its use of GNU Classpath.  From what I've seen, no one can say for sure if this stuff can be used in a commercial product.  Has anyone used IKVM, or an IKVM'd product, in a commercial product?  Here's what I've found so far:</p>
+
+<p><a href=""http://weblog.ikvm.net/story.aspx/license"" rel=""nofollow"" title=""Config Section Generator"">IKVM license page</a>, which notes that one dll contains code from other projects, their license <a href=""http://openjdk.java.net/legal/gplv2+ce.html"" rel=""nofollow"">GPLv2 + Classpath Exception</a></p>
+
+<p><a href=""http://saxon.sourceforge.net/"" rel=""nofollow"">Saxon for .NET</a> is generated with IKVM, but released under the Apache license...</p>
+
+<p>Anyone have experience with this?</p>
+","96","Chris Marasti-Georg","719147","","2014-06-14 18:57:42","2014-06-14 18:57:42","IKVM and Licensing","<java><.net><ikvm><gnu-classpath>","3","0","1","","","10980","17"
+"11088","1","11101","","2008-08-14 14:14:03","","42","21427","<p>In Java, there is no such thing as an unsigned byte.</p>
+
+<p>Working with some low level code, occasionally you need to work with bytes that have unsigned values greater than 128, which causes Java to interpret them as a negative number due to the MSB being used for sign.</p>
+
+<p>What's a good way to work around this? (Saying don't use Java is not an option)</p>
+","1309","Max","","","","2011-02-18 23:33:42","What is the best way to work around the fact that ALL Java bytes are signed?","<java><byte><unsigned><signed>","7","0","12","","","11088","17"
+"11338","1","","","2008-08-14 17:04:25","","12","12626","<p>I'm working on building an app to scan directly from TWAIN scanner to a Java applet. I'm already aware of <a href=""http://www.gnome.sk/Twain/jtp.html"">Morena</a> and <a href=""http://asprise.com/product/jtwain/"">JTwain</a>, but they cost money. I need free. I could re-invent the wheel with JNI, but it seems like someone has probably already done this as a FOSS tool.</p>
+
+<p>Is anyone familiar with a <strong>free</strong> tool that can get a Java applet to read directly from a TWAIN scanner?</p>
+","1318","jko","21234","jko","2011-05-15 12:59:22","2014-11-18 12:07:53","Getting Java and TWAIN to play together nicely","<java><jni><twain><image-scanner>","4","0","6","","","11338","17"
+"11341","1","13431","","2008-08-14 17:06:46","","0","636","<p>I would like to automatically generate PDF documents from WebObjects based on mulitpage forms. Assuming I have a class which can assemble the related forms (java/wod files) is there a good way to then parse the individaul forms into a PDF instead of going to the screen?</p>
+","1104","N8g","","","","2013-07-03 13:18:36","Create PDFs from multipage forms in WebObjects","<java><pdf><webobjects>","6","0","","","","11341","17"
+"11561","1","11619","","2008-08-14 19:23:54","","12","19111","<p>I've used Apache CXF to expose about ten java classes as web services.</p>
+
+<p>I've generated clients using CXF, Axis, and .NET.</p>
+
+<p>In Axis and CXF a ""Service"" or ""Locator"" is generated. 
+From this service you can get a ""Port"".
+The ""Port"" is used to make individual calls to the methods exposed by the web service.</p>
+
+<p>In .NET the ""Service"" directly exposes the calls to the web service.</p>
+
+<p>Can someone explain the difference between a port, a service, a locator, and an endpoint when it comes to web services?</p>
+
+<p>Axis:</p>
+
+<pre><code>PatientServiceImplServiceLocator locator = 
+    new PatientServiceImplServiceLocator();
+PatientService service = locator.getPatientServiceImplPort();
+</code></pre>
+
+<p>CXF:</p>
+
+<pre><code>PatientServiceImplService locator = new PatientServiceImplService();
+PatientService service = locator.getPatientServiceImplPort();
+</code></pre>
+
+<p>.net:</p>
+
+<pre><code>PatientServiceImplService service = new PatientServiceImplService();
+</code></pre>
+","1310","ScArcher2","391445","Chris Fournier","2013-10-08 08:24:23","2014-04-14 17:23:31","What is the difference between an endpoint, a service, and a port when working with webservices?","<java><.net><web-services><cxf><axis>","4","0","4","","","11561","17"
+"11930","1","12030","","2008-08-15 03:32:28","","6","19198","<p>How can I determine the IP of my router/gateway in Java? I can get my IP easily enough. I can get my internet IP using a service on a website. But how can I determine my gateway's IP?</p>
+
+<p>This is somewhat easy in .NET if you know your way around. But how do you do it in Java?</p>
+","338","praeclarum","3302887","","2014-07-09 06:09:09","2014-07-09 06:09:09","How can I determine the IP of my router/gateway in Java?","<java><sockets><ip><router>","14","1","3","","","11930","17"
+"12088","1","12133","","2008-08-15 08:55:28","","40","34525","<p>I wonder if anyone uses commercial/free java obfuscators on his own commercial product. I know only about one project that actually had an obfuscating step in the ant build step for releases.</p>
+
+<p>Do you obfuscate? And if so, why do you obfuscate?</p>
+
+<p>Is it really a way to protect the code or is it just a better feeling for the developers/managers?</p>
+
+<p><strong>edit:</strong> Ok, I to be exact about my point: Do you obfuscate to protect your IP (your algorithms, the work you've put into your product)? I won't obfuscate for security reasons, that doesn't feel right. So I'm only talking about protecting your applications code against competitors.</p>
+
+<p><a href=""http://stackoverflow.com/users/988/staffan"" rel=""nofollow"" title=""Coding Guidelines for Cocoa"">@staffan</a> has a good point:</p>
+
+<blockquote>
+  <p>The reason to stay away from chaining code flow is that some of those changes makes it impossible for the JVM to efficiently optimize the code. In effect it will actually degrade the performance of your application.</p>
+</blockquote>
+","834","cringe","834","cringe","2008-08-15 11:49:17","2014-06-25 13:09:33","Do you obfuscate your commercial Java code?","<java><obfuscation>","7","1","24","2014-05-28 21:57:28","","12088","17"
+"12144","1","12256","","2008-08-15 11:19:51","","31","11881","<p>OK, so I don't want to start a holy-war here, but we're in the process of trying to consolidate the way we handle our application configuration files and we're struggling to make a descision on the best approach to take. At the moment, every application we distribute is using it's own ad-hoc configuration files, whether it's property files (ini style), XML or JSON (internal use only at the moment!).</p>
+
+<p>Most of our code is Java at the moment, so we've been looking at <a href=""http://commons.apache.org/configuration/"">Apache Commons Config</a>, but we've found it to be quite verbose. We've also looked at <a href=""http://xmlbeans.apache.org/"">XMLBeans</a>, but it seems like a lot of faffing around. I also feel as though I'm being pushed towards XML as a format, but my clients and colleagues are apprehensive about trying something else. I can understand it from the client's perspective, everybody's heard of XML, but at the end of the day, shouldn't be using the right tool for the job?</p>
+
+<p>What formats and libraries are people using in production systems these days, is anyone else trying to avoid the <a href=""http://www.codinghorror.com/blog/archives/001114.html"">angle bracket tax</a>?</p>
+
+<p><em>Edit: really needs to be a cross platform solution: Linux, Windows, Solaris etc. and the choice of library used to interface with configuration files is just as important as the choice of format</em></p>
+","1030","ninesided","527702","Chris","2012-11-05 08:00:07","2013-03-12 09:13:20","Application configuration files","<java><xml><json><cross-platform><configuration-files>","15","1","7","","","12144","17"
+"12870","1","12878","","2008-08-15 23:07:03","","8","800","<p>This is a nasty one for me...  I'm a PHP guy working in Java on a JSP project.  I know how to do what I'm attempting through too much code and a complete lack of finesse.   I'd prefer to do it RIGHT. :) Here is the situation:</p>
+
+<p>I'm writing a small display to show customers what days they can water their lawns based on their watering group (ABCDE) and what time of year it is.  Our seasons look like this:
+Summer (5-1 to 8-31) 
+Spring  (3-1 to 4-30) 
+Fall (9-1 to 10-31)
+Winter (11-1 to 2-28) </p>
+
+<p>An example might be:</p>
+
+<p>If I'm in group A, here would be my allowed times:
+Winter: Mondays only
+Spring: Tues, Thurs, Sat
+Summer: Any Day
+Fall: Tues, Thurs, Sat</p>
+
+<p>If I was writing this in PHP I would use arrays like this:</p>
+
+<pre><code>//M=Monday,t=Tuesday,T=Thursday.... etc
+$schedule[""A""][""Winter""]='M';
+$schedule[""A""][""Spring""]='tTS';
+$schedule[""A""][""Summer""]='Any';
+$schedule[""A""][""Fall""]='tTS';
+$schedule[""B""][""Winter""]='t';
+</code></pre>
+
+<p>I COULD make the days arrays (array(""Tuesday"",""Thursday"",""Saturday"")) etc, but it is not necessary for what I'm really trying to accomplish.</p>
+
+<p>I will also need to setup arrays to determine what season I'm in:</p>
+
+<pre><code>$seasons[""Summer""][""start""]=0501;
+$seasons[""Summer""][""end""]=0801;
+</code></pre>
+
+<p>Can anyone suggest a really cool way to do this? I will have today's date and the group letter.  I will need to get out of my function a day (M) or a series of days (tTS), (Any).</p>
+
+<p>Thanks, folks!</p>
+","172","Bruce the Hoon","172","Bruce the Hoon","2008-09-23 20:45:58","2008-09-23 20:45:58","Arrays of Arrays in Java","<java><php><jsp><tomcat>","15","0","1","","","12870","17"
+"12877","1","12959","","2008-08-15 23:15:27","","2","4001","<p>I just get the beach ball all day long (it's been doing nothing for hours). It's not taking CPU, not reading from disk, not using the network.</p>
+
+<p>I'm using <strong>Java 1.6</strong> on <strong>Mac OS X 10.5.4</strong>. It worked once, now even restarts of the computer won't help. Activity Monitor says it's ""(Not Responding)"". Only thing that I can do is kill -9 that sucker.</p>
+
+<p>When I sample the process I see this:</p>
+
+<pre><code>    mach_msg_trap        16620
+    read        831
+    semaphore_wait_trap        831
+</code></pre>
+
+<p>An acceptable answer that doesn't fix this would include a url for a decent free Oracle client for the Mac.</p>
+
+<p>Edit:
+@Mark Harrison sadly this happens every time I start it up, it's not an old connection. I'll like to avoid running Windows on my laptop. I'm giving some plugins for my IDE a whirl, but still no solution for me.
+@Matthew Schinckel Navicat seems to only have a non-commercial Oracle product...I need a commercial friendly one (even if it costs money).</p>
+","484","Tim Trueman","3793867","Tim Trueman","2014-07-24 13:12:26","2014-07-24 13:12:26","Oracle SQL Developer not responsive when trying to view tables (or suggest an Oracle Mac client)","<java><oracle><osx>","7","0","","","","12877","17"
+"12927","1","12961","","2008-08-16 00:45:38","","10","4882","<p>I am calling a vendor's Java API, and on some servers it appears that the JVM goes into a low priority polling loop after logging into the API (CPU at 100% usage).  The same app on other servers does not exhibit this behavior. This happens on WebSphere and Tomcat.  The environment is tricky to set up so it is difficult to try to do something like profiling within Eclipse.</p>
+
+<p>Is there a way to profile (or some other method of inspecting) an existing Java app running in Tomcat to find out what methods are being executed while it's in this spinwait kind of state?  The app is only executing one method when it gets in this state (vendor's method). Vendor can't replicate the behavior (of course).</p>
+
+<hr>
+
+<p>Update:  </p>
+
+<p>Using JConsole I was able to determine who was running and what they were doing.  It took me a few hours to then figure out why it was doing it.  The problem ended up being that the vendor's API jar that was being used did not match exactly to the the database configuration that it was using.  It was defaulting to having tracing and performance monitoring enabled on the servers that had the slight mis-match in configuration.  I used a different jar and all is well.</p>
+
+<p>So thanks, Joshua, for your answer. JConsole was extremely easy to setup and use to monitor an existing application. </p>
+
+<p>@Cringe - I did some experimenting with some of the options you suggested.  I had some problems with getting JProfiler set up, it looks good (but pricey).  Going forward I went ahead and added the Eclipse Profiler plugin and I'll be looking over the different open source profilers to compare functionality.</p>
+","791","bruceatk","496830","bruceatk","2011-10-17 11:59:28","2015-08-20 22:20:12","If you have a Java application that is consuming CPU when it isn't doing anything, how do you determine what it is doing?","<java><profiling>","8","0","2","","","12927","17"
+"13225","1","13381","","2008-08-16 16:42:50","","6","1366","<p>I've recently inherited a internationalized and text-heavy Struts 1.1 web application. Many of the JSP files look like:</p>
+
+<pre class=""lang-jsp prettyprint-override""><code>&lt;p&gt;
+    &lt;bean:message key=""alert"" /&gt;
+&lt;/p&gt;
+</code></pre>
+
+<p>and the properties files look like:</p>
+
+<pre><code>messages.properties
+alert=Please update your &lt;a href=""/address.do""&gt;address&lt;/a&gt; and &lt;a href=""/contact.do""&gt;contact information&lt;/a&gt;.
+</code></pre>
+
+<p>with the appropriate translations in N other languages (messages_fr.properties, etc).</p>
+
+<p>Problems:</p>
+
+<ol>
+<li><em><strong>DRY violation</strong></em> - I have N references to my Struts action URLs instead of 1, which makes refactoring action URLs error-prone.</li>
+<li><em><strong>Mixed concerns</strong></em> - My application's markup is now in more than just my JSP files, making it difficult for a web specialist to tweak the markup (using CSS, etc).</li>
+<li><em><strong>Post-translation markup</strong></em> - Anytime I receive newly-translated text, I must decide what to surround with the <code>&lt;a&gt;...&lt;/a&gt;</code> markup. Easy for English but less so for unfamiliar languages.</li>
+</ol>
+
+<p>I've considered adding placeholders in the messages file, like:</p>
+
+<pre><code>alert=Please update your {0} and {1}.
+</code></pre>
+
+<p>but then the words ""address"" and ""contact information"" would somehow need to be localized, wrapped with markup, and passed to my message tag - and I can't see an easy way to do it.</p>
+
+<p>What can I do to improve this?</p>
+","1557","","2156756","","2013-06-11 14:18:45","2013-06-11 14:23:30","How can I refactor HTML markup out of my property files?","<java><jsp><internationalization><struts>","4","0","","","","13225","17"
+"13751","1","","","2008-08-17 17:31:38","","607","149889","<p>How can I permanently have line numbers in IntelliJ?</p>
+","","t","1199132","cynicalman","2014-04-01 07:15:52","2015-09-28 08:48:29","How can I permanently have line numbers in IntelliJ?","<java><intellij-idea><android-studio>","14","5","40","","","13751","17"
+"13863","1","","","2008-08-17 19:21:26","","4","2917","<p>I have been trying to find an easy way to parse a search query and convert it to an SQL query for my DB. </p>
+
+<p>I have found two solutions:</p>
+
+<ol>
+<li><em><a href=""https://lucene.apache.org/"" rel=""nofollow"">Lucene</a></em>: Powerful Java-based search engine, contains a query parser but it isn't very configurable and I could find a way to easily hack/adapt it to create SQL queries.</li>
+<li><em><a href=""http://www.antlr.org/"" rel=""nofollow"">ANTLR</a></em>: A veteran text lexer-parser. Used for building anything from compilers to sky scrapers. ANTLR is highly configurable but everyone touching the code from now on will have to learn a new language...</li>
+</ol>
+
+<p>Any other ideas?</p>
+","1651","Barak Schiller","660990","Vaibhav","2015-04-17 16:27:49","2015-04-17 16:27:49","Parsing search queries in Java","<java><search>","7","0","","","","13863","17"
+"14397","1","14441","","2008-08-18 09:51:18","","6","1762","<p>Currently we have a project with a standard subversion repository layout of:</p>
+
+<p>./trunk<br />
+./branches<br />
+./tags</p>
+
+<p>However, as we're moving down the road of OSGi and a modular project, we've ended up with:</p>
+
+<p>./trunk/bundle/main<br />
+./trunk/bundle/modulea<br />
+./trunk/bundle/moduleb
+./tags/bundle/main-1.0.0<br />
+./tags/bundle/main-1.0.1<br />
+./tags/bundle/modulea-1.0.0</p>
+
+<p>The 'build' is still quite monolithic in that it builds all modules in sequence, though I'm starting to wonder if we should refactor the build/repository to something more like:</p>
+
+<p>./bundle/main/trunk<br />
+./bundle/main/tags/main-1.0.0<br />
+./bundle/main/tags/main-1.0.1<br />
+./bundle/modulea/trunk<br />
+./bundle/modulea/tags/modulea-1.0.0  </p>
+
+<p>In this pattern I would imagine each module building itself, and storing its binary in a repository (maven, ivy, or another path of the subversion repository itself).</p>
+
+<p>Are there guidelines or 'best-practices' over project layouts once one goes modular?</p>
+","1720","","123582","basszero","2009-07-21 18:47:50","2013-11-26 04:29:07","When should a multi-module project to split into separate repository trees?","<java><svn><osgi>","4","0","2","","","14397","17"
+"14617","1","15937","","2008-08-18 13:43:48","","142","177169","<p>What is the best way to retrieve a file from a server using SFTP (as opposed to FTPS) using Java?
+I'll leave the particular definition of best up to you but in my mind it should include free :)</p>
+","1769","","81179","","2012-04-26 20:40:22","2013-09-24 07:51:25","Java: What is the best way to SFTP a file from a server","<java><ftp><sftp><security>","14","0","78","","","14617","17"

@@ -1,0 +1,1064 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"1457","1","1468","","2008-08-04 17:53:32","","140","63779","<p>I'm writing an AJAX app, but as the user moves through the app, I'd like the URL in the address bar to update despite the lack of page reloads. Basically, I'd like for them to be able to bookmark at any point and thereby return to the current state. </p>
+
+<p>How are people handling maintaining RESTfulness in AJAX apps? </p>
+","331","","1471203","","2013-01-09 05:43:50","2013-01-09 05:44:05","Modify Address Bar URL in AJAX App to Match Current State","<ajax><url><rest><address-bar>","8","4","78","","","1457","363"
+"2196","1","2373","","2008-08-05 12:40:30","","3","383","<p>I've got a web application that I'm trying to optimise. Some of the controls are hidden in dialog-style DIVs, so I'd like to have them load in via AJAX only when the user wants to see them.  This is fine for controls that are mostly Literal-based (various menus and widgets), but when I have what I call ""dirty"" controls - ones that write extensive information to the ViewState, put tons of CSS or script on the page, require lots of references etc - these are seemingly impossible to move ""out of page"", especially considering how ASP.NET will react on postback.</p>
+
+<p>I was considering some kind of step where I override Render, find markers for the bits I want to move out and put AJAX placeholders in there, but not only does the server overhead seem extreme, it also feels like a complete hack.  Besides, the key element here are the dialog boxes that contain forms with validation controls on them, and I can't imagine how I would move the controls <em>and</em> their required scripts.</p>
+
+<p>In my fevered imagination, I want to do this:</p>
+
+<pre><code>AJAXifier.AJAXify(ctlEditForm);
+</code></pre>
+
+<p>Sadly, I know this is a dream.  How close can I really get to a quick-and-easy AJAXification without causing too much load on the server?</p>
+","192","","2159583","Mark Biek","2014-08-01 11:37:41","2014-08-01 11:37:41","Easy way to AJAX WebControls","<asp.net><ajax><web-controls>","3","1","","","","2196","363"
+"2328","1","4910","","2008-08-05 13:52:12","","4","2322","<p>I have a problem with maintaining state in an ASP.NET AJAX page. Short version: I need some way to update the page ViewState after an async callback has been made, to reflect any state changes the server made during the async call. </p>
+
+<p>This seems to be a common problem, but I will describe my scenario to help explain:</p>
+
+<p>I have a grid-like control which has some JavaScript enhancements - namely, the ability to drag and drop columns and rows. When a column or row is dropped into a new position, an AJAX method is invoked to notify the control server-side and fire a corresponding server-side event (""OnColumnMoved"" or ""OnRowMoved"").</p>
+
+<p>ASP.NET AJAX calls, by default, send the entire page as the request. That way the page goes through a complete lifecycle, viewstate is persisted and the state of the control is restored before the RaiseCallbackEvent method is invoked.</p>
+
+<p>However, since the AJAX call does not update the page, the ViewState reflects the <em>original</em> state of the control, even after the column or row has been moved. So the second time a client-side action occurs, the AJAX request goes to the server and the page &amp; control are built back up again to reflect the <em>first</em> state of the control, not the state after the first column or row was moved.</p>
+
+<p>This problem extends to many implications. For example if we have a client-side/AJAX action to add a new item to the grid, and then a row is dragged, the grid is built server-side with one less item than on the client-side.</p>
+
+<p>And finally &amp; most seriously for my specific example, the actual data source object we are acting upon is stored in the page ViewState. That was a design decision to allow keeping a stateful copy of the manipulated data which can either be committed to DB after many manipulations or discarded if the user backs out. That is very difficult to change.</p>
+
+<p>So, again, I need a way for the page ViewState to be updated on callback after the AJAX method is fired.</p>
+","67","","811","Shog9","2008-09-19 22:38:25","2008-09-19 22:38:25","Tracking state using ASP.NET AJAX / ICallbackEventHandler","<asp.net><ajax><asp.net-ajax><viewstate>","5","0","","","","2328","363"
+"2486","1","2514","","2008-08-05 15:44:39","","16","1128","<p>Jeff mentioned the concept of 'Progressive Enhancement' when talking about using JQuery to write stackoverflow.</p>
+
+<p>After a quick Google, I found a couple of high-level discussions about it.</p>
+
+<p>Can anyone recommend a good place to start as a programmer.</p>
+
+<p>Specifically, I have been writing web apps in PHP and would like to use YUI to improve the pages I am writing, but a lot of them seem very JavaScript based, with most of the donkey work being done using JavaScript. To me, that seems a bit overkill, since viewing the site without Javascript will probably break most of it.</p>
+
+<p>Anyone have some good places to start using this idea, I don't really care about the language.</p>
+
+<p>Ideally, I would like to see how you start creating the static HTML first, and then adding the YUI (or whatever Ajax framework) to it so that you get the benefits of a richer client?</p>
+","277","","2134","Chris Fournier","2008-08-23 15:19:07","2014-02-03 23:31:57","What is Progressive Enhancement?","<ajax><progressive-enhancement>","8","1","5","","","2486","363"
+"3075","1","3084","","2008-08-06 04:20:41","","3","1254","<p>I have a simple page with my ScriptManager and my UpdatePanel, and my ContentTemplate has one ListBox and one Label.  I am just trying to catch its OnSelectionChanged so I can update the text in the Label.  No matter what settings I try to tweak, I always get a full-page postback.</p>
+
+<p>Is this really not going to work, or am I just screwing this up?</p>
+","404","","866022","","2012-05-21 17:11:08","2012-05-21 17:11:08","Can ASP.NET AJAX partial rendering work inside a SharePoint 2007 application page?","<ajax><sharepoint>","6","0","","","","3075","363"
+"5618","1","5635","","2008-08-08 03:38:38","","-1","551","<p>For developing a Windows Sharepoint Service application, what is the best ajax library available now? I'm thinking of free, customizable, and easy deployment, and its compatible with sharepoint, meaning it can run in 'quirks' mode.</p>
+","668","","1136709","","2012-12-04 08:39:27","2012-12-04 08:39:27","Best ajax library for Sharepoint","<.net><ajax><sharepoint>","2","0","","2011-09-14 21:52:00","","5618","363"
+"5619","1","5626","","2008-08-08 03:38:57","","2","2348","<p><strong>The Setting:</strong><br />
+The program in question tries to post form data via an AJAX call to a target procedure contained in the same package as the caller. This is done for a site that uses a secure connection (<strong>https</strong>). The technology used here is <a href=""http://www.orafaq.com/wiki/PL/SQL_FAQ"" rel=""nofollow"">PLSQL</a> and the <a href=""http://dojotoolkit.org/"" rel=""nofollow"">DOJO</a> JavaScript library. The development tool is <a href=""http://www.allroundautomations.nl/plsqldev.html"" rel=""nofollow"">basically a text editor</a>.</p>
+
+<p><strong>Code Snippet:</strong>  </p>
+
+<blockquote>
+  <p>function testPost() {  </p>
+  
+  <blockquote>
+    <p>dojo.xhrPost( {<br />
+                 url: ''dr_tm_w_0120.test_post'',<br />
+                 form: ''orgForm'',<br />
+                 load: testPostXHRCallback,<br />
+                 error: testPostXHRError<br />
+                });<br />
+          }  </p>
+  </blockquote>
+  
+  <p>function testPostXHRCallback(data,ioArgs) {  </p>
+  
+  <blockquote>
+<pre><code>     alert(''post callback'');  
+      try{  
+      dojo.byId(""messageDiv"").innerHTML = data;  
+      }  
+      catch(ex){  
+            if(ex.name == ""TypeError"")  
+            {  
+              alert(""A type error occurred."");  
+            }  
+      }   
+      return data;  
+   }
+</code></pre>
+  </blockquote>
+  
+  <p>function testPostXHRError(data, ioArgs) {    </p>
+  
+  <blockquote>
+<pre><code>     alert(data);  
+      alert(''Error when retrieving data from the server!'');  
+      return data;  
+   }
+</code></pre>
+  </blockquote>
+</blockquote>
+
+<p><strong>The Problem:</strong><br />
+When using IE6 (which the entire user-base uses), the response sent back from the server is a 404 error. </p>
+
+<p><strong>Observations:</strong><br />
+The program works fine in Firefox.<br />
+The calling procedure cannot target any procedures within the same package.<br />
+The calling procedure can target outside sites (both http, https).<br />
+The other AJAX calls in the package that are not posts of form data work fine.<br />
+I've searched the <em>internets</em> and consulted with senior-skilled team members and haven't discovered anything that satisfactorily addresses the issue.<br />
+*Tried <a href=""http://dojotoolkit.org/forum/dojo-core-dojo-0-9/dojo-core-support/xhrpost-firefox-fine-ie-not-so-much"" rel=""nofollow"">Q&amp;A</a> over at Dojo support forums.      </p>
+
+<p><strong>The Questions:</strong><br />
+What troubleshooting techniques do you recommend?<br />
+What troubleshooting tools do you recommend for HTTPS analyzing?<br />
+Any hypotheses on what the issue might be?<br />
+Any ideas for workarounds that aren't total (bad) hacks?</p>
+
+<p><strong>Ed. The Solution</strong><br />
+lomaxx, thx for the <a href=""http://www.orafaq.com/wiki/PL/SQL_FAQ"" rel=""nofollow"">fiddler</a> tip. you have no idea how awesome it was to get that and use it as a debugging tool. after starting it up this is what i found and how i fixed it (at least in the short term):</p>
+
+<blockquote>
+  <p>ef Fri, 8 Aug 2008 14:01:26 GMT dr_tm_w_0120.test_post: SIGNATURE (parameter names) MISMATCH VARIABLES IN FORM NOT IN PROCEDURE: SO1_DISPLAYED_,PO1_DISPLAYED_,RWA2_DISPLAYED_,DD1_DISPLAYED_ NON-DEFAULT VARIABLES IN PROCEDURE NOT IN FORM: 0</p>
+</blockquote>
+
+<p>After seeing that message from the server, I kicked around Fiddler a bit more to see what else I could learn from it. Found that there's a WebForms tab that shows the values in the web form. Wouldn't you know it, the ""xxx_DISPLAYED_"" fields above were in it. </p>
+
+<p>I don't really understand yet why these fields exist, because I didn't create them explicitly in the web PLSQL code. But I do understand now that the target procedure has to include them as parameters to work correctly. Again, this is only in the case of IE6 for me, as Firefox worked fine.</p>
+
+<p>Well, that the short term answer and hack to fix it. Hopefully, a little more work in this area will lead to a better understanding of the fundamentals going on here. </p>
+","","user290","","user290","2008-08-28 17:24:54","2010-03-10 14:37:52","Debugging: IE6 + SSL + AJAX + post form = 404 error","<ajax><debugging><internet-explorer><ssl><internet-explorer-6>","1","0","","","","5619","363"
+"6426","1","6431","","2008-08-08 22:06:06","","21","5311","<p>I'm creating a web application on Google App Engine for fun and I'd like to include graphs so users can see some stats. Are there any free (either as in beer or speech) JavaScript libraries that can take a table or make some AJAX call and display a graph?</p>
+","680","","-1","","2008-09-09 22:13:50","2013-05-28 14:27:29","Graphing JavaScript Library","<javascript><ajax><google-app-engine><web-applications><graph>","10","0","7","2014-07-27 07:32:06","","6426","363"
+"9361","1","16650","","2008-08-13 00:49:17","","3","1520","<p>I'd like to utilize an ICE Faces fileInput control to fill in the file path &amp; file name for the input to an input field on a web page based on file that the user selects. How can I capture these properties without actually performing any file transfer operations?</p>
+","318","KG","","","","2009-05-06 03:11:40","ICE Faces fileInput file path and file name properties","<java><ajax><jsf><icefaces>","1","0","","","","9361","363"
+"11500","1","11521","","2008-08-14 18:52:54","","23","2626","<p>I have an Ajax.Net enabled ASP.Net 2.0 web site. Hosting for both the site and the database are out of my control as is the database's schema. In testing on hardware I do control the site performs well however on the client's hardware, there are noticeable delays when reloading or changing pages. </p>
+
+<p>What I would like to do is make my application as compact and speedy as possible when I deliver it. One idea is to set expiration dates for all of the site's static resources so they aren't recalled on page loads. By resources I mean images, linked style sheets and JavaScript source files. Is there an easy way to do this?</p>
+
+<p>What other ways are there to optimize a .Net web site?</p>
+
+<p>UPDATE: 
+I've run YSlow on the site and the areas where I am getting hit the hardest are in the number of JavaScript and Style Sheets being loaded (23 JS files and 5 style sheets). All but one (the main style sheet) has been inserted by Ajax.net and Asp. Why so many? </p>
+","149","Rob Allen","380","Vaibhav","2008-08-18 06:37:25","2008-11-20 09:06:08","Speeding up an ASP.Net Web Site or Application","<asp.net><ajax><optimization><performance>","12","0","13","","","11500","363"
+"13362","1","13365","","2008-08-16 21:04:17","","21","34789","<p>I've got a div that uses overflow:auto to keep the contents inside the div as it is resized and dragged around the page. I'm using some ajax to retrieve lines of text from the server, then append them to the end of the div, so the content is growing downwards. Every time this happens, I'd like to use JS to scroll the div to the bottom so the most recently added content is visible, similar to the way a chat room or command line console would work.</p>
+
+<p>So far I've been using this snippet to do it (I'm also using jQuery, hence the $() function):</p>
+
+<pre><code>$(""#thediv"").scrollTop = $(""#thediv"").scrollHeight;
+</code></pre>
+
+<p>However it's been giving me inconsistent results. Sometimes it works, sometimes not, and it completely ceases to work if the user ever resizes the div or moves the scroll bar manually.</p>
+
+<p>The target browser is Firefox 3, and it's being deployed in a controlled environment so it doesn't need to work in IE at all.</p>
+
+<p>Any ideas guys? This one's got me stumped. Thanks!</p>
+","1384","Bob Somers","1892","","2009-08-18 22:10:12","2015-08-18 06:37:34","Scrolling Overflowed DIVs with JavaScript","<javascript><jquery><ajax><html><scroll>","6","0","7","","","13362","363"
+"13589","1","32081","","2008-08-17 11:40:38","","1","5440","<p>I wonder if someone knows if there is a pre-made solution for this: I have a List on an ASP.net Website, and I want that the User is able to re-sort the list through Drag and Drop. Additionally, I would love to have a second list to which the user can drag items from the first list onto.</p>
+
+<p>So far, I found two solutions:</p>
+
+<ul>
+<li>The ReorderList from the <a href=""http://www.codeplex.com/AjaxControlToolkit"" rel=""nofollow"">Ajax Control Toolkit</a>, which requires a bit of manual work to make sure changes <a href=""http://www.codeproject.com/KB/ajax/PersistentReorderList.aspx"" rel=""nofollow"">are persisted</a> into the database, and that does not support drag/drop between lists.</li>
+<li>The <a href=""http://www.telerik.com/DEMOS/ASPNET/Prometheus/Grid/Examples/Programming/DragAndDrop/DefaultCS.aspx"" rel=""nofollow"">RadGrid</a> from Telerik which does all I want, but is priced far far beyond my Budget.</li>
+</ul>
+
+<p>Does anyone else have some ideas or at least some keywords/pointers to do further investigation on? Espectially the Drag/Drop between two lists is something I am rather clueless about how to do that in ASP.net.</p>
+
+<p>Target Framework is 3.0 by the way.</p>
+","91","Michael Stum","","","","2014-12-29 23:48:49","ASP.net AJAX Drag/Drop?","<asp.net><ajax>","4","0","2","","","13589","363"
+"15366","1","15368","","2008-08-18 23:18:02","","7","1748","<p>What's the best practice for making sure that certain ajax calls to certain pages are only accepted from authenticated users?</p>
+
+<p>For example:</p>
+
+<p>Let's say that I have a main page called <strong>blog.php</strong> (I know, creativity abounds).  Let's also say that there is a page called <strong>delete.php</strong> which looks for the parameter <strong>post_id</strong> and then deletes some entry from a database.</p>
+
+<p>In this very contrived example, there's some mechanism on blog.php which sends a request via ajax to delete.php to delete an entry.  </p>
+
+<p>Now this mechanism is only going to be available to authenticated users on blog.php.  But what's to stop someone from just calling delete.php with a bunch of random numbers and deleting everything in site?</p>
+
+<p>I did a quick test where I set a session variable in blog.php and then did an ajax call to delete.php to return if the session variable was set or not <strong><em>(it wasn't)</em></strong>.</p>
+
+<p>What's the accepted way to handle this sort of thing?</p>
+
+<hr>
+
+<p>OK.  I must have been crazy the first time I tried this.</p>
+
+<p>I just did another test like the one I described above and it worked perfectly.</p>
+","305","Mark Biek","811","","2013-01-23 07:35:44","2013-01-23 07:35:44","Only accepting certain ajax requests from authenticated users","<php><ajax><authentication>","2","0","4","","","15366","363"
+"15788","1","15819","","2008-08-19 06:14:42","","2","568","<p>I love the ease that the ASP.NET Ajax control Toolkit provides to ASP.NET developers. However, I've not found it to be a scalable solution at all. I have a page with 2 date input fields. By putting a TextBox and an CalendarExtendar control attached to it for each date field, I get several (11, in fact) external Javascript calls to /ScriptResource.axd?d=xxxx</p>
+
+<p>Is there any way to control this? Why does it suck so much? What's a better Ajax toolkit for .NET that can provide equal (or better) set of functionality that is more scalable, straight forward and completely customizable? NOT looking to reinvent the wheel here.</p>
+","1888","MaseBase","","","","2013-01-23 09:29:02","Minimize javascript HTTP calls from AjaxControlToolkit controls?","<asp.net><ajax><frontend>","2","0","","","","15788","363"
+"19173","1","23208","","2008-08-21 00:56:45","","6","2574","<p>If you're building an AJA~Xy app, are there any downsides to using JSONP requests/responses even if you're not planning on any cross-domain requests? The only thing I can think of is that there are a couple extra bytes for the callback wrapper... </p>
+
+<p>Edit:</p>
+
+<p>I found <a href=""http://remysharp.com/2007/10/08/what-is-jsonp/"">this</a> which also suggests security and error handling as potential problems... </p>
+
+<blockquote>
+  <p>There's no error handling. The script
+  injection either works, or it doesn't.
+  If there's an error from the
+  injection, it'll hit the page, and
+  short of a window wide error handler
+  (bad, bad, very bad), you need to be
+  sure the return value is valid on the
+  server side.</p>
+</blockquote>
+
+<p>I don't think error handling is much of a problem... most of us would use a library to generate the JSON... the well-formedness of my response isn't a concern for this question.</p>
+
+<p>and security:</p>
+
+<blockquote>
+  <p>Security. There's documents out on the
+  web that can help, but as a cursory
+  check, I would check the referrer in
+  the server side script.</p>
+</blockquote>
+
+<p>it seems like this is a potential problem with any type of response... certainly there's nothing unique to JSONP in the security arena...?</p>
+","2031","danb","2031","danb","2008-08-21 01:13:28","2011-03-11 07:52:15","Are there reasons not to use JSONP for AJA~X requests?","<javascript><ajax><json><jsonp>","4","2","2","","","19173","363"
+"19995","1","20004","","2008-08-21 14:04:55","","90","38184","<p>Of course I am aware of Ajax, but the problem with Ajax is that the browser should poll the server frequently to find whether there is new data. This increases server load.</p>
+
+<p>Is there any better method (even using Ajax) other than polling the server frequently?</p>
+","184","Niyaz","11343","","2012-05-09 05:37:25","2015-03-10 17:25:52","Is there some way to PUSH data from web server to browser?","<ajax><webserver><comet>","21","1","35","","","19995","363"
+"21651","1","24919","","2008-08-22 02:26:26","","5","4568","<p>I have a script that retrieves objects from a remote server through an Ajax call. The server returns objects in JSON notation.</p>
+
+<p>However, in Adobe AIR, there is a restriction on using <a href=""http://labs.adobe.com/wiki/index.php/AIR:HTML_Security_FAQ#Why_restrict_eval.28.29_for_all_Application_content_if_there_are_legitimate_use_cases_for_using_it.3F"">eval()</a> for security reasons. So I'm able to get replies from the remote server, but can't turn them back into Javascript objects. Is there any workaround for this issue? I would like to use JSON for my Javascript objects, since it can be used almost immediately.</p>
+
+<p>Sidenote: I do understand the security implications for forcing the issue, but I will be doing some rapid application development for a competition, so the program would only be a quick prototype, and not used for production purposes. Nevertheless, it would be great if there's a better alternative to what I'm trying to do now</p>
+
+<p><hr /></p>
+
+<p><strong>Update:</strong></p>
+
+<p>Thanks to <a href=""#24919"">Theo</a> and <a href=""#21716"">jsight</a> for their answers; </p>
+
+<p>One important thing I learnt today is that I can actually make use of ActionScript libraries by using the <pre>&lt;script src=""lib/myClasses.swf"" type=""application/x-shockwave-flash""&gt;&lt;/script&gt;</pre> tag extended by Adobe AIR. Check out <a href=""#24919"">Theo's</a> link for more details!</p>
+","2504504","pkchukiss","2504504","pkchukiss","2008-08-24 11:45:23","2010-12-24 06:19:52","Adobe AIR: Handling JSON objects from server","<javascript><ajax><json><air>","5","0","1","","","21651","363"
+"21992","1","22005","","2008-08-22 09:47:15","","2","1844","<p>For an application I'm building in my spare time I am looking for (arguably) the correct way to return data from an XmlHttpRequest. Options I see are:</p>
+
+<ul>
+<li><p>Plain HTML. Let the request format the data and return it in a usable format. 
+Advantage: easy to consume by the calling page. Disadvantage: Very rigid, stuck with a fixed layout.</p></li>
+<li><p>XML. Let the request return XML, format it using XSLT on the calling page. Advantage: the requested service is easily consumed by other sources. Disadvantage: Is browser support for XSLT good enough?</p></li>
+<li><p>JSON. Let the request return JSON, consume it using javascript, render HTML accordingly. Advantage: easier to 'OO-ify' the javascript making the request. Disadvantage: Probably not as easy to use as the previous two options.</p></li>
+</ul>
+
+<p>I've also thought about going for option one while abstracting the view logic in the called service in such a way that switching in and out different layouts would be trivial. Personally I think this option is the best out of three, for compatibility reasons.</p>
+
+<p>While typing this, I got another insight. Would it be a good idea to allow all three response formats, based on a parameter added to the request?</p>
+","909","Erik van Brakel","","","","2013-01-24 10:06:40","XmlHttpRequest return values","<javascript><ajax>","5","0","","","","21992","363"
+"23124","1","23227","","2008-08-22 18:27:59","","1","1377","<p>As the title mentions, I have a timeout callback handler on an ajax call, and I want to be able to test that condition but nothing is coming to mind immediately on ways I can force my application to hit that state, any suggestions?</p>
+","2272","jonezy","","","","2015-04-16 05:12:54","Need to test an ajax timeout condition","<asp.net><ajax><testing>","3","0","","","","23124","363"
+"23176","1","23181","","2008-08-22 18:50:54","","5","1004","<p>I am a C/C++ programmer professionally, but I've created a couple of personal web sites using PHP and MySQL. They're pretty basic, and I'd like to jazz them up using Ajax, but I've never done any Ajax. I've done all the development so far manually, i.e. no IDE or anything like that.</p>
+
+<p>Does anyone have suggestions on Ajax development environments that can help me? Shareware or freeware would be preferable as I'd find it hard to justify spending more than a minimal amount of money on this...</p>
+","1821","Graeme","1086697","Chris Fournier","2013-04-29 19:33:29","2013-04-29 19:33:29","Suggestions on Ajax development environment for PHP","<php><javascript><ajax><ide>","6","0","1","","","23176","363"
+"26620","1","26681","","2008-08-25 18:45:27","","22","95196","<p>In my web app, I submit some form fields with jQuery <code>$.getJSON()</code> Method. I am having some problems with the encoding. The character-set of my app is <code>charset=ISO-8859-1</code> but I think these fields are submitted with <code>UTF-8</code>. </p>
+
+<p>Does anyone know, how I can set encoding in <code>$.getJSON</code> calls? </p>
+","2138","Sergio del Amo","3112243","travis","2015-08-21 18:19:21","2015-08-21 18:19:21","How to set encoding in .getJSON JQuery","<jquery><ajax><json><character-encoding>","5","1","13","","","26620","363"
+"27258","1","27270","","2008-08-26 02:07:25","","5","4068","<p>I'm about to start a fairly Ajax heavy feature in my company's application. What I need to do is make an Ajax callback every few minutes a user has been on the page. </p>
+
+<ul>
+<li>I don't need to do any DOM updates before, after, or during the callbacks. </li>
+<li>I don't need any information from the page, just from a site cookie which should always be sent with requests anyway, and an ID value.</li>
+</ul>
+
+<p>What I'm curious to find out, is if there is any clean and simple way to make a JavaScript Ajax callback to an ASP.NET page without posting back the rest of the information on the page. I'd like to not have to do this if it is possible.</p>
+
+<p>I really just want to be able to call a single method on the page, nothing else.</p>
+
+<p>Also, I'm restricted to ASP.NET 2.0 so I can't use any of the new 3.5 framework ASP AJAX features, although I can use the ASP AJAX extensions for the 2.0 framework.</p>
+
+<p><strong>UPDATE</strong><br />
+I've decided to accept <a href=""http://stackoverflow.com/questions/27258/aspnet-javascript-callbacks-without-full-postbacks#27270"" rel=""nofollow"">DanP</a>'s answer as it seems to be exactly what I'm looking for. Our site already uses jQuery for some things so I'll probably use jQuery for making requests since in my experience it seems to perform much better than ASP's AJAX framework does. </p>
+
+<p>What do you think would be the best method of transferring data to the IHttpHandler? Should I add variables to the query string or POST the data I need to send?</p>
+
+<p>The only thing I think I have to send is a single ID, but I can't decide what the best method is to send the ID and have the IHttpHandler handle it. I'd like to come up with a solution that would prevent a person with basic computer skills from accidentally or intentionally accessing the page directly or repeating requests. Is this possible?</p>
+","392","Dan","392","Dan","2009-01-03 21:59:52","2009-12-24 13:40:23","ASP.NET JavaScript Callbacks Without Full PostBacks?","<asp.net><javascript><ajax>","9","0","5","","","27258","363"
+"27972","1","","","2008-08-26 13:06:14","","138","40029","<p>JavaScript needs access to cookies if AJAX is used on a site with access restrictions based on cookies. Will HttpOnly cookies work on an AJAX site? </p>
+
+<p><em>Edit:</em> Microsoft created a way to prevent XSS attacks by disallowing JavaScript access to cookies if HttpOnly is specified. FireFox later adopted this. So my question is: If you are using AJAX on a site, like StackOverflow, are Http-Only cookies an option?</p>
+
+<p><em>Edit 2:</em> Question 2. If the purpose of HttpOnly is to prevent JavaScript access to cookies, and you can still retrieve the cookies via JavaScript through the XmlHttpRequest Object, <strong>what is the point of HttpOnly</strong>?</p>
+
+<p><em>Edit 3:</em> Here is a quote from Wikipedia:</p>
+
+<blockquote>
+  <p>When the browser receives such a cookie, it is supposed to use it as usual in the following HTTP exchanges, but not to make it visible to client-side scripts.[32] The <code>HttpOnly</code> flag is not part of any standard, and is not implemented in all browsers. Note that there is currently no prevention of reading or writing the session cookie via a XMLHTTPRequest. [33].</p>
+</blockquote>
+
+<p>I understand that <code>document.cookie</code> is blocked when you use HttpOnly. But it seems that you can still read cookie values in the XMLHttpRequest object, allowing for XSS. How does HttpOnly make you any safer than? By making cookies essentially read only? </p>
+
+<p>In your example, I cannot write to your <code>document.cookie</code>, but I can still steal your cookie and post it to my domain using the XMLHttpRequest object.</p>
+
+<pre><code>&lt;script type=""text/javascript""&gt;
+    var req = null;
+    try { req = new XMLHttpRequest(); } catch(e) {}
+    if (!req) try { req = new ActiveXObject(""Msxml2.XMLHTTP""); } catch(e) {}
+    if (!req) try { req = new ActiveXObject(""Microsoft.XMLHTTP""); } catch(e) {}
+    req.open('GET', 'http://stackoverflow.com/', false);
+    req.send(null);
+    alert(req.getAllResponseHeaders());
+&lt;/script&gt;
+</code></pre>
+
+<p><em>Edit 4:</em> Sorry, I meant that you could send the XMLHttpRequest to the StackOverflow domain, and then save the result of getAllResponseHeaders() to a string, regex out the cookie, and then post that to an external domain. It appears that Wikipedia and ha.ckers concur with me on this one, but I would love be re-educated...</p>
+
+<p><em>Final Edit:</em> Ahh, apparently both sites are wrong, this is actually a <a href=""https://bugzilla.mozilla.org/show_bug.cgi?id=380418"">bug in FireFox</a>. IE6 &amp; 7 are actually the only browsers that currently fully support HttpOnly.</p>
+
+<p>To reiterate everything I've learned:</p>
+
+<ul>
+<li>HttpOnly restricts all access to document.cookie in IE7 &amp; and FireFox (not sure about other browsers)</li>
+<li>HttpOnly removes cookie information from the response headers in XMLHttpObject.getAllResponseHeaders() in IE7.</li>
+<li>XMLHttpObjects may only be submitted to the domain they originated from, so there is no cross-domain posting of the cookies.</li>
+</ul>
+
+<p><em>edit: This information is likely no longer up to date.</em></p>
+","26","modesty","26","Shawn","2010-04-09 13:11:48","2010-04-09 13:11:48","How do HttpOnly cookies work with AJAX requests?","<ajax><cookies><httponly>","9","2","58","","","27972","363"
+"28529","1","28537","","2008-08-26 16:26:45","","22","5948","<p>When using <a href=""http://jquery.com/"">jQuery</a>'s <a href=""http://docs.jquery.com/Ajax/jQuery.ajax#options"">ajax method</a> to submit form data, what is the best way to handle errors?
+This is an example of what a call might look like:</p>
+
+<pre><code>$.ajax({
+    url: ""userCreation.ashx"",
+    data: { u:userName, p:password, e:email },
+    type: ""POST"",
+    beforeSend: function(){disableSubmitButton();},
+    complete: function(){enableSubmitButton();},
+    error: function(xhr, statusText, errorThrown){
+            // Work out what the error was and display the appropriate message
+        },
+    success: function(data){
+            displayUserCreatedMessage();
+            refreshUserList();
+        }
+});
+</code></pre>
+
+<p>The request might fail for a number of reasons, such as duplicate user name, duplicate email address etc, and the ashx is written to throw an exception when this happens.</p>
+
+<p>My problem seems to be that by throwing an exception the ashx causes the statusText and errorThrown to be undefined. I can get to the XMLHttpRequest.responseText which contains the HTML that makes up the standard .net error page.</p>
+
+<p>I am finding the page title in the responseText and using the title to work out which error was thrown. Although I have a suspicion that this will fall apart when I enable custom error handling pages.</p>
+
+<p>Should I be throwing the errors in the ashx, or should I be returning a status code as part of the data returned by the call to userCreation.ashx, then using this to decide what action to take? How do you handle these situations?</p>
+","1403","AidenMontgomery","1414","travis","2008-08-26 16:44:08","2008-08-27 11:24:16","How would you handle errors when using jQuery.ajax()?","<asp.net><jquery><ajax>","3","0","7","","","28529","363"
+"29751","1","","","2008-08-27 08:44:24","","15","32719","<p>I am having problems submitting forms which contain UTF-8 strings with Ajax. I am developing a <a href=""http://en.wikipedia.org/wiki/Apache_Struts"" rel=""nofollow"">Struts</a> web application which runs in a <a href=""http://en.wikipedia.org/wiki/Apache_Tomcat"" rel=""nofollow"">Tomcat</a> server. This is the environment I set up to work with UTF-8:</p>
+
+<ul>
+<li><p>I have added the attributes <code>URIEncoding=""UTF-8"" useBodyEncodingForURI=""true""</code> into the <code>Connector</code> tag to Tomcat's <code>conf/server.xml</code> file.</p></li>
+<li><p>I have a <code>utf-8_general_ci</code> database</p></li>
+<li><p>I am using the next filter to ensure my request and responses are encoded in UTF-8</p>
+
+<pre><code>package filters;
+
+import java.io.IOException;
+import javax.servlet.*;
+
+public class UTF8Filter implements Filter {
+    public void destroy() {}
+
+    public void doFilter(ServletRequest request,ServletResponse response, FilterChain chain)
+        throws IOException, ServletException {
+        request.setCharacterEncoding(""UTF-8"");
+        response.setContentType(""text/html;charset=UTF-8"");
+        chain.doFilter(request, response);
+    }
+
+    public void init(FilterConfig filterConfig) throws ServletException {
+    }
+}
+</code></pre></li>
+<li><p>I use this filter in WEB-INF/web.xml</p></li>
+<li><p>I am using the next code for my JSON responses:</p>
+
+<pre><code>public static void populateWithJSON(HttpServletResponse response,JSONObject json)
+{
+   String CONTENT_TYPE=""text/x-json;charset=UTF-8"";
+   response.setContentType(CONTENT_TYPE);
+   response.setHeader(""Cache-Control"", ""no-cache"");
+   try {
+        response.getWriter().write(json.toString());
+   } catch (IOException e) {
+    throw new ApplicationException(""Application Exception raised in RetrievedStories"", e);
+   }
+}
+</code></pre></li>
+</ul>
+
+<p>Everything seems to work fine (content coming from the database is displayed properly, and I am able to submit forms which are stored in UTF-8 in the database). The problem is that I am <strong>not able to submit forms with Ajax</strong>. I use jQuery, and I thought the problem was the lack of contentType field in the Ajax request. But I was wrong. I have a really simple form to submit comments which contains of an id and a body. The body field can be in different languages such as Spanish, German, or whatever.</p>
+
+<p>If I submit my form with body textarea containing <code>contraseña</code>, <a href=""http://en.wikipedia.org/wiki/Firebug_%28software%29"" rel=""nofollow"">Firebug</a> shows me:</p>
+
+<blockquote>
+  <h3>Request Headers</h3>
+  
+  <ul>
+  <li><em><strong>Host</em></strong>  localhost:8080</li>
+  <li><em><strong>Accept-Charset</em></strong> ISO-8859-1, utf-8;q=0.7;*q=0.7</li>
+  <li><em><strong>Content-Type</em></strong> application/x-www-form-urlencoded; charset UTF-8</li>
+  </ul>
+</blockquote>
+
+<p>If I execute <em>Copy Location with parameters</em> in Firebug, the encoding seems already wrong:</p>
+
+<pre><code>http://localhost:8080/Cerepedia/corporate/postStoryComment.do?&amp;body=contrase%C3%B1a&amp;id=88
+</code></pre>
+
+<p>This is my jQuery code:</p>
+
+<pre><code>function addComment() {
+    var comment_body = $(""#postCommentForm textarea"").val();
+    var item_id = $(""#postCommentForm input:hidden"").val();
+    var url = rooturl+""corporate/postStoryComment.do?"";
+    $.post(url, { id:  item_id, body: comment_body } ,
+        function(data){
+        /* Do stuff with the answer */
+    }, ""json"");  }
+</code></pre>
+
+<p>A submission of a form with jQuery is causing the next error server side (note I am using <a href=""http://en.wikipedia.org/wiki/Hibernate_%28Java%29"" rel=""nofollow"">Hibernate</a>).</p>
+
+<pre><code>javax.servlet.ServletException: org.hibernate.exception.GenericJDBCException: Could not execute JDBC batch update
+    at org.apache.struts.action.RequestProcessor.processException(RequestProcessor.java:520)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:427)
+    at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:228)
+    at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+    at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:462)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:710)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.security.AuthorizationFilter.doFilter(AuthorizationFilter.java:78)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.hibernate.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:30)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at filters.UTF8Filter.doFilter(UTF8Filter.java:14)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:261)
+    at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+    at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:581)
+    at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+    at java.lang.Thread.run(Unknown Source)
+Caused by: org.hibernate.exception.GenericJDBCException: Could not execute JDBC batch update
+    at org.hibernate.exception.SQLStateConverter.handledNonSpecificException(SQLStateConverter.java:103)
+    at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:91)
+    at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:43)
+    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:249)
+    at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:235)
+    at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:139)
+    at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:298)
+    at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
+    at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
+    at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:338)
+    at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
+    at com.cerebra.cerepedia.item.dao.ItemDAOHibernate.addComment(ItemDAOHibernate.java:505)
+    at com.cerebra.cerepedia.item.ItemManagerPOJOImpl.addComment(ItemManagerPOJOImpl.java:164)
+    at com.cerebra.cerepedia.struts.item.ItemAction.addComment(ItemAction.java:126)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:269)
+    at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+    at org.apache.struts.actions.MappingDispatchAction.execute(MappingDispatchAction.java:166)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:425)
+    ... 26 more
+Caused by: java.sql.BatchUpdateException: Incorrect string value: '\xF1a' for column 'body' at row 1
+    at com.mysql.jdbc.ServerPreparedStatement.executeBatch(ServerPreparedStatement.java:657)
+    at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
+    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)
+    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:242)
+    ... 44 more
+26-ago-2008 19:54:48 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() para servlet action lanzó excepción
+java.sql.BatchUpdateException: Incorrect string value: '\xF1a' for column 'body' at row 1
+    at com.mysql.jdbc.ServerPreparedStatement.executeBatch(ServerPreparedStatement.java:657)
+    at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:1723)
+    at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:48)
+    at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:242)
+    at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:235)
+    at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:139)
+    at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:298)
+    at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:27)
+    at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
+    at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:338)
+    at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
+    at com.cerebra.cerepedia.item.dao.ItemDAOHibernate.addComment(ItemDAOHibernate.java:505)
+    at com.cerebra.cerepedia.item.ItemManagerPOJOImpl.addComment(ItemManagerPOJOImpl.java:164)
+    at com.cerebra.cerepedia.struts.item.ItemAction.addComment(ItemAction.java:126)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:269)
+    at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+    at org.apache.struts.actions.MappingDispatchAction.execute(MappingDispatchAction.java:166)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:425)
+    at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:228)
+    at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+    at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:462)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:710)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.security.AuthorizationFilter.doFilter(AuthorizationFilter.java:78)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.hibernate.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:30)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at filters.UTF8Filter.doFilter(UTF8Filter.java:14)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:261)
+    at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+    at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:581)
+    at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+    at java.lang.Thread.run(Unknown Source)
+javax.servlet.ServletException: java.lang.NumberFormatException: null
+    at org.apache.struts.action.RequestProcessor.processException(RequestProcessor.java:520)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:427)
+    at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:228)
+    at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+    at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.security.AuthorizationFilter.doFilter(AuthorizationFilter.java:78)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.hibernate.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:30)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at filters.UTF8Filter.doFilter(UTF8Filter.java:14)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:261)
+    at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+    at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:581)
+    at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+    at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NumberFormatException: null
+    at java.lang.Long.parseLong(Unknown Source)
+    at java.lang.Long.valueOf(Unknown Source)
+    at com.cerebra.cerepedia.struts.item.ItemAction.addComment(ItemAction.java:120)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:269)
+    at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+    at org.apache.struts.actions.MappingDispatchAction.execute(MappingDispatchAction.java:166)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:425)
+    ... 26 more
+26-ago-2008 20:13:25 org.apache.catalina.core.StandardWrapperValve invoke
+GRAVE: Servlet.service() para servlet action lanzó excepción
+java.lang.NumberFormatException: null
+    at java.lang.Long.parseLong(Unknown Source)
+    at java.lang.Long.valueOf(Unknown Source)
+    at com.cerebra.cerepedia.struts.item.ItemAction.addComment(ItemAction.java:120)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    at java.lang.reflect.Method.invoke(Unknown Source)
+    at org.apache.struts.actions.DispatchAction.dispatchMethod(DispatchAction.java:269)
+    at org.apache.struts.actions.DispatchAction.execute(DispatchAction.java:170)
+    at org.apache.struts.actions.MappingDispatchAction.execute(MappingDispatchAction.java:166)
+    at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:425)
+    at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:228)
+    at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1913)
+    at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:449)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+    at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.security.AuthorizationFilter.doFilter(AuthorizationFilter.java:78)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at com.cerebra.cerepedia.hibernate.HibernateSessionRequestFilter.doFilter(HibernateSessionRequestFilter.java:30)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at filters.UTF8Filter.doFilter(UTF8Filter.java:14)
+    at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+    at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+    at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+    at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+    at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+    at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+    at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:261)
+    at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+    at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:581)
+    at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+    at java.lang.Thread.run(Unknown Source)
+</code></pre>
+","2138","Sergio del Amo","63550","travis","2012-08-31 23:50:01","2012-08-31 23:52:43","How can I make this code to submit a UTF-8 form textarea with jQuery/Ajax work?","<java><jquery><ajax><jsp><encoding>","6","0","4","","","29751","363"
+"29886","1","","","2008-08-27 10:53:22","","9","13354","<p>I'm writing a simple photo album app using ASP.NET Ajax.<br />
+The app uses async Ajax calls to pre-load the next photo in the album, without changing the URL in the browser.</p>
+
+<p>The problem is that when the user clicks the <strong>back</strong> button in the browser, the app doesn't go back to the previous photo, instead, it navigates to the home page of the application.</p>
+
+<p>Is there a way to trick the browser into adding each Ajax call to the browsing history?</p>
+","373","urini","130638","","2010-09-18 09:57:24","2013-07-13 09:21:51","How to keep the browser history in sync when using Ajax?","<javascript><asp.net><ajax><hashchange>","10","0","3","","","29886","363"
+"30342","1","31734","","2008-08-27 14:49:44","","1","482","<p>When creating and executing a ajax request queue with <code>$.manageAjax</code>, I call <code>ajaxManager.abort();</code>, to abort the entire queue due to error, at which time I get an error stating: <code>q[num] has no properties (jquery.ajaxmanager.js line 75)</code></p>
+
+<p>Here is the calling code:</p>
+
+<pre><code>var ajaxManager = $.manageAjax({manageType:'sync', maxReq:0});
+// setup code calling ajaxManager.add(...)
+
+// in success callback of first request
+ajaxManager.abort(); &lt;-- causes error in jquery.ajaxManager.js
+</code></pre>
+
+<p>There are 4 requests in the queue, this is being called in the success of the first request, if certain criteria is met, the queue needs to be aborted.</p>
+
+<p>Any ideas?</p>
+","2993","Sean Chambers","1332690","","2012-04-25 21:23:48","2012-04-25 21:23:48","Why do I receive a q[num] error when aborting a jQuery queue pipeline?","<jquery><ajax>","1","0","","","","30342","363"
+"31129","1","31153","","2008-08-27 20:14:19","","35","53405","<p>I want to return StudentId to use elsewhere outside of the scope of the $.getJSON()</p>
+
+<pre><code>j.getJSON(url, data, function(result)
+{
+    var studentId = result.Something;
+});
+
+//use studentId here
+</code></pre>
+
+<p>I would imagine this has to do with scoping, but it doesn't seem to work the same way c# does</p>
+","2993","Sean Chambers","165737","JasonBunting","2010-05-25 07:54:55","2014-11-01 10:08:35","How can I return a variable from a $.getJSON function","<javascript><jquery><ajax><return-value>","5","0","12","","","31129","363"
+"31312","1","287822","","2008-08-27 21:17:17","","1","417","<p>I am working on a rails project. Using the tag observe_field, I am taking text typed into a text area, processing it in a control, and displaying the result in a div (very similar to the preview in stack overflow). Everything works fine until I type certain special chars.</p>
+
+<ol>
+<li>? => causes the variable not to be found in the params object</li>
+<li>(pound) => causes an invalid authenticity error</li>
+<li>% => stops the div from being updated</li>
+<li>&amp; => every thing after the &amp; is no longer passed into the variable on the server. </li>
+</ol>
+
+<p>Is there a way to solve this?</p>
+
+<p>--- code sample ---</p>
+
+<p>this is the view. ( 'postbody' is a text area)</p>
+
+<pre><code>&lt;%= observe_field 'postbody', 
+    				:update =&gt; 'preview', 
+    				:url =&gt; {:controller =&gt; 'blog', :action =&gt; 'textile_to_html'},
+    				:frequency =&gt; 0.5,
+    				:with =&gt; 'postbody' -%&gt;
+</code></pre>
+
+<p>this is the controller that is called</p>
+
+<pre><code>def textile_to_html
+    text = params['postbody']
+    if text == nil then 
+        @textile_to_html = '&lt;br/&gt;never set'
+    else 
+        r = RedCloth.new text
+        @textile_to_html = r.to_html
+    end 
+    render :layout =&gt; false 
+end
+</code></pre>
+
+<p>and this is the javascript that is created:</p>
+
+<pre><code>new Form.Element.Observer('postbody', 0.5, function(element, value) {new Ajax.Updater('preview', '/blog/textile_to_html', {asynchronous:true, evalScripts:true, parameters:'postbody=' + value + '&amp;authenticity_token=' + encodeURIComponent('22f7ee12eac9efd418caa0fe76ae9e862025ef97')})})
+</code></pre>
+","1632","Maudite","1632","Maudite","2008-09-01 08:03:09","2008-11-13 18:43:57","Problems passing special chars with observe_field","<ruby-on-rails><ajax>","3","0","1","","","31312","363"
+"33321","1","33397","","2008-08-28 20:32:09","","4","2703","<p>In Asp.Net web forms, what is the best chioce for providing a righ UI (a la Ajax)? I've been using the built in Ajax support that MS ships in addition to the Ajax Control Toolkit until now, but is there something better and/or easier?</p>
+","2849","Chris Conway","12252","craigmoliver","2008-10-27 13:10:23","2008-11-20 09:28:02","Best AJAX Framework","<asp.net><ajax><user-interface>","12","0","3","2011-09-07 22:35:17","","33321","363"
+"33347","1","33502","","2008-08-28 20:39:52","","16","8092","<p>I'm considering developing a website similar to stackoverflow, but the answers may also consist of drawings (schematics, in this case).  I want to have an area in the answer form where they can make this schematic without requiring special plugins, etc.  </p>
+
+<ol>
+<li>Are we to the point where SVG has or should have critical mass soon (1-2 years) such that designing a website where script-run SVG as a primary feature is reasonable (ie, requiring Firefox or another SVG/AJAX compliant browser)?</li>
+<li>What are some good resources for learning cross platform SVG scripting (likely in javascript)?</li>
+</ol>
+
+<p>-Adam Davis</p>
+","2915","Adam Davis","1414","travis","2008-08-28 20:42:58","2011-05-17 17:05:01","Scripting SVG","<javascript><ajax><svg>","5","0","8","","","33347","363"
+"34227","1","10234147","","2008-08-29 09:13:26","","2","2004","<p>I am familiar with several approaches to making the back button work in AJAX applications in various situations, but I have not found a solution that will work gracefully in my specific scenario.</p>
+
+<p>The pages I am working with are the search interface for a site.  You enter terms in a normal search box, click ""go and wind up at a search results page.  On the search results page there are a ton of UI controls for filtering/sorting the search results to find what you are looking for.  Some of the operations triggered by these controls may take a (relatively) long time to complete (e.g. several seconds).</p>
+
+<p>This latency is fine in case where the user is initially filtering/sorting their results... there's a nice AJAX spinner and so on... however when the user clicks on a search result and then clicks on the BACK button, I would like the page to instantly be restored to the state it was in when they clicked through.  </p>
+
+<p>I can restore the states using IFRAMEs/fragment identifiers as a dictionary of page history, but what ends up happening is that when the user first hits the back button the initial page is loaded, then it (re) makes the AJAX query to get the page state back, which triggers the AJAX spinner and another wait of possible several seconds.</p>
+
+<p>Is there any approach that does not require this kind of two-stage load of the page when the user returns to the page via the BACK button?</p>
+
+<p>Edited to add: I am partial to jquery but I'd be happy with solutions that depend on other libraries/toolkits or that are standalone/raw javascript.</p>
+
+<p>Edited to add: I should've added that I'm trying to avoid cookies/sessions because this prevents people having multiple brower windows/tabs open and manipulating different sets of search results at the same time.</p>
+
+<p>Edit: Matt, can you elaborate on your proposed solution (triggering a page change event via fragment identifer)? I see how this would help with BACK button clicks across the same page but not coming BACK to the search results page after clicking on a specific result.</p>
+","2168","John","2168","John","2008-08-29 11:03:17","2012-04-21 15:35:08","Is it possible to persist (without reloading) AJAX page state across BACK button clicks?","<ajax>","6","0","1","","","34227","363"
+"34486","1","34538","","2008-08-29 15:48:16","","4","276","<p>I have a small JS function that does Ajax for me and another like it that adds in POST data to the request. With Ajax being such a big topic with so many libraries about it, what am I missing from my function, is it insecure or something else worrying?</p>
+
+<pre><code>function loadPage(pagePath, displayElement)
+{
+	var xmlHttp;
+
+	try
+	{
+		// Firefox, Opera 8.0+, Safari
+		xmlHttp=new XMLHttpRequest();
+	}
+	catch (e)
+	{
+		// Internet Explorer
+		try
+		{
+			xmlHttp=new ActiveXObject(""Msxml2.XMLHTTP"");
+		}
+		catch (e)
+		{
+			try
+			{
+				xmlHttp=new ActiveXObject(""Microsoft.XMLHTTP"");
+			}
+			catch (e)
+			{
+				alert(""Your browser does not support AJAX!"");
+				return false;
+			}
+		}
+	}
+
+	xmlHttp.onreadystatechange=function()
+	{
+		if(xmlHttp.readyState==4)
+		{
+			document.getElementById(displayElement).innerHTML = xmlHttp.responseText;
+		}
+	}
+
+	xmlHttp.open(""GET"", pagePath, true);
+	xmlHttp.send(null);
+}
+</code></pre>
+","1384652","Teifion","","","","2011-07-20 11:22:25","What more is needed for Ajax than this function","<javascript><ajax>","6","0","","","","34486","363"
+"35240","1","","","2008-08-29 20:31:27","","37","26325","<p>I used the jQuery Form plugin for asynchronous form submission. For forms that contain files, it copies the form to a hidden iframe, submits it, and copies back the iframe's contents. The problem is that I can't figure out how to find what HTTP status code was returned by the server. For example, if the server returns 404, the data from the iframe will be copied as normal and treated as a regular response.</p>
+
+<p>I've tried poking around in the iframe objects looking for some sort of <code>status_code</code> attribute, but haven't been able to find anything like that.</p>
+
+<p><hr /></p>
+
+<p>The <code>$.ajax()</code> function can't be used, because it does not support uploading files. The only way to asynchronously upload files that I know of is using the hidden <code>iframe</code> method.</p>
+","3560","John Millikin","3560","John Millikin","2008-09-18 18:44:13","2015-03-16 02:13:22","Retrieving HTTP status code from loaded iframe with Javascript","<jquery><ajax><http><forms><iframe>","2","1","5","","","35240","363"
+"35499","1","35513","","2008-08-30 00:14:19","","11","5290","<p>In the project i am currently working on, we have the need to develop a web chat application, not a very complex chat, just a way to connect two people to talk about a very specific topic, we don't need any kind of authentication for one of the two users, we don't have to support emoticons, avatars, or stuff like that.</p>
+
+<p>Some project members suggested that we could use XMPP through BOSH, I said that is like trying to catch a fish with a boat's net, and proposed a more simpler method, like a simple Ajax/MySQL web chat, but we're worried about the performance hit in the server because of the constant polling of many chats open at the same time.</p>
+
+<p>Has anyone done something like this before? What would you recommend? </p>
+","3695","Francisco Soto","-1","","2008-09-14 15:14:32","2012-09-14 19:39:11","Ajax polling","<php><ajax><chat>","12","0","6","","","35499","363"
+"38421","1","38446","","2008-09-01 20:57:12","","15","11390","<p>I'm using jquery ajax to post updates back to my server. I'm concerned about making sure I have put in place appropriate measures so that only my AJAX calls can post data.</p>
+
+<p>My stack is PHP on Apache against a MySQL backend.</p>
+
+<p>Advice greatly appreciated!</p>
+","2362","Brabster","","","","2010-10-21 07:21:52","Security advice for jquery ajax data post?","<jquery><ajax><security><post>","2","0","8","","","38421","363"
+"39735","1","40120","","2008-09-02 15:02:25","","5","5118","<p>If so how?  </p>
+
+<p>Did you roll your own with jQuery or use the Microsoft AJAX toolkit?</p>
+
+<p>Did you create a webservice or call an action?</p>
+
+<p><hr /></p>
+
+<p><strong>EDIT</strong> : Please note that this question was asked before Microsoft announced that they were going to bundle jQuery in with VS/ASP.NET MVC.  I think there is less of a discussion around this topic now and the answer would now almost always be 'use jQuery'. IainMH 11th Feb 2009</p>
+","1122","IainMH","1122","IainMH","2009-02-26 08:16:34","2011-04-19 13:42:38","Have you got a CascadingDropDown working with ASP.NET MVC?","<c#><asp.net-mvc><ajax><controls>","4","0","2","","","39735","363"
+"40116","1","","","2008-09-02 17:36:16","","13","71722","<p>How do I get it to work with my project?</p>
+
+<p><a href=""http://ajax.asp.net/"">http://ajax.asp.net/</a></p>
+
+<p><a href=""http://www.codeplex.com/AjaxControlToolkit/"">http://www.codeplex.com/AjaxControlToolkit/</a></p>
+","83","Zack","","","","2015-08-17 10:54:29","How do I install and use the ASP.NET AJAX Control Toolkit in my .NET 3.5 web applications?","<asp.net><ajax><.net-3.5>","6","1","7","","","40116","363"
+"40422","1","339033","","2008-09-02 19:52:24","","0","1537","<p>Ok, so I want an autocomplete dropdown with linkbuttons as selections. So, the user puts the cursor in the ""text box"" and is greated with a list of options. They can either start typing to narrow down the list, or select one of the options on the list. As soon as they click (or press enter) the dataset this is linked to will be filtered by the selection. </p>
+
+<p>Ok, is this as easy as wrapping an AJAX autocomplete around a dropdown? No? (Please?) </p>
+","4140","Sara Chipps","","","","2008-12-04 08:10:00","Autocomplete Dropdown with Linkbuttons - or ""AJAX gone wild""","<ajax><.net-3.5>","4","0","","","","40422","363"
+"40655","1","40668","","2008-09-02 21:01:26","","8","4731","<p>Does anyone know of a complete Ajax/PHP contact form that includes error handling/form validation and requires minimum effort to setup? It must also still function in cases where JavaScript is disabled.</p>
+
+<p>I'm pretty much looking for a plug and play solution (well, as close to it as possible).</p>
+","2493","Row","2493","","2009-08-21 01:52:48","2011-10-05 08:49:27","Simple Ajax/PHP contact form with validation","<php><javascript><html><ajax>","5","2","1","","","40655","363"
+"43507","1","43628","","2008-09-04 11:23:13","","2","183","<p>I have seen simple example Ajax source codes in many online tutorials. What I want to know is whether using the source code in the examples are perfectly alright or not?</p>
+
+<p>Is there anything more to be added to the code that goes into a real world application?</p>
+
+<p>What all steps are to be taken to make the application more robust and secure?</p>
+
+<p>Here is a sample source code I got from the web:</p>
+
+<pre><code>function getChats() {
+    xmlHttp=GetXmlHttpObject();
+    if (xmlHttp==null) {
+            return;
+    } 
+    var url=""getchat.php?latest=""+latest;   
+    xmlHttp.onreadystatechange=stateChanged;
+    xmlHttp.open(""GET"",url,true);
+    xmlHttp.send(null);
+} 
+
+function GetXmlHttpObject() {
+    var xmlHttp=null;
+    try {
+            xmlHttp=new XMLHttpRequest();
+    } catch (e) {
+            try {
+                    xmlHttp=new ActiveXObject(""Msxml2.XMLHTTP"");
+            } catch (e) {
+                    xmlHttp=new ActiveXObject(""Microsoft.XMLHTTP"");
+            }
+    }
+    return xmlHttp;
+}
+</code></pre>
+","184","Niyaz","381","David","2008-09-04 11:35:05","2008-09-04 12:32:23","How sophisticated should my Ajax code be?","<ajax>","3","0","","","","43507","363"
+"44401","1","44468","","2008-09-04 18:28:39","","0","675","<p>I've got a sign up form that requires the user to enter their email and password, both are in two separate text boxes. I want to provide a button that the user can click so that the password (which is masked) will appear in a popup when the user clicks the button.</p>
+
+<p>Currently my JavaScript code for this is as follows:</p>
+
+<pre><code>    function toggleShowPassword() {       
+        var button = $get('PASSWORD_TEXTBOX_ID');
+        var password;
+        if (button)
+        {
+            password = button.value;
+            alert(password);
+            button.value = password;  
+        } 
+   }
+</code></pre>
+
+<p>The problem is that every time the user clicks the button, the password is cleared in both Firefox and IE. I want them to be able to see their password in clear text to verify without having to retype their password.</p>
+
+<p>My questions are:</p>
+
+<ol>
+<li><p>Why does the password field keep getting reset with each button click?</p></li>
+<li><p>How can I make it so the password field is NOT cleared once the user has seen his/her password in clear text?</p></li>
+</ol>
+","750","eviljack","2139775","","2013-05-14 12:20:01","2013-05-14 12:20:01","catching button clicks in javascript without server interaction","<javascript><ajax>","8","0","","","","44401","363"
+"45387","1","45397","","2008-09-05 07:40:27","","0","238","<p>In my last job we ended up rewriting the complete ASP.NET stack (forms, controls, validation, postback handling, ajax library etc...) - the reason I was given was that the ASP.NET controls were not accessible enough, not were any of the third party controls that were assessed for the project.</p>
+
+<p>Can anyone point me to good accessible ASP.NET controls that do ajax as well?</p>
+
+<p>Failing that, how would you approach creating accessible, ajax enabled controls?</p>
+","1583","Oded","","","","2011-11-20 00:43:59","Accessible controls for ASP.NET","<asp.net><ajax><accessibility>","1","0","1","","","45387","363"
+"47078","1","3988952","","2008-09-05 23:28:54","","5","3555","<p>We are currently using the ExtJS tree view in an application - a requirement has arisen requiring a user to select multiple nodes (which the tree view supports currently through a pluggable selection model) - but you can not then drag the multiple selections to another part of the tree.</p>
+
+<p>Does anyone know of an ajax control (commercial or non-commercial) that supports multiple-selection drag / drop - or a example of enabling this functionality in ExtJS?</p>
+","4843","Bittercoder","18804","philippe ","2008-12-24 16:28:25","2011-04-29 14:01:45","Javascript tree views that support multiple item drag/drop","<javascript><ajax><treeview><drag-and-drop><extjs>","3","0","1","","","47078","363"
+"48877","1","48900","","2008-09-07 23:09:31","","10","1278","<p><a href=""http://en.wikipedia.org/wiki/Ajax_%28programming%29"" rel=""nofollow"">Ajax</a>, <a href=""http://en.wikipedia.org/wiki/Adobe_Flex"" rel=""nofollow"">Flex</a> and <a href=""http://en.wikipedia.org/wiki/Microsoft_Silverlight"" rel=""nofollow"">Silverlight</a> are a few ways to make more interactive web applications.  What kinds of factors would you consider when deciding which to use for a new web application?  </p>
+
+<p>Does any one of them offer better cross-platform compatibility, performance, developer tools or community support?  </p>
+","4883","Tim","502381","","2012-07-20 07:09:35","2012-07-20 07:09:35","Choosing between Ajax, Flex and Silverlight","<ajax><silverlight><flex>","5","0","4","2012-07-23 05:53:16","","48877","363"
+"49564","1","49590","","2008-09-08 12:24:25","","18","19374","<p>I would like display something more meaningful that animated gif while users upload file to my web application. What possibilities do I have? </p>
+
+<p><em>Edit: I am using .Net but I don't mind if somebody shows me platform agnostic version.</em></p>
+","2361","Jakub Šturc","2361","Jakub Šturc","2008-09-08 20:09:09","2009-08-28 14:12:52","How to implement file upload progress bar on web?","<.net><javascript><ajax>","7","0","11","","","49564","363"
+"51283","1","51287","","2008-09-09 06:12:10","","25","46542","<p>How do you get around this Ajax cross site scripting problem on FireFox 3?</p>
+","5321","Jimmy Chandra","17176","sontek","2008-10-26 22:18:53","2014-12-15 13:42:45","Access to restricted URI denied code: 1012","<javascript><jquery><ajax><xss>","5","0","17","","","51283","363"
+"51289","1","69165","","2008-09-09 06:20:44","","0","828","<p>I'm working on a Silverlight application where I want to take advantage of the Microsoft ASP.NET AJAX Client library. I'm calling the library using the HTML Bridge that is part of Silverlight 2. Silverlight got great support for passing types between JavaScript and Managed Code, but now I've bumped against a problem.</p>
+
+<p>Microsoft ASP.NET AJAX Client Libraries includes a ""type system"", and one of the things the framework does is validating that the parameters is of correct type. The specific function I'm calling is the Sys.Application.addHistoryPoint, and the validation code looks like this:</p>
+
+<pre><code>var e = Function.validateParams(arguments, [
+    {name: ""state"", type: Object},
+    {name: ""title"", type: String, mayBeNull: true, optional: true}
+]);
+</code></pre>
+
+<p>I've tried passing all kinds of CLR types as the state parameter (C# structs, [ScriptableTypes], Dictionary types etc. And every time I get the error: ""Sys.ArgumentTypeException: Object of type 'Function' cannot be converted to type 'Object'.</p>
+
+<p>This error is obviously coming from the parameter validation... But WHY does ASP.NET AJAX think my types are Functions? Does anyone understand the type validation in MS AJAX?</p>
+
+<p>I know I can do workarounds like calling HtmlPage.Window.Eval(""..."") and pass my JS integration as strings, but I don't want to do that. I want to pass a real .NET type as the state parameter.</p>
+","1199387","Jonas Follesø","1199387","Jonas Follesø","2008-09-15 23:40:50","2008-09-16 03:27:09","Pass Silverlight type to Microsoft AJAX and pass parameter validation","<javascript><ajax><silverlight><asp.net-ajax><htmlbridge>","1","0","","","","51289","363"
+"52140","1","52150","","2008-09-09 15:20:26","","5","855","<p>We provide a web application with a frontend completely developed in Adobe Flash. When we chose Flash 6 years ago, we did so for its large number of features for user interaction, like dragging stuff, opening and closing menus, tree navigation elements, popup dialogs etc.</p>
+
+<p>Today it's obvious that AJAX/JS offers roughly the same possibilities and because of the number of frameworks that are readily available, it's very feasible to implement them.</p>
+
+<p>Is there a technical reason one should choose either technology over the other? By ""technical"", I mean performance, security, portability/compatibility and the like. I don't mean aspects such as the very non-programmer way development is done in Flash or whether it makes sense to switch an app from one to the other.</p>
+
+<p>As I just explained <a href=""http://stackoverflow.com/questions/52094/which-ria-technology-has-the-biggest-market-share"" rel=""nofollow"">in another question</a>, it seems to me that JS is way ahead in terms of market share and I'm wondering whether we are missing some important point if we stick to Flash.</p>
+","2077","Hanno","","","","2012-11-30 02:02:38","What are the (technical) pros and cons of Flash vs AJAX/JS?","<ajax><flash><ria>","11","0","2","","","52140","363"
+"52238","1","52253","","2008-09-09 15:58:37","","10","9756","<p>How can I use the Prototype library and create unobtrusive javascript to inject the onmouseover and onmouseout events to each row, rather than putting the javascript in each table row tag?</p>
+
+<p>An answer utilizing the Prototype library (instead of mootools, jQuery, etc) would be most helpful.</p>
+","3920","Jason Navarrete","938089","","2011-12-28 20:49:09","2012-12-28 17:04:00","How can I highlight a table row using Prototype?","<javascript><ajax><prototypejs>","6","0","4","","","52238","363"
+"53370","1","53374","","2008-09-10 03:28:04","","2","664","<p>I keep running across this loading image</p>
+
+<p><a href=""http://georgia.ubuntuforums.com/images/misc/lightbox_progress.gif"" rel=""nofollow"">http://georgia.ubuntuforums.com/images/misc/lightbox_progress.gif</a></p>
+
+<p>which seems to have entered into existence in the last 18 months.  All of a sudden it is in every application and is on every web site.  Not wanting to be left out is there somewhere I can get this logo, perhaps with a transparent background?  Also where did it come from?  </p>
+","361","stimms","1185","Rob","2008-09-10 03:29:35","2008-09-10 04:06:34","Where are people getting that rotaty loading image?","<ajax><image><animation>","3","0","3","","","53370","363"
+"53639","1","","","2008-09-10 08:37:39","","0","622","<p>Your backend could be PHP or Python but you want to use the controls from the ASP.NET toolkit is there a successful way to do this?</p>
+","4491","minty","4491","minty","2008-09-10 09:13:16","2009-11-16 13:08:34","How would you go about using the ASP.NET AJAX Control Toolkit in a project that doesn't use ASP.NET on the back end","<asp.net><javascript><ajax>","5","0","","","","53639","363"
+"53945","1","1863308","","2008-09-10 12:55:43","","15","21183","<p>I am currently loading a lightbox style popup that loads it's HTML from an XHR call. This content is then displayed in a 'modal' popup using <code>element.innerHTML = content</code> This works like a charm.</p>
+
+<p>In another section of this website I use a Flickr 'badge' (<a href=""http://www.elliotswan.com/2006/08/06/custom-flickr-badge-api-documentation/"">http://www.elliotswan.com/2006/08/06/custom-flickr-badge-api-documentation/</a>) to load flickr images dynamically. This is done including a script tag that loads a flickr javascript, which in turn does some <code>document.write</code> statments.</p>
+
+<p>Both of them work perfectly when included in the HTML. Only when loading the flickr badge code <em>inside</em> the lightbox, no content is rendered at all. It seems that using <code>innerHTML</code> to write <code>document.write</code> statements is taking it a step too far, but I cannot find any clue in the javascript implementations (FF2&amp;3, IE6&amp;7) of this behavior.</p>
+
+<p>Can anyone clarify if this should or shouldn't work? Thanks.</p>
+","4174","Kamiel Wanrooij","4174","Kamiel Wanrooij","2008-09-10 13:35:53","2012-06-13 23:41:14","Dynamically inserting javascript into HTML that uses document.write","<javascript><html><ajax>","7","0","6","","","53945","363"
+"53997","1","54008","","2008-09-10 13:12:07","","12","11710","<p>I am trying to implement AJAX in my Google App Engine application, and so I am looking for a good AJAX framework that will help me. Anyone has any idea?</p>
+
+<p>I am thinking about Google Web Toolkit, how good it is in terms of creating AJAX for Google App Engine?</p>
+","3834","Ngu Soon Hui","","","","2011-07-23 17:18:44","Any good AJAX framework for Google App Engine apps?","<python><ajax><google-app-engine>","12","0","9","","","53997","363"
+"54217","1","54241","","2008-09-10 14:34:44","","3","887","<p>Is there a security limit to the number of Ajax <a href=""http://en.wikipedia.org/wiki/XMLHttpRequest"" rel=""nofollow"">XMLHttpRequest</a> objects you can create on a single page? If so, does this vary from one browser to another?</p>
+","1096640","Keith Maurino","63550","","2010-01-09 13:52:43","2010-01-09 13:52:43","Ajax XMLHttpRequest object limit","<ajax>","3","0","","","","54217","363"
+"55860","1","","","2008-09-11 05:42:44","","6","6372","<p>Okay, here is the 411 - I have the following event handler in my Global.asax.cs file:</p>
+
+<pre><code>private void Global_PostRequestHandlerExecute(object sender, EventArgs e)
+{
+   if (/* logic that determines that this is an ajax call */)
+   {
+      // we want to set a cookie
+      Response.Cookies.Add(new HttpCookie(""MyCookie"", ""true""));
+   }
+}
+</code></pre>
+
+<p>That handler will run during Ajax requests (as a result of the Ajax framework I am using), as well as at other times - the condition of the if statement filters out non-Ajax events, and works just fine (it isn't relevant here, so I didn't include it for brevity's sake).</p>
+
+<p>It suffices us to say that this works just fine - the cookie is set, I am able to read it on the client, and all is well up to that point.</p>
+
+<p>Now for the part that drives me nuts.</p>
+
+<p>Here is the JavaScript function I am using to delete the cookie:</p>
+
+<pre><code>function deleteCookie(name) {
+   var cookieDate = new Date();
+   cookieDate.setTime(cookieDate.getTime() - 1);
+   document.cookie = (name + ""=; expires="" + cookieDate.toGMTString());
+}
+</code></pre>
+
+<p>So, of course, at some point after the cookie is set, I delete it like so:</p>
+
+<pre><code>deleteCookie(""MyCookie"");
+</code></pre>
+
+<p>Only, that doesn't do the job; the cookie still exists. So, anyone know why?</p>
+","1790","JasonBunting","","","","2010-10-21 03:38:54","Why can't I delete this cookie?","<c#><asp.net><javascript><ajax><cookies>","8","3","2","","","55860","363"
+"56445","1","","","2008-09-11 12:43:54","","5","728","<p>I am looking for a reliable technique for adding Ajax to a working ASP.NET MVC application. I want to use jQuery, and understand how to use the ajax functionality from jQuery. What I need to know is how I should write my controller so that I can run the site without javascript, but at the same time make ajax calls possible without the need for a seperate view, seperate controller or any kind of route hack. My goal is to have a working application enhanced when javascript is enabled without the need to duplicate or recreate elements of the app.</p>
+
+<p>Thanks in advance.</p>
+","","Andrew","","","","2009-01-11 04:53:01","asp.net mvc, ajax and progressive enhancement","<jquery><asp.net-mvc><ajax>","2","0","2","","","56445","363"
+"57421","1","57435","","2008-09-11 19:37:12","","2","3696","<p>I would like to make an ajax call to a different server (same domain and box, just a different port.)
+e.g.</p>
+
+<p>My page is</p>
+
+<pre>
+http://localhost/index.html
+</pre>
+
+<p>I would like to make a ajax get request to:</p>
+
+<pre>
+http://localhost:7076/?word=foo
+</pre>
+
+<p>I am getting this error:</p>
+
+<pre>
+Access to restricted URI denied (NS_ERROR_DOM_BAD_URI) 
+</pre>
+
+<p>I know that you can not make an ajax request to a different domain, but it seem this also included different ports? are there any workarounds?</p>
+","1638","mmattax","","","","2008-09-11 19:44:33","Ajax and a restricted uri","<ajax><xmlhttp>","4","0","","","","57421","363"
+"57479","1","57905","","2008-09-11 20:01:07","","1","13813","<p>Help! I am using JQuery to make an AJAX call to fill in a drop-down dynamically given the user's previous input (from another drop-down, that is filled server-side). In all other browsers aside from Firefox (IE6/7, Opera, Safari), my append call actually appends the information below my existing option - ""Select An "". But in Firefox, it automatically selects the last item given to the select control, regardless of whether I specify the JQuery action to .append or to replace (.html()). </p>
+
+<pre><code>&lt;select name=""Products"" id=""Products"" onchange=""getHeadings(this.value);""&gt;
+&lt;option value=""""&gt;Select Product&lt;/option&gt;
+&lt;/select&gt;    
+
+function getProducts(Category)
+    {
+        $.ajax({
+               type: ""GET"",
+               url: ""getInfo.cfm"",
+               data: ""Action=getProducts&amp;Category="" + Category,
+               success: function(result){
+                 $(""#Products"").html(result);
+               }
+             });
+    };
+</code></pre>
+
+<p>Any thoughts? I have tried in the past to also transmit another blank first option, and then trigger a javascript option to re-select the first index, but this triggers the onChange event in my code, rather annoying for the user.</p>
+
+<hr>
+
+<p>Update:</p>
+
+<p>Here's an example of what the script would return</p>
+
+<pre><code>&lt;option value=""3""&gt;Option 1&lt;/option&gt;
+&lt;option value=""4""&gt;Option 2&lt;/option&gt;
+&lt;option value=""6""&gt;Option 3&lt;/option&gt;
+</code></pre>
+
+<p>Optionally, if using the .html() method instead of the .append(), I would put another</p>
+
+<pre><code>&lt;option value=""""&gt;Select a Product&lt;/option&gt;
+</code></pre>
+
+<p>at the top of the result.</p>
+
+<hr>
+
+<p>@Darryl Hein</p>
+
+<p>Here's an example of what the script would return</p>
+
+<pre><code>&lt;option value=""3""&gt;Option 1&lt;/option&gt;
+&lt;option value=""4""&gt;Option 2&lt;/option&gt;
+&lt;option value=""6""&gt;Option 3&lt;/option&gt;
+</code></pre>
+
+<p>Optionally, if using the .html() method instead of the .append(), I would put another</p>
+
+<pre><code>&lt;option value=""""&gt;Select a Product&lt;/option&gt;
+</code></pre>
+
+<p>at the top of the result.</p>
+","5405","Michael Runyon","5405","","2015-05-28 19:13:41","2015-05-28 19:13:41","AJAX Dropdowns (HTML Select) in Firefox with JQuery","<jquery><ajax><html-select>","4","0","2","","","57479","363"
+"57679","1","57997","","2008-09-11 21:13:53","","3","3221","<p>I'm trying to determine, based on the result of this call, if it was successful. The <code>successFunction</code> doesn't get called, so I'm assuming it was not. How do I know what went wrong?</p>
+
+<pre><code>xmlRequest = $.post(""/url/file/"", { 'id' : object.id }, successFunction, 'json');
+</code></pre>
+
+<p>Do I use the xmlRequest object?</p>
+","5261","SeanDowney","811","palehorse","2011-01-09 19:08:35","2011-01-09 19:08:35","How can I determine why a jQuery ajax $.post request wasn't successful?","<jquery><ajax><post>","2","0","","","","57679","363"

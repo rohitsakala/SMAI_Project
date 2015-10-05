@@ -1,0 +1,697 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"42","1","77","","2008-08-01 12:50:18","","172","21135","<p>I am starting a new web application in PHP and this time around I want to create something that people can extend by using a plugin interface. How does one go about writing 'hooks' into their code so that plugins can attach to specific events?</p>
+","37","","1931622","Vaibhav","2013-05-16 13:29:05","2013-05-16 13:29:05","Best way to allow plugins for a PHP application","<php><plugins><architecture><hook>","8","0","95","","","42","5"
+"85","1","154","","2008-08-01 14:19:52","","61","24109","<p>What are your best practices around creating flat file database structures in PHP?  A lot of the more mature PHP flat file frameworks I see out there attempt to implement SQL-like query syntax, which is over the top for my purposes in most cases (I would just use a database at that point).</p>
+
+<p>Are there any elegant tricks out there to get good performance and features with the small code overhead one would want by taking on this problem in the first place?</p>","59","","243557","saint_groceon","2013-10-04 01:17:44","2015-08-24 17:50:22","Flat File Databases","<php><sql><database><flat-file>","13","0","13","","","85","5"
+"126","1","127","","2008-08-01 16:10:30","","49","6894","<p>What is the ""purist"" or ""correct"" way to access an object's properties from within an object method that is not a getter/setter method?</p>
+
+<p>I know that from outside of the object you should use a getter/setter, but from within would you just do:</p>
+
+<p>Java:</p>
+
+<pre><code>String property = this.property;
+</code></pre>
+
+<p>PHP:</p>
+
+<pre><code>$property = $this-&gt;property;
+</code></pre>
+
+<p>or would you do:</p>
+
+<p>Java:</p>
+
+<pre><code>String property = this.getProperty();
+</code></pre>
+
+<p>PHP:</p>
+
+<pre><code>$property = $this-&gt;getProperty();
+</code></pre>
+
+<p>Forgive me if my Java is a little off, it's been a year since I programmed in Java...</p>
+
+<p><strong>EDIT:</strong></p>
+
+<p>It seems people are assuming I am talking about private or protected variables/properties only. When I learned OO I was taught to use getters/setters for every single property even if it was public (and actually I was told never to make any variable/property public). So, I may be starting off from a false assumption from the get go. It appears that people answering this question are maybe saying that you should have public properties and that those don't need getters and setters, which goes against what I was taught, and what I was talking about, although maybe that needs to be discussed as well. That's probably a good topic for a different question though...</p>
+","58","","202431","Gaius","2010-01-20 08:27:13","2015-05-13 10:47:59","How would you access Object properties from within an object method?","<java><php><oop><theory>","19","0","2","2012-05-08 18:11:27","","126","5"
+"146","1","152","","2008-08-01 17:14:58","","32","11621","<p>I have a website that plays mp3s in a flash player. If a user clicks 'play' the flash player automatically downloads an mp3 and starts playing it. </p>
+
+<p>Is there an easy way to track how many times a particular song clip (or any binary file) has been downloaded?</p>
+
+<hr>
+
+<blockquote>
+  <p>Is the play link a link to the actual
+  mp3 file or to some javascript code
+  that pops up a player?</p>
+  
+  <p>If the latter, you can easily add your
+  own logging code in there to track the
+  number of hits to it.</p>
+  
+  <p>If the former, you'll need something
+  that can track the web server log
+  itself and make that distinction. My
+  hosting plan comes with webalizer,
+  which does this nicely.</p>
+</blockquote>
+
+<p>It's javascript code, so that answers that. </p>
+
+<p>However, it would be nice to know how to track downloads using the other method (without switching hosts).</p>
+","30","","243557","","2013-10-04 01:17:13","2013-10-04 01:17:13","How do I track file downloads","<php><apache><download><analytics>","7","0","6","","","146","5"
+"176","1","207","","2008-08-01 18:37:40","","64","59822","<p>On one Linux Server running Apache and PHP 5, we got multiple Virtual Hosts with separate logfiles and everything. The only thing we cannot seem to separate between virtual hosts is the php <code>error_log</code>. Overriding this setting in the <code>&amp;lt;Location&amp;gt;</code> of the <code>httpd.conf</code> does not seem to do anything.</p>
+
+<p>Did I overlook something? Is there a way to have separate php <code>error_logs</code> for each Virtual Host?</p>
+","91","","243557","","2013-10-04 01:16:41","2014-01-23 15:44:35","error_log per Virtual Host?","<php><apache><virtualhost>","10","0","17","","","176","5"
+"227","1","2943318","","2008-08-01 21:40:55","","36","3198","<p>I have the following arrays:</p>
+
+<pre><code>$artist = array(""the roots"", ""michael jackson"", ""billy idol"", ""more"", ""and more"", ""and_YET_MORE"");
+$count = array(5, 3, 9, 1, 1, 3);
+</code></pre>
+
+<p>I want to generate a tag cloud that will have artists with a higher number in <code>$count</code> enclosed in <code>h6</code> tags and the lowest enclosed <code>h1</code> tags.</p>
+","146637","dubayou","500729","Adam Bellaire","2012-06-28 08:11:23","2012-10-24 14:39:31","What's the best way to generate a tag cloud from an array using h1 through h6 for sizing?","<php><arrays><cloud><tag-cloud>","10","0","9","","","227","5"
+"328","1","7488","","2008-08-02 02:41:34","","125","57502","<p>What are some guidelines for maintaining responsible session security with PHP?  There's information all over the web and it's about time it all landed in one place!</p>
+","59","","1039608","","2012-05-04 09:39:26","2012-07-18 17:21:23","PHP Session Security","<security><php>","13","0","173","","","328","5"
+"588","1","633","","2008-08-03 00:03:58","","33","38489","<p>I'm writing a CMS application in PHP and one of the requirements is that it must be able to interface with the customer's Exchange server.  I've written up this functionality a few times before and have always used <a href=""http://en.wikipedia.org/wiki/WebDAV"">WebDAV</a> to do it, but now I'm leaning away from that.</p>
+
+<p>I will be running the site on IIS OR Apache (no preference) on Windows server 2008.  A few things I would need to do include adding contacts to a given user's address book, sending emails as a given user and running reports on contacts for a user.</p>
+
+<p>All of this is pretty easy to do with WebDAV, but if there is a better way that doesn't require any functionality that is likely to be deprecated any time soon.</p>
+
+<p>Any ideas?</p>
+
+<h3>Update:</h3>
+
+<p>Justin, I love the idea of using com objects, I just worry about maintaining a 3rd product to make everything work...</p>
+
+<p>John, I can write a web service in C# to interface with for these functions and access it with my PHP app, but it's also a little bit out of the way.</p>
+
+<p>So far, I'm not 100% convinced that either of these is better than WebDAV... Can anyone show me where I'm being silly?</p>
+","172","","299509","Gulzar","2012-11-26 13:12:51","2015-01-23 08:14:08","Best way to access Exchange using PHP?","<php><windows><exchange-server><webdav><mapi>","8","2","15","","","588","5"
+"657","1","669","","2008-08-03 11:50:33","","13","3357","<p>What is the fastest, yet secure way to encrypt passwords in (PHP preferred), and for which ever method you choose is it portable?</p>
+
+<p>In other words if I later migrate my website to a different server will my passwords continue to work?</p>
+
+<p>The method I am using now as I was told is dependent on the exact versions of the libraries installed on the server.</p>
+","115","","1938889","Unkwntech","2015-04-15 15:22:45","2015-04-15 15:22:45","Encrypting Passwords","<php><encryption><passwords>","6","0","5","","","657","5"
+"696","1","704","","2008-08-03 14:03:28","","19","6498","<p>I've got an upcoming project wherein I will need to connect our website (<code>PHP5/Apache 1.3/OpenBSD 4.1</code>) to our back-end system running on a iSeries with OS400 V5R3 so that I can access some tables stored there. I've done some checking around but am running into some roadblocks.</p>
+
+<p>From what I've seen the DB2 extensions and DB2 software from IBM only run under Linux. I've tried compiling the extensions with all the software from IBM and even tried their precompiled ibm_db2 extension with no luck. IBM only supports Linux so I turned on the Linux emulation in the kernel but that didn't seem to help anything.</p>
+
+<p>If anyone has run across getting everything to run natively under OpenBSD that would be great, but what I think I may have to do is setting up a second server running CentOS with DB2 installed (most likely via ZendCore for IBM since it seems to do all this for me) and the driver so that I can set up a small transaction server that I can post against and get a JSON representation of the DB2 data that I need.</p>
+
+<p>Does the second option seem overkill or does anyone else have any better ideas?</p>
+","204","","803367","Vaibhav","2015-06-01 23:31:37","2015-06-01 23:31:37","Connect PHP to IBM i (AS/400)","<php><database><odbc><db2><ibm-midrange>","8","0","3","","","696","5"
+"879","1","885","","2008-08-03 22:51:41","","89","59798","<p>Are PHP variables passed by value or by reference?</p>
+","58","","2581872","Mark Biek","2014-05-25 01:52:44","2015-07-15 11:25:18","Are PHP Variables passed by value or by reference?","<php><variables><pass-by-reference><pass-by-value>","13","0","38","","","879","5"
+"888","1","890","","2008-08-03 23:18:21","","358","251923","<p>How do you debug <strong>PHP</strong> scripts?</p>
+
+<p>I am aware of basic debugging such as using the Error Reporting. The breakpoint debugging in <strong>PHPEclipse</strong> is also quite useful.</p>
+
+<p>What is the <strong>best</strong> (in terms of fast and easy) way to debug in phpStorm or any other IDE?</p>
+","131","","4248328","","2015-06-04 10:18:02","2015-10-01 11:16:08","How do you debug PHP scripts?","<php><eclipse><debugging><phpstorm><xdebug>","29","14","132","","2011-03-09 11:34:12","888","5"
+"1408","1","1421","","2008-08-04 16:54:49","","166","132742","<p>Is it possible to configure <a href=""http://www.apachefriends.org/en/xampp.html"">xampp</a> to serve up a file outside of the <code>htdocs</code> directory?</p>
+
+<p>For instance, say I have a file located as follows:</p>
+
+<p><code>C:\projects\transitCalculator\trunk\TransitCalculator.php</code></p>
+
+<p>and my <a href=""http://www.apachefriends.org/en/xampp.html"">xampp</a> files are normally served out from:</p>
+
+<p><code>C:\xampp\htdocs\</code></p>
+
+<p>(because that's the default configuration) Is there some way to make Apache recognize and serve up my <code>TransitCalculator.php</code> file without moving it under <code>htdocs</code>? Preferably I'd like Apache to serve up/have access to the entire contents of the projects directory, and I don't want to move the projects directory under <code>htdocs</code>.</p>
+
+<p>edit: edited to add Apache to the question title to make Q/A more ""searchable""</p>
+","58","","2988337","Mark Biek","2015-05-19 21:25:49","2015-06-01 13:43:23","Make XAMPP/Apache serve file outside of htdocs","<php><apache><xampp><server-configuration>","6","3","105","2013-07-18 15:23:17","","1408","5"
+"1417","1","1425","","2008-08-04 17:02:31","","23","14754","<p>First, let's get the security considerations out of the way. I'm using simple authentication under Apache for a one-off, internal use only, non-internet connected lan, php web app.</p>
+
+<p>How can get I the HTTP authenticated user name in PHP?</p>","287","","","user1645055","2012-11-26 13:28:53","2012-11-26 13:28:53","How can I get the authenticated user name under Apache using plain HTTP authentication and PHP?","<php><apache><authentication><http-authentication>","1","1","5","","","1417","5"
+"1453","1","1456","","2008-08-04 17:51:13","","11","941","<p>I'm trying to do this (which produces an unexpected T_VARIABLE error):</p>
+
+<pre><code>public function createShipment($startZip, $endZip, $weight = $this-&gt;getDefaultWeight()){}<br></code></pre>
+
+<p>I don't want to put a magic number in there for weight, since the object I am using has a ""defaultWeight"" parameter that all new shipments get if you don't specify a weight. I can't put the defaultWeight in the shipment itself, because it changes from shipment group to shipment group. Is there a better way to do it than the following?</p>
+
+<pre><code>public function createShipment($startZip, $endZip, weight = 0){<br>    if($weight &lt;= 0){<br>        $weight = $this-&gt;getDefaultWeight();<br>    }<br>}<br></code></pre>","58","","508666","Gaius","2013-02-17 14:13:20","2013-02-17 14:13:20","Using object property as default for method property","<php><parameters><error-handling>","4","0","","","","1453","5"
+"1607","1","1666","","2008-08-04 21:31:40","","98","26109","<p>What are the best methods for tracking and/or automating DB schema changes?  Our team uses Subversion for version control and we've been able to automate some of our tasks this way (pushing builds up to a staging server, deploying tested code to a production server) but we're still doing database updates manually.  I would like to find or create a solution that allows us to work efficiently across servers with different environments while continuing to use Subversion as a backend through which code and DB updates are pushed around to various servers.</p>
+
+<p>Many popular software packages include auto-update scripts which detect DB version and apply the necessary changes.  Is this the best way to do this even on a larger scale (across multiple projects and sometimes multiple environments and languages)?  If so, is there any existing code out there that simplifies the process or is it best just to roll our own solution?  Has anyone implemented something similar before and integrated it into Subversion post-commit hooks, or is this a bad idea?</p>
+
+<p>While a solution that supports multiple platforms would be preferable, we definitely need to support the Linux/Apache/MySQL/PHP stack as the majority of our work is on that platform.</p>","72","","137","Flubba","2008-08-29 19:09:04","2014-01-21 06:33:42","Mechanisms for tracking DB schema changes","<php><mysql><database><svn><migration>","20","0","65","2012-05-03 12:25:33","","1607","5"
+"1746","1","1749","","2008-08-05 00:35:17","","25","6834","<p>I am trying to grab the capital letters of a couple of words and wrap them in span tags. I am using <a href=""http://php.net/manual/en/function.preg-replace.php"">preg_replace</a> for extract and wrapping purposes, but it's not outputting anything.</p>
+
+<pre><code>preg_replace(""/[A-Z]/"", ""&lt;span class=\""initial\""&gt;$1&lt;/span&gt;"", $str)
+</code></pre>
+","137","","8454","","2013-07-29 22:09:53","2013-10-25 13:09:44","How can I get at the matches when using preg_replace in PHP?","<php><regex><html-parsing><preg-replace>","4","0","4","","","1746","5"
+"1762","1","1771","","2008-08-05 00:56:43","","5","589","<p>I am trying to set a flag to show or hide a page element, but it always displays even when the expression is false. </p>
+
+<pre><code>$canMerge = ($condition1 &amp;&amp; $condition2) ? 'true' : 'false';<br>...<br>&lt;?php if ($canMerge) { ?&gt;Stuff&lt;?php } ?&gt;<br></code></pre>
+
+<p>What's up?</p>","137","","42439","Jim Anderson","2009-01-24 03:19:15","2015-08-31 16:03:15","Why is my ternary expression not working?","<php><ternary-operator>","4","0","","","","1762","5"
+"2311","1","2316","","2008-08-05 13:40:47","","15","2561","<p>I have created a PHP-script to update a webserver that is live inside a local directory.
+I'm migrating the script into Python. It works fine for the most part, but after a PUT command the size of the file appears to change. Thus, the size of the file is different from that of the file on the server. Once I download again the file from the FTP server, the only difference is the CR/LF mark. This annoys me because the same script is comparing the size of the files to update. Also, in case it means anything, the script works perfectly in PHP vía ftp_put.</p>
+
+<pre><code>from ftplib import FTP
+
+ftpserver = ""myserver""
+ftpuser = ""myuser""
+ftppass = ""mypwd""
+
+locfile =  ""g:/test/style.css""
+ftpfile =  ""/temp/style.css""
+
+try:
+    ftp = FTP(ftpserver, ftpuser, ftppass)
+except:
+    exit (""Cannot connect"")
+
+f = open (locfile, ""r"")
+try:
+    ftp.delete (ftpfile)
+except:
+    pass
+
+# ftp.sendcmd (""TYPE I"")
+# ftp.storlines(""STOR %s"" % ftpfile, f)
+ftp.storbinary(""STOR %s"" % ftpfile, f)
+f.close()
+
+ftp.dir (ftpfile)
+ftp.quit()
+
+###
+</code></pre>
+
+<p>Any suggestions?</p>
+","394","PabloG","312172","","2012-01-13 06:40:01","2012-01-13 06:40:01","File size differences after copying a file to a server vía FTP","<php><python><ftp><webserver>","3","0","2","","","2311","5"
+"2756","1","2762","","2008-08-05 19:57:11","","10","53139","<p>Even though I have a robust and fast computer (Pentium Dual Core 2.0 with 2Gb RAM), I'm always searching for lightweight software to have on it, so it runs fast even when many apps are up and running simultaneously.</p>
+
+<p>On the last few weeks I've been migrating gradually to Linux and want to install a free lightweight yet useful IDE to program on C++ and PHP.  Sintax highlighting and code completition tips are must-haves.</p>
+
+<p>So, I'd like to receive some suggestions from you, guys.</p>","431","","3","","2012-03-22 00:34:54","2012-03-22 00:34:54","Lightweight IDE for Linux","<php><c++><linux><ide><freeware>","15","0","7","2011-11-12 13:39:05","","2756","5"
+"2900","1","2975","","2008-08-05 21:45:11","","6","4478","<p>I am getting the following error:</p>
+
+<blockquote>
+  <p>Access denied for user 'apache'@'localhost' (using password: NO)</p>
+</blockquote>
+
+<p>When using the following code:</p>
+
+<pre><code>&lt;?php
+
+include(""../includes/connect.php"");
+
+$query = ""SELECT * from story"";
+
+$result = mysql_query($query) or die(mysql_error());
+
+echo ""&lt;h1&gt;Delete Story&lt;/h1&gt;"";
+
+if (mysql_num_rows($result) &gt; 0) {
+    while($row = mysql_fetch_row($result)){
+          echo '&lt;b&gt;'.$row[1].'&lt;/b&gt;&lt;span align=""right""&gt;&lt;a href=""../process/delete_story.php?id='.$row[0].'""&gt;Delete&lt;/a&gt;&lt;/span&gt;';
+      echo '&lt;br /&gt;&lt;i&gt;'.$row[2].'&lt;/i&gt;';
+    }
+}
+else {
+   echo ""No stories available."";
+}
+?&gt;
+</code></pre>
+
+<p>The connect.php file contains my MySQL connect calls that are working fine with my INSERT queries in another portion of the software.  If I comment out the $result = mysql_query line, then it goes through to the else statement.  So, it is that line or the content in the if.</p>
+
+<p>I have been searching the net for any solutions, and most seem to be related to too many MySQL connections or that the user I am logging into MySQL as does not have permission.  I have checked both.  I can still perform my other queries elsewhere in the software, and I have verified that the account has the correct permissions.</p>
+
+<p>I think I just need an outside perspective as I have been staring at this little block of code all day.</p>
+
+<p>If any more information is needed, just let me know.</p>
+","454","","4248328","","2015-06-04 10:20:26","2015-08-13 21:29:31","MySQL/Apache Error in PHP MySQL query","<php><mysql>","11","0","","","","2900","5"
+"3611","1","3618","","2008-08-06 16:13:02","","5","9270","<p>I'm trying to write some php to upload a file to a folder on my webserver. Here's what I have:</p>
+
+<pre><code>&lt;?php
+    if ( !empty($_FILES['file']['tmp_name']) ) {
+        move_uploaded_file($_FILES['file']['tmp_name'], './' . $_FILES['file']['name']);
+        header('Location: http://www.mywebsite.com/dump/');
+        exit;
+    }
+?&gt;
+
+&lt;!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.1//EN""
+    ""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd""&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Dump Upload&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Upload a File&lt;/h1&gt;
+        &lt;form action=""upload.php"" enctype=""multipart/form-data"" method=""post""&gt;
+            &lt;input type=""hidden"" name=""MAX_FILE_SIZE"" value=""1000000000"" /&gt;
+            Select the File:&lt;br /&gt;&lt;input type=""file"" name=""file"" /&gt;&lt;br /&gt;
+            &lt;input type=""submit"" value=""Upload"" /&gt;
+        &lt;/form&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>I'm getting these errors:</p>
+
+<blockquote>
+  <p>Warning: move_uploaded_file(./test.txt) [function.move-uploaded-file]: failed to open stream: Permission denied in E:\inetpub\vhosts\mywebsite.com\httpdocs\dump\upload.php on line 3</p>
+  
+  <p>Warning: move_uploaded_file() [function.move-uploaded-file]: Unable to move 'C:\WINDOWS\Temp\phpA30E.tmp' to './test.txt' in E:\inetpub\vhosts\mywebsite.com\httpdocs\dump\upload.php on line 3</p>
+  
+  <p>Warning: Cannot modify header information - headers already sent by (output started at E:\inetpub\vhosts\mywebsite.com\httpdocs\dump\upload.php:3) in E:\inetpub\vhosts\mywebsite.com\httpdocs\dump\upload.php on line 4</p>
+</blockquote>
+
+<p>PHP version 4.4.7
+Running IIS on a Windows box. This particular file/folder has 777 permissions.</p>
+
+<p>Any ideas?</p>
+","402","","2185245","Steve Willard","2015-08-31 16:10:37","2015-08-31 16:10:37","PHP Error - Uploading a file","<php><windows><iis><upload>","7","0","3","","","3611","5"
+"3978","1","3998","","2008-08-06 21:02:16","","6","896","<p>In a language such as (since I'm working in it now) PHP, which supports procedural and object-oriented paradigms, is there a good rule of thumb for determining which paradigm best suits a new project? If not, how can you make the decision?</p>","572","","1190","Gaius","2008-08-23 16:16:33","2008-08-23 16:16:33","Multi-Paradigm Languages","<php><oop><paradigms><procedural>","2","0","1","","","3978","5"
+"4369","1","4385","","2008-08-07 03:46:47","","68","82632","<p>I have a directory structure like the following;</p>
+
+<blockquote>
+  <p>/script.php</p>
+  
+  <p>/inc/include1.php<br/>
+  /inc/include2.php</p>
+  
+  <p>/objects/object1.php<br/>
+  /objects/object2.php</p>
+  
+  <p>/soap/soap.php</p>
+</blockquote>
+
+<p>Now, I use those objects in both <code>script.php</code> and <code>/soap/soap.php</code>, I could move them, but I want the directory structure like that for a specific reason. When executing <code>script.php</code> the include path is <code>inc/include.php</code> and when executing <code>/soap/soap.php</code> it's <code>../inc</code>, absolute paths work, <code>/mnt/webdev/[project name]/inc/include1.php...</code> But it's an ugly solution if I ever want to move the directory to a different location.</p>
+
+<p>So is there a way to use relative paths, or a way to programically generate the <code>""/mnt/webdev/[project name]/""</code>?</p>
+","264","","1627086","Justin Standard","2013-04-21 05:22:08","2015-04-13 14:37:07","How to include PHP files that require an absolute path?","<php>","10","0","29","","","4369","5"
+"4430","1","12585","","2008-08-07 05:48:33","","37","111070","<p>Is there available any tool for PHP which can be used to generate code for consuming a <a href=""http://en.wikipedia.org/wiki/Web_service"">web service</a> based on its <a href=""http://en.wikipedia.org/wiki/Web_Services_Description_Language"">WSDL</a>? Something comparable to clicking ""Add Web Reference"" in Visual Studio or the Eclipse plugin which does the same thing for Java.</p>
+","349","","349","Chris Fournier","2013-01-29 12:53:38","2015-09-09 09:32:51","How to easily consume a web service from PHP","<php><web-services><visual-studio><wsdl>","6","0","31","","","4430","5"
+"4942","1","4978","","2008-08-07 16:43:21","","4","639","<p>When asked to create system XYZ and you ask to do it in Python over PHP or Ruby, what are the main features you can mention when they require you to explain it?</p>","1384652","","92","Justin Standard","2008-08-07 20:55:35","2015-09-29 15:18:37","How to sell Python to a client/boss/person with lots of cash","<php><python><ruby-on-rails><ruby>","8","0","1","","","4942","5"
+"4949","1","4965","","2008-08-07 16:46:32","","18","7580","<p>We have a php project that we would like to version control. Right now there are three of us working on a ""Dev"" version of the project that all have our Eclipse linked to it with just an external folder, and thus no version control.</p>
+
+<p>What is the right way, and what is the best way, to version control this (not necessarily the same I dont think)</p>
+
+<p>We have a SVN set up but just need to find a good way to check in and check out that lets us test on the dev server. Any ideas?</p>","673","","55","Ryan Fox","2008-08-17 02:10:19","2010-03-17 21:09:37","Version control PHP Web Project","<php><svn><version-control><cvs>","8","0","11","","","4949","5"
+"5025","1","5031","","2008-08-07 17:36:23","","5","425","<p>I'm wanting extra security for a particular point in my web app. So I want to lock the database (SQL Server 2005). Any suggestions or is this even necessary with SQL Server?</p>
+
+<p>Edit on question:</p>
+
+<p>The query is failing silently with no errors messages logged, and does not occur inside of a transaction.</p>
+
+<p>Final Solution:</p>
+
+<p>I never was able to solve the problem, however what I wound up doing was switching to MySQL and using a transactional level query here. This was not the main or even a primary reason to switch. I had been having problems with SQL Server and it allowed me to have our CMS and various other tools all running on the same database. Previous we had a SQL Server and a MySQL database running to run our site. The port was a bit on the time consuming however in the long run I feel it will work much better for the site and the business.</p>
+","657","","2641576","jtyost2","2014-11-25 20:55:37","2014-11-25 20:55:37","Locking a SQL Server Database with PHP","<php><sql-server><database><sql-server-2005>","2","2","","","","5025","5"
+"5459","1","19601","","2008-08-07 22:58:42","","4","430","<p>This is how I wanted to do it which would work in PHP 5.3.0+</p>
+
+<pre><code>&lt;?php
+    class MyClass
+    {
+        const CONSTANT = 'Const var';        
+    }
+
+    $classname = 'MyClass';
+    echo $classname::CONSTANT; // As of PHP 5.3.0
+?&gt;
+</code></pre>
+
+<p>But I'm restricted to using PHP 5.2.6. Can anyone think of a simple way to simulate this behaviour without instantiating the class?</p>","117","","1190","Gaius","2008-08-23 16:06:01","2008-08-23 16:06:01","Accessing a CONST attribute of series of Classes","<php><oop>","2","0","1","","","5459","5"
+"5611","1","5820","","2008-08-08 03:18:56","","12","3945","<p>I know that just using <code>rand()</code> is predictable, if you know what your doing, and have access to the server.</p>
+
+<p>I have a project that is HIGHLY dependent on choosing a random that is as unpredictable as possible. So I'm looking for suggestions, either other built in functions, or user functions that can generate a 'better' random number.</p>
+
+<p>I used this to do a little test:</p>
+
+<pre><code>$i = 0;
+while($i &lt; 10000){
+    $rand = rand(0, 100);
+    if(!isset($array[$rand])){
+        $array[$rand] = 1;
+    } else {
+        $array[$rand]++;
+    }
+    sort($array);
+    $i++;
+}
+</code></pre>
+
+<p>I found the results to be evenly distributed, and there is an odd pattern to the number of times each number is generated.</p>
+","115","","1090562","MrValdez","2015-07-16 03:20:29","2015-07-16 19:14:34","Better Random Generating PHP","<php><security><random>","6","1","3","","","5611","5"
+"5846","1","5848","","2008-08-08 12:34:20","","10","15468","<p>How do I turn the following 2 queries into 1 query</p>
+
+<pre><code>$sql = ""SELECT level FROM skills WHERE id = $id LIMIT 1;"";
+$result     = $db-&gt;sql_query($sql);
+$level      = (int) $db-&gt;sql_fetchfield('level');
+$db-&gt;sql_freeresult($result);
+
+++$level;
+
+$sql = ""UPDATE skills SET level = $level WHERE id = $id;"";
+$result = $db-&gt;sql_query($sql);
+$db-&gt;sql_freeresult($result);
+</code></pre>
+
+<p>I'm using it in a phpBB mod but the gist is that I grab the level, add one to it then update, it seems that it'd be much easier and faster if I could do it as one query.</p>
+
+<p>Edit: $id has already been forced to be an integer, thus no escaping is needed this time.</p>
+","1384652","","257","user317005","2012-11-14 12:45:58","2014-01-21 06:31:12","Add 1 to a field","<php><mysql>","8","0","2","","","5846","5"
+"5872","1","5887","","2008-08-08 12:57:55","","2","1576","<p>If you are working in PHP (or I guess any programming language) and using subversion as your source control, is there a way to take your project (for example):</p>
+
+<blockquote>
+  <p>C:\Projects\test\.svn<br>
+  C:\Projects\test\docs\<br>
+  C:\Projects\test\faq.php<br>
+  C:\Projects\test\guestbook.php<br>
+  C:\Projects\test\index.php<br>
+  C:\Projects\test\test.php</p>
+</blockquote>
+
+<p>and build/copy/whatever it so it weeds out certain files and becomes:</p>
+
+<blockquote>
+  <p>C:\Projects\test\faq.php<br>
+  C:\Projects\test\guestbook.php<br>
+  C:\Projects\test\index.php</p>
+</blockquote>
+
+<p>automatically? I'm getting tired of making a branch, and then going through the branch and deleting all of the "".svn"" folders, the docs directory, and my prototyping files.</p>
+
+<p>I know I could probably use a .bat file to only copy the specific files I want, but I was hoping there was some way with subversion to sort of pseudo ignore a file, to where it will still version it, but where you could make a snapshot of the project that ignores the files you told it to psuedo ignore.</p>
+
+<p>I know I read online somewhere about some functionality that at least lets you copy without the .svn folders, but I can't find it now.</p>
+","58","","1362287","Chris Fournier","2015-05-07 15:29:54","2015-05-07 15:29:54","Making a production build of a PHP project with Subversion","<php><svn><scripting><tortoisesvn><build-process>","3","0","","","","5872","5"
+"6594","1","6617","","2008-08-09 03:49:36","","7","1361","<p>What are some good steps to follow for a smooth migration from PHP4 to PHP5. What are some types of code that are likely to break?</p>","796","","","","","2011-05-02 00:36:06","PHP4 to PHP5 Migration","<php><migration>","4","0","3","2014-06-06 18:03:10","","6594","5"
+"6628","1","6649","","2008-08-09 05:01:38","","12","39650","<p>What is the difference, if any, between these methods of indexing into a PHP array:</p>
+
+<pre><code>$array[$index]
+$array[""$index""]
+$array[""{$index}""]
+</code></pre>
+
+<p>I'm interested in both the performance and functional differences.</p>
+
+<h3>Update:</h3>
+
+<p>(In response to @Jeremy) I'm not sure that's right. I ran this code:</p>
+
+<pre><code>  $array = array(100, 200, 300);
+  print_r($array);
+  $idx = 0;
+  $array[$idx] = 123;
+  print_r($array);
+  $array[""$idx""] = 456;
+  print_r($array);
+  $array[""{$idx}""] = 789;
+  print_r($array);
+</code></pre>
+
+<p>And got this output:</p>
+
+<pre><code>Array
+(
+    [0] =&gt; 100
+    [1] =&gt; 200
+    [2] =&gt; 300
+)
+
+Array
+(
+    [0] =&gt; 123
+    [1] =&gt; 200
+    [2] =&gt; 300
+)
+
+Array
+(
+    [0] =&gt; 456
+    [1] =&gt; 200
+    [2] =&gt; 300
+)
+
+Array
+(
+    [0] =&gt; 789
+    [1] =&gt; 200
+    [2] =&gt; 300
+)
+</code></pre>
+","103","","492203","","2011-05-01 09:56:40","2011-05-01 09:56:40","PHP array indexing: $array[$index] vs $array[""$index""] vs $array[""{$index}""]","<php><syntax>","7","0","4","","","6628","5"
+"6633","1","6694","","2008-08-09 05:13:55","","7","1340","<p>I have inherited some legacy PHP code what was written back when it was standard practice to use <a href=""http://php.net/register_globals"" rel=""nofollow""><code>register_globals</code></a> (As of PHP 4.2.0, this directive defaults to off, released 22. Apr 2002).</p>
+
+<p>We know now that it is bad for security to have it enabled. The problem is how do I find all the places in the code where I need to use <code>$_GET</code> or <code>$_POST</code>? My only thought was to set the error reporting to warn about uninitialized variables and then test each part of the site. Is there an easier way? Will I have to test each code path in the site or will PHP give a warnings on a file basis?</p>
+","796","","367456","","2011-11-13 13:50:30","2011-11-13 13:50:30","Making code work with register_globals turned off","<php><register-globals>","5","0","","","","6633","5"
+"7031","1","7087","","2008-08-10 04:00:06","","8","4954","<p>I have been using PHP and Javascript for building my dads website.  He wants to incorporate a login system into his website.  I have the design for the login system using PHP, my problem is how do I show buttons if the person is logged in.</p>
+
+<p>For Example - You have Home, Products, About Us, and Contact.  Well I want to have buttons for Dealer, Distributor, and maybe other information if the user is logged in.  So I will have Home, Products, About Us, Contacts, Dealer (if dealer login), Distributor (if distributor login), and so forth.  </p>
+
+<p>Would Javascript be a good way to do this or would php, maybe even both.  Using Javascript to show and hide buttons, and php to check to see which buttons to show.</p>","876","Dennis Wilson","3155639","Chris Fournier","2014-12-16 19:32:01","2014-12-16 19:32:01","Login Script with hidden buttons","<php><javascript><design>","6","0","2","","","7031","5"
+"7364","1","7455","","2008-08-10 21:58:24","","50","58617","<p>Does anyone know of a good method for editing PDFs in PHP? Preferably open-source/zero-license cost methods. :)</p>
+
+<p>I am thinking along the lines of opening a PDF file, replacing text in the PDF and then writing out the modified version of the PDF?</p>
+
+<p>I have programmatically created PDF files in the past using FPDF, but found it a little unwieldy at times.</p>
+","277","","","","","2014-09-09 10:29:43","PDF Editing in PHP?","<php><pdf>","10","2","39","2014-09-08 17:16:40","","7364","5"
+"7470","1","","","2008-08-11 01:32:16","","0","604","<p>After a couple hours fighting with the <a href=""http://gallery.menalto.com/"" rel=""nofollow"">Gallery2</a> <a href=""http://codex.gallery2.org/Gallery2:Modules:rss"" rel=""nofollow"">RSS module</a> and getting only the message, ""no feeds have yet been defined"", I gave up.  Based on <a href=""http://www.google.com/search?q=%22no+feeds+have+yet+been+defined%22"" rel=""nofollow"">a Google search for ""no feeds have yet been defined""</a>, this is a pretty common problem.  Do you have any tips and/or tricks for getting the Gallery2 RSS module to work?  Or any tips for a relatively-PHP-ignorant developer trying to debug problems with this PHP application?</p>
+","150","","2134","Chris Fournier","2008-08-23 17:25:15","2008-10-14 15:50:25","RSS feeds from Gallery2","<php><web-applications>","2","0","","","","7470","5"
+"7851","1","","","2008-08-11 15:12:53","","2","3585","<p>According to the <a href=""http://uk3.php.net/features.safe-mode"" rel=""nofollow"">PHP Safe Mode Docs</a> on safe_mode_gid:</p>
+
+<blockquote>
+  <p>By default, Safe Mode does a UID compare check when opening files. If you want to relax this to a GID compare, then turn on safe_mode_gid. Whether to use UID (FALSE) or GID (TRUE) checking upon file access.</p>
+</blockquote>
+
+<p>To a PHP script running on a web server, what is the difference between a UID (User identifier) check and a GID (Group identifier) check?</p>
+","840","","4223","jodonnell","2008-09-12 20:11:22","2010-09-23 11:48:18","What is PHP Safe Mode GID?","<php><unix>","4","0","","","","7851","5"
+"8276","1","8310","","2008-08-11 22:12:04","","6","1322","<p>I have inherited an old crusty PHP application, and I'd like to refactor it into something a little nicer to deal with, but in a gradual manner. In perl's CPAN, there is a series of classes around Class::DBI that allow you to use database rows as the basis for objects in your code, with the library generating accessor methods etc as appropriate, but also allowing you to add additional methods.</p>
+
+<p>Does anyone know of something like this for PHP? Especially something that doesn't require wholesale adoption of a ""framework""... bonus points if it works in PHP4 too, but to be honest, I'd love to have another reason to ditch that. :-)</p>
+","923","","923","AnotherHowie","2008-08-13 15:03:15","2008-09-09 18:50:55","Class::DBI-like library for php?","<php><perl><orm>","5","0","","","","8276","5"
+"8685","1","113115","","2008-08-12 11:14:27","","2","2275","<p>I'm trying to use <code>strtotime()</code> to respond to a button click to advance -1 and +1 days (two buttons) relative to the day advanced to on the previous click.  </p>
+
+<p><strong>Example:</strong>  </p>
+
+<ul>
+<li>It's the 10th of the month, I click ""-1 day"" button, and now the date reads as the 9th.  </li>
+<li>I click the ""-1 day"" button again and now the readout states the 8th day. </li>
+<li>I click the ""+1 day"" button and now the readout states it's the 9th.  </li>
+</ul>
+
+<p>I understand the buttons and the displaying the date, and using <code>$_GET</code> and php to pass info, but how do I get <code>strtotime()</code> to work on the relative date from the last time the time travel script was called.</p>
+
+<p>My work so far has let me show yesterday and today relative to <em>now</em> but not relative to, for example, the <em>day before yesterday</em>, or the <em>day after tomorrow</em>.  Or if I use my <strong>""last monday""</strong> button, the day before or after whatever that day is.</p>
+","1149","Kevin ","1567352","","2015-06-17 01:53:20","2015-06-17 01:53:20","Advancing through relative dates with strtotime()","<php>","4","0","","","","8685","5"
+"8726","1","8794","","2008-08-12 12:07:15","","2","1728","<p>I have a script that checks responses from HTTP servers using the PEAR HTTP classes. However, I've recently found that the script fails on FTP servers (and probably anything that's not HTTP or HTTPS). I tried Google, but didn't see any scripts or code that returned the server status code from servers other than HTTP servers.</p>
+
+<p>How can I find out the status of a newsgroup or FTP server using PHP?</p>
+
+<p>EDIT: I should clarify that I am interested only in the ability to read from an FTP server and the directory that I specify. I need to know if the server is dead/gone, I'm not authorized to read, etc.</p>
+
+<p>Please note that, although most of the time I'm language agnostic, the entire website is PHP-driven, so a PHP solution would be the best for easy of maintainability and extensibility in the future.</p>
+","572","Thomas Owens","2961","Stu Thompson","2008-09-17 08:00:59","2012-05-08 09:17:01","Checking FTP status codes with a PHP script","<php><http><ftp><pear><server-response>","3","0","","","","8726","5"
+"8864","1","8869","","2008-08-12 14:08:23","","43","13954","<p>Is there a difference between <code>NULL</code> and <code>null</code> in PHP? Sometimes they seem to be interchangeable and sometimes not.</p>
+
+<p>edit: for some reason when I read the documentation linked to in the answer (before posting this question) I read it as ""case sensitive"" instead of ""case insensitive"" which was the whole reason I posted this question in the first place...</p>
+","58","cmcculloh","41956","cmcculloh","2013-05-18 22:25:02","2013-05-18 22:28:26","Difference between NULL and null in PHP","<php><null>","3","1","7","","","8864","5"
+"8894","1","10140","","2008-08-12 14:35:46","","3","1553","<p><a href=""http://phppgadmin.sourceforge.net/doku.php?id=start"" rel=""nofollow"">Phppgadmin</a> comes with instructions for creating a reports database on the system for use with phppgadmin. The instructions describe how to set it up, but do not really give any indication of what its purpose is, and the phppgadmin site was not very helpful either.</p>
+
+<p>It seems to allow you to store SQL queries, so is it for storing admin queries accessing tables like <code>pg_class</code> etc?</p>
+","277","kaybenleroll","367456","kaybenleroll","2011-11-13 13:56:29","2011-11-13 13:56:29","Use for the phppgadmin Reports Database?","<php><database><postgresql><phppgadmin>","1","0","1","","","8894","5"
+"9455","1","113793","","2008-08-13 03:47:52","","4","452","<p>Has anyone been able to get xinc to run correctly under OpenBSD's chrooted default Apache? I'd like to keep our development server running fully chrooted just like our Production server so that we make sure our code runs just fine chrooted.</p>
+","204","dragonmantank","","","","2008-09-22 08:26:34","Running xinc on OpenBSD's Apache Server","<php><continuous-integration><openbsd><xinc>","4","0","","","","9455","5"
+"10228","1","10321","","2008-08-13 19:02:23","","22","9161","<p>Is there a way to get the tests inside of a TestCase to run in a certain order? For example, I want to seperate the lifecycle of an object from creation to use to destruction but need to make sure that the object is set up first before I run the other tests.</p>
+","204","dragonmantank","2134","Chris Fournier","2008-08-23 20:06:03","2014-12-17 22:50:08","Run PHPUnit Tests in Certain Order","<php><unit-testing><phpunit>","6","1","5","","","10228","5"
+"10515","1","10519","","2008-08-14 00:12:18","","4","1218","<p>Having been a PHP developer on LAMP servers for quite a while, is there anything that I will need to take into consideration while preparing an application for <em>IIS</em> on windows.</p>
+","115","Unkwntech","1612146","Nick Berardi","2013-04-04 15:31:14","2013-04-04 15:31:14","What do I need to run PHP applications on IIS?","<php><windows><iis><portability><lamp>","7","0","4","","","10515","5"
+"10532","1","10542","","2008-08-14 00:36:20","","2","690","<p>I've been using PHP &amp; MySQL for ages and am about to start using PostgreSQL instead.</p>
+
+<p>What's the preferred method?  </p>
+
+<p>Is it via the PDO objects or is there something better?</p>
+","305","Mark Biek","1612146","","2013-04-04 15:31:42","2013-04-04 15:31:42","What's the preferred way to connect to a postgresql database from PHP?","<php><postgresql>","6","0","","","","10532","5"
+"10990","1","11005","","2008-08-14 13:22:25","","23","43533","<p>Sorry for the basic question - I'm a .NET developer and don't have much experience with LAMP setups.</p>
+
+<p>I have a PHP site that will allow uploads to a specific folder. I have been told that this folder needs to be owned by the webserver user for the upload process to work, so I created the folder and then set permissions as such:</p>
+
+<pre><code>chown apache:apache -R uploads/
+chmod 755 -R uploads/
+</code></pre>
+
+<p>The only problem now is that the FTP user can not modify the uploaded files at all.</p>
+
+<p>Is there a permission setting that will allow me to still upload files and then modify them later as a user other than the webserver user?</p>
+","1153","81bronco","367456","","2011-11-13 13:47:43","2014-07-11 02:51:20","What are the proper permissions for an upload folder with PHP/Apache?","<php><apache><upload>","6","0","9","","","10990","5"
+"11532","1","14625","","2008-08-14 19:08:21","","38","10900","<p>How can I find unused functions in a PHP project?</p>
+
+<p>Are there features or API's built into PHP that will allow me to analyse my codebase - for example <a href=""http://ie.php.net/manual/en/language.oop5.reflection.php"">Reflection</a>, <a href=""http://php.net/manual/en/function.token-get-all.php""><code>token_get_all()</code></a>?</p>
+
+<p>Are these API's feature rich enough for me not to have to rely on a third party tool to perform this type of analysis?</p>
+","1142","","419","Stacey Richards","2012-06-19 22:15:13","2013-07-24 08:35:16","How can I find unused functions in a PHP project","<php>","8","4","31","","","11532","5"
+"11919","1","11924","","2008-08-15 03:05:13","","3","6836","<p>Okay, I've looked all over the internet for a good solution to get PHP and MySQL working on IIS7.0. It's nearly impossible, I've tried it so many times and given up in vain. Please please help by linking some great step-by-step tutorial to adding PHP and MySQL on IIS7.0 from scratch. PHP and MySQL are essential for installing any CMS.</p>
+","1392","z3r0p4r4d0x","1438393","","2014-12-22 20:25:27","2014-12-22 20:25:27","How do I get PHP and MySQL working on IIS 7.0?","<php><mysql><iis-7>","7","0","","","","11919","5"
+"12348","1","12349","","2008-08-15 15:17:30","","11","15993","<p>I'm running PHP 5.2.3 on Windows 2000 Server with IIS 5.  I'm trying
+to get cURL working, so in my <strong>php.ini</strong> file, I have this line:</p>
+
+<blockquote>
+  <p>extension_dir =""F:\PHP\ext""</p>
+</blockquote>
+
+<p>And later, I have:</p>
+
+<blockquote>
+  <p>extension=php_curl.dll</p>
+</blockquote>
+
+<p>The file <strong>F:\PHP\ext\php_curl.dll</strong> exists, but when I try to run any PHP
+script, I get this in the error log:</p>
+
+<blockquote>
+  <p>PHP Warning:  PHP Startup: Unable to load dynamic library 'F:\PHP\ext
+  \php_curl.dll' - The specified module could not be found.
+   in Unknown on line 0 </p>
+</blockquote>
+","1418","","1332690","","2012-04-25 16:41:03","2015-02-18 19:22:36","PHP / cURL on Windows install: ""The specified module could not be found.""","<php><windows><curl>","4","0","1","","","12348","5"
+"12576","1","12584","","2008-08-15 18:25:25","","9","1069","<p>What can I do to increase the performance/speed of my PHP scripts without installing software on my servers?</p>
+","115","Unkwntech","","","","2014-06-06 04:53:01","PHP performance","<php><performance>","12","0","7","","","12576","5"
+"12656","1","13092","","2008-08-15 19:50:52","","4","4372","<p>In a project that I'm about to wrap up, I've written and implemented an object-relational mapping solution for PHP. Before the doubters and dreamers cry out ""how on earth?"", relax -- I haven't found a way to make late static binding work -- I'm just working around it in the best way that I possibly can.</p>
+
+<p>Anyway, I'm not currently using prepared statements for querying, because I couldn't come up with a way to pass a variable number of arguments to the <code>bind_params()</code> or <code>bind_result()</code> methods. </p>
+
+<p>Why do I need to support a variable number of arguments, you ask? Because the superclass of my models (think of my solution as a hacked-up PHP ActiveRecord wannabe) is where the querying is defined, and so the find() method, for example, doesn't know how many parameters it would need to bind.</p>
+
+<p>Now, I've already thought of building an argument list and passing a string to eval(), but I don't like that solution very much -- I'd rather just implement my own security checks and pass on statements.</p>
+
+<p>Does anyone have any suggestions (or success stories) about how to get this done? If you can help me solve this first problem, perhaps we can tackle binding the result set (something I suspect will be more difficult, or at least more resource-intensive if it involves an initial query to determine table structure).</p>
+","1344","Brian Warshaw","1","Jeff Atwood","2008-08-16 11:35:43","2011-08-30 09:03:23","PHP + MYSQLI: Variable parameter/result binding with prepared statements","<php><mysql><orm><mysqli>","4","0","9","","","12656","5"
+"12661","1","12822","","2008-08-15 19:55:17","","69","64604","<p>What's the most efficient way to resize large images in PHP?</p>
+
+<p>I'm currently using the <a href=""http://en.wikipedia.org/wiki/GD_Graphics_Library"">GD</a> function imagecopyresampled to take high resolution images, and cleanly resize them down to a size for web viewing (roughly 700 pixels wide by 700 pixels tall).</p>
+
+<p>This works great on small (under 2 MB) photos and the entire resize operation takes less than a second on the server. However, the site will eventually service photographers who may be uploading images up to 10 MB in size (or images up to 5000x4000 pixels in size).</p>
+
+<p>Doing this kind of resize operation with large images tends to increase the memory usage by a very large margin (larger images can spike the memory usage for the script past 80 MB). Is there any way to make this resize operation more efficient? Should I be using an alternate image library such as <a href=""http://en.wikipedia.org/wiki/ImageMagick"">ImageMagick</a>?</p>
+
+<p>Right now, the resize code looks something like this</p>
+
+<pre><code>function makeThumbnail($sourcefile, $endfile, $thumbwidth, $thumbheight, $quality){
+// Takes the sourcefile (path/to/image.jpg) and makes a thumbnail from it
+// and places it at endfile (path/to/thumb.jpg).
+
+// Load image and get image size.
+$img = imagecreatefromjpeg($sourcefile);
+$width = imagesx( $img );
+$height = imagesy( $img );
+
+if ($width &gt; $height) {
+    $newwidth = $thumbwidth;
+    $divisor = $width / $thumbwidth;
+    $newheight = floor( $height / $divisor);
+}
+else {
+    $newheight = $thumbheight;
+    $divisor = $height / $thumbheight;
+    $newwidth = floor( $width / $divisor );
+}
+
+// Create a new temporary image.
+$tmpimg = imagecreatetruecolor( $newwidth, $newheight );
+
+// Copy and resize old image into new image.
+imagecopyresampled( $tmpimg, $img, 0, 0, 0, 0, $newwidth, $newheight, $width, $height );
+
+// Save thumbnail into a file.
+imagejpeg( $tmpimg, $endfile, $quality);
+
+// release the memory
+imagedestroy($tmpimg);
+imagedestroy($img);
+</code></pre>
+","1477","maxsilver","63550","","2010-01-16 16:31:00","2013-10-30 06:28:47","Efficient JPEG Image Resizing in PHP","<php><image><gd><jpeg>","9","0","63","","","12661","5"
+"12765","1","12769","","2008-08-15 21:18:30","","8","1693","<p>This is driving me crazy.</p>
+
+<p>I have this one php file on a test server at work which does not work.. I kept deleting stuff from it till it became </p>
+
+<pre>
+&lt;?
+print 'Hello';
+?>
+</pre>
+
+<p>it outputs </p>
+
+<blockquote>
+  <p>ï»¿Hello</p>
+</blockquote>
+
+<p>if I create a new file and copy / paste the same script to it it works!
+Why does this one file give me the strange characters all the time?</p>
+","","passaf","1701","Niyaz","2009-12-06 12:06:11","2009-12-06 12:06:11","Strange characters in PHP","<php><encoding>","3","0","1","","","12765","5"
+"12870","1","12878","","2008-08-15 23:07:03","","8","800","<p>This is a nasty one for me...  I'm a PHP guy working in Java on a JSP project.  I know how to do what I'm attempting through too much code and a complete lack of finesse.   I'd prefer to do it RIGHT. :) Here is the situation:</p>
+
+<p>I'm writing a small display to show customers what days they can water their lawns based on their watering group (ABCDE) and what time of year it is.  Our seasons look like this:
+Summer (5-1 to 8-31) 
+Spring  (3-1 to 4-30) 
+Fall (9-1 to 10-31)
+Winter (11-1 to 2-28) </p>
+
+<p>An example might be:</p>
+
+<p>If I'm in group A, here would be my allowed times:
+Winter: Mondays only
+Spring: Tues, Thurs, Sat
+Summer: Any Day
+Fall: Tues, Thurs, Sat</p>
+
+<p>If I was writing this in PHP I would use arrays like this:</p>
+
+<pre><code>//M=Monday,t=Tuesday,T=Thursday.... etc
+$schedule[""A""][""Winter""]='M';
+$schedule[""A""][""Spring""]='tTS';
+$schedule[""A""][""Summer""]='Any';
+$schedule[""A""][""Fall""]='tTS';
+$schedule[""B""][""Winter""]='t';
+</code></pre>
+
+<p>I COULD make the days arrays (array(""Tuesday"",""Thursday"",""Saturday"")) etc, but it is not necessary for what I'm really trying to accomplish.</p>
+
+<p>I will also need to setup arrays to determine what season I'm in:</p>
+
+<pre><code>$seasons[""Summer""][""start""]=0501;
+$seasons[""Summer""][""end""]=0801;
+</code></pre>
+
+<p>Can anyone suggest a really cool way to do this? I will have today's date and the group letter.  I will need to get out of my function a day (M) or a series of days (tTS), (Any).</p>
+
+<p>Thanks, folks!</p>
+","172","Bruce the Hoon","172","Bruce the Hoon","2008-09-23 20:45:58","2008-09-23 20:45:58","Arrays of Arrays in Java","<java><php><jsp><tomcat>","15","0","1","","","12870","5"
+"12896","1","12965","","2008-08-15 23:50:17","","21","29221","<p>I'm looking for good/working/simple to use php code for parsing raw email into parts.</p>
+
+<p>I've written a couple of brute force solutions, but every time, one small change/header/space/something comes along and my whole parser fails and the project falls apart.</p>
+
+<p>And before I get pointed at PEAR/PECL, I need actual code. My host has some screwy config or something, I can never seem to get the .so's to build right. If I do get the .so made, some difference in path/environment/php.ini doesn't always make it available (apache vs cron vs cli).</p>
+
+<p>Oh, and one last thing, I'm parsing the raw email text, NOT POP3, and NOT IMAP. It's being piped into the php script via a .qmail email redirect.</p>
+
+<p>I'm not expecting SOF to write it for me, I'm looking for some tips/starting points on doing it ""right"". This is one of those ""wheel"" problems that I know has already been solved.</p>
+","314","Uberfuzzy","1339820","","2013-06-07 14:50:02","2015-07-02 13:51:57","parsing raw email in php","<php><email>","11","0","11","","","12896","5"
+"12936","1","16749","","2008-08-16 00:55:53","","12","1661","<p>Does anybody have experience working with PHP accelerators such as <a href=""http://turck-mmcache.sourceforge.net/"" rel=""nofollow"">MMCache</a> or <a href=""http://www.zend.com/en/"" rel=""nofollow"">Zend Accelerator</a>?  I'd like to know if using either of these makes PHP comparable to <em>faster</em> web-technologies.  Also, are there trade offs for using these?</p>
+","40","&nbsp;","168868","Patrick McElhaney","2011-03-30 17:10:16","2012-04-13 10:09:13","Compiled PHP?","<php><caching><zend-optimizer>","10","1","3","","","12936","5"
+"13000","1","13003","","2008-08-16 05:05:09","","4","5048","<p>I want to define something like this in <em>php</em>:</p>
+
+<pre><code>$EL = ""\n&lt;br /&gt;\n"";
+</code></pre>
+
+<p>and then use that variable as an ""endline"" marker all over my site, like this:</p>
+
+<pre><code>echo ""Blah blah blah{$EL}"";
+</code></pre>
+
+<p>How do I define $EL once (in only 1 file), include it on every page on my site, and <em>not</em> have to reference it using the (strangely backwards) <code>global $EL;</code> statement in every page function?</p>
+","103","svec","1968705","","2013-02-17 07:06:20","2013-02-17 07:06:20","How to setup site-wide variables in php?","<php>","9","0","1","","","13000","5"

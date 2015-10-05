@@ -1,0 +1,639 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"25","1","1443907","","2008-08-01 12:13:50","","65","5909","<p>I've been having issues getting the C sockets API to work properly in C++. Specifically, although I am including <code>sys/socket.h</code>, I still get compile time errors telling me that <code>AF_INET</code> is not defined. Am I missing something obvious, or could this be related to the fact that I'm doing this coding on <code>z/OS</code> and my problems are much more complicated?</p>
+
+<hr>
+
+<p><strong>Update</strong>: Upon further investigation, I discovered that there is an #ifdef that I'm hitting. Apparently <code>z/OS</code> isn't happy unless I define which ""type"" of sockets I'm using with:</p>
+
+<pre><code>#define _OE_SOCKETS
+</code></pre>
+
+<p>Now, I personally have no idea what this <code>_OE_SOCKETS</code> is actually for, so if any <code>z/OS</code> sockets programmers are out there (all 3 of you), perhaps you could give me a rundown of how this all works?</p>
+","23","","23","","2015-04-10 15:25:02","2015-04-10 15:25:02","How to use the C socket API in C++ on z/OS","<c++><c><sockets><mainframe><zos>","10","0","3","","","25","8"
+"263","1","607","","2008-08-01 23:27:24","","17","5739","<p>I have been trying to implement Win32's <code>MessageBox</code> using GTK. The app using SDL/OpenGL, so this isn't a GTK app. </p>
+
+<p>I handle the initialisation (<code>gtk_init</code>) sort of stuff inside the <code>MessageBox</code> function as follows:</p>
+
+<pre><code>int MessageBox(HWND hwnd, const char* text, const char* caption, UINT type)
+{
+    GtkWidget *window = NULL;
+    GtkWidget *dialog = NULL;
+
+    gtk_init(&amp;gtkArgc, &amp;gtkArgv);
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    g_signal_connect(G_OBJECT(window), ""delete_event"", G_CALLBACK(delete_event), NULL);
+    g_signal_connect(G_OBJECT(window), ""destroy"", G_CALLBACK(destroy), NULL);
+    // gcallback calls gtk_main_quit()
+    gtk_init_add((GtkFunction)gcallback, NULL);
+
+    if (type &amp; MB_YESNO) {
+        dialog = gtk_message_dialog_new(GTK_WINDOW(window), GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_QUESTION, GTK_BUTTONS_YES_NO, text);
+    } else {
+        dialog = gtk_message_dialog_new(GTK_WINDOW(window), GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_INFO, GTK_BUTTONS_OK, text);
+    }
+
+    gtk_window_set_title(GTK_WINDOW(dialog), caption);
+    gint result = gtk_dialog_run(GTK_DIALOG(dialog));
+
+    gtk_main();
+
+    gtk_widget_destroy(dialog);
+
+    if (type &amp; MB_YESNO) {
+        switch (result) {
+        default:
+        case GTK_RESPONSE_DELETE_EVENT:
+        case GTK_RESPONSE_NO:
+            return IDNO;
+            break;
+        case GTK_RESPONSE_YES:
+            return IDYES;
+            break;
+        }
+    }
+
+    return IDOK;
+} 
+</code></pre>
+
+<p>Now, I am by no means an experienced GTK programmer, and I realise that I'm probably doing something(s) horribly wrong.</p>
+
+<p>However, my problem is that the last dialog popped up with this function stays around until the process exits. Any ideas?</p>
+","61","","1039608","Bernard","2012-05-04 09:35:11","2012-05-04 09:35:11","GTK implementation of MessageBox","<c++><c><linux><gtk><x11>","3","1","2","","","263","8"
+"1145","1","1154","","2008-08-04 11:06:00","","4","5195","<p>I've tried to write a string replace function in C, which works on a <code>char *</code>, which has been allocated using <code>malloc()</code>.  It's a little different in that it will find and replace strings, rather than characters in the starting string.</p>
+
+<p>It's trivial to do if the search and replace strings are the same length (or the replace string is shorter than the search string), since I have enough space allocated.  If I try to use <code>realloc()</code>, I get an error that tells me I am doing a double free - which I don't see how I am, since I am only using <code>realloc()</code>.</p>
+
+<p>Perhaps a little code will help:</p>
+
+<pre><code>void strrep(char *input, char *search, char *replace) {
+    int searchLen = strlen(search);
+    int replaceLen = strlen(replace);
+    int delta = replaceLen - searchLen;
+    char *find = input;
+    while (find = strstr(find, search)) {
+        if (delta &gt; 0) {
+            realloc(input, strlen(input) + delta);
+            find = strstr(input, search);            
+        }
+        memmove(find + replaceLen, find + searchLen, strlen(input) - (find - input));
+        memmove(find, replace, replaceLen);
+    }
+}
+</code></pre>
+
+<p>The program works, until I try to <code>realloc()</code> in an instance where the replaced string will be longer than the initial string.  (It still kind of works, it just spits out errors as well as the result).</p>
+
+<p>If it helps, the calling code looks like:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;stdlib.h&gt;
+
+void strrep(char *input, char *search, char *replace);
+
+int main(void) {
+    char *input = malloc(81);
+    while ((fgets(input, 81, stdin)) != NULL) {
+        strrep(input, ""Noel"", ""Christmas"");
+    }
+}
+</code></pre>
+","188","","188","Matthew Schinckel","2014-07-15 07:40:42","2014-07-15 07:40:42","Why am I getting a malloc: double free error with realloc()?","<c><malloc>","9","0","1","","","1145","8"
+"1311","1","","","2008-08-04 15:02:41","","5","363","<p>How do you specify a callback for <code>rb-&gt;pcm_play_data()</code>?</p>
+","306","","95135","","2010-02-17 22:15:50","2015-07-17 18:41:51","Rockbox audio format","<c><audio><rockbox>","0","0","","","","1311","8"
+"2540","1","2697","","2008-08-05 16:30:37","","35","5630","<p>What are good libraries for C with datastructures like vectors, deques, stacks, hashmaps, treemaps, sets, etc.? Plain C, please, and platform-independent.</p>","136","","-1","","2008-09-10 18:13:55","2014-04-24 06:52:28","Good STL-like library for C","<c><architecture><data-structures>","5","0","21","2014-04-03 15:36:28","","2540","8"
+"2844","1","2850","","2008-08-05 20:59:29","","183","335836","<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    unsigned long long int num = 285212672; //FYI: fits in 29 bits
+    int normalInt = 5;
+    printf(""My number is %d bytes wide and its value is %ul. A normal number is %d.\n"", sizeof(num), num, normalInt);
+    return 0;
+}
+</code></pre>
+
+<p>Output:</p>
+
+<pre><code>My number is 8 bytes wide and its value is 285212672l. A normal number is 0.
+</code></pre>
+
+<p>I assume this unexpected result is from printing the <code>unsigned long long int</code>. How do you <code>printf()</code> an <code>unsigned long long int</code>?</p>
+","432","","3888438","","2015-03-14 15:57:00","2015-07-26 09:57:06","How do you printf an unsigned long long int(the format specifier for unsigned long long int)?","<c><syntax><printf><format-specifiers><long-long>","10","4","33","","","2844","8"
+"2873","1","2927","","2008-08-05 21:19:40","","36","18430","<p>I'm working on a project where I'm coding in C in a UNIX environment. I've been using the lint tool to check my source code. Lint has been around a long time (since 1979), can anyone suggest a more recent code analysis tool I could use ? Preferably a tool that is free.</p>","381","","","","","2015-06-26 12:01:12","Choosing a static code analysis tool","<c><unix><testing>","15","2","13","","","2873","8"
+"3231","1","842632","","2008-08-06 09:51:06","","14","13800","<p>I want to write C/C++ programs that take input from a MIDI device. </p>
+
+<p>The MIDI device connects to my PC using a USB connector. </p>
+
+<p>I'm looking for a (C/C++ implemented) library that I can use to read the MIDI signals from the MIDI device through the USB port.</p>
+
+<p>I'm happy manipulating the MIDI data once I get it, I just don't want to have to implement the code for its capture.</p>
+
+<p>I'm planning on writing my code using the Bloodshed Dev-C++ IDE on Windows XP.</p>","381","","-1","","2008-09-10 18:13:56","2014-07-18 17:17:09","C/C++ library for reading MIDI signals from a USB MIDI device","<c++><c><midi><signal-processing>","3","0","1","","","3231","8"
+"4051","1","4192","","2008-08-06 22:01:25","","36","68800","<p>In C can I pass a multidimensional array to a function as a single argument when I don't know what the dimensions of the array are going to be ?</p>
+
+<p>In addition my multidimensional array may contain types other than strings.</p>","381","","381","David","2008-08-06 22:20:54","2015-04-29 23:38:48","Passing multidimensional arrays as function arguments in C","<c>","4","0","18","","","4051","8"
+"4824","1","4838","","2008-08-07 15:00:34","","19","40475","<p>Is there a C library function that will return the index of a character in a string?</p>
+
+<p>So far, all I've found are functions like strstr that will return the found char *, not it's location in the original string.</p>","75","","","","","2010-10-24 23:33:33","String.indexOf function in C","<c><string>","5","0","4","","","4824","8"
+"5136","1","5302","","2008-08-07 18:47:58","","4","1590","<p>A researcher has created a small simulation in MATLAB, and we want to make it accessible to others. My plan is to take the simulation, clean up a few things, and turn it into a set of functions. Then, I plan to compile it into a C library and use SWIG to create a Python wrapper. At that point, I should be able to call the simulation from a small Django app. At least, I hope so.</p>
+
+<p>Do I have the right plan? Has anyone else done something similar? Can you let me know if there are some serious pitfalls I'm not aware of at the moment?</p>","676","","1714410","","2013-12-24 16:37:38","2013-12-24 16:37:38","Does anyone have experience creating a shared library in MATLAB?","<python><c><matlab>","4","0","","","","5136","8"
+"5727","1","5754","","2008-08-08 06:17:51","","443","46843","<p>Why are pointers such a leading factor of confusion for many new, and even old, college level students in C or C++?  Are there any tools or thought processes that helped you understand how pointers work at the variable, function, and beyond level?</p>
+
+<p>What are some good practice things that can be done to bring somebody to the level of, ""Ah-hah, I got it,"" without getting them bogged down in the overall concept? Basically, drill like scenarios.</p>
+","568","","193778","superjoe30","2010-05-23 12:28:00","2015-02-25 17:04:17","What are the barriers to understanding pointers and what can be done to overcome them?","<c++><c><pointers>","28","7","409","2014-02-08 22:14:29","2010-01-13 14:01:00","5727","8"
+"6512","1","6566","","2008-08-09 01:18:37","","42","5052","<p>I'm working on a Scheme interpreter written in C. Currently it uses the C runtime stack as its own stack, which is presenting a minor problem with implementing continuations. My current solution is manual copying of the C stack to the heap then copying it back when needed. Aside from not being standard C, this solution is hardly ideal.</p>
+
+<p>What is the simplest way to implement continuations for Scheme in C?</p>","658","Kyle","201359","","2011-10-30 15:18:29","2013-05-02 16:05:42","How to implement continuations?","<c><lisp><scheme><continuations>","11","0","34","","","6512","8"
+"7084","1","13858","","2008-08-10 07:50:54","","15","1213","<p>I've worked on a number of different embedded systems.  They have all used typedefs (or #defines) for types such as UINT32.</p>
+
+<p>This is a good technique as it drives home the size of the type to the programmer and makes you more conscious of chances for overflow etc.</p>
+
+<p>But on some systems you know that the compiler and processor won't change for the life of the project.</p>
+
+<p>So what should influence your decision to create and enforce project-specific types?</p>
+
+<p>EDIT
+I think I managed to lose the gist of my question, and maybe it's really two.</p>
+
+<p>With embedded programming you may need types of specific size for interfaces and also to cope with restricted resources such as RAM.  This can't be avoided, but you can choose to use the basic types from the compiler.</p>
+
+<p>For everything else the types have less importance.<br />
+You need to be careful not to cause overflow and may need to watch out for register and stack usage.  Which may lead you to UINT16, UCHAR.
+Using types such as UCHAR can add compiler 'fluff' however.  Because registers are typically larger, some compilers may add code to force the result into the type.<br />
+<PRE>    i++;</PRE>
+can become
+<PRE>    ADD REG,1
+    AND REG, 0xFF</PRE>
+which is unecessary.</p>
+
+<p>So I think my question should have been :-</p>
+
+<p>given the constraints of embedded software what is the best policy to set for a project which will have many people working on it - not all of whom will be of the same level of experience.</p>
+","888","","3043","itj","2012-04-05 18:51:08","2015-06-10 16:43:56","When should I use type abstraction in embedded systems","<c><embedded>","8","0","6","","","7084","8"
+"7209","1","119880","","2008-08-10 14:49:10","","5","1540","<p>I'm trying to alpha blend sprites and backgrounds with <a href=""http://www.devkitpro.org/"" rel=""nofollow"" title=""BenQ X-Touch"">devkitPro</a> (including libnds, libarm, etc).</p>
+
+<p>Does anyone know how to do this?</p>
+","209","","1599","MrValdez","2008-10-22 10:26:12","2011-09-19 07:27:45","Alpha blending sprites in Nintendo DS Homebrew","<c++><c><nintendo-ds>","3","0","2","","","7209","8"
+"7398","1","26994","","2008-08-10 23:10:53","","6","1237","<p>I haven't seen any questions relating to GNU autoconf/automake builds, but I'm hoping at least some of you out there are familiar with it.  Here goes:</p>
+
+<p>I have a project (I'll call it myproject) that includes another project (vendor).  The vendor project is a standalone project maintained by someone else.  Including a project like this is fairly <a href=""http://www.gnu.org/software/autoconf/manual/autoconf.html#Subdirectories"">straightforward</a>, but in this case there is a tiny snag: each project generates its own config.h file, each of which defines standard macros such as PACKAGE, VERSION, etc.  This means that, during the build, when vendor is being built, I get lots of errors like this:</p>
+
+<pre><code>... warning: ""VERSION"" redefined
+... warning: this is the location of the previous definition
+... warning: ""PACKAGE"" redefined
+... warning: this is the location of the previous definition
+</code></pre>
+
+<p>These are just warnings, for the time being at least, but I would like to get rid of them.  The only relevant information I've been able to turn up with a google search is <a href=""http://sourceware.org/ml/automake/2004-03/msg00130.html"">this</a> thread on the automake mailing list, which isn't a whole lot of help.  Does anybody else have any better ideas?</p>
+","737","","","","","2008-08-25 21:52:23","How to avoid redefining VERSION, PACKAGE, etc","<c><linux><unix><autoconf><automake>","3","0","","","","7398","8"
+"7622","1","7636","","2008-08-11 08:55:13","","70","113262","<p>In C, are the shift operators (<code>&lt;&lt;</code>, <code>&gt;&gt;</code>) arithmetic or logical?</p>
+","973","littlebyte","183120","tj9991","2015-07-31 06:03:54","2015-08-25 07:37:30","Shift operator in C","<c><binary><bit-manipulation><bit-shift>","10","0","27","","","7622","8"
+"7981","1","8035","","2008-08-11 17:28:56","","4","2588","<p>I'm working on bringing some old code from 1998 up to the 21st century.  One of the first steps in the process is converting the printf statements to <a href=""http://qt-project.org/doc/qt-4.8/qstring.html"" rel=""nofollow"">QString</a> variables.  No matter how many times I look back at printf though, I always end up forgetting one thing or the other.  So, for fun, let's decode it together, for ole' times sake and in the process create the first little <strong>'printf primer'</strong> for Stackoverflow.</p>
+
+<p>In the code, I came across this little gem,</p>
+
+<pre><code>printf(""%4u\t%016.1f\t%04X\t%02X\t%1c\t%1c\t%4s"", a, b, c, d, e, f, g);
+</code></pre>
+
+<p>How will the variables a, b, c, d, e, f, g be formatted?</p>
+","25","","560441","joopjoob","2013-02-17 00:13:52","2013-02-17 00:13:52","Decoding printf statements in C (Printf Primer)","<c><qt><printf><qstring>","6","0","1","","","7981","8"
+"8236","1","8384","","2008-08-11 21:16:30","","65","53049","<p>How can I figure out the size of a file, in bytes?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+unsigned int fsize(char* file){
+  //what goes here?
+}
+</code></pre>
+","432","","527702","superjoe30","2011-04-05 00:08:32","2015-09-05 02:16:40","How do you determine the size of a file in C?","<c><file><io><filesize>","12","0","19","","","8236","8"
+"9410","1","9413","","2008-08-13 02:16:32","","258","212217","<p>I want to create a function that performs a function passed by parameter on a set of data. How do you pass a function as a parameter in C?</p>
+","432","superjoe30","20984","","2012-05-25 15:40:06","2015-09-28 13:01:53","How do you pass a function as a parameter in C?","<c><syntax><pointers><function>","5","3","112","","","9410","8"
+"9589","1","12064","","2008-08-13 08:47:36","","34","28191","<p>I'm looking for a tool which can generate makefile for a C/C++ project for different compilers (gcc, microsoft vc++, borland etc) and different platforms (Win, Linux, Mac).</p>
+","1007","Serge","23855","chills42","2008-11-03 13:10:16","2013-03-05 18:04:00","any good tool for makefile generation?","<c++><c><cross-platform><make>","10","0","12","2014-05-12 03:27:43","","9589","8"
+"10324","1","10327","","2008-08-13 20:20:27","","9","118761","<p>In C what is the most efficient way to convert a hexadecimal value to its base 10 value?</p>
+
+<p>For example, if I have <code>0xFFFFFFFE</code> the result would be <code>4294967294</code>.</p>
+","","M","","user2045557","2013-12-24 06:24:01","2014-06-18 10:05:50","How can I convert a hexadecimal number to base 10 efficiently in C?","<c><hex>","13","0","2","","","10324","8"
+"10443","1","","","2008-08-13 22:40:57","","6","1463","<p>I have this program, we'll call it Host. Host does all kinds of good stuff, but it needs to be able to accept input through the command line <strong>while it's running</strong>. This means it has to somehow send its other process data and then quit. For example, I need to be able to do this:</p>
+
+<pre><code>./Host --blahblah 3 6 3 5
+</code></pre>
+
+<p>This should somehow end up calling some function in Host called</p>
+
+<pre><code>handleBlahBlah(int x1, int y1, int x2, int y2){
+  //do some more sweet stuff
+}
+</code></pre>
+
+<p>Host is a C program, and does not need to support multiple instances.</p>
+
+<p>An example of this is Amarok music player. With Amarok running and playing, you can type ""amarok --pause"" and it will pause the music.</p>
+
+<p>I need to be able to do this in Linux or Windows. Preferably Linux.</p>
+
+<p>What is the cleanest way to implement this?</p>
+","432","superjoe30","56338","superjoe30","2010-08-11 16:58:25","2010-08-11 17:32:45","Send messages to program through command line","<c><architecture><command-line><io>","6","1","2","","","10443","8"
+"10668","1","","","2008-08-14 04:31:32","","13","7756","<p>I've been trying to understand how to read the memory of other processes on Mac OS X, but I'm not having much luck. I've seen many examples online using <code>ptrace</code> with <code>PEEKDATA</code> and such, however it doesn't have that option on BSD <sup>[<a href=""http://developer.apple.com/documentation/Darwin/Reference/ManPages/man2/ptrace.2.html""><code>man ptrace</code></a>]</sup>.</p>
+
+<pre><code>int pid = fork();
+if (pid &gt; 0) {
+    // mess around with child-process's memory
+}
+</code></pre>
+
+<p>How is it possible to read and write the memory of anther process on Mac OS X?</p>
+","1114","Jeremy Banks","1114","Chris Hanson","2013-10-07 16:37:53","2014-07-27 20:12:47","Reading Other Process' Memory in OS X?","<c><osx><memory><ptrace>","8","6","4","","","10668","8"
+"10680","1","10686","","2008-08-14 04:53:45","","11","4389","<p>Is there any difference between</p>
+
+<pre><code>   int on_exit(void (*function)(int , void *), void *arg);
+</code></pre>
+
+<p>and</p>
+
+<pre><code>   int atexit(void (*function)(void));
+</code></pre>
+
+<p>other than the fact that the function used by on_exit gets the exit status?</p>
+
+<p>That is, if I don't care about the exit status, is there any reason to use one or the other?</p>
+
+<p><strong>Edit:</strong> Many of the answers warned against <code>on_exit</code> because it's non-standard. If I'm developing an app that is for internal corporate use and guaranteed to run on specific configurations, should I worry about this? </p>
+","1084","Nathan Fellman","25507","","2011-09-27 13:33:11","2011-09-27 13:33:11","Is there a difference between the on_exit() and atexit() functions?","<c><linux>","5","0","","","","10680","8"
+"11330","1","","","2008-08-14 16:51:07","","8","11767","<p>Let's say I'm creating a chess program. I have a function</p>
+
+<pre><code>void foreachMove( void (*action)(chess_move*), chess_game* game);
+</code></pre>
+
+<p>which will call the function pointer action on each valid move. This is all well and good, but what if I need to pass more parameters to the action function? For example:</p>
+
+<pre><code>chess_move getNextMove(chess_game* game, int depth){
+  //for each valid move, determine how good the move is
+  foreachMove(moveHandler, game);
+}
+
+void moveHandler(chess_move* move){
+  //uh oh, now I need the variables ""game"" and ""depth"" from the above function
+}
+</code></pre>
+
+<p>Redefining the function pointer is not the optimal solution. The foreachMove function is versatile and many different places in the code reference it. It doesn't make sense for each one of those references to have to update their function to include parameters that they don't need.</p>
+
+<p>How can I pass extra parameters to a function that I'm calling through a pointer?</p>
+","432","superjoe30","-1","","2008-09-09 21:13:55","2013-04-08 05:08:22","Passing more parameters in C function pointers","<c><architecture><pointers>","9","0","","","","11330","8"
+"12332","1","12408","","2008-08-15 15:08:48","","17","1929","<p>I am looking for a more technical explanation then the OS calls the function.
+Can anyone help me out or point me to a website or book?</p>
+
+<p>Thanks.</p>
+","","John","123","Prakash","2008-10-16 12:35:21","2015-04-13 14:59:01","In a C/C++ program how does the system (windows, linux, mac OS X) call the main() function","<c++><c><main>","7","0","5","","","12332","8"
+"12489","1","","","2008-08-15 17:15:04","","31","62987","<p>How do you scan a directory for folders and files in C? It needs to be cross-platform.</p>
+","432","superjoe30","","","","2013-02-04 00:52:29","How do you get a directory listing in C?","<c><file><folders><common-tasks>","8","0","12","","","12489","8"
+"13128","1","13140","","2008-08-16 13:46:01","","31","15157","<p>I'm tired of adding ten link libraries into my project, or requiring eight of them to use my own. I'd like to take existing libraries like libpng.a, libz.a, libjpeg.a, and combine them into one single .a library. Is that possible? How about combining .lib libraries?</p>
+","1536","Kronikarz","-1","","2008-09-10 18:13:50","2014-12-28 11:43:54","How to combine several C/C++ libraries into one?","<c++><c><archive>","6","0","8","","","13128","8"
+"13473","1","13481","","2008-08-17 02:13:55","","4","8787","<p>I need to take an array and sort it in c/c++, replacing each value with its' ""rank"", an integer that corresponds to its position after sort.  Heres an example:  Input: 1,3,4,9,6.  Output: 1, 2, 3, 5, 4.  So, I need to replace each value with its position relative to all the other values.  I hope that makes sense, but its late, so who knows :p.  Thanks in advance.<br>
+Edit: I am using a shell sort procedure, and duplicates' ranks are arbitrarily chosen, based on which came first in the original array.</p>
+
+<h3>Update:</h3>
+
+<p>Despite my best efforts, I havent been able to implement a sort algorithm that sorts an array of pointerse by the values they point to.  Could someone please tell me whats going wrong?  The current example wont compile, and I've changed it around so much that it doesnt really matter.  I'd very much appreciate it if someone could help me fix this!</p>
+
+<pre><code>void SortArray( int ** pArray, int ArrayLength ) {
+
+    int i, j, flag = 1;    // set flag to 1 to begin initial pass
+    int * temp;    // holding variable orig with no *
+    for(i = 1; (i &lt;= ArrayLength) &amp;&amp; flag; i++)
+    {
+        flag = 0;
+        for (j=0; j &lt; (ArrayLength -1); j++)
+        {
+            if (*pArray[j+1] &gt; *pArray[j])    // ascending order simply changes to &lt;
+            { 
+                &amp;temp = &amp;pArray[j];    // swap elements
+                &amp;pArray[j] = &amp;pArray[j+1];    //the problem lies somewhere in here
+                &amp;pArray[j+1] = &amp;temp;
+                flag = 1;    // indicates that a swap occurred.
+            }
+        }
+    }
+};
+</code></pre>
+
+<p>Thanks in advance.</p>
+","522","Ed","2185245","Ed","2015-08-31 17:57:32","2015-08-31 17:57:32","How does one rank an array (sort) by value? *With a twist*","<c++><c><arrays><sorting>","5","0","3","","","13473","8"
+"13981","1","","","2008-08-17 22:23:58","","2","567","<p>I understand that the <code>Ruby 1.8 AST</code> is traversed at runtime using a big switch statement, and many things like calling a method in a class or parent module involve the interpreter looking up and down the tree as it goes. Is there a straightforward way of accessing this <code>AST</code> in a <code>Ruby C</code> extension? Does it involve the Ruby extension API, or necessitate hacking the internal data structures directly?</p>
+","14446","maetl","1584286","","2013-07-04 12:15:19","2015-08-11 07:46:15","How do I access the Ruby AST from C level code?","<c><ruby><tree><interpreter>","2","0","","","","13981","8"
+"14165","1","14169","","2008-08-18 04:13:34","","6","1354","<p>I'm seeing strange errors when my C++ code has min() or max() calls. I'm using Visual C++ compilers.</p>
+","1630","Ash","1630","Ash","2008-08-18 05:33:47","2011-08-19 17:39:24","Strange C++ errors with code that has min()/max() calls","<c++><c><windows>","6","1","","","","14165","8"
+"14287","1","14290","","2008-08-18 07:45:33","","43","62162","<p>In my C/C++ program, I'm using <a href=""http://opencvlibrary.sourceforge.net/"">OpenCV</a> to capture images from my webcam. The camera (<a href=""http://en.wikipedia.org/wiki/Quickcam"">Logitech QuickCam IM</a>) can capture at resolutions <strong>320x240</strong>, <strong>640x480</strong> and <strong>1280x960</strong>. But, for some strange reason, OpenCV gives me images of resolution <strong>320x240</strong> only. Calls to change the resolution using <strong>cvSetCaptureProperty()</strong> with other resolution values just don't work. How do I capture images with the other resolutions possible with my webcam?</p>
+","1630","Ash","305","Mark Biek","2008-08-31 01:40:53","2015-09-10 14:19:40","Increasing camera capture resolution in OpenCV","<c><image><opencv><webcam><resolutions>","15","1","25","","","14287","8"
+"14698","1","23585","","2008-08-18 14:32:41","","3","4569","<p>When I try to precompile a *.pc file that contains a #warning directive I recieve the following error:</p>
+
+<blockquote>
+  <p>PCC-S-02014, Encountered the symbol ""warning"" when expecting one of the following: (bla bla bla).</p>
+</blockquote>
+
+<p>Can I somehow convince Pro*C to ignore the thing if it doesn't know what to do with it? I can't remove the <code>#warning</code> directive as it's used in a header file that I can't change and must include.</p>
+","1733","Maximilian","635608","","2013-09-14 09:59:43","2013-09-14 09:59:43","How to make Pro*C cope with #warning directives?","<c><oracle><oracle-pro-c>","7","0","","","","14698","8"
+"15240","1","15269","","2008-08-18 21:22:20","","29","19291","<p>I'd like to make a debug logging function with the same parameters as <code>printf</code>.  But one that can be removed by the pre-processor during optimized builds.</p>
+
+<p>For example:</p>
+
+<pre><code>Debug_Print(""Warning: value %d &gt; 3!\n"", value);
+</code></pre>
+
+<p>I've looked at variadic macros but those aren't available on all platforms. <code>gcc</code> supports them, <code>msvc</code> does not.</p>
+","1841","hyperlogic","3204551","hyperlogic","2015-03-10 21:13:06","2015-03-10 21:13:06","How do you create a debug only function that takes a variable argument list? Like printf()","<c++><c><preprocessor><c-preprocessor>","13","1","12","","","15240","8"
+"15838","1","15846","","2008-08-19 07:28:31","","6","2467","<p>Can the performance of this sequential search algorithm (taken from 
+<a href=""http://books.google.co.uk/books?id=to6M9_dbjosC&amp;dq=the+practice+of+programming&amp;pg=PP1&amp;ots=3YH6Ggq0_a&amp;sig=F2-ajdO37xA4iRec2sCyQF55Jjc&amp;hl=en&amp;sa=X&amp;oi=book_result&amp;resnum=1&amp;ct=result"">The Practice of Programming</a>) be improved using any of C's native utilities, e.g. if I set the i variable to be a register variable ?</p>
+
+<pre><code>int lookup(char *word, char*array[])
+{
+    int i
+
+    for (i = 0; array[i] != NULL; i++)
+        if (strcmp(word, array[i]) == 0)
+            return i;
+
+    return -1;
+}
+</code></pre>
+","381","David","770","Martin","2008-08-19 09:57:36","2013-11-21 09:13:50","Optimizing a search algorithm in C","<c><performance><algorithm><optimization>","10","1","","","","15838","8"
+"16615","1","22910","","2008-08-19 17:44:27","","17","6580","<p>I'm new to windows programming and I'm trying to get notified of all changes to the file system (similar to the information that FileMon from SysInternals displays, but via an API). Is a FindFirstChangeNotification for each (non-network, non-substed) drive my best bet or are there other more suitable C/C++ APIs?</p>
+","1849","Free Wildebeest","1849","Free Wildebeest","2008-08-19 17:59:41","2012-07-03 14:54:47","Is FindFirstChangeNotification the best API to use for file system change notification on windows?","<c><windows><winapi><file><notifications>","4","0","8","","","16615","8"
+"17140","1","","","2008-08-19 22:53:47","","17","24422","<p>How do you run an external program and pass it command line parameters using C? If you have to use operating system API, include a solution for Windows, Mac, and Linux.</p>
+","432","superjoe30","-1","","2008-09-09 23:13:43","2015-04-16 23:13:35","How do you spawn another process in C?","<c><api><process>","8","1","4","","","17140","8"
+"17299","1","17312","","2008-08-20 01:44:58","","1","1246","<p>I am trying to build a function in C/C++ to sort an array and replace each value with its ""score"" or rank.  It takes in a double pointer array to an array of ints, and sorts the double pointers based on the dereferenced value of the integers.  I have tried quite a few times to make it work, but can't get it down.  Once again, it must sort the double pointers based on the values they point to.  This is what I have:</p>
+
+<pre><code>void SortArray( int ** pArray, int ArrayLength )
+{
+  int i, j, flag = 1;     // set flag to 1 to begin initial pass
+  int * temp;             // holding variable orig with no *
+  for(i = 1; (i &lt;= ArrayLength) &amp;&amp; flag; i++)
+  {
+    flag = 0;
+    for (j = 0; j &lt; (ArrayLength -1); j++)
+    {
+        if (*pArray[j+1] &gt; *pArray[j])    // ascending order simply changes to &lt;
+        { 
+            temp = &amp;pArray[j];            // swap elements
+            pArray[j] = &amp;pArray[j+1];
+            pArray[j+1] = &amp;temp;
+            flag = 1;                     // indicates that a swap occurred.
+        }
+    }
+  }
+};
+</code></pre>
+","522","Ed","234175","","2013-08-02 00:53:03","2013-08-02 00:53:03","How can I sort an array of double pointers based on the values they point to?","<c++><c><arrays><pointers><reference>","5","1","","","","17299","8"
+"17980","1","17989","","2008-08-20 13:44:34","","4","1970","<p>I've searched for this a little but I have not gotten a particularly straight answer. In C (and I guess C++), how do you determine what comes after the % when using <code>printf</code>?. For example:</p>
+
+<pre><code>double radius = 1.0;
+double area = 0.0;
+area = calculateArea( radius );
+printf( ""%10.1f     %10.2\n"", radius, area );
+</code></pre>
+
+<p>I took this example straight from a book that I have on the C language. This does not make sense to me at all. Where do you come up with <code>10.1f</code> and <code>10.2f</code>? Could someone please explain this?</p>
+","2128","The.Anti.9","1332690","","2012-04-26 00:34:18","2015-05-03 23:45:59","What Comes After The %?","<c>","8","0","1","","","17980","8"
+"19838","1","20154","","2008-08-21 13:17:50","","6","1240","<p>I've been trying to understand how Ruby blocks work, and to do that I've been trying to implement them in C.</p>
+
+<p>One easy way to implement closures is to pass a <code>void*</code> to the enclosing stack to the closure/function but Ruby blocks also seem to handle returns and break statements from the scope that uses the block.</p>
+
+<pre><code>loop do
+  break i if (i &gt;= 4000)
+  i *= 2
+end
+</code></pre>
+
+<p>I think one of the closures proposals for Java works like this also.</p>
+
+<p>So, how would you implement Ruby-blocks/Java-closures in C?</p>
+","2148","jcarrascal","1292374","jcarrascal","2015-05-08 13:27:34","2015-05-08 13:27:34","Ruby blocks/Java closures in C","<java><c><ruby>","3","2","","","","19838","8"
+"21593","1","","","2008-08-22 01:40:06","","798","167563","<p>In the C and C++ programming languages, what is the difference between using angle brackets and using quotes in an <code>include</code> statement, as follows?</p>
+
+<ol>
+<li><code>#include &lt;filename&gt;</code> </li>
+<li><code>#include ""filename""</code></li>
+</ol>
+","2399","","611560","","2012-07-20 09:35:08","2015-08-18 06:21:43","What is the difference between #include <filename> and #include ""filename""?","<c++><c><include><preprocessor><header-files>","18","1","219","","","21593","8"
+"22001","1","","","2008-08-22 09:55:47","","5","1049","<p>I'm learning objective-C and Cocoa. In the Apple tutorial I'm working through there's a side note that says: </p>
+
+<blockquote>
+  <p><code>IBOutlet</code> is a null-defined macro, which the C preprocessor removes at compile time.</p>
+</blockquote>
+
+<p>I'm curious - what's a null-defined macro?</p>
+
+<p>Cheers
+Ben</p>
+","","Benedict Cohen","21755","Paul","2008-11-10 16:15:25","2008-11-10 16:15:25","What's a 'null defined macro'?","<c><objective-c><compiler-construction><preprocessor>","5","0","","","","22001","8"
+"22379","1","22399","","2008-08-22 13:40:32","","2","650","<p>I wondering how in C/C++ you can implement a program (similar to tail -f) that watches for new lines added to a log file and then process them?</p>
+","486","grom","","","","2013-01-23 05:11:59","Implementing a log watcher","<c++><c><file><io>","4","0","","","","22379","8"
+"22459","1","22473","","2008-08-22 14:17:01","","4","4244","<p>I'm getting some strange, intermittent, data aborts (&lt; 5% of the time) in some of my code, when calling memset.  The problem is that is usually doesn't happen unless the code is running for a couple days, so it's hard to catch it in the act.</p>
+
+<p>I'm using the following code:</p>
+
+<pre><code>char *msg = (char*)malloc(sizeof(char)*2048);
+char *temp = (char*)malloc(sizeof(char)*1024);
+memset(msg, 0, 2048);
+memset(temp, 0, 1024);
+char *tempstr = (char*)malloc(sizeof(char)*128);
+
+sprintf(temp, ""%s %s/%s %s%s"", EZMPPOST, EZMPTAG, EZMPVER, TYPETXT, EOL);
+strcat(msg, temp);
+
+//Add Data
+memset(tempstr, '\0', 128);
+wcstombs(tempstr, gdevID, wcslen(gdevID));
+sprintf(temp, ""%s: %s%s"", ""DeviceID"", tempstr, EOL);
+strcat(msg, temp);
+</code></pre>
+
+<p>As you can see, I'm not trying to use memset with a size larger that what's originally allocated with malloc()</p>
+
+<p>Anyone see what might be wrong with this?</p>
+","194","Adam Haile","194","Adam Haile","2008-08-22 14:24:13","2012-07-03 15:02:03","memset() causing data abort","<c++><c><memory><windows-mobile>","10","0","","","","22459","8"
+"22500","1","22547","","2008-08-22 14:29:27","","26","18300","<p>The <a href=""http://en.wikipedia.org/wiki/ANSI_C"">Wikipedia article on ANSI C</a> says:</p>
+
+<blockquote>
+  <p>One of the aims of the ANSI C standardization process was to produce a superset of K&amp;R C (the first published standard), incorporating many of the unofficial features subsequently introduced. However, the standards committee also included several new features, such as function prototypes (borrowed from the C++ programming language), and a more capable preprocessor. The syntax for parameter declarations was also changed to reflect the C++ style.</p>
+</blockquote>
+
+<p>That makes me think that there are differences. However, I didn't see a comparison between K&amp;R C and ANSI C. Is there such a document? If not, what are the major differences?</p>
+
+<p>EDIT: I believe the K&amp;R book says ""ANSI C"" on the cover. At least I believe the version that I have at home does. So perhaps there isn't a difference anymore?</p>
+","572","Thomas Owens","151292","","2010-06-19 22:13:12","2015-02-17 14:32:34","What are the major differences between ANSI C and K&R C?","<c><kr-c><c89>","9","1","4","","","22500","8"
+"22901","1","23145","","2008-08-22 17:09:04","","7","820","<p>I am going to be using C/C++, and would like to know the best way to talk to a MySQL server.  Should I use the library that comes with the server installation?  Are they any good libraries I should consider other than the official one?</p>
+","522","Ed","227299","","2012-01-11 04:46:25","2012-10-18 21:25:57","What is the best way to communicate with a MySQL server?","<c++><sql><mysql><c><database>","4","2","1","","","22901","8"
+"23190","1","25002","","2008-08-22 18:56:04","","3","1087","<p>I am working on a function to establish the entropy of a distribution.  It uses a copula, if any are familiar with that.  I need to sum up the values in the array based on which dimensions are ""cared about.""</p>
+
+<p>Example:  Consider the following example... </p>
+
+<pre>
+Dimension 0 (across)
+_ _ _ _ _ _ _ _ _ _ _ _ _
+|_ 0 _|_ 0 _|_ 0 _|_ 2 _|  Dimension 1
+|_ 1 _|_ 0 _|_ 2 _|_ 0 _|   (down)
+|_ 0 _|_ 3 _|_ 0 _|_ 6 _|
+|_ 0 _|_ 0 _|_ 0 _|_ 0 _|
+
+I ""care about"" dimension 0 only, and ""don't care"" about the rest (dim 1).
+Summing this array with the above specifications will
+""collapse"" the ""stacks"" of dimension 1 down to a single 4 x 1 array:
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ 
+|_ 1 _|_ 3 _|_ 2 _|_ 8 _|
+
+This can then be summed, or have any operation performed.
+</pre>
+
+<p>I need to do this with an array of 'n' dimensions, which could feasibly be 20. Also, I need to be able to do this, caring about certain dimensions, and collapsing the rest.  I am having an especially hard time with this because I cant visualize 20 dimensions :p . If anyone could help me set up some c/c++ code to collapse/sum, I would be very very grateful.  </p>
+
+<h3>Update:</h3>
+
+<p>Just got home.  Here is some info to answer your questions:</p>
+
+<ol>
+<li>Sorry for rolling back the edits, I was hoping when I clicked roll-back it would show me the changes so I could see what I messed up, a bit like wikipedia.  This wasn't the case, as I found out.</li>
+<li>@jeff - What doesnt make sense?  I am using this great service for (what I think is) a legit reason.  I want to get better at my hobby, which is all it is, as I am in high school.  Many of my posts regard implementing a genetic algorithm (This post, sparsearray, rank an array, pointer manipulation).</li>
+<li>I am using a sparse array representation, as it is possible to exceed the number of molecules in the universe using a traditional (dense) array.  For now, the implementation of the sparsearray itself doesnt matter a whole lot, as I am working to make it work with a standard array before going to a sparse representation.  For those who havent seen my previous questions, I am using a binary search tree as the structure to contain the sparse array points, and a ""driver"" function to traverse the tree as necessary, returning whatever the function is designed to do.  This is flexible, so I can accomodate a lot of different methods of accessing the array. </li>
+<li>The structure is a hypercube, and the number of dimensions is specified at run time, as well as the length of each dimension (which are all the same, as it is a hypercube).</li>
+</ol>
+
+<p>Thanks everyone for your imput.</p>
+","522","Ed","96780","Gaius","2013-07-23 14:41:49","2013-07-23 14:41:49","How Does One Sum Dimensions of an Array Specified at Run-Time?","<c++><c><arrays><microsoft-dynamics>","10","1","","","","23190","8"
+"24451","1","24476","","2008-08-23 18:18:04","","141","36801","<p>I've long been under the impression that 'goto' should never be used if possible.  While perusing libavcodec (which is written in C) the other day, I noticed multiple uses of it.  Is it ever advantageous to use 'goto' in a language that supports loops and functions?  If so, why?   </p>
+","1597","Landon","3588161","tj9991","2014-07-14 07:37:29","2015-04-24 14:53:50","Is it ever advantageous to use 'goto' in a language that supports loops and functions? If so, why?","<c><exception-handling><language-agnostic><goto>","23","3","65","2014-08-25 11:47:57","","24451","8"
+"24847","1","24878","","2008-08-24 05:00:45","","10","2499","<p>I recently bought an Asus Eee PC 901, on which I am running Ubuntu linux. </p>
+
+<p>I was mucking around in C on my old (larger) laptop, and I want to continue to do so on the Eee. However, Anjuta - the IDE that I was using - is not very usable with the Eee's resolution of 1024x600.</p>
+
+<p>What with the status pane at the bottom, and the giant toolbar buttons, there's not much free real-estate for code.</p>
+
+<p>Can anyone recommend an IDE which is (or can be configured to be) suitable for low resolutions? I would much prefer something that supports modern IDE features like code folding and auto-completion.</p>
+
+<p><strong>Update:</strong> GVim seems pretty neat, and KDevelop looks like it'd be good except that I'm running Gnome, and would rather not install the kde libs. I'm really impressed with Code::Blocks though, can't believe I'd never heard of it before, so I'm calling that The Answer. Thanks guys.</p>
+","369","Blorgbeard","369","Blorgbeard","2008-08-24 11:45:40","2011-12-05 10:56:30","What's a good linux C/C++ IDE for a low-res screen?","<c++><c><linux><ide><eeepc>","6","0","1","2012-08-27 03:24:58","","24847","8"
+"24853","1","24858","","2008-08-24 05:19:19","","353","298182","<p>In C, what is the difference between using <code>++i</code> and <code>i++</code>, and which should be used in the incrementation block of a <code>for</code> loop?</p>
+","2128","The.Anti.9","1480391","Mark Harrison","2015-06-26 10:43:35","2015-06-26 10:43:35","What is the difference between ++i and i++","<c><for-loop><post-increment><pre-increment>","12","1","126","","","24853","8"
+"24881","1","24882","","2008-08-24 06:30:09","","62","104797","<p>I'm trying to solve <a href=""http://uva.onlinejudge.org/external/1/100.pdf"">the 3n+1 problem</a> and I have a <code>for</code> loop that looks like this: </p>
+
+<pre><code>for(int i = low; i &lt;= high; ++i)
+        {
+                res = runalg(i);
+                if (res &gt; highestres)
+                {
+                        highestres = res;
+                }
+
+        }
+</code></pre>
+
+<p>Unfortunately I'm getting this error when I try to compile with GCC:</p>
+
+<blockquote>
+  <p>3np1.c:15: error: 'for' loop initial
+  declaration used outside C99 mode</p>
+</blockquote>
+
+<p>I don't know what C99 mode is. Any ideas?</p>
+","2128","The.Anti.9","1084554","Chris Fournier","2013-10-30 19:35:02","2014-12-01 09:57:45","How do I fix ""for loop initial declaration used outside C99 mode"" GCC error?","<c><gcc><for-loop>","9","0","13","","","24881","8"
+"24886","1","24887","","2008-08-24 06:48:23","","249","48056","<p>Is there a performance difference between <code>i++</code> and <code>++i</code> if the resulting value is not used?</p>
+","116","Mark Harrison","116","Mark Harrison","2015-02-08 22:06:36","2015-06-03 06:35:33","Is there a performance difference between i++ and ++i in C?","<c><performance><optimization><post-increment><pre-increment>","13","2","94","","","24886","8"
+"24891","1","24922","","2008-08-24 06:50:56","","64","23290","<p>I've always heard that in C you have to really watch how you manage memory. And I'm still beginning to learn C, but thus far, I have not had to do any memory managing related activities at all.. I always imagined having to release variables and do all sorts of ugly things. But this doesn't seem to be the case.</p>
+
+<p>Can someone show me (with code examples) an example of when you would have to do some ""memory management"" ?</p>
+","2128","The.Anti.9","714","Chris Hanson","2008-09-02 01:54:13","2009-03-29 23:00:00","C Memory Management","<c><memory>","12","2","42","","","24891","8"
+"25261","1","25281","","2008-08-24 18:23:21","","15","16474","<p>I haven't completely understood how to use <code>sigprocmask()</code>. Particularly how the <code>set</code> and <code>oldset</code> in its syntax work and how to use them.</p>
+
+<pre><code>int sigprocmask(int how, const sigset_t *set, sigset_t *oldset);
+</code></pre>
+
+<p>Please explain with an example used to block, say SIGUSR1 for a few seconds and then unblock and handle it.</p>
+","2727","Sushant","573218","Adam Bellaire","2013-01-13 03:11:10","2013-01-13 03:11:10","Set and Oldset in sigprocmask()","<c><posix><signals><sigprocmask>","1","0","9","","","25261","8"
+"25268","1","1067011","","2008-08-24 18:31:54","","11","6845","<p>Has anybody out there used the <a href=""http://www.swig.org/exec.html"">SWIG</a> library with C#?  If you have, what pitfalls did you find and what is the best way to use the library?  I am thinking about using it as a wrapper for a program that was written in C and I want to wrap the header files where I can use them in my .NET application.</p>
+
+Edit:  Some clarification on target OS's.
+
+<p>I plan on running the application on Linux and Windows, therefore the reason I am looking into SWIG.  P/Invoke is not an option.</p>
+","1117","Dale Ragan","1117","Dale Ragan","2008-08-27 01:12:07","2009-07-01 17:49:21","What are the best practices when using SWIG with C#?","<c#><c><swig>","3","0","5","","","25268","8"
+"25461","1","29300","","2008-08-24 23:44:53","","12","6296","<p>In a project I am interfacing between C++ and a C library that uses stdbool.h defined as such.</p>
+
+<pre><code>#ifndef _STDBOOL_H
+#define _STDBOOL_H
+
+/* C99 Boolean types for compilers without C99 support */
+/* http://www.opengroup.org/onlinepubs/009695399/basedefs/stdbool.h.html */
+#if !defined(__cplusplus)
+
+#if !defined(__GNUC__)
+/* _Bool builtin type is included in GCC */
+typedef enum { _Bool_must_promote_to_int = -1, false = 0, true = 1 } _Bool;
+#endif
+
+#define bool _Bool
+#define true 1
+#define false 0
+#define __bool_true_false_are_defined 1
+
+#endif
+
+#endif
+</code></pre>
+
+<p>Some structures have <code>bool</code> members. So if I have one of these structures defined as local variables within a C++ function and pass it to a C function the sizes are inconsistent between C++ and C as bool is one bye in C++ and 4 in C.</p>
+
+<p>Does anyone have any advice to how to overcome this without resorting to my current solution which is</p>
+
+<pre><code>//#define bool _Bool
+#define bool unsigned char
+</code></pre>
+
+<p>Which is against the C99 standard for <a href=""http://www.opengroup.org/onlinepubs/000095399/basedefs/stdbool.h.html"" rel=""nofollow"">stdbool.h</a></p>
+","1675","JProgrammer","1561378","","2012-09-01 22:57:56","2013-09-22 21:02:23","interfacing with stdbool.h C++","<c++><c><boolean><standards>","3","0","1","","","25461","8"
+"25730","1","25831","","2008-08-25 07:31:46","","38","65556","<p>I have a .exe and many plug-in .dll modules that the .exe loads. (I have source for both.) A cross-platform (with source) solution would be ideal, but the platform can be narrowed to WinXP and Visual Studio (7.1/2003 in my case).</p>
+
+<p>The built-in VS leak detector only gives the line where new/malloc was called from, but I have a wrapper for allocations, so a full symbolic stack trace would be best.</p>
+
+<p>The detector would also be able to detect for a leak in both the .exe and its accompanying plug-in .dll modules.</p>
+","2666","","51425","","2009-08-10 08:05:48","2014-02-20 11:58:21","What is the best free memory leak detector for a C/C++ program and its plug-in DLLs?","<c++><c><visual-studio><memory-leaks>","7","0","15","2014-02-20 13:01:11","","25730","8"
+"26098","1","26121","","2008-08-25 14:22:21","","6","9692","<p>I'm writing a C/C++ DLL and want to export certain functions which I've done before using a .def file like this</p>
+
+<pre><code>LIBRARY ""MyLib""
+EXPORTS
+  Foo
+  Bar
+</code></pre>
+
+<p>with the code defined as this, for example:</p>
+
+<pre><code>int Foo(int a);
+void Bar(int foo);
+</code></pre>
+
+<p>However, what if I want to declare an overloaded method of Foo() like:</p>
+
+<pre><code>int Foo(int a, int b);
+</code></pre>
+
+<p>As the def file only has the function name and not the full prototype I can't see how it would handle the overloaded functions.  Do you just use the one entry and then specify which overloaded version you want when passing in the properly prototyped function pointer to LoadLibrary() ?</p>
+
+<p>Edit:  To be clear, this is on Windows using Visual Studio 2005</p>
+
+<p>Edit: Marked the non-def (__declspec) method as the answer...I know this doesn't actually solve the problem using def files as I wanted, but it seems that there is likely no (official) solution using def files.  Will leave the question open, however, in case someone knows something we don't have overloaded functions and def files.</p>
+","194","Adam Haile","194","Adam Haile","2008-08-25 14:56:32","2013-03-21 06:15:10","Overloaded functions in C++ DLL def file","<c++><c><dll>","6","0","2","","","26098","8"
+"26964","1","26976","","2008-08-25 21:36:24","","6","1855","<p>I'm starting a new C project, which is largely OSS-based. It'll also be on SourceForge, and I'd like to take this opportunity to learn established best practices for organizing this kind of code. I'm using libraries like libcurl and libz, and I'll compile it using MinGW and MSYS.</p>
+
+<p>I'll be distributing copies the source of all libraries I'm using with my projet, so people downloading the source won't have to go peck and hunt for dependencies. What should I call the directory I store the libraries in? So far, I hesitate between:</p>
+
+<ul>
+<li>lib, because they are libraries. However, 'lib' has a different connotation in UNIX-world.</li>
+<li>src, because they are source files.</li>
+<li>3rdparty, because I didn't write it.</li>
+</ul>
+
+<p>And where should I compile these libraries to? Should I simply configure and install them to the system root, or should I set up a directory where all libraries should compile to, and link from there? Obviously, this will have ramifications for my Makefile.</p>
+
+<p>How should I go about this? Are there established conventions that I should follow? Are they written down somewhere?</p>
+","2474","rix0rrr","21234","Gaius","2012-05-17 08:15:59","2013-02-01 20:35:41","What is the best way to organize my C project code and its external libraries?","<c><open-source>","4","0","4","2014-08-11 19:29:16","","26964","8"

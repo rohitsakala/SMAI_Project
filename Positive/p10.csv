@@ -1,0 +1,730 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"25","1","1443907","","2008-08-01 12:13:50","","65","5909","<p>I've been having issues getting the C sockets API to work properly in C++. Specifically, although I am including <code>sys/socket.h</code>, I still get compile time errors telling me that <code>AF_INET</code> is not defined. Am I missing something obvious, or could this be related to the fact that I'm doing this coding on <code>z/OS</code> and my problems are much more complicated?</p>
+
+<hr>
+
+<p><strong>Update</strong>: Upon further investigation, I discovered that there is an #ifdef that I'm hitting. Apparently <code>z/OS</code> isn't happy unless I define which ""type"" of sockets I'm using with:</p>
+
+<pre><code>#define _OE_SOCKETS
+</code></pre>
+
+<p>Now, I personally have no idea what this <code>_OE_SOCKETS</code> is actually for, so if any <code>z/OS</code> sockets programmers are out there (all 3 of you), perhaps you could give me a rundown of how this all works?</p>
+","23","","23","","2015-04-10 15:25:02","2015-04-10 15:25:02","How to use the C socket API in C++ on z/OS","<c++><c><sockets><mainframe><zos>","10","0","3","","","25","10"
+"263","1","607","","2008-08-01 23:27:24","","17","5739","<p>I have been trying to implement Win32's <code>MessageBox</code> using GTK. The app using SDL/OpenGL, so this isn't a GTK app. </p>
+
+<p>I handle the initialisation (<code>gtk_init</code>) sort of stuff inside the <code>MessageBox</code> function as follows:</p>
+
+<pre><code>int MessageBox(HWND hwnd, const char* text, const char* caption, UINT type)
+{
+    GtkWidget *window = NULL;
+    GtkWidget *dialog = NULL;
+
+    gtk_init(&amp;gtkArgc, &amp;gtkArgv);
+    window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    g_signal_connect(G_OBJECT(window), ""delete_event"", G_CALLBACK(delete_event), NULL);
+    g_signal_connect(G_OBJECT(window), ""destroy"", G_CALLBACK(destroy), NULL);
+    // gcallback calls gtk_main_quit()
+    gtk_init_add((GtkFunction)gcallback, NULL);
+
+    if (type &amp; MB_YESNO) {
+        dialog = gtk_message_dialog_new(GTK_WINDOW(window), GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_QUESTION, GTK_BUTTONS_YES_NO, text);
+    } else {
+        dialog = gtk_message_dialog_new(GTK_WINDOW(window), GTK_DIALOG_DESTROY_WITH_PARENT, GTK_MESSAGE_INFO, GTK_BUTTONS_OK, text);
+    }
+
+    gtk_window_set_title(GTK_WINDOW(dialog), caption);
+    gint result = gtk_dialog_run(GTK_DIALOG(dialog));
+
+    gtk_main();
+
+    gtk_widget_destroy(dialog);
+
+    if (type &amp; MB_YESNO) {
+        switch (result) {
+        default:
+        case GTK_RESPONSE_DELETE_EVENT:
+        case GTK_RESPONSE_NO:
+            return IDNO;
+            break;
+        case GTK_RESPONSE_YES:
+            return IDYES;
+            break;
+        }
+    }
+
+    return IDOK;
+} 
+</code></pre>
+
+<p>Now, I am by no means an experienced GTK programmer, and I realise that I'm probably doing something(s) horribly wrong.</p>
+
+<p>However, my problem is that the last dialog popped up with this function stays around until the process exits. Any ideas?</p>
+","61","","1039608","Bernard","2012-05-04 09:35:11","2012-05-04 09:35:11","GTK implementation of MessageBox","<c++><c><linux><gtk><x11>","3","1","2","","","263","10"
+"264","1","","","2008-08-01 23:28:51","","15","1756","<ul>
+<li>What's the optimal level of concurrency that the C++ implementation of BerkeleyDB can reasonably support?</li>
+<li>How many threads can I have hammering away at the DB before throughput starts to suffer because of resource contention?</li>
+</ul>
+
+<p>I've read the manual and know how to set the number of locks, lockers, database page size, etc., but I'd just like some advice from someone who has real-world experience with BDB concurrency.</p>
+
+<p>My application is pretty simple, I'll be doing gets and puts of records that are about 1KB each. No cursors, no deleting.</p>
+","104","","2405641","Michał Piaskowski","2013-05-30 02:11:52","2013-11-25 13:52:15","BerkeleyDB Concurrency","<c++><berkeley-db>","5","0","1","","","264","10"
+"330","1","332","","2008-08-02 02:51:36","","24","3450","<p>I am working on a collection of classes used for video playback and recording. I have one main class which acts like the public interface, with methods like <code>play()</code>, <code>stop()</code>, <code>pause()</code>, <code>record()</code> etc... Then I have workhorse classes which do the video decoding and video encoding. </p>
+
+<p>I just learned about the existence of nested classes in C++, and I'm curious to know what programmers think about using them. I am a little wary and not really sure what the benefits/drawbacks are, but they seem (according to the book I'm reading) to be used in cases such as mine.</p>
+
+<p>The book suggests that in a scenario like mine, a good solution would be to nest the workhorse classes inside the interface class, so there are no separate files for classes the client is not meant to use, and to avoid any possible naming conflicts? I don't know about these justifications. Nested classes are a new concept to me. Just want to see what programmers think about the issue.</p>
+","63","","204623","Jason Etheridge","2012-09-03 08:53:51","2013-03-27 20:24:09","Should I use nested classes in this case?","<c++><oop><class><nested-class>","10","0","","","","330","10"
+"601","1","602","","2008-08-03 02:05:59","","22","917","<p>I'm looking for a performant, reasonably robust RNG using no special hardware. It can use mathematical methods (Mersenne Twister, etc), it can ""collect entropy"" from the machine, whatever. On Linux/etc we have a drand48() which generates 48 random bits. I'd like a similar function/class for C++ or C# which can generate more than 32 bits of randomness and which low-order bits are equally as random as high-order bits.</p>
+
+<p>It doesn't have to be cryptographically secure but it must not use or be based on the C-language rand() or .NET System.Random.</p>
+
+<p>Any source code, links to source, etc. would be appreciated! Failing that, what TYPE of RNG should I be looking for?</p>
+","","user2189331","1270384","","2012-09-11 00:02:34","2014-08-20 22:19:23","Robust Random Number Generation","<c#><c++><random>","5","3","2","2012-09-11 00:41:28","","601","10"
+"609","1","","","2008-08-03 02:48:43","","10","2203","<p>An MFC application that I'm trying to migrate uses <code>afxext.h</code>, which causes <code>_AFXDLL</code> to get set, which causes this error if I set <code>/MT</code>:</p>
+
+<blockquote>
+  <p>Please use the /MD switch for _AFXDLL builds</p>
+</blockquote>
+
+<p>My research to date indicates that it is impossible to build an application for execution on Windows NT 4.0 using Visual Studio (C++, in this case) 2005.</p>
+
+<p>Is this really true? Are there any workaround available?</p>
+","179","","7116","ΤΖΩΤΖΙΟΥ","2012-05-01 17:33:22","2015-02-04 09:58:11","Build for Windows NT 4.0 using Visual Studio 2005?","<c++><visual-studio><compatibility><windows-nt>","5","1","1","","","609","10"
+"1041","1","17198991","","2008-08-04 05:50:00","","12","824","<p>I'm looking for a robust, easy-to-use, regular expression evaluator for native C++, either platform-independent or Windows-specific.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li>Can't use Boost or ACE regex libraries (unfortunately)</li>
+<li>Can't use .NET Regex (or any managed code)</li>
+</ul>
+
+<p>The main requirement is that it should be standalone and open.</p>
+","","user2189331","396458","Mark Biek","2011-12-02 18:01:27","2013-06-19 18:47:47","Easy-to-Use Regular Expression Support in C++?","<c++><regex>","9","5","1","","","1041","10"
+"1069","1","1073","","2008-08-04 07:30:01","","36","30411","<p>I'm working on a <strong>multithreaded</strong> C++ application that is corrupting the heap.  The usual tools to locate this corruption seem to be inapplicable.  Old builds (18 months old) of the source code exhibit the same behaviour as the most recent release, so this has been around for a long time and just wasn't noticed; on the downside, source deltas can't be used to identify when the bug was introduced - there are <em>a lot</em> of code changes in the repository.</p>
+
+<p>The prompt for crashing behaviuor is to generate throughput in this system - socket transfer of data which is munged into an internal representation.  I have a set of test data that will periodically cause the app to exception (various places, various causes - including heap alloc failing, thus: heap corruption).</p>
+
+<p>The behaviour seems related to CPU power or memory bandwidth; the more of each the machine has, the easier it is to crash.  Disabling a hyper-threading core or a dual-core core reduces the rate of (but does not eliminate) corruption.  This suggests a timing related issue.</p>
+
+<p>Now here's the rub:<br>
+When it's run under a lightweight debug environment (say <code>Visual Studio 98 / AKA MSVC6</code>) the heap corruption is reasonably easy to reproduce - ten or fifteen minutes pass before something fails horrendously and exceptions, like an <code>alloc;</code> when running under a sophisticated debug environment (Rational Purify, <code>VS2008/MSVC9</code> or even Microsoft Application Verifier) the system becomes memory-speed bound and doesn't crash (Memory-bound: CPU is not getting above <code>50%</code>, disk light is not on, the program's going as fast it can, box consuming <code>1.3G</code> of 2G of RAM).  So, <strong>I've got a choice between being able to reproduce the problem (but not identify the cause) or being able to idenify the cause or a problem I can't reproduce.</strong></p>
+
+<p>My current best guesses as to where to next is:</p>
+
+<ol>
+<li>Get an insanely grunty box (to replace the current dev box: 2Gb RAM in an <code>E6550 Core2 Duo</code>); this will make it possible to repro the crash causing mis-behaviour when running under a powerful debug environment; or</li>
+<li>Rewrite operators <code>new</code> and <code>delete</code> to use <code>VirtualAlloc</code> and <code>VirtualProtect</code> to mark memory as read-only as soon as it's done with.  Run under <code>MSVC6</code> and have the OS catch the bad-guy who's writing to freed memory.  Yes, this is a sign of desperation: who the hell rewrites <code>new</code> and <code>delete</code>?!  I wonder if this is going to make it as slow as under Purify et al.</li>
+</ol>
+
+<p>And, no: Shipping with Purify instrumentation built in is not an option.</p>
+
+<p>A colleague just walked past and asked ""Stack Overflow?  Are we getting stack overflows now?!?""</p>
+
+<p>And now, the question: <strong>How do I locate the heap corruptor?</strong></p>
+
+<hr>
+
+<p>Update: balancing <code>new[]</code> and <code>delete[]</code> seems to have gotten a long way towards solving the problem.  Instead of 15mins, the app now goes about two hours before crashing.  Not there yet.  Any further suggestions? The heap corruption persists.</p>
+
+<p>Update: a release build under Visual Studio 2008 seems dramatically better; current suspicion rests on the <code>STL</code> implementation that ships with <code>VS98</code>.</p>
+
+<hr>
+
+<blockquote>
+  <ol>
+  <li>Reproduce the problem. <code>Dr Watson</code> will produce a dump that might be helpful in further analysis. </li>
+  </ol>
+</blockquote>
+
+<p>I'll take a note of that, but I'm concerned that Dr Watson will only be tripped up after the fact, not when the heap is getting stomped on.</p>
+
+<blockquote>
+  <p>Another try might be using <code>WinDebug</code> as a debugging tool which is quite powerful being at the same time also lightweight.</p>
+</blockquote>
+
+<p>Got that going at the moment, again: not much help until something goes wrong.  I want to catch the vandal in the act.</p>
+
+<blockquote>
+  <p>Maybe these tools will allow you at least to narrow the problem to certain component.</p>
+</blockquote>
+
+<p>I don't hold much hope, but desperate times call for...</p>
+
+<blockquote>
+  <p>And are you sure that all the components of the project have correct runtime library settings (<code>C/C++ tab</code>, Code Generation category in VS 6.0 project settings)?</p>
+</blockquote>
+
+<p>No I'm not, and I'll spend a couple of hours tomorrow going through the workspace (58 projects in it) and checking they're all compiling and linking with the appropriate flags.
+<hR>
+Update: This took 30 seconds.  Select all projects in the <code>Settings</code> dialog, unselect until you find the project(s) that don't have the right settings (they all had the right settings).</p>
+","257","","1561378","Alex Miller","2012-09-16 10:09:41","2015-09-01 17:32:32","Heap corruption under Win32; how to locate?","<c++><windows><multithreading><debugging><memory>","15","5","26","","2008-09-02 03:03:53","1069","10"
+"1104","1","1109","","2008-08-04 10:01:37","","12","1802","<p>Exceptions in C++ don't need to be caught (no compile time errors) by the calling function. So it's up to developer's judgment whether to catch it using try/catch (unlike in Java). </p></p>
+
+<p><p>Is there a way one can ensure that the exceptions thrown are always caught using try/catch by the calling function?</p>
+","236","","1561378","","2012-11-11 07:55:08","2013-02-07 13:08:40","Ensuring that Exceptions are always Caught","<c++><exception><try-catch>","6","1","","","","1104","10"
+"1241","1","1275","","2008-08-04 13:52:25","","8","2074","<p>I have a client-server app where the client is on a Windows Mobile 6 device, written in C++ and the server is on full Windows and written in C#. </p>
+
+<p>Originally, I only needed it to send messages from the client to the server, with the server only ever sending back an acknowledgment that it received the message.  Now, I would like to update it so that the server can actually send a message to the client to request data.  As I currently have it set up so the client is only in receive mode after it sends data to the server, this doesn't allow for the server to send a request at any time.  I would have to wait for client data.  My first thought would be to create another thread on the client with a separate open socket, listening for server requests...just like the server already has in respect the the client.  Is there a way, within the same thread and using the same socket, to all the server to send requests at any time?</p>
+
+<p>Can you use something to the affect of <code>WaitForMultipleObjects()</code> and pass it a receive buffer and an event that tells it there is data to be sent?</p>
+","194","","1468295","","2015-04-30 10:34:08","2015-04-30 10:34:08","Asynchronous multi-direction server-client communication over the same open socket?","<c#><c++><sockets>","4","0","","","","1241","10"
+"1982","1","47086","","2008-08-05 07:11:08","","21","2576","<p>I was just wondering if there is an elegant way to set the maximum CPU load for a particular thread doing intensive calculations. 
+<br/><br/>Right now I have located the most time consuming loop in the thread (it does only compression) and use <code>GetTickCount()</code> and <code>Sleep()</code> with hardcoded values. It makes sure that the loop continues for a certain period of time and than sleeps for a certain minimal time. It more or less does the job i.e. guarantees that the thread will not use more than 50% of CPU. <br>However behavior is dependent on the number of CPU cores (huge disadvantage) and simply ugly (smaller disadvantage :)). <br>Any ideas?</p>
+","2090742","","4411","","2013-01-06 15:12:59","2013-01-06 15:12:59","CPU throttling in C++","<c++><cpu><throttle>","4","1","3","","","1982","10"
+"2256","1","2490","","2008-08-05 13:11:14","","10","5540","<p>Is there a way of mapping data collected on a stream or array to a data structure or vice-versa?
+In C++ this would simply be a matter of casting a pointer to the stream as a data type I want to use (or vice-versa for the reverse)
+eg: in C++</p>
+
+<pre><code>Mystruct * pMyStrct = (Mystruct*)&amp;SomeDataStream;
+pMyStrct-&gt;Item1 = 25;
+
+int iReadData = pMyStrct-&gt;Item2;
+</code></pre>
+
+<p>obviously the C++ way is pretty unsafe unless you are sure of the quality of the stream data when reading incoming data, but for outgoing data is super quick and easy.</p>
+","379","","2159583","Chris Fournier","2014-08-08 13:52:54","2015-02-16 10:13:58","Mapping Stream data to data structures in C#","<c#><c++><data-structures>","4","0","4","","","2256","10"
+"2756","1","2762","","2008-08-05 19:57:11","","10","53139","<p>Even though I have a robust and fast computer (Pentium Dual Core 2.0 with 2Gb RAM), I'm always searching for lightweight software to have on it, so it runs fast even when many apps are up and running simultaneously.</p>
+
+<p>On the last few weeks I've been migrating gradually to Linux and want to install a free lightweight yet useful IDE to program on C++ and PHP.  Sintax highlighting and code completition tips are must-haves.</p>
+
+<p>So, I'd like to receive some suggestions from you, guys.</p>","431","","3","","2012-03-22 00:34:54","2012-03-22 00:34:54","Lightweight IDE for Linux","<php><c++><linux><ide><freeware>","15","0","7","2011-11-12 13:39:05","","2756","10"
+"3049","1","3054","","2008-08-06 03:19:19","","22","8345","<p>I need to send and receive data over serial connections (RS-232 and RS-422).</p>
+
+<p>How do I set up and communicate with such a connection?  How do I figure out what the configuration settings (e.g. baud rate) should be and how do I set them?</p>
+
+<p>In particular I am looking to do this in Java, C/C++, or one of the major Unix shells but I also have some interest in serial programming using Windows/Hyperterminal.</p>","462","","","","","2014-09-06 13:01:36","How do I configure and communicate with a serial port?","<java><c++><windows><unix>","11","0","5","","","3049","10"
+"3150","1","35963","","2008-08-06 07:57:50","","65","47851","<p>I'm having trouble figuring out how to get the testing framework set up and usable in Visual Studio 2008 for C++ presumably with the built-in unit testing suite.</p>
+
+<p>Any links or tutorials would be appreciated.</p>
+","370","","63550","Chris Fournier","2009-10-14 23:53:36","2013-02-15 14:17:41","How to set up unit testing for Visual Studio C++","<c++><visual-studio><unit-testing><testing>","12","3","41","","","3150","10"
+"3230","1","10141","","2008-08-06 09:49:27","","18","19692","<p>I'm wondering how to make a release build that includes all necessary dll files into the .exe so the program can be run on a non-development machine without it having to install the microsoft redistributable on the target machine.</p>
+
+<p>Without doing this you get the error message that the application configuration is not correct and to reinstall.  </p>","370","","","","","2015-02-16 10:35:05","How do you pack a visual studio c++ project for release?","<c++><visual-studio>","5","1","8","","","3230","10"
+"3231","1","842632","","2008-08-06 09:51:06","","14","13800","<p>I want to write C/C++ programs that take input from a MIDI device. </p>
+
+<p>The MIDI device connects to my PC using a USB connector. </p>
+
+<p>I'm looking for a (C/C++ implemented) library that I can use to read the MIDI signals from the MIDI device through the USB port.</p>
+
+<p>I'm happy manipulating the MIDI data once I get it, I just don't want to have to implement the code for its capture.</p>
+
+<p>I'm planning on writing my code using the Bloodshed Dev-C++ IDE on Windows XP.</p>","381","","-1","","2008-09-10 18:13:56","2014-07-18 17:17:09","C/C++ library for reading MIDI signals from a USB MIDI device","<c++><c><midi><signal-processing>","3","0","1","","","3231","10"
+"4306","1","4311","","2008-08-07 02:29:58","","26","20357","<p>I am working on a project that requires the manipulation of enormous matrices, particularly pyramidal summation for a copula calculation.  </p>
+
+<p>In short, I need to keep track of a relatively small number of values (usually a value of 1, and in rare cases more than 1) in a sea of zeros in the matrix (multidimensional array).  </p>
+
+<p>A sparse array allows the user to store a small number of values, and assume all undefined records to be a preset value.  Since it is not physically possibly to store all values in memory (greater in number than the number of particles in the universe :p ), I need to store only the few non-zero elements. This could be several million entries, I currently work on a system that uses a binary search tree (b-tree) to store entries.  </p>
+
+<p>Does anyone know of a better system?</p>
+
+<p>EDIT: Speed is a huge priority.   </p>
+
+<p>EDIT 2 : I like that solution.  How would I go about dynamically choosing the number of variables in the class at runtime?  [edit by MH: good question, updated in the answer]</p>
+","522","","839501","","2014-12-15 18:39:39","2015-05-06 07:33:17","What is the best way to create a sparse array in C++?","<c++><data-structures><hash><maps>","11","0","14","","2008-08-30 05:55:40","4306","10"
+"5727","1","5754","","2008-08-08 06:17:51","","443","46843","<p>Why are pointers such a leading factor of confusion for many new, and even old, college level students in C or C++?  Are there any tools or thought processes that helped you understand how pointers work at the variable, function, and beyond level?</p>
+
+<p>What are some good practice things that can be done to bring somebody to the level of, ""Ah-hah, I got it,"" without getting them bogged down in the overall concept? Basically, drill like scenarios.</p>
+","568","","193778","superjoe30","2010-05-23 12:28:00","2015-02-25 17:04:17","What are the barriers to understanding pointers and what can be done to overcome them?","<c++><c><pointers>","28","7","409","2014-02-08 22:14:29","2010-01-13 14:01:00","5727","10"
+"5892","1","5903","","2008-08-08 13:13:08","","2","602","<p>I've opened an old workspace that is a libray and its test harness. It used to work fine but now doesn't and older versions of the code don't work either with the same errors. I've tried recreating the project and that causes the same errors too. Nothing seems out of order in project settings and the code generated works in the main app.</p>
+
+<p>I've stripped out most of the files and got it down to the bare minimum to generate the error. Unfortunately I can't post the project as this is used in production code.</p>
+
+<p>The LNK2001 linker error I get usually means I've left off a library or forgot to implement a virtual function. However this is part of the standard template library - and is a header at that.</p>
+
+<p>The code that is listed as having the problem in IOCompletionPort.obj doesn't actually use std::string directly, but does call a class that does: Comms::Exception accepts a std::string and the value of GetLastError or WSAGetLastError.</p>
+
+<p>The function mentioned in the error (GetMessage) is implemented, but is a virtual function so other classes can override it if need be. However it appears that the compiler has made it as an Ansi version, but I can't find any options in the settings that would control that. I suspect that might be the problem but since there's very little in the way of options for the library I have no way of knowing for sure. However both projects to specify _MBCS in the compiler options.</p>
+
+<pre>--------------------Configuration: TestComms - Win32 Debug--------------------
+Linking... 
+Comms.lib(IOCompletionPort.obj) : error LNK2001: unresolved external symbol ""public: virtual class std::basic_string,class std::allocator > __thiscall Comms::Exception::GetMessageA(void)const "" (?GetMessageA@
+Exception@Comms@@UBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) 
+Debug/TestComms.exe : fatal error LNK1120: 1 unresolved externals 
+Error executing link.exe.
+
+TestComms.exe - 2 error(s), 0 warning(s)</pre>
+
+<p>Any suggestions? I've lost most of the morning to this and don't want to lose most of the afternoon too.</p>
+","342","","1471203","EvilTeach","2013-01-09 06:33:43","2013-01-09 06:33:43","Link issues (VC6)","<c++><visual-c++><linker><vc6>","5","0","","","","5892","10"
+"6915","1","6955","","2008-08-09 21:16:29","","29","18976","<p>Is there a way to implement a singleton object in C++ that is:</p>
+
+<ol>
+<li>Lazily constructed in a thread safe manner (two threads might simultaneously be the first user of the singleton - it should still only be constructed once).</li>
+<li>Doesn't rely on static variables being constructed beforehand (so the singleton object is itself safe to use during the construction of static variables).</li>
+</ol>
+
+<p>(I don't know my C++ well enough, but is it the case that integral and constant static variables are initialized before any code is executed (ie, even before static constructors are executed - their values may already be ""initialized"" in the program image)?  If so - perhaps this can be exploited to implement a singleton mutex - which can in turn be used to guard the creation of the real singleton..)</p>
+
+<hr>
+
+<p>Excellent, it seems that I have a couple of good answers now (shame I can't mark 2 or 3 as being <strong>the answer</strong>).  There appears to be two broad solutions:</p>
+
+<ol>
+<li>Use static initialisation (as opposed to dynamic initialisation) of a POD static variable, and implementing my own mutex with that using the builtin atomic instructions.  This was the type of solution I was hinting at in my question, and I believe I knew already.</li>
+<li>Use some other library function like <a href=""http://opengroup.org/onlinepubs/007908799/xsh/pthread_once.html"">pthread_once</a> or <a href=""http://www.boost.org/doc/libs/1_33_1/doc/html/call_once.html"">boost::call_once</a>.  These I certainly didn't know about - and am very grateful for the answers posted.</li>
+</ol>
+","755","","889260","Alex Miller","2011-10-20 07:35:25","2012-07-03 14:56:23","Thread safe lazy construction of a singleton in C++","<c++><multithreading><singleton><construction><lazy-initialization>","10","0","22","","","6915","10"
+"7209","1","119880","","2008-08-10 14:49:10","","5","1540","<p>I'm trying to alpha blend sprites and backgrounds with <a href=""http://www.devkitpro.org/"" rel=""nofollow"" title=""BenQ X-Touch"">devkitPro</a> (including libnds, libarm, etc).</p>
+
+<p>Does anyone know how to do this?</p>
+","209","","1599","MrValdez","2008-10-22 10:26:12","2011-09-19 07:27:45","Alpha blending sprites in Nintendo DS Homebrew","<c++><c><nintendo-ds>","3","0","2","","","7209","10"
+"7489","1","13384","","2008-08-11 02:50:09","","4","1491","<p>I've made many different seperate parts of a GUI system for the Nintendo DS, like buttons and textboxes and select boxes, but I need a way of containing these classes in one Gui class, so that I can draw everything to the screen all at once, and check all the buttons at once to check if any are being pressed. My question is what is the best way organize all the classes (such as buttons and textboxes) into one GUI class?</p>
+
+<p>Here's one way I thought of but it doesn't seem right:</p>
+
+<p><strong>Edit:</strong> I'm using C++.</p>
+
+<pre><code> class Gui {
+      public:
+           void update_all();
+           void draw_all() const;
+           int add_button(Button *button); // Returns button id
+           void remove_button(int button_id);
+      private:
+           Button *buttons[10];
+           int num_buttons;
+ }
+</code></pre>
+
+<p>This code has a few problems, but I just wanted to give you an idea of what I want.</p>
+","813","","813","Jeremy Ruten","2008-08-11 03:03:37","2008-10-10 17:39:53","How do I make a GUI?","<c++><user-interface>","5","2","","","","7489","10"
+"7525","1","7695","","2008-08-11 04:52:50","","15","10724","<p>So, I need some help. I am working on a project in C++. However, I think I have somehow managed to corrupt my heap. This is based off the fact that I added a <code>std::string</code> to a class and assigning it a value from another <code>std::string</code>:</p>
+
+<pre><code>std::string hello = ""Hello, world.\n"";
+/* exampleString = ""Hello, world.\n"" would work fine. */
+exampleString = hello;
+</code></pre>
+
+<p>crashes on my system with a stack dump. So basically I need to <strong>stop</strong> and go through all my code and memory management stuff and find out where I've screwed up. The codebase is still small (about 1000 lines), so this is easily do-able. </p>
+
+<p>Still, I'm over my head with this kind of stuff, so I thought I'd throw it out there. I'm on a Linux system, and have poked around with <code>valgrind</code>, and while not knowing completely what I'm doing, it did report that the <code>std::string</code>'s destructor was an invalid free. I have to admit to getting the term 'Heap Corruption' from a Google search; any general purpose articles on this sort of stuff would be appreciated as well.</p>
+
+<p>(In before <code>rm -rf ProjectDir</code>, do again in C# :D)</p>
+
+<p>EDIT:
+I haven't made it clear, but what I'm asking for are ways an advice of diagnosing these sort of memory problems. I know the std::string stuff is right, so it's something I've done (or a bug, but there's Not A Problem With Select). I'm sure I could chuck the code I've written up and you very smart folks would see the problem in no time, but I want to add this kind of code analysis to my 'toolbox', as it were.</p>
+","61","","61","Bernard","2008-08-11 06:08:17","2013-04-04 12:55:36","Of Memory Management, Heap Corruption, and C++","<c++><memory><stack><heap>","12","0","13","","","7525","10"
+"7664","1","7669","","2008-08-11 10:38:51","","4","8789","<p>I am wrapping existing C++ code from a BSD project in our own custom wrapper and I want to integrate it to our code with as few changes as possible. This code uses <code>fprintf</code> to print to <strong>stderr</strong> in order to log / report errors.</p>
+
+<p>I want to redirect this to an alternative place within the same process. On Unix I have done this with a socketpair and a thread: one end of the socket is where I send <strong>stderr</strong> (via a call to <code>dup2</code>) and the other end is monitored in a thread, where I can then process the output.</p>
+
+<p>This does not work on windows though because a socket is not the same as a file handle.</p>
+
+<p>All documents I have found on the web show how to redirect output from a child process, which is not what I want.  How can I redirect <strong>stderr</strong> within the same process getting a callback of some sort when output is written?  (and before you say so, I've tried <code>SetStdHandle</code> but cannot find any way to make this work)...</p>
+","912","","1471203","ΤΖΩΤΖΙΟΥ","2013-01-09 05:53:36","2013-01-09 05:53:36","Windows C++: How can I redirect stderr for calls to fprintf?","<c++><windows><redirect>","3","0","1","","","7664","10"
+"7880","1","7886","","2008-08-11 15:50:51","","11","42798","<p>I want to open a file for reading, the C++ way. I need to be able to do it for text files, which would involve some sort of read line function, and a way to do it for binary files, which would provide a way to read raw data into a char* buffer.</p>
+","432","","56338","","2010-08-11 16:58:15","2014-07-17 22:31:22","How do you open a file in C++?","<c++><file><io>","6","2","4","","","7880","10"
+"8263","1","8347","","2008-08-11 21:51:06","","1","1474","<p>I'm using Visual C++ 2003 to debug a program remotely via TCP/IP.</p>
+
+<p>I had set the Win32 exception c00000005, ""Access violation,"" to break into the debugger when thrown. Then, I set it back to ""Use parent setting."" The setting for the parent, Win32 Exceptions, is to continue when the exception is thrown.</p>
+
+<p>Now, when I debug the program, it breaks each time that exception is thrown, forcing me to click Continue to let it keep debugging. How do I get it to stop breaking like this?</p>
+","179","","67415","Kent Fredric","2012-12-06 10:13:15","2015-04-21 15:43:21","I can't get my debugger to stop breaking on first-chance exceptions","<c++><visual-studio><debugging><visual-studio-2003><first-chance-exception>","3","0","0","","","8263","10"
+"8443","1","","","2008-08-12 04:00:13","","4","869","<p>Using Microsoft Visual Studio 98, Microsoft Visual C++ 6.0 SP6</p>
+
+<p>When running under the debugger, there's only one problem.  If I pause the program and resume, everything's fine.</p>
+
+<p>The problem?  When I hit a breakpoint, my program stops.  But not in a good way; execution halts, I'm thrown out of debug mode into edit mode.  All's fine until a breakpoint is hit.  And I know it's hitting the breakpoint - I see a flash of the little yellow arrow pointing at the right line of code, local variables in the inspect window and the call stack in that window.  And then I'm staring at the editor.</p>
+
+<p>This happens in all projects.</p>
+
+<p>I've uninstalled and re-installed MSVC6.  It didn't help.</p>
+
+<p>I'm about to start over on a new PC; before I go that far, anyone know what I've done to this one?</p>
+
+<p><hr></p>
+
+<p>Note: MSVC6 is not my choice, but there are reasons.  It's the tool I work with.  And, we get to target NT4, so given 2008 can't target NT4 and 2005 has issues with MFC and NT4, MSVC6 it is.</p>
+","257","","7734","Josh","2010-07-30 16:41:01","2010-07-30 16:41:01","MSVC6: Breakpoint stops program - WTF?","<c++><windows><debugging><visual-c++><vc6>","6","0","","","","8443","10"
+"8451","1","8486","","2008-08-12 04:18:09","","5","3116","<p>I want to create an allocator which provides memory with the following attributes:</p>
+
+<ul>
+<li>cannot be paged to disk.    </li>
+<li>is incredibly hard to access through an attached debugger</li>
+</ul>
+
+<p>The idea is that this will contain sensitive information (like licence information) which should be inaccessible to the user. I have done the usual research online and asked a few other people about this, but I cannot find a good place start on this problem.</p>
+
+<p><strong>Updates</strong></p>
+
+<p><a href=""http://stackoverflow.com/questions/8451/secure-memory-allocator-in-c#27194"" rel=""nofollow"">Josh</a> mentions using VirtualAlloc to set protection on the memory space. I have created a custom allocator ( shown below ) I have found the using the <code>VirtualLock</code> function it limits the amount of memory I can allocate. This seems to be by design though. Since I am using it for small objects this is not a problem.</p>
+
+<pre><code>//
+template&lt;class _Ty&gt;
+class LockedVirtualMemAllocator : public std::allocator&lt;_Ty&gt;
+{
+public:
+	template&lt;class _Other&gt;
+	LockedVirtualMemAllocator&lt;_Ty&gt;&amp; operator=(const LockedVirtualMemAllocator&lt;_Other&gt;&amp;)
+	{	// assign from a related LockedVirtualMemAllocator (do nothing)
+		return (*this);
+	}
+
+	template&lt;class Other&gt;
+	struct rebind {
+		typedef LockedVirtualMemAllocator&lt;Other&gt; other;
+	};
+
+	pointer allocate( size_type _n )
+	{
+		SIZE_T	allocLen = (_n * sizeof(_Ty));
+		DWORD	allocType = MEM_COMMIT;
+		DWORD	allocProtect = PAGE_READWRITE;
+		LPVOID pMem = ::VirtualAlloc( NULL, allocLen, allocType, allocProtect );
+		if ( pMem != NULL ) {
+			::VirtualLock( pMem, allocLen );
+		}
+		return reinterpret_cast&lt;pointer&gt;( pMem );
+	}
+	pointer allocate( size_type _n, const void* )
+	{
+		return allocate( _n );
+	}
+
+	void deallocate(void* _pPtr, size_type _n )
+	{
+		if ( _pPtr != NULL ) {
+			SIZE_T	allocLen = (_n * sizeof(_Ty));
+			::SecureZeroMemory( _pPtr, allocLen );
+			::VirtualUnlock( _pPtr, allocLen );
+			::VirtualFree( _pPtr, 0, MEM_RELEASE );
+		}
+	}
+};
+</code></pre>
+
+<p>and is used</p>
+
+<pre><code> //a memory safe std::string
+ typedef std::basic_string&lt;char, std::char_traits&lt;char&gt;, 
+                           LockedVirtualMemAllocato&lt;char&gt; &gt; modulestring_t;
+</code></pre>
+
+<p><a href=""http://stackoverflow.com/questions/8451/secure-memory-allocator-in-c#38708"" rel=""nofollow"">Ted Percival</a> mentions mlock, but I have no implementation of that yet.</p>
+
+<p>I found <a href=""http://www.schneier.com/book-practical.html"" rel=""nofollow"">Practical Cryptography by Neil Furguson and Bruce Schneier</a> quite helpful as well.</p>
+","716","","222815","roo","2010-01-02 12:00:28","2013-10-30 01:43:12","Secure Memory Allocator in C++","<c++><security><memory><ram-scraping>","12","0","5","","","8451","10"
+"8748","1","8771","","2008-08-12 12:24:41","","10","7698","<p>In the company I work for, we do a lot of file-based transaction processing. The processing centers around the conversion of files between numerous formats to suit numerous systems in numerous companies.</p>
+
+<p>The processing almost always involves an XML stage and can include a lot of text parsing, database lookups, data conversion and data validation.</p>
+
+<p>Currently the programs performing all these tasks are written in C++ and they perform quite quickly all on one average server. I'm investigating the possibilities of using a more ""modern"" language that newer graduate programmers are more likely to be familiar with. (Correct memory allocation in C++ seems to causes problems with a lot of newer programmers these days)</p>
+
+<p>Based on the brief information provided, would a language such as python provide the required functionality and performance, as well as addressing the memory allocation (and various other C++ related) problems which arise?</p>
+
+<p>I like the idea of not needing to compile the programs each time we make a change. I understand that the interpreted languages probably wont hit the same performance we currently get.</p>
+
+<p>Our systems are Linux based which also restrict some options.</p>
+
+<p>Any comments on the functionality and performance available with Python or suggestions of alternative languages would be much appreciated.</p>
+","1061","Jarod Elliott","1061","Jarod Elliott","2008-08-12 12:29:09","2012-06-06 00:57:28","Should I move from C++ to Python? ... Or another language?","<c++><python><linux>","13","0","","2012-11-14 11:33:16","","8748","10"
+"8896","1","2356710","","2008-08-12 14:37:28","","74","38050","<p>Does anyone know <strong>IF</strong>, <strong>WHEN</strong> or <strong>HOW</strong> I can get <a href=""http://www.danga.com/memcached/"" rel=""nofollow"">Memcached</a> running on a Windows 64bit environment? </p>
+
+<p>I'm setting up a new hosting solution and would much prefer to run a 64bit OS, and since it's an ASP.Net MVC solution with SQL Server DB, the OS is either going to be Windows Server 2003 or (hopfully!) 2008.</p>
+
+<p>I know that this could spill over into a debate regarding 32bit vs 64bit on servers, but let's just say that my preference is 64bit and that I have some <a href=""http://blogs.technet.com/mscom/archive/2005/09/26/411568.aspx"" rel=""nofollow"">very</a> <a href=""http://www.codinghorror.com/blog/archives/000435.html"" rel=""nofollow"">good</a> reasons.</p>
+
+<p>So far, I've tried a number of options and found a <a href=""http://blog.rakeshxp.com/2007/09/running-memcached-on-windows.html"" rel=""nofollow"">bit</a> of <a href=""http://www.splinedancer.com/memcached-win32/"" rel=""nofollow"">help</a> related to getting this up on a 32bit machine (and succeeded I might add), but since the original <a href=""http://jehiah.cz/projects/memcached-win32/"" rel=""nofollow"">Windows port</a> is Win32 specific, this is hardly going to help when installing as a service on x64. It also has a dependency on the <a href=""http://www.monkey.org/~provos/libevent/"" rel=""nofollow"">libevent</a> for which I can only get a Win32 compiled version.</p>
+
+<p>I suspect that simply loading all this up in C++ and hitting ""compile"" (for 64bit) wouldn't work, not least because of the intricate differences in 32 and 64bit architectures, but I'm wondering if anyone is workng on getting this off the ground? Unfortunately, my expertise lie in managed code (C#) only, otherwise I would try and take this on myself, but I can't believe I'm the only guy out there trying to get <a href=""http://www.danga.com/memcached/"" rel=""nofollow"">memcached</a> running on a 64 bit Windows server....am I??</p>
+
+<p>Any help or recommendations appreciated...</p>
+
+<hr>
+
+<p>Update</p>
+
+<p><strong>Yes I'm afraid I'm still looking for an answer to this - all my efforts (with my pathetic C++ skills) to make a stable build have failed - I've trashed one server and 3 VM's just trying it out so now I turn to the real experts.
+Is anyone planning on porting this to 64bit? Or are you really suggesting that I use MS Velocity instead? I shudder at the thought...</strong></p>
+
+<hr>
+
+<p>Update:
+@Lars - I do use Enyim actually - it's very good, but what you're referring to is a client, rather than the server part.</p>
+
+<p>@DannySmurf - I've only been able to install it as a service on a 32 bit OS. 64 bit OS rejects the installation of this Win32 service. Of course yes, lots of Win32 code works seamlessly on x64 architecture, hence you can run 32bit apps (like Office for instance) or games on Vista/XP 64 etc, but this doesn't translate directly when it comes to services. I'm no expert, I suspect that it has to do with the syncs or eventing that services need to subscribe to, and I suspect that 64 and 32 don't play nicely. I'm happy to be corrected on any of this, but to answer your question - yes I have tried.</p>
+
+<p>@OJ - thanks very much for the straight-forward response. I thought as much, but wasn't sure if anyone else had suggestions or had already gone down this route. Maybe when StackOverflow is LIVE, then more people will respond and let me know if this is something being looked into, and although I can try and compile it myself - I simply can't ""trust"" (with my C++ experience level) that it would provide ""Enterprise Level"" reliability in such a crucial component of large scalable solutions. I think it would need educated intervention rather than my unsanitised experimental approach before I could be confident. One little oversight on my part, could bring the site down. Oh well... till next time... </p>
+","1107","Rob G","2063547","Rob G","2015-07-25 05:57:55","2015-07-25 05:57:55","can I get Memcached running on a Windows (x64) 64bit environment?","<c#><c++><windows><64bit><memcached>","12","1","51","","","8896","10"
+"9321","1","9328","","2008-08-12 23:35:00","","130","213405","<p>How do you create a static class in C++? I should be able to do something like:</p>
+
+<pre><code>cout &lt;&lt; ""bit 5 is "" &lt;&lt; BitParser::getBitAt(buffer, 5) &lt;&lt; endl;
+</code></pre>
+
+<p>Assuming I created the BitParser class. What would the BitParser class definition look like?</p>
+","432","superjoe30","4794","Don Kirkby","2008-12-09 22:19:22","2015-07-03 08:22:19","How do you create a static class in C++?","<c++><oop><class><syntax><static>","10","4","52","","","9321","10"
+"9589","1","12064","","2008-08-13 08:47:36","","34","28191","<p>I'm looking for a tool which can generate makefile for a C/C++ project for different compilers (gcc, microsoft vc++, borland etc) and different platforms (Win, Linux, Mac).</p>
+","1007","Serge","23855","chills42","2008-11-03 13:10:16","2013-03-05 18:04:00","any good tool for makefile generation?","<c++><c><cross-platform><make>","10","0","12","2014-05-12 03:27:43","","9589","10"
+"9629","1","","","2008-08-13 10:04:40","","3","635","<p>I have got the following situation. On a machine there is a Fritz ISDN card. There is a process that is responsible for playing a certain wave file on this device's wave out (ISDN connection is made at startup and made persistent). The scenario is easy, whenever needed the process calls <code>waveOutWrite()</code> on the previously opened wave device (everything initialized without any problems of course) and a callback function waits for <code>MM_WOM_DONE</code> msg to know that the playback has been finished. </p>
+
+<p>Since a few days however (nothing changed neither in the process nor the machine) the <code>MM_WOM_DONE</code> message has been coming immediately after calling <code>waveOutWrite()</code> even though the wave lasts a couple of seconds. Again no error is reported, it looks like the file was played but had zero length (which is not the case). I am also sure that <code>waveOutReset()</code> was not called by my process (it would also trigger sending the mentioned message). I have already used to have some strange problems in the past that where solved simply by reinstalling TAPI drivers. This time for some reason it is problematic for me to perform that once again and I am trying more analytical approach :). Any suggestions what might cause such a behavior? Maybe something on the other end of the ISDN line?</p>
+","2090742","TyBoer","4411","TyBoer","2013-01-06 15:16:37","2013-01-06 15:16:37","Playing wave file ends immediately (C++, Windows)","<c++><windows><waveout>","4","0","","","","9629","10"
+"9667","1","9670","","2008-08-13 11:42:13","","7","1797","<p>Given a handle of type HWND is it possible to confirm that the handle represents a real window?</p>
+","887","John Richardson","","","","2009-09-12 14:33:20","Validating a Win32 Window Handle","<c++><windows><winapi>","2","0","","","","9667","10"
+"9938","1","9972","","2008-08-13 15:22:47","","27","7367","<p>I am trying to find a generic way of accessing a set of containers. I have a standard vector and list in addition to another custom list.</p>
+
+<p>The custom list defines an iterator;</p>
+
+<pre><code>class Iterator: public std::iterator&lt;std::forward_iterator_tag, T&gt; {
+    // ...
+}
+
+Iterator begin() {
+    return (Iterator(root));
+}
+
+Iterator end() {
+    return (Iterator(NULL));
+}
+</code></pre>
+
+<p>with the appropriate operators overloaded. </p>
+
+<p>Ideally, I would like to do this;</p>
+
+<pre><code>class Foo {
+public:
+    Foo() {
+        std::list&lt;int&gt; x;
+        std::vector&lt;int&gt; y;
+        custom_list&lt;int&gt; z;
+
+        iter = x.begin(); // OR
+        iter = y.begin(); // OR
+        iter = z.begin();
+
+        // ...
+    };
+private:
+    std::iterator&lt;int&gt; iter;
+};
+</code></pre>
+
+<p>But obviously these are all iterators of different types. I can assume all the containers are of the same type however.</p>
+
+<p>Is there an elegant way to solve this problem?</p>
+","263","Mark","","","","2008-09-24 15:44:41","Generic iterator","<c++><generics><iteration><containers>","3","0","17","","","9938","10"
+"10059","1","10555","","2008-08-13 16:42:40","","5","2399","<p>I'm developing an MFC application and I've recently been searching for a good method to remove the icon from a Windows title bar, but retain the close button. The two obvious candidate solutions are turning off the system menu style or using the tool window style, but I would prefer not to disable the system menu or use the shrunken tool window title bar. Many MFC applications have this functionality, so I wonder: am I missing some standard way of doing this? Thanks for any suggestions.</p>
+","","Nick Mabry","6899","ΤΖΩΤΖΙΟΥ","2008-10-15 23:35:41","2011-06-05 21:04:39","Removing icon from Windows title bars without ditching close button or system menu?","<c++><windows><user-interface><mfc>","5","0","","","","10059","10"
+"10880","1","10890","","2008-08-14 10:42:59","","37","21505","<p>I'm looking for a good article on using emacs as C/C++ IDE.</p>
+
+<p>Something like Steve Yegge's <a href=""http://steve.yegge.googlepages.com/effective-emacs"">""Effective emacs""</a>.</p>
+","1007","Serge","","","","2015-03-05 15:32:31","Any good advice on using emacs for C++ project?","<c++><emacs>","5","0","17","","","10880","10"
+"10901","1","11004","","2008-08-14 11:26:02","","9","3348","<p>My company has developed a long standing product using MFC in Visual C++ as the defacto standard for UI development. Our codebase contains ALOT of legacy/archaic code which must be kept operational. Some of this code is older than me (originally written in the late 70s) and some members of our team are still on Visual Studio 6.</p>
+
+<p>However, a conclusion has thankfully been reached internally that our product is looking somewhat antiquated compared to our competitors', and that something needs to be done.</p>
+
+<p>I am currently working on a new area of the UI which is quite separate from the rest of the product. I have therefore been given the chance to try out 'new' technology stacks as a sort of proving ground before the long process of moving over the rest of the UI begins.</p>
+
+<p>I have been using C# with Windows Forms and the .net framework for a while in my spare time and enjoy it, but am somewhat worried about the headaches caused by interop. While this particular branch of the UI won't require much interop with the legacy C++ codebase, I can forsee this becoming an issue in the future.</p>
+
+<p>The alternative is just to continue with MFC, but try and take advantage of the new feature pack that shipped with VS2008. This I guess is the easiest option, but I worry about longevity and not taking advantage of the goodness that is .net...</p>
+
+<p>So, which do I pick? We're a small team so my recommendation will quite probably be accepted as a future direction for our development - I want to get it right.</p>
+
+<p>Is MFC dead? Is C#/Winforms the way forward? Is there anything else I'm totally missing? Help greatly appreciated!</p>
+","1169","Ali Parr","55","Ryan Fox","2008-08-17 02:00:20","2009-02-25 22:41:07","Future proofing a large UI Application - MFC with 2008 Feature pack, or C# and Winforms?","<c#><c++><winforms><mfc><user-interface>","6","1","8","","","10901","10"
+"10985","1","11299","","2008-08-14 13:19:08","","15","5786","<p>Does anyone know how I can, in platform-independant C++ code prevent an object from being created on the heap? That is, for a class ""Foo"", I want to prevent users from doing this:</p>
+
+<pre><code>Foo *ptr = new Foo;
+</code></pre>
+
+<p>and only allow them to do this:</p>
+
+<pre><code>Foo myfooObject;
+</code></pre>
+
+<p>Does anyone have any ideas?</p>
+
+<p>Cheers,</p>
+","1304","Thomi","31640","","2010-08-19 12:27:40","2014-11-30 05:19:09","How to prevent an object being created on the heap?","<c++><stack><heap>","7","1","11","","","10985","10"
+"11060","1","11074","","2008-08-14 13:59:21","","14","3734","<p>This is a difficult and open-ended question I know, but I thought I'd throw it to the floor and see if anyone had any interesting suggestions.</p>
+
+<p>I have developed a code-generator that takes our python interface to our C++ code (generated via SWIG) and generates code needed to expose this as WebServices.  When I developed this code I did it using TDD, but I've found my tests to be brittle as hell.  Because each test essentially wanted to verify that for a given bit of input code (which happens to be a C++ header) I'd get a given bit of outputted code I wrote a small engine that reads test definitions from XML input files and generates test cases from these expectations.</p>
+
+<p>The problem is I dread going in to modify the code at all.  That and the fact that the unit tests themselves are a: complex, and b: brittle.</p>
+
+<p>So I'm trying to think of alternative approaches to this problem, and it strikes me I'm perhaps tackling it the wrong way.  Maybe I need to focus more on the outcome, IE: does the code I generate actually run and do what I want it to, rather than, does the code look the way I want it to.</p>
+
+<p>Has anyone got any experiences of something similar to this they would care to share?</p>
+","912","JKP","2134","Chris Fournier","2008-08-23 19:52:34","2015-07-20 04:10:25","How should I unit test a code-generator?","<c++><python><unit-testing><code-generation><swig>","8","2","2","","","11060","10"
+"11127","1","11132","","2008-08-14 14:37:27","","6","6732","<p>In a C++ Windows (XP and NT, if it makes a difference) application I'm working on, I need to get the network name associated with the computer the code is executing on, so that I can convert local filenames from C:\filename.ext to \\network_name\C$\filename.ext. How would I do this?</p>
+
+<p>Alternatively, if there's a function that will just do the conversion I described, that would be even better. I looked into WNetGetUniversalName, but that doesn't seem to work with local (C drive) files.</p>
+","179","MOE37x3","123","Prakash","2008-08-25 18:10:47","2014-12-08 18:53:25","In C++/Windows how do I get the network name of the computer I'm on?","<c++><windows-xp><networking><windows-nt>","3","1","","","","11127","10"
+"11405","1","11414","","2008-08-14 17:39:46","","22","5206","<p>The following code doesn't compile with gcc, but does with Visual Studio:</p>
+
+<pre><code>template &lt;typename T&gt; class A {
+public:
+    T foo;
+};
+
+template &lt;typename T&gt; class B: public A &lt;T&gt; {
+public:
+    void bar() { cout &lt;&lt; foo &lt;&lt; endl; }
+};
+</code></pre>
+
+<p>I get the error:</p>
+
+<pre><code>test.cpp: In member function ‘void B&lt;T&gt;::bar()’:
+test.cpp:11: error: ‘foo’ was not declared in this scope
+</code></pre>
+
+<p>But it should be! If I change <code>bar</code> to</p>
+
+<pre><code>void bar() { cout &lt;&lt; this-&gt;foo &lt;&lt; endl; }
+</code></pre>
+
+<p>then it <em>does</em> compile, but I don't think I have to do this. Is there something in the official specs of C++ that gcc is following here, or is it just a quirk?</p>
+","112","","963864","","2012-07-18 06:11:03","2012-07-18 06:11:03","GCC problem : using a member of a base class that depends on a template argument","<c++><templates><base-class><class-members><name-lookup>","5","1","4","","","11405","10"
+"11491","1","11502","","2008-08-14 18:49:47","","19","13339","<p>What is the best way people have found to do String to Lower case / Upper case in C++?</p>
+
+<p>The issue is complicated by the fact that C++ isn't an English only programming language. Is there a good multilingual method?</p>
+","1366","Adam","3204551","","2014-04-14 17:47:47","2014-04-14 17:47:47","String To Lower/Upper in C++","<c++><string><unicode>","9","1","5","","","11491","10"
+"11562","1","2684544","","2008-08-14 19:24:17","","78","16244","<p><code>std::swap()</code> is used by many std containers (such as <code>std::list</code> and <code>std::vector</code>) during sorting and even assignment.</p>
+
+<p>But the std implementation of <code>swap()</code> is very generalized and rather inefficient for custom types.</p>
+
+<p>Thus efficiency can be gained by overloading <code>std::swap()</code> with a custom type specific implementation. But how can you implement it so it will be used by the std containers?</p>
+","1366","Adam","140719","Brian R. Bondy","2013-03-22 18:30:07","2015-08-31 17:13:17","How to overload std::swap()","<c++><performance><optimization><stl><c++-faq>","4","0","36","","","11562","10"
+"11635","1","315463","","2008-08-14 20:01:28","","261","230583","<p>What is the best way of doing case insensitive string comparison in C++ with out transforming a string to all upper or lower case?</p>
+
+<p>Also, what ever methods you present, are they Unicode friendly? Are they portable?</p>
+","1366","Adam","1009479","warren","2013-07-26 15:20:11","2015-09-30 12:47:00","Case insensitive string comparison in C++","<c++><string>","25","5","64","","","11635","10"
+"11854","1","11935","","2008-08-15 01:00:47","","5","1464","<p>In a project our team is using object lists to perform mass operations on sets of data that should all be processed in a similar way.  In particular, different objects would ideally act the same, which would be very easily achieved with polymorphism.  The problem I have with it is that inheritance implies the <em>is a</em> relationship, rather than the <em>has a</em> relationship.  For example, several objects <em>have a</em> damage counter, but to make this easy to use in an object list, polymorphism could be used - except that would imply an <em>is a</em> relationship which wouldn't be true.  (A person <em>is not a</em> damage counter.)</p>
+
+<p>The only solution I can think of is to have a member of the class return the proper object type when implicitly casted instead of relying on inheritance.  Would it be better to forgo the <em>is a</em> / <em>has a</em> ideal in exchange for ease of programming?</p>
+
+<p>Edit:
+To be more specific, I am using C++, so using polymorphism would allow the different objects to ""act the same"" in the sense that the derived classes could reside within a single list and be operated upon by a virtual function of the base class.  The use of an interface (or imitating them via inheritance) seems like a solution I would be willing to use.</p>
+","1256","ImPerfection","2193","Jason Etheridge","2008-09-21 07:38:09","2010-01-18 21:29:48","Inheritance and Polymorphism - Ease of use vs Purity","<c++><inheritance><oop><polymorphism>","10","0","","","","11854","10"
+"12319","1","265407","","2008-08-15 14:59:11","","12","7555","<p>I'm looking to the equivalent of Windows <a href=""http://msdn.microsoft.com/fr-fr/library/yeby3zcb.aspx""><code>_wfopen()</code></a> under Mac OS X. Any idea?</p>
+
+<p>I need this in order to port a Windows library that uses <code>wchar*</code> for its File interface. As this is intended to be a cross-platform library, I am unable to rely on how the client application will get the file path and give it to the library.</p>
+","268","Vincent Robert","268","Vincent Robert","2008-10-02 12:42:08","2013-12-27 11:46:16","_wfopen equivalent under Mac OS X","<c++><winapi><osx><porting><fopen>","6","0","4","","","12319","10"
+"12332","1","12408","","2008-08-15 15:08:48","","17","1929","<p>I am looking for a more technical explanation then the OS calls the function.
+Can anyone help me out or point me to a website or book?</p>
+
+<p>Thanks.</p>
+","","John","123","Prakash","2008-10-16 12:35:21","2015-04-13 14:59:01","In a C/C++ program how does the system (windows, linux, mac OS X) call the main() function","<c++><c><main>","7","0","5","","","12332","10"
+"12594","1","12599","","2008-08-15 18:45:36","","1","1262","<p>Let's say I have a drive such as <strong>C:\</strong>, and I want to find out if it's shared and what it's share name (e.g. <strong>C$</strong>) is.</p>
+
+<p>To find out if it's shared, I can use <a href=""http://msdn.microsoft.com/en-us/library/bb525385%28VS.85%29.aspx"" rel=""nofollow"">NetShareCheck</a>.</p>
+
+<p>How do I then map the drive to its share name? I thought that <a href=""http://msdn.microsoft.com/en-us/library/bb525388%28VS.85%29.aspx"" rel=""nofollow"">NetShareGetInfo</a> would do it, but it looks like that takes the share name, not the local drive name, as an input.</p>
+","179","MOE37x3","1332690","","2012-04-25 17:02:11","2012-04-25 17:02:11","Windows/C++: How do I determine the share name associated with a shared drive?","<c++><windows><networking><share>","3","0","","","","12594","10"
+"12633","1","12677","","2008-08-15 19:31:01","","67","62251","<p>I'm trying to parse an INI file using C++. Any tips on what is the best way to achieve this? Should I use the Windows API tools for INI file processing (with which I am totally unfamiliar), an open-source solution or attempt to parse it manually?</p>
+","1467","conmulligan","","","","2015-02-09 17:36:16","What is the easiest way to parse an INI File in C++?","<c++><winapi><ini><fileparse>","12","0","16","","","12633","10"
+"12716","1","12751","","2008-08-15 20:40:11","","3","3011","<p>In C++ program, I am trying to #import TLB of .NET out-of-proc server.</p>
+
+<p>I get errors like: </p>
+
+<blockquote>
+  <p>z:\server.tlh(111) : error C2146: syntax error : missing ';' before identifier 'GetType'</p>
+  
+  <p>z:\server.tlh(111) : error C2501: '_TypePtr' : missing storage-class or type specifiers</p>
+  
+  <p>z:\server.tli(74) : error C2143: syntax error : missing ';' before 'tag::id'</p>
+  
+  <p>z:\server.tli(74) : error C2433: '_TypePtr' : 'inline' not permitted on data declarations</p>
+  
+  <p>z:\server.tli(74) : error C2501: '_TypePtr' : missing storage-class or type specifiers</p>
+  
+  <p>z:\server.tli(74) : fatal error C1004: unexpected end of file found</p>
+</blockquote>
+
+<p>The TLH looks like:</p>
+
+<pre><code>_bstr_t GetToString();
+VARIANT_BOOL Equals (const _variant_t &amp; obj);
+long GetHashCode();
+_TypePtr GetType();
+long Open();
+</code></pre>
+
+<p>I am not really interested in the having the base object .NET object methods like GetType(), Equals(), etc. But GetType() seems to be causing problems.</p>
+
+<p>Some google research indicates I could <code>#import mscorlib.tlb</code> (or put it in path), but I can't get that to compile either.</p>
+
+<p>Any tips?</p>
+","814","jm","2548","","2013-02-06 00:25:04","2015-07-22 09:24:37","Problems with #import of .NET out-of-proc server","<c#><c++><com><interop>","5","0","","","","12716","10"
+"13128","1","13140","","2008-08-16 13:46:01","","31","15157","<p>I'm tired of adding ten link libraries into my project, or requiring eight of them to use my own. I'd like to take existing libraries like libpng.a, libz.a, libjpeg.a, and combine them into one single .a library. Is that possible? How about combining .lib libraries?</p>
+","1536","Kronikarz","-1","","2008-09-10 18:13:50","2014-12-28 11:43:54","How to combine several C/C++ libraries into one?","<c++><c><archive>","6","0","8","","","13128","10"
+"13473","1","13481","","2008-08-17 02:13:55","","4","8787","<p>I need to take an array and sort it in c/c++, replacing each value with its' ""rank"", an integer that corresponds to its position after sort.  Heres an example:  Input: 1,3,4,9,6.  Output: 1, 2, 3, 5, 4.  So, I need to replace each value with its position relative to all the other values.  I hope that makes sense, but its late, so who knows :p.  Thanks in advance.<br>
+Edit: I am using a shell sort procedure, and duplicates' ranks are arbitrarily chosen, based on which came first in the original array.</p>
+
+<h3>Update:</h3>
+
+<p>Despite my best efforts, I havent been able to implement a sort algorithm that sorts an array of pointerse by the values they point to.  Could someone please tell me whats going wrong?  The current example wont compile, and I've changed it around so much that it doesnt really matter.  I'd very much appreciate it if someone could help me fix this!</p>
+
+<pre><code>void SortArray( int ** pArray, int ArrayLength ) {
+
+    int i, j, flag = 1;    // set flag to 1 to begin initial pass
+    int * temp;    // holding variable orig with no *
+    for(i = 1; (i &lt;= ArrayLength) &amp;&amp; flag; i++)
+    {
+        flag = 0;
+        for (j=0; j &lt; (ArrayLength -1); j++)
+        {
+            if (*pArray[j+1] &gt; *pArray[j])    // ascending order simply changes to &lt;
+            { 
+                &amp;temp = &amp;pArray[j];    // swap elements
+                &amp;pArray[j] = &amp;pArray[j+1];    //the problem lies somewhere in here
+                &amp;pArray[j+1] = &amp;temp;
+                flag = 1;    // indicates that a swap occurred.
+            }
+        }
+    }
+};
+</code></pre>
+
+<p>Thanks in advance.</p>
+","522","Ed","2185245","Ed","2015-08-31 17:57:32","2015-08-31 17:57:32","How does one rank an array (sort) by value? *With a twist*","<c++><c><arrays><sorting>","5","0","3","","","13473","10"
+"13607","1","13618","","2008-08-17 12:50:15","","3","1543","<p>Could someone recommend any good resources for creating Graphics User Interfaces, preferably in C/C++?</p>
+
+<p>Currently my biggest influence is <a href=""http://www.3dbuzz.com"" rel=""nofollow"">3DBuzz.com</a>'s <a href=""http://www.3dbuzz.com/xcart/product.php?productid=30&amp;cat=12&amp;page=1"" rel=""nofollow"">C++/OpenGL VTMs</a> (Video Training Modules). While they are very good, they cover a large area of graphics programming, so only skim the surface of GUI programming.</p>
+
+<p>This question does relate to ""<a href=""http://stackoverflow.com/questions/7489/how-do-i-make-a-gui"" rel=""nofollow"">How do I make a GUI?</a>"", where there is also a rough outline of my current structure.</p>
+
+<p>Any response would be appreciated.</p>
+
+<p>thing2k</p>
+
+<p><strong>Edit:</strong>
+I've just read some of the answers and spotted that I've missed some points. I had to type the question twice as I caught the wrong button and lost it.</p>
+
+<p>I missed two important points, first: This will be used cross platform including homebrew on a Sony PSP. Second: I want to create a GUI system not use an existing one.</p>
+
+<p><strong>Edit 2:</strong> I think some of you are missing the point, I don't what to <strong>use</strong> an existing GUI system I want to build one.</p>
+
+<p>Qt in it's current form is not portable to the PSP, never mind the overkill of such a task.</p>
+
+<p>That said I've decided to create an IM-GUI, and have started to prototype the code.</p>
+","3180","thing2k","572","thing2k","2010-08-02 23:01:55","2010-08-02 23:01:55","GUI system development resources?","<c++><user-interface><playstation-portable>","9","0","1","","","13607","10"
+"13806","1","13870","","2008-08-17 18:27:08","","5","2588","<p>I am trying to snoop on a log file that an application is writing to.</p>
+
+<p>I have successfully hooked createfile with the detours library from MSR, but createfile never seems to be called with file I am interested in snooping on.  I have also tried hooking openfile with the same results.</p>
+
+<p>I am not an experienced windows/c++ programmer (or even an experienced programmer), so my initial two thoughts were either that the application calls createfile before I hook the apis, or that there is some other api for creating files/obtaining handles for them.</p>
+
+<p>Edit:
+Thanks for the two great replys.  I would upvote codingthewheel's reply since it was informative, but I don't have enough rep :(</p>
+","1646","Dustin","1561378","Dustin","2012-09-01 22:47:10","2012-09-01 22:47:10","Any windows apis to get file handles besides createfile and openfile?","<c++><windows><api><logfiles>","3","0","","","","13806","10"
+"14126","1","14127","","2008-08-18 03:15:35","","21","9899","<p>How to create a C++ Boost undirected graph and traverse it in depth first search (DFS) order?</p>
+","1630","Ash","95735","","2009-07-11 19:17:49","2009-07-11 19:17:49","How to create a C++ Boost undirected graph and traverse it in depth first search (DFS) order?","<c++><boost-graph>","1","0","10","","","14126","10"
+"14165","1","14169","","2008-08-18 04:13:34","","6","1354","<p>I'm seeing strange errors when my C++ code has min() or max() calls. I'm using Visual C++ compilers.</p>
+","1630","Ash","1630","Ash","2008-08-18 05:33:47","2011-08-19 17:39:24","Strange C++ errors with code that has min()/max() calls","<c++><c><windows>","6","1","","","","14165","10"
+"14271","1","14272","","2008-08-18 07:20:19","","1","900","<p>When the Boost library/headers is used with VC++ 9 compilers (Visual C++ 2008 Express Edition or Visual Studio 2008), a lot of benign warnings are generated. They are of 2 kinds:</p>
+
+<ol>
+<li>Warning about the Wp64 setting.</li>
+<li>Warning about the compiler version.</li>
+</ol>
+
+<p>How can I turn off these warnings?</p>
+","1630","Ash","15614","Kent Fredric","2009-01-15 05:29:05","2009-01-15 05:29:05","Boost warnings with VC++ 9","<c++><visual-studio><boost><warnings>","1","0","","","","14271","10"
+"14491","1","8768957","","2008-08-18 12:04:06","","7","8847","<p>What is the proper way for an MFC application to cleanly close itself?</p>
+","1743","Mike","3853","ChrisN","2008-09-16 11:11:48","2012-07-03 14:44:32","How can an MFC application terminate itself?","<c++><visual-c++><mfc>","5","0","2","","","14491","10"

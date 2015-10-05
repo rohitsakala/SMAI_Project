@@ -1,0 +1,810 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"1041","1","17198991","","2008-08-04 05:50:00","","12","824","<p>I'm looking for a robust, easy-to-use, regular expression evaluator for native C++, either platform-independent or Windows-specific.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li>Can't use Boost or ACE regex libraries (unfortunately)</li>
+<li>Can't use .NET Regex (or any managed code)</li>
+</ul>
+
+<p>The main requirement is that it should be standalone and open.</p>
+","","user2189331","396458","Mark Biek","2011-12-02 18:01:27","2013-06-19 18:47:47","Easy-to-Use Regular Expression Support in C++?","<c++><regex>","9","5","1","","","1041","18"
+"1237","1","1243","","2008-08-04 13:47:10","","30","62398","<p>I have a file in the following format:</p>
+
+<pre>
+Data Data
+Data
+[Start]
+Data i want
+[End]
+Data
+</pre>
+
+<p>I'd like to grab the <code>Data i want</code> from between the <code>[Start]</code> and <code>[End]</code> tags using a RegEx. Can anyone show me how this might be done?</p>
+","230","","1454806","Dan","2013-04-11 20:20:53","2014-12-15 11:36:21","Regex: To pull out a sub-string between two tags in a string","<regex><parsing>","9","1","10","","","1237","18"
+"1746","1","1749","","2008-08-05 00:35:17","","25","6834","<p>I am trying to grab the capital letters of a couple of words and wrap them in span tags. I am using <a href=""http://php.net/manual/en/function.preg-replace.php"">preg_replace</a> for extract and wrapping purposes, but it's not outputting anything.</p>
+
+<pre><code>preg_replace(""/[A-Z]/"", ""&lt;span class=\""initial\""&gt;$1&lt;/span&gt;"", $str)
+</code></pre>
+","137","","8454","","2013-07-29 22:09:53","2013-10-25 13:09:44","How can I get at the matches when using preg_replace in PHP?","<php><regex><html-parsing><preg-replace>","4","0","4","","","1746","18"
+"4736","1","","","2008-08-07 14:05:23","","166","45961","<p>I don't really understand regular expressions.  Can you explain them to me in an easy-to-follow manner?  If there are any online tools or books, could you also link to them?</p>
+","1384652","","16587","Guido Garc&#237;a","2015-01-07 14:39:54","2015-01-28 04:42:16","Learning Regular Expressions","<regex>","1","0","264","2011-11-28 18:56:46","2010-11-11 17:31:17","4736","18"
+"4870","1","","","2008-08-07 15:43:11","","10","2235","<p>I'm writing a Telnet client of sorts in C# and part of what I have to parse are ANSI/VT100 escape sequences, specifically, just those used for colour and formatting (detailed <a href=""http://www.termsys.demon.co.uk/vtansi.htm#colors"">here</a>).</p>
+
+<p>One method I have is one to find all the codes and remove them, so I can render the text without any formatting if needed:</p>
+
+<pre><code>    
+public static string StripStringFormating(string formattedString)
+{
+    if (rTest.IsMatch(formattedString))
+        return rTest.Replace(formattedString, string.Empty);
+    else
+        return formattedString;
+}
+</code></pre>
+
+<p>I'm new to regular expressions and I was suggested to use this:</p>
+
+<pre><code>static Regex rText = new Regex(@""\e\[[\d;]+m"", RegexOptions.Compiled);</code></pre>
+
+<p>However, this failed if the escape code was incomplete due to an error on the server. So then this was suggested, but my friend warned it might be slower (this one also matches another condition (z) that I might come across later):</p>
+
+<pre><code>static Regex rTest = 
+              new Regex(@""(\e(\[([\d;]*[mz]?))?)?"", RegexOptions.Compiled);</code></pre>
+
+<p>This not only worked, but was in fact faster to and reduced the impact on my text rendering. Can someone explain to a regexp newbie, why? :)</p>
+","483","","483","Nidonocu","2008-09-17 21:18:19","2013-02-06 05:53:21","Why is this regular expression faster?","<regex><ansi>","4","0","","","","4870","18"
+"4954","1","4972","","2008-08-07 16:48:42","","5","2388","<p>I have worked for 5 years mainly in java desktop applications accessing Oracle databases and I have never used regular expressions. Now I enter Stack Overflow and I see a lot of questions about them; I feel like I missed something. </p>
+
+<p>For what do you use regular expressions?</p>
+
+<p>P.S. sorry for my bad english</p>
+","518","","21632","Adam Bellaire","2008-10-23 16:06:07","2009-09-17 09:00:25","What are good regular expressions?","<regex>","9","1","4","","","4954","18"
+"6173","1","6183","","2008-08-08 17:24:19","","9","8599","<P>I'm looking for a .NET regular expression extract all the URLs from a webpage but haven't found one to be comprehensive enough to cover all the different ways you can specify a link. </P>
+<P>And a side question:</P>
+<P>Is there 'one regex to rule them all'? Or am I better off using a series of less complicated regular expressions and just using mutliple passes against the raw HTML? (Speed vs. Maintainability)</P>","322","","20938","Jerub","2009-11-22 09:15:50","2012-09-05 16:22:08","Regular expression for parsing links from a webpage?","<.net><html><regex>","9","1","4","","","6173","18"
+"7917","1","8113","","2008-08-11 16:28:57","","8","40534","<p>I'm importing some data from a <code>CSV</code> file, and numbers that are larger than <code>1000</code> get turned into <code>1,100</code> etc. </p>
+
+<p>What's a good way to remove both the quotes and the comma from this so I can put it into an <code>int</code> field?</p>
+
+<p><strong>Edit:</strong> </p>
+
+<p>The data is actually already in a MySQL table, so I need to be able to this using SQL. Sorry for the mixup.</p>
+","402","","751527","Mark Biek","2012-11-14 15:32:42","2013-01-09 05:50:55","Remove Quotes and Commas from a String in MySQL","<mysql><regex><string>","8","0","4","","","7917","18"
+"9303","1","9306","","2008-08-12 23:04:10","","12","1572","<p>How do you retrieve selected text using Regex in C#?</p>
+
+<p>I am looking for C# code that is equivalent to this Perl code:</p>
+
+<pre><code>$indexVal = 0;
+if($string =~ /Index: (\d*)/){$indexVal = $1;}
+</code></pre>
+","889","Eldila","225647","","2011-10-25 10:13:27","2012-07-02 23:41:03","How do you retrieve selected text using Regex in C#?","<c#><regex><perl>","5","0","1","","","9303","18"
+"10149","1","10161","","2008-08-13 18:15:09","","6","966","<p>For context, I am something of an emacs newbie.  I haven't used it for very long, but have been using it more and more (I like it a lot).  Also I'm comfortable with lisp, but not super familiar with elisp.</p>
+
+<p>What I need to do is bind a regular expression to a keyboard combination because I use this particular regex so often.</p>
+
+<p>What I've been doing:  </p>
+
+<pre><code>M-C-s ^.*Table\(\(.*\n\)*?GO\)
+</code></pre>
+
+<p>Note, I used newline above, but I've found that for <code>isearch-forward-regexp</code>, you really need to replace the <code>\n</code> in the regular expression with the result of <kbd>C-q Q-j</kbd>.  This inserts a literal newline (without ending the command) enabling me to put a newline into the expression and match across lines.</p>
+
+<p>How can I bind this to a key combination?  </p>
+
+<p>I vaguely understand that I need to create an elisp function which executes <code>isearch-forward-regexp</code> with the expression, but I'm fuzzy on the details.  I've searched google and found most documentation to be a tad confusing.</p>
+
+<p><em>How can I bind a regular expression to a key combination in emacs?</em></p>
+
+<hr>
+
+<p><strong>Mike Stone had the best answer so far -- not <em>exactly</em> what I was looking for but it worked for what I needed</strong>  </p>
+
+<p>Edit - this sort of worked, but after storing the macro, when I went back to use it later, I couldn't use it with <kbd>C-x e</kbd>.  (i.e., if I reboot emacs and then type <kbd>M-x macro-name</kbd>, and then <kbd>C-x e</kbd>, I get a message in the minibuffer like 'no last kbd macro' or something similar)</p>
+
+<hr>
+
+<p>@Mike Stone - Thanks for the information.  I tried creating a macro like so:</p>
+
+<pre><code>C-x( M-C-s ^.*Table\(\(.*C-q C-J\)*?GO\) C-x)
+</code></pre>
+
+<p>This created my macro, but when I executed my macro I didn't get the same highlighting that I ordinarily get when I use <code>isearch-forward-regexp</code>.  Instead it just jumped to the end of the next match of the expression. So that doesn't really work for what I need. Any ideas?</p>
+
+<p>Edit: It looks like I <em>can</em> use macros to do what I want, I just have to think outside the box of <code>isearch-forward-regexp</code>. I'll try what you suggested.</p>
+","92","Justin Standard","6148","travis","2013-01-23 22:07:12","2013-01-23 22:12:10","How do I bind a regular expression to a key combination in emacs?","<regex><emacs><lisp>","4","0","1","","","10149","18"
+"10158","1","","","2008-08-13 18:18:30","","1","384","<p>What's the easiest way to do an ""instring"" type function with a regex? For example, how could I reject a whole string because of the presence of a single character such as <code>:</code>? For example: </p>
+
+<ul>
+<li><code>this</code> - okay</li>
+<li><code>there:is</code> - not okay because of <code>:</code></li>
+</ul>
+
+<p>More practically, how can I match the following string: </p>
+
+<pre><code>//foo/bar/baz[1]/ns:foo2/@attr/text()
+</code></pre>
+
+<p>For any node test on the xpath that doesn't include a namespace?</p>
+
+<pre><code>(/)?(/)([^:/]+) 
+</code></pre>
+
+<p>Will match the node tests but includes the namespace prefix which makes it faulty.</p>
+","64","David in Dakota","592746","","2011-12-20 18:56:46","2012-11-14 15:12:36","Regex Rejecting matches because of Instr","<regex><xpath>","5","0","","","","10158","18"
+"10533","1","10573","","2008-08-14 00:40:26","","2","3457","<p>Here's a problem I ran into recently.  I have attributes strings of the form</p>
+
+<pre><code>""x=1 and y=abc and z=c4g and ...""
+</code></pre>
+
+<p>Some attributes have numeric values, some have alpha values, some have mixed, some have dates, etc.</p>
+
+<p>Every string is <em>supposed</em> to have ""<code>x=someval and y=anotherval</code>"" at the beginning, but some don't.  I have three things I need to do.  </p>
+
+<ol>
+<li>Validate the strings to be certain that they have <code>x</code> and <code>y</code>.  </li>
+<li>Actually parse the values for <code>x</code> and <code>y</code>.</li>
+<li>Get the rest of the string.</li>
+</ol>
+
+<p>Given the example at the top, this would result in the following variables:</p>
+
+<pre><code>$x = 1;
+$y = ""abc"";
+$remainder = ""z=c4g and ...""
+</code></pre>
+
+<p>My question is: Is there a (reasonably) simple way to parse these <em>and</em> validate with a single regular expression?  i.e.:</p>
+
+<pre><code>if ($str =~ /someexpression/)
+{
+    $x = $1;
+    $y = $2;
+    $remainder = $3;
+}
+</code></pre>
+
+<p>Note that the string may consist of <em>only</em> <code>x</code> and <code>y</code> attributes.  This is a valid string.</p>
+
+<p>I'll post my solution as an answer, but it doesn't meet my single-regex preference.</p>
+","872","Derek Park","","","","2009-07-15 04:37:57","Parsing attributes with regex in Perl","<regex><perl>","5","0","","","","10533","18"
+"10610","1","10646","","2008-08-14 03:04:16","","7","883","<p>Does anyone use have a good regex library that they like to use? Most of the regexes that you find online either contain bugs or are so focused on the edge cases that it turns into a competition to validate whatever spec 100%. Of course you can write your own, but when you are billing by the hour its handy to have a library around. </p>
+","805","AdamSane","-1","","2008-09-10 18:13:56","2014-07-06 13:43:36","Pre-built regular expression patterns or Regex Libraries?","<regex>","5","1","0","","","10610","18"
+"13470","1","13484","","2008-08-17 02:01:56","","3","705","<p>I was reading <a href=""http://stackoverflow.com/questions/6173/regular-expression-for-parsing-links-from-a-webpage"" rel=""nofollow"" title=""Human Interface Guidelines"">this question</a> about how to parse URLs out of web pages and had a question about the <a href=""http://stackoverflow.com/questions/6173/regular-expression-for-parsing-links-from-a-webpage#6183"" rel=""nofollow"">accepted answer</a> which offered this solution:</p>
+
+<pre><code>((mailto\:|(news|(ht|f)tp(s?))\://){1}\S+)
+</code></pre>
+
+<p>The solution was offered by <a href=""http://stackoverflow.com/users/350/csmba"" rel=""nofollow"">csmba</a> and he credited it to <a href=""http://regexlib.com/Search.aspx?k=URL"" rel=""nofollow"">regexlib.com</a>.  Whew.  Credits done.</p>
+
+<p>I think this is a fairly naive regular expression but it's a fine starting point for building something better.  But, my question is this:</p>
+
+<p>What is the point of ""{1}""?  It means ""exactly one of the previous grouping"", right?  Isn't that the default behavior of a grouping in a regular expression?  Would the expression be changed in any way if the {1} were removed?</p>
+
+<p>If I saw this from a coworker I would point out his or her error but as I write this the response is rated at a 6 and the expression on regexlib.com is rated a 4 of 5.  So maybe I'm missing something?</p>
+","430","jj33","446591","Ryan Fox","2011-07-09 04:40:32","2013-05-01 02:12:30","Purpose of {1} in this regular expression to match url protocols","<regex>","4","0","","","","13470","18"
+"13791","1","13943","","2008-08-17 18:20:21","","7","1872","<p>I'm trying to implement string unescaping with Python regex and backreferences, and it doesn't seem to want to work very well. I'm sure it's something I'm doing wrong but I can't figure out what...</p>
+
+<pre><code>&gt;&gt;&gt; import re
+&gt;&gt;&gt; mystring = r""This is \n a test \r""
+&gt;&gt;&gt; p = re.compile( ""\\\\(\\S)"" )
+&gt;&gt;&gt; p.sub( ""\\1"", mystring )
+'This is n a test r'
+&gt;&gt;&gt; p.sub( ""\\\\\\1"", mystring )
+'This is \\n a test \\r'
+&gt;&gt;&gt; p.sub( ""\\\\1"", mystring )
+'This is \\1 a test \\1'
+</code></pre>
+
+<p>I'd like to replace \\[char] with \[char], but backreferences in Python don't appear to follow the same rules they do in every other implementation I've ever used. Could someone shed some light?</p>
+","1370","eplawless","153545","eplawless","2011-07-09 08:13:24","2011-07-09 08:13:24","Python Regular Expressions to implement string unescaping","<python><regex><backreference>","5","0","","","","13791","18"
+"14281","1","14320","","2008-08-18 07:41:09","","2","924","<p>I have over a million text files compressed into 40 zip files. I also have a list of about 500 model names of phones. I want to find out the number of times a particular model was mentioned in the text files. </p>
+
+<p>Is there any python module which can do a regex match on the files without unzipping it. Is there a simple way to solve this problem without unzipping?</p>
+","1448","cnu","1812471","","2014-09-02 15:44:08","2014-09-02 15:44:08","Is there a python module for regex matching in zip files","<python><regex><zip><text-processing>","4","0","1","","","14281","18"
+"14389","1","14391","","2008-08-18 09:41:14","","17","9695","<p>I have a script that parses the filenames of TV episodes (show.name.s01e02.avi for example), grabs the episode name (from the www.thetvdb.com API) and automatically renames them into something nicer (Show Name - [01x02].avi)</p>
+
+<p>The script works fine, that is until you try and use it on files that have Unicode show-names (something I never really thought about, since all the files I have are English, so mostly pretty-much all fall within <code>[a-zA-Z0-9'\-]</code>)</p>
+
+<p>How can I allow the regular expressions to match accented characters and the likes? Currently the regex's config section looks like..</p>
+
+<pre><code>config['valid_filename_chars'] = """"""0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&amp;*()_+=-[]{}""'.,&lt;&gt;`~? """"""
+config['valid_filename_chars_regex'] = re.escape(config['valid_filename_chars'])
+
+config['name_parse'] = [
+    # foo_[s01]_[e01]
+    re.compile('''^([%s]+?)[ \._\-]\[[Ss]([0-9]+?)\]_\[[Ee]([0-9]+?)\]?[^\\/]*$'''% (config['valid_filename_chars_regex'])),
+    # foo.1x09*
+    re.compile('''^([%s]+?)[ \._\-]\[?([0-9]+)x([0-9]+)[^\\/]*$''' % (config['valid_filename_chars_regex'])),
+    # foo.s01.e01, foo.s01_e01
+    re.compile('''^([%s]+?)[ \._\-][Ss]([0-9]+)[\.\- ]?[Ee]([0-9]+)[^\\/]*$''' % (config['valid_filename_chars_regex'])),
+    # foo.103*
+    re.compile('''^([%s]+)[ \._\-]([0-9]{1})([0-9]{2})[\._ -][^\\/]*$''' % (config['valid_filename_chars_regex'])),
+    # foo.0103*
+    re.compile('''^([%s]+)[ \._\-]([0-9]{2})([0-9]{2,3})[\._ -][^\\/]*$''' % (config['valid_filename_chars_regex'])),
+]
+</code></pre>
+","745","dbr","471272","","2012-03-29 18:10:10","2012-03-29 18:10:10","Regex and unicode","<python><regex><unicode><character-properties>","4","0","6","","","14389","18"
+"16563","1","","","2008-08-19 17:09:18","","1","658","<p>So I'm working on a project that will allow users to enter <strong>poker hand histories</strong> from sites like PokerStars and then display the hand to them.</p>
+
+<p>It seems that regex would be a great tool for this, however I rank my regex knowledge at ""slim to none"".</p>
+
+<p>So I'm using PHP and looping through this block of text line by line and on lines like this:</p>
+
+<pre><code>Seat 1: fabulous29 (835 in chips)
+
+Seat 2: Nioreh_21 (6465 in chips)
+
+Seat 3: Big Loads (3465 in chips)
+
+Seat 4: Sauchie (2060 in chips)
+</code></pre>
+
+<p>I want to extract seat <code>number, name, &amp; chip count</code> so the format is</p>
+
+<pre><code>Seat [number]: [letters&amp;numbers&amp;characters] ([number] in chips)
+</code></pre>
+
+<p>I have NO IDEA where to start or what commands I should even be using to optimize this.</p>
+
+<p>Any advice is greatly appreciated - even if it is just a link to a tutorial on PHP regex or the name of the command(s) I should be using.</p>
+","428190","Andrew G. Johnson","2534236","Ryan Fox","2014-10-29 07:06:11","2014-10-29 07:06:11","How to write regex to return only certain parts of this string?","<php><regex>","11","0","","","","16563","18"
+"16759","1","16785","","2008-08-19 19:11:32","","3","1334","<p>I read this <a href=""http://us.php.net/manual/en/regexp.reference.php"" rel=""nofollow"">PHP RegEx page</a>, but either I'm missing something, misreading something, or it doesn't work the way they say. I'm guessing it's one of the first two.</p>
+
+<pre><code>$str = preg_replace(""([|]\d*)"", ""\1;"", $str);
+</code></pre>
+","572","Thomas Owens","20938","Alan M","2009-03-14 07:54:29","2009-03-14 07:54:29","How do you use back-references to PCREs in PHP?","<php><regex>","1","0","1","","","16759","18"
+"18861","1","18884","","2008-08-20 21:11:34","","2","508","<p>So I am writing a registration form and I need the display name to be only numbers, letters and underscores.  Have a look at my code and tell me what I'm doing wrong.</p>
+
+<pre><code>&lt;form method=""post"" action=""/"" onsubmit=""return check_form()""&gt;
+    &lt;input type=""text"" id=""display-name"" name=""display-name"" maxlength=""255"" /&gt;
+    &lt;input type=""submit"" /&gt;
+&lt;/form&gt;
+&lt;script type=""text/javascript""&gt;
+&lt;!--
+    var name_regex = /^([a-zA-Z0-9_])+/
+
+    function check_form()
+    {
+    	if (!name_regex.test(document.forms[0].elements[0].value))
+    	{
+    		document.forms[0].elements[0].focus()
+    		alert(""Your display name may only contain letters, numbers and underscores"")
+    		return false
+    	}
+    }
+--&gt;
+&lt;/script&gt;
+</code></pre>
+
+<p>It's obviously been trimmed down to not include anything not related to the problem but even this snippet doesn't work.</p>
+","428190","Andrew G. Johnson","","","","2014-12-15 13:39:46","What did I do wrong here? [Javascript Regex]","<javascript><regex>","9","0","","","","18861","18"
+"19952","1","19983","","2008-08-21 13:50:35","","1","732","<p>The RFC for a Java class is set of all methods that can be invoked in response to a message to an object of the class or by some method in the class. 
+RFC = M + R where 
+M = Number of methods in the class.
+R = Total number of other methods directly invoked from the M.</p>
+
+<p>Thinking C is the .class and J is the .java file of which we need to calculate RFC.</p>
+
+<pre>
+class J{
+
+ a(){}
+ b(){}
+ c(){
+   e1.e();
+   e1.f();
+   e1.g();
+ }
+ h(){
+   i.k();
+   i.j();
+  }
+  m(){}
+  n(){
+   i.o();
+   i.p();
+   i.p();
+   i.p();
+  }
+}
+</pre>
+
+<p>here M=6
+and R=9  (Dont worry about call inside a loop. Its considered as a single call)</p>
+
+<p>Calculating M is easy. Load C using classloader and use reflection to get the count of methods.</p>
+
+<p>Calculating R is not direct. We need to count the number of method calls from the class. First level only. </p>
+
+<p>For calculating R i must use regex. Usually format would be ( calls with out using. are not counted)</p>
+
+<pre>
+[variable_name].[method_name]([zero or more parameters]);
+</pre>
+
+<p>or</p>
+
+<pre>
+[variable_name].[method_name]([zero or more parameters])
+</pre>
+
+<p>with out semicolon when call return is directly becomes parameter to another method.
+or  </p>
+
+<pre>
+[variable_name].[method_name]([zero or more parameters]).method2();
+</pre>
+
+<p>this becomes two method calls</p>
+
+<p>What other pattern of method call can u think of?  Is there any other way other than using RegEx that can be used to calculate R.</p>
+
+<hr>
+
+<p><strong>UPDATE:</strong><br>
+<a href=""http://stackoverflow.com/questions/19952/rfc-calculation-in-java-need-help-with-algorithm#19983"" title=""@McDowell"">@McDowell</a>
+Looks like using BCEL I can simplify the whole process. Let me try it.</p>
+","482","Thej","214668","Chris Fournier","2011-12-17 04:17:24","2011-12-17 04:17:24","Algorithm to perform RFC calculation in Java","<java><regex><algorithm><reflection>","4","0","","","","19952","18"
+"21669","1","21702","","2008-08-22 03:02:34","","9","3270","<p>I didn't get the answer to this anywhere. What is the runtime complexity of a Regex match and substitution?</p>
+
+<p>Edit: I work in python. But would like to know in general about most popular languages/tools (java, perl, sed).</p>
+","1448","cnu","1448","cnu","2008-08-22 03:20:49","2009-06-06 07:00:53","Complexity of Regex substitution","<regex><complexity-theory>","7","0","3","","","21669","18"
+"22115","1","22133","","2008-08-22 11:35:41","","53","26897","<p>I am writing a Java utility which helps me to generate loads of data for performance testing.  It would be <em>really</em> cool to be able to specify a regex for Strings so that my generator spits out things which match this.  Is there something out there already baked which I can use to do this?  Or is there a library which gets me most of the way there?</p>
+
+<p>Thanks</p>
+","2455","Andrew Harmel-Law","","","","2015-09-04 06:56:16","Using Regex to generate Strings rather than match them","<java><regex>","11","1","18","","","22115","18"
+"22444","1","22449","","2008-08-22 14:10:40","","7","7506","<pre><code>J0000000: Transaction A0001401 started on 8/22/2008 9:49:29 AM  J0000010: Project name: E:\foo.pf  J0000011: Job name: MBiek Direct Mail Test  J0000100: Machine name: DEV  J0000100: Project file: E:\mbiek\foo.pf  J0000100: Template file: E:\mbiek\foot.xdt  J0000100: Job name: MBiek  J0000100: Output folder: E:\foo\A0001401  J0000100: Temp folder: E:\foo\Output\A0001401  J0000100: Document 1 - Starting document  J0005000: Document 1 - Text overflowed on page 1 (warning)  J0000101: Document 1 - 1 page(s) composed  J0000102: Document 1 - 1 page(s) rendered at 500 x 647 pixels  J0000100: Document 1 - Completed successfully  J0000020:
+</code></pre>
+
+<p>I have this gigantic ugly string and I'm tring to extract pieces from it using regex.</p>
+
+<p>In this case, I want to grab everything after ""Project Name"" up to the part where it says ""J0000011:"" (the 11 is going to be a different number every time).</p>
+
+<p>Here's the regex I've been playing with</p>
+
+<pre><code>Project name:\s+(.*)\s+J[0-9]{7}:
+</code></pre>
+
+<p>The problem is that it doesn't stop until it hits the <strong>J0000020:</strong> at the end.</p>
+
+<p>How do I make the regex stop at the first ocurrence of <strong>J[0-9]{7}</strong>?</p>
+","305","Mark Biek","305","","2012-05-22 15:31:59","2012-05-22 15:31:59","My regex is matching too much. How do I make it stop?","<regex>","4","2","","","","22444","18"
+"22552","1","22572","","2008-08-22 14:49:36","","1","831","<p>I have a regex that is going to end up being a bit long and it'd make it much easier to read to have it across multiple lines.</p>
+
+<p>I tried this but it just barfs.</p>
+
+<pre><code>preg_match('
+                ^J[0-9]{7}:\s+
+                (.*?)             #Extract the Transaction Start Date msg
+                \s+J[0-9]{7}:\s+Project\sname:\s+
+                (.*?)             #Extract the Project Name
+                    \s+J[0-9]{7}:\s+Job\sname:\s+
+                (.*?)             #Extract the Job Name
+                \s+J[0-9]{7}:\s+
+                ', $this-&gt;getResultVar('FullMessage'), $atmp);
+</code></pre>
+
+<p>Is there are way to pass a regex in the above form to preg_match?</p>
+","305","Mark Biek","305","","2008-10-15 20:40:07","2008-10-15 20:40:07","Passing a commented, multi-line (freespace) regex to preg_match","<php><regex>","5","1","","","","22552","18"
+"22836","1","22896","","2008-08-22 16:47:55","","96","70441","<p>In Perl, what is a good way to perform a replacement on a string using a regular expression and store the value in a different variable, without changing the original?</p>
+
+<p>I usually just copy the string to a new variable then bind it to the <code>s///</code> regex that does the replacement on the new string, but I was wondering if there is a better way to do this?</p>
+
+<pre><code>$newstring = $oldstring;
+$newstring =~ s/foo/bar/g;
+</code></pre>
+","277","kaybenleroll","128421","brian d foy","2013-08-01 18:12:12","2014-07-08 17:38:37","How do I perform a Perl substitution on a string while keeping the original?","<regex><perl><replace>","5","0","34","","","22836","18"
+"23216","1","23229","","2008-08-22 19:10:51","","3","1322","<p>I can never remember the differences in regular expression syntax used by tools like <a href=""http://en.wikipedia.org/wiki/Grep"" rel=""nofollow"">grep</a> and <a href=""http://en.wikipedia.org/wiki/AWK"" rel=""nofollow"">AWK</a>, or languages like Python and PHP. Generally, Perl has the most expansive syntax, but I'm often hamstrung by the limitations of even <code>egrep</code> (""extended"" <code>grep</code>).</p>
+
+<p>Is there a site that lists the differences in a concise and easy-to-read fashion?</p>
+","726","yukondude","63550","","2012-07-10 14:53:29","2012-07-10 14:53:29","Summary of differences in regular expression syntax for various tools and languages?","<regex><grep>","3","0","","","","23216","18"
+"24723","1","535022","","2008-08-24 00:21:10","","12","26994","<p>Jeff actually posted about this in <a href=""http://refactormycode.com/codes/333-sanitize-html"">Sanitize HTML</a>. But his example is in C# and I'm actually more interested in a Java version. Does anyone has a better version for Java? Does his example is good enough that I could just convert it directly from C# to Java? </p>
+
+<p>[Update] I have put a bounty on this question because SO wasn't as popular as today when I asked the question (*). As for anything related to security, the more people look into it, the better it is! </p>
+
+<p>(*) In fact, I think it was still in closed beta</p>
+","1406","Eldimo","1406","Eldimo","2009-02-12 20:23:21","2015-07-03 19:26:54","Best regex to catch XSS (Cross-site Scripting) attack (in Java)?","<java><html><regex><xss>","9","1","15","","","24723","18"
+"25225","1","25231","","2008-08-24 17:49:02","","2","917","<p>I have a couple of files containing a value in each line </p>
+
+<p><strong>EDIT:</strong> <br />
+Oops... I figured out the answer to this question while in the midst of writing the post and didn't realize I had posted it by mistake in its incomplete state.</p>
+
+<p>I was trying to do:</p>
+
+<pre><code>paste -d ',' file1 file2 file 3 file 4 &gt; file5.csv
+</code></pre>
+
+<p>and was getting a weird output. I later realized that was happening because some files had both a carriage return and a newline character at the end of the line while others had only the newline character. Gotta always remember to pay attention to those things =P</p>
+","1582","grosauro","155077","grosauro","2015-08-24 09:33:50","2015-08-24 09:33:50","Combining values from different files into one CSV file","<regex><linux><unix><shell>","5","0","1","","","25225","18"
+"25259","1","25486","","2008-08-24 18:21:11","","187","22260","<p>What is a good complete <a href=""http://en.wikipedia.org/wiki/Regular_expression"">regular expression</a> or some other process that would take the title:</p>
+
+<blockquote>
+  <p>How do you change a title to be part of the URL like Stack Overflow?</p>
+</blockquote>
+
+<p>and turn it into </p>
+
+<pre><code>how-do-you-change-a-title-to-be-part-of-the-url-like-stack-overflow
+</code></pre>
+
+<p>that is used in the SEO-friendly URLs on Stack&nbsp;Overflow?</p>
+
+<p>The development environment I am using is <a href=""http://en.wikipedia.org/wiki/Ruby_on_Rails"">Ruby on Rails</a>, but if there are some other platform-specific solutions (.NET, PHP, <a href=""http://en.wikipedia.org/wiki/Django_%28web_framework%29"">Django</a>), I would love to see those too. </p>
+
+<p>I am sure I (or another reader) will come across the same problem on a different platform down the line. </p>
+
+<p>I am using custom routes, and I mainly want to know how to alter the string to all special characters are removed, it's all lowercase, and all whitespace is replaced.</p>
+","1632","Maudite","63550","Gerald Kaszuba","2013-07-10 11:55:52","2015-09-30 14:47:24","How does Stack Overflow generate its SEO-friendly URLs?","<regex><language-agnostic><friendly-url><slug>","21","3","208","","","25259","18"
+"25561","1","25622","","2008-08-25 01:59:45","","3","3956","<p>I am attempting to parse a string like the following using a .NET regular expression:</p>
+
+<pre><code>H3Y5NC8E-TGA5B6SB-2NVAQ4E0
+</code></pre>
+
+<p>and return the following using Split:
+    H3Y5NC8E
+    TGA5B6SB
+    2NVAQ4E0</p>
+
+<p>I validate each character against a specific character set (note that the letters 'I', 'O', 'U' &amp; 'W' are absent), so using string.Split is not an option. The number of characters in each group can vary and the number of groups can also vary. I am using the following expression:</p>
+
+<pre><code>([ABCDEFGHJKLMNPQRSTVXYZ0123456789]{8}-?){3}
+</code></pre>
+
+<p>This will match exactly 3 groups of 8 characters each. Any more or less will fail the match.
+This works insofar as it correctly matches the input. However, when I use the Split method to extract each character group, I just get the final group. RegexBuddy complains that I have repeated the capturing group itself and that I should put a capture group around the repeated group. However, none of my attempts to do this achieve the desired result. I have been trying expressions like this:</p>
+
+<pre><code>(([ABCDEFGHJKLMNPQRSTVXYZ0123456789]{8})-?){4}
+</code></pre>
+
+<p>But this does not work.</p>
+
+<p>Since I generate the regex in code, I could just expand it out by the number of groups, but I was hoping for a more elegant solution. </p>
+
+<hr>
+
+<p>Please note that the character set does not include the entire alphabet. It is part of a product activation system. As such, any characters that can be accidentally interpreted as numbers or other characters are removed. e.g. The letters 'I', 'O', 'U' &amp; 'W' are not in the character set.</p>
+
+<p>The hyphens are optional since a user does not need top type them in, but they can be there if the user as done a copy &amp; paste.</p>
+","2754","Mike Thompson","419","Mike Thompson","2011-11-19 01:20:58","2011-11-19 01:20:58","Capturing a repeated group","<regex><.net-2.0>","9","0","1","","","25561","18"
+"26323","1","26339","","2008-08-25 16:05:29","","3","6786","<p>C#: What is a good Regex to parse hyperlinks and their description?</p>
+
+<p>Please consider case insensitivity, whitespace and use of single quotes (instead of double quotes) around the HREF tag.</p>
+
+<p>Please also consider obtaining hyperlinks which have other tags within the &lt;a&gt; tags such as &lt;b&gt; and &lt;i&gt;</p>
+","2141","Krishna Kumar","20938","Jerub","2009-12-10 03:04:53","2009-12-16 16:12:02","Regex to Parse Hyperlinks and Descriptions","<html><regex>","6","0","","","","26323","18"
+"26855","1","26960","","2008-08-25 20:49:17","","4","394","<p>I'm currently using the module <code>URI::URL</code> to generate a full URL from a relative URL; however, it isn't running as fast as I'd like it to be. Does anyone know another way to do this that may be faster?</p>
+","2901","","1644214","","2014-03-08 23:52:52","2014-03-08 23:52:52","What's the fastest way to determine a full URL from a relative URL (given a base URL)","<regex><performance><perl><uri><perl-module>","5","0","","","","26855","18"
+"27745","1","27755","","2008-08-26 11:01:37","","65","106731","<p>Given the URL (single line):<br />
+<a href=""http://test.example.com/dir/subdir/file.html"">http://test.example.com/dir/subdir/file.html</a></p>
+
+<p>How can I extract the following parts using regular expressions:</p>
+
+<ol>
+<li>The Subdomain (test)</li>
+<li>The Domain (example.com)</li>
+<li>The path without the file (/dir/subdir/)</li>
+<li>The file (file.html)</li>
+<li>The path with the file (/dir/subdir/file.html)</li>
+<li>The URL without the path (<a href=""http://test.example.com"">http://test.example.com</a>)</li>
+<li>(add any other that you think would be useful)</li>
+</ol>
+
+<p>The regex should work correctly even if I enter the following URL:<br />
+<a href=""http://example.example.com/example/example/example.html"">http://example.example.com/example/example/example.html</a></p>
+
+<p>Thank you.</p>
+","2644","pek","1414","travis","2008-09-02 14:09:38","2015-05-31 22:00:07","Getting parts of a URL (Regex)","<regex><language-agnostic><url>","22","3","65","","","27745","18"
+"27910","1","10324802","","2008-08-26 12:37:33","","24","3475","<p>The <a href=""http://doi.org/"">DOI</a> system places basically no useful limitations on what constitutes <a href=""http://doi.org/handbook_2000/enumeration.html#2.2"">a reasonable identifier</a>. However, being able to pull DOIs out of PDFs, web pages, etc. is quite useful for citation information, etc.</p>
+
+<p>Is there a reliable way to identify a DOI in a block of text without assuming the 'doi:' prefix? (any language acceptable, regexes preferred, and avoiding false positives a must)</p>
+","2963","Kai","","","","2014-06-16 14:43:05","Finding a DOI in a document or page","<regex><doi>","6","0","16","","","27910","18"
+"28224","1","113250","","2008-08-26 14:37:31","","4","1674","<p>Is there a way to run a regexp-string replace on the current line in the bash?</p>
+
+<p>I find myself rather often in the situation, where I have typed a long commandline and then realize, that I would like to change a word somewhere in the line.</p>
+
+<p>My current approach is to finish the line, press <kbd>Ctrl</kbd>+<kbd>A</kbd> (to get to the start of the line), insert a # (to comment out the line), press enter and then use the <code>^oldword^newword</code> syntax (<code>^oldword^newword</code> executes the previous command after substituting oldword by newword).</p>
+
+<p>But there has to be a better (faster) way to achieve this. (The mouse is not possible, since I am in an ssh-sessions most of the time).</p>
+
+<p>Probably there is some emacs-like key-command for this, that I don't know about.</p>
+
+<p>Edit: I have tried using vi-mode. Something strange happened. Although I am a loving vim-user, I had serious trouble using my beloved bash. All those finger-movements, that have been burned into my subconscious suddenly stopped working. I quickly returned to emacs-mode and considered, giving emacs a try as my favorite editor (although I guess, the same thing might happen again).</p>
+","1870","Mo","7226","Mark Biek","2015-08-20 22:18:28","2015-08-20 22:18:28","Bash reg-exp substitution","<regex><bash>","3","0","","","","28224","18"
+"29088","1","29108","","2008-08-26 22:23:25","","5","765","<p>What is the difference between a <a href=""http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.group.aspx"" rel=""nofollow"">Group</a> and a <a href=""http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.match.aspx"" rel=""nofollow"">Match</a> in .NET's RegEx?</p>
+","1463","Guy","1332690","","2012-04-26 00:35:56","2012-04-26 00:35:56","What is the difference between a group and match in .NET's RegEx?","<.net><regex>","2","0","","","","29088","18"
+"29869","1","29917","","2008-08-27 10:41:44","","15","29939","<p>I need to match and remove all tags using a regular expression in Perl.  I have the following:</p>
+
+<pre><code>&lt;\\??(?!p).+?&gt;
+</code></pre>
+
+<p>But this still matches with the closing <code>&lt;/p&gt;</code> tag.  Any hint on how to match with the closing tag as well?</p>
+
+<p>Note, this is being performed on xhtml.</p>
+","274","Xetius","20938","Jerub","2009-11-22 09:16:21","2014-05-14 10:10:54","Regex to match all HTML tags except <p> and </p>","<html><regex><perl>","13","1","6","","","29869","18"
+"30026","1","30034","","2008-08-27 13:05:38","","9","822","<p>I've seen a lot of commonality in regex capabilities of different regex-enabled tools/languages (e.g. perl, sed, java, vim, etc), but I've also many differences.</p>
+
+<p>Is there a <em>standard</em> subset of regex capabilities that all regex-enabled tools/languages will support? How do regex capabilities vary between tools/languages?</p>
+","2045","","20938","KiwiBastard","2009-05-18 23:01:45","2009-11-23 02:22:36","Features common to all regex flavors?","<regex><language-agnostic>","6","0","1","","","30026","18"
+"30121","1","30129","","2008-08-27 13:36:51","","8","6238","<p>After my webform is submitted, a regex will be applied to user input on the server side (via PHP). I'd like to have the identical regex running in real-time on the client side to show the user what the real input will be. This will be pretty much the same as the Preview section on the Ask Question pages on Stack Overflow except with PHP on the back-end instead of .NET.</p>
+
+<p>What do I need to keep in mind in order to have my PHP and JavaScript regular expressions act exactly the same as each other?</p>
+","356","Dinah","1810429","","2014-12-13 01:51:24","2014-12-13 01:51:24","Making a JavaScript regex equivalent to a PHP regex","<php><javascript><regex>","5","0","","","","30121","18"
+"30847","1","30910","","2008-08-27 18:43:21","","8","11712","<p>How do you produce a regex that matches only valid URI. The description for URIs can be found here: <a href=""http://en.wikipedia.org/wiki/URI_scheme"">http://en.wikipedia.org/wiki/URI_scheme</a>. It doesn't need to extract any parts, just test if a URI is valid. </p>
+
+<p>(preferred format is .Net RegularExpression) (.Net Version 1.1)</p>
+
+<ul>
+<li>Doesn't neet to check for a known protocol, just a valid one.</li>
+</ul>
+
+<p>Current Solution:</p>
+
+<pre><code>^([a-zA-Z0-9+.-]+):(//([a-zA-Z0-9-._~!$&amp;'()*+,;=:]*)@)?([a-zA-Z0-9-._~!$&amp;'()*+,;=]+)(:(\\d*))?(/?[a-zA-Z0-9-._~!$&amp;'()*+,;=:/]+)?(\\?[a-zA-Z0-9-._~!$&amp;'()*+,;=:/?@]+)?(#[a-zA-Z0-9-._~!$&amp;'()*+,;=:/?@]+)?$(:(\\d*))?(/?[a-zA-Z0-9-._~!$&amp;'()*+,;=:/]+)?(\?[a-zA-Z0-9-._~!$&amp;'()*+,;=:/?@]+)?(\#[a-zA-Z0-9-._~!$&amp;'()*+,;=:/?@]+)?$
+</code></pre>
+","80","alumb","80","alumb","2008-08-27 19:25:37","2013-07-23 15:02:08","Regex to validate URIs","<.net><regex>","5","0","1","","","30847","18"
+"31053","1","31056","","2008-08-27 19:51:30","","29","65278","<p>How can I replace lone instances of \n with \r\n (LF alone with CRLF) using a regular expression in C#?</p>
+
+<p>Sorry if it's a stupid question, I'm new to Regex.</p>
+
+<p>I know to do it using plan <code>String.Replace</code>, like:</p>
+
+<pre><code>myStr.Replace(""\n"", ""\r\n"");
+myStr.Replace(""\r\r\n"", ""\r\n"");
+</code></pre>
+
+<p>However, this is inelegant, and would destroy any ""\r+\r\n"" already in the text (although they are not likely to exist).</p>
+","838","dbkk","838","","2011-06-26 16:14:13","2014-07-26 15:47:40","Regex (C#): Replace \n with \r\n","<c#><regex>","7","0","7","","","31053","18"
+"31415","1","31432","","2008-08-28 00:28:36","","0","7449","<p>Using regex, how is the simplest way to fetch a websites HTML and find the value inside this tag (or any attribute's value for that matter):</p>
+
+<pre><code>&lt;html&gt;
+  &lt;head&gt;
+  [snip]
+  &lt;meta name=""generator"" value=""thevalue i'm looking for"" /&gt;
+  [snip]
+</code></pre>
+","2644","pek","20938","Lane","2009-11-22 09:17:09","2012-09-02 19:53:35","Quick way to find a value in HTML (Java)","<java><html><regex>","7","0","0","","","31415","18"
+"31535","1","31546","","2008-08-28 02:23:12","","4","467","<p>I'm trying to fetch some HTML from various blogs and have noticed that different providers use the same tag in different ways.</p>
+
+<p>For example, here are two major providers that use the meta name generator tag differently:</p>
+
+<ul>
+<li>Blogger: <code>&lt;meta content='blogger' name='generator'/&gt;</code> (content first, name later and, yes, single quotes!)  </li>
+<li>WordPress: <code>&lt;meta name=""generator"" content=""WordPress.com"" /&gt;</code> (name first, content later)</li>
+</ul>
+
+<p>Is there a way to extract the value of content for all cases (single/double quotes, first/last in the row)?</p>
+
+<p>P.S. Although I'm using Java, the answer would probably help more people if it where for regular expressions generally.</p>
+","2644","pek","1810429","pek","2014-12-13 08:17:23","2014-12-13 08:17:23","Best way to fetch a varying HTML tag","<html><regex><language-agnostic>","8","0","","","","31535","18"
+"32010","1","32021","","2008-08-28 10:55:17","","9","916","<p><a href=""http://twitter.com/codinghorror/statuses/901272685"">Source</a></p>
+
+<blockquote>
+  <p>RegexOptions.IgnoreCase is more expensive than I would have thought (eg, should be barely measurable)</p>
+</blockquote>
+
+<p>Assuming that this applies to PHP, Python, Perl, Ruby etc as well as C# (which is what I assume Jeff was using), how much of a slowdown is it and will I incur a similar penalty with ""/[a-zA-z]/"" as I will with ""/[a-z]/i"" ?</p>
+","1384652","Teifion","1","Jeff Atwood","2008-08-28 11:51:39","2008-08-28 12:51:35","Is regex case insensitivity slower?","<regex><language-agnostic>","4","1","1","","","32010","18"
+"32282","1","32290","","2008-08-28 13:34:55","","85","46514","<p>How can I test the same regex against different regular expression engines?</p>
+","2820","Onorio Catenacci","1269037","","2014-02-26 04:55:13","2014-06-16 10:06:01","How can test I regular expressions using multiple RE engines?","<regex><testing>","30","9","61","2014-07-25 16:27:31","2009-11-19 19:46:21","32282","18"
+"32401","1","32420","","2008-08-28 14:26:42","","4","7576","<p>How do I validate a UK phone number in C# using a regex?</p>
+","2868","Leo","1414","travis","2008-09-02 14:09:22","2011-10-11 15:04:25","Validate a UK phone number","<c#><regex><language-agnostic>","3","0","1","2013-03-06 03:36:15","","32401","18"
+"32637","1","32648","","2008-08-28 15:49:32","","14","10078","<p>I am consuming the Twitter API and want to convert all URLs to hyperlinks. </p>
+
+<p>What is the most effective way you've come up with to do this?</p>
+
+<p>from</p>
+
+<pre><code>string myString = ""This is my tweet check it out http://tinyurl.com/blah"";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>This is my tweet check it out &lt;a href=""http://tinyurl.com/blah""&gt;http://tinyurl.com/&gt;blah&lt;/a&gt;
+</code></pre>
+","2347826","nbirkes","41956","","2010-04-18 07:29:10","2015-08-14 18:12:31","Easiest way to convert a URL to a hyperlink in a C# string?","<c#><regex><string><hyperlink>","5","1","4","","","32637","18"
+"33063","1","33112","","2008-08-28 18:46:24","","1","1771","<p>I have a big string (let's call it a CSV file, though it isn't actually one, it'll just be easier for now) that I have to parse in C# code.<br>
+The first step of the parsing process splits the file into individual lines by just using a <code>StreamReader</code> object and calling <code>ReadLine</code> until it's through the file. However, any given line might contain a quoted (in single quotes) literal with embedded newlines.  I need to find those newlines and convert them temporarily into some other kind of token or escape sequence until I've split the file into an array of lines..then I can change them back. </p>
+
+<p>Example input data: </p>
+
+<pre><code>1,2,10,99,'Some text without a newline', true, false, 90
+2,1,11,98,'This text has an embedded newline 
+                and continues here', true, true, 90
+</code></pre>
+
+<p>I could write all of the C# code needed to do this by using <code>string.IndexOf</code> to find the quoted sections and look within them for newlines, but I'm thinking a Regex might be a better choice (i.e. <a href=""http://regex.info/blog/2006-09-15/247"" rel=""nofollow"">now I have two problems</a>)</p>
+","2187","Jason Diller","1537726","","2015-09-09 09:46:26","2015-09-09 09:46:26","Looking for Regex to find quoted newlines in a big string (for C#)","<c#><regex>","5","0","","","","33063","18"
+"34394","1","34412","","2008-08-29 14:51:10","","1","128","<p>How would you programmacially abbriviate <code>XHTML</code> to an arbitrary number of words without leaving unclosed or corrupted tags?</p>
+
+<p>i.e</p>
+
+<pre><code>&lt;p&gt;
+    Proin tristique dapibus neque. Nam eget purus sit amet leo
+    tincidunt accumsan.
+&lt;/p&gt;
+&lt;p&gt;
+    Proin semper, orci at mattis blandit, augue justo blandit nulla.
+    &lt;span&gt;Quisque ante congue justo&lt;/span&gt;, ultrices aliquet, mattis eget,
+    hendrerit, &lt;em&gt;justo&lt;/em&gt;.
+&lt;/p&gt;
+</code></pre>
+
+<p>Abbriviated to 25 words would be:</p>
+
+<pre><code>&lt;p&gt;
+    Proin tristique dapibus neque. Nam eget purus sit amet leo
+    tincidunt accumsan.
+&lt;/p&gt;
+&lt;p&gt;
+    Proin semper, orci at mattis blandit, augue justo blandit nulla.
+    &lt;span&gt;Quisque ante congue...&lt;/span&gt;
+&lt;/p&gt;
+</code></pre>
+","3187","Nick Higgs","1362287","Nick Higgs","2015-05-07 16:03:58","2015-05-07 16:03:58","How would you abbriviate XHTML to an arbitrary number of words?","<html><regex><dom><xhtml><dom-traversal>","2","0","1","","","34394","18"
+"35178","1","","","2008-08-29 19:59:14","","8","609","<p>I am working on a C++ code base that was recently moved from X/Motif to Qt.  I am trying to write a Perl script that will replace all occurrences of Boolean (from X) with bool.  The script just does a simple replacement.  </p>
+
+<pre><code>s/\bBoolean\b/bool/g
+</code></pre>
+
+<p>There are a few conditions.   </p>
+
+<p>1) We have CORBA in our code and \b matches CORBA::Boolean which should <strong>not</strong> be changed.<br />
+2) It should not match if it was found as a string (i.e. ""Boolean"")</p>
+
+<p><strong>Updated:</strong></p>
+
+<p>For #1, I used lookbehind</p>
+
+<pre><code>s/(?&lt;!:)\bBoolean\b/bool/g;
+</code></pre>
+
+<p>For #2, I used lookahead.</p>
+
+<pre><code>s/(?&lt;!:)\bBoolean\b(?!"")/bool/g&lt;/pre&gt;
+</code></pre>
+
+<p>This will most likely work for my situation but how about the following improvements?</p>
+
+<p>3) Do not match if in the middle of a string (thanks <a href=""http://stackoverflow.com/users/3101/nohat"" rel=""nofollow"">nohat</a>).<br />
+4) Do not match if in a comment.  (// or /**/) </p>
+","2897","KannoN","2897","KannoN","2008-09-18 18:05:51","2008-09-18 18:13:00","Regex to replace Boolean with bool","<regex><perl>","9","1","","","","35178","18"
+"36183","1","36191","","2008-08-30 17:26:09","","22","10513","<p>I'm trying to write a regex function that will identify and replace a single instance of a match within a string without affecting the other instances.  For example, I have this string:</p>
+
+<pre><code>12||34||56
+</code></pre>
+
+<p>I want to replace the second set of pipes with ampersands to get this string:</p>
+
+<pre><code>12||34&amp;&amp;56
+</code></pre>
+
+<p>The regex function needs to be able to handle x amount of pipes and allow me to replace the nth set of pipes, so I could use the same function to make these replacements:</p>
+
+<pre><code>23||45||45||56||67 -&gt; 23&amp;&amp;45||45||56||67
+
+23||34||98||87 -&gt; 23||34||98&amp;&amp;87
+</code></pre>
+
+<p>I know that I could just split/replace/concat the string at the pipes, and I also know that I can match on <code>/\|\|/</code> and iterate through the resulting array, but I'm interested to know if it's possible to write a single expression that can do this.  Note that this would be for Javascript, so it's possible to generate a regex at runtime using <code>eval()</code>, but it's not possible to use any Perl-specific regex instructions.</p>
+","2289","","49485","Ben Alpert","2009-03-09 23:52:36","2014-01-24 11:38:16","Replacing the nth instance of a regex match in Javascript","<javascript><regex>","4","0","3","","","36183","18"
+"36742","1","","","2008-08-31 10:04:35","","4","1231","<p>My GPS logger occassionally leaves ""unfinished"" lines at the end of the log files.  I think they're only at the end, but I want to check all lines just in case. </p>
+
+<p>A sample complete sentence looks like:</p>
+
+<pre><code>$GPRMC,005727.000,A,3751.9418,S,14502.2569,E,0.00,339.17,210808,,,A*76
+</code></pre>
+
+<p>The line should start with a <code>$</code> sign, and end with an <code>*</code> and a two character hex checksum.  I don't care if the checksum is correct, just that it's present. It also needs to ignore ""ADVER"" sentences which don't have the checksum and are at the start of every file.</p>
+
+<p>The following Python code might work:   </p>
+
+<pre><code>import re
+from path import path
+nmea = re.compile(""^\$.+\*[0-9A-F]{2}$"")
+for log in path(""gpslogs"").files(""*.log""):
+   for line in log.lines():
+      if not nmea.match(line) and not ""ADVER"" in line:
+         print ""%s\n\t%s\n"" % (log, line)
+</code></pre>
+
+<p>Is there a way to do that with <code>grep</code> or <code>awk</code> or something simple?  I haven't really figured out how to get <code>grep</code> to do what I want.</p>
+
+<p><strong>Update</strong>: Thanks @Motti and @Paul, I was able to get the following to do almost what I wanted, but had to use single quotes and remove the trailing <code>$</code> before it would work:</p>
+
+<pre><code>grep -nvE '^\$.*\*[0-9A-F]{2}' *.log | grep -v ADVER | grep -v ADPMB
+</code></pre>
+
+<p>Two further questions arise, how can I make it ignore blank lines?  And can I combine the last two <code>grep</code>s?</p>
+","3715","Tom","147141","Tom","2009-10-07 22:20:39","2009-10-07 22:20:39","How do I find broken NMEA log sentences with grep?","<regex><grep><gps><nmea>","5","0","1","","","36742","18"
+"37684","1","21925491","","2008-09-01 09:58:49","","284","133974","<p>I am using the function below to match URLs inside a given text and replace them for HTML links. The regular expression is working great, but currently I am only replacing the first match.</p>
+
+<p>How I can replace all the URL? I guess I should be using the <em>exec</em> command, but I did not really figure how to do it.</p>
+
+<pre><code>function replaceURLWithHTMLLinks(text) {
+    var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&amp;@#\/%?=~_|!:,.;]*[-A-Z0-9+&amp;@#\/%=~_|])/i;
+    return text.replace(exp,""&lt;a href='$1'&gt;$1&lt;/a&gt;""); 
+}
+</code></pre>
+","2138","Sergio del Amo","63550","","2011-08-13 19:25:20","2015-06-11 21:31:44","How to replace plain URLs with links?","<javascript><regex>","18","0","170","","","37684","18"
+"37732","1","37767","","2008-09-01 10:58:24","","16","33755","<p>What is the RegEx pattern for DateTime (2008-09-01 12:35:45 ) ?</p>
+
+<p>I get this error:</p>
+
+<blockquote>
+  <p>No ending delimiter '^' found</p>
+</blockquote>
+
+<p>Using:</p>
+
+<pre><code>preg_match('(?n:^(?=\d)((?&lt;day&gt;31(?!(.0?[2469]|11))|30(?!.0?2)|29(?(.0?2)(?=.{3,4}(1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|(16|[2468][048]|[3579][26])00))|0?[1-9]|1\d|2[0-8])(?&lt;sep&gt;[/.-])(?&lt;month&gt;0?[1-9]|1[012])\2(?&lt;year&gt;(1[6-9]|[2-9]\d)\d{2})(?:(?=\x20\d)\x20|$))?(?&lt;time&gt;((0?[1-9]|1[012])(:[0-5]\d){0,2}(?i:\ [AP]M))|([01]\d|2[0-3])(:[0-5]\d){1,2})?$)', '2008-09-01 12:35:45');
+</code></pre>
+
+<p>Gives this error: </p>
+
+<blockquote>
+  <p>Warning: preg_match() [function.preg-match]: Compilation failed: nothing to repeat at offset 0 in E:\www\index.php on line 19</p>
+</blockquote>
+","4013","Alexander","41956","Alexander","2012-04-27 06:41:19","2015-09-30 13:45:03","What is the regex pattern for datetime (2008-09-01 12:35:45 )?","<php><regex><datetime>","10","0","2","","","37732","18"
+"38691","1","38697","","2008-09-02 01:41:59","","5","1103","<p>Hey so what I want to do is snag the content for the first paragraph. The string <code>$blog_post</code> contains a lot of paragraphs in the following format:</p>
+
+<pre><code>&lt;p&gt;Paragraph 1&lt;/p&gt;&lt;p&gt;Paragraph 2&lt;/p&gt;&lt;p&gt;Paragraph 3&lt;/p&gt;
+</code></pre>
+
+<p>The problem I'm running into is that I am writing a regex to grab everything between the first <code>&lt;p&gt;</code> tag and the first closing <code>&lt;/p&gt;</code> tag. However, it is grabbing the first <code>&lt;p&gt;</code> tag and the <strong>last</strong> closing <code>&lt;/p&gt;</code> tag which results in me grabbing everything.</p>
+
+<p>Here is my current code:</p>
+
+<pre><code>if (preg_match(""/[\\s]*&lt;p&gt;[\\s]*(?&lt;firstparagraph&gt;[\\s\\S]+)[\\s]*&lt;\\/p&gt;[\\s\\S]*/"",$blog_post,$blog_paragraph))
+   echo ""&lt;p&gt;"" . $blog_paragraph[""firstparagraph""] . ""&lt;/p&gt;"";
+else
+  echo $blog_post;
+</code></pre>
+","428190","Andrew G. Johnson","4248328","Mark Biek","2015-06-05 17:14:04","2015-06-05 17:14:04","How to grab the contents of HTML tags?","<php><html><regex><html-parsing>","3","0","","","","38691","18"
+"38993","1","39004","","2008-09-02 08:05:43","","4","2011","<p>Here's a basic regex technique that I've never managed to remember. Let's say I'm using a fairly generic regex implementation (e.g., grep or grep -E). If I were to do a list of files and match any that end in either "".sty"" or "".cls"", how would I do that?</p>
+","4161","wspr","4161","Will Robertson","2009-07-20 08:27:57","2009-07-20 08:27:57","Regex to match unique substrings","<regex><grep>","3","0","","","","38993","18"
+"39457","1","40101","","2008-09-02 13:09:02","","3","3053","<p>Does anyone have a regular expression for matching function calls in C programs ?</p>
+","381","David","1414","travis","2008-09-02 14:07:59","2010-11-14 13:11:50","Regular expression to match (C) function calls","<regex>","3","0","","","","39457","18"
+"41407","1","41428","","2008-09-03 10:15:11","","2","3395","<p>I'm currently working on a parser for our internal log files (generated by log4php, log4net and log4j). So far I have a nice regular expression to parse the logs, except for one annoying bit: Some log messages span multiple lines, which I can't get to match properly. The regex I have now is this:</p>
+
+<pre><code>(?&lt;date&gt;\d{2}/\d{2}/\d{2})\s(?&lt;time&gt;\d{2}):\d{2}:\d{2}),\d{3})\s(?&lt;message&gt;.+)
+</code></pre>
+
+<p>The log format (which I use for testing the parser) is this:</p>
+
+<pre><code>07/23/08 14:17:31,321 log 
+message
+spanning
+multiple
+lines
+07/23/08 14:17:31,321 log message on one line
+</code></pre>
+
+<p>When I run the parser right now, I get only the line the log starts on. If I change it to span multiple lines, I get only one result (the whole log file).</p>
+
+<p>Help please ;-)</p>
+
+<p><hr /></p>
+
+<p>@samjudson:</p>
+
+<p><em>You need to pass the RegexOptions.Singleline flag in to the regular expression, so that ""."" matches all characters, not just all characters except new lines (which is the default).</em></p>
+
+<p>I tried that, but then it matches the whole file. I also tried to set the message-group to .+? (non-greedy), but then it matches a single character (which isn't what I'm looking for either).</p>
+
+<p>The problem is that the pattern for the message matches on the date-group as well, so when it doesn't break on a new-line it just goes on and on and on.</p>
+
+<p><hr /></p>
+
+<p>I use this regex for the message group now. It works, unless there's a pattern IN the log message which is the same as the start of the log message.</p>
+
+<pre><code>(?&lt;message&gt;(.(?!\d{2}/\d{2}/\d{2}\s\d{2}:\d{2}:\d{2},\d{3}\s\[\d{4}\]))+)
+</code></pre>
+","909","Erik van Brakel","909","Erik van Brakel","2008-09-03 11:03:42","2008-09-03 12:26:07","Parsing a log file with regular expressions","<c#><regex>","5","0","","","","41407","18"
+"42345","1","42370","","2008-09-03 19:22:50","","6","1250","<p>How can I determine if a string is an IP? Either IPv4 or IPv6?</p>
+
+<p>What is the least and most number of characters?</p>
+
+<p>I assume this would be a regex answer.</p>
+","2644","pek","","","","2008-09-04 01:58:07","How to evaluate an IP?","<regex><language-agnostic><validation>","8","0","1","","","42345","18"

@@ -1,0 +1,566 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"402","1","2530953","","2008-08-02 10:47:08","","69","66219","<p>Note: this question is from 2008 and now is of only historic interest.</p>
+
+<hr>
+
+<p>What's the best way to create an iPhone application that runs in landscape mode from the start, regardless of the position of the device?</p>
+
+<p>Both programmatically and using the Interface Builder.</p>
+","136","","294884","","2014-06-15 09:11:04","2014-06-15 09:11:04","iPhone app in landscape mode, 2008 systems","<iphone><objective-c>","9","2","34","","","402","7003"
+"6578","1","6614","","2008-08-09 03:13:04","","105","27885","<p>I'm just beginning to have a look at Objective-C and Cocoa with a view to playing with the iPhone SDK. I'm reasonably comfortable with C's <code>malloc</code> and <code>free</code> concept, but Cocoa's references counting scheme has me rather confused. I'm told it's very elegant once you understand it, but I'm just not over the hump yet.</p>
+
+<p>How do <code>release</code>, <code>retain</code> and <code>autorelease</code> work and what are the conventions about their use?</p>
+
+<p>(Or failing that, what did you read which helped you get it?)</p>
+","797","","63550","Paul","2011-04-06 09:33:43","2013-06-18 11:32:49","Understanding reference counting with Cocoa and Objective-C","<iphone><objective-c><cocoa><memory>","14","0","88","","","6578","7003"
+"8970","1","","","2008-08-12 15:31:40","","5","10309","<p>Is it possible to access the iSight camera on a macbook programatically? By this I mean I would like to be able to just grab still frames from the iSight camera on command and then do something with them. If so, is it only accessible using objective c, or could other languages be used as well? </p>
+","85","Paul Wicks","881229","Paul","2014-02-21 19:22:03","2014-02-21 19:22:03","Accessing iSight programatically?","<objective-c><osx><webcam><isight>","7","0","4","","","8970","7003"
+"10314","1","11994","","2008-08-13 20:03:53","","3","2844","<p>Being new to Objective-C (but a long term C/++) programmer I'm looking for advice/recommendations on naming conventions for variables.</p>
+
+<p>My personal preference would be to utilize a prefix for instance variables both for clarity within functions and to prevent shadowing of function parameters. However I'm a fan of properties which rules out prefixes (unless you also prefix your property names, which doesn't work too well and looks daft). Similarly I could use the ""self.variable"" convention, but only if I make EVERYTHING a property.</p>
+
+<p>So given the code below what's your preferred naming style for instance/function variables? And if you don't bother, how do you deal with shadowing on function params?</p>
+
+<pre><code>@interface GridItem : NSObject
+{
+    CGRect _rect;
+    ...  
+}
+@end
+
+-(void) initFromRect:(CGRect)rect
+{
+    _rect = rect;
+    ...
+}
+</code></pre>
+
+<p>Cheers!</p>
+","1043","Andrew","4556","Ashley Clark","2009-02-24 07:23:16","2009-02-24 07:23:16","How do you name your instance/param values?","<objective-c><cocoa>","10","0","5","","","10314","7003"
+"10848","1","","","2008-08-14 09:51:06","","372","211423","<p>Does anybody know if it's possible, and how, to programmatically send a SMS from the iPhone, with the official SDK / Cocoa Touch?</p>
+","","Marco","916299","","2015-08-07 13:50:30","2015-08-07 13:50:30","How to programmatically send SMS on the iPhone?","<ios><objective-c><cocoa-touch><sms>","18","1","160","","","10848","7003"
+"11291","1","11312","","2008-08-14 16:32:22","","12","5696","<p>Well? </p>
+
+<p>I'm slowly learning Objective-C and Cocoa, and the only way I see so far to capture key events in Text Views is to use delegation, but I'm having trouble finding useful documentation and examples on how to implement such a solution. Can anyone point me in the right direction or supply some first-hand help? Thanks in advance!</p>
+","1344","Brian Warshaw","1344","Paul","2015-07-14 11:45:04","2015-07-14 11:45:04","Best way to capture key events in NSTextView?","<objective-c><cocoa><osx><events>","4","0","","","","11291","7003"
+"13725","1","13742","","2008-08-17 17:01:45","","44","23333","<p><code>NSInteger</code>/<code>NSUInteger</code> are Cocoa-defined replacements for the regular built-in types.</p>
+
+<p>Is there any benefit to using the NS* types over the built-ins? Which do you prefer and why? Are <code>NSInteger</code> and <code>int</code> the same width on 32-bit / 64-bit platforms?</p>
+","1043","Andrew","603977","Andrew Grant","2012-07-08 21:38:30","2013-10-24 16:32:29","In Cocoa do you prefer NSInteger or int, and why?","<objective-c><cocoa><types>","5","0","15","","","13725","7003"
+"14874","1","66556","","2008-08-18 16:34:01","","3","2528","<p>For part of my application I have a need to create an image of a certain view and all of its subviews.</p>
+
+<p>To do this I'm creating a context that wraps a bitmap with the same-size as the view, but I'm unsure how to draw the view hierarchy into it. I can draw a single view just be setting the context and explicitly calling drawRect, but this does not deal with all of the subviews.</p>
+
+<p>I can't see anything in the NSView interface that could help with this so I suspect the solution may lie at a higher level.</p>
+","1043","Andrew","5640","Rich B","2009-02-23 23:46:23","2013-06-10 15:51:27","Drawing a view hierachy into a specific context in Cocoa","<objective-c><cocoa><osx>","5","0","1","","","14874","7003"
+"15266","1","2195434","","2008-08-18 21:40:01","","8","7816","<p>Using <strong>NSURLRequest</strong>, I am trying to access a web site that has an expired certificate. When I send the request, my <strong>connection:didFailWithError</strong> delegate method is invoked with the following info:</p>
+
+<pre><code>-1203, NSURLErrorDomain, bad server certificate
+</code></pre>
+
+<p>My searches have only turned up one solution: a hidden class method in NSURLRequest:</p>
+
+<pre><code>[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:myHost];
+</code></pre>
+
+<p>However, I don't want to use private APIs in a production app for obvious reasons.</p>
+
+<p>Any suggestions on what to do? Do I need to use CFNetwork APIs, and if so, two questions:</p>
+
+<ul>
+<li>Any sample code I can use to get started? I haven't found any online.</li>
+<li>If I use CFNetwork for this, do I have to ditch NSURL entirely?</li>
+</ul>
+
+<hr>
+
+<p>EDIT:</p>
+
+<p>iPhone OS 3.0 introduced a supported method for doing this. More details here: <a href=""http://stackoverflow.com/questions/933331/how-to-use-nsurlconnection-to-connect-with-ssl-for-an-untrusted-cert"">How to use NSURLConnection to connect with SSL for an untrusted cert?</a></p>
+","544","Mike McMaster","4779472","Ned Batchelder","2015-08-12 03:18:58","2015-08-12 03:18:58","Objective-C/Cocoa: How do I accept a bad server certificate?","<objective-c><cocoa><networking>","6","0","5","","","15266","7003"
+"20420","1","21106","","2008-08-21 16:18:41","","36","10190","<p>I'm a complete Xcode/Objective-C/Cocoa newbie but I'm learning fast and really starting to enjoy getting to grips with a new language, platform and paradigm.</p>
+
+<p>One thing is though, having been using Visual Studio with R# for so long I've kind of been spoiled with the coding tools such as refactorings and completion etc and as far as I can tell Xcode has some fairly limited built in support for this stuff.</p>
+
+<p>On that note, does anyone know if any add-ins or whatever are available for the Xcode environment which add coding helpers such as automatically generating implementation skeletons from a class interface definition etc? </p>
+
+<p>I suspect there aren't but I suppose it can't help to ask.</p>
+","1120","Shaun Austin","213269","Paul","2011-02-22 13:30:08","2012-01-25 20:44:20","Any ReSharper equivalent for Xcode?","<objective-c><xcode><osx><refactoring>","5","2","18","","","20420","7003"
+"22001","1","","","2008-08-22 09:55:47","","5","1049","<p>I'm learning objective-C and Cocoa. In the Apple tutorial I'm working through there's a side note that says: </p>
+
+<blockquote>
+  <p><code>IBOutlet</code> is a null-defined macro, which the C preprocessor removes at compile time.</p>
+</blockquote>
+
+<p>I'm curious - what's a null-defined macro?</p>
+
+<p>Cheers
+Ben</p>
+","","Benedict Cohen","21755","Paul","2008-11-10 16:15:25","2008-11-10 16:15:25","What's a 'null defined macro'?","<c><objective-c><compiler-construction><preprocessor>","5","0","","","","22001","7003"
+"25746","1","25798","","2008-08-25 07:54:29","","47","32051","<p>I'm learning objective-C and Cocoa and have come across this statement:</p>
+
+<blockquote>
+  <p>The Cocoa frameworks expect that global string constants rather than string literals are used for dictionary keys, notification and exception names, and some method parameters that take strings.</p>
+</blockquote>
+
+<p>I've only worked in higher level languages so have never had to consider the details of strings that much. What's the difference between a string constant and string literal?</p>
+","2799","Benedict Cohen","379897","Paul","2010-08-28 22:11:41","2012-09-10 14:59:21","What's the difference between a string constant and a string literal?","<objective-c><string>","3","0","30","","","25746","7003"
+"25749","1","25784","","2008-08-25 07:57:59","","105","32367","<p>I'm learning objective-c and keep bumping into the @ symbol. It is used in different scenarios, for example at the start of a string or to synthesise accessor methods. </p>
+
+<p>What's does the @ symbol mean in objective-c?</p>
+","2799","Benedict Cohen","21755","Paul","2008-11-10 16:14:19","2012-02-10 05:38:42","What does the @ symbol represent in objective-c?","<objective-c>","5","1","18","","","25749","7003"
+"30058","1","30079","","2008-08-27 13:15:40","","62","83592","<p>The <a href=""http://developer.apple.com/documentation/AppleApplications/Reference/SafariWebContent/UsingiPhoneApplications/chapter%5F6%5Fsection%5F4.html"">Apple Developer Documentation explains</a> that if you place a link in a web page and then click it whilst using Mobile Safari on the iPhone, the Google Maps application that is provided as standard with the iPhone will launch.</p>
+
+<p>How can I launch the same Google Maps application with a specific address from within my own native iPhone application (i.e. not a web page through Mobile Safari) in the same way that tapping an address in Contacts launches the map?</p>
+
+<p><strong>NOTE:  THIS ONLY WORKS ON THE DEVICE ITSELF.  NOT IN THE SIMULATOR.</strong></p>
+","2183","DavidM","25","Paul","2009-04-28 21:19:29","2013-06-10 11:18:43","How can I launch the Google Maps iPhone application from within my own native application?","<iphone><objective-c><google-maps>","11","1","50","","","30058","7003"
+"31237","1","31288","","2008-08-27 20:45:36","","6","2857","<p>A question that has pondered me for the last while. I am primarily a .net developer who dabbles in Objective-C for iPhone and Mac.</p>
+
+<p>How do you go about sending ""datasets"" between methods in objective-c. For example in C# you can populate a custom class with data and pass it around in a List of type custom class. EG if you had a customer class you would just do something like:</p>
+
+<pre><code>List&lt;Customer&gt; customers = DataLayer.GetAllCustomers();
+</code></pre>
+
+<p>The only way I can see how this could be done in obj-c would be to populate an NSArray with custom objects? Is this an efficient way to do things? Any other recommendations? I am using sqlite as the database/data I want to return.</p>
+","1075","KiwiBastard","21755","Paul","2008-11-10 16:13:28","2008-11-10 16:13:28","Objective-C: Passing around sets of data","<objective-c><cocoa><osx><sqlite>","2","0","4","","","31237","7003"
+"32986","1","33256","","2008-08-28 18:16:54","","11","5540","<p>I know that if you have a loop that modifies the count of the items in the loop, using the NSEnumerator on a set is the best way to make sure your code blows up, however I would like to understand the performance tradeoffs between the NSEnumerator class and just an old school for loop</p>
+","3484","","21755","Paul","2008-11-10 16:12:45","2015-06-08 22:53:03","NSEnumerator performance vs for loop in Cocoa","<objective-c><cocoa><nsenumerator>","3","0","1","","","32986","7003"
+"33061","1","","","2008-08-28 18:45:55","","2","1959","<p>I want to take a QTMovie that I have and export it with the audio fading in and fading out for a predetermined amount of time. I want to do this within Cocoa as much as possible. The movie will likely only have audio in it. My research has turned up a couple of possibilities:</p>
+
+<ol>
+<li><p>Use the newer Audio Context Insert APIs. <a href=""http://developer.apple.com/DOCUMENTATION/QuickTime/Conceptual/QT7-2_Update_Guide/NewFeaturesChangesEnhancements/chapter_2_section_11.html"" rel=""nofollow"">http://developer.apple.com/DOCUMENTATION/QuickTime/Conceptual/QT7-2_Update_Guide/NewFeaturesChangesEnhancements/chapter_2_section_11.html</a>. This appears to be the most modern was to accomplish this.</p></li>
+<li><p>Use the Quicktime audio extraction APIs to pull out the audio track of the movie and process it and then put the processed audio back into the movie replacing the original audio.</p></li>
+</ol>
+
+<p>Am I missing some much easier method?</p>
+","3493","Jon Steinmetz","21755","Paul","2008-11-10 16:12:10","2008-11-10 16:12:10","Best way to export a QTMovie with a fade-in and fade-out in the audio","<objective-c><cocoa><osx><quicktime>","1","0","","","","33061","7003"
+"33207","1","33236","","2008-08-28 19:41:30","","300","60336","<p>What frameworks exist to unit test Objective-C code?  I would like a framework that integrates nicely with Xcode.</p>
+","2339","Kim","1288","Bill the Lizard","2008-11-10 15:10:49","2014-04-01 11:31:26","What is the best way to unit test Objective-C code?","<objective-c><cocoa><unit-testing><xcode>","17","0","271","","","33207","7003"
+"33696","1","33736","","2008-08-29 00:19:55","","2","879","<p>I'm a PHP developer, and I use the MVC pattern, and object oriented code. I really want to write applications for the iPhone, but to do that I need to know Cocoa, but to do that I need to know Objective-C 2.0, but to do that I need to know C, and to do that I need to know about compiled languages (versus interpreted). </p>
+
+<p>Where should I begin? 
+Do I really need to begin with plan old ""C"", as Joel would recommend?</p>
+
+<p>Caveat: I like to produce working widgets, not elegant theories.</p>
+","3407","lo_fye","1288","Bill the Lizard","2008-11-10 15:10:16","2012-04-01 20:43:46","Cocoa tips for PHP developers?","<php><c><objective-c><cocoa>","6","0","2","","","33696","7003"
+"34674","1","35636","","2008-08-29 16:39:51","","11","4951","<p>You can use a standard dot notation or a method call in Objective-C to access a property of an object in Objective-C.</p>
+
+<pre><code>myObject.property = YES;
+</code></pre>
+
+<p>or</p>
+
+<pre><code>[myObject setProperty:YES];
+</code></pre>
+
+<p>Is there a difference in performance (in terms of accessing the property)? Is it just a matter of preference in terms of coding style?</p>
+","1987","ronin","1288","Bill the Lizard","2008-11-10 15:09:59","2008-11-10 15:09:59","Performance difference between dot notation versus method call in Objective-C","<objective-c><performance>","5","0","5","","","34674","7003"
+"37381","1","37408","","2008-09-01 02:22:26","","10","1756","<p>I'm exploring the possibility of writing an application in Erlang, but it would need to have a portion written in Cocoa (presumably Objective-C). I'd like the front-end and back-end to be able to communicate easily. How can this best be done?</p>
+
+<p>I can think of using C ports and connected processes, but I think I'd like a reverse situation (the front-end starting and connecting to the back-end). There are named pipes (FIFOs), or I could use network communications over a TCP port or a named BSD socket. Does anyone have experience in this area?</p>
+","3948","jmah","1288","Bill the Lizard","2008-11-10 15:08:54","2010-09-22 12:28:50","What's a good way to write a Cocoa front-end to an Erlang application?","<objective-c><cocoa><osx><erlang>","6","0","6","","","37381","7003"
+"45898","1","46212","","2008-09-05 14:12:18","","5","1455","<p>In an application that I'm writing I have some code like this:</p>
+
+<pre><code>NSWorkspace* ws = [NSWorkspace sharedWorkspace];
+NSString* myurl = @""http://www.somewebsite.com/method?a=%d"";
+
+NSURL* url = [NSURL URLWithString:myurl];
+
+[ws openURL:url];
+</code></pre>
+
+<p>The main difference being that <em>myurl</em> comes from somewhere outside my control. Note the %d in the URL which isn't entirely correct and means that URLWithString fails, returning <em>nil</em>.</p>
+
+<p>What is the ""correct"" way of handling this? Do I need to parse the string and properly encode the arguments? Or is there some clever method in Cocoa that does all the hard work for me?</p>
+","2998","Stephen Darlington","3532040","Bill the Lizard","2014-05-07 19:05:27","2014-05-07 19:05:27","Opening a non-standard URL in a Cocoa app","<objective-c><osx><cocoa>","3","0","1","","","45898","7003"
+"47591","1","","","2008-09-06 15:54:19","","5","1433","<p>Specifically, I am looking to use CA on properties of types other than </p>
+
+<ul>
+<li>integers and doubles</li>
+<li>CGRect, CGPoint, CGSize, and CGAffineTransform structures</li>
+<li>CATransform3D data structures</li>
+<li>CGColor and CGImage references</li>
+</ul>
+
+<p>and in objects other than CALayers or NSViews</p>
+","","Miguel A. Friginal","1288","Bill the Lizard","2008-11-10 15:07:45","2008-11-10 15:07:45","How can I use Core Animation to interpolate property values over time on my own classes?","<iphone><objective-c><cocoa><core-animation>","3","0","","","","47591","7003"
+"49442","1","89185","","2008-09-08 10:39:44","","7","3574","<p>When do you recommend integrating a custom view into Interface Builder with a plug-in? When skimming through Apple's <a href=""http://developer.apple.com/documentation/DeveloperTools/Conceptual/IBPlugInGuide/CreatingPluginBundle/chapter_2_section_3.html#//apple_ref/doc/uid/TP40004323-CH4-DontLinkElementID_15"">Interface Builder Plug-In Programming Guide</a> I found:</p>
+
+<blockquote>
+  <ul>
+  <li>Are your custom objects going to be used by only one application?</li>
+  <li>Do your custom objects rely on state information found only in your application?</li>
+  <li>Would it be problematic to encapsulate your custom views in a standalone library or framework?</li>
+  </ul>
+  
+  <p>If you answered yes to any of the preceding questions, your objects may not be good candidates for a plug-in.</p>
+</blockquote>
+
+<p>That answers some of my questions, but I would still like your thoughts on when it's a good idea. What are the benefits and how big of a time investment is it? </p>
+","5156","Hagelin","1288","Bill the Lizard","2008-11-10 15:07:07","2010-05-23 19:32:08","When to create Interface Builder plug-in for custom view?","<objective-c><cocoa><osx><interface-builder>","2","0","1","","","49442","7003"
+"49510","1","49512","","2008-09-08 11:32:29","","29","10330","<p>How do you set your Cocoa application as the default web browser?</p>
+
+<p>I want to create an application that is launched by default when the user clicks on an HTTP or HTTPS link in other applications (Mail, iChat etc.).</p>
+","5168","georgebrock","1288","Bill the Lizard","2008-11-10 15:06:46","2013-01-23 07:59:25","How do you set your Cocoa application as the default web browser?","<objective-c><cocoa>","2","0","24","","","49510","7003"
+"53705","1","55038","","2008-09-10 09:39:22","","5","5763","<p>I am trying to join together several audio files into one mp4/m4a file containing chapter metadata.</p>
+
+<p>I am currently using QTKit to do this but unfortunately when QTKit exports to m4a format the metadata is all stripped out (this has been confirmed as a bug by Apple) see <a href=""http://files.shinydevelopment.com/audiojoiner.zip"" rel=""nofollow"">sample code</a>. I think this rules QTKit out for this job, but would be happy to be proven wrong as it is a really neat API for it if it worked.</p>
+
+<p>So, I am looking for a way to concatenate audio files (input format does not really matter as I can do conversion) into an m4a file with chapters metadata.</p>
+
+<p>As an alternative to code, I am open to the idea of using an existing command line tool to accomplish this as long as it is redistributable as part of another application.</p>
+
+<p>Any ideas?</p>
+","4496","Dave Verwer","1288","Bill the Lizard","2008-11-10 15:05:47","2014-06-12 15:55:04","Creating MP4/M4A files with Chapter marks","<objective-c><cocoa><osx><audio><quicktime>","4","0","2","","","53705","7003"
+"56472","1","61947","","2008-09-11 12:53:42","","10","3440","<p>I'm trying to send messages to Objective-C objects in gdb.</p>
+
+<pre><code>(gdb) p $esi
+$2 = (void *) 0x1268160
+(gdb) po $esi
+&lt;NSArray: 0x1359c0&gt;
+(gdb) po [$esi count]
+Target does not respond to this message selector.
+</code></pre>
+
+<p>I can't send any message to it. Am i missing something? Do I really need the symbols, or something else?</p>
+
+<p>Thanks in advance!</p>
+","5577","asksol","1288","Bill the Lizard","2008-11-10 15:05:17","2008-11-10 15:05:17","Sending messages to objects while debugging Objective-C in gdb, without symbols","<objective-c><debugging><osx><gdb><reversing>","3","0","1","","","56472","7003"
+"56648","1","57643","","2008-09-11 14:16:43","","158","60307","<p>If you have an <code>NSMutableArray</code>, how do you shuffle the elements randomly?</p>
+
+<p>(I have my own answer for this, which is posted below, but I'm new to Cocoa and I'm interested to know if there is a better way.)</p>
+","1175","Kristopher Johnson","1132951","Bill the Lizard","2012-10-19 11:58:03","2015-07-14 09:32:09","What's the Best Way to Shuffle an NSMutableArray?","<objective-c><cocoa><shuffle>","11","2","91","","","56648","7003"
+"56708","1","141197","","2008-09-11 14:38:42","","200","173883","<p>What would be the best way to write Objective-C on the Windows platform?</p>
+
+<p>Cygwin and gcc? Is there a way I can somehow integrate this into Visual Studio?</p>
+
+<p>Along those lines - are there any suggestions as to how to link in and use the Windows SDK for something like this. Its a different beast but I know I can write assembly and link in the Windows DLLs giving me accessibility to those calls but I don't know how to do this without googling and getting piecemeal directions.</p>
+
+<p>Is anyone aware of a good online or book resource to do or explain these kinds of things?</p>
+","4910","Luther Baker","1288","Bill the Lizard","2008-11-10 15:04:24","2015-08-10 21:12:24","Objective C for Windows","<objective-c><windows><winapi><gcc><cygwin>","10","1","94","","","56708","7003"
+"61838","1","191935","","2008-09-15 03:51:30","","36","8797","<p>If I have something like a UILabel linked to a xib file, do I need to release it on dealloc of my view? The reason I ask is because I don't alloc it, which makes me think I don't need to release it either?
+eg (in the header):</p>
+
+<pre><code>IBOutlet UILabel *lblExample;
+</code></pre>
+
+<p>in the implementation:</p>
+
+<pre><code>....
+[lblExample setText:@""whatever""];
+....
+
+-(void)dealloc{
+    [lblExample release];//?????????
+}
+</code></pre>
+","6044","rustyshelf","1288","Bill the Lizard","2008-11-10 15:03:57","2012-04-13 04:28:13","Do I need to release xib resources?","<iphone><objective-c><cocoa-touch>","8","0","27","","","61838","7003"
+"64420","1","64763","","2008-09-15 16:27:33","","80","29851","<p>I don't want to take the time to learn Obj-C. I've spent 7+ years doing web application programming. Shouldn't there be a way to use the WebView and just write the whole app in javascript, pulling the files right from the resources of the project?</p>
+","8597","","14343","Ned Batchelder","2008-11-10 00:13:35","2013-06-20 06:56:38","How can I write an iPhone app entirely in JavaScript without making it just a web app?","<javascript><iphone><objective-c>","11","0","61","","","64420","7003"
+"65427","1","65483","","2008-09-15 18:27:33","","83","77128","<p>As I understand it, anything created with an <strong>alloc</strong>, <strong>new</strong>, or <strong>copy</strong> needs to be manually released. For example:</p>
+
+<pre><code>int main(void) {
+    NSString *string;
+    string = [[NSString alloc] init];
+    /* use the string */
+    [string release];
+}
+</code></pre>
+
+<p>My question, though, is wouldn't this be just as valid?:</p>
+
+<pre><code>int main(void) {
+    NSAutoreleasePool *pool;
+    pool = [[NSAutoreleasePool alloc] init];
+    NSString *string;
+    string = [[[NSString alloc] init] autorelease];
+    /* use the string */
+    [pool drain];
+}
+</code></pre>
+","7979","jsumners","173019","Ned Batchelder","2009-09-27 11:19:58","2014-06-27 13:07:08","How does the NSAutoreleasePool autorelease pool work?","<objective-c><memory-management><foundationkit>","9","0","31","","2008-11-04 12:50:14","65427","7003"
+"66654","1","69675","","2008-09-15 20:33:09","","4","1360","<p>I'm trying to convert old QuickTime framework code to the 64-bit Cocoa-based QTKit on OS X, which means that I can't drop down to the straight C function calls at any time.  Specifically, I'm trying to find a way to write QuickTime VR movies with QTKit, as they require some special metadata to set the display controller.  How can I do this with QTKit?</p>
+","3830","Josh Matthews","1288","Bill the Lizard","2008-11-10 15:03:25","2008-11-10 15:03:25","Setting movie metadata with QTKit","<objective-c><osx><quicktime><qtkit>","2","0","1","","","66654","7003"
+"67640","1","2676281","","2008-09-15 22:31:47","","10","19628","<p>I know and have Xcode, but I was wondering if there were any other complete development environments that support Objective-C? I'm not looking for solutions with vim or emacs, nor editors like BBEdit that support syntax highlighting, but a full fledged IDE with:</p>
+
+<ul>
+<li>code completion</li>
+<li>compilation</li>
+<li>debugging</li>
+<li>refactoring</li>
+</ul>
+
+<p>Extra points for being cross platform, supporting vi key bindings and supporting other languages.</p>
+
+<h3>Note:</h3>
+
+<p>I've updated and accepted my answer below as Jetbrains has released Early Access for <em>AppCode</em>, their new Objective-C IDE. Since this has been a fairly popular question, I thought it worthwhile to update the information.</p>
+","5284","Tim","691409","Bill the Lizard","2014-06-04 10:25:07","2014-06-04 10:25:07","Other than Xcode, are there any full functioned IDEs for Objective-C?","<objective-c><xcode><ide><debugging>","11","2","4","2014-07-20 16:46:06","","67640","7003"
+"86244","1","","","2008-09-17 18:40:35","","3","1662","<p>This error message had me stumped for a while:</p>
+
+<blockquote>
+  <p>invalid conversion from 'objc_object* to 'int'</p>
+</blockquote>
+
+<p>The line in question was something like this:</p>
+
+<pre><code>int iResult = [MyUtils utilsMemberFunc:param1,param2];
+</code></pre>
+","8761","AlanKley","58635","Paul","2013-04-01 10:43:38","2013-04-01 10:43:38","Why am I getting this Objective-C error message: invalid conversion from 'objc_object*'","<objective-c><osx>","1","0","","","","86244","7003"
+"86797","1","88063","","2008-09-17 19:38:53","","7","5194","<p>I've got two controls in my Interface Builder file, and each of those controls I've created a separate delegate class for in code (Control1Delegate and Control2Delegate). I created two ""Objects"" in interface builder, made them of that type, and connected the controls to them as delegates. The delegates work just fine. My problem is, I need to share information from one delegate to the other delegate, and I'm not sure how. </p>
+
+<p>What is the best way to do this? Combine the two delegates into one class, or somehow access a third class that they can both read? Since I'm not actually initializing the class anywhere in my code, I'm not sure how to get a reference to the actual instance of it (if there is an actual instance of it), or even access the ""main"" class that the project came with.</p>
+","15813","Alex King","21755","Paul","2008-11-10 14:34:34","2008-11-10 14:34:34","Connecting delegate classes in Objective-C","<objective-c><cocoa><interface-builder>","3","0","2","","","86797","7003"
+"88736","1","88880","","2008-09-17 23:41:47","","8","886","<p>Is there any centralized repository of useful Objective-C / Cocoa libraries as there is for Perl, Ruby, Python, etc.?</p>
+
+<p>In building my first iPhone app, I'm finding myself implementing some very basic functions that would be just a quick ""gem install"" away in Ruby.</p>
+","16952","Robert Sanders","21755","Paul","2008-11-10 14:33:14","2012-04-14 13:03:30","CPAN/gem-like repository for Objective-C and Cocoa?","<iphone><objective-c><cocoa><osx>","9","0","2","","","88736","7003"
+"92471","1","92493","","2008-09-18 13:21:33","","10","9088","<p>I have a Cocoa app that uses a WebView to display an HTML interface. How would I go about calling an Objective-C method from a Javascript function within the HTML interface?</p>
+","5168","georgebrock","21755","Paul","2008-11-10 14:32:41","2015-05-26 19:35:01","How to call an Objective-C method from Javascript in a Cocoa/WebKit app?","<javascript><objective-c><cocoa><webkit>","4","0","4","","","92471","7003"
+"95211","1","","","2008-09-18 18:17:39","","11","11374","<p>I want to generate a Makefile from an existing Xcode project on the Mac. Specifically, an existing iPhone, Objective-C program on the Mac.</p>
+
+<p>I found <a href=""http://members.bellatlantic.net/%7Evze35xda/software.html"">PBToMake</a>, but it looks like it is for Xcode 2.1 and when I tried using it, it did not work for an Xcode 3.1 project.</p>
+","5284","Tim","21755","Paul","2008-11-10 14:32:22","2014-05-18 00:01:09","How can you generate a Makefile from an Xcode project?","<objective-c><xcode><osx><makefile>","4","1","4","","","95211","7003"
+"96265","1","","","2008-09-18 19:55:35","","22","13473","<p>I am programming a game on the iPhone.  I am currently using NSTimer to trigger my game update/render.  The problem with this is that (after profiling) I appear to lose a lot of time between updates/renders and this seems to be mostly to do with the time interval that I plug into NSTimer.  </p>
+
+<p>So my question is what is the best alternative to using NSTimer?</p>
+
+<p>One alternative per answer please.</p>
+","25868","","21755","Paul","2008-11-10 14:31:37","2010-11-29 13:14:04","What is a better way to create a game loop on the iPhone other than using NSTimer?","<iphone><objective-c><cocoa>","3","2","27","","","96265","7003"
+"99241","1","101584","","2008-09-19 03:18:32","","6","5126","<p>UIWebView is fine for displaying HTML, but I'd like to modify the loaded DOM from my Objective-C program.  Does anybody know how to do that?  This is a third party page, so I can't really include any custom JS to do so...unless I can modify the DOM somehow.</p>
+","16952","Robert Sanders","1288","Bill the Lizard","2008-11-10 15:02:32","2008-11-10 15:02:32","Is there any way to get access to the DOM from Objective-C when using UIWebView?","<iphone><objective-c>","2","0","5","","2008-09-19 03:18:32","99241","7003"
+"99395","1","99438","","2008-09-19 03:47:45","","38","31395","<p>How to check if a folder (directory) exists in Cocoa using Objective-C?</p>
+","3740","lajos","89035","Paul","2013-08-16 11:17:46","2014-01-28 11:43:43","How to check if a folder exists in Cocoa & Objective-C?","<objective-c><cocoa>","5","0","6","","","99395","7003"
+"103421","1","311849","","2008-09-19 16:23:23","","5","5194","<p>I have a sprite loaded as a texture and I need to animate it, allowing it to ""face"" left or right -- essentially sometimes I need to ""flip"" it.   I know that OpenGL has a gltranslate which repositions an object, and glrotate which rotates it.   Is there a method that simply flips it across one axis?  If not, how would you accomplish this?</p>
+","13968","Psychotic Venom","21755","Paul","2008-11-10 14:02:39","2010-11-24 17:23:35","How do I flip a sprite/texture in OpenGLES?","<iphone><objective-c><opengl>","2","1","2","","","103421","7003"
+"103480","1","103594","","2008-09-19 16:29:48","","6","2625","<p>I've been programming in C,C++,C# and a few other languages for many years, mainly for Windows and Linux but also embedded platforms. Recently started to do some iPhone programming as a side project so I'm using Apple platforms for the first time since my Apple II days. I'm wondering what other developers that are coming to Mac OSX, Xcode and iPhone SDK think. Here are my impressions, so far:</p>
+
+<ul>
+<li><p>Mac OSX: very confusing, I tend to end up with too many open windows and don't know what's where. Luckily there's the bird's eye view, without it I'd be lost. With the shell at least there's all the familiar stuff so that helps me a lot.</p></li>
+<li><p>Xcode: doesn't feel as good as VisualStudio or Eclipse, the two environments I'm familiar with. I think I could get used to it but I'm wondering if Apple wouldn't be better off with Eclipse. Before I found the setting where all the windows are stuck together I hated it, now I can tolerate it.</p></li>
+<li><p>iPhone SDK: strange indeed. I understand Apple's desire to control their environment but in this day and age it just seems a little sleazy and they are missing out on so much by destroying developer goodwill.</p></li>
+<li><p>Objective-C: I've known about it for years but never even took a look at it. The syntax is off-putting but I'm actually very intrigued by the language. I think it's an interesting third leg between C++ and C#, both of which I like a lot. Is there any chance Obj-C will break out of the Mac sandbox due to the uptick in the popularity of Apple technology?</p></li>
+</ul>
+
+<p>Curious to read your thoughts,</p>
+
+<p>Andrew</p>
+","18321","","14343","Ned Batchelder","2008-11-09 23:42:10","2009-02-04 15:40:17","iPhone programming - impressions, opinions?","<c#><c++><iphone><objective-c><development-environment>","7","0","3","","","103480","7003"
+"103537","1","108609","","2008-09-19 16:38:34","","0","3373","<p>I have an OpenGL ES game that I am hacking together.  One part of it involves looking at a large ""map-like"" area and then double-tapping on one part to ""zoom into"" it.   How would you use OpenGL ES to provide this effect (given that it may need to zoom in on different parts of the map).   </p>
+
+<p>I've heard of glScale and glOrtho, but I'm unclear on how they actually work since the whole openGL world is very new to me.  </p>
+","13968","Psychotic Venom","44729","Paul","2010-06-18 23:19:49","2010-06-18 23:19:49","How do I create a zoom effect in OpenGLES on the iPhone?","<iphone><objective-c><opengl-es>","2","0","3","","","103537","7003"
+"104339","1","138452","","2008-09-19 18:29:45","","14","29947","<p>I'm doing some Objective-C programming that involves parsing an NSXmlDocument and populating an objects properties from the result.</p>
+
+<p>First version looked like this:</p>
+
+<pre><code>if([elementName compare:@""companyName""] == 0) 
+  [character setCorporationName:currentElementText]; 
+else if([elementName compare:@""corporationID""] == 0) 
+  [character setCorporationID:currentElementText]; 
+else if([elementName compare:@""name""] == 0) 
+  ...
+</code></pre>
+
+<p>But I don't like the <code>if-else-if-else</code> pattern this produces. Looking at the <code>switch</code> statement I see that i can only handle <code>ints</code>, <code>chars</code> etc and not objects... so is there a better implementation pattern I'm not aware of?</p>
+
+<p>BTW I did actually come up with a better solution for setting the object's properties, but I want to know specifically about the <code>if</code>-<code>else</code> vs <code>switch</code> pattern in Objective-C</p>
+","18590","craigb","21755","Paul","2008-11-10 14:01:09","2013-02-09 15:22:51","Objective-C switch using objects?","<objective-c><design-patterns><switch-statement>","14","2","9","","","104339","7003"
+"106627","1","","","2008-09-20 00:52:08","","12","12987","<blockquote>
+  <p><strong>Possible Duplicates:</strong><br>
+  <a href=""http://stackoverflow.com/questions/370427/learn-obj-c-memory-management"">Learn Obj-C Memory Management</a><br>
+  <a href=""http://stackoverflow.com/questions/710288/where-are-the-best-explanations-of-memory-management-for-iphone"">Where are the best explanations of memory management for iPhone?</a>  </p>
+</blockquote>
+
+
+
+<p>I come from a C/C++ background and the dynamic nature of Objective-C is somewhat foreign to me, is there a good resource anyone can point me to for some basic memory management techniques in Objective-C? ex. retaining, releasing, autoreleasing</p>
+
+<p>For instance, is it completely illegal to use a pointer to an Objective-C object and treat it as an array? Are you forced to use NSArray and NSMutableArray for data structures?</p>
+
+<p>I know these are pretty newbie questions, thanks for any help you can offer me.</p>
+","","Andrew","908958","marxidad","2014-05-22 18:18:34","2014-05-22 18:18:34","Memory Management in Objective-C","<iphone><objective-c><cocoa><memory><memory-management>","10","3","4","2011-03-31 18:12:17","","106627","7003"
+"109429","1","","","2008-09-20 21:15:50","","4","4626","<p>I'm primarily a designer, with a fairly high level of understanding of CSS and HTML. I have an idea for a very simple iPhone app, largely involving a timer, an animated graphic, and some sound. If I get more advanced there could be some simple customization settings </p>
+
+<p>I have no understanding of Objective C, or C of any kind for that matter. (The closest I got was a Pascal course 20 years ago.) Aside from befriending a developer with motivation to help me out, what would be the simplest, most likely method of learning the minimum I need to know to create my own iPhone App?</p>
+","2486915","davebug","21755","Paul","2008-11-10 14:00:12","2015-04-25 12:12:22","What is the easiest way for a non-programmer to learn the basics of iPhone App creation?","<iphone><objective-c>","8","2","2","2012-11-29 01:38:50","","109429","7003"
+"109937","1","109989","","2008-09-21 01:28:06","","7","1664","<p>One thing I've really been meaning to get back into is C++ programming but I am not sure if I should go back to C++ (which I have some basic console programming knowledge) or should I look into C or Objective C? I'm looking at the long term as well as ease of coding such as good editors, compilers, etc as well as which would be the quickest to get set up and running. </p>
+
+<p>To go along with that, what software would you suggest for working with a suggested language?</p>
+
+<p>[EDIT]</p>
+
+<p>A few people have made mention that it is hard to suggest something when I never said what I was doing. I don't have any specific program in mind at the moment, I'm just looking at starting with one of these three languages for either long-term investment and work or as a jumping point to something else.</p>
+","204","dragonmantank","21755","Paul","2008-11-10 13:59:44","2011-01-25 03:38:51","Which to go with long term - C, Objective C, or C++?","<c++><c><objective-c>","14","0","","","","109937","7003"
+"110332","1","110343","","2008-09-21 05:36:29","","75","62848","<p>I have an <code>NSArray</code> and I'd like to create a new <code>NSArray</code> with objects from the original array that meet certain criteria. The criteria is decided by a function that returns a <code>BOOL</code>.</p>
+
+<p>I can create an <code>NSMutableArray</code>, iterate through the source array and copy over the objects that the filter function accepts and then create an immutable version of it. </p>
+
+<p>Is there a better way?</p>
+","3740","lajos","2656275","Paul","2013-10-25 13:54:33","2015-07-12 07:16:55","filtering NSArray into a new NSArray in objective-c","<objective-c><cocoa>","7","0","19","","","110332","7003"
+"111517","1","111582","","2008-09-21 17:42:44","","2","570","<p>When adding new properties to classes, I find myself typing the same things over and over in xcode:</p>
+
+<ol>
+<li>add TYPE *NAME; (in .h interface)</li>
+<li>add @property (nonatomic, retain) TYPE *NAME; (in .h)</li>
+<li>add @synthesize NAME; (in .m)</li>
+<li>add [NAME release]; (in .m dealloc)</li>
+</ol>
+
+<p>(I'm in a non-garbage collected environment.)</p>
+
+<p>How can I do this automatically?</p>
+","3740","lajos","21755","Paul","2008-11-10 13:57:59","2009-06-23 06:04:10","How can I automatically add properties in Objective-C?","<objective-c><properties>","5","0","1","","","111517","7003"
+"111558","1","111816","","2008-09-21 18:04:32","","1","611","<p>There appear to be a lot of unnecessary frameworks loading into my iPhone app.  I didn't link against them in Xcode, and I don't need them.</p>
+
+<p>When I run ""lsof -p"" against them on the iPhone, I see these (and others) that I can't explain:</p>
+
+<ul>
+<li>CoreVideo </li>
+<li>AddressBookUI</li>
+<li>JavaScriptCore</li>
+<li>MobileSync</li>
+<li>EAP8021X</li>
+<li>BluetoothManager</li>
+<li>MusicLibrary</li>
+<li>CoreAudio</li>
+<li>MobileMusicPlayer</li>
+<li>AddressBook</li>
+<li>CoreTelephony</li>
+<li>MobileBluetooth</li>
+<li>Calendar</li>
+<li>TelephonyUI</li>
+<li>WebCore / WebKit</li>
+<li>MediaPlayer</li>
+<li>VideoToolbox</li>
+</ul>
+
+<p>I wonder whether this is contributing to the slow startup times.  My app is very simple.  It is basically a Twitter-like posting client. The only multimedia function is to pick an image from the camera or library, and it uses simple NSURL / NSURLConnection functions to post data to a couple of web services.</p>
+
+<p>This is a jailbroken 2.1 iPhone with a few apps installed from Cydia.  Is this normal?</p>
+","16952","Robert Sanders","21755","Paul","2008-11-10 13:57:27","2008-11-10 13:57:27","Lots of unnecessary frameworks load into my iPhone app - can I prevent this?","<iphone><objective-c>","2","1","","","","111558","7003"
+"111866","1","112519","","2008-09-21 19:43:20","","145","113081","<p>In Cocoa, if I want to loop through an NSMutableArray and remove multiple objects that fit a certain criteria, what's the best way to do this without restarting the loop each time I remove an object?</p>
+
+<p>Thanks,</p>
+
+<p>Edit: Just to clarify - I was looking for the best way, e.g. something more elegant than manually updating the index I'm at. For example in C++ I can do;</p>
+
+<pre><code>iterator it = someList.begin();
+
+while (it != someList.end())
+{
+    if (shouldRemove(it))   
+        it = someList.erase(it);
+}
+</code></pre>
+","1043","Andrew","14343","Ned Batchelder","2008-11-10 02:55:45","2015-08-27 09:58:43","Best way to remove from NSMutableArray while iterating?","<objective-c><cocoa>","20","3","65","","","111866","7003"
+"112643","1","112668","","2008-09-22 00:22:32","","81","35369","<p>I know how to create a <code>SEL</code> at compile time using <code>@selector(MyMethodName:)</code> but what I want to do is create a selector dynamically from an <code>NSString</code>. Is this even possible?</p>
+
+<p>What I can do:</p>
+
+<pre><code>SEL selector = @selector(doWork:);
+[myobj respondsToSelector:selector];
+</code></pre>
+
+<p>What I want to do: (pseudo code, this obviously doesn't work)</p>
+
+<pre><code>SEL selector = selectorFromString(@""doWork"");
+[myobj respondsToSelector:selector];
+</code></pre>
+
+<p>I've been searching the Apple API docs, but haven't found a way that doesn't rely on the compile-time <code>@selector(myTarget:)</code> syntax.</p>
+","18590","craigb","3532040","Robert Gamble","2014-05-07 19:05:43","2014-05-07 19:05:43","How can I dynamically create a selector at runtime with Objective-C?","<objective-c><cocoa><dynamic>","4","0","14","","","112643","7003"
+"112702","1","","","2008-09-22 00:52:05","","19","10930","<p>I have heard mention of Objective-C but I have never used it myself.  I was curious what everyones opinion of it was in general and also in relation to C++.  Are there any types of projects where it would be more useful or less useful?</p>
+","19745","","14343","Ned Batchelder","2008-11-09 22:29:41","2012-07-18 08:53:18","What are the advantages of using Objective-C over C++","<c++><objective-c><programming-languages>","11","0","6","2014-02-20 06:22:48","","112702","7003"
+"112796","1","112808","","2008-09-22 01:45:38","","71","47777","<p>Is there a way to view the key/value pairs of a NSDictionary variable through the Xcode debugger?  Here's the extent of information when it is fully expanded in the variable window:</p>
+
+<pre><code>Variable  Value      Summary
+jsonDict  0x45c540   4 key/value pairs
+ NSObject {...}
+  isa     0xa06e0720
+</code></pre>
+
+<p>I was expecting it to show me each element of the dictionary (similar to an array variable).  </p>
+","11292","Dara Kong","14343","Ned Batchelder","2008-11-09 22:29:15","2013-11-26 04:48:06","How to view contents of NSDictionary variable in Xcode debugger?","<objective-c><cocoa><xcode><debugging>","6","0","30","","","112796","7003"
+"128894","1","","","2008-09-24 18:23:42","","10","1988","<p>Apple's <a href=""http://developer.apple.com/documentation/Cocoa/Reference/CoreDataFramework/Classes/NSManagedObject_Class/Reference/NSManagedObject.html#//apple_ref/occ/instm/NSManagedObject/setPrimitiveValue:forKey:"" rel=""nofollow"">documentation on <code>-setPrimitiveValue:forKey:</code></a> is vague in two ways when using it to manage to-many relationships.</p>
+
+<p>First they state:</p>
+
+<blockquote>
+  <p>If you try to set a to-many relationship to a new NSMutableSet object, it will (eventually) fail.</p>
+</blockquote>
+
+<p><strong><em>Eventually?!</em></strong> What does that even mean? Will it fail later during <code>-[NSManagedObjectContext save:]</code>? When an managed object is turned into a fault and then paged back in? When? Can I write a test case to consistently recreate the failure on-demand?</p>
+
+<p>Second, providing sample code to correctly handle this case, they write:</p>
+
+<blockquote>
+  <p>first get the existing set using <code>primitiveValueForKey:</code> (ensure the method does not return <code>nil</code>)</p>
+</blockquote>
+
+<p>What should I do if/when the method <em>does</em> return nil? <code>assert()</code> it and fail immediately because that means the entire object graph is corrupted and saving will lead to data loss? <code>NSAssert()</code> on it as a warning to the caller but press on (silently doing nothing)?</p>
+
+<p>Right now I'm simply directly assigning my desired <code>NS[Mutable]Set</code> in that case, like so:</p>
+
+<pre><code>- (void)setChildren:(NSSet*)value_ {
+    NSMutableSet *mutableRelationshipSet = [[[self primitiveValueForKey:@""children""] mutableCopy] autorelease];
+    if (mutableRelationshipSet) {
+        [mutableRelationshipSet setSet:value_];
+        [self setPrimitiveValue:mutableRelationshipSet forKey:@""children""];
+    } else {
+        [self setPrimitiveValue:value_ forKey:@""children""];
+    }
+}
+</code></pre>
+
+<p>Is that wrong?</p>
+","5260","rentzsch","14343","Ned Batchelder","2008-11-09 22:30:04","2008-11-09 22:30:04","setPrimitiveValue:forKey: and to-many relationships","<objective-c><cocoa><core-data>","1","0","","","","128894","7003"
+"129502","1","905565","","2008-09-24 20:00:03","","121","79407","<p>This is on iPhone 0S 2.0. Answers for 2.1 are fine too, though I am unaware of any differences regarding tables.</p>
+
+<p>It feels like it should be possible to get text to wrap without creating a custom cell, since a <code>UITableViewCell</code> contains a <code>UILabel</code> by default. I know I can make it work if I create a custom cell, but that's not what I'm trying to achieve - I want to understand why my current approach doesn't work.</p>
+
+<p>I've figured out that the label is created on demand (since the cell supports text and image access, so it doesn't create the data view until necessary), so if I do something like this:</p>
+
+<pre><code>cell.text = @""""; // create the label
+UILabel* label = (UILabel*)[[cell.contentView subviews] objectAtIndex:0];
+</code></pre>
+
+<p>then I get a valid label, but setting <code>numberOfLines</code> on that (and lineBreakMode) doesn't work - I still get single line text. There is plenty of height in the <code>UILabel</code> for the text to display - I'm just returning a large value for the height in <code>heightForRowAtIndexPath</code>.</p>
+","18017","Airsource Ltd","219922","Paul","2012-07-06 11:20:02","2015-03-24 05:46:42","How do I wrap text in a UITableViewCell without a custom cell","<iphone><objective-c><cocoa-touch>","8","0","94","","","129502","7003"
+"129890","1","130142","","2008-09-24 20:51:06","","1","3808","<p>I'm getting lost in pointer land, I believe.  I've got this (code syntax might be a little off, I am not looking at the machine with this code on it...but all the pertinent details are correct):</p>
+
+<pre><code>NSMutableArray *tmp = [[NSMutableArray alloc] init];
+</code></pre>
+
+<p>I them pass that to a routine in another class</p>
+
+<pre><code>- (BOOL)myRoutine: (NSMutableArray *)inArray
+{
+    // Adds items to the array -- if I break at the end of this function, the inArray variable has a count of 10
+}
+</code></pre>
+
+<p>But when the code comes back into the calling routine, [tmp count] is 0.</p>
+
+<p>I must be missing something very simple and yet very fundamental, but for the life of me I can't see it.  Can anyone point out what I'm doing wrong?</p>
+
+<p>EDIT: www.stray-bits.com asked if I have retained a reference to it, and I said ""maybe...we tried this:  NSMutableArray *tmp = [[[NSMutableArray alloc] init] retain]; not sure if that is what you mean, or if I did it right.</p>
+
+<p>EDIT2:  Mike McMaster and Andy -- you guys are probably right, then.  I don't have the code here (it's on a colleague's machine and they have left for the day), but to fill the array with values we were doing something along the lines of using a decoder(?) object.  </p>
+
+<p>The purpose of this function is to open a file from the iPhone, read that file into an array (it's an array of objects that we saved in a previous run of the program).  That ""decoder"" thing has a method that puts data into the array.  </p>
+
+<p>Man, I've totally butchered this.  I really hope you all can follow, and thanks for the advice.  We'll look more closely at it.</p>
+","232","Matt Dawdy","21755","Paul","2008-11-10 07:53:09","2008-11-10 07:53:09","Pass NSMutableArray object","<objective-c>","5","0","","","","129890","7003"
+"135112","1","137838","","2008-09-25 18:34:23","","10","3683","<p>I have developed in C++ many years ago, but these days I am primarily a Java software engineer.  Given I own an iPhone, am ready to spring for a MacBook next month, and am generally interested in getting started with Mac OS developmentmt (using Objective C), I thought I would just put this question out there: What Next?</p>
+
+<p>More specifically, what books should I pick up, and are there any web resources that some folks could point me to?  Some books that I am planning to purchase:</p>
+
+<ul>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0321566157"">Programming in Objective-C 2.0</a></li>
+<li><a href=""http://rads.stackoverflow.com/amzn/click/0321503619"">Cocoa(R) Programming for Mac OS X (3rd Edition)</a></li>
+</ul>
+
+<p>Anyone familiar with these titles?  Finally, I would be very interested in a summary of what I should be prepared to expect, once I embark on this journey.  As someone that develops in Java using IntelliJ IDEA, what are some key differences I will notice as I move over to writing ObjectiveC code in Xcode?  What's the differences between Mac OS desktop development and iPhone development? Being used to Java garbage collection, what should I know about ObjectiveC garbage collection / memory management.  Any other language specific issues that anyone would like to point out?  How about building UIs?  Is it closer to Swing, building Visual C++ resource files that code interacts with, or is it more like some of the borland IDEs that will generate code for guis?</p>
+","9931","Ryan Delucchi","20654","Paul","2010-07-23 21:36:52","2010-07-23 21:36:52","Java Developer meets Objective-C on Mac OS","<java><c++><objective-c><cocoa><osx>","6","0","6","","","135112","7003"

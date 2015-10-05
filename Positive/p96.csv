@@ -1,0 +1,630 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"120","1","","","2008-08-01 15:50:08","","17","1046","<p>Has anyone got experience creating SQL-based ASP.NET site-map providers?</p>
+
+<p>I've got the default XML file <em>web.sitemap</em> working properly with my Menu and SiteMapPath controls, but I'll need a way for the users of my site to create and modify pages dynamically.</p>
+
+<p>I need to tie page viewing permissions into the standard ASP.NET membership system as well.</p>
+","83","Zack","250832","Leon Bambrick","2015-06-09 13:45:55","2015-06-09 13:45:55","ASP.NET Site Maps","<sql><asp.net><sitemap>","1","0","2","","","120","96"
+"163","1","170","","2008-08-01 18:00:13","","67","6814","<p>Stack Overflow has a subversion version number at the bottom:</p>
+
+<blockquote>
+  <p>svn revision: 679</p>
+</blockquote>
+
+<p>I want to use such automatic versioning with my .NET Web Site/Application, Windows Forms, WPD projects/solutions.</p>
+
+<p>How do I implement this?</p>
+","83","","1039608","ChanChan","2012-05-04 09:16:24","2014-08-18 17:51:25","How do I sync the SVN revision number with my ASP.NET web site?","<.net><asp.net><svn><versioning>","7","3","15","","","163","96"
+"192","1","258","","2008-08-01 19:23:13","","34","2079","<p>One of the fun parts of multi-cultural programming is number formats.</p>
+
+<ul>
+<li>Americans use 10,000.50</li>
+<li>Germans use 10.000,50</li>
+<li>French use 10 000,50</li>
+</ul>
+
+<p>My first approach would be to take the string, parse it backwards, until I encounter a separator and use this as my decimal separator. There is an obvious flaw with that: 10.000 would be interpreted as 10.</p>
+
+<p>Another approach: if the string contains 2 different non-numeric characters, use the last one as the decimal separator and discard the others. If I only have one, check if it occurs more than once and discard it if it does. If it only appears once, check if it has 3 digits after it. If yes, discard it, otherwise use it as decimal separator.</p>
+
+<p>The obvious ""best solution"" would be to detect the User's culture or Browser, but that does not work if you have a Frenchman using an en-US Windows/Browser.</p>
+
+<p>Does the .net Framework contain some mythical black magic floating point parser that is better than <code>Double.(Try)Parse()</code> in trying to auto-detect the number format?</p>
+","91","","1039608","Michael Stum","2012-05-04 09:26:51","2012-05-04 09:26:51","Floating Point Number parsing: Is there a Catch All algorithm?","<c#><.net><asp.net><internationalization><globalization>","4","0","","","","192","96"
+"562","1","","","2008-08-02 21:39:11","","25","2930","<p>Uploading my first decently sized web app to my shared host provided me with a fresh set of challenges, by which I mean, sleepless nights. The issue was that I had most certainly not developed my application for medium trust (or had any clue what that was.) </p>
+
+<p>I mitigated all of the issues, save one. </p>
+
+<p>I had written an installer for the admin to be able to specify their connectionstring and other preferences, but I cannot find a way to write to a web.config in medium trust. Does anyone have a solution, or should I just be putting preferences in another file?</p>
+","","Aaron","4337","Gulzar","2008-11-08 15:45:43","2015-09-25 11:46:57","How to write to Web.Config in Medium Trust?","<c#><asp.net><medium-trust>","1","1","1","","","562","96"
+"651","1","725","","2008-08-03 11:21:54","","18","6066","<p>I've been having trouble getting my ASP.NET application to automatically log users into the Intranet site I'm building.  No matter the googling or the experimentation I applied, there is always a login box displayed by IE7.</p>
+
+<p>I've got Windows authentication mode set in the Web.config, disabled anonymous access and configured the correct default domain in IIS, but it's still asking the user to log in and, more annoyingly, the user is required to provide the domain too (<em>DOMAIN\auser</em>), which is causing problems with non-technical visitors.  Thank Zeus for password remembering functionality.</p>
+
+<p>I'm not the network administrator so it's possible that something about Active Directory is set up incorrectly, or it could just be me missing something very simple.  Please note that I don't want to impersonate the user, I just need to know that the IPrincipal.Name property matches that of a valid record in my user database, hence authenticating the user to my application.</p>
+
+<p>To this end, it would be very useful to have a checklist of all configuration requirements for AD, ASP.NET and IIS to work together in this manner as a reference for debugging and hopefully reducing some user friction.</p>
+","192","","5640","Rich B","2009-03-10 03:47:54","2009-03-10 03:47:54","Checklist for IIS 6/ASP.NET Windows Authentication?","<asp.net><iis><authentication><active-directory>","3","0","1","","","651","96"
+"1010","1","1074","","2008-08-04 03:59:42","","11","1407","<p>I need to grab the base64-encoded representation of the ViewState. Obviously this would not be available until fairly late in the request lifecycle, which is OK.</p>
+
+<p>For example, if the output of the page includes:</p>
+
+<pre><code>&lt;input type=""hidden"" name=""__VIEWSTATE"" 
+  id=""__VIEWSTATE"" value=""/wEPDwUJODU0Njc5MD...=="" /&gt;
+</code></pre>
+
+<p>I need a way on the server side to get the value <code>""/wEPDwUJODU0Njc5MD...==""</code></p>
+
+<p>To clarify, I need this value when the page is being rendered, not on PostBack. e.g. I need to know the ViewState value that is being <em>sent</em> to the client, not the ViewState I'm getting back from them.</p>
+","67","","395659","","2013-02-07 13:19:41","2013-02-07 13:19:41","How to get the value of built, encoded ViewState?","<c#><asp.net>","3","0","","","","1010","96"
+"1401","1","1418","","2008-08-04 16:44:25","","16","2382","<p>I have a custom validation function in JavaScript in a user control on a .Net 2.0 web site which checks to see that the fee paid is not in excess of the fee amount due. </p>
+
+<p>I've placed the validator code in the ascx file, and I have also tried using <code>Page.ClientScript.RegisterClientScriptBlock()</code> and in both cases the validation fires, but cannot find the JavaScript function.</p>
+
+<p>The output in Firefox's error console is ""feeAmountCheck is not defined"". Here is the function (this was taken directly from firefox->view source)</p>
+
+<pre><code>&lt;script type=""text/javascript""&gt;
+    function feeAmountCheck(source, arguments)
+    {
+        var amountDue = document.getElementById('ctl00_footerContentHolder_Fees1_FeeDue');
+        var amountPaid = document.getElementById('ctl00_footerContentHolder_Fees1_FeePaid');
+
+        if (amountDue.value &gt; 0 &amp;&amp; amountDue &gt;= amountPaid)
+        {
+            arguments.IsValid = true;
+        }
+        else
+        {
+            arguments.IsValid = false;
+        }
+
+        return arguments;
+    }
+&lt;/script&gt;
+</code></pre>
+
+<p>Any ideas as to why the function isn't being found? How can I remedy this without having to add the function to my master page or consuming page?</p>
+","149","","1987598","user1873471","2014-12-17 16:09:02","2014-12-17 16:09:02","ASP.Net Custom Client-Side Validation","<asp.net><javascript><validation>","4","0","","","","1401","96"
+"1409","1","27335","","2008-08-04 16:55:31","","9","1488","<p>I am writing an application that downloads large files in the background. All clients are logged in locally, or through a VPN. When they are logged in locally, I do not want to throttle downloads. However, I would like to limit downloads to 10 KBps when the user is connected via VPN. I can differentiate between these users by IP Address range.</p>
+
+<p>Since this is an AIR Application, I figure I will throttle via server-side since I can do it from either the server itself (IIS 6) or the web service (asp.net / C#). </p>
+
+<p>Throttling through IIS 6 seems to work fine, but it seems like it has to be done across the entire web site. Is there anyway to do this via IP? Or will I have to rig this up in .NET?</p>
+","26","","1471203","modesty","2013-01-09 05:44:28","2013-01-09 05:44:28","Bandwith throttling in IIS 6 by IP Address","<asp.net><iis>","1","1","","","","1409","96"
+"1683","1","3020","","2008-08-04 23:06:23","","11","2895","<p>I am looking for guidance regarding the best practice around the use of the Profile feature in ASP.NET.</p>
+
+<p>How do you decide what should be kept in the built-in user Profile, or if you should create your own DB Table and add a column for the desired fields? For example, a user has a ZIP code, should I save the ZIP code in my own table, or should I add it to the web.config xml profile and access it via the user profile ASP.NET mechanize? </p>
+
+<p>The pros/cons I can think of are that since I don't know the profile very well (it is a bit of a <em>Matrix</em> right now), I probably can do whatever I want if I go the table route (e.g., SQL to get all the users in the same ZIP code as the current user); I don't know if I can do the same if I use the ASP.NET profile.</p>
+","350","","845306","","2011-12-22 21:39:52","2011-12-22 21:39:52","ASP.NET built in user profile vs. old stile user class/tables","<asp.net><profile>","5","0","1","","","1683","96"
+"1873","1","1886","","2008-08-05 04:05:53","","18","11635","<p>How do I delimit a Javascript databound string parameter in an anchor OnClick event?</p>
+
+<ul>
+<li>I have an anchor tag in an ASP.NET Repeater control.  </li>
+<li>The OnClick event of the anchor contains a call to a Javascript function.  </li>
+<li>The Javascript function takes a string for its input parameter.  </li>
+<li>The string parameter is populated with a databound value from the Repeater.</li>
+</ul>
+
+<p>I need the 'double quotes' for the Container.DataItem.<br>
+I need the 'single quotes' for the OnClick.</p>
+
+<p>And I still need <em>one more delimiter</em> (triple quotes?) for the input string parameter of the Javascript function call.</p>
+
+<p>Since I can't use 'single quotes' again, how do I ensure the Javascript function knows the input parameter is a string and not an integer?</p>
+
+<p>Without the extra quotes around the input string parameter, the Javascript function thinks I'm passing in an integer.</p>
+
+<p>Cheers in advance for any knowledge you can drop.</p>
+
+<p>The anchor:</p>
+
+<pre><code>&lt;a id=""aShowHide"" onclick='ToggleDisplay(&lt;%# DataBinder.Eval(Container.DataItem, ""JobCode"") %&gt;);' &gt;Show/Hide&lt;/a&gt;    
+</code></pre>
+
+<p>and here is the Javascript:</p>
+
+<pre><code>&lt;script language=""JavaScript"" type=""text/javascript""&gt;
+/* Shows/Hides the Jobs Div */
+  function ToggleDisplay(jobCode)
+  {
+  /* Each div has it's ID set dynamically ('d' plus the JobCode) */
+    var elem = document.getElementById('d' + jobCode);
+    if (elem) 
+    {
+      if (elem.style.display != 'block') 
+      {
+        elem.style.display = 'block';
+        elem.style.visibility = 'visible';
+      } 
+      else
+      {
+        elem.style.display = 'none';
+        elem.style.visibility = 'hidden';
+      }
+    }
+  }
+&lt;/script&gt;
+</code></pre>
+","242","","1987598","Jeff Atwood","2014-12-17 16:10:35","2014-12-17 16:10:35","Triple Quotes? How do I delimit a databound Javascript string parameter in ASP.NET?","<asp.net><javascript><anchor><quotes>","6","0","1","","","1873","96"
+"1949","1","5310","","2008-08-05 05:54:34","","17","4254","<p>In order to fully use LinqToSql in an ASP.net 3.5 application, it is necessary to create <a href=""http://msdn.microsoft.com/en-us/library/system.data.linq.datacontext.aspx"">DataContext</a> <a href=""http://dotnetslackers.com/articles/csharp/InsideTheLINQToSQLDataContextClass.aspx"">classes</a> (which is usually done using the designer in VS 2008). From the UI perspective, the DataContext is a design of the sections of your database that you would like to expose to through LinqToSql and is integral in setting up the ORM features of LinqToSql.</p>
+
+<p>My question is: I am setting up a project that uses a large database where all tables are interconnected in some way through Foreign Keys. My first inclination is to make one huge DataContext class that models the entire database. That way I could in theory (though I don't know if this would be needed in practice) use the Foreign Key connections that are generated through LinqToSql to easily go between related objects in my code, insert related objects, etc.</p>
+
+<p>However, after giving it some thought, I am now thinking that it may make more sense to create multiple DataContext classes, each one relating to a specific namespace or logical interrelated section within my database. My main concern is that instantiating and disposing one huge DataContext class all the time for individual operations that relate to specific areas of the Database would be impose an unnecessary imposition on application resources. Additionally, it is easier to create and manage smaller DataContext files than one big one. The thing that I would lose is that there would be some distant sections of the database that would not be navigable through LinqToSql (even though a chain of relationships connects them in the actual database). Additionally, there would be some table classes that would exist in more than one DataContext.</p>
+
+<p>Any thoughts or experience on whether multiple DataContexts (corresponding to DB namespaces) are appropriate in place of (or in addition to) one very large DataContext class (corresponding to the whole DB)?</p>","51","","3","Yaakov","2012-03-22 00:01:27","2014-06-17 20:59:34","Are Multiple DataContext classes ever appropriate?","<asp.net><.net><linq-to-sql><datacontext>","5","0","2","","","1949","96"
+"2155","1","2928","","2008-08-05 12:13:40","","34","27134","<p>The web applications I develop often require co-dependant configuration settings and there are also settings that have to change as we move between each of our environments.  </p>
+
+<p>All our settings are currently simple key value pairs but it would be useful to create custom config sections so that it is obvious when two values need to change together or when the settings need to change for an environment.</p>
+
+<p>What's the best way to create custom config sections and are there any special considerations to make when retrieving the values?</p>","371","","2134","Chris Fournier","2008-08-23 18:09:09","2013-09-19 15:39:43","How do I define custom web.config sections with potential child elements and attributes for the properties?","<asp.net>","5","0","13","","","2155","96"
+"2196","1","2373","","2008-08-05 12:40:30","","3","383","<p>I've got a web application that I'm trying to optimise. Some of the controls are hidden in dialog-style DIVs, so I'd like to have them load in via AJAX only when the user wants to see them.  This is fine for controls that are mostly Literal-based (various menus and widgets), but when I have what I call ""dirty"" controls - ones that write extensive information to the ViewState, put tons of CSS or script on the page, require lots of references etc - these are seemingly impossible to move ""out of page"", especially considering how ASP.NET will react on postback.</p>
+
+<p>I was considering some kind of step where I override Render, find markers for the bits I want to move out and put AJAX placeholders in there, but not only does the server overhead seem extreme, it also feels like a complete hack.  Besides, the key element here are the dialog boxes that contain forms with validation controls on them, and I can't imagine how I would move the controls <em>and</em> their required scripts.</p>
+
+<p>In my fevered imagination, I want to do this:</p>
+
+<pre><code>AJAXifier.AJAXify(ctlEditForm);
+</code></pre>
+
+<p>Sadly, I know this is a dream.  How close can I really get to a quick-and-easy AJAXification without causing too much load on the server?</p>
+","192","","2159583","Mark Biek","2014-08-01 11:37:41","2014-08-01 11:37:41","Easy way to AJAX WebControls","<asp.net><ajax><web-controls>","3","1","","","","2196","96"
+"2209","1","2233","","2008-08-05 12:46:45","","7","10126","<p>I specifically want to add the style of <code>background-color</code> to the <code>&lt;body&gt;</code> tag of a master page, from the code behind (C#) of a content page that uses that master page.  </p>
+
+<p>I have different content pages that need to make the master page has different colors depending on which content page is loaded, so that the master page matches the content page's theme.</p>
+
+<p>I have a solution below:</p>
+
+<hr>
+
+<p>I'm looking for something more like:</p>
+
+<pre><code>Master.Attributes.Add(""style"", ""background-color: 2e6095"");
+</code></pre>
+
+<p>Inside of the page load function of the content page.  But I can't get the above line to work. I only need to change the <code>background-color</code> for the <code>&lt;body&gt;</code> tag of the page.</p>
+","396","Bryan","247702","JasonBunting","2014-05-14 17:56:39","2014-05-14 17:56:39","How can I change the background of a masterpage from the code behind of a content page?","<c#><asp.net><.net><master-pages>","3","0","2","","","2209","96"
+"2262","1","2268","","2008-08-05 13:14:48","","24","8856","<p>How do I rewrite URL's in ASP.NET?</p>
+
+<p>I would like users to be able to goto <strong><a href=""http://www.website.com/users/smith"">http://www.website.com/users/smith</a></strong> instead of <strong><a href=""http://www.website.com/?user=smith"">http://www.website.com/?user=smith</a></strong></p>
+","383","","1659","marxidad","2008-09-24 08:02:59","2013-10-28 13:20:00","ASP.NET URL Rewriting","<asp.net><url><url-rewriting><url-routing><rewrite>","4","1","10","","","2262","96"
+"2308","1","2320","","2008-08-05 13:38:42","","9","1960","<p>I see in the Stack Overflow footer that the SVN Revision number is displayed. Is this automated and if so, how does one implement it in ASP.NET?</p>
+
+<p><em>(Solutions in other languages are acceptable)</em></p>","383","","","","","2008-12-15 11:35:19","ASP.NET Display SVN Revision Number","<asp.net><svn>","4","1","2","","","2308","96"
+"2328","1","4910","","2008-08-05 13:52:12","","4","2322","<p>I have a problem with maintaining state in an ASP.NET AJAX page. Short version: I need some way to update the page ViewState after an async callback has been made, to reflect any state changes the server made during the async call. </p>
+
+<p>This seems to be a common problem, but I will describe my scenario to help explain:</p>
+
+<p>I have a grid-like control which has some JavaScript enhancements - namely, the ability to drag and drop columns and rows. When a column or row is dropped into a new position, an AJAX method is invoked to notify the control server-side and fire a corresponding server-side event (""OnColumnMoved"" or ""OnRowMoved"").</p>
+
+<p>ASP.NET AJAX calls, by default, send the entire page as the request. That way the page goes through a complete lifecycle, viewstate is persisted and the state of the control is restored before the RaiseCallbackEvent method is invoked.</p>
+
+<p>However, since the AJAX call does not update the page, the ViewState reflects the <em>original</em> state of the control, even after the column or row has been moved. So the second time a client-side action occurs, the AJAX request goes to the server and the page &amp; control are built back up again to reflect the <em>first</em> state of the control, not the state after the first column or row was moved.</p>
+
+<p>This problem extends to many implications. For example if we have a client-side/AJAX action to add a new item to the grid, and then a row is dragged, the grid is built server-side with one less item than on the client-side.</p>
+
+<p>And finally &amp; most seriously for my specific example, the actual data source object we are acting upon is stored in the page ViewState. That was a design decision to allow keeping a stateful copy of the manipulated data which can either be committed to DB after many manipulations or discarded if the user backs out. That is very difficult to change.</p>
+
+<p>So, again, I need a way for the page ViewState to be updated on callback after the AJAX method is fired.</p>
+","67","","811","Shog9","2008-09-19 22:38:25","2008-09-19 22:38:25","Tracking state using ASP.NET AJAX / ICallbackEventHandler","<asp.net><ajax><asp.net-ajax><viewstate>","5","0","","","","2328","96"
+"2524","1","151931","","2008-08-05 16:18:18","","21","32346","<p>I get the following error pretty regularly when compiling in Visual Studio and running my web application:</p>
+
+<p>""Unable to start debugging on the web server. The web server did not respond in a timely manner.  This may be because another debugger is already attached to the web server.""</p>
+
+<p>Normally this is after having debug the application once already. From the command line I run ""iisreset /restart"" and it fixes the problem.</p>
+
+<p>How do I prevent this from happening in the first place?</p>","417","","3850","hop","2008-11-02 02:26:27","2015-08-28 13:58:25","Visual Studio 2008 debugger already attached work-around","<asp.net><visual-studio><visual-studio-2008><debugging><iis>","22","2","6","","","2524","96"
+"2550","1","2560","","2008-08-05 16:39:04","","10","3554","<p>A quick glance at the present-day internet would seem to indicate that Adobe Flash is the obvious choice for embedding video in a web page.  Is this accurate, or are they other effective choices?  Does the choice of ASP.NET as a platform influence this decision?</p>","308","","3320","Mendelt Siebenga","2008-09-03 12:32:06","2013-01-27 12:29:43","What are effective options for embedding video in an ASP.NET web site?","<asp.net><flash><video><embed>","7","0","2","","","2550","96"
+"3004","1","3008","","2008-08-06 01:42:51","","3","1935","<p>I am using ASP.NET Dynamic Data for a project and I have a table that has two seperate fields that link to the same foreign key in a different table.</p>
+
+<p>This relationship works fine in SQL Server.</p>
+
+<p>However, in the LINQ to SQL model in the ASP.NET Dynamic Data model, only the first field's relationship is reflected.  If I attempt to add the second relationship manually, it complains that it ""Cannot create an association ""ForeignTable_BaseTable"".  The same property is listed more than once: ""Id"".""</p>
+
+<p><a href=""http://msdn.microsoft.com/en-us/library/bb629292.aspx"" rel=""nofollow"">This MSDN article</a> gives such helpful advice as:</p>
+
+<ul>
+<li>Examine the message and note the property specified in the message.</li>
+<li>Click OK to dismiss the message box.</li>
+<li>Inspect the Association Properties and remove the duplicate entries.</li>
+<li>Click OK.</li>
+</ul>","364","","2134","Chris","2008-09-26 19:02:03","2008-09-26 19:02:03","Using ASP.NET Dynamic Data / LINQ to SQL, how do you have two table fields have a relationship to the same foreign key?","<asp.net><dynamic-data>","1","0","","","","3004","96"
+"3164","1","3218","","2008-08-06 08:34:13","","41","41598","<p>If I have managed to locate and verify the existence of a file using Server.MapPath and I now want to send the user directly to that file, what is the <strong>fastest</strong> way to convert that absolute path back into a relative web path?</p>","192","","912495","","2012-11-02 20:20:53","2015-06-24 08:19:45","Absolute path back to web-relative path","<asp.net><path><mappath>","5","1","19","","","3164","96"
+"3713","1","3777","","2008-08-06 17:16:36","","98","188738","<p>I'm writing a web page in ASP.NET. I have some Javascript, and I have a submit button with an onClick event. </p>
+
+<p>Is it possible to call a method I created in ASP with Javascript's onClick event?</p>
+","557","","2771704","Matt S","2015-05-21 17:13:36","2015-05-21 17:13:36","Call ASP.NET Function From Javascript?","<javascript><c#><asp.net><onclick>","17","1","35","","","3713","96"
+"3757","1","3762","","2008-08-06 17:42:43","","3","223","<p>I've got the task of displaying a web form to represent the properties in a .NET class.  In WinForms, there's a pre-fab control named PropertyGrid that is a lot like what I need.  I'm just looking for something to display a simple layout of property names next to an appropriate control like a textbox for strings or a dropdownlist for enum properties.</p>
+
+<p>Does anything like this already exist for ASP.NET, or will I be rolling my own here?</p>
+","404","","1270384","","2012-09-11 00:16:02","2012-09-11 00:16:02","Looking for code to render a form that displays a view of an object","<asp.net><controls><propertygrid>","1","0","","","","3757","96"
+"3801","1","3824","","2008-08-06 18:28:04","","6","1712","<p>The discussion of Dual vs. Quadcore is as old as the Quadcores itself and the answer is usually ""it depends on your scenario"". So here the scenario is a Web Server (Windows 2003 (not sure if x32 or x64), 4 GB RAM, IIS, ASP.net 3.0).</p>
+
+<p>My impression is that the CPU in a Webserver does not need to be THAT fast because requests are usually rather lightweight, so having more (slower) cores should be a better choice as we got many small requests.</p>
+
+<p>But since I do not have much experience with IIS load balancing and since I don't want to spend a lot of money only to find out I've made the wrong choice, can someone who has a bit more experience comment on whether or not More Slower or Fewer Faster cores is better?</p>
+","91","","91","Adam Mitz","2012-10-24 22:44:31","2012-10-24 22:44:31","More vs. Faster Cores on a Webserver","<asp.net><windows><iis><hardware>","4","0","3","2014-07-11 08:58:28","","3801","96"
+"3831","1","3855","","2008-08-06 18:44:06","","7","2466","<p>I need to detect when a session has expired in my Visuial Basic web application.  This is what I'm using...</p>
+
+<pre><code>Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+    If CurrentSession.IsNew AndAlso (Not Page.Request.Headers(""Cookie"") Is Nothing) AndAlso (Page.Request.Headers(""Cookie"").IndexOf(""ASP.NET_SessionId"") &gt;= 0) Then
+        Response.Redirect(""TimeOut.aspx"")
+    End If
+
+    ...do something...
+
+End Sub
+</code></pre>
+
+<p><strong>Note:</strong> <code>CurrentSession.IsNew</code> returns <code>HttpContext.Current.Session.IsNewSession</code></p>
+
+<p>This seems to work well for <em>Internet Explorer</em>, but seems to fail with <em>Firefox</em>.</p>
+","83","","1012641","Stu Thompson","2013-05-18 04:51:11","2013-05-18 04:51:11","How do I best detect an ASP.NET expired session?","<asp.net><http><session>","1","2","2","","","3831","96"
+"4221","1","","","2008-08-07 00:45:51","","22","20174","<p>I'd like to use a <code>LinqDataSource</code> control on a page and limit the amount of records returned.  I know if I use code behind I could do something like this:</p>
+
+<pre><code>IEnumerable&lt;int&gt; values = Enumerable.Range(0, 10);
+IEnumerable&lt;int&gt; take3 = values.Take(3);
+</code></pre>
+
+<p>Does anyone know if something like this is possible with a <code>LinqDataSource</code> control?</p>
+
+<p><strong>[Update]</strong></p>
+
+<p>I'm going to use the <code>LinqDataSource</code> with the <code>ListView</code> control, <em>not</em> a GridView or Repeater.  The <code>LinqDataSource</code> wizard does not provide the ability to limit the number of records return.  The Advanced options only allow you to enabled deletes, inserts, and updates.</p>
+","519","","925222","Otto","2011-10-21 16:59:29","2012-10-24 11:35:42","LinqDataSource - Can you limit the amount of records returned?","<c#><asp.net><database><linq><linq-to-sql>","6","0","3","","","4221","96"
+"4230","1","4244","","2008-08-07 00:54:31","","29","39258","<p>I've been doing ASP.NET development for a little while now, and I've used both the GridView and the DataGrid controls before for various things, but I never could find a really good reason to use one or the other. I'd like to know:</p>
+
+<p>What is the difference between these 2 ASP.NET controls? What are the advantages or disadvantages of both? Is one any faster? Newer? Easier to maintain?</p>
+
+<p>The intellisense summary for the controls doesn't seem to describe any difference between the two. They both can view, edit, and sort data and automatically generate columns at runtime.</p>
+
+<p><strong>Edit:</strong> Visual Studio 2008 no longer lists DataGrid as an available control in the toolbox. It is still available (for legacy support I assume) if you type it in by hand though.</p>","392","","392","Dan","2008-08-07 01:11:16","2014-02-20 07:47:19","The Difference Between a DataGrid and a GridView in ASP.NET?","<asp.net>","7","0","6","","","4230","96"
+"4320","1","","","2008-08-07 02:41:24","","3","1784","<p>Is it ""acceptable"" to have an ASP.Net 2.0 application without the BLL (Business Logic Layer) as the following?</p>
+
+<ol>
+<li>SQL Server Data Storage &amp; Stored Procedures</li>
+<li>Data Link Layer (Strongly Typed Table Adapters) connecting to Stored Procs</li>
+<li>Presentation Layer ASPX Pages with Code behind and ObjectDataSource for connection straight to the DLL</li>
+</ol>
+
+<p>Is a BLL always preferable, even if business logic is entirely validatable in the presentation's code behind?  What are the potential drawbacks for not using a BLL?</p>","1525924","","394167","Mark Biek","2010-10-30 02:06:52","2010-10-30 02:06:52","ASP.Net 2.0 Application without Business Logic Layer?","<asp.net><business-logic-layer><objectdatasource>","5","0","","","","4320","96"
+"4363","1","4386","","2008-08-07 03:23:45","","27","5586","<p>Any suggestions?  Using visual studio in C#.</p>
+
+<p>Are there any specific tools to use or methods to approach this?</p>
+
+<h3>Update:</h3>
+
+<p>Sorry, I should have been a little more specific. I am using ASP.Net 2.0 and was looking more for a tool like jUnit for Java. I took a look at NUnit and NUnitAsp and that looks very promising. And I didn't even know that Visual Studio Pro has a testing suite, so I'll look at all of these options (I've just started using Visual Studio/Asp.net/C# this summer).</p>
+","396","","1288","","2011-06-28 18:51:19","2011-12-23 11:03:15","What is the best way to do unit testing for ASP.NET 2.0 web pages?","<c#><asp.net><visual-studio><unit-testing>","7","0","11","2012-07-14 14:23:36","","4363","96"
+"4627","1","4649","","2008-08-07 12:21:25","","6","791","<p>I am currently aware that ASP.NET 2.0 is out and about and that there are 3.x versions of the .Net Framework.</p>
+
+<p>Is it possible to upgrade my ASP.NET web server to version 3.x of the .Net Framework?</p>
+
+<hr>
+
+<p>I have tried this, however, when selecting which version of the .Net framwork to use in IIS (the ASP.NET Tab), only version 1.1 and 2.0 show.</p>
+
+<p>Is there a work around?</p>
+","383","","1288","Keith","2012-06-11 12:18:26","2012-06-11 12:18:26","Upgrade to ASP.NET 3.x","<asp.net><.net-3.5>","6","0","2","","","4627","96"
+"4738","1","4746","","2008-08-07 14:07:21","","73","54843","<p>I'm developing a data access component that will be used in a website that contains a mix of classic ASP and ASP.NET pages, and need a good way to manage its configuration settings.</p>
+
+<p>I'd like to use a custom <code>ConfigurationSection</code>, and for the ASP.NET pages this works great.  But when the component is called via COM interop from a classic ASP page, the component isn't running in the context of an ASP.NET request and therefore has no knowledge of web.config.</p>
+
+<p>Is there a way to tell the <code>ConfigurationManager</code> to just load the configuration from an arbitrary path (e.g. <code>..\web.config</code> if my assembly is in the <code>/bin</code> folder)?  If there is then I'm thinking my component can fall back to that if the default <code>ConfigurationManager.GetSection</code> returns <code>null</code> for my custom section.</p>
+
+<p>Any other approaches to this would be welcome!</p>
+","205","","1518087","michaelpryor","2013-03-19 20:33:40","2014-07-14 21:08:29","Using ConfigurationManager to load config from an arbitrary location","<asp.net><configuration><asp-classic>","6","1","31","","","4738","96"
+"4911","1","5057","","2008-08-07 16:19:40","","19","21985","<p>So in my simple learning website, I use the built in ASP.NET authentication system. </p>
+
+<p>I am adding now a user table to save stuff like his zip, DOB etc'. My question is:</p>
+
+<ol>
+<li>In the new table, should the key be the user name (the string) or the user ID which is that GUID looking number they use in the asp_ tables. </li>
+<li>If the best practice is to use that ugly guid, does anyone know how to get it? it seems to not be accessible as easily as the name (System.Web.HttpContext.Current.User.Identity.Name)</li>
+<li>If you suggest I use neither (not the guid nor the userName fields provided by ASP.NET authentication) then how do I do it with ASP.NET authentication? One option I like is to use the email address of the user as login, but how to I make ASP.NET authentication system use an email address instead of a user name? (or there is nothing to do there, it is just me deciding I ""know"" userName is actually an email address?</li>
+</ol>
+
+<p>Please note:</p>
+
+<ul>
+<li>I am not asking on how get a GUID in .NET, I am just referring to the userID column in the asp_ tables as guid.</li>
+<li>The user name is unique in ASP.NET authentication</li>
+</ul>
+","350","","811","csmba","2012-09-11 00:42:21","2012-09-11 00:42:21","Should I use the username, or the user's ID to reference authenticated users in ASP.NET","<asp.net><authentication>","12","0","10","","","4911","96"
+"5027","1","5029","","2008-08-07 17:38:09","","2","1403","<p>I have a fairly simple ASP.NET 2.0 menu control using a sitemap file and security trimmings.  There are only 21 menu options, but the results HTML of the menu is a whopping 14k.  The site is hosted on our company's intranet and must be serverd to people worldwide on limited bandwidth, so I'd like to reduce the size of the menus.</p>
+
+<p>What is the best way to do this?  Does anybody have a good reference?  I have the following constraints:</p>
+
+<ul>
+<li>The solution must not reference any 3rd part DLL files (getting approval would be a nightmare)</li>
+<li>Has to work with IE 6</li>
+</ul>
+
+<p>CSS and JavaScript are fine, as long as they work with IE 6.</p>
+","681","Jim","2442804","","2015-06-30 13:58:19","2015-06-30 13:58:19","Reduce ASP.NET menu control size (without 3rd party libraries)","<asp.net><size><menu>","2","1","1","","","5027","96"
+"5061","1","5070","","2008-08-07 17:59:42","","8","20965","<p>Does anyone ever found/used an ASP.NET application similar to Joomla?<br>
+I need to set up a quick and dirty CMS on a Windows Server and our client doesn't want us to use something else than ASP.NET.<br>
+Thanks!</p>","296","","","","","2012-03-03 11:22:49","ASP.NET version of Joomla","<asp.net><content-management-system><joomla>","13","1","2","2012-07-14 04:33:40","","5061","96"
+"5118","1","5160","","2008-08-07 18:31:22","","15","2658","<p>I'm working on a website which will switch to a new style on a set date. The site's built in semantic HTML and CSS, so the change should just require a CSS reference change. I'm working with a designer who will need to be able to see how it's looking, as well as a client who will need to be able to review content updates in the current look as well as design progress on the new look.</p>
+
+<p>I'm planning to use a magic querystring value and / or a javascript link in the footer which writes out a cookie to select the new CSS page. We're working in ASP.NET 3.5. Any recommendations?</p>
+
+<p>I should mention that we're using IE Conditional Comments for IE8,7,and 6 support. I may create a function that does a replacement:</p>
+
+<pre><code>&lt;link href=""Style/&lt;% GetCssRoot() %&gt;.css"" rel=""stylesheet"" type=""text/css"" /&gt;
+&lt;!--[if lte IE 8]&gt;
+    &lt;link type=""text/css"" href=""Style/&lt;% GetCssRoot() %&gt;-ie8.css"" rel=""stylesheet"" /&gt;
+&lt;![endif]--&gt;
+&lt;!--[if lte IE 7]&gt;
+    &lt;link type=""text/css"" href=""Style/&lt;% GetCssRoot() %&gt;-ie7.css"" rel=""stylesheet"" /&gt;
+&lt;![endif]--&gt;
+&lt;!--[if lte IE 6]&gt;
+    &lt;link type=""text/css"" href=""Style/&lt;% GetCssRoot() %&gt;-ie6.css"" rel=""stylesheet"" /&gt;
+&lt;![endif]--&gt;
+</code></pre>
+","5","","1317805","Jon Galloway","2013-10-28 14:44:12","2013-10-28 14:44:12","How to set up a CSS switcher","<javascript><html><asp.net><css>","5","0","2","","","5118","96"
+"5179","1","5219","","2008-08-07 19:13:04","","15","17871","<p>ASP.Net server side controls postback to their own page.  This makes cases where you want to redirect a user to an external page, but need to Post to that page for some reason (for authentication, for instance) a pain.</p>
+
+<p>An HttpWebRequest works great if you don't want to redirect, and Javascript is fine in some cases, but can get tricky if you really do need the server-side code to get the data together for the post.</p>
+
+<p>So how do you both post to an external URL and redirect the user to the result from your ASP.Net codebehind code?</p>","111","","111","saalon","2008-08-07 20:08:35","2014-08-10 14:08:42","How Do I Post and then redirect to an external URL from ASP.Net?","<c#><asp.net><javascript><forms>","6","0","5","","","5179","96"
+"5482","1","5500","","2008-08-07 23:37:30","","21","23122","<p>The ASP.NET AJAX ModalPopupExtender has OnCancelScript and OnOkScript properties, but it doesn't seem to have an OnShowScript property.  I'd like to specify a javascript function to run each time the popup is shown.</p>
+
+<p>In past situations, I set the TargetControlID to a dummy control and provide my own control that first does some JS code and then uses the JS methods to show the popup.  But in this case, I am showing the popup from both client and server side code.</p>
+
+<p>Anyone know of a way to do this?</p>
+
+<p>BTW, I needed this because I have a textbox in the modal that I want to make a TinyMCE editor. But the TinyMCE init script doesn't work on invisible textboxes, so I had to find a way to run it at the time the modal was shown</p>
+","698","","698","Shog9","2013-04-10 14:01:13","2013-07-29 19:42:23","How to specify javascript to run when ModalPopupExtender is shown","<asp.net><javascript><asp.net-ajax>","8","1","6","","","5482","96"
+"5706","1","5709","","2008-08-08 05:40:49","","17","12756","<p>I recently encountered a problem where a value was null if accessed with Request.Form but fine if retrieved with Request.Params.  What are the differences between these methods that could cause this?</p>","364","","849986","Haacked","2012-12-21 10:07:41","2012-12-21 10:07:41","When do Request.Params and Request.Form differ?","<c#><asp.net><request>","3","0","4","","","5706","96"
+"6076","1","7740","","2008-08-08 15:32:15","","2","1181","<p>I am building a server control that will search our db and return results.  The server control is contains an ASP:Panel.  I have set the default button on the panel equal to my button id and have set the form default button equal to my button id.  </p>
+
+<p>On the Panel:</p>
+
+<pre><code> MyPanel.DefaultButton = SearchButton.ID</code></pre>
+
+<p>On the Control:</p>
+
+<pre><code>Me.Page.Form.DefaultButton = SearchButton.UniqueID </code></pre>
+
+<p>Works fine in IE &amp; Safari I can type a search term and hit the enter key and it searches fine.  If I do it in FireFox I get an alert box saying ""Object reference not set to an instance of an a object. </p>
+
+<p>Anyone run across this before?</p>","225","","","","","2009-09-25 15:13:20","Default Form Button in FireFox","<asp.net><vb.net>","3","0","","","","6076","96"
+"6530","1","6534","","2008-08-09 02:03:52","","6","2324","<p>I have a ASP.NET application that we've written our own logging module for.</p>
+
+<p>My question is, where is the standard place to write a log file to? I.e. the website will be running as the anonymous user identity (e.g. IUSR on IIS7) and I need a place where I know it'll have permission to write to.</p>
+
+<p>Cheers,</p>
+","233","","1280410","","2012-05-03 07:40:22","2013-02-13 06:04:34","Where should I put my log file for an asp.net application?","<asp.net><logging><permissions>","6","0","2","","","6530","96"
+"6681","1","6704","","2008-08-09 07:34:01","","6","4094","<p>I'm still new to the ASP.NET world, so I could be way off base here, but so far this is to the best of my (limited) knowledge!</p>
+
+<p>Lets say I have a standard business object ""Contact"" in the <em>Business</em> namespace. I write a Web Service to retrieve a Contact's info from a database, and return it. I then write a client application to request said details.</p>
+
+<p>Now, I also then create a utility method that takes a ""Contact"" and does some magic with it, like <code>Utils.BuyContactNewHat()</code> say. Which of course takes the Contact of type <code>Business.Contact</code>.</p>
+
+<p>I then go back to my client application and want to utilise the <code>BuyContactNewHat</code> method, so I add a reference to my <em>Utils</em> namespace and there it is. However, a problem arises with:</p>
+
+<pre><code>Contact c = MyWebService.GetContact(""Rob);
+Utils.BuyContactNewHat(c); // &lt;&lt; Error Here
+</code></pre>
+
+<p>Since the return type of <code>GetContact</code> is of <code>MyWebService.Contact</code> and not <code>Business.Contact</code> as expected. I understand why this is, because when accessing a web service, you are actually programming against the proxy class generated by the WSDL.</p>
+
+<p>So, is there an ""easier"" way to deal with this type mismatch? I was considering perhaps trying to create a generic converter class that uses reflection to ensure two objects have the same structure, than simply transferring the values across from one to the other.</p>
+","832","","2246344","Chris Fournier","2014-09-07 19:07:13","2014-09-07 19:07:13","ASP.NET Web Service Results, Proxy Classes and Type Conversion","<c#><asp.net><web-services>","3","0","1","","","6681","96"
+"6719","1","6720","","2008-08-09 09:51:37","","2","669","<p>I've just been learning about master pages in ASP.NET 2.0.  </p>
+
+<p>They sound great, but how well do they work in practice?  </p>
+
+<p>Does anybody have experience of using them for a large web site?</p>
+","133","","1270384","","2012-09-11 00:01:18","2012-09-11 00:01:18","Master Pages for large web sites","<asp.net><.net><master-pages><asp.net-2.0>","6","0","1","","","6719","96"
+"7773","1","7777","","2008-08-11 13:24:19","","22","86746","<p>I have a ASP.NET page with an asp:button that is not visible. I can't turn it visible with JavaScript because it is not rendered to the page.</p>
+
+<p>What can I do to resolve this?</p>
+","1013","","4714","","2012-01-31 16:04:43","2013-02-10 22:36:52","Change visibility of ASP.NET label with JavaScript","<asp.net><javascript>","7","0","3","","","7773","96"
+"7873","1","","","2008-08-11 15:37:30","","0","174","<p>I'm making a webform using a <code>LoginView</code>, the problem is that because the control includes a grey bar telling you what type of control it is it throws of correctly formatting the page (it has <code>LoginView1</code> at the top).</p>
+
+<p>Is there a way to hide this on the <code>LoginView</code> as the <code>contentPlaceholder</code> does an excellent job for this.</p>
+
+<p>I've found that you can remove the ID, but that seems like a hack as it stops programatic access</p>
+","","Az","1332690","","2012-04-25 16:45:45","2012-04-25 16:45:45","Remove the bar at the top of Loginview for formatting","<asp.net><webforms>","2","0","","","","7873","96"
+"8651","1","8687","","2008-08-12 10:37:50","","3","5016","<p>I am trying to load Linq on my .Net 3.5 enabled web server by adding the following to my .aspx page:</p>
+
+<pre><code>&lt;%@ Import Namespace=""System.Query"" %&gt;
+</code></pre>
+
+<p>However, this fails and tells me it cannot find the namespace.</p>
+
+<blockquote>
+  <p>The type or namespace name 'Query' does not exist in the namespace 'System' </p>
+</blockquote>
+
+<p>I have also tried with no luck:</p>
+
+<ul>
+<li><code>System.Data.Linq</code></li>
+<li><code>System.Linq</code></li>
+<li><code>System.Xml.Linq</code></li>
+</ul>
+
+<p>I believe that .Net 3.5 is working because <code>var hello = ""Hello World""</code> seems to work.</p>
+
+<p>Can anyone help please?</p>
+
+<p>PS: I just want to clarify that I don't use Visual Studio, I simply have a <a href=""http://www.ultraedit.com/"" rel=""nofollow"">Text Editor</a> and write my code directly into .aspx files.</p>
+","383","GateKiller","623518","GateKiller","2012-04-25 15:08:24","2012-04-25 15:08:24","Import Namespace System.Query","<asp.net><linq>","6","0","1","","","8651","96"
+"8669","1","9319","","2008-08-12 10:54:54","","2","538","<p>I'm trying to write a Crystal Report which has totals grouped in a different way to the main report. The only way I've been able to do this so far is to use a subreport for the totals, but it means having to hit the data source again to retrieve the same data, which seems like nonsense. Here's a simplified example:</p>
+
+<pre><code>       date   name   earnings   source          location
+-----------------------------------------------------------
+12-AUG-2008   Tom      $50.00   washing cars    uptown
+12-AUG-2008   Dick    $100.00   washing cars    downtown     { main report }
+12-AUG-2008   Harry    $75.00   mowing lawns    around town
+
+                    total earnings for washing cars: $150.00 { subreport }
+                    total earnings for mowing lawns:  $75.00
+
+       date   name   earnings   source          location
+-----------------------------------------------------------
+13-AUG-2008   John     $95.00   dog walking     downtown
+13-AUG-2008   Jane    $105.00   washing cars    around town  { main report }
+13-AUG-2008   Dave     $65.00   mowing lawns    around town
+
+                    total earnings for dog walking:   $95.00
+                    total earnings for washing cars: $105.00 { subreport }
+                    total earnings for mowing lawns:  $65.00
+</code></pre>
+
+<p>In this example, the main report is grouped by 'date', but the totals are grouped additionally by 'source'. I've looked up examples of using running totals, but they don't really do what I need. Isn't there some way of storing the result set and having both the main report and the subreport reference the same data?</p>
+","1030","ninesided","4223","jodonnell","2008-09-12 20:12:16","2008-09-12 20:12:16","Is there some way of recycling a Crystal Reports dataset?","<asp.net><crystal-reports><dataset>","2","0","","","","8669","96"
+"9022","1","9356","","2008-08-12 16:25:18","","5","1681","<p>Inside an asp.net page, should I use</p>
+
+<pre><code>&lt;html&gt;&lt;title&gt;My page's title from México&lt;/title&gt;&lt;/html&gt;
+</code></pre>
+
+<p>Or </p>
+
+<pre><code>&lt;html&gt;&lt;title&gt;My page's title from M&amp;eacute;xico&lt;/title&gt;&lt;/html&gt;
+</code></pre>
+
+<p>Both examples have the same output. Since asp.net encodes all my pages to utf-8, there is no need to use html entities, is that right?</p>
+","296","jdecuyper","3653989","","2015-03-15 19:52:33","2015-03-15 19:52:33","How have Html entities inside asp.net page?","<asp.net><html><encoding>","3","1","","","","9022","96"
+"9336","1","9533","","2008-08-13 00:01:11","","2","2266","<p>I'm trying to generate a sitemap.xml on the fly for a particular asp.net website. </p>
+
+<p>I found a couple solutions:<br /></p>
+
+<ol>
+<li><a href=""http://sitemap.chinookwebs.com/"" rel=""nofollow"" title=""Unison Home Page"">chinookwebs</a></li>
+<li><a href=""http://www.cervoproject.info/sitemaps.aspx"" rel=""nofollow"">cervoproject</a></li>
+<li><a href=""http://www.codeplex.com/Sitemaps"" rel=""nofollow"">newtonking</a></li>
+</ol>
+
+<p>Chinookwebs is working great but seems a bit inactive right now and it's impossible to personalize the ""priority"" and the ""changefreq"" tags of each and every page, they all inherit the same value from the config file.</p>
+
+<p>What solutions do you guys use?</p>
+
+<p>Thanks a lot for support!</p>
+","296","jdecuyper","","user2189331","2008-08-19 11:25:21","2011-01-08 02:22:12","Generate sitemap on the fly","<.net><asp.net><sitemap>","3","1","2","","","9336","96"
+"9341","1","9365","","2008-08-13 00:11:03","","4","3353","<p>Simple asp.net application.</p>
+
+<p>I have two drop-down controls, on the first-drop down I have a javascript <code>onChange</code> event. The javascript enables the second drop-down and removes a value from it (the value selected in the first drop-down). If they click the blank first value of the drop-down, then the second drop-down will be disabled (and the options reset).</p>
+
+<p>I also have code in the <code>OnPreRender</code> method that will enable or disable the second drop-down based on the value of the first drop-down. This is so that the value of the first drop-down can be selected in code (loading user settings).</p>
+
+<p>My problem is:</p>
+
+<ol>
+<li>The user selects something in the first drop-down. The second drop-down will become enabled through javascript. </li>
+<li>They then change a third drop-down that initiates a post back. After the post back the drop-downs are in the correct state (first value selected, second drop-down enabled).</li>
+<li>If they then click the back button, the second drop-down will no longer be enabled although it should be since there's something selected in the first drop-down.</li>
+</ol>
+
+<p>I've tried adding a startup script (that will set the correct state of the second-drop down) through <code>ClientScript.RegisterStartupScript</code>, however when this gets called the first drop-down has a <code>selectedIndex</code> of <code>0</code>, not what it actually is. My guess is that the value of the selection gets set after my start script (but still doesn't call the <code>onChange</code> script).</p>
+
+<p>Any ideas on what to try?</p>
+","233","Ray","590783","","2012-02-16 19:56:13","2012-02-16 19:56:13","Running Javascript after control's selected value has been set","<asp.net><javascript>","2","0","","","","9341","96"
+"9409","1","9426","","2008-08-13 02:15:17","","4","8076","<p>I have a datagrid getting bound to a dataset, and I want to display the average result in the footer for a column populated with integers.</p>
+
+<p>The way I figure, there's 2 ways I can think of:</p>
+
+<p>1.""Use the <strong>Source</strong>, Luke""<br />
+In the code where I'm calling DataGrid.DataBind(), use the DataTable.Compute() method (<em>or in my case DataSet.DataTable(0).Compute()</em>). For example:  </p>
+
+<pre><code>Dim strAverage = DataTable.Compute(""Avg(ColumnName)"", """")
+</code></pre>
+
+<p>But once I have this, how can I insert it into the footer?</p>
+
+<p>2.""<strong>Bound</strong> for Glory""<br />
+Using the DataGrid.ItemDataBound event, and calculating a running total from every ListItemType.Item and ListItemType.AlternatingItem, finally displaying in ListItemType.Footer. For example:  </p>
+
+<pre><code>Select Case e.Item.ItemType
+    Case ListItemType.Item, ListItemType.AlternatingItem
+        runningTotal += CInt(e.Item.Cells(2).Text)
+    Case ListItemType.Footer
+        e.Item.Cells(2).Text = runningTotal/DataGrid.Items.Count
+End Select
+</code></pre>
+
+<p>This just feels wrong, plus I would have to make sure the runningTotal is reset on every DataBind.  </p>
+
+<p>Is there a better way?</p>
+","952","WizzFizz","1270384","WizzFizz","2012-09-11 00:14:12","2012-09-11 00:14:12","Datagrid: Calculate Avg or Sum for column in Footer ","<asp.net><vb.net><datagrid><report>","2","0","","","","9409","96"
+"9473","1","9481","","2008-08-13 04:30:30","","4","4375","<p>I have a custom control that implements IPostBackEventHandler. Some client-side events invoke __doPostBack(controlID, eventArgs).</p>
+
+<p>The control is implemented in two different user controls. In one control, RaisePostBackEvent is fired on the server-side when <code>__doPostBack</code> is invoked. In the other control, RaisePostBackEvent is never invoked. I checked the <code>__EVENTTARGET</code> parameter and it does match the ClientID of the control... where else might I look to troubleshoot this?</p>
+","67","Rex M","67","Rex M","2008-08-14 00:40:41","2009-08-18 07:05:02","RaisePostBackEvent not firing","<asp.net><postback>","2","0","1","","","9473","96"
+"9501","1","","","2008-08-13 06:04:52","","3","363","<p>We're running a custom application on our intranet and we have found a problem after upgrading it recently where IIS hangs with 100% CPU usage, requiring a reset.</p>
+
+<p>Rather than subject users to the hangs, we've rolled back to the previous release while we determine a solution.  The first step is to reproduce the problem -- but we can't. </p>
+
+<p>Here's some background:</p>
+
+<p>Prod has a single virtualized (vmware) web server with two CPUs and 2 GB of RAM.  The database server has 4GB, and 2 CPUs as well.  It's also on VMWare, but separate physical hardware.</p>
+
+<p>During normal usage the application runs fine.  The w3wp.exe process normally uses betwen 5-20% CPU and around 200MB of RAM.  CPU and RAM fluctuate slightly under normal use, but nothing unusual.</p>
+
+<p>However, when we start running into problems, the RAM climbs dramatically and the CPU pegs at 98% (or as much as it can get).  The site becomes unresponsive, necessitating a IIS restart.  Resetting the app pool does nothing in this situation, a full IIS restart is required.</p>
+
+<p>It does not happen during the night (no usage).  It happens more when the site is under load, but it has also happened under non-peak periods.</p>
+
+<p>First step to solving this problem is reproducing it. To simulate the load, we starting using JMeter to simulate usage. Our load script is based on actual usage around the time of the crash.  Using JMeter, we can ramp the usage up quite high (2-3 times the load during the crash) but the site behaves fine.  CPU is up high, and the site does become sluggish, but memory usage is reasonable and nothing is hanging.</p>
+
+<p>Does anyone have any tips on how to reproduce a problem like this in a non-production environment?  We'd really like to reproduce the error, determine a solution, then test again to make sure we've resolved it.  During the process we've found a number of small things that we've improved that might solve the problem, but I'd really feel a lot more confident if we could reproduce the problem and test the improved version.</p>
+
+<p>Any tools, techniques or theories much appreciated!</p>
+","","Darren","2432317","","2013-12-02 13:17:55","2013-12-02 13:17:55","Replicating load related crashes in non-production environments","<asp.net><performance><memory><crash><cpu>","3","2","","","","9501","96"
+"9751","1","15415","","2008-08-13 13:01:08","","2","2047","<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""http://stackoverflow.com/questions/371/how-do-you-make-sure-email-you-send-programmatically-is-not-automatically-marked"">How do you make sure email you send programmatically is not automatically marked as spam?</a>  </p>
+</blockquote>
+
+<p>
+I want so send every week an update by email. But Im afraid that if there are too many emails sent, they will be marked as spam. Any of you has experience sending many emails (thousands) weekly? What techniques do you use?</p>
+","1013","Artur Carvalho","1584286","Greg Hurlman","2013-07-04 12:21:47","2013-07-04 12:21:47","Sending emails without looking like spam","<asp.net><email>","2","1","1","2010-04-08 18:58:29","","9751","96"
+"9805","1","9851","","2008-08-13 13:38:56","","7","3636","<p>I am currently writing a small calendar in ASP.Net C#. Currently to produce the rows of the weeks I do the following for loop:</p>
+
+<pre><code>var iWeeks = 6;
+for (int w = 0; w &lt; iWeeks; w++) {
+</code></pre>
+
+<p>This works fine, however, some month will only have 5 weeks and in some rare cases, 4.</p>
+
+<p>How can I calculate the number of rows that will be required for a particular month?</p>
+","383","GateKiller","","","","2014-09-07 20:04:35","Calculate DateTime Weeks into Rows","<c#><asp.net>","11","0","3","","","9805","96"
+"10098","1","10192","","2008-08-13 17:16:33","","3","2614","<p>I'm getting into more of a TDD workflow, and have a mix of MVC and asp.net Web Forms apps.</p>
+
+<p>MOQ is recommended for MVC.</p>
+
+<p>I've used Rhino for Web Forms.</p>
+
+<p>Does anyone have a best practice for having 1 framework mock for both?</p>
+","1220","ChanChan","","","","2012-08-15 16:33:13","Best mock framework that can do both WebForms and MVC?","<c#><asp.net><asp.net-mvc><testing>","5","0","3","","","10098","96"
+"10260","1","10811","","2008-08-13 19:18:07","","6","513","<p>I've kept up to date with new features in the C# language as it's moved from version 1 through version 3.  I haven't done such a good job keeping up to date with ASP.NET.  I feel like some of the post version 1 features are not so good (e.g. the AJAX framework) or are just not that useful to me (e.g. the membership framework).  Can anyone recommend any new killer ASP.NET features that might have gone unnoticed?</p>
+","203","Ben","","","","2008-10-07 15:38:42","What are the useful new ASP.NET features in the .NET Framework 3.5?","<asp.net>","14","0","","","","10260","96"
+"10658","1","","","2008-08-14 04:07:36","","70","44197","<p>I'm looking for a good method of generating an iCalendar file (*.ics) in c# (asp.net).  I've found a couple resources, but one thing that has been lacking is their support for <strong>quoted-printable</strong> fields - fields that have carriage returns and line feeds.</p>
+
+<p>For example, if the <strong>description</strong> field isn't encoded properly, only the first line will display and possibly corrupting the rest of the information in the *.ics file.</p>
+
+<p>I'm looking for existing classes that can generate *.ics files and/or a class that can generate <strong>quoted-printable</strong> fields.</p>
+","519","Otto","3043","","2011-11-18 05:14:35","2012-01-18 12:09:09","Creating iCal Files in c#","<c#><asp.net><icalendar>","7","1","29","","","10658","96"
+"10661","1","11290","","2008-08-14 04:16:18","","5","270","<p>We deployed a live, fresh, swanky site using preview 3 including rigorous stress testing. </p>
+
+<p>Page Output caching was our saviour and afforded us the ability to meet our performance contractual requirements.</p>
+
+<p>My question is, is there a difference between action OutputCacheFilter and page output caching?</p>
+
+<p>Is the action output caching faster than page output caching?</p>
+","209","CVertex","598","Haacked","2008-08-28 03:04:42","2008-08-28 03:04:42","Does the OutputCacheFilter in the Microsoft MVC Preview 4 actually save on action invocations?","<c#><asp.net><asp.net-mvc><outputcache>","2","0","","","","10661","96"
+"10782","1","10786","","2008-08-14 07:21:12","","1","6145","<p>What steps I need to perform in order to convert asp.net 2 application from IIS7 classic to integrated mode?</p>
+","481","Dragan Panjkov","2548","Remou","2008-11-19 18:17:03","2008-11-19 18:17:03","Convert an asp.net application to IIS7 integrated mode","<asp.net><iis-7><.net-2.0>","2","0","1","","","10782","96"
+"10793","1","12055","","2008-08-14 08:06:59","","4","3786","<p>I'm dynamically loading user controls adding them to the Controls collection of the web form.</p>
+
+<p>I'd like to hide user controls if they cause a unhandled exception while rendering.</p>
+
+<p>So, I tried hooking to the Error event of each UserControl but it seems that this event never fires for the UserControls as it does for Page class. </p>
+
+<p>Did some googling around and it doesn't seem promising. Any ideas here?</p>
+","1269","Marko Milić","","","","2012-06-08 18:32:52","Catching unhandled exceptions in ASP.NET UserControls","<asp.net><exception><user-controls>","9","0","1","","","10793","96"
