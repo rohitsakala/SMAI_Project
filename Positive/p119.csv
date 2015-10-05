@@ -1,0 +1,506 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"871","1","875","","2008-08-03 22:38:29","","394","422462","<p>I've been using <a href=""http://en.wikipedia.org/wiki/Apache_Subversion"" rel=""nofollow"">Subversion</a> for a few years and after using <a href=""http://en.wikipedia.org/wiki/Microsoft_Visual_SourceSafe"" rel=""nofollow"">SourceSafe</a>, I just love Subversion.  Combined with <a href=""http://en.wikipedia.org/wiki/TortoiseSVN"" rel=""nofollow"">TortoiseSVN</a>, I can't really imagine how it could be any better.  </p>
+
+<p>Yet there's a growing number of developers claiming that Subversion has problems and that we should be moving to the new breed of distributed version control systems, such as <a href=""http://git.or.cz/"" rel=""nofollow"" title=""Git Distributed Version Control System"">Git</a>.  </p>
+
+<p>How does Git improve upon Subversion?</p>
+","203","","63550","Jon Limjap","2010-07-23 10:24:35","2011-10-25 06:30:09","Why is Git better than Subversion?","<svn><git>","30","11","674","","2011-05-18 15:58:09","871","119"
+"2658","1","2668","","2008-08-05 18:29:14","","63","6277","<p>I need to implement version control, even for just the developing I do at home.  I have read about how great Subversion is for the past couple years and was about to dedicate myself to learning this on the side until I heard about Git being the up and coming version control system.</p>
+
+<p>Given the situation, should I hold off and see which one comes out on top?  What are their relative advantages?  </p>
+
+<p>One issue I noticed with Git is there are not many full featured GUIs, which is important to many users on my team.</p>
+
+<p>Also, wouldn't mind suggestions on how to get started with one or the other. (tutorials, etc.)</p>
+","406","","406","Ryan Fox","2011-12-22 22:39:04","2013-11-07 17:02:53","Getting started with Version Control","<git><svn><version-control><language-agnostic><dvcs>","36","1","29","","2008-09-23 06:50:43","2658","119"
+"5473","1","21778","","2008-08-07 23:22:51","","537","145682","<p>Is it possible to undo the changes caused by the following command? If so, how?</p>
+
+<pre><code>git reset --hard HEAD~1
+</code></pre>
+","85","","2541573","Ryan Fox","2014-12-20 15:41:23","2015-04-02 08:57:22","How can I undo git reset --hard HEAD~1?","<git><version-control><git-reset>","11","2","220","","","5473","119"
+"6009","1","6017","","2008-08-08 14:44:25","","62","6069","<p>Let's say you have a typical web app and with a file configuration.whatever. Every developer working on the project will have one version for their dev boxes, there will be a dev, prod and stage versions. How do you deal with this in source control? Not check in this file at all, check it with different names or do something fancy altogether?</p>","556","","55","Ryan Fox","2008-08-17 02:13:54","2014-01-14 10:44:23","How do you deal with configuration files in source control?","<svn><git><version-control><cvs>","18","0","20","","","6009","119"
+"10564","1","773973","","2008-08-14 01:43:04","","307","123229","<p>I'm trying out <strong>Git on Windows</strong>. I got to the point of trying ""git commit"" and I got this error:</p>
+
+<blockquote>
+  <p>Terminal is dumb but no VISUAL nor
+  EDITOR defined. Please supply the
+  message using either -m or -F option.</p>
+</blockquote>
+
+<p>So I figured out I need to have an environment variable called EDITOR. No problem. I set it to point to Notepad. That worked, almost. The default commit message opens in Notepad. But Notepad doesn't support bare line feeds. I went out and got <a href=""http://notepad-plus.sourceforge.net/uk/site.htm"">Notepad++</a>, but I can't figure out how to get Notepad++ set up as the <code>%EDITOR%</code> in such a way that it works with Git as expected.</p>
+
+<p>I'm not married to Notepad++. At this point I don't mind what editor I use. I just want to be able to <strong>type commit messages in an editor</strong> rather than the command line (with <code>-m</code>).</p>
+
+<p>Those of you using Git on Windows: What tool do you use to edit your commit messages, and what did you have to do to make it work?</p>
+","437","Patrick McElhaney","437","ΤΖΩΤΖΙΟΥ","2011-01-11 01:32:52","2015-09-21 11:58:54","How can I set up an editor to work with Git on Windows?","<windows><git><editor>","25","5","194","","","10564","119"
+"21848","1","21932","","2008-08-22 05:39:54","","93","38420","<p>There may be more than one way to ask this question, so here's a desciption of the problem. I was working on master and committed some stuff and then decided I wanted to put that work on hold. I backed up a few commits and then branched from before I started my crap work. Practically this works fine, I just now have a different branch as my main development branch. I'm wondering how I could change things around so I'm working on master again but it doesn't have my junk work and said work is on a different branch.</p>
+
+<p>Some ways this could be asked/solved:
+How do I rename my master branch to something else and then rename something else to master?
+How do I back up master and then cause all commits I've backed up past to be on a different branch?</p>
+
+<p>Thanks for all the (quick) answers! They're all good.</p>
+","2427","Daniel","2427","Daniel","2008-08-22 09:36:03","2012-08-18 18:28:45","Switch branch names in git","<git><branch>","5","0","41","","","21848","119"
+"23907","1","2854506","","2008-08-23 03:00:46","","33","11042","<p>Basically I want to get the number of lines-of-code in the repository after each commit.</p>
+
+<p>The only (really crappy) ways I have found is to use git filter-branch to run ""wc -l *"", and a script that run git reset --hard on each commit, then ran wc -l</p>
+
+<p>To make it a bit clearer, when the tool is run, it would output the lines of code of the very first commit, then the second and so on.. This is what I want the tool to output (as an example):</p>
+
+<pre><code>me@something:~/$ gitsloc --branch master
+10
+48
+153
+450
+1734
+1542
+</code></pre>
+
+<p>I've played around with the ruby 'git' library, but the closest I found was using the .lines() method on a diff, which seems like it should give the added lines (but does not.. it returns 0 when you delete lines for example)</p>
+
+<pre><code>require 'rubygems'
+require 'git'
+
+total = 0
+g = Git.open(working_dir = '/Users/dbr/Desktop/code_projects/tvdb_api')
+
+
+last = nil
+g.log.each do |cur|
+  diff = g.diff(last, cur)
+  total = total + diff.lines
+  puts total
+  last = cur
+end
+</code></pre>
+","745","dbr","745","dbr","2008-10-15 13:30:01","2010-07-05 16:18:32","How can I graph the Lines of Code history for git repo?","<python><ruby><git><lines-of-code><sloc>","4","0","9","","","23907","119"
+"27695","1","1066304","","2008-08-26 10:20:41","","48","26484","<p>It happens to me all the time. I accidentally version a file, I do not want to be versioned (i.e. developer/machine specific config-files).</p>
+
+<p>If I commit this file, I will mess up the paths on all the other developer machines - they will be unhappy.</p>
+
+<p>If I do delete the file from versioning, it will be deleted from the other developers machines - they will be unhappy.</p>
+
+<p>If I choose to never commit the file, I always have a ""dirty"" checkout - I am unhappy.</p>
+
+<p>Is a clean way to ""unversion"" a file from revision-control, that will result in no-one being unhappy?</p>
+
+<p>edit: trying to clarify a bit: I have already commited the file to the repository and I want to only remove it from versioning - I specifically do not want it to be physically deleted from everyone doing a checkout. I initially wanted it to be ignored.</p>
+
+<p>Answer: If I could accept a second answer, it would be <a href=""http://stackoverflow.com/questions/27695/how-to-unversion-a-file-in-either-svn-andor-git#27727"">this</a>. It answers my question with respect to git - the accepted answer is about svn.</p>
+","1870","Mo","23263","Mo","2012-08-06 09:00:08","2012-10-05 14:25:27","How to ""unversion"" a file in either svn and/or git","<svn><git><version-control><versioning>","13","0","24","","","27695","119"
+"29168","1","2047574","","2008-08-26 23:15:41","","56","9932","<p>My master branch layout is like this:</p>
+
+<p><strong>/</strong> &lt;-- top level</p>
+
+<p><strong>/client</strong> &lt;-- desktop client source files</p>
+
+<p><strong>/server</strong> &lt;-- Rails app</p>
+
+<p>What I'd like to do is only pull down the /server directory in my <code>deploy.rb</code>, but I can't seem to find any way to do that. The /client directory is huge, so setting up a hook to copy /server to / won't work very well, it needs to only pull down the Rails app.</p>
+","574","Jarin Udom","1332690","","2012-04-25 23:51:16","2015-03-28 03:36:50","Deploying a Git subdirectory in Capistrano","<ruby-on-rails><git><deployment><capistrano>","10","0","33","","","29168","119"
+"29761","1","30768","","2008-08-27 08:54:50","","14","14028","<p>Can anyone recommend a good repository viewer for Git, similar to gitk, that works on Mac OS X Leopard? (I'm not saying gitk doesn't work)</p>
+
+<p>Of course I would like a native Mac application, but as I haven't found any, what are the best options to gitk?</p>
+
+<p>I know about gitview, but I'm looking forward to evaluate as many alternatives as possible.</p>
+
+<p><a href=""http://sourceforge.net/projects/gitview"">http://sourceforge.net/projects/gitview</a></p>
+","2954","Sergio Acosta","1037","onnodb","2008-08-31 13:48:51","2012-08-25 01:26:23","Good Git repository viewer for Mac","<git><osx><version-control>","14","0","6","2013-04-22 18:14:51","","29761","119"
+"35284","1","","","2008-08-29 20:54:55","","83","76627","<p>Given the following interaction:</p>
+
+<pre><code>$ git add foo 
+$ git commit -m ""Initial import of 'foo'""
+$ rm foo # This could be any destructive action on foo, like editing it.
+</code></pre>
+
+<p>How do I restore 'foo' in my working copy? I'm looking for something like:</p>
+
+<pre><code>$ git &lt;magic&gt; foo
+Restored foo to revision &lt;blah&gt;.
+</code></pre>
+","2603","zacherates","","","","2013-03-18 07:47:14","How do I restore files to previous states in git?","<git>","0","0","0","2014-04-29 12:20:03","","35284","119"
+"35837","1","35845","","2008-08-30 09:48:27","","730","382513","<p>I've been using git for some time now on Windows (with msysGit) and I like the idea of distributed source control. Just recently I've been looking at Mercurial (hg) and it looks interesting. However, I can't wrap my head around the differences between hg and git.</p>
+
+<p>Has anyone made a side-by-side comparison between git and hg? I'm interested to know what differs hg and git without having to jump into a fanboy discussion.</p>
+","3713","Spoike","110204","","2012-01-31 20:07:55","2012-06-25 09:03:52","What is the Difference Between Mercurial and Git?","<git><version-control><mercurial><comparison><dvcs>","25","0","510","","2010-11-04 13:54:56","35837","119"
+"36862","1","37006","","2008-08-31 13:54:20","","94","47489","<p>With SVN, I had a single big repository I kept on a server, and checked-out on a few machines. This was a pretty good backup system, and allowed me easily work on any of the machines. I could checkout a specific project, commit and it updated the 'master' project, or I could checkout the entire thing.</p>
+
+<p>Now, I have a bunch of git repositories, for various projects, several of which are on github. I also have the SVN repository I mentioned, imported via the git-svn command..</p>
+
+<p>Basically, I like having all my code (not just projects, but random snippets and scripts, some things like my CV, articles I've written, websites I've made and so on) in one big repository I can easily clone onto remote machines, or memory-sticks/harddrives as backup.</p>
+
+<p>The problem is, since it's a private repository, and git doesn't allow checking out of a specific folder (that I could push to github as a separate project, but have the changes appear in both the master-repo, and the sub-repos)</p>
+
+<p>I <em>could</em> use the git submodule system, but it doesn't act how I want it too (submodules are pointers to other repositories, and don't really contain the actual code, so it's useless for backup)</p>
+
+<p>Currently I have a folder of git-repos (for example, ~/code_projects/proj1/.git/ ~/code_projects/proj2/.git/), and after doing changes to proj1 I do <code>git push github</code>, then I copy the files into ~/Documents/code/python/projects/proj1/ and do a single commit (instead of the numerous ones in the individual repos). Then do <code>git push backupdrive1</code>, <code>git push mymemorystick</code> etc</p>
+
+<p>So, the question: How do your personal code and projects with git repositories, and keep them synced and backed-up?</p>
+","745","dbr","1131435","","2013-04-11 06:20:26","2013-04-11 06:20:26","How do you organise multiple git repositories, so that all of them are backed up together?","<git><backup>","6","0","64","","","36862","119"
+"37219","1","37267","","2008-08-31 22:51:21","","115","47435","<p>Suppose your git history looks like this:</p>
+
+<p>1
+2
+3
+4
+5</p>
+
+<p>Where 1-5 are separate revisions. You need to remove 3 while still keeping 1, 2, 4 and 5. How to do it?</p>
+
+<p>Is there an efficient method when there are hundreds of revisions after the one to be deleted?</p>
+","3146","1800 INFORMATION","724411","1800 INFORMATION","2015-07-02 20:08:23","2015-07-02 20:08:23","How do you remove a specific revision in the git history?","<git>","7","0","47","","","37219","119"
+"39475","1","39927","","2008-09-02 13:14:49","","4","2538","<p>Hello I have the following error by git-fsck, which cannot be cleaned by git-gc even in --aggressive mode. What can I do next to fix this repository error? </p>
+
+<pre><code>$ git-fsck
+bad sha1 file: .git/objects/55/tmp_obj_a07724
+</code></pre>
+","2313","","2174085","","2015-02-14 21:05:09","2015-02-14 21:05:09","Git ""bad sha1 file"" error","<git><version-control>","2","0","1","","","39475","119"
+"39651","1","39862","","2008-09-02 14:22:44","","77","28122","<p>In a <a href=""http://stackoverflow.com/questions/21848/switch-branch-names-in-git"" rel=""nofollow"">previous Git question</a>, Daniel Benamy was talking about a workflow in Git:</p>
+
+<blockquote>
+  <p>I was working on master and committed some stuff and then decided I wanted to put that work on hold. I backed up a few commits and then branched from before I started my crap work.</p>
+</blockquote>
+
+<p>He wanted to restore his working state to a previous point in time without losing his current changes. All of the answers revolved around, in various ways, something like</p>
+
+<pre><code>git branch -m master crap_work
+git branch -m previous_master master
+</code></pre>
+
+<p>How does this compare to <code>git stash</code>? I'm a bit confused trying to see what the different use case here when it <em>seems</em> like everything <code>git stash</code> does is already handled by branching…</p>
+
+<p><hr /></p>
+
+<p>@<a href=""http://stackoverflow.com/questions/39651/git-stash-vs-git-branch#39862"" rel=""nofollow"">Jordi Bunster</a>: Thanks, that clears things up. I guess I'd kind of consider ""stashing"" to be like a lightweight, nameless, branch. So anything stash can do, branch can as well but with more words. Nice!</p>
+","4161","Will Robertson","4161","Will Robertson","2008-09-02 16:03:44","2015-07-19 18:59:46","git-stash vs. git-branch","<git>","4","0","35","","","39651","119"
+"39742","1","39947","","2008-09-02 15:05:22","","27","12518","<p>Browsing through the git documentation, I can't see anything analogous to SVN's commit hooks or the ""propset"" features that can, say, update a version number or copyright notice within a file whenever it is committed to the repository.</p>
+
+<p>Are git users expected to write external scripts for this sort of functionality (which doesn't seem out of the question) or have I just missed something obvious?</p>
+
+<p><em>Edit</em> : Just to be clear, I'm more interested in, e.g.,</p>
+
+<pre><code>svn propset svn:keywords ""Author Date Id Revision"" expl3.dtx
+</code></pre>
+
+<p>where a string like this:</p>
+
+<pre><code>$Id: expl3.dtx 780 2008-08-30 12:32:34Z morten $
+</code></pre>
+
+<p>is kept up-to-date with the relevant info whenever a commit occurs.</p>
+","4161","Will Robertson","4161","Will Robertson","2008-09-02 15:15:35","2015-09-26 23:51:05","Does git have anything like `svn propset svn:keywords` or pre-/post-commit hooks?","<svn><git><version-control>","4","0","4","","","39742","119"
+"40495","1","40562","","2008-09-02 20:17:11","","32","34814","<p>I know I can do most of this by hacking Trac and using Git hooks, but I was wondering if someone has / knows of something ready.</p>
+
+<p>Commenting on (and closing) tickets from commit messages would be nice, specially if the diff appears inline with the comment/closing remark.</p>
+
+<p>sha1 hashes should be auto-linked to gitweb/cigt/custom git browser.</p>
+
+<p>I tried the GitPlugin for Trac, but the code browser was soo slow... any alternatives?</p>
+","4272","Jordi Bunster","305","Mark Biek","2008-09-02 22:54:47","2015-06-20 18:26:12","Bug tracker setup with Git integration?","<git><integration><version-control><bug-tracking>","11","2","13","","","40495","119"
+"43374","1","3069175","","2008-09-04 08:59:31","","4","1376","<p>What I have so far is </p>
+
+<pre><code>#!/bin/sh
+
+php_syntax_check()
+{
+    retval=0
+    for i in $(git-diff-index --name-only --cached HEAD -- | grep -e '\.php$'); do
+    	if [ -f $i ]; then
+    		output=$(php -l $i)
+    		retval=$?
+    		if [ $retval -gt 0 ]; then
+    			echo ""==============================================================================""
+    			echo ""Unstaging $i for the commit due to the follow parse errors""
+    			echo ""$output""
+    			git reset -q HEAD $i
+    		fi
+    	fi
+    done
+
+    if [ $retval -gt 0 ]; then
+    	exit $retval
+    fi
+}
+php_syntax_check
+</code></pre>
+","4342","Rodney Amato","123","Prakash","2008-10-06 10:41:54","2012-01-21 03:21:55","Is there a better way of writing a git pre-commit hook to check any php file in a commit for parse errors?","<php><git><version-control>","3","0","1","","","43374","119"
+"43995","1","44708","","2008-09-04 15:16:36","","87","10645","<p>Handling multiple merges onto branches in Subversion or CVS is just one of those things that has to be experienced. It is inordinately easier to keep track of branches and merges in Mercurial (and probably any other distributed system) but I don't know why. Does anyone else know?</p>
+
+<p>My question stems from the fact that with Mercurial you can adopt a working practice similar to that of Subversions/CVSs central repository and everything will work just fine. You can do multiple merges on the same branch and you won't need endless scraps of paper with commit numbers and tag names.</p>
+
+<p>I know the latest version of Subversion has the ability to track merges to branches so you don't get quite the same degree of hassle but it was a huge and major development on their side and it still doesn't do everything the development team would like it to do.</p>
+
+<p>There must be a fundamental difference in the way it all works.</p>
+","4003","Nick Pierpoint","4003","Nick Pierpoint","2008-10-03 16:12:14","2010-07-05 13:27:13","Why is branching and merging easier in Mercurial than in Subversion?","<svn><git><version-control><mercurial>","6","0","39","","","43995","119"
+"44714","1","44738","","2008-09-04 20:36:15","","11","5632","<p>My company is a small one where we would be using Git for version control. The main server will be local. But we do want an server where our local repo is kept online to give access to our clients so that they can have assurance that we are doing the right thing and to allow them to check out from there if needed. </p>
+
+<p>So if I simply wish to push only to the one outside, and will never pull from it, what is the best Git way to do this?</p>
+","370899","Ravi Chhabra","370899","Ravi Chhabra","2008-09-04 20:42:18","2008-09-04 20:47:06","How to have two remote orgins for Git?","<git>","1","0","7","","","44714","119"
+"46281","1","71406","","2008-09-05 16:50:23","","0","375","<p>I have been hearing a lot of good things about DVCS systems, in particular about bazaar. Apart from the concept of distributed repository, I see two main advantages being touted: the merge is better automated, and the rename is handled right.</p>
+
+<p>Could someone please point me at some text explaining how exactly the improvements work? How does bazaar know that I renamed a file? What if I rename two files as part of the same commit? What happens when I refactor by putting half of the file's contents into a new file, re-indenting everything and losing some whitespace in nearly every line?</p>
+
+<p>In other words, I'd like to hear from people using bazaar (or another DVCS) in real life, or from people who know how it (they) works. Is the merge really that much better? And how is it achieved?</p>
+
+<hr>
+
+<p>Related question, with a useful answer:</p>
+
+<p><a href=""http://stackoverflow.com/questions/43995/why-is-branching-and-merging-easier-in-mercurial-than-in-subversion"">Why is branching and merging easier in Mercurial than in Subversion?</a></p>
+","3458","Arkadiy","2598","Hank Gay","2012-07-05 13:25:52","2012-07-05 13:25:52","How do DVCSs (DRCSs) work?","<git><version-control><dvcs><bazaar>","7","0","2","","","46281","119"
+"49478","1","12021580","","2008-09-08 11:07:49","","639","170921","<p>Which files should I include in <code>.gitignore</code> when using <em>Git</em> in conjunction with <em>Xcode</em>?</p>
+","5156","Hagelin","691409","Hagelin","2014-06-04 10:26:22","2015-08-12 10:15:34","Git ignore file for Xcode projects","<xcode><git><osx><version-control><gitignore>","15","0","397","","","49478","119"
+"50194","1","50225","","2008-09-08 17:13:16","","15","997","<p>I've got a number of non-technical users that all share a set of project files.  It would be ideal to have them using version control, but I think that both subversion and git are too technical for non-technical office staff.</p>
+
+<p>Is there any distributed source control software that would work well for normal people?</p>
+","4767","jcnnghm","1414","travis","2008-09-09 04:44:55","2011-04-12 08:29:57","Source Control for Everyone?","<svn><git><version-control>","11","0","2","2014-12-20 16:57:07","","50194","119"
+"51619","1","4015421","","2008-09-09 11:11:45","","26","15552","<p>server already runs IIS to serve 80 and 443 port over TCP. I want to make centralized ""push/pull"" GIT repository available to all my team members over the Internet. </p>
+
+<p>So I should use HTTP or HTTPS. </p>
+
+<p>But I cannot use Apache because of IIS already hooking up listening sockets on 80 and 443 ports! Is there any way to publish GIT repository over <em>IIS</em>? Does GIT use WebDAV ultima analysi?</p>
+
+<p><strong>Update.</strong> Seems that git HTTP installation is read-only one. That's sad. I've intended to keep stable branch on build server and redeploy using hook on push. Does anyone see workaround beside using SVN for that branch?</p>
+","2313","Artem Tikhomirov","2313","Artem Tikhomirov","2011-10-27 06:41:14","2014-08-26 19:00:05","How to setup GIT bare HTTP-available repository on IIS-machine","<git><version-control><iis-7><dvcs>","5","3","21","","","51619","119"
+"52704","1","52719","","2008-09-09 19:33:59","","1772","792646","<p>How do I discard changes in my working copy that are not in the index?</p>
+","4883","Tim","63550","","2015-08-14 14:56:21","2015-10-01 21:32:42","How do you discard unstaged changes in Git?","<git>","21","0","691","","","52704","119"
+"52950","1","53116","","2008-09-09 21:24:53","","40","26427","<p>I'm not too sure what is going on here, but sometimes a particular file in my repository will change the case of it's name. e.g.,:</p>
+
+<p>before: <code>File.h</code></p>
+
+<p>after: <code>file.h</code></p>
+
+<p>I don't really care why this is happening, but this causes git to think it is a new file, and then I have to go and change the file name back. Can you just make git ignore case changes?</p>
+
+<p><strong>[edit]</strong>
+I suspect it is Visual Studio doing something weird with that particular file, because it seems to happen most often when I open and save it after changes. I don't have any way to fix bugs in VS however, but git should be a bit more capable I hope.</p>
+","3146","1800 INFORMATION","244353","1800 INFORMATION","2013-06-25 21:54:58","2014-05-31 04:39:19","How to make git ignore changes in case?","<windows><git>","3","2","17","","","52950","119"
+"53290","1","53304","","2008-09-10 01:36:21","","2","127","<p>I'd really like to get our host to pull from our Git repository instead of uploading files manually, but it doesn't have Git installed.</p>
+
+<p>So is there a way to trick Subversion (which they do have) into checking out a Git repository?</p>
+
+<p>I think I already know the answer, namely bug my host to add Git and live with it until they do, but I thought I would ask anyway.</p>
+","117","Peter Coulton","","","","2008-09-10 01:47:47","How could I get my SVN-only host to pull from a git repository?","<svn><git><build-automation><capistrano>","1","0","1","","","53290","119"
+"53569","1","53573","","2008-09-10 07:44:53","","166","107043","<p>What is the best way to get a log of commits on a branch since the time it was branched from the current branch? My solution so far is:</p>
+
+<pre><code>git log $(git merge-base HEAD branch)..branch
+</code></pre>
+
+<p>The documentation for <a href=""http://git-scm.com/docs/git-diff"">git-diff</a> indicates that <code>git diff A...B</code> is equivalent to <code>git diff $(git-merge-base A B) B</code>. On the other hand, the documentation for <a href=""http://www.kernel.org/pub/software/scm/git/docs/git-rev-parse.html"">git-rev-parse</a> indicates that <code>r1...r2</code> is defined as <code>r1 r2 --not $(git merge-base --all r1 r2)</code>.</p>
+
+<p>Why are these different? Note that <code>git diff HEAD...branch</code> gives me the diffs I want, but the corresponding git log command gives me more than what I want.</p>
+
+<p>In pictures, suppose this:</p>
+
+<pre>
+         x---y---z---branch
+        /
+---a---b---c---d---e---HEAD
+</pre>
+
+<p>I would like to get a log containing commits x, y, z.</p>
+
+<ul>
+<li><code>git diff HEAD...branch</code> gives these commits</li>
+<li>however, <code>git log HEAD...branch</code> gives x, y, z, c, d, e.</li>
+</ul>
+","893","Greg Hewgill","60531","","2012-09-08 18:39:46","2015-04-07 14:31:13","How to get the changes on a branch in git","<git><branch>","7","1","89","","","53569","119"
+"55729","1","55738","","2008-09-11 02:59:13","","127","46839","<p>How often should you use git-gc?  </p>
+
+<p>The <a href=""http://www.kernel.org/pub/software/scm/git/docs/git-gc.html"">manual page</a> simply says:</p>
+
+<blockquote>
+  <p>Users are encouraged to run this task on a regular basis within each repository to maintain good disk space utilization and good operating performance.</p>
+</blockquote>
+
+<p>Are there some commands to get some object counts to find out whether it's time to gc?</p>
+","4883","Tim","38765","","2011-10-11 00:26:09","2015-05-14 21:20:03","How often should you use git-gc?","<git><git-gc>","9","2","23","","","55729","119"
+"56296","1","56320","","2008-09-11 11:24:53","","5","732","<p>In Subversion you can specify a range of versions to get an aggregate view of a series of commits.  Is this possible in git?  If so, how?</p>
+","4061","Teflon Ted","4061","Teflon Ted","2008-09-13 13:41:21","2008-09-13 13:41:21","Can you view an aggregate changeset in git? If so, how?","<svn><git><diff>","1","0","2","","","56296","119"
+"60278","1","","","2008-09-13 02:48:40","","69","59493","<p>In all the Git tutorials I've read they say that you can do:</p>
+
+<pre><code>git init
+git add .
+git commit
+</code></pre>
+
+<p>When I do that I get a big text file opened up. None of the tutorials seem to address this, so I don't know what to do with the file or what to put in it if anything.</p>
+","","Alex","9314","Baishampayan Ghose","2012-08-11 07:03:58","2013-05-30 16:05:31","Git commit opens blank text file, for what?","<git><git-commit>","17","0","28","","","60278","119"
+"61002","1","62303","","2008-09-14 00:02:41","","49","34413","<p>I'd like to script, preferably in rake, the following actions into a single command:</p>
+
+<ol>
+<li>Get the version of my local git repository.</li>
+<li>Git pull the latest code.</li>
+<li>Git diff from the version I extracted in step #1 to what is now in my local repository.</li>
+</ol>
+
+<p>In other words, I want to get the latest code form the central repository and immediately generate a diff of what's changed since the last time I pulled.</p>
+","4061","Teflon Ted","","","","2010-05-14 00:31:19","How can I generate a git diff of what's changed since the last time I pulled?","<git><diff><rake><pull>","4","0","27","","","61002","119"
+"61212","1","64966","","2008-09-14 09:06:10","","2817","665425","<p>How do you delete untracked local files from your current branch?</p>
+","4883","Tim","894487","","2015-08-27 23:04:03","2015-09-29 16:43:58","How do I remove local (untracked) files from my current Git branch?","<git><branch><git-branch>","12","6","757","","","61212","119"
+"62264","1","72874","","2008-09-15 12:04:31","","36","13307","<p>I recently asked about <a href=""http://stackoverflow.com/questions/39742/does-git-have-anything-like-svn-propset-svnkeywords-or-pre-post-commit-hooks"">keyword expansion in Git</a> and I'm willing to accept the design not to really support this idea in Git. </p>
+
+<p>For better or worse, the project I'm working on at the moment requires SVN keyword expansion like this</p>
+
+<pre><code>svn propset svn:keywords ""Id"" expl3.dtx
+</code></pre>
+
+<p>to keep this string up-to-date:</p>
+
+<pre><code>$Id: expl3.dtx 803 2008-09-11 14:01:58Z will $
+</code></pre>
+
+<p>But I would quite like to use Git to do my version control. Unfortunately, git-svn doesn't support this, according to the docs:</p>
+
+<blockquote>
+  <p>""We ignore all SVN properties except svn:executable""</p>
+</blockquote>
+
+<p>But it doesn't seem too tricky to have this keyword stuff emulated by a couple of pre/post commit hooks. But am I the first person to want this? Does anyone have some code to do this?</p>
+","4161","Will Robertson","7498","Will Robertson","2009-09-03 12:00:01","2011-04-12 09:36:14","Dealing with SVN keyword expansion with git-svn","<svn><git><version-control>","4","0","14","","","62264","119"
+"67699","1","72156","","2008-09-15 22:42:07","","2335","588617","<p>I have a <code>master</code> and a <code>development</code> branch, both pushed to <a href=""http://en.wikipedia.org/wiki/GitHub"">GitHub</a>. I've <code>clone</code>d, <code>pull</code>ed, and <code>fetch</code>ed, but I remain unable to get anything other than the <code>master</code> branch back.</p>
+
+<p>I'm sure I'm missing something obvious, but I have read the manual and I'm getting no joy at all.</p>
+","117","Peter Coulton","1864976","","2015-07-07 02:45:13","2015-09-10 12:04:08","Clone all remote branches with Git?","<git><git-branch><git-clone><remote-branch>","24","5","1237","","","67699","119"
+"71315","1","71348","","2008-09-16 11:17:52","","3","490","<p>I am using git on a project, that generates lots of data-files (simulation-results). 
+I am ""forced"" to version and track all those results in the same repository. (This is a hard requirement and can not be changed)</p>
+
+<p>However I don't need them. We have about 50 MB for the project and 5 GB results in the repository.</p>
+
+<p>Is it feasible for me to create a branch, delete all the results, check this branch out and only work on that branch?</p>
+
+<p>How hard would it be (what would I have to do), to push my local changes back into the fat branch?</p>
+
+<p>Is there a better solution to get rid of those 5 GB for my work?</p>
+","1870","Mo","","","","2009-04-02 19:49:01","light-version of a repository/branch in git","<git><branch>","3","0","1","","","71315","119"
+"72723","1","","","2008-09-16 14:13:14","","6","2712","<p>I have a svn repository, R, that depends on a library, l, in another repository.</p>
+
+<p>The goal is that when someone checks out R, they also check out l. We want l to still be in its own repository so that l can be updated without dependence on R.</p>
+
+<p>I don't know much about external svn links, but I believe that when depending on a svn-based library one can link to it externally, 'ext'.</p>
+
+<p>If l is in a git repository, can I do something similar? I'd like to preserve the goal stated above.</p>
+","","","","","","2008-09-16 14:29:50","Can a svn repository include/link-to an external git repository?","<svn><git>","2","1","2","","","72723","119"
+"75809","1","76088","","2008-09-16 19:07:06","","60","12495","<p>Given the case I made <strong>two independent changes</strong> in <em>one</em> file: eg. added a new method and changed another method.</p>
+
+<p>I often don't want to commit both changes as <strong>one</strong> commit, but as <strong>two</strong> independent commits.</p>
+
+<p>On a git repository I would use the <strong>Interactive Mode</strong> of <a href=""http://linux.die.net/man/1/git-add"">git-add(1)</a> to split the <em>hunk</em> into smaller ones:</p>
+
+<pre><code> git add --patch
+</code></pre>
+
+<p>What's the easiest way to do this with Subversion? (Maybe even using an Eclipse plug-in)</p>
+
+<p><strong>Update:</strong><br/>
+In <a href=""http://tomayko.com/writings/the-thing-about-git"">The Thing About Git</a>, Ryan calls it: <em>“The Tangled Working Copy Problem.”</em></p>
+","4308","bene","4563643","bene","2015-03-16 15:42:13","2015-03-16 15:42:13","Partial Commits with Subversion","<svn><git>","8","0","21","","","75809","119"
+"76002","1","76030","","2008-09-16 19:27:31","","3","3727","<p>My understanding of the Git pack file format is something like:
+<img src=""http://content.screencast.com/users/aggieben/folders/Jing/media/dc42fabf-6fd6-47f3-9244-446b9ec04494/2008-09-16_1424.png"" alt=""alt text"" /></p>
+
+<p>Where the table is 32-bits wide, and the first three 32-bit words are the pack file header.  The last row of 32 bits are the first 4 bytes of an entry.  As I understand it, the size of the entry is specified by consecutive bytes with the MSB set, followed by compressed data.  </p>
+
+<p>In the first byte whose MSB is not set, is the MSB part of the compressed data, or is it a  gap?  If it's part of the compressed data, how can you guarantee that when the data is compressed that bit won't be set?</p>
+","3279","Ben Collins","1","","2010-05-30 22:22:54","2010-06-01 05:57:58","Git pack file entry format","<git><file-format>","2","0","2","","","76002","119"
+"77485","1","77727","","2008-09-16 21:45:09","","131","13424","<p>What do folks here see as the relative strengths and weaknesses of Git, Mercurial, and Bazaar?</p>
+
+<p>In considering each of them with one another and against version control systems like SVN and Perforce, what issues should be considered?</p>
+
+<p>In planning a migration from SVN to one of these distributed version control systems, what factors would you consider?</p>
+","13750","","4203","Hank Gay","2008-09-17 09:52:03","2015-06-20 18:41:05","What are the relative strengths and weaknesses of Git, Mercurial, and Bazaar?","<svn><git><version-control><mercurial><bazaar>","16","2","61","2013-02-26 09:04:33","","77485","119"
+"79165","1","79178","","2008-09-17 02:04:20","","934","235142","<p>I read the Git manual, FAQ, Git - SVN crash course, etc. and they all explain this and that, but nowhere can you find a simple instruction like:</p>
+
+<p>SVN repository in: <code>svn://myserver/path/to/svn/repos</code></p>
+
+<p>Git repository in: <code>git://myserver/path/to/git/repos</code></p>
+
+<pre><code>git-do-the-magic-svn-import-with-history \
+svn://myserver/path/to/svn/repos \
+git://myserver/path/to/git/repos
+</code></pre>
+
+<p>I don't expect it to be that simple, and I don't expect it to be a single command. But I do expect it not to try to explain anything - just to say what steps to take given this example.</p>
+","14690","Milan Babuskov","55075","Milan Babuskov","2015-03-18 13:03:49","2015-09-04 01:34:47","How to migrate SVN repository with history to a new Git repository?","<svn><git><version-control><git-svn>","24","2","553","","2008-09-17 02:04:20","79165","119"
+"85051","1","107744","","2008-09-17 16:30:20","","6","2665","<p>Assuming network access is sporadic with no central server, what would be the best way to use git to keep three or more branches in sync? Is there a way to extract just my deltas, email those, and merge them on the other end?</p>
+","16203","Richard Franks","676","Marcel Levy","2008-09-17 16:30:56","2008-09-20 09:39:05","Git over Email","<git><version-control>","3","0","3","","","85051","119"
+"86402","1","86459","","2008-09-17 18:57:36","","111","46860","<p>I've had a google for how to do this, but not had any luck.</p>
+
+<p>Is my best be going to be a shell script which replaces symlinks with copies, or is there another way of telling git to follow symlinks?</p>
+
+<p>PS: I know it's not very secure, but I only want to do it in a few specific cases.</p>
+","15368","Matt","4883","Readonly","2008-10-07 16:20:04","2015-08-03 19:31:09","How can I get git to follow symlinks?","<git><symlink>","10","2","26","","","86402","119"
+"88476","1","88562","","2008-09-17 22:50:45","","20","21863","<p>I'm a little hesitant to post this, as I'm not completely sure what I'm doing. Any help would be wonderful.</p>
+
+<p>I'm on a computer with a firewall/filter on it. I can download files without any difficulty. When I try to clone files from Github, though, the computer just hangs. Nothing happens. It creates a git file in the folder, but the key files don't get loaded in. For context, I'm working on a Rails app, trying to load in Restful Authentication.</p>
+
+<p>Have any of you dealt with this? Any suggestions for getting the clone to work? Disabling the firewall might be an option, but if I can do something without going through that process, I'd appreciate it.</p>
+","69299","Charlie","","","","2015-09-02 18:05:06","Trying to load files from github through a firewall is impossibly slow. Any suggestions for workarounds?","<git><github><firewall>","5","1","8","","","88476","119"
+"88929","1","89008","","2008-09-18 00:34:23","","17","1585","<p>Is there a command that would allow me to check if the string <code>""xyz""</code> was ever in file <code>foo.c</code> in the repository and print which revisions they were found in?  </p>
+","4883","Tim","123671","","2014-07-28 08:41:17","2014-07-28 08:41:17","Using git to grep through a file's previous versions?","<git>","1","0","1","","","88929","119"
+"89332","1","91795","","2008-09-18 01:59:06","","674","98732","<p>I frequently use <code>git stash</code> and <code>git stash pop</code> to save and restore changes in my working tree. Yesterday I had some changes in my working tree that I had stashed and popped, and then I made more changes to my working tree. I'd like to go back and review yesterday's stashed changes, but <code>git stash pop</code> appears to remove all references to the associated commit.</p>
+
+<p>I know that if I use <code>git stash</code> then <em>.git/refs/stash contains</em> the reference of the commit used to create the stash. And <em>.git/logs/refs/stash contains</em> the whole stash. But those references are gone after <code>git stash pop</code>. I know that the commit is still in my repository somewhere, but I don't know what it was.</p>
+
+<p>Is there an easy way to recover yesterday's stash commit reference?</p>
+
+<p>Note that this isn't critical for me today because I have daily backups and can go back to yesterday's working tree to get my changes. I'm asking because there must be an easier way!</p>
+","893","Greg Hewgill","439427","Aristotle Pagaltzis","2015-08-15 17:26:04","2015-09-02 06:00:26","How to recover a dropped stash in Git?","<git><git-stash>","11","2","345","","","89332","119"
+"89487","1","91750","","2008-09-18 02:29:32","","58","10194","<p>I suppose it allows for moving changes from one branch to the next but that's what cherry picking is for and if you're not making a commit of your changes, perhaps you shouldn't be moving them around?</p>
+
+<p>I have on occasion applied the wrong stash at the wrong branch, which left me wondering about this question.</p>
+","2108922","iros","9410","Aristotle Pagaltzis","2008-10-20 01:51:36","2014-07-11 23:17:52","Why isn't the git stash unique per branch?","<git><git-stash>","4","1","10","","","89487","119"
+"96615","1","96924","","2008-09-18 20:33:27","","31","11951","<p>So if I'm using branches that are remote (tracked) branches, and I want to get the lastest, I'm still unclear if I should be doing <code>git pull</code> or <code>git rebase</code>. I thought I had read that doing <code>git rebase</code> when working on a branch with other users, it can screw them up when they pull or rebase. Is that true? Should we all be using <code>git pull</code>?</p>
+","14873","cdb","249630","","2012-07-10 19:27:19","2012-07-10 19:27:19","Git - is it pull or rebase when working on branches with other people","<git><version-control>","5","0","23","","","96615","119"
+"96842","1","97152","","2008-09-18 20:54:00","","6","2334","<p>I have migrated a couple of project from Subversion to git. It work really well but when I clone my repository, it's really long because I have all the history of a lot of .jar file included in the transfer.</p>
+
+<p>Is there a way to keep only the latest version of certain type of file in my main repository. I mainly want to delete old version on binary file.</p>
+","16309","mathd","","","","2012-04-17 13:24:56","Is there a way to purge some files from the history of git?","<git><version-control>","2","0","2","","","96842","119"
+"98400","1","98561","","2008-09-19 00:41:23","","3","624","<p>I've got a git-svn clone of an svn repo, and I want to encourage my colleagues to look at git as an option. The problem is that cloning the repo out of svn takes 3 days, but cloning from my git instance takes 10 minutes.</p>
+
+<p>I've got a script that will allow people to clone my git repo and re-point it at the original SVN, but it requires knowing how I set some of my config values. I'd prefer the script be able to pull those values over the wire.</p>
+","9700","Christopher Currie","","","","2008-09-20 09:36:25","How do I examine the configuration of a remote git repository?","<git><git-svn>","2","0","2","","","98400","119"
+"101752","1","","","2008-09-19 13:21:00","","796","388576","<p>I've done <code>git pull</code>, and received a merge conflict. I know that the other version of the file is good, and that mine is bad (all my changes should be abandoned). How do I do this?</p>
+
+<pre><code>unmerged:   _widget.html.erb
+
+You are in the middle of a conflicted merge.
+</code></pre>
+","18666","","2541573","cynicalman","2014-12-20 15:46:34","2015-08-13 11:15:56","I ran into a merge conflict. How can I abort the merge?","<git><version-control><git-merge><merge-conflict-resolution>","8","1","183","","","101752","119"
+"102102","1","","","2008-09-19 14:09:47","","7","3674","<p>It should also support SSH2 and public key auth for starters.
+secondly on Mac/Windows it should have a decent installer.</p>
+","18769","px","23855","chills42","2008-11-03 13:22:20","2011-05-21 19:35:13","Are there any good, cross platform, Mac, Win32, *nix, Git GUI clients?","<git><user-interface><version-control><cross-platform>","3","0","5","","","102102","119"
+"107701","1","107921","","2008-09-20 09:15:50","","476","168442","<p>How can I remove those annoying Mac OS X <code>.DS_Store</code> files from a Git repository?</p>
+","1450","John Topley","2541573","","2014-12-20 15:45:30","2015-07-28 16:16:38","How can I Remove .DS_Store files from a Git repository?","<osx><git><gitignore>","15","2","249","","","107701","119"
+"109440","1","109451","","2008-09-20 21:17:38","","145","138456","<p>Which <a href=""http://en.wikipedia.org/wiki/Git_%28software%29"" rel=""nofollow"">Git</a> hosting provider would you use for commercial development?</p>
+
+<p><strong>Edit:</strong> Let's not turn this question into a discussion of whether a hosting provider is really necessary for a distributed <a href=""http://en.wikipedia.org/wiki/Revision_control"" rel=""nofollow"">source code management</a> (SCM) system. Have a look at <a href=""http://en.wikipedia.org/wiki/GitHub"" rel=""nofollow"">GitHub</a> to see some of the benefits a hosting provider might give you.</p>
+
+<p>Second, the fact that Git is distributed is hardly the only benefit to use it over <a href=""http://en.wikipedia.org/wiki/Apache_Subversion"" rel=""nofollow"">Subversion</a>. For example, branching and especially merging is much easier in Git.</p>
+","19392","Micke","63550","Micke","2011-07-04 11:01:14","2012-03-06 14:08:12","Best Git repository hosting for a commercial project?","<git><hosting>","27","4","118","2012-03-06 14:58:57","","109440","119"
+"110205","1","110209","","2008-09-21 03:53:57","","64","102918","<p>I want to download this open source application, and they are using Git.  What do I need to download the code base?</p>
+
+<p><b>Update</b>
+How do I change the working directory when I am using Git Bash?  (I want to download the repo at a certain directory, using pwd tells me I will be downloading the repo where I don't want it.</p>
+","1368","public static","8355","cjm","2008-09-21 07:16:31","2014-08-19 15:08:37","Want to download a Git repository, what do I need (windows machine)?","<windows><git>","4","2","12","","","110205","119"
+"110313","1","110619","","2008-09-21 05:25:29","","7","1231","<p>If our organisation were to switch from a central-server VCS like subversion to a distributed VCS like git, how do I make sure that all my code is safe from hardware failure?</p>
+
+<p>With a central-server VCS I just need to backup the repository every day. If we were using a DVCS then there'd be loads of code branches on all the developer machines, and if that hardware were to fail (or a dev were to lose his laptop or have it stolen) then we wouldn't have any backups.</p>
+
+<p>Note that I don't consider it a good option to ""make the developers push branches to a server"" -- that's <a href=""http://www.mattblodgett.com/2008/02/matt-blodgett-first-law-of-software.html"" rel=""nofollow"">tedious</a> and the developers will end up not doing it.</p>
+
+<p>Is there a common way around this problem?</p>
+
+<p><strong>Some clarification:</strong></p>
+
+<p>With a natively-central-server VCS then <em>everything</em> has to be on the central server except the developer's most recent changes. So, for example, if a developer decides to branch to do a bugfix, that branch is on the central server and available for backup immediately.</p>
+
+<p>If we're using a DVCS then the developer can do a local branch (and in fact many local branches). None of those branches are on the central server and available for backup until the developer thinks, ""oh yeah, I should push that to the central server"".</p>
+
+<p>So the difference I'm seeing (correct me if I'm wrong!): Half-implemented features and bugfixes will probably not available for backup on the central server if we're using a DVCS, but are with a normal VCS. How do I keep that code safe?</p>
+","6408","Stewart Johnson","6408","Stewart Johnson","2008-09-21 06:20:20","2009-03-30 15:35:06","How to make sure my git repo code is safe?","<git><backup><dvcs>","7","0","3","","","110313","119"
+"112613","1","112753","","2008-09-22 00:06:38","","7","5072","<p>running <code>git instaweb </code> in my repository opens a page that says ""403 Forbidden - No projects found"". What am I missing?</p>
+","13195","jes5199","","","","2013-03-05 11:21:04","git instaweb gives 403 Forbidden - No projects found","<git><http-status-code-403><instaweb>","6","0","3","","","112613","119"
+"112839","1","112853","","2008-09-22 02:03:55","","46","16045","<p>What is the best way to resolve a conflict when doing a <code>git svn rebase</code>, and the git branch you are on becomes ""(no-branch)""?</p>
+","19839","fuzzymonk","885605","","2015-05-27 14:30:28","2015-05-27 14:45:49","How to resolve a conflict with git-svn?","<git><svn><merge><conflict>","2","0","37","","","112839","119"
+"115983","1","932982","","2008-09-22 16:41:03","","1861","341902","<p>How can I add an empty directory (that contains no files) to a Git repository?</p>
+","7473","Laurie Young","2541573","","2014-12-20 15:49:14","2015-09-26 08:26:58","How can I add an empty directory to a Git repository?","<git><directory><git-add>","25","13","425","","","115983","119"

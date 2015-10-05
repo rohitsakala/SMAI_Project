@@ -1,0 +1,847 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"5649","1","5756","","2008-08-08 04:25:11","","39","50714","<p>Does anyone know of any good tools (i'm looking for IDEs, primarily) to write assembly on the Mac... Xcode is a little cumbersome to me.</p>
+
+<p>Also, on the Intel Macs, can I use generic x86 asm?  or is there a modified instruction set?   Any information about post Intel</p>
+
+<p>Also: I know that on windows, asm can run in an emulated environment created by the OS to let the code think it's running on its own dedicated machine... does OSX provide the same thing?</p>
+","703","","192221","Matt Dunnam","2012-05-02 03:26:34","2014-02-28 22:19:11","x86 Assembly on a Mac","<xcode><osx><x86><assembly>","8","0","27","","","5649","908"
+"20420","1","21106","","2008-08-21 16:18:41","","36","10190","<p>I'm a complete Xcode/Objective-C/Cocoa newbie but I'm learning fast and really starting to enjoy getting to grips with a new language, platform and paradigm.</p>
+
+<p>One thing is though, having been using Visual Studio with R# for so long I've kind of been spoiled with the coding tools such as refactorings and completion etc and as far as I can tell Xcode has some fairly limited built in support for this stuff.</p>
+
+<p>On that note, does anyone know if any add-ins or whatever are available for the Xcode environment which add coding helpers such as automatically generating implementation skeletons from a class interface definition etc? </p>
+
+<p>I suspect there aren't but I suppose it can't help to ask.</p>
+","1120","Shaun Austin","213269","Paul","2011-02-22 13:30:08","2012-01-25 20:44:20","Any ReSharper equivalent for Xcode?","<objective-c><xcode><osx><refactoring>","5","2","18","","","20420","908"
+"26875","1","26921","","2008-08-25 20:58:03","","2","1082","<p>I have a large exiting C++ project involving: </p>
+
+<ul>
+<li>4 applications  </li>
+<li>50+ libraries  </li>
+<li>20+ third party libraries</li>
+</ul>
+
+<p>It all builds fine on Windows using VS8, Linux using QMake (project uses Qt a lot). I also build it on OS X using QMake but I was wanting to setup an Xcode project to handle it in an IDE. I'm struggling to setup proper configuration to easily define dependencies, both to internal libraries and to the third party. I can do property sheets and .pri files in my (disturbed) sleep, but would appreciate some advice on building such large projects in Xcode.</p>
+
+<p>I've been experiencing with Xcode configuration files and #including one from another but it does not seem to work as I would expect, especially when defining standard locations for header files etc.</p>
+
+<p>Is there some good book describing the process of setting up Xcode (remember it's C++, I'm not wanting to learn ObjC at this time)?</p>
+
+<p>Or maybe a good open source project I could learn from?</p>
+
+<p>Thanks!</p>
+","2711","mkrus","345188","","2011-10-30 22:01:18","2011-10-30 22:01:39","Setting up a large Xcode project","<xcode>","1","0","2","","","26875","908"
+"26904","1","27828","","2008-08-25 21:08:45","","3","1726","<p>I have a large exiting C++ project involving:</p>
+
+<ul>
+<li>4 applications</li>
+<li>50+ libraries</li>
+<li>20+ third party libraries</li>
+</ul>
+
+<p>The project uses QMake (part of Trolltech's Qt) to build the production version on Linux, but I've been playing around at building it on MacOS.</p>
+
+<p>I can build in on MacOS using QMake just fine but I'm having trouble producing the final .app. It needs collecting all the third party frameworks and dynamic libraries, all the project's dynamic libraries and making sure the application finds them.</p>
+
+<p>I've read online about using install_name_tool but was wondering if there's a process to automate it.</p>
+
+<p>(Maybe the answer is to use XCode, see related question, but it would have issues with building uic and moc)</p>
+
+<p>Thanks </p>
+","2711","mkrus","","","","2015-04-18 17:59:54","Getting QMake to generate a proper .app","<xcode><qt><qmake>","3","0","2","","","26904","908"
+"33207","1","33236","","2008-08-28 19:41:30","","300","60336","<p>What frameworks exist to unit test Objective-C code?  I would like a framework that integrates nicely with Xcode.</p>
+","2339","Kim","1288","Bill the Lizard","2008-11-10 15:10:49","2014-04-01 11:31:26","What is the best way to unit test Objective-C code?","<objective-c><cocoa><unit-testing><xcode>","17","0","271","","","33207","908"
+"33720","1","33743","","2008-08-29 00:44:14","","83","29589","<p>How would I change the initial templates created by Xcode when creating a new Cocoa Class.</p>
+
+<p>I am referring to the comments and class name created when using Xcode's new class wizard.</p>
+","3467","Misha M","1017893","Chris Hanson","2013-05-04 15:44:59","2015-09-22 15:57:17","Change templates in Xcode","<xcode><osx><templates><xcode4><xcode4.5>","8","0","54","","","33720","908"
+"37299","1","37304","","2008-09-01 00:18:18","","13","11104","<p>What's the instruction to cause a hard-break in Xcode? For example under Visual Studio I could do '_asm int 3' or 'DebugBreak()'. Under some GCC implementations it's asm(""break 0"") or asm(""trap"").</p>
+
+<p>I've tried various combos under Xcode without any luck. (inline assembler works fine so it's not a syntax issue).</p>
+
+<p>For reference this is for an assert macro. I don't want to use the definitions in assert.h both for portability, and because they appear to do an abort() in the version XCode provides.</p>
+
+<hr>
+
+<p>John - Super, cheers. For reference the int 3 syntax is the one required for Intel Macs and iPhone.</p>
+
+<hr>
+
+<p>Chris - Thanks for your comment but there are many reasons to avoid the standard assert() function for codebases ported to different platforms. If you've gone to the trouble of rolling your own assert it's usually because you have additional functionality (logging, stack unwinding, user-interaction) that you wish to retain.</p>
+
+<p>Your suggestion of attempting to replace the hander via an implementation of '__assert"" or similar is not going to be portable. The standard 'assert' is usually a macro and while it may map to __assert on the Mac it doesn't on other platforms.</p>
+","1043","Andrew","111783","Suma","2011-08-31 18:12:29","2012-09-07 16:16:06","Xcode equivalent of ' __asm int 3 / DebugBreak() / Halt?","<xcode><osx><debugbreak>","7","0","4","","","37299","908"
+"37822","1","37890","","2008-09-01 12:05:29","","9","5469","<p>I have read that the iPhone SDK (part of Xcode 3) is restricted to Mac's with the intel chipset. Does this restriction apply to only the simulator part of the SDK or the complete shebang?</p>
+
+<p>I have a Powerbook G4 running Leopard and would very much like to do dev on it rather than fork out for a new machine.</p>
+
+<p>It is also worth clarifying that I am interested in development for personal reasons and therefore accept that I would need a certified platform to create a submission for the App Store. </p>
+","2438","Clokey","345188","Clokey","2011-10-30 22:05:40","2011-10-30 22:18:24","Is it just the iPhone simulator that is restricted to Intel only Mac's?","<iphone><xcode><osx>","5","0","7","","","37822","908"
+"38357","1","38497","","2008-09-01 20:04:49","","13","5397","<p>If I get an error code result from a Cocoa function, is there any easy way to figure out what it means (other than by grepping through all the .h files in the framework bundles)?</p>
+","1175","Kristopher Johnson","1175","","2008-11-25 12:32:04","2014-07-18 20:16:51","Error Code Reference for OSX/Cocoa","<cocoa><xcode><osx>","4","0","7","","","38357","908"
+"41337","1","","","2008-09-03 08:59:00","","3","2564","<p>I read the question on 'The best way to unit test Objective-C and followed the instructions, but no matter what I do, the Unit tests do not run.  Actually the entire program does not run, I get the following message.</p>
+
+<p>dyld: Library not loaded: @rpath/SenTestingKit.framework/Versions/A/SenTestingKit Referenced from /Users/garethlewis/work/objc/UnitTesting/build/Debug/UnitTesting
+Reason: image not found</p>
+
+<p>I have set the DYLD_FALLBACK_FRAMEWORK_PATH variable, and also the XCInjectBundle as well as the DYLD_INSERT_LIBRARIES and added the variable -SenTest All.</p>
+
+<p>I can't have the only installation of Xcode 3.1 that Unit testing fails on.</p>
+
+<p>Can someone who has managed to get Unit Testing on Xcode 3.1 working give some details on what needs to be done.  It would help so much, with what I am trying to do.</p>
+","","Gareth Lewis","691409","Chris Hanson","2014-06-04 10:28:16","2014-06-04 10:28:16","Unit testing in Xcode 3.1","<xcode><unit-testing><xcode3.1>","1","0","3","","","41337","908"
+"47483","1","47689","","2008-09-06 14:11:38","","1","831","<p>I have a user script that would be much more useful if it could dynamically change some of its execution dependent on what the user wanted.  Passing simple switches would easily solve this problem but I don't see any way to do it.</p>
+
+<p>I also tried embedding a keyword in the script name, but <em>Xcode</em> copies the script to a guid-looking filename before execution, so that won't work either.</p>
+
+<p>So does anyone know of a way to call a user script with some sort of argument? (other that the normal <code>%%%var%%%</code> variables)</p>
+
+<hr>
+
+<h3>EDIT:</h3>
+
+<p>User scripts are accessible via the script menu in Xcode's menubar (between the Window and Help menus).  My question is not about ""run script"" build phase scripts.  My apologies for leaving that somewhat ambiguous.</p>
+","4233","MyztikJenz","691409","","2014-06-04 10:27:42","2014-06-04 10:27:42","Passing switches to Xcode 3.1 user scripts","<xcode><scripting><user><arguments><xcode3.1>","4","0","","","","47483","908"
+"49478","1","12021580","","2008-09-08 11:07:49","","639","170921","<p>Which files should I include in <code>.gitignore</code> when using <em>Git</em> in conjunction with <em>Xcode</em>?</p>
+","5156","Hagelin","691409","Hagelin","2014-06-04 10:26:22","2015-08-12 10:15:34","Git ignore file for Xcode projects","<xcode><git><osx><version-control><gitignore>","15","0","397","","","49478","908"
+"64790","1","67957","","2008-09-15 17:10:26","","62","46591","<p>I have breakpoints set but Xcode appears to ignore them.</p>
+","8761","AlanKley","691409","","2014-06-04 10:25:26","2015-08-20 08:52:56","Why aren't my breakpoints working?","<xcode><breakpoints>","36","0","22","","","64790","908"
+"64881","1","68025","","2008-09-15 17:24:01","","3","10160","<p>During the load of my cocoa application, my program crashes with the messsage EXC_BAD_ACCESS.  The stack trace is not helpful.  Any clues to how I can find the problem?</p>
+","8761","AlanKley","8761","","2008-09-15 17:30:00","2011-11-15 11:21:13","Why is my cocoa program getting EXC_BAD_ACCESS during startup?","<cocoa><xcode><osx><exc-bad-access>","6","0","","","","64881","908"
+"67640","1","2676281","","2008-09-15 22:31:47","","10","19628","<p>I know and have Xcode, but I was wondering if there were any other complete development environments that support Objective-C? I'm not looking for solutions with vim or emacs, nor editors like BBEdit that support syntax highlighting, but a full fledged IDE with:</p>
+
+<ul>
+<li>code completion</li>
+<li>compilation</li>
+<li>debugging</li>
+<li>refactoring</li>
+</ul>
+
+<p>Extra points for being cross platform, supporting vi key bindings and supporting other languages.</p>
+
+<h3>Note:</h3>
+
+<p>I've updated and accepted my answer below as Jetbrains has released Early Access for <em>AppCode</em>, their new Objective-C IDE. Since this has been a fairly popular question, I thought it worthwhile to update the information.</p>
+","5284","Tim","691409","Bill the Lizard","2014-06-04 10:25:07","2014-06-04 10:25:07","Other than Xcode, are there any full functioned IDEs for Objective-C?","<objective-c><xcode><ide><debugging>","11","2","4","2014-07-20 16:46:06","","67640","908"
+"70313","1","","","2008-09-16 08:21:04","","17","18146","<p>Working on implementing TFS throughout our organization.  It is easy to integrate with <code>.NET</code> projects and any platform that uses Eclipse or a derivative of Eclipse for editing.<br>
+What's the best way to use TFS version control with Xcode (now that I find out we need to write some iPhone apps)?</p>
+","","Jason","691409","","2014-06-04 10:24:32","2014-06-04 10:24:32","What is the best way to integrate TFS version control","<xcode><version-control><tfs>","6","1","3","","","70313","908"
+"78423","1","81659","","2008-09-16 23:45:40","","3","8370","<p>The error I'm getting:</p>
+
+<pre><code>in /Users/robert/Documents/funWithFrameworks/build/Debug-iphonesimulator/funWithFrameworks.framework/funWithFrameworks, can't link with a main executable
+</code></pre>
+
+<p>Cliff notes:</p>
+
+<ul>
+<li>trying to include framework</li>
+<li>doesn't want to link</li>
+</ul>
+
+<p>More detail:
+I'm developing for a <em>mobile device... hint, hint</em> using Xcode and I'm trying to make my
+own custom framework which I can include from another application. So far, I've done the following:</p>
+
+<ol>
+<li>Create a new project; an iPhone OS window based app.</li>
+<li>Go to target info-> under packaging, change the wrapper extension from app to framework</li>
+<li>Go to Action->new build phase -> copy headers. Change roles of headers  to 'public'</li>
+<li>From my application, I add the framework to the frameworks group.</li>
+</ol>
+","","Robert","691409","amrox","2014-06-04 10:23:15","2014-06-04 10:23:34","Using a custom framework","<iphone><xcode><osx><cocoa>","4","0","","","","78423","908"
+"87979","1","89219","","2008-09-17 21:42:38","","4","12294","<p>I'm an experienced VS.NET user and trying to get up and running on Xcode 3.1.1.<br>
+Here's what I'm trying to accomplish:</p>
+
+<p>I'd like a static library (""Lib"") to have its own xcodeproj file.  I'd an executable application (""App"") that makes use of Lib to reference Lib's xcodeproj file so that changes to Lib cause App to relink.  Ideally, I'd like to be able to edit Lib's source files inside App's Xcode workspace so I don't have to task around all the time to make changes.</p>
+
+<p>I figured out from the online help that I can simply drag the static lib xcodeproj in to my app's project and it gets the reference.  I see that once my static lib xcodeproj is in my app's project, I can simply drag it to the App's target and it understands that App depends on Lib.  This seems like the right path, but things aren't quite working the way I'd like yet.</p>
+
+<p>Here are my questions:</p>
+
+<ol>
+<li><p>It seems that simply having App depend on Lib doesn't cause App to link with Lib.  It seems that I have to explicitly drag libLib.a from the Lib folder into App's ""Link Binary With Libraries"" build stage.  In VS.NET, simply specifying the project as a solution dependency adds it to the link line.  I just want to make sure I'm not missing anything.</p></li>
+<li><p>When I have App open in Xcode and I drag Lib.xcodeproj into it, I don't get any of Lib's source files there.  I only get libLib.a under the ""Lib.xcodeproj"" folder.  In VS.NET, I can edit Lib's source files right there and rebuild it, etc... but with this approach in Xcode, changes to Lib.cpp don't cause Lib to rebuild when I rebuild App.  Ideally, I'd get all of Lib's source files and targets to show up when I drag Lib.xcodeproj into App.  Is there any way of doing this?</p></li>
+</ol>
+
+<p>Thanks in advance for any responses!</p>
+","16845","","345188","Chris Hanson","2011-10-30 20:20:59","2014-11-24 19:22:09","Xcode 3.1.1 and static libraries","<xcode><osx>","4","0","2","","","87979","908"
+"95211","1","","","2008-09-18 18:17:39","","11","11374","<p>I want to generate a Makefile from an existing Xcode project on the Mac. Specifically, an existing iPhone, Objective-C program on the Mac.</p>
+
+<p>I found <a href=""http://members.bellatlantic.net/%7Evze35xda/software.html"">PBToMake</a>, but it looks like it is for Xcode 2.1 and when I tried using it, it did not work for an Xcode 3.1 project.</p>
+","5284","Tim","21755","Paul","2008-11-10 14:32:22","2014-05-18 00:01:09","How can you generate a Makefile from an Xcode project?","<objective-c><xcode><osx><makefile>","4","1","4","","","95211","908"
+"109948","1","109966","","2008-09-21 01:32:54","","2","4587","<p>just a quick question:</p>
+
+<p>I am a CS undergrad and have only had experience with the Eclipse, and Net Beans IDEs.  I have recently acquired a Macbook and was wanting to recompile a recent school project in Xcode just to test it out.  Right after the line where I declare a new instance of an ArrayList: </p>
+
+<pre><code>dictionary = new ArrayList&lt;String&gt;();
+</code></pre>
+
+<p>I get the following error: <b>generics are not supported in -source 1.3</b>.</p>
+
+<p>I was just wondering if anybody could offer advice as to what the problem might be.  The same project compiles in Eclipse on the same machine.  I'm running OSX 10.5.4, with Java 1.5.0_13.  </p>
+
+<p>Thank you.</p>
+","14013","vpotok","","","","2008-10-02 17:42:05","Xcode: 'Generics are not supported in -source 1.3' compiler error?","<java><xcode><compiler-construction>","3","0","","","","109948","908"
+"111653","1","111821","","2008-09-21 18:34:05","","5","4899","<p>Just installed the latest SDK for iPhone 2.1. When I go to File -> New Project in Xcode, under the iPhone OS Application selection, I don't see a template icon for ""Cocoa Touch Application"". Am I missing something? Anything else I need to download other than the iPhone SDK? If not, how do I add it to the ""iPhone OS Application"" templates?</p>
+","877","Mac","1270812","Chris Hanson","2012-04-14 12:40:15","2012-04-14 12:40:15","""Cocoa Touch Application"" Template from Xcode 3.1.1","<iphone><xcode><cocoa-touch><xcode-template>","3","0","2","","","111653","908"
+"112796","1","112808","","2008-09-22 01:45:38","","71","47777","<p>Is there a way to view the key/value pairs of a NSDictionary variable through the Xcode debugger?  Here's the extent of information when it is fully expanded in the variable window:</p>
+
+<pre><code>Variable  Value      Summary
+jsonDict  0x45c540   4 key/value pairs
+ NSObject {...}
+  isa     0xa06e0720
+</code></pre>
+
+<p>I was expecting it to show me each element of the dictionary (similar to an array variable).  </p>
+","11292","Dara Kong","14343","Ned Batchelder","2008-11-09 22:29:15","2013-11-26 04:48:06","How to view contents of NSDictionary variable in Xcode debugger?","<objective-c><cocoa><xcode><debugging>","6","0","30","","","112796","908"
+"144261","1","144866","","2008-09-27 19:17:08","","59","72609","<p>Does Apple's Xcode development enviroment provide any tools for memory leak detection?</p>
+
+<p>I am especially interested in tools that apply to the iPhone SDK. Currently my favorite platfrom for hobby programming projects</p>
+
+<p>Documentations/tutorials for said tools would be very helpful.</p>
+","22502","SytS","691409","","2014-06-04 10:22:02","2015-06-12 05:15:22","Memory leak detection tools","<iphone><xcode>","10","0","14","","","144261","908"
+"145765","1","","","2008-09-28 12:25:36","","2","3780","<p>I've a fairly huge .gdbinit (hence not copied here) in my home directory.</p>
+
+<p>Now if I want to debug code inside Xcode I get this error: </p>
+
+<pre><code>Failed to load debugging library at:
+
+/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib
+
+Custom data formatters are disabled.
+
+Error message was:
+0x1005c5 ""dlopen(/Developer/Applications/Xcode.app/Contents/PlugIns/GDBMIDebugging.xcplugin/Contents/Resources/PBGDBIntrospectionSupport.A.dylib, 16): image not found""
+</code></pre>
+
+<p>Actually - as posted below - the debugging still works in Xcode but the Data Formatters breaks. Moving out .gdbinit OR disabling Data Formatters does get gdb in Xcode back in a working state but it's obviously a pain (Including Data Formatters, in the first case)</p>
+
+<p>Any idea as to which settings in gdbinit could cause this error in Xcode ?</p>
+
+<p>Note from Reply: It's seems (from a google search) that this error might happen when linking against the wxWidgets library. Something that I'm not doing here.</p>
+
+<p>Note: if needed I can provide a copy of my (long) .gdbinit</p>
+
+<p>WIP: I will have a look in details at my .gdbinit to see if I can narrow down the issue</p>
+","18835","ninendra","18835","ninendra","2008-09-30 16:34:25","2011-10-30 20:16:51",".gdbinit config file conflict with Xcode debugging","<xcode><debugging><osx><gdb>","3","0","2","","","145765","908"
+"146297","1","","","2008-09-28 17:26:37","","338","225662","<p>With a huge influx of newbies to Xcode, I'm sure there are lots of Xcode tips and tricks to be shared.</p>
+
+<p>What are yours? </p>
+","23113","schwa","50776","Ned Batchelder","2012-05-06 17:23:04","2012-05-06 17:23:04","Hidden Features of Xcode","<objective-c><xcode><osx><cocoa>","89","0","1260","","2009-01-07 15:26:57","146297","908"
+"146986","1","147027","","2008-09-28 23:25:34","","54","26398","<p>I'm writing some semi-portable code and want to be able to detect when I'm compiling for iPhone. So I want something like <code>#ifdef IPHONE_SDK...</code>. </p>
+
+<p>Presumably Xcode defines something, but I can't see anything under project properties, and Google isn't much help.</p>
+","18017","Airsource Ltd","603977","","2011-10-19 00:56:51","2014-11-25 12:11:56","What #defines are set up by Xcode when compiling for iPhone","<ios><xcode><osx><conditional-compilation>","2","0","32","","","146986","908"
+"159221","1","","","2008-10-01 19:11:14","","20","12457","<p>I am developing an iPhone app and have to parse xml files in order to put them into a database. I will also be using those same xml parsers in my app so users can import their own data. I was wondering how I can extract those xml parsers into a bundle or a library so I can use them both in my iPhone app and in a command line app where I just populate a sqlite3 database.</p>
+
+<p>Thanks in advance!</p>
+","","Chris","345188","wnoise","2011-10-30 20:14:49","2011-10-30 20:14:49","How do I create a bundle of reusable code in Xcode?","<iphone><xcode><bundle>","1","0","13","","","159221","908"
+"161518","1","","","2008-10-02 09:36:24","","2","2550","<p>How do I link an external .jar into my Xcode java project?  That is, have it in the classpath during compilation and execution.  I'm using Xcode 3.0 and this seems to have changed since 2.4.</p>
+","4127","mellis","","","","2011-10-30 20:14:06","Linking an external .jar from an Xcode java project?","<java><xcode><jar><classpath>","3","0","","","","161518","908"
+"167812","1","167914","","2008-10-03 16:43:54","","21","63930","<p>I've been using Xcode for the usual C/C++/ObjC development. I'm wondering what are practical considerations, opinions of Xcode, Eclipse or NetBeans usage on a Mac for Java development? </p>
+
+<p>Please don't include my current usage of Xcode in your analysis. </p>
+","11994","geo","213269","","2011-02-03 23:45:49","2015-08-04 08:12:36","Java Development on a Mac - Xcode, Eclipse, or Netbeans","<java><eclipse><xcode><osx><netbeans>","19","0","6","2015-08-30 14:28:18","","167812","908"
+"170601","1","170631","","2008-10-04 16:20:00","","14","7390","<p>I have a somewhat messily-formatted Objective-C code base. Is there a way to have Xcode reformat an entire project to conform to a coding standard (i.e., properly indent, spaces v. tabs, etc.)? Are there other tools that might accomplish this?</p>
+","1967","drewh","345188","Ned Batchelder","2011-10-30 20:04:30","2012-09-13 17:41:08","Objective-C Tidy","<objective-c><cocoa><xcode>","7","0","10","","","170601","908"
+"172598","1","","","2008-10-05 20:29:53","","311","137569","<p>I just started programming Objective-C and, having a background in Java, wonder how people writing Objective-C programs deal with private methods.</p>
+
+<p>I understand there may be several conventions and habits and think about this question as an aggregator of the best techniques people use dealing with private methods in Objective-C. </p>
+
+<p>Please include an argument for your approach when posting it. Why is it good? Which drawbacks does it have (that you know of) and how you deal with them?</p>
+
+<hr/>
+
+<p>As for my findings so far.</p>
+
+<p>It is possible to use <a href=""http://www.otierney.net/objective-c.html#categories"">categories</a> [e.g. MyClass (Private)] defined in MyClass.m file to group private methods.</p>
+
+<p>This approach has 2 issues:</p>
+
+<ol>
+<li>Xcode (and compiler?) does not check if you define all methods in private category in corresponding @implementation block</li>
+<li>You have to put @interface declaring your private category in the begin of MyClass.m file, otherwise Xcode complains with a message like ""self may not respond to message ""privateFoo"".</li>
+</ol>
+
+<p>The first issue can be worked around with <a href=""http://developer.apple.com/documentation/Cocoa/Conceptual/ObjectiveC/Articles/chapter_4_section_5.html#//apple_ref/doc/uid/TP30001163-CH20-SW2"">empty category</a> [e.g. MyClass ()].<br/>
+The second one bothers me a lot. I'd like to see private methods implemented (and defined) near the end of the file; I do not know if that's possible.</p>
+","20294","Yury Soldak","224988","Ned Batchelder","2013-05-26 07:13:13","2013-06-20 15:03:43","Best way to define private methods for a class in Objective-C","<objective-c><xcode><cocoa><code-completion>","11","2","149","","2008-10-05 20:29:53","172598","908"
+"174315","1","174402","","2008-10-06 13:37:13","","88","34462","<p>I'm a Mac developer with a very strong Java background. I've documented my sources using Javadoc, a lot.</p>
+
+<ul>
+<li>What's the way to go with Cocoa and Xcode?</li>
+<li>Are there any documentation tools supplied together with Apple's Developer Tools?</li>
+<li>Is Doxygen the way to go? What are the alternatives?</li>
+</ul>
+","25724","","78642","Paul","2013-08-19 17:36:45","2015-07-27 08:11:58","How do you document your source code in Xcode?","<objective-c><cocoa><xcode><documentation>","14","0","44","","","174315","908"
+"176373","1","","","2008-10-06 21:58:59","","3","2210","<p>We are trying to make a project template, but the documentation on this is spotty or non-existent.</p>
+
+<p>Doing some reverse-engineering on some template files, we have come up with the following.  However, it doen't actually work!</p>
+
+<p>First of all, we have figured out that project templates should be installed inside:</p>
+
+<p>~/Library/Application Support/Developer/Shared/Xcode/Project Templates</p>
+
+<p>We have made project  and installed it here, and this part works - we see this show up in the ""User Templates"" section of the Xcode ""New Project"" chooser.</p>
+
+<p>The project folder contains the following files.  As you can see, I want the file names to be subsituted (that part works) but as you will see, I also want the contents of the files to be substituted; this doesn't happen.</p>
+
+<ul>
+<li>___PROJECTNAME___.xcodeproj  </li>
+<li>___PROJECTNAMEASIDENTIFIER____Prefix.pch  </li>
+<li>___PROJECTNAMEASIDENTIFIER___.icns  </li>
+<li>___PROJECTNAMEASIDENTIFIER___Delegate.h  </li>
+<li>___PROJECTNAMEASIDENTIFIER___Delegate.m  </li>
+<li>___PROJECTNAMEASIDENTIFIER___Template.html  </li>
+<li>Debug.xcconfig  </li>
+<li>en.lproj  </li>
+<li>Info.plist  </li>
+<li>Release.xcconfig  </li>
+</ul>
+
+<p>I have put in two special files into the ___PROJECTNAME___.xcodeproj package:</p>
+
+<ul>
+<li>TemplateInfo.plist  </li>
+<li>TemplateIcon.icns - the icon to show up in the New Project window</li>
+</ul>
+
+<p>If I create a new project (called ""Foo &amp; Bar"" as a stress test) using this template, these are the files it creates:</p>
+
+<ul>
+<li>Debug.xcconfig</li>
+<li>en.lproj</li>
+<li>Foo &amp; Bar.xcodeproj</li>
+<li>Foo___Bar_Prefix.pch</li>
+<li>Foo___Bar.icns</li>
+<li>Foo___BarDelegate.h</li>
+<li>Foo___BarDelegate.m</li>
+<li>Foo___BarTemplate.html</li>
+<li>Info.plist</li>
+<li>Release.xcconfig</li>
+</ul>
+
+<p>So far so good!  </p>
+
+<p>But looking in the file contents, I get things like this.  Here is the contents of Foo___BarDelegate.m:</p>
+
+<pre><code>//
+//  «PROJECTNAMEASIDENTIFIER»Delegate.m
+//  «PROJECTNAME»
+//
+//  Created by «FULLUSERNAME» on «DATE».
+//  Copyright «ORGANIZATIONNAME» «YEAR» . All rights reserved.
+//
+
+#import ""«PROJECTNAMEASIDENTIFIER»Delegate.h""
+
+
+@implementation «PROJECTNAMEASIDENTIFIER»Delegate
+
+@end
+</code></pre>
+
+<p>The apparent issue is that somehow I'm doing the TemplateInfo.plist wrong.  But then again, notice how not only are my special items not being substitued, but the standard items don't even get replaced!  So maybe it's a deeper issue.</p>
+
+<p>But with a problematic TemplateInfo.plist being my best hypothesis, I present a couple of variations I have tried.  Neither work.</p>
+
+<p>Either:</p>
+
+<pre><code>{
+    FilesToMacroExpand = (
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_\_Prefix.pch"",
+        ""en.lproj/InfoPlist.strings"",
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_\_Prefix.pch"",
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_.icns"",
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_Delegate.h"",
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_Delegate.m"",
+        ""\_\_\_PROJECTNAMEASIDENTIFIER\_\_\_Template.html"",
+        ""Info.plist""
+    );
+    Description = ""This project builds a cocoa-based \""element\"" plugin for Sandvox."";
+}
+</code></pre>
+
+<p>or:</p>
+
+<pre><code>{
+    FilesToMacroExpand = (
+        ""«PROJECTNAMEASIDENTIFIER»\_Prefix.pch"",
+        ""en.lproj/InfoPlist.strings"",
+        ""«PROJECTNAMEASIDENTIFIER»\_Prefix.pch"",
+        ""«PROJECTNAMEASIDENTIFIER».icns"",
+        ""«PROJECTNAMEASIDENTIFIER»Delegate.h"",
+        ""«PROJECTNAMEASIDENTIFIER»Delegate.m"",
+        ""«PROJECTNAMEASIDENTIFIER»Template.html"",
+        ""Info.plist""
+    );
+    Description = ""This project builds a cocoa-based \""element\"" plugin for Sandvox."";
+}
+</code></pre>
+
+<p><strong>Update</strong>: I've also tried adding the ""FilesToRename"" key, even though the ___ seems to be automatically causing renaming to happen.  This is the plist contents with that in, in XML format (since some people were worried about that UTF-8 nature of things -- yes, it's a valid plist):</p>
+
+<pre><code>&lt;?xml version=""1.0"" encoding=""UTF-8""?&gt;
+&lt;!DOCTYPE plist PUBLIC ""-//Apple//DTD PLIST 1.0//EN"" ""http://www.apple.com/DTDs/PropertyList-1.0.dtd""&gt;
+&lt;plist version=""1.0""&gt;
+&lt;dict&gt;
+    &lt;key&gt;Description&lt;/key&gt;
+    &lt;string&gt;This project builds a cocoa-based ""element"" plugin for Sandvox.&lt;/string&gt;
+    &lt;key&gt;FilesToMacroExpand&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»_Prefix.pch&lt;/string&gt;
+        &lt;string&gt;en.lproj/InfoPlist.strings&lt;/string&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER».icns&lt;/string&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Delegate.h&lt;/string&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Delegate.m&lt;/string&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Template.html&lt;/string&gt;
+        &lt;string&gt;Info.plist&lt;/string&gt;
+    &lt;/array&gt;
+    &lt;key&gt;FilesToRename&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;___PROJECTNAMEASIDENTIFIER___.icns&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER».icns&lt;/string&gt;
+        &lt;key&gt;___PROJECTNAMEASIDENTIFIER___Delegate.h&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Delegate.h&lt;/string&gt;
+        &lt;key&gt;___PROJECTNAMEASIDENTIFIER___Delegate.m&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Delegate.m&lt;/string&gt;
+        &lt;key&gt;___PROJECTNAMEASIDENTIFIER___Template.html&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»Template.html&lt;/string&gt;
+        &lt;key&gt;___PROJECTNAMEASIDENTIFIER____Prefix.pch&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAMEASIDENTIFIER»_Prefix.pch&lt;/string&gt;
+        &lt;key&gt;___PROJECTNAME___.xcodeproj&lt;/key&gt;
+        &lt;string&gt;«PROJECTNAME».xcodeproj&lt;/string&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</code></pre>
+","25560","danwood","25560","danwood","2008-10-06 23:41:19","2012-11-20 06:23:05","Specific help with Xcode Project Template that is not doing substitution in file contents","<cocoa><xcode><osx>","8","1","3","","","176373","908"
+"177160","1","228956","","2008-10-07 03:45:37","","11","7075","<p>Is it possible to set an iPhone XCode project to skip the 'CompressResources' build step?</p>
+
+<p>Specifically, I want to skip the stage where it runs pngcrush on all of my .png files, many of which don't survive the experience in a form which my app can read.</p>
+
+<p><strong>Edit:</strong> the version of pngcrush used creates png files which contain a non-standard 'mandatory, private' chunk which explicitly prevents decoding. I've modified my png reader to handle these files, but I'd still like a per-project method of skipping this step. One of the other side effects of pngcrush is that it doesn't save the colour value of transparent pixels, so alpha-ed textures show fringing at smaller mip levels.</p>
+
+<p>The iphone png format is described here: <a href=""http://modmyi.com/wiki/index.php/Iphone_PNG_images"">http://modmyi.com/wiki/index.php/Iphone_PNG_images</a>. In short,</p>
+
+<ul>
+<li>Skip the CgBI chunk</li>
+<li>Skip the zlib headers</li>
+<li>Swap BGR to RGB channel order</li>
+</ul>
+
+<p><strong>Edit:</strong> It appears it also premultiplies the alpha, so:</p>
+
+<ul>
+<li>Divide by alpha</li>
+</ul>
+","25352","","25352","James","2008-10-09 04:13:42","2011-10-21 04:40:52","Skipping the 'CompressResources' build step for XCode iPhone apps","<iphone><xcode><image><resources>","5","2","5","","","177160","908"
+"180987","1","384982","","2008-10-08 00:52:17","","4","11564","<p>Using Xcode 3.1 on OSX 10.5; is it possible to attach (the debugger) to a running remote process?</p>
+
+<p>I know that it's possible to start and debug a remote process (as explained <a href=""http://developer.apple.com/documentation/developertools/Conceptual/XcodeDebugging/800-Debugging_Programs_Remotely/chapter_11_section_1.html#//apple_ref/doc/uid/TP40007057-CH11-SW1"" rel=""nofollow"">here</a>), but it would be great if I could find a way to attach to an already running remote process...</p>
+
+<p>edit to add: Thanks. I've submitted a bug report to Apple. Will update this question if/when I hear back from them.</p>
+","11688","fuad","691409","fuad","2014-06-04 10:33:14","2014-06-04 10:33:14","Attaching to a remote process for debugging","<xcode><osx><debugging><gdb><xcode3.1>","1","0","5","","","180987","908"
+"181886","1","","","2008-10-08 08:58:19","","1","2781","<p>When I run this code in the Simulator in the debugger or standalone</p>
+
+<pre><code>[UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]
+</code></pre>
+
+<p>it tells me the camera is not available (returns NO), as expected.</p>
+
+<p>However, if I run the same code in the simulator in Performance Tool, it returns YES! My code (which works fine on device) then continues to display the camera view in the simulator. If I attempt to capture an image though, I get  a console message</p>
+
+<blockquote>
+  <p>photos can only be captured on HW</p>
+</blockquote>
+
+<p>Which means that if I want to profile my application on the simulator (wouldn't it be nice if it worked on the device!!) I need to go change the code so that it displays the correct view (i.e. not the camera one!).</p>
+
+<p>This does not, from googling, appear to be a well-known issue. Has anyone else experienced it and/or got a workaround?</p>
+","18017","Airsource Ltd","18017","Airsource Ltd","2008-10-08 10:33:12","2013-04-30 12:20:46","xCode Performance Tool thinks the iPhone simulator has a camera","<iphone><xcode><profiling>","1","0","1","","","181886","908"
+"184985","1","","","2008-10-08 21:20:44","","0","9312","<p>I seem to be having an issue with iPhone SDK 2.1 in as far as being
+able to establish a relationship between a ViewController and a View
+window. In as far as a Cocoa Touch Class, I went forward and added a
+<code>UIViewController</code> subclass. I made sure that the target is part of the
+existing project. Right afterwards I added a User Interfaces -> View
+XIB. Within the <code>UIViewController</code> I have some straight forward code I
+literally copy/pasted from sample code elsewhere:</p>
+
+<p>EditViewController.h:</p>
+
+<pre><code>@interface EditorViewController : UIViewController &lt;UITextFieldDelegate&gt; {
+    UITextField *field;
+}
+
+@property(nonatomic, retain) IBOutlet UITextField *field;
+@end
+</code></pre>
+
+<p>EditViewController.m</p>
+
+<pre><code>#import ""EditorViewController.h""
+
+@implementation EditorViewController
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:
+         (UIInterfaceOrientation)interfaceOrientation {
+   // Return YES for supported orientations
+  return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
+
+- (void)dealloc {
+   [super dealloc];
+}
+
+
+@end
+</code></pre>
+
+<p>As you can tell, it doesn't do much.  Now when I click my new xib, and
+reference a class identity with <code>EditorViewController</code>, no auto complete
+happens, which to me implies that it has no such awareness of a
+<code>EditorViewClass</code>. When I attempt to control+click from the view to
+File's Owners, I get nada.</p>
+
+<p>What are some of the possible idiosyncrasies in this process that I'm
+overlooking that's not allowing me to outlet my view to a controller?</p>
+
+<p>How would I also ensure that my User Interface View XIB is associated with the project besides seeing the project name checked off as a Target?</p>
+","","anon","605197","anon","2012-04-19 16:34:00","2012-04-19 16:34:00","Linking File's Owners and View Controller [iPhone SDK]","<iphone><cocoa><xcode><interface-builder>","2","0","","","","184985","908"
+"194241","1","194335","","2008-10-11 16:00:13","","26","13147","<p>In Visual Studio if I define a class to implement an interface e.g.</p>
+
+<pre><code>class MyObject : ISerializable {}
+</code></pre>
+
+<p>I am able to right click on ISerializable, select ""<em>Implement Interface</em>"" from the context menu and see the appropriate methods appear in my class definition.</p>
+
+<pre><code>class MyObject : ISerializable {
+    #region ISerializable Members
+    public void GetObjectData(SerializationInfo info, 
+                StreamingContext context)
+    {
+        throw new NotImplementedException();
+    }
+    #endregion
+}
+</code></pre>
+
+<p>Is there anything anything like this functionality available in Xcode on the Mac? I would like to be able to automatically implement Protocols in this way. Maybe with the optional methods generated but commented out.</p>
+","1403","AidenMontgomery","21755","Paul","2008-11-10 07:45:20","2014-07-22 21:38:19","Is there a key combination in Xcode to implement a Protocol?","<objective-c><xcode><refactoring><code-generation>","6","0","5","","","194241","908"
+"194485","1","195030","","2008-10-11 19:30:47","","14","43290","<p>I'm building few command-line utilities in Xcode (plain C, no Cocoa). I want all of them to use my customized version of libpng, and I want to save space by sharing one copy of the library among all executables (I don't mind re-distributing <code>.dylib</code> with them).</p>
+
+<p>Do I need to do some magic to get libpng export symbols?</p>
+
+<p>Does <em>""Link Binary With Libraries""</em> build phase link statically? </p>
+
+<p>Apple's docs mention loading of libraries at run time with <code>dlopen</code>, but how I can make Xcode create executable without complaining about missing symbols?</p>
+
+<p><hr /></p>
+
+<p>I think I've figured it out:</p>
+
+<ul>
+<li><p>libpng wasn't linking properly, because I've built 32/64-bit executables and 32-bit library. Build settings of the library and executables must match.</p></li>
+<li><p>libpng's config.h needs to have tons of defines like <code>#define FEATURE_XXX_SUPPORTED</code></p></li>
+<li><p><em>""Link Binary With Libraries""</em> build phase handles dynamic libraries just fine, and <code>DYLD_FALLBACK_LIBRARY_PATH</code> environmental variable is neccessary for loading <code>.dylib</code>s from application bundle.</p></li>
+</ul>
+","27009","porneL","27009","porneL","2008-11-23 19:25:15","2015-07-07 07:26:23","How do I create a dynamic library (dylib) with Xcode?","<xcode><linker><shared-libraries><dylib><mach-o>","4","1","17","","","194485","908"
+"194666","1","","","2008-10-11 21:21:29","","73","51185","<p>Is there a way to suppress warnings in Xcode?</p>
+
+<p>For example I am calling an undocumented method and since the method is not in the header I get a warning on compile. I know I can add it to my header to stop the warning, but I am wondering if there is a way other than adding it to the header (so I can keep the headers clean and standard) to suppress the warning? A pragma or something?</p>
+","26728","kdbdallas","3279","Paul","2013-10-29 03:23:44","2014-09-06 12:48:41","Is there a way to suppress warnings in Xcode?","<objective-c><xcode><cocoa><suppress-warnings>","9","1","24","","","194666","908"
+"207785","1","208050","","2008-10-16 08:33:25","","50","59910","<p>Although I've been getting more and more familiar with Xcode while developing for the iPhone, there are times I just wished I had a better IDE, something like Eclipse.</p>
+
+<p>So I was wondering does anyone know how to migrate iPhone projects to Eclipse, and if it's worth it?</p>
+","15124","Robert Gould","","user23743","2008-11-22 15:49:32","2012-03-25 08:40:26","How do you setup Eclipse to work on iPhone development (instead of Xcode)?","<iphone><eclipse><xcode><osx>","5","0","8","","","207785","908"
+"212999","1","1182726","","2008-10-17 17:10:44","","54","19696","<p>After using Hudson for continuous integration with a prior project, I want to set up a continuous integration server for the iPhone projects I'm working on now. After doing some research it looks like there aren't any CI engines designed specifically for Xcode, but one guy has had success <a href=""http://www.pragmaticautomation.com/cgi-bin/pragauto.cgi/Build/XcodeOnCC.rdoc"">using Cruise Control combined with the xcodebuild CLI tool</a>. Has anyone here tried this? Are there any CI engines that work well with Xcode projects?</p>
+
+<p>I'm probably going to give Cruise Control a try. I'll post an answer with my findings.</p>
+","17188","Mike Akers","","","","2015-06-01 10:26:24","Continuous Integration for Xcode projects?","<iphone><xcode><continuous-integration><cruisecontrol><xcodebuild>","9","3","53","","","212999","908"
+"216470","1","","","2008-10-19 14:16:13","","0","926","<ul>
+<li>Is there a key shortcut for this in XCode?</li>
+<li>Can I implement an Applescript for this and run it within XCode?</li>
+</ul>
+","","","691409","Ned Batchelder","2014-06-04 10:32:52","2014-06-04 10:32:52","How can replace the string [Foo alloc]<cursor> with [[Foo alloc]<cursor>]","<objective-c><xcode><keyboard-shortcuts><macros>","3","0","","","","216470","908"
+"228849","1","242731","","2008-10-23 07:27:22","","3","1524","<p>I realise that the view/controller stuff will be different between Mac and IPhone apps but the model code may well be similar/the same.  So whats the best way to organise a project(s) so that the model code is/can be shared?</p>
+
+<ol>
+<li>Copy/paste - just duplicate it and manually keep it in sync </li>
+<li>Have 2 xcode projects point at the same workarea - one for Mac and one for IPhone and share the code.</li>
+<li>Common library - presumably you can't do this (or can you)</li>
+</ol>
+
+<p>Thanks for any tips.</p>
+","48310","Chris Kimpton","","","","2008-12-06 23:58:58","Best way to share iphone and mac code between projects","<iphone><xcode>","3","0","5","","","228849","908"
+"238980","1","239006","","2008-10-27 03:07:03","","622","299691","<p>I began an iPhone project the other day with a silly development code name, and now I want to change the name of the project since its nearly finished. </p>
+
+<p>But I'm not sure how to do this with Xcode, trying the obvious of changing the application's name in the pinfo, causes the signing process to go wrong (I think...) and my app won't launch giving me a Launcher error.</p>
+
+<p>I guess I could make a new project and copy paste everything over, but it seems so primitive, that I'm hoping for a more civilized solution.</p>
+","15124","Robert Gould","916299","August","2015-08-07 13:42:06","2015-08-07 13:42:06","How to change the name of an iOS app?","<ios><xcode>","24","6","214","","","238980","908"
+"239139","1","239191","","2008-10-27 05:20:29","","30","5023","<p>Is there a way in <em>Xcode</em> to sort my list of files under say the Classes folder Alphabetically?</p>
+
+<p>I know I can drag them around, but with tons of files that is a pain.</p>
+
+<p>I am surprised I can not right click on the folder and say to sort.</p>
+","26728","kdbdallas","691409","","2014-06-04 10:32:27","2014-12-13 05:06:34","Sort File List in Xcode?","<xcode>","5","0","4","","","239139","908"
+"242817","1","245288","","2008-10-28 10:35:24","","3","12280","<p>In Xcode, I can edit my preprocessor macros in the project settings. I want to create a macro that refers to an environment variable. Basically, I want to be able to refer to $SRC_ROOT in my code. What I currently have in my macros is:</p>
+
+<pre><code>SRC_ROOT=${SRC_ROOT}
+</code></pre>
+
+<p>but it isn't working.</p>
+","25893","DavidG","3532040","Chris Hanson","2014-05-07 19:19:21","2014-05-07 19:19:21","Xcode Preprocessor Macros","<xcode><macros><preprocessor>","1","0","3","","","242817","908"
+"244992","1","279197","","2008-10-28 21:47:28","","4","4766","<p>I set up all my certificates and keys today and am trying to run my project on my iPhone.
+I'm encountering this strange error:</p>
+
+<blockquote>
+  <p>Your mobile device has encountered an unexpected error (0xE800003A) during the install phase: Verifying application</p>
+</blockquote>
+
+<p>Poking around the Apple Developer forums, I've attempted to set new certificates and provisioning profiles as well as editing <code>Info.plist</code>, but no matter what I do I can't seem to run the app on my device.</p>
+
+<p>The only think I can currently think of is that my project name in Xcode differs slightly from my development provisioning profile (it uses a question mark), but I've named it according to Apple's conventions: <code>com.mycompany.myapp</code>, so I'm unsure if that's the problem.</p>
+
+<p>Any ideas?</p>
+
+<p><strong>Edit: I've hard restarted the phone, rebooted Xcode, cleaed my targets, set up a new wildcard App ID and respective provisioning profile and still nothing. Any other ideas?</strong></p>
+","2293","Bryan Woods","3532040","Chris Hanson","2014-05-07 19:19:19","2014-05-07 19:19:19","Error Installing iPhone App on Device","<iphone><xcode><app-id>","11","0","2","","","244992","908"
+"246422","1","252173","","2008-10-29 11:06:18","","124","252298","<p>How can I deploy an iPhone application from Xcode to real iPhone device without having a US$99 Apple certificate?</p>
+","16066","DFG","63550","Mitch Wheat","2011-05-31 15:50:30","2015-07-01 19:06:45","How can I deploy an iPhone application from Xcode to a real iPhone device?","<iphone><xcode><deployment><certificate>","13","1","107","","","246422","908"
+"252848","1","","","2008-10-31 08:05:46","","8","6753","<p>I tried this step:</p>
+
+<p>Select the menu options ""Project > New Build Phase > New Run Script Build Phase"", and enter the following script (don't forget to replace /Users/youruser/bin by the correct path to gen_entitlements.py) :</p>
+
+<pre><code>export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate
+if [ ""${PLATFORM_NAME}"" == ""iphoneos"" ]; then
+    /Users/youruser/bin/gen_entitlements.py ""my.company.${PROJECT_NAME}"" ""${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent"";
+    codesign -f -s ""iPhone developer"" --resource-rules ""${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/ResourceRules.plist"" \
+         --entitlements ""${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent""  ""${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/""
+fi
+</code></pre>
+
+<p>(from <a href=""http://www.246tnt.com/iPhone/#xcode"" rel=""nofollow"">link</a>)</p>
+
+<p>Now I want to remove this script from my project. How do I remove the ""Run Script Build Phase"" build phase from Xcode?</p>
+","16066","DFG","1370425","dbr","2012-08-09 13:23:03","2015-08-24 17:00:29","How to remove a Run Script phase from Xcode","<iphone><ios><xcode>","2","3","1","","","252848","908"
+"273039","1","273095","","2008-11-07 18:13:45","","5","3334","<p>In XCode, I can use CMD-R to run (or CMD-Y to debug), and my app will compile, install on the phone &amp; start-up.  (I've already prepped my phone &amp; XCode so this part works as expected.)</p>
+
+<p>What I'd <strong><em>LIKE</em></strong> to do is type CMD-&lt;something else&gt; and have my program compile &amp; install on the phone, but <em>NOT</em> start-up.</p>
+
+<p>I realize that I can just CMD-B to build, then go through some rigamarole to deploy, but I'm hoping one of you smart-folk can tell me the lazy-man's shortcut for all of this.</p>
+
+<p>Thanks!</p>
+","34820","Olie","","","","2013-02-09 12:33:56","Is there a quick way to build & install to iPhone (from XCode) without starting the app?","<iphone><xcode>","4","0","4","","","273039","908"
+"275375","1","275398","","2008-11-08 23:30:13","","7","4012","<p>From googling around it looks like XCode (3.1 in my case) should be at least trying to give me a sane debug view of STL containers - or at least vectors.</p>
+
+<p>However, whenever I go to look at a vector in the debugger I just see M_impl, with M_start and M_finish members (and a couple of others) - but nothing in-between! (it's a debug build, btw).</p>
+
+<p>Am I missing a setting or something somewhere?</p>
+
+<p>I've also read that there are macros available that can augment the debug viewer even further to inspect more complex containers - but have been unable to find any.</p>
+
+<p>I'd also like to be able to view std::wstrings, without having to drop to the memory viewer. It shows std::string fine. Is there anything I can do to show std::wstring?</p>
+
+<p>I realise this is a bit of a composite question - but it's all really part of the same subject. Any full or partial responses appreciated!</p>
+","32136","Phil Nash","","","","2012-07-11 09:53:32","Inspecting STL containers in XCode","<c++><xcode><debugging><osx><stl>","3","0","1","","","275375","908"
+"276010","1","276060","","2008-11-09 15:25:40","","2","4719","<p>In an XCode project, if I use <code>std::cout</code> to write to the console the output is fine.</p>
+
+<p>However, if I use <code>std::wcout</code> I get no output.</p>
+
+<p>I know that this is a thorny issue in C++, and I've been googling around to try and find a specific solution in the XCode case. A couple of things I found that it was suggested should work were:</p>
+
+<pre><code>
+    std::cout.imbue( std::locale("""") );
+</code></pre>
+
+<p>and</p>
+
+<pre><code>
+    std::setlocale(LC_ALL, """");
+</code></pre>
+
+<p>Neither of these have made any difference. Before I resign myself to spending the next couple of weeks studying the facets API just to be able to write to the console I thought I'd check with the esteemed audidence here.</p>
+
+<p>[Update]</p>
+
+<p>I think the reason for the problem I've been having is actually to do with the specific encoding of some of the strings I'm trying to print.</p>
+
+<p>If I send just a string literal, using the <code>L""my string"" syntax</code> it works! It appears this is using UTF32 - little endian encoding.</p>
+
+<p>However, I've been mixing this with strings I've been passed from Objective C++ code using NSUTF32BigEndianStringEncoding encoding. It's this mix of encodings that's causing the problems.</p>
+
+<p>I think we can consider this matter closed. Thanks for reading.</p>
+","32136","Phil Nash","32136","Phil Nash","2008-11-09 16:26:18","2008-11-09 16:26:18","std::wcout to console window in XCode","<c++><xcode><osx><unicode><iostream>","1","0","","2008-11-09 16:26:36","","276010","908"
+"282700","1","282717","","2008-11-12 01:17:53","","9","30190","<p>I'm working on a school project and I'm getting some weird errors from Xcode. I'm using TextMate's Command+R function to compile the project. Compilation seems to work okay but linking fails with an error message I don't understand. </p>
+
+<p>ld output:</p>
+
+<blockquote>
+  <p>ld: duplicate symbol text_field(std::basic_istream >&amp;)in /path/final/build/final.build/Release/final.build/Objects-normal/ppc/generics.o and /path/final/build/final.build/Release/final.build/Objects-normal/ppc/main.o
+  collect2: ld returned 1 exit status</p>
+</blockquote>
+
+<p>Below is my file io_functions.cpp This is the only declaration of text_field in the entire project. </p>
+
+<pre><code>#include &lt;string&gt;
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+
+using namespace std;
+
+#ifndef ENDF
+#define ENDF '|'
+#define ENDR '\n'
+
+/**
+reads one field from a given input stream
+Usage: var = text_field(in)
+*/
+string text_field(istream &amp;in){
+	string s;
+	getline(in, s, ENDF);
+	return s; 
+}
+
+long long_field(istream &amp;in){
+	return atol(text_field(in).c_str()); 
+}
+
+int int_field(istream &amp;in){
+	return atoi(text_field(in).c_str()); 
+}
+
+double double_field(istream &amp;in){
+	return atof(text_field(in).c_str()); 
+}
+
+#endif
+</code></pre>
+
+<p>What is going wrong? For a number of reasons I don't want to post my project's entire source. </p>
+","16204","epochwolf","893","Greg Hewgill","2012-09-18 06:44:19","2012-09-18 06:44:19","ld: duplicate symbol","<c++><xcode><linker>","2","0","","","","282700","908"
+"282800","1","282818","","2008-11-12 02:13:50","","8","7620","<p>I don't even know where to go with this. Google wasn't very helpful. As with my previous question. I'm using TextMate's Command+R to compile the project. </p>
+
+<blockquote>
+  <p>game.h:16:error: declaration of ‘Player* HalfSet::Player() const’</p>
+  
+  <p>players.h:11:error: changes meaning of ‘Player’ from ‘class Player’</p>
+  
+  <p>game.h:21:error: ‘Player’ is not a type</p>
+</blockquote>
+
+<p>player.h file (partial)</p>
+
+<pre><code>#ifndef PLAYERS_H
+#define PLAYERS_H
+using namespace std;
+
+#include &lt;string&gt;
+#include &lt;vector&gt;
+#include &lt;istream&gt;
+#include &lt;iomanip&gt;
+#include ""generics.h""
+
+class Player{ //Line 11
+public:
+	//getters
+	long Id() const;
+	string FirstName() const;
+	string LastName() const;
+	string Country() const;
+	//setters
+	void setId(long id);
+	void setFirstName(string s);
+	void setLastName(string s);
+	void setCountry(string s);
+	//serializing functions
+	void display(ostream &amp;out);
+	void read(istream &amp;in);
+	void write(ostream &amp;out);
+	//Initalizers
+	Player();
+	Player(istream &amp;in);
+	Player(string firstName, string lastName);
+	Player(string firstName, string lastName, string country);
+	Player(long id, string firstName, string lastName, string country);
+	~Player();
+private:
+	long _id;
+	string _firstName;
+	string _lastName;
+	string _country;
+};
+</code></pre>
+
+<p>game.h file (partial)</p>
+
+<pre><code>#ifndef GAME_H
+#define GAME_H
+
+#include ""generics.h""
+#include ""players.h""
+#include &lt;string&gt;
+#include &lt;vector&gt;
+#include &lt;istream&gt;
+#include &lt;iomanip&gt;
+
+using namespace std;
+
+class HalfSet{
+public:
+	//getters
+	Player* Player() const; //Line 16
+	int GamesWon() const;
+	int TotalPoints() const;
+	int Errors() const;
+	//setters
+	void setPlayer(Player* p);
+	void setGamesWon(int games);
+	void setTotalPoints(int points);
+	void setErrors(int errors);
+	//Serialization
+	void display(ostream &amp;out) const;
+	void read(istream &amp;in) const;
+	void write(ostream &amp;out) const;
+	//Initalizers
+	HalfSet();
+	~HalfSet();
+private:
+	Player* _player;
+	int _gamesWon;
+	int _points;
+	int _errors;
+};
+</code></pre>
+
+<p>What is going on here?</p>
+","16204","epochwolf","893","epochwolf","2012-09-18 06:43:57","2014-11-04 03:12:20","C++ odd compile error: error: changes meaning of ""Object"" from class ""Object""","<c++><xcode>","3","1","","","","282800","908"
+"284045","1","1038256","","2008-11-12 14:10:42","","3","2622","<p>Xcode has these handy time savers in the scripts menu called ""Code->Place Accessor Defs on Clipboard"" and ""Code->Place Accessor Decls on Clipboard"". These scripts allow you to automate the generation of getter and setter methods for any highlighted instance variables. </p>
+
+<p>Does anyone know of a similar script that outputs Objective-C 2.0 Property declaration statements?</p>
+","28106","lfalin","714","Chris Hanson","2008-11-16 20:56:32","2009-11-18 21:55:03","Xcode Property Automation","<objective-c><xcode>","3","1","2","","","284045","908"
+"288508","1","288530","","2008-11-13 22:04:06","","29","12686","<p>Does Xcode support anything akin to Visual Studio style <code>#region</code> directives for arbitrary code folding?</p>
+","13932","","34218","Jason Coco","2008-11-13 22:12:15","2014-04-24 04:11:16","Xcode regions","<objective-c><xcode><osx>","6","0","3","","","288508","908"
+"294194","1","294519","","2008-11-16 18:33:22","","0","488","<p>I've started work on a project that will be primarily acting as a Sync Services Client. Ideally, the project have two components: a custom schema bundle and a preference pane.</p>
+
+<p>As a first step, I've created an Xcode project for the schema bundle. But now I found myself ready to start writing the code for the preference pane and the client, and I'm not sure what the best way is to integrate it with the project I already have.</p>
+
+<p>What approaches have you found to work well in these kinds of situations?</p>
+","2399475","Evan DiBiase","770992","Ned Batchelder","2013-11-26 08:01:08","2013-11-26 08:01:08","Sync Services Client and Schema Xcode Project Structure","<objective-c><cocoa><xcode><syncservices>","1","0","","","","294194","908"
+"294878","1","","","2008-11-17 04:18:17","","3","2384","<p>So we all need to deploy our applications to real iPhones for testing purposes.  I'm sure you much like me have found a group of sucke^H^H^H^H^H testers to help you out with this process.  Whenever you want to send a build out to a new person this requires adding the new device id to your ad hoc provision.  This part is fairly painless.  The trouble starts when trying to get Xcode to use the new provision file.</p>
+
+<p>Whats the best way to get Xcode to pickup and use the new provision first time?  Ideally I would like to do this <em>without</em> changing the .xcodeproj file.</p>
+","8918","Lounges","","","","2010-12-17 04:40:03","Whats the best workflow for adding a new device to an adhoc provision?","<iphone><xcode>","4","0","4","","","294878","908"
+"300048","1","308649","","2008-11-18 20:35:22","","0","2013","<p>Something really weird is going on with Xcode and an iPhone project I'm working on, when I'm building for the simulator, the project has 2 active executables (MyApp - iPhone Simulator (2.0) and MyApp - iPhone Simulator (2.1)) Almost all of the time, I want to use the the 2.1  active executable, but Xcode will occasionally silently change to the 2.0 one.</p>
+
+<p>There doesn't seem to be any pattern to this or any trigger that I can notice. Googling has found a couple of people out there who are having the same problem, but no solutions.</p>
+
+<p>Help me stackoverflow-kenobi! You're my only hope!</p>
+","17188","Mike Akers","501","Michal Sznajder","2009-03-25 09:34:52","2009-03-25 09:34:52","Why does Xcode keep changing its active executable?","<iphone><cocoa-touch><xcode><build-process><ios-simulator>","4","0","","","","300048","908"

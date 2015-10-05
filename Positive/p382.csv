@@ -1,0 +1,590 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"13708","1","13719","","2008-08-17 16:35:15","","12","1793","<p>What are the best resources for Wordpress theme-development? I am currently in the phase of starting my own blog, and don't want to use one of the many free themes. I already have a theme for my website, so I want to read about best-practices. </p>
+
+<p>Any advice on how to get started would be very welcome :)</p>
+
+<p><hr /></p>
+
+<p>I have now created my theme (wohoo!), and thought I should summarize the best resources I found. Lets see..</p>
+
+<p><strong>Resources:</strong></p>
+
+<ul>
+<li><a href=""http://themetation.com/2008/07/14/how-to-create-wordpress-themes-from-scratch-part-1/"">ThemeTation's three-part guide to create a wordpress-theme from scratch</a></li>
+<li><a href=""http://nettuts.com/site-builds/how-to-create-a-wordpress-theme-from-scratch/"">Nettuts.com's guide: How to Create a Wordpress Theme from Scratch</a> (And <a href=""http://nettuts.com/working-with-cmss/how-to-create-a-wordpress-theme-from-scratch-part-2/"">Part 2)</a><br />
+Didn't actually use this, it's a quite new article, but anyway - it's great. It will get a follow-up in the next few days too..</li>
+<li><a href=""http://codex.wordpress.org/Theme_Development"">Wordpress.org's own guide on templates</a><br />
+Definatly a must-read for everyone new to wordpress-designing.. </li>
+<li><a href=""http://codex.wordpress.org/The_Loop"">""The loop""</a><br />
+Essential knowledge, also a must-read</li>
+<li><a href=""http://codex.wordpress.org/Template_Tags"">Directory of all the template tags</a><br />
+Used by wordpress to actually output blog-content..</li>
+</ul>
+
+<p><strong>Inspiration:</strong></p>
+
+<ul>
+<li>Smashing Magazine's lists: <a href=""http://www.smashingmagazine.com/2008/01/08/100-excellent-free-high-quality-wordpress-themes/"">first</a>, <a href=""http://www.smashingmagazine.com/2007/02/09/83-beautiful-wordpress-themes-you-probably-havent-seen/"">one more</a>, <a href=""http://www.smashingmagazine.com/2008/08/25/30-free-high-quality-wordpress-themes/"">yet another one</a></li>
+<li><a href=""http://wordpress.org/extend/themes/"">Wordpress.org's theme-directory</a></li>
+</ul>
+","1542","Espenhh","1228","Espenhh","2013-08-09 13:34:33","2013-08-09 13:34:33","Resources on wordpress theme-development","<wordpress><templates><design><themes>","12","0","21","2012-08-20 15:08:03","","13708","382"
+"14873","1","14972","","2008-08-18 16:33:58","","6","4793","<p>I've noticed that a few Wordpress blogs have query statistics present in their footer that simply state the number of queries and the total time required to process them for the particular page, reading something like:</p>
+
+<blockquote>
+  <p>23 queries. 0.448 seconds</p>
+</blockquote>
+
+<p>I was wondering how this is accomplished.  Is it through the use of a particular Wordpress plug-in or perhaps from using some particular php function in the page's code?</p>
+","1339","Kit Roed","","","","2014-05-13 16:25:29","How do I display database query statistics on Wordpress site?","<mysql><performance><wordpress><layout><statistics>","3","0","2","","","14873","382"
+"28196","1","30733","","2008-08-26 14:29:38","","2","3182","<p>This is a very specific question regarding <strong>mysql</strong> as implemented in <strong>WordPress</strong>.</p>
+
+<p>I'm trying to develop a plugin which will show (select) posts that have specific '<strong>tags</strong>' and belong to specific '<strong>categories</strong>' (both multiple)</p>
+
+<p>I was told it's impossible because the way categories and tags are stored:</p>
+
+<ol>
+<li><code>wp_posts</code> contains a lists of post, each posts have an ""ID"" </li>
+<li><code>wp_terms</code> contains a list of terms (both categories and tags). Eac term has a TERM_ID</li>
+<li><code>wp_term_taxonomy</code> has a list of terms with their TERM_IDs and has a Taxonomy definition for each one of those (either a Category or a Tag)</li>
+<li><code>wp_term_relationships</code> has associations betweens terms and posts </li>
+</ol>
+
+<p>How can I join the tables to get all posts with tags ""Nuclear"" <strong>and</strong> ""Deals"" that also belong to the category ""Category1"" ?</p>
+","1011","yoavf","426671","","2013-06-25 20:07:13","2013-06-25 20:07:13","How to select posts with specific tags/categories in WordPress","<mysql><sql><wordpress><plugins>","6","0","0","","","28196","382"
+"32341","1","","","2008-08-28 14:10:52","","-1","912","<p>I may just be missing this functionality, but does anyone know if there is a widget available:</p>
+
+<p>I need to list the subject for all the entries that are associated with a given tag.</p>
+
+<p>For example: I have 5 articles tagged with ""Tutorial"", I'd like to see a list as follows:</p>
+
+<ul>
+<li>Tutorial 1: Installing the app</li>
+<li>Tutorial 2: Customizing</li>
+<li>Tutorial 3: Advanced edits</li>
+<li>Tutorial 4: User managment</li>
+</ul>
+
+<p>Does functionality like this exists in wordpress allready?</p>
+","2490","Markus","1332690","","2012-04-25 22:08:20","2012-04-25 22:08:20","How do I list all Entries with a certain tag in Wordpress?","<wordpress><widget>","2","0","","","","32341","382"
+"33745","1","33815","","2008-08-29 01:15:24","","5","16546","<p>On the other end of the spectrum I would be happy if I could install a wiki and share the login credentials between <a href=""http://en.wikipedia.org/wiki/WordPress"" rel=""nofollow"">WordPress</a> and the wiki. I hacked <a href=""http://en.wikipedia.org/wiki/MediaWiki"" rel=""nofollow"">MediaWiki</a> a while ago to share logins with another site (in <a href=""http://en.wikipedia.org/wiki/Active_Server_Pages"" rel=""nofollow"">ASP Classic</a>) via session cookies, and it was a pain to do and even worse to maintain. Ideally, I would like to find a plug-in or someone who knows a more elegant solution.</p>
+","255","Jim McKeeth","63550","Jim McKeeth","2013-07-26 04:56:47","2014-01-17 20:13:29","WordPress MediaWiki integration","<php><mysql><wordpress><lamp><mediawiki>","6","0","9","","","33745","382"
+"35721","1","35723","","2008-08-30 05:57:20","","7","453","<p>Can anybody recommend a reliable and decently documented code highlighter for WordPress 2.6.1. I have tried Code Snippet by Roman Roan and Developer Formatter by Gilberto Saraiva. But they don't seem to work as described in the documentation and are mangling the code snippets instead of prettifying them.</p>
+","1969","bmatthews68","","","","2009-01-12 12:10:00","Seeking code highlighter recommendation for WordPress","<php><wordpress><codehighlighter><geshi>","6","1","1","2012-07-09 15:52:06","","35721","382"
+"36333","1","36339","","2008-08-30 20:41:02","","2","202","<p>In the latest version of WordPress, it gives you the opportunity to view a preview of what your site would look like using a different theme. You basically just click on the theme, it takes over the screen and you have a chance to activate or close it (and return to the previous screen, which is grayed out in the background). I have seen a similar technique used on a number of websites recently for display images as well. </p>
+
+<p>I'm wondering what technology/code they use to do this?</p>
+","2493","Row","1547157","Vaibhav","2015-08-04 21:42:03","2015-08-04 21:42:03","Preview theme in WordPress","<jquery><html><wordpress>","1","0","","","","36333","382"
+"37343","1","2189015","","2008-09-01 01:23:51","","1","1711","<p>I have my Wordpress install and MediaWiki <a href=""http://stackoverflow.com/questions/33745"" rel=""nofollow"" title=""Thanks ceejayoz"">sharing the same login information</a>.  Unfortunately users need to log into both separately, but at least they use the same credentials.  </p>
+
+<p>What I would like to do is cause a successful log in on the Wordpress blog to also cause a log in for MediaWiki (ideally both directions).  There are two ways this could happen:</p>
+
+<ol>
+<li>Logging in causes a log in on the other application (writes the cookie and creates the session in the DB)</li>
+<li>Accessing an application checks for the cookie of the other and then automatically logs in.</li>
+</ol>
+
+<p>Since the user names are shared it seems like the latter should be pretty easy to do.  Any tips would be great.  </p>
+","255","Jim McKeeth","","","","2010-02-03 01:07:39","Wordpress MediaWiki Cookie Integration","<php><wordpress><lamp><mediawiki>","4","0","","","","37343","382"
+"50606","1","50642","","2008-09-08 20:36:45","","0","273","<p>I am looking at using a custom template for a set of categories. Is it possible to use a category template (like category-4.php) on a parent category and have the children use that template as well?</p>
+
+<p>So based on the answer so far, is there a way to accomplish this? I want to add text and images to all categories within a parent category.</p>
+","2535","Mike Wills","2535","Mike Wills","2008-09-08 20:56:31","2008-09-08 20:56:31","Wordpress Category Template Question","<wordpress><templates>","1","1","","","","50606","382"
+"54038","1","54126","","2008-09-10 13:32:16","","3","2206","<p>I'm trying to write a Wordpress plug-in that automatically posts a blog post at a certain time of day.  For example, read a bunch of RSS feeds and post a daily digest of all new entries.</p>
+
+<p>There are plug-ins that do something similar to what I want, but many of them rely on a cron job for the automated scheduling.  I'll do that if I have to, but I was hoping there was a better way.  Getting a typical Wordpress user to add a cron job isn't exactly friendly.</p>
+
+<p>Is there a good way to schedule a task that runs from a Wordpress plug-in?  It doesn't have to run at exactly the right time.</p>
+","5062","Darcy Casselman","","","","2009-01-15 20:53:55","Running a scheduled task in a Wordpress plug-in","<php><wordpress>","4","0","2","2012-09-01 16:31:01","","54038","382"
+"63916","1","","","2008-09-15 15:25:28","","0","2757","<p>I'm looking for a wordpress-like blog interface to put inside a Joomla hosted site.  The admin interface of Joomla is quirky enough and hard enough to use that daily updates are infeasible.  </p>
+
+<p>What I am looking for is an easy-to-use posting interface that supports multiple users with different accounts/names, a tagging scheme, and easy find by date/user/tag functionality.</p>
+
+<p>In particular I'm looking for a relatively easy-to-deploy, out-of-the-box solution, and would prefer not to hack rss feeds together or write too much custom code.  I know there are <a href=""http://extensions.joomla.org/component/option,com_mtree/task,listcats/cat_id,1759/Itemid,35/"" rel=""nofollow"">several extensions</a> out there but they all receive largely mixed reviews... Has anyone used any of these?  Or has anyone had experience putting something like this together?</p>
+","8207","","8207","Cory","2008-09-16 17:19:44","2012-11-23 07:34:43","Joomla Blog/Wordpress Integration","<wordpress><joomla>","4","0","2","","","63916","382"
+"64380","1","64429","","2008-09-15 16:22:00","","2","1611","<p>I'm managing an instance of Wordpress where the URLs are in the following format:</p>
+
+<pre><code>http://www.example.com/example-category/blog-post-permalink/
+</code></pre>
+
+<p>The blog author did an inconsistent job of adding categories to posts, so while some of them had legitimate categories in their URLS, at least half are ""uncategorized"".</p>
+
+<p>I can easily change Wordpress to render the URL w/o the category name (e.g., <code>http://www.example.com/blog-post-permalink/</code>), but I'd like to create a mod_rewrite rule to automatically redirect any requests for the previous format to the new, cleaner one.</p>
+
+<p>Do you have a good mod_rewrite recipe to handle this, taking into account that I want to honor requests for the real WordPress directories that are in my webroot?</p>
+","732","berberich","","","","2008-09-15 16:41:54","Using Apache mod_rewrite to remove sub-directories from URL","<apache><wordpress><mod-rewrite>","1","0","","","","64380","382"
+"81410","1","81505","","2008-09-17 09:18:44","","10","12617","<p>I've got a <a href=""http://notebooks.readerville.com/"">site</a> that provides blog-friendly widgets via JavaScript. These work fine in most circumstances, including self-hosted Wordpress blogs. With blogs hosted at Wordpress.com, however, JavaScript isn't allowed in sidebar text modules. Has anyone seen a workaround for this limitation?</p>
+","6478","Ben Scofield","","","","2011-12-27 23:55:52","How do you add a JavaScript widget to a Wordpress.com hosted blog?","<javascript><wordpress><widget>","4","0","1","","","81410","382"
+"86800","1","86860","","2008-09-17 19:39:00","","1","2734","<p>I've recently embarked upon the <em>grand voyage</em> of Wordpress theming and I've been reading through the Wordpress documentation for how to write a theme.  One thing I came across <a href=""http://codex.wordpress.org/Theme_Development"" rel=""nofollow"">here</a> was that the <code>style.css</code> file must contain a specific header in order to be used by the Wordpress engine.  They give a brief example but I haven't been able to turn up any formal description of what must be in the <code>style.css</code> header portion.  Does this exist on the Wordpress site?  If it doesn't could we perhaps describe it here?</p>
+
+<p>Thanks in advance!</p>
+","16562","stopsineman","","","","2008-09-18 01:41:10","Is the syntax for the Wordpress style.css template element available anywhere?","<wordpress><wordpress-theming><css>","2","2","1","","","86800","382"
+"89504","1","90896","","2008-09-18 02:33:14","","10","2457","<p>I've got a standard Rails app with Nginx and Mongrel running at <a href=""http://mydomain"">http://mydomain</a>.  I need to run a Wordpress blog at <a href=""http://mydomain.com/blog"">http://mydomain.com/blog</a>.  My preference would be to host the blog in Apache running on either the same server or a separate box but I don't want the user to see a different server in the URL. Is that possible and if not, what would you recommend to accomplish the goal?</p>
+","14619","bdeter","","","","2012-09-02 04:29:08","What's the best way to run Wordpress on the same domain as a Rails application?","<php><ruby-on-rails><apache><wordpress><nginx>","5","0","5","","","89504","382"
+"91805","1","13771856","","2008-09-18 11:41:27","","9","5747","<p>I am setting up a few Wordpress blog sites. I have created a user in mysql that wordpress will use to access its database. The docs say to give this user all privileges on the database.</p>
+
+<p>Does it really need full privileges? I expect not, so does anyone know the min set of privileges that it really needs?</p>
+","4012","rikh","","","","2012-12-07 22:13:20","What database privileges does a Wordpress Blog really need?","<mysql><wordpress><privileges>","3","1","1","","","91805","382"
+"105000","1","","","2008-09-19 19:55:49","","0","241","<p>I'm currently using Wordpress to run my website.  However, with each new release I become more concerned with software bloat and the convoluted table structures used to store my data.  Maybe this is a fruitless pursuit.  Features are always added to blogging software until it claims to be a CMS--and at that point your data is probably stuck.</p>
+","","Matt","21234","","2012-03-23 10:55:32","2012-03-23 10:55:32","How should a blog be structured to easily extract its data?","<wordpress><data-structures><blogs>","4","1","","","","105000","382"
+"105648","1","105742","","2008-09-19 21:10:30","","34","4936","<p>I recently was contacted by a client who simply wanted to increase their organic rankings in Google.  My approach was to do the following:</p>
+
+<p>A) Take them off of their overpriced host and move them to a nicer, cheaper, more feature-rich hosting solution which included a simple Wordpress install.</p>
+
+<p>B) Apply a theme to WordPress which followed the look and feel of their existing website.</p>
+
+<p>C) Train my client on how to login to their copy of Wordpress and create/manage pages/posts.</p>
+
+<p>This took me very little time.. Most of the work in converting asp forms into php and tweaking a theme to fit their design.</p>
+
+<p>Now my client is able to create/manage as many pages or posts as they desire.</p>
+
+<p>I believe, for this purpose, Worpress was the easiest solution. </p>
+
+<p>Would you categorize Wordpress as a CMS?  </p>
+
+<p><strong>Similar</strong>:</p>
+
+<ul>
+<li><a href=""http://stackoverflow.com/questions/250880/is-there-any-cms-better-than-wordpress-or-should-i-roll-my-own"">http://stackoverflow.com/questions/250880/is-there-any-cms-better-than-wordpress-or-should-i-roll-my-own</a></li>
+<li><a href=""http://stackoverflow.com/questions/1101818/wordpress-as-a-cms-option"">http://stackoverflow.com/questions/1101818/wordpress-as-a-cms-option</a></li>
+<li><a href=""http://stackoverflow.com/questions/490899/which-cms-to-choose"">http://stackoverflow.com/questions/490899/which-cms-to-choose</a></li>
+<li><a href=""http://stackoverflow.com/questions/629203/is-it-advisable-to-use-wordpress-as-cms-closed"">http://stackoverflow.com/questions/629203/is-it-advisable-to-use-wordpress-as-cms-closed</a></li>
+<li><a href=""http://stackoverflow.com/questions/1451326/is-wordpress-good-for-building-a-large-cms-site-with-many-pages-about-over-100-00"">http://stackoverflow.com/questions/1451326/is-wordpress-good-for-building-a-large-cms-site-with-many-pages-about-over-100-00</a></li>
+</ul>
+
+<p><strong>External</strong>:</p>
+
+<ul>
+<li><a href=""http://codex.wordpress.org/User%3ALastnode/Wordpress%5FCMS"">http://codex.wordpress.org/User%3ALastnode/Wordpress%5FCMS</a></li>
+<li><a href=""http://wordpress.org/development/2009/11/wordpress-wins-cms-award/"">http://wordpress.org/development/2009/11/wordpress-wins-cms-award/</a></li>
+</ul>
+","13954","madcolor","13954","","2009-12-08 14:47:40","2015-04-10 19:14:33","Wordpress.. Is it a CMS?","<wordpress><content-management-system>","16","1","10","2011-05-02 02:25:09","","105648","382"
+"111568","1","111637","","2008-09-21 18:09:24","","0","2361","<p>I imported a series of blog posts from blogger to WordPress, and the YouTube embed tags were stripped away. Now I just have the YouTube URLs in the posts, as opposed to the complete embed tags. I am trying to restore the embed codes.</p>
+","","Jeff Solomon","","","","2013-05-01 17:50:30","YouTube embeds not working in WordPress after import from Blogger","<wordpress><youtube><blogs>","5","0","","2013-05-05 03:12:16","","111568","382"
+"113489","1","128895","","2008-09-22 06:40:21","","2","4825","<p>I've got a WordPress powered blog that I'm trying to get setup on our IIS6 server and everything works besides the permalink structure which I'm having a big headache with.</p>
+
+<p>After googling around/wordpress codex I learned that it's because IIS6 doesn't have the equivalent of Apache's mod_rewrite which is required for this feature to work. So that's where I'm at now. I can't seem to find a functional solution to get the pretty permalinks to work without the ""index.php/,"" anyone have any recommendations?</p>
+
+<p>What I can't do:</p>
+
+<ul>
+<li>Upgrade to IIS7</li>
+<li>Switch to Apache</li>
+<li>Quit my job</li>
+</ul>
+
+<p>Those suggestions have been offered to me, which sadly, I can't do any of those. Just an, FYI.</p>
+
+<p>Much thanks for anyone who can lead me in the right direction.</p>
+","6958","Ptah Dunbar","","","","2011-10-08 02:32:56","Getting IIS6 to play nice with WordPress Pretty Permalinks","<wordpress><mod-rewrite><iis-6><permalinks>","5","0","","","","113489","382"
+"118235","1","118465","","2008-09-22 23:33:40","","2","1274","<p>I run my blog using Wordpress and all too recently became a <em>big</em> believer in SCM.  I really want to put my site into subversion (that's what I'm using right now, maybe git will come later) but I can't think of the correct way to do it yet.  Basically, my repository is set up currently with an 'implementation' directory and a 'resources' directory, with implementation holding what will eventually be published to the live site.  I want to be able to preview my site locally without having to upload to the server for obvious reasons.  However, to do this I found that I needed to actually install Wordpress locally (not just copy the remote site down to my local box).  This was told to me over at Wordpress.org.</p>
+
+<p>This brings up the problem of being able to use SCM with the install because I need to upgrade my local site every now and then but this generates inconsistencies with subversion because it can’t track what’s going on because an external system is messing with it’s repository structure.  That just won’t work.</p>
+
+<p>My initial inclination is to try to just SCM my theme information as this is really the only stuff that I ‘own’ while as everything else is really just part of my platform (no different than Apache or PHP, really).  However, that’s where my understanding breaks down.  How can I selectively SCM only part of that directory structure, and how can I maintain the configuration of Wordpress that I’m on?</p>
+
+<p>Anyway, I’m sure other people have tackled this and the solution is probably applicable to many apps similar to Wordpress (Drupal, phpBB, phpMyAdmin, etc.).  So, how do you do it?</p>
+
+<p>Thanks in advance!</p>
+","16562","stopsineman","","","","2009-02-17 16:41:13","How do I use SCM with a PHP app such as Wordpress?","<wordpress><version-control>","4","0","4","","","118235","382"
+"123848","1","123875","","2008-09-23 21:00:49","","2","1316","<p>If you want to develop against WordPress (i.e., have a local instance running on your machine so you can develop themes, get blogs and sites laid out, etc.) and you're running Windows on your development machine with IIS and SQL Server already installed, what's the best way to do it?</p>
+
+<p>I found a method online which sets up a little ""mini"" server on Windows running instances of Apache and MySQL but they didn't advise using it on a machine with IIS already installed. Obviously one could install Apache and MySQL and do it that way but given what Windows affords you (i.e., methods of running PHP in IIS - I think Windows Server 2008 is even optimized for this), is that the best way? Are there ways to run WordPress with SQL Server as the backend? (I wouldn't think so but I thought I'd throw that out there).</p>
+
+<p>And are there methods differing on the version of Windows (i.e., XP, Vista, Vista64)</p>
+","2577","Schnapple","","","","2008-09-24 00:07:44","What's the best way to develop against WordPress on Windows when you already have IIS/SQL Server installed?","<windows><iis><wordpress>","4","0","2","","","123848","382"
+"134393","1","","","2008-09-25 16:36:21","","1","1086","<p>I have added author pages to my company blog recently. Although I've no trouble pulling through relevant fields to populate the page - e.g. Author Name, User-profile, etc, I would really like to be able to add a small amount of html to the user-profile. Currently the whole thing is just dumped onto the author profile page - you can <a href=""http://www.setfiremedia.com/blog/author/samsutton"" rel=""nofollow"">view my sample here</a>. </p>
+
+<p>Although we can add anchors, it seems to strip out other html tags. I presume this is some sort of security feature to prevent external users from adding malicious code. However, membership isn't open, and we could really do to be able to add a bit more structure to the text.</p>
+","2977","Sam Murray-Sutton","2977","Sam Murray-Sutton","2008-09-26 09:19:47","2009-01-29 02:56:25","Can you add html tags to the author/user profile text field on wordpress?","<html><design><wordpress><blogs><wordpress-theming>","3","0","","","","134393","382"
+"152623","1","","","2008-09-30 11:20:34","","2","439","<p>What do you use to monitor the uptime / performance of your websites, specifically those based on a PHP/MySQL platform like Wordpress?</p>
+
+<p>I'm looking for something that alerts me if the site is down, or performing too slowly, and has some useful (not volumeous!) charts showing me any potential problems, and what to do about them.</p>
+
+<p>Thanks!</p>
+","13238","David Laing","","","","2015-08-11 18:02:52","Wordpress Site Monitoring software / service","<wordpress><uptime><server-monitoring>","3","0","2","","","152623","382"
+"152712","1","152732","","2008-09-30 11:55:14","","15","6140","<p>I like the simplistic look and design of some of the Microsoft blogs. Alas, I can't join the Microsoft dev party and create my own development blog on the blogs.msdn.com page because I don't work at Microsoft, and I already have my own wordpress blog.</p>
+
+<p>I was looking to have my blog styled to one of the default looking themes shown here: <a href=""http://blogs.msdn.com/jmeier/default.aspx"">http://blogs.msdn.com/jmeier/default.aspx</a></p>
+
+<p>Could Microsoft take legal action against me if I used a stylesheet from their page? If I made my page 'based' off their stylesheet, e.g. written from the ground up, would that be copyright infringement?</p>
+","20900","RodgerB","50776","","2012-08-29 12:13:46","2012-08-29 12:13:46","Could I get in legal trouble for copying a website's stylesheet?","<css><wordpress>","8","0","1","2012-08-29 12:13:49","","152712","382"
+"172138","1","","","2008-10-05 15:25:21","","4","2071","<p>I need to setup a blog using wordpress engine but i need it support multi languages (3 languages), currently i am thinking of using custom field to identify the language of current post though i knew thats not a best practices, does anyone has better suggestions?</p>
+","19463","Komang","","","","2008-10-08 13:36:18","Setup multi languages wordpress","<php><wordpress><web-applications><blogs>","3","0","2","","","172138","382"
+"193151","1","","","2008-10-10 21:49:18","","0","2234","<p>So the question is how to distribute/offload the media files from Wordpress posts across multiple domains. </p>
+
+<p>The reasoning being to overcome this limitation:
+""Most browser will only make 2 simultaneous requests to a server, so if you page requires 16 files they will be requested 2 at a time.""</p>
+
+<p>In relation to: <a href=""http://codex.wordpress.org/WordPress_Optimization/Offloading"" rel=""nofollow"">http://codex.wordpress.org/WordPress_Optimization/Offloading</a></p>
+
+<p>To further clarify:<br />
+There are two plug ins for ""offloading"" that already do this.  They are the SteadyOffloading Plugin and the Amazon S3 plugin.<br />
+So is there a generic solution that anyone has come across.  Where it will allow you to change the base URL of the media, it doesn't necessary have to upload that media to an external service/server.</p>
+
+<p>Thanks</p>
+","","cumulus","","cumulus","2008-10-13 17:33:58","2009-05-24 00:00:00","How to distribute Wordpress media files across multiple sub domains","<wordpress><plugins><offloading>","2","1","","","","193151","382"
+"196500","1","","","2008-10-13 01:58:07","","4","8860","<p>I have a WordPress install and a .htaccess that looks like this:</p>
+
+<pre><code># BEGIN WordPress
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&lt;/IfModule&gt;
+# END WordPress
+</code></pre>
+
+<p>I tried installing a fresh install of WordPress into a subdirectory for a separate blog and am getting 404's within the root WordPress when I try to view it. I'm assuming this is because of the .htaccess, and what I want to know is, how do I change it so that I can view the subfolder? Thanks :)</p>
+","12765","thesmallprint","1696030","","2014-09-15 23:47:05","2014-09-15 23:47:05","Configuring WordPress .htaccess to view subfolders","<wordpress><.htaccess>","2","0","2","","","196500","382"
+"196505","1","196742","","2008-10-13 02:00:51","","27","32342","<p>Is there a way to use <strong>THE LOOP</strong> in Wordpress to load pages instead of posts?</p>
+
+<p>I would like to be able to query a set of child pages, and then use <strong>THE LOOP</strong> function calls on it - things like *the_permalink()* and *the_title()*.</p>
+
+<p>Is there a way to do this? I didn't see anything in *query_posts()* documentation.</p>
+","22306","ashchristopher","","","","2015-07-02 08:21:31","Using Wordpress LOOP with pages instead of posts?","<php><wordpress>","2","0","8","","","196505","382"
+"196993","1","207140","","2008-10-13 08:19:16","","6","4122","<p>i have a wordpress blog and want to give people the same user experience for adding comments that is in stackoverflow.  There are a number of comments ajax plugins out there but i can't find a working one that allows you to inline on the main page, go in and add comments without first drilling down into a seperate single post page.</p>
+
+<p>Can anyone help here with either a wordpress plugin or php code to do this.</p>
+","4653","akantro","","","","2011-10-01 13:44:37","wordpress - having comments inline ajax like in stackoverflow","<php><ajax><wordpress><comments>","7","2","7","","","196993","382"
+"201602","1","201693","","2008-10-14 15:15:22","","2","1935","<p>I am using wordpress and use custom permalink structure: /%category%/%postname%/</p>
+
+<p>My problem is that a decent number of people link to the site without including the trailing slash in the URL, so users get a 404 page.</p>
+
+<p>I'm using the default .htaccess file that comes with wordpress because no solution I've tried has worked. I've tried using the Redirection plugin, with no success. </p>
+
+<p>I'd gladly link to the site, but I don't want it to be construed as self-promotion. If you ask, I'll provide a link.</p>
+
+<p>Could anyone help me find a plugin or provide some .htaccess entries to help resolve this?</p>
+
+<p>Thanks very much!</p>
+","25066","Eric Wendelin","","","","2013-10-03 12:30:21","How can I fix my .htaccess to resolve URLs that don't end in slashes","<wordpress><.htaccess><http-status-code-404>","3","0","","","","201602","382"
+"203543","1","203557","","2008-10-15 02:34:18","","2","245","<p>I recently had to work on a project where the previous developer modified the wp-admin directory. It seems like a bad idea to me, since Wordpress is constantly updated. Am I just not at that level of expertise with modifying Wordpress?</p>
+","65465","pixelwando","","","","2008-10-16 01:16:45","Is it necessary in any circumstance to modify Wordpress other than writing plugins and themes?","<php><wordpress>","5","0","","","","203543","382"
+"210355","1","210788","","2008-10-16 21:18:26","","0","117","<p>I changed the folder that my WordPress installation was in.</p>
+
+<p>However, this worked fine, except now all my images are not showing up.</p>
+
+<p>The problem is that each post has the full url of the image in it. (not my doing, this seems to be the default setting)</p>
+
+<p>Is there a tool or a quick fix available for this?</p>
+","2490","Markus","3112243","","2015-08-04 17:09:54","2015-08-04 17:09:54","WordPress - Changed directory and images do not appear","<wordpress>","2","1","","","","210355","382"
+"210899","1","","","2008-10-17 02:05:35","","4","4061","<p>I don't know how much information you need for this, but WP-ContactForm-7 is a contact form for WordPress. By default it has one server response message for all forms on the website. I have multiple forms and would like a different server response messages for each one.</p>
+
+<p>How can I create different server response messages for each different form that I create with this plugin?</p>
+
+<p>Following is the snippet of PHP code from the plugin that seems to relate to the messages the contact form displays:</p>
+
+<pre><code>function message($status) {
+    switch ($status) {
+        case 'mail_sent_ok':
+            return __('Your message was sent successfully. Thanks.', 'wpcf7');
+        case 'mail_sent_ng':
+            return __('Failed to send your message. Please try later or contact administrator by other way.', 'wpcf7');
+        case 'validation_error':
+            return __('Validation errors occurred. Please confirm the fields and submit it again.', 'wpcf7');
+        case 'accept_terms':
+            return __('Please accept the terms to proceed.', 'wpcf7');
+        case 'invalid_email':
+            return __('Email address seems invalid.', 'wpcf7');
+        case 'invalid_required':
+            return __('Please fill the required field.', 'wpcf7');
+        case 'captcha_not_match':
+            return __('Your entered code is incorrect.', 'wpcf7');
+    }
+}
+</code></pre>
+
+<p>If this is not enough info then you can download the file from <a href=""http://downloads.wordpress.org/plugin/contact-form-7.1.8.0.3.zip"" rel=""nofollow"">here</a> and look at the whole source code.</p>
+","26351","EE","612278","","2012-02-23 00:25:57","2015-06-01 13:16:52","WP-Contact Form 7 -- PHP","<php><wordpress><forms><contact>","1","2","","","","210899","382"
+"219870","1","220157","","2008-10-20 20:52:09","","0","469","<p>I have a WordPress site (2.6.2) in which I have set the Home page to a static page instead of the normal posts page. The ID of this page is 2, so in the WordPress template I have changed the <code>wp_list_pages</code> to look like this:</p>
+
+<pre><code>&lt;?php wp_list_pages('exclude=2&amp;title_li=&amp;depth=1' ); ?&gt;
+</code></pre>
+
+<p>this works fine, but now the Home page doesn't get ""lit up"" when it's selected (because in fact it's page_id 2 that is selected, and it doesn't show in the menu). Is there any easy way around this?</p>
+
+<p>If not, in broad outlines, what's the hard way around this? Make my own version of the <code>wp_list_pages</code> function?</p>
+
+<p>Thanks!</p>
+","8047","Daniel Rosenstark","8047","Daniel Rosenstark","2008-10-20 21:29:03","2008-10-20 22:23:58","WordPress: I got rid of the second ""home"" page, but it's not good enough","<php><wordpress>","2","0","","","","219870","382"
+"220450","1","256943","","2008-10-21 00:57:32","","3","429","<p>I've got the bare minimum to handle the Linux/MySQL parts of the stack, but I want to have a basic grasp of PHP before I dive in.  I'll be working on WordPress plugins, in case there's anything specifically interesting for that.</p>
+
+<p>PS - any recommendations regarding recommended source control/IDEs would also be great, but I guess that's a separate question.</p>
+","5021","AlexeyMK","","","","2011-08-23 04:40:15","As a C# developer who wants to do some PHP work, what [book/online articles] should I [buy/read] to introduce myself to PHP?","<php><wordpress>","4","0","1","","","220450","382"
+"220824","1","225033","","2008-10-21 05:06:18","","2","605","<p>I am attempting to start a new Wordpress blog.  I am seeing funny characters in some browsers but not others instead of single quotes, double quotes and ellipses.  Things I already thought of:</p>
+
+<ul>
+<li>The HTML template page for output
+itself is set to UTF-8</li>
+<li>The admin page is UTF-8</li>
+<li>The MySQL database tables where the
+data is stored are UTF-8 encoded</li>
+<li>I am entering regular keyboard (')'s
+and ("")'s (...)'s and not pasting in
+from another application.</li>
+<li>I am using WordPress's out-of-the
+box WSYWIG</li>
+</ul>
+
+<p>Browsers it looks wrong in (for example): Firefox for Windows, IE7 For Windows
+Browsers it looks okay in (for example): Firefox for OS X, Safari for OS X</p>
+
+<p>Where do I go from here?</p>
+","22452","","11995","","2009-04-21 11:36:36","2010-06-01 08:18:26","How to I root out a mystery character encoding problem in a Wordpress blog?","<wordpress><encoding><utf-8>","4","3","1","","","220824","382"
+"223089","1","223639","","2008-10-21 19:09:11","","2","11913","<p>A prospective client wants to have a calendar feature on their website. They want the option to go edit this calendar to update the events. Does Word Press offer something like this?</p>
+","30043","godleuf","","","","2008-10-22 14:59:38","Creating a client editable events calendar in html or php","<php><html><wordpress><calendar>","5","0","1","","","223089","382"
+"225319","1","","","2008-10-22 11:21:35","","2","2656","<p>I'm wondering how I can make a plugin to output some data via the admin panel.
+Just to get me going what code would make a page in the admin panel (for only administrators) to display time()?</p>
+","21559","Steve","6408","Stewart Johnson","2008-10-22 15:00:17","2009-12-31 07:34:43","Wordpress Admin Plugin","<php><wordpress><plugins>","1","0","","","","225319","382"
+"233283","1","233324","","2008-10-24 12:23:29","","1","2047","<p>I'm starting a Wordpress Blog that will have adult content on it, so I'll need a first-time-only splash page in Wordpress. The first-time-only issue, I can fix with a cookie (although I am aware that not everyone has cookies enabled) </p>
+
+<p>What I could do is, create a script that loads another page if a cookie isn't present. Or I could make the splash page be my home page, and if the cookie is present, redirect. </p>
+
+<p>But that's not really what I'm looking for. I don't want to hassle with pages. In stead I'm looking for a lightbox-y solution, that darkens the background (the home page) and shows a panel with the choice to stay or leave. </p>
+
+<p>I haven't got a clue on how to start this. I am familiar with PHP, Javascript and CSS, so I'm not even asking for code. I just want a web programmer's view on this, and some help on how to create the splash-page the way I would like it. Or is it a stupid idea?</p>
+","31145","Liezzzje","204","dragonmantank","2008-10-24 12:50:22","2012-09-24 20:48:29","Splash page in Wordpress","<php><javascript><css><wordpress>","5","0","1","","","233283","382"
+"243873","1","243948","","2008-10-28 16:08:14","","3","1075","<p>Besides the CODEX what resources do you recommend to help a person new to creating plugins help create a WordPress plugin. I have an idea, but need a bit better explanation than what is in the CODEX to get started.</p>
+
+<p>UPDATE: Is there a book that I could buy to help me out with this?</p>
+","2535","Mike Wills","2535","Mike Wills","2008-10-28 19:18:57","2012-06-06 12:30:51","WordPress Plugin Development","<php><wordpress><plugins><resources>","4","1","5","2015-04-28 13:26:08","","243873","382"
+"248787","1","248839","","2008-10-29 23:22:17","","7","14804","<p>If you wanted to add a user forum to your software site, and make it look and work like your WordPress blog, what forum software would you choose?</p>
+
+<p>Apparently bbPress has the same origins as WordPress, but is it best or are there other choices that are better?</p>
+
+<hr>
+
+<p>Followup:</p>
+
+<p>My final solution was to integrate bbPress 0.99 with WordPress 2.6.  I have single login, integrated search, and identical styling for both blog comments and forum posts with combined user stats.  </p>
+
+<p>This used the basic integration with WordPress that bbPress 0.99 allowed, and inclusion of several bbPress plugins (<a href=""http://bbshowcase.org/forums/"" rel=""nofollow"">many by _ ck _)</a> that were heavily customized (read mangled) to my liking. The trickiest part was to get the cookies to work between the two.</p>
+
+<p>The only downfall is I can no longer upgrade either WordPress or bbPress without a lot of work. But until those stop working, I'm fine.</p>
+
+<p>If you're interested, see: <a href=""http://www.beholdgenealogy.com/blog"" rel=""nofollow"">www.beholdgenealogy.com/blog</a> and <a href=""http://www.beholdgenealogy.com/forum"" rel=""nofollow"">www.beholdgenealogy.com/forum</a></p>
+","30176","lkessler","30176","Till","2010-08-16 15:01:05","2011-12-10 14:45:25","What is the best Forum software to Integrate with a Wordpress blog?","<wordpress><integration><forum><bbpress>","12","0","5","2013-01-26 21:48:31","","248787","382"
+"250880","1","251048","","2008-10-30 16:45:03","","46","13379","<p>I'm developing a small business website and want to give some control over content to the client but also allow myself control over the outputted code.  Indeed allow the user to fill in the content gaps while not creating havoc.</p>
+
+<p>I'm leaning towards WordPress rather than reinventing the wheel in asp.net, which would be my code of choice, or possibly just html.  </p>
+
+<p>Any recommendations either way?  An alternative CMS maybe or some robust but productive framework?  (interested in mention of python frameworks)</p>
+","30913","dove","30913","harriyott","2012-11-02 18:12:47","2015-07-28 12:16:22","Is there any CMS better than WordPress or should I roll my own?","<asp.net><asp.net-mvc><wordpress><content-management-system><n2>","31","10","14","2013-01-09 13:51:32","2009-02-03 18:58:15","250880","382"
+"274157","1","","","2008-11-08 01:17:46","","1","10063","<p>Wordpress provides a function called ""the_permalink()"" that returns, you guessed it!, the permalink to a given post while in a loop of posts.</p>
+
+<p>I am trying to URL encode that permalink and when I execute this code:</p>
+
+<pre><code>&lt;?php
+print(the_permalink());
+$permalink = the_permalink();
+print($permalink);
+print(urlencode(the_permalink()));
+print(urlencode($permalink));
+$url = 'http://wpmu.local/graphjam/2008/11/06/test4/';
+print($url);
+print(urlencode($url));
+?&gt;
+</code></pre>
+
+<p>it produces these results in HTML:</p>
+
+<pre><code>http://wpmu.local/graphjam/2008/11/06/test4/
+http://wpmu.local/graphjam/2008/11/06/test4/
+http://wpmu.local/graphjam/2008/11/06/test4/
+http://wpmu.local/graphjam/2008/11/06/test4/
+http%3A%2F%2Fwpmu.local%2Fgraphjam%2F2008%2F11%2F06%2Ftest4%2F
+</code></pre>
+
+<p>I would expect lines 2, 3 and 5 of the output to be URL encoded, but only line 5 is so.  Thoughts?</p>
+","33754","Scott Porad","","","","2010-05-16 04:08:58","Wordpress, PHP, URL Encoding Issue","<php><wordpress><urlencode>","3","1","","","","274157","382"
+"278516","1","278589","","2008-11-10 17:12:43","","2","351","<p>I've used the <a href=""http://code.google.com/apis/blogger/"" rel=""nofollow"">Blogger Data API</a> and I know WordPress has an API of their own, but is there any standard in the works?  Hypothetically, if you were starting your own blog-style CMS that you wanted to make available via a web service, what API would you choose?</p>
+","9642","Neil C. Obremski","","","","2008-11-13 04:31:54","Is there a common blog API in the works?","<api><wordpress><blogger><standards>","3","0","1","","","278516","382"
+"291310","1","291330","","2008-11-14 20:30:38","","1","5492","<p>Has anyone ever modified the ""post-new.php"" file in their WordPress installation?  </p>
+
+<p>I want to modify the look of this page to include pieces that I standardly include in my blog posts, and I just don't know if it is do-able/easy/worth my time.</p>
+
+<p>Should I just find another CMS that allows more modifcation like Drupal?</p>
+","33194","JoshFinnie","","","","2011-04-06 14:39:20","Modifying WordPress's ""post-new.php"" File for Custom Blog Entries","<php><wordpress><drupal><content-management-system>","1","0","","","","291310","382"
+"296103","1","","","2008-11-17 16:38:44","","0","3361","<p>I'm working on a new Wordpress site that is exhibiting some strange behaviour. I pass it a URL with GET parameters in it, and the <code>$_GET</code> parameter is not populated.  I see in the <code>$_SERVER</code> parameter that the <code>REQUEST_URI</code> has the full URL there, completed with the <code>?var=value</code> part, but no love in the <code>$_GET</code> variable.</p>
+
+<p>The URL is being redirected with <code>mod_rewrite</code>, but given the fact that the <code>REQUEST_URI</code> shows the full thing, I'm thinking that's not the likely culprit.</p>
+","","Eliezer Israel","367456","","2011-11-13 18:16:47","2014-07-26 11:28:42","$_GET parameter is not populated, even though URL has appropriate form","<php><wordpress><url><get>","2","0","","","","296103","382"
+"306466","1","","","2008-11-20 19:04:30","","1","450","<p>I'm writing a script to display the 10 most recently ""active"" WordPress blog posts (i.e. those with the most recent comments). Problem is, the list has a lot of duplicates. I'd like to weed out the duplicates. Is there an easy way to do this by changing the MySQL query (like IGNORE, WHERE) or some other means?  Here's what I have so far:</p>
+
+<pre><code>&lt;?php
+
+function cd_recently_active() {
+    global $wpdb, $comments, $comment;
+    $number = 10; //how many recently active posts to display? enter here
+
+if ( !$comments = wp_cache_get( 'recent_comments', 'widget' ) ) {
+    $comments = $wpdb-&gt;get_results(""SELECT comment_date, comment_author, comment_author_url, comment_ID, comment_post_ID, comment_content FROM $wpdb-&gt;comments WHERE comment_approved = '1' ORDER BY comment_date_gmt DESC LIMIT $number"");
+
+    wp_cache_add( 'recent_comments', $comments, 'widget' );
+}
+?&gt;
+</code></pre>
+","34964","55skidoo","34964","","2010-04-19 02:42:20","2010-04-19 02:42:20","MySQL - Skip Duplicate WordPress Entries","<php><mysql><wordpress>","2","1","0","","","306466","382"
+"311045","1","","","2008-11-22 07:54:52","","1","384","<p>I was wondering if there is a single API documentation with ""argument list"" and the detailed description (and struct definition) of all the return values for all the blogging APIs like Blogger API,mt, metaweblog, and wp?</p>
+","","Sumit","20074","Ken","2008-11-22 08:40:15","2008-11-28 13:30:33","In-depth Documentation of XML-RPC API","<wordpress><xml-rpc>","1","0","","","","311045","382"
+"316366","1","317099","","2008-11-25 04:28:20","","0","1347","<p>Why does this code fail to display the category name ""Apples"" using the current WordPress taxonomy system? The Category names are stored in the $wpdb->terms table (wp_terms). </p>
+
+<pre><code>&lt;?php
+
+$ra_category_id = 3; 
+$ra_category = $wpdb-&gt;get_results(""SELECT name FROM $wpdb-&gt;terms WHERE term_id = '3'"");
+$ra_category_name = $ra_category-&gt;name; 		
+
+?&gt;
+
+&lt;h3&gt;Category: &lt;?php echo $ra_category_name; ?&gt;&lt;/h3&gt;
+</code></pre>
+
+<p>The table rows are  	</p>
+
+<pre><code>term_id     name 	          slug 	        term_group
+1         Uncategorized 	uncategorized 	0
+2         Blogroll 	        blogroll 	    0
+3         Apples 	        apples 	        0
+4         Bananas           bananas	 	    0
+</code></pre>
+","34964","55skidoo","18154","Fabian Steeg","2009-01-28 00:28:58","2009-01-28 00:28:58","MySQL code fails to display category name (WordPress database)","<sql><mysql><database><wordpress><taxonomy>","1","0","","","","316366","382"
+"337519","1","338092","","2008-12-03 15:33:29","","1","3255","<p>I moved an ex-site based on joomla to wordpress. Import worked fine but the problem is that the old links don't work anymore.
+Because there is only 50 or so articles, i thought will be a good idea to put a rule for each post (in .htaccess).</p>
+
+<p>Well... Not always things are like you want, so redirects dont work at all :(</p>
+
+<p>Old joomla links looks like this:</p>
+
+<pre><code>http://site.com/index.php?option=com_content&amp;task=view&amp;id=49&amp;Itemid=29
+http://site.com/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=29
+http://site.com/index.php?option=com_content&amp;task=view&amp;id=68&amp;Itemid=29
+</code></pre>
+
+<p>And need to be translated to:</p>
+
+<pre><code>http://site.com/?p=23
+http://site.com/?p=24
+http://site.com/?p=25
+</code></pre>
+
+<ul>
+<li><p>basically no relations between old and new links, so i don't think a regex will help</p></li>
+<li><p>both old and new site are on the same domain</p></li>
+</ul>
+
+<p>Ok, the problem is that any rule i've tried (and i tried a LOT!), none worked. in few cases i get 500 error, but most of times the redirect didn't work.</p>
+
+<p>So, any of you guys had same problem? I don't necessary want to have nice permalinks, but if i can, that will be better. The problem is that i have many backlinks to old url's and i don't want to loose them.</p>
+
+<p>Thanks a lot guys!</p>
+","23810","Staicu Ionut","29","Michael Haren","2009-01-15 14:05:22","2009-01-29 02:15:20","Redirect joomla url's to wordpress","<wordpress><.htaccess><mod-rewrite><joomla>","3","0","","","","337519","382"
+"349997","1","350031","","2008-12-08 16:08:43","","3","903","<pre><code>$pee = preg_replace( '|&lt;p&gt;|', ""$1&lt;p&gt;"", $pee );
+</code></pre>
+
+<p>This regular expression is from the Wordpress source code (formatting.php, wpautop function); I'm not sure what it does, can anyone help?</p>
+
+<p>Actually I'm trying to port this function to Python...if anyone knows of an existing port already, that would be much better as I'm really bad with regex.</p>
+","18494","Roy Tang","42083","mat","2008-12-12 23:01:24","2015-06-28 17:42:21","What does this Regular Expression do","<php><regex><wordpress>","9","1","2","","","349997","382"
+"359730","1","","","2008-12-11 15:34:01","","-1","3380","<p>I don't know if it is possible to add a Flash banner into a Wordpress theme... Ideally, this banner would be in the header of the site always. Any ideas on how I might accomplish this?</p>
+","33510","arecio","811","","2009-06-01 19:29:28","2011-09-26 08:50:54","How can I add a big flash banner to the top of my Wordpress blog?","<flash><wordpress><banner>","3","3","1","","","359730","382"
+"365353","1","","","2008-12-13 15:50:12","","1","142","<ol>
+<li>In WordPress, how do I hide a Page?</li>
+<li>How do I then reimplement it as a DIV, let's say, on another Page?</li>
+</ol>
+
+<p><strong>Context</strong></p>
+
+<p>I'm trying to get some year-end tax write-offs here for my freelance business, and so I'm donating WordPress sites to churches. Now, unfortunately I'm finding that several pastors don't understand computers that well, and even though WordPress is fairly easy to tech guys like you and me, they get a bit confused. Therefore, I commented out Posts, Comments, Plugins, Widgets, Users, Design, and left nothing but Pages (New, Edit, Delete) and Media Gallery. I then took a theme that showed the Pages as tabs at the top like a normal website.</p>
+
+<p>My hope is to call a particular page like Sidebar1 as its title. However, instead of this being displayed as a tab, it will be hidden. Then, it will be reimplemented as a DIV inside the page titled Home. If the pastor accidentally deletes Sidebar1, all he has to do is recreate it again and poof it reappears.</p>
+
+<p>This doesn't deal with the Wordpress website, but the Wordpress installation.</p>
+
+<p>I've changed the admin -- I just need to change the front-end.</p>
+
+<p>I could figure this out on my own, but in the interest of time I wondered if someone had already done this?</p>
+
+<p>Your help could help me get this done just in time for Christmas for some area churches here. Thank you.</p>
+","","Volomike","30698","biozinc","2008-12-13 18:26:21","2008-12-15 02:29:52","Grabbing A Page from WordPress","<php><wordpress>","2","2","","","","365353","382"
+"377628","1","","","2008-12-18 11:57:42","","2","4515","<p>I have a project in which I want to be able to call wp_list_pages() on a page that also uses the Zend Framework to power some complex interfaces manages custom data outside of wordpress.</p>
+
+<p>This page should also redirect the user to the wordpress login screen if they're not already logged in with the appropriate level of authorization.</p>
+
+<p>How would this work at a high level, i.e. do I need to edit the wordpress bootstrap file to conditionally implement the custom interface based on a specific URL or something, but still include certain files to be able to call wp_list_pages() on that custom interface?</p>
+","","Iain","","","","2010-02-19 17:48:39","Can I integrate a Zend-Framework powered web application into a wordpress site?","<zend-framework><wordpress>","7","1","3","","","377628","382"
+"379533","1","382350","","2008-12-18 22:24:04","","3","245","<p>I've got a plugin I wrote for wordpress and I need to have the Pages widget enabled for everything to work properly.  It would be nice if I could enable it myself in the plugin rather than requesting the user to do this.</p>
+
+<p>Do you know of a way to do that?</p>
+","46782","GeoffreyF67","","user212218","2011-12-13 17:59:35","2011-12-13 17:59:35","Is there a way to programatically enable a widget from a plugin in WordPress?","<wordpress><plugins><widget>","1","0","1","","","379533","382"
+"382488","1","","","2008-12-19 23:00:51","","0","1026","<p>Is there a way to create an exlicit relationship between two posts in WordPress regarless of what categories those posts might be in?</p>
+
+<p>The idea is that within the post template it would be obtain and list the related posts for the current post.</p>
+
+<p>I'm guessing you could achieve this using tags to group posts together, but that seems to be a hi-jacking of the tag system for a purpose for which is wasn't designed.</p>
+
+<p>Any ideas?</p>
+","3187","Nick Higgs","3187","Nick Higgs","2008-12-19 23:51:03","2009-01-28 22:07:31","Creating relationships between posts in WordPress","<wordpress>","3","1","1","","","382488","382"
+"396674","1","396726","","2008-12-28 20:56:50","","2","1362","<p>I'm working on a wordpress template and need to add a hyperlink to the cartoon bubble at the top of the page. The bubble, as far as I can tell, is php. Where do I insert the href?</p>
+
+<pre><code>&lt;h1&gt;&lt;a href=""&lt;?php bloginfo('url'); ?&gt;/""&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/a&gt;&lt;/h1&gt;
+</code></pre>
+
+<p></p>
+
+<p>The href should point to www.ojaivalleynews.com</p>
+
+<p>The blog url is www.ovnblog.com if you want a visual on the bubble. I've used firebug to ispect, but alas I don't know enough about php to make sense of it.</p>
+
+<p>Thanks</p>
+
+<p>UPDATE...</p>
+
+<p>I missed the second line of code regarding the above question, and based off of the suggestions here, have made corrections to this line and it works.</p>
+
+<pre><code>&lt;h1&gt;&lt;a href=""&lt;?php bloginfo('url'); ?&gt;/""&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;div id=""bubble""&gt;&lt;p&gt;&lt;a href=""http://www.ojaivalleynews.com/"" target=""_blank""&gt;&lt;?php bloginfo('description'); ?&gt;&lt;/p&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Thanks for everyone's help. An upvote for everybody!</p>
+","39781","rashneon","39781","rashneon","2008-12-28 21:49:08","2008-12-28 21:57:13","hyperlink on php","<php><wordpress><href>","6","5","","","","396674","382"
+"401744","1","437092","","2008-12-30 22:42:33","","5","4044","<p>I am using shared hosting with IIS7 and support for PHP. I am trying to run a wordpress blog with ""pretty urls"" (removing index.php). The hosting provider doesn't want to install the URLRewrite module, so that option isn't available to me. I found a plugin for wordpress that will remove the index.php from permalink URLs and changing the 404 page to index.php is supposed to do the trick... that isn't working either.</p>
+
+<p>I'm familiar with URL rewriting for an ASP.NET website, but I'm not sure how I would go about it for PHP. The hosting setup seems to support ASP.NET and PHP at the same time, so I'm thinking it would be possible to run the rewrite code through ASP.NET, but I'm not sure how to go about it.</p>
+
+<p>Does anybody have any experience with this or any ideas about the best approach to take. If anything leads me in the right direction or if I figure it out myself, I will be more than happy to share the code here for anybody else that may need it. </p>
+","8087","Andrew Van Slaars","","","","2009-01-12 21:34:30","URL Rewrite on IIS7 for Wordpress","<asp.net><wordpress><url-rewriting>","3","0","4","","","401744","382"
+"410933","1","411033","","2009-01-04 12:39:18","","0","663","<p>I have a relatively complex .htaccess file to control page requests, this currently redirects all requests of files (with some type exclusions) to an index file, with an exception of one directory that includes a WordPress installation.</p>
+
+<p>I now need to enable the WordPress PermaLink support but I'm having some difficulty modifying the .htaccess to work.</p>
+
+<p>The PermaLinks are required to produce more-SEO friendly URLs, and they are normally taken care of exclusively by WordPress - but it my case, it appears that a mod-rewrite rule, as detailed <a href=""http://perishablepress.com/press/2006/06/14/the-htaccess-rules-for-all-wordpress-permalinks/"" rel=""nofollow"">here</a> is required (otherwise, when enabled it gives a 404 response).</p>
+
+<p>Here is the current .htaccess contents:</p>
+
+<pre><code>RewriteEngine ON
+
+RewriteCond %{HTTP_HOST} !^www\..*
+RewriteCond %{HTTP_HOST}   !^$
+RewriteCond %{HTTP_HOST} ^([^.]*)\.(co\.uk)
+RewriteRule ^.*$     http://www.%1.%2%{REQUEST_URI} [R=permanent,L]
+
+AddHandler application/x-httpd-php .phtml
+
+#RewriteBase /blog/
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /blog/index.php [L]
+
+RewriteBase /
+RewriteRule  ^blog/  -  [L]
+RewriteRule !\.(js|ico|gif|jpg|JPG|png|css|php|phtml|pdf|txt|xml|swf|flv)$ index.phtml
+</code></pre>
+
+<p>The commented out section is where I'm trying and failing to add a rule for the WordPress PermaLink functionality.</p>
+
+<p>Initially, I thought this code was working but in fact some non-WordPress requests are still routed to the blog/index.php file and when trying to follow links out of the blog to other site areas these are again being routed back to the blog index.php.</p>
+","29538","BrynJ","29538","BrynJ","2009-01-04 13:26:11","2010-12-07 16:34:04","URL Rewrite with two distinct blanket redirects (one for WordPress permalinks)","<php><apache><wordpress><mod-rewrite><redirect>","1","2","","","","410933","382"

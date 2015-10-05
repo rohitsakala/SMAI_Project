@@ -1,0 +1,554 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"594","1","595","","2008-08-03 01:15:08","","15","16807","<p>There are several ways to iterate over a result set, which way is the best?</p>
+","116","","1399491","Mark Harrison","2012-07-02 15:23:39","2012-07-02 15:23:39","cx_Oracle - what is the best way to iterate over a result set?","<python><sql><database><oracle><cx-oracle>","3","1","3","","","594","194"
+"4622","1","4626","","2008-08-07 12:13:01","","36","120934","<p>What is the <strong>complete</strong> and correct syntax for the SQL Case statement?</p>
+","383","","3492139","Mark Harrison","2014-05-26 08:50:42","2014-05-26 08:50:42","SQL Case Statement Syntax?","<sql><sql-server><database><oracle><syntax>","8","0","13","","","4622","194"
+"8145","1","8161","","2008-08-11 19:53:16","","3","9225","<p>How can I find the high water mark (the historical maximum number of concurrent users) in an <strong>oracle database (9i)</strong>.</p>
+","685","","1215724","","2015-04-17 18:10:22","2015-04-17 18:10:22","How do I find the high water mark (for sessions) on Oracle 9i","<oracle>","2","0","","","","8145","194"
+"9932","1","9957","","2008-08-13 15:16:50","","1","195","<p>I have an application deployed into multiple zones and there are some issues with opening larger documents (20-50MB) across the WAN.  </p>
+
+<p>Currently the documents are stored in Zone 1 (Americas) and a link stored in the database to the docs.  </p>
+
+<p>I have heard some things about blobs in oracle and store binary in sql server 2005.  And then perhaps copying the database to other zones.</p>
+
+<p>Any other suggestions or good results with one of the described options?</p>
+","1217","queuebit","2134","Chris Fournier","2008-08-23 18:11:57","2008-08-23 18:11:57","What is a good way to open large files across a WAN?","<sql-server><database><oracle>","2","0","","","","9932","194"
+"10499","1","29807","","2008-08-13 23:49:15","","43","138770","<p>Sometimes I get Oracle connection problems because I can't figure out which tnsnames.ora file my database client is using.</p>
+
+<p>What's the best way to figure this out?  ++happy for various platform solutions.   </p>
+","116","Mark Harrison","116","Mark Harrison","2008-08-30 09:07:24","2013-12-11 15:55:38","Oracle - What TNS Names file am I using?","<oracle><connection><tnsnames><tns>","10","0","17","","","10499","194"
+"11055","1","11080","","2008-08-14 13:57:20","","4","337","<p>I'm trying to figure out how big a certain database would be (it hasn't been created yet). I know how many rows and what the tables will be. Is there a feature in Oracle that will tell me the size of such a theoretical database? Is there a known math formula I can use? I know there is a feature to determine the size of an existing database, but I want to know how big it will be before I create it. </p>
+","543","bpapa","8454","Vaibhav","2012-08-03 21:34:17","2012-08-03 21:34:17","How big would such a database be?","<database><oracle>","5","0","","","","11055","194"
+"12877","1","12959","","2008-08-15 23:15:27","","2","4001","<p>I just get the beach ball all day long (it's been doing nothing for hours). It's not taking CPU, not reading from disk, not using the network.</p>
+
+<p>I'm using <strong>Java 1.6</strong> on <strong>Mac OS X 10.5.4</strong>. It worked once, now even restarts of the computer won't help. Activity Monitor says it's ""(Not Responding)"". Only thing that I can do is kill -9 that sucker.</p>
+
+<p>When I sample the process I see this:</p>
+
+<pre><code>    mach_msg_trap        16620
+    read        831
+    semaphore_wait_trap        831
+</code></pre>
+
+<p>An acceptable answer that doesn't fix this would include a url for a decent free Oracle client for the Mac.</p>
+
+<p>Edit:
+@Mark Harrison sadly this happens every time I start it up, it's not an old connection. I'll like to avoid running Windows on my laptop. I'm giving some plugins for my IDE a whirl, but still no solution for me.
+@Matthew Schinckel Navicat seems to only have a non-commercial Oracle product...I need a commercial friendly one (even if it costs money).</p>
+","484","Tim Trueman","3793867","Tim Trueman","2014-07-24 13:12:26","2014-07-24 13:12:26","Oracle SQL Developer not responsive when trying to view tables (or suggest an Oracle Mac client)","<java><oracle><osx>","7","0","","","","12877","194"
+"14698","1","23585","","2008-08-18 14:32:41","","3","4569","<p>When I try to precompile a *.pc file that contains a #warning directive I recieve the following error:</p>
+
+<blockquote>
+  <p>PCC-S-02014, Encountered the symbol ""warning"" when expecting one of the following: (bla bla bla).</p>
+</blockquote>
+
+<p>Can I somehow convince Pro*C to ignore the thing if it doesn't know what to do with it? I can't remove the <code>#warning</code> directive as it's used in a header file that I can't change and must include.</p>
+","1733","Maximilian","635608","","2013-09-14 09:59:43","2013-09-14 09:59:43","How to make Pro*C cope with #warning directives?","<c><oracle><oracle-pro-c>","7","0","","","","14698","194"
+"18075","1","18087","","2008-08-20 14:18:10","","8","14403","<p>I haven't really done a ton of database work in a few years and have become unaccustomed with the tools available.  Back a few years ago I was working with oracle databases and was using primarily TOAD with a little bit of MS Access as my tools of choice to prototype the queries I was using in my applications.  I really loved TOAD in that it was super intuitive and really easy to use and I'm hoping to find something similar for MS SQL Server. Something open source or free is preferable, since I doubt my client will want to pay for anything, but I'm willing to hear suggestions of things that cost money if they are far and away the best in class tool available. </p>
+","292","shs","426671","","2013-06-25 20:05:17","2014-01-09 03:07:49","SQL/Query tools?","<sql><sql-server><oracle><toad>","16","0","4","2014-01-09 03:53:10","","18075","194"
+"19058","1","19061","","2008-08-20 23:07:51","","11","29471","<p>Example:</p>
+
+<pre><code>select ename from emp where hiredate = todate('01/05/81','dd/mm/yy')
+</code></pre>
+
+<p>and </p>
+
+<pre><code>select ename from emp where hiredate = todate('01/05/81','dd/mm/rr')
+</code></pre>
+
+<p>return different results</p>
+","1782","Juan Manuel","","","","2011-04-21 05:54:05","What is the difference between oracle's 'yy' and 'rr' date mask?","<sql><oracle>","6","0","2","","","19058","194"
+"20081","1","97091","","2008-08-21 14:29:48","","3","4856","<p>I've written PL/SQL code to denormalize a table into a much-easer-to-query form. The code uses a temporary table to do some of its work, merging some rows from the original table together.</p>
+
+<p>The logic is written as a <a href=""http://www.oreillynet.com/lpt/a/3136"" rel=""nofollow"">pipelined table function</a>, following the pattern from the linked article. The table function uses a <code>PRAGMA AUTONOMOUS_TRANSACTION</code> declaration to permit the temporary table manipulation, and also accepts a cursor input parameter to restrict the denormalization to certain ID values.</p>
+
+<p>I then created a view to query the table function, passing in all possible ID values as a cursor (other uses of the function will be more restrictive).</p>
+
+<p>My question: is this all really necessary? Have I completely missed a much more simple way of accomplishing the same thing?</p>
+
+<p>Every time I touch PL/SQL I get the impression that I'm typing way too much.</p>
+
+<p><strong>Update:</strong> I'll add a sketch of the table I'm dealing with to give everyone an idea of the denormalization that I'm talking about. The table stores a history of employee jobs, each with an activation row, and (possibly) a termination row. It's possible for an employee to have multiple simultaneous jobs, as well as the same job over and over again in non-contiguous date ranges. For example:</p>
+
+<pre><code>| EMP_ID | JOB_ID | STATUS | EFF_DATE    | other columns...
+|      1 |     10 | A      | 10-JAN-2008 |
+|      2 |     11 | A      | 13-JAN-2008 |
+|      1 |     12 | A      | 20-JAN-2008 |
+|      2 |     11 | T      | 01-FEB-2008 |
+|      1 |     10 | T      | 02-FEB-2008 |
+|      2 |     11 | A      | 20-FEB-2008 |
+</code></pre>
+
+<p>Querying that to figure out who is working when in what job is non-trivial. So, my denormalization function populates the temporary table with just the date ranges for each job, for any <code>EMP_ID</code>s passed in though the cursor. Passing in <code>EMP_ID</code>s 1 and 2 would produce the following:</p>
+
+<pre><code>| EMP_ID | JOB_ID | START_DATE  | END_DATE    |
+|      1 |     10 | 10-JAN-2008 | 02-FEB-2008 |
+|      2 |     11 | 13-JAN-2008 | 01-FEB-2008 |
+|      1 |     12 | 20-JAN-2008 |             |
+|      2 |     11 | 20-FEB-2008 |             |
+</code></pre>
+
+<p>(<code>END_DATE</code> allows <code>NULL</code>s for jobs that don't have a predetermined termination date.)</p>
+
+<p>As you can imagine, this denormalized form is much, much easier to query, but creating it--so far as I can tell--requires a temporary table to store the intermediate results (e.g., job records for which the activation row has been found, but not the termination...yet). Using the pipelined table function to populate the temporary table and then return its rows is the only way I've figured out how to do it.</p>
+","726","yukondude","726","yukondude","2008-09-18 16:10:23","2008-09-19 15:33:44","Best way to encapsulate complex Oracle PL/SQL cursor logic as a view?","<sql><oracle><plsql>","6","0","1","","","20081","194"
+"20811","1","36983","","2008-08-21 19:05:20","","0","3429","<p>The university I work at uses Oracle for the database system. We currently have programs we run at night to download what we need into some local Access tables for our testing needs. Access is getting to small for this now and we need something bigger. Also, the nightly jobs require constant maintance to keep working (because of network issues, table changes, bad code :) ) and I would like to eliminate them to free us up for more important things.</p>
+
+<p>I am most familiar with MySQL so I setup a test MySQL server. What is the best way to automate copying the needed tables from Oracle to MySQL?</p>
+
+<p>Edit: I accepted the answer. I don't like the answer but it seems to be correct based on further research and the lack of other answers provided. Thanks to all for pondering my question and answering it.</p>
+","1340","Clint Davis","1340","Clint Davis","2008-09-15 12:13:04","2012-12-27 09:18:13","Automate Syncing Oracle Tables With MySQL Tables","<mysql><database><oracle>","3","0","","","","20811","194"
+"22704","1","22722","","2008-08-22 15:48:44","","2","466","<ul>
+<li>Any personal experience in overcoming web application performance hurdles? </li>
+<li>Any recommended strategies for improving the performance of a data-driven web application? </li>
+</ul>
+
+<p>My development team works on a web application (JSP reports, HTML, JavaScript) that uses an Oracle database (PL/SQL). The key functionality the application delivers is in reporting, where a user can get PDFs of reports at a high level and drill down to lower levels of supporting details. </p>
+
+<p>As the number of supporting detail records has grown into the millions, the performance of the system has significantly degraded. Based on our current analysis of the metrics, the bottleneck seems to be in the logic hitting the DB and the DB performance. Changing the DB model and re-doing some of the server side logic is currently being explored.  </p>
+
+<p>Partioning, indexing, explain plans, and running statistics are things that have been done on the DB side to try to help improve performance. While they've helped, they haven't solved the issue satisfactorily. The toughest part in analyzing performance data is that the database and web servers are remotely administered by a different part of the IT organization, so the developers don't have regular, full access to see what's going on (especially in the production environment, which is not mirrored exactly in any other development/testing environment).  </p>
+","","user290","-1","","2008-09-09 22:13:48","2008-08-27 17:48:55","What strategies have you employed to improve web application performance?","<performance><oracle><web-applications>","6","0","","2013-04-15 14:47:08","","22704","194"
+"23472","1","23533","","2008-08-22 20:58:21","","1","301","<p>Can anyone recommend some good resources that highlight the differences between Oracle and the AS/400 database?</p>
+
+<p>I am trying to help someone with a lot of AS/400 experience implement an Oracle installation, and they need some guidance.</p>
+
+<p>A book or online resource would be ideal.</p>
+","672","kogus","","","","2009-10-29 15:11:30","Resources for an Oracle beginner","<oracle><ibm-midrange>","3","0","","","","23472","194"
+"26002","1","26005","","2008-08-25 13:14:00","","16","5788","<p>I want our team to develop against local instances of an Oracle database.  With MS SQL, I can use SQL Express Edition.  What are my options?</p>
+","2676","","","","","2013-12-23 16:23:53","Develop on local Oracle instance","<oracle>","6","0","2","","","26002","194"
+"26746","1","","","2008-08-25 20:06:37","","2","10183","<p>I have a Windows 2008 Server (x64) running Microsoft SQL 2008 (x64) and I'm creating a Linked Server connection to an Oracle server.  I'm able to make the connection, but I cannot see any information regarding which schema a table belongs to.</p>
+
+<p>In SQL 2005, my linked servers show the schema information as I would expect.</p>
+
+<p>Does anyone know how to resolve this issue?  Is it an issue with the provider, OraOLEDB.Oracle?</p>
+
+<p>Any help or pointers would be appreciated.</p>
+","519","Otto","15401","Nigel Campbell","2008-10-08 22:30:21","2011-06-20 18:26:15","MS SQL Server 2008 ""linked server"" to Oracle : schema not showing","<sql><sql-server><oracle>","3","0","","","","26746","194"
+"27562","1","27693","","2008-08-26 08:32:51","","2","29526","<p>I am running oracle and have a query which pulls some results from the database. I would like to write the results as a text file. How would I go about doing this?</p>
+
+<p>My prefered way would be by using UTL_FILE. Would some one have an example of how to do this?</p>
+","","Steve","","Steve","2008-08-26 12:51:48","2011-12-24 23:42:30","Oracle write to file","<oracle>","5","0","1","","","27562","194"
+"28009","1","","","2008-08-26 13:23:37","","5","1092","<p>How do you determine when to use <a href=""http://www.iselfschooling.com/mc4articles/mc4cluster.htm"" rel=""nofollow"">table clusters</a>? There are two types, index and hash, to use for different cases. In your experience, have the introduction and use of table clusters paid off?</p>
+
+<p>If none of your tables are set up this way, modifying them to use table clusters would add to the complexity of the set up. But would the expected performance benefits outweight the cost of increased complexity in future maintenance work? </p>
+
+<p>Do you have any favorite online references or books that describe table clustering well and give good implementation examples? </p>
+
+<p>//Oracle tips greatly appreciated.  </p>
+","","user290","","","","2011-06-22 08:30:35","When do you use table clusters?","<database><performance><oracle>","3","0","1","","","28009","194"
+"29699","1","29727","","2008-08-27 08:01:04","","9","13356","<p>I have a database with names in it such as John Doe etc. Unfortunately some of these names contain quotes like  Keiran O'Keefe. Now when I try and search for such names as follows:</p>
+
+<pre><code>SELECT * FROM PEOPLE WHERE SURNAME='O'Keefe' 
+</code></pre>
+
+<p>I (understandably) get an error.</p>
+
+<p>How do I prevent this error from occurring. I am using Oracle and PLSQL.</p>
+","445","Calanus","901200","","2013-05-10 18:26:20","2013-05-10 18:26:20","How do I deal with quotes ' in SQL","<sql><oracle>","8","0","2","","","29699","194"
+"29744","1","29801","","2008-08-27 08:36:37","","29","3280","<p>This seems to be an overlooked area that could really use some insight.  What are your best practices for:</p>
+
+<ul>
+<li>making an upgrade procedure</li>
+<li>backing out in case of errors</li>
+<li>syncing code and database changes</li>
+<li>testing prior to deployment</li>
+<li>mechanics of modifying the table</li>
+</ul>
+
+<p>etc... </p>
+","116","Mark Harrison","116","Mark Harrison","2009-11-11 23:21:47","2010-09-17 05:29:27","How do you manage schema upgrades to a production database?","<oracle><database-administration>","8","2","15","","","29744","194"
+"30062","1","30072","","2008-08-27 13:16:58","","94","124094","<p>Yesterday I wanted to add a boolean field to an Oracle table.  However, there isn't actually a boolean data type in Oracle.  Does anyone here know the best way to simulate a boolean?  Googling the subject discovered several approaches</p>
+
+<ol>
+<li><p>Use an integer and just don't bother assigning anything other than 0 or 1 to it.</p></li>
+<li><p>Use a char field with 'Y' or 'N' as the only two values.</p></li>
+<li><p>Use an enum with the CHECK constraint.</p></li>
+</ol>
+
+<p>Do experienced Oracle developers know which approach is preferred/canonical?</p>
+","1694","Eli Courtwright","","","","2015-08-19 23:35:44","Boolean Field in Oracle","<oracle>","7","1","28","","","30062","194"
+"30775","1","31368","","2008-08-27 18:15:39","","3","501","<p>How do I use Windows Authentication to connect to an Oracle database?</p>
+
+<p>Currently I just use an Oracle Username and password however a requirement is to give the user on install the option of selecting Windows Authentication since we offer the same as SQL.</p>
+","2469","Longhorn213","","","","2008-08-27 23:56:20","NHibernate and Oracle connect through Windows Authenication","<windows><oracle><nhibernate>","1","0","","","","30775","194"
+"30790","1","30809","","2008-08-27 18:18:29","","17","18742","<p>I can connect with the DataContext to the Oracle database however I get errors in running the query against the oracle database.  I looked at the SQL generated and it is for MSSQL and not Oracle PSQL.  </p>
+
+<p>Does anybody know of a decent easy to use wrapper to use LINQ against an Oracle Database?</p>
+","2469","Longhorn213","905","Keith","2008-08-27 18:19:00","2013-06-07 09:51:23","Is there a Way to use Linq to Oracle","<linq><oracle>","11","0","5","","","30790","194"
+"31885","1","31949","","2008-08-28 09:09:58","","11","10149","<p>I had used Server Explorer and related tools for graphical database development with Microsoft SQL Server in some of my learning projects - and it was a great experience. However, in my work I deal with Oracle DB and SQLite and my hobby projects use MySQL (because they are hosted on Linux).</p>
+
+<p>Is there a way to leverage the database-related tools in Visual Studio with other database providers?</p>
+","3205","skolima","","","","2011-09-21 09:30:04","Does Visual Studio Server Explorer support custom database providers?","<c#><mysql><visual-studio><oracle><sqlite>","5","0","1","","","31885","194"
+"33204","1","33246","","2008-08-28 19:40:55","","2","999","<p>Using oracle 10g , accessed via perl DBI , I have a table with a few tens of million rows being updated a few times per second while being read from much more frequently form another process.</p>
+
+<p>Soon the update frequency will increase by an order of magnitude (maybe two).
+Someone suggested that committing every N updates instead of after every update will help performance.</p>
+
+<p>I have a few questions:</p>
+
+<ul>
+<li>Will that be faster or slower or it depends (planning to benchmark both way as soon as can get a decent simulation of the new load)</li>
+<li>Why will it help / hinder performance.</li>
+<li>If ""it depends ..."" , on what ?</li>
+<li>If it helps what's the best value of N ?</li>
+<li>Why can't my local DBA have an helpful straight answer when I need one? <br />(Actually I know the answer to that one) :-) </li>
+</ul>
+
+<blockquote>
+  <p>EDIT:</p>
+  
+  <p>@codeslave : Thanks, btw losing
+  uncommited changes is not a problem, I
+  don't delete the original data used
+  for updating till I am sure everything
+  is fine , btw cleaning lady did
+  unplugs the server, TWICE :-)</p>
+  
+  <p>Some googling showed it might help
+  because of issue related to rollback
+  segments, but I still don't know a
+  rule of thumb for N every few tens ?
+  hundreds? thousand ?</p>
+  
+  <p>@diciu : Great info, I'll definitely
+  look into that.</p>
+</blockquote>
+","238","Pat","155077","Pat","2015-08-24 09:05:40","2015-08-24 09:05:40","When to commit changes?","<sql><oracle>","6","0","","","","33204","194"
+"33903","1","33922","","2008-08-29 03:08:32","","2","1617","<p>I currently work with an Oracle database and we use stored procedures for all our SQL queries. The problem I have is that we do not really having a coding standard for our packages. So what happens is that every developer has a different style (or in some cases no sense of style) in how they format there packages. Making them difficult to read and work on with out first reformatting. We all pretty much just use Notepad or Notepad2 to write our packages. </p>
+
+<p>I am unfortunately not in a position to mandate a coding standard and enforce it (just a code monkey at this point) so I was hoping to find a free SQL code formatter that I can use myself, and possibly suggest to others on the team to use, to make my life easier.</p>
+
+<p>I have considered writing a small application that would essentially take a file as input and reformat everything, but before I did this I figured I would ask if anyone new of such a tool that is already available and is free.</p>
+
+<p>So does anyone now of any such tools available? </p>
+","3340","bigbrother82","","","","2012-02-27 22:13:45","Formatting Stored Procedures","<sql><oracle><stored-procedures>","5","1","","2013-11-27 03:05:43","","33903","194"
+"36813","1","36927","","2008-08-31 12:11:42","","2","6096","<p>When and how should table stats gathering be performed for Oracle, version 9 and up? How would you go about gathering stats for a large database, where stats gathering would collide with ""business hours"".</p>
+","3839","Matthew Watson","","","","2008-09-22 19:44:37","Table Stats gathering for Oracle","<oracle>","4","0","","","","36813","194"
+"36825","1","37071","","2008-08-31 12:29:38","","0","676","<p>Is there any way to listen to an Oracle AQ using a Perl process as the listener.</p>
+","3839","Matthew Watson","","Mark Brady","2008-10-17 17:57:37","2008-10-17 17:57:37","Integrating Perl and Oracle Advanced Queuing","<perl><oracle><messaging><advanced-queuing>","1","0","","","","36825","194"
+"36848","1","","","2008-08-31 13:00:32","","0","3538","<p>What tools would you recommend for monitoring the general health and performance of an oracle database. How do you ensure database issues are picked up and resolved quickly.</p>
+","3839","Matthew Watson","","","","2012-06-15 17:07:31","Oracle Server performance monitoring tools","<oracle><monitoring>","5","0","","2012-06-15 18:09:08","","36848","194"
+"37586","1","67977","","2008-09-01 07:54:44","","9","12748","<p>Our application is interfacing with a lot of web services these days. We have our own package that someone wrote a few years back using UTL_HTTP and it generally works, but needs some hard-coding of the SOAP envelope to work with certain systems. I would like to make it more generic, but lack experience to know how many scenarios I would have to deal with. The variations are in what namespaces need to be declared and the format of the elements. We have to handle both simple calls with a few parameters and those that pass a large amount of data in an encoded string.</p>
+
+<p>I know that 10g has UTL_DBWS, but there are not a huge number of use-cases on-line. Is it stable and flexible enough for general use? <a href=""http://stanford.edu/dept/itss/docs/oracle/10g/java.101/b12021/callouts.htm"">Documentation</a></p>
+","1895","steevc","1895","steevc","2008-09-04 09:14:56","2015-01-22 20:47:54","Consuming web services from Oracle PL/SQL","<oracle><web-services><plsql>","4","0","1","","","37586","194"
+"38014","1","38050","","2008-09-01 14:51:30","","3","599","<p>I am facing problem with an Oracle Query in a .net 2.0 based windows application. I am using <code>System.Data.OracleClient</code> to connect to oracle database. Name of database is <code>myDB</code>. Below the the connection string I am using:</p>
+
+<pre><code>Data Source=(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)
+(HOST =  172.16.0.24)(PORT = 1522)))(CONNECT_DATA =(SERVICE_NAME = ORCL)));
+User ID=myDB;Password=myDB;Unicode=True
+</code></pre>
+
+<p>If I run the below query then it will given me wrong result (here wrong result means incorrect data. The data doesn't belongs to myDB):</p>
+
+<pre><code>SELECT ID, NAME  
+FROM MyTempTable
+WHERE ID IN (10780, 10760, 11890)
+</code></pre>
+
+<p>But if I append the database name along with it the it is giving correct result:</p>
+
+<pre><code>SELECT ID, NAME
+FROM ""myDB"".MyTempTable
+WHERE ID IN (10780, 10760, 11890)
+</code></pre>
+
+<p>My limitation is that I cannot append the database name as this is a generic application and can run with any database on run time. Please help.</p>
+","191","Ramesh Soni","146325","Ramesh Soni","2011-06-04 03:48:35","2011-06-04 21:52:44","Referencing same table name in different schemas","<.net><sql><oracle>","5","0","","","","38014","194"
+"38074","1","40159","","2008-09-01 15:52:32","","8","18746","<p>If you create an Oracle dblink you cannot directly access LOB columns in the target tables.</p>
+
+<p>For instance, you create a dblink with:</p>
+
+<pre><code>create database link TEST_LINK 
+  connect to TARGETUSER IDENTIFIED BY password using 'DATABASESID';
+</code></pre>
+
+<p>After this you can do stuff like:</p>
+
+<pre><code>select column_a, column_b 
+from data_user.sample_table@TEST_LINK
+</code></pre>
+
+<p>Except if the column is a LOB, then you get the error:</p>
+
+<pre><code>ORA-22992: cannot use LOB locators selected from remote tables
+</code></pre>
+
+<p>This is <a href=""http://docs.oracle.com/cd/B10501_01/appdev.920/a96591/adl04mng.htm#98328"" rel=""nofollow"">a documented restriction</a>.</p>
+
+<p>The same page suggests you fetch the values into a local table, but that is... kind of messy:</p>
+
+<pre><code>CREATE TABLE tmp_hello 
+AS SELECT column_a 
+from data_user.sample_table@TEST_LINK
+</code></pre>
+
+<p>Any other ideas?</p>
+","2846","morais","146325","morais","2013-01-30 23:30:52","2013-05-26 10:50:56","Best way to handle LOBs in Oracle distributed databases","<sql><oracle><distributed-transactions><dblink>","5","0","2","","","38074","194"
+"38435","1","38718","","2008-09-01 21:06:07","","2","1811","<p>Given an Oracle table created using the following:</p>
+
+<pre><code>CREATE TABLE Log(WhenAdded TIMESTAMP(6) WITH TIME ZONE);
+</code></pre>
+
+<p>Using the Python ODBC module from its <a href=""http://www.python.org/download/windows/"" rel=""nofollow"">Win32 extensions</a> (from the win32all package), I tried the following:</p>
+
+<pre><code>import dbi, odbc
+
+connection = odbc.odbc(""Driver=Oracle in OraHome92;Dbq=SERVER;Uid=USER;Pwd=PASSWD"")
+
+cursor = connection.cursor()
+cursor.execute(""SELECT WhenAdded FROM Log"")
+
+results = cursor.fetchall()
+</code></pre>
+
+<p>When I run this, I get the following:</p>
+
+<pre><code>Traceback (most recent call last):
+...
+    results = cursor.fetchall()
+dbi.operation-error: [Oracle][ODBC][Ora]ORA-00932: inconsistent datatypes: expected %s got %s 
+in FETCH
+</code></pre>
+
+<p>The other data types I've tried (VARCHAR2, BLOB) do not cause this problem. Is there a way of retrieving timestamps?</p>
+","2193","","135152","","2011-04-01 04:18:59","2011-04-01 04:18:59","Retrieving an Oracle timestamp using Python's Win32 ODBC module","<python><oracle><ora-00932>","2","0","","","","38435","194"
+"39438","1","41100","","2008-09-02 13:01:06","","6","2898","<p>We are bringing a new project in house and whereas previously all our work was on SQL Server the new product uses an oracle back end.</p>
+
+<p>Can anyone advise any crib sheets or such like that gives an SQL Server person like me a rundown of what the major differences are - Would like to be able to get up and running as soon as possible.</p>
+","770","Martin","","","","2008-09-06 19:47:59","Developer moving from SQL Server to Oracle","<sql-server><database><oracle>","8","1","3","","","39438","194"
+"39576","1","39602","","2008-09-02 13:56:19","","86","143906","<p>I'm looking for a good way to perform multi-row inserts into an Oracle 9 database.  The following works in MySQL but doesn't seem to be supported in Oracle.</p>
+
+<pre><code>INSERT INTO TMP_DIM_EXCH_RT 
+(EXCH_WH_KEY, 
+ EXCH_NAT_KEY, 
+ EXCH_DATE, EXCH_RATE, 
+ FROM_CURCY_CD, 
+ TO_CURCY_CD, 
+ EXCH_EFF_DATE, 
+ EXCH_EFF_END_DATE, 
+ EXCH_LAST_UPDATED_DATE) 
+VALUES
+	(1, 1, '28-AUG-2008', 109.49, 'USD', 'JPY', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008'),
+	(2, 1, '28-AUG-2008', .54, 'USD', 'GBP', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008'),
+	(3, 1, '28-AUG-2008', 1.05, 'USD', 'CAD', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008'),
+	(4, 1, '28-AUG-2008', .68, 'USD', 'EUR', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008'),
+	(5, 1, '28-AUG-2008', 1.16, 'USD', 'AUD', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008'),
+	(6, 1, '28-AUG-2008', 7.81, 'USD', 'HKD', '28-AUG-2008', '28-AUG-2008', '28-AUG-2008');
+</code></pre>
+","3734","Jamey","161816","","2014-12-09 20:03:30","2015-04-12 19:57:34","Best way to do multi-row insert in Oracle?","<sql><database><oracle><oracle9i>","5","0","22","","","39576","194"
+"39777","1","91543","","2008-09-02 15:19:33","","0","1201","<p>I am looking to implement a data-driven wizard with the question tree stored in an Oracle database.  What is the best schema to use to make the database portion flexible (i.e. easy to add new paths of questions) without sacrificing too much in terms of performance?</p>
+","4267","","","","","2008-09-18 10:44:23","Implementing a '20 Questions'-like Wizard in a Database","<sql><oracle><database-design>","1","0","","","","39777","194"
+"40586","1","40593","","2008-09-02 20:40:29","","0","1135","<p>In a try/except block, how do I extract the Oracle error number?</p>
+","116","Mark Harrison","","","","2008-09-02 20:41:33","cx_Oracle: how do I get the ORA-xxxxx error number?","<python><oracle><cx-oracle>","1","0","1","","","40586","194"
+"41781","1","","","2008-09-03 14:25:04","","16","28633","<p>I've worked with T-SQL for years but i've just moved to an organisation that is going to require writing some Oracle stuff, probably just simple CRUD operations at least until I find my feet. I'm not going to be migrating databases from one to the other simply interacting with existing Oracle databases from an Application Development perspective. Is there are tool or utility available to easily translate T-SQL into PL/SQL, a keyword mapper is the sort of thing I'm looking for.</p>
+
+<p>P.S. I'm too lazy to RTFM, besides it's not going to be a big part of my role so I just want something to get me up to speed a little faster.</p>
+","4403","","4403","Michael Prewecki","2008-09-06 11:22:51","2014-04-28 10:02:23","Microsoft T-SQL to Oracle PL/SQL translation","<sql><oracle><tsql><plsql>","11","1","9","","","41781","194"
+"41838","1","93581","","2008-09-03 14:48:16","","2","909","<p>We are about to get a canned package in that has been modified to our needs. I'm part of the team setup to prepare tests for it. It has an Oracle back end and I believe it's written in C++ .NET.</p>
+
+<p>My question is what free or open source testing tools would you recommend.</p>
+
+<p>Thanks</p>
+
+<p>Ken</p>
+","3430","Ken Wren","2354564","Rob Cooper","2014-07-14 11:01:14","2014-07-14 11:01:14","Black Box testing software","<oracle><testing><black-box>","6","0","","","","41838","194"
+"42386","1","","","2008-09-03 19:40:25","","3","890","<p>Is there a one statement or one line way to accomplish something like this, where the string s is declared AND assigned the first non-null value in the expression?</p>
+
+<pre><code>//pseudo-codeish
+string s = Coalesce(string1, string2, string3);
+</code></pre>
+
+<p>or, more generally,</p>
+
+<pre><code>object obj = Coalesce(obj1, obj2, obj3, ...objx);
+</code></pre>
+","4438","COPILOT User","","","","2013-05-27 17:46:08","What is the C# equivalent of the Oracle PL/SQL COALESCE function?","<c#><oracle>","2","0","","","","42386","194"
+"42483","1","42540","","2008-09-03 20:19:30","","9","2153","<p>We have a client that has Oracle <em>Standard</em>, and a project that would be ten times easier addressed using OLAP. However, Oracle only supports OLAP in the <em>Enterprise</em> version.</p>
+
+<p>Migration to enterprise is <strong>not</strong> possible</p>
+
+<p>I'm thinking of doing some manual simulation of OLAP, creating relational tables to simulate the technology.</p>
+
+<p>Do you know of some other way I could do this? Maybe an open-source tool for OLAP? Any ideas?</p>
+","1782","Juan Manuel","","","","2010-09-10 09:57:16","Simulated OLAP","<oracle><olap><cubes>","6","0","4","","","42483","194"
+"43808","1","43830","","2008-09-04 13:56:45","","6","6273","<p>I have a distributed Java application running on 5 application servers. The servers all use the same Oracle 9i database running on a 6th machine.</p>
+
+<p>The application need to prefetch a batch of 100 IDs from a sequence. It's relatively easy to do in a single-threaded, non-distributed environment, you can just issue these queries:</p>
+
+<pre><code>select seq.nextval from dual;
+alter sequence seq increment by 100;
+select seq.nextval from dual;
+</code></pre>
+
+<p>The first select fetches the first sequence ID that the application can use, the second select returns the last one that can be used.</p>
+
+<p>Things get way more interesting in a multithreaded environment. You can't be sure that before the second select another thread doesn't increase the sequence by 100 again. This issue can be solved by synchronizing the access on the Java side - you only let one thread begin fetching the IDs at one time.</p>
+
+<p>The situation becomes really hard when you can't synchronize because parts of the application doesn't run on the same JVM, not even on the same physical machine. I found some references on forums that others have problems with solving this problem too, but none of the answers are really working not to mention being reasonable.</p>
+
+<p>Can the community provide a solution for this problem?</p>
+
+<p>Some more information:</p>
+
+<ul>
+<li>I can't really play with the transaction isolation levels. I use JPA and the change would affect the entire application, not only the prefetching queries and that's not acceptable for me.</li>
+<li><p>On PostgreSQL I could do the following:</p>
+
+<p>select setval('seq', nextval('seq') + n - 1 )</p></li>
+<li><p>The solution by Matthew works when you can use a fixed increment value (which is perfectly acceptable in my case). However is there a solution when you don't want to fix the size of the increment, but want to adjust it dynamically?</p></li>
+</ul>
+","686","Zizzencs","686","Zizzencs","2008-09-04 14:31:43","2008-09-08 07:30:05","How to prefetch Oracle sequence ID-s in a distributed environment","<java><oracle>","4","0","1","","","43808","194"
+"43819","1","","","2008-09-04 14:04:10","","5","14324","<p>We are now using NHibernate to connect to different database base on where our software is installed.  So I am porting many SQL Procedures to Oracle.</p>
+
+<p>SQL Server has a nice function called DateDiff which takes a date part, startdate and enddate.</p>
+
+<p>Date parts examples are day, week, month, year, etc. . . </p>
+
+<p>What is the Oracle equivalent?</p>
+
+<p>I have not found one do I have to create my own version of it?</p>
+
+<p><strong>(update by Mark Harrison)</strong> there are several nice answers that explain Oracle date arithmetic.  If you need an Oracle datediff() see Einstein's answer.  (I need this to keep spme SQL scripts compatible between Sybase and Oracle.)  Note that this question applies equally to Sybase.</p>
+","2469","Longhorn213","76337","Nigel Campbell","2009-08-03 14:34:24","2014-10-20 12:29:29","Oracle equivalent to SQL Server/Sybase DateDiff","<sql><sql-server><oracle><sybase><datediff>","4","1","1","","","43819","194"
+"43832","1","43938","","2008-09-04 14:11:26","","0","2005","<p>I think I might be missing something here. Here is the relevant part of the trigger:</p>
+
+<pre><code>CURSOR columnNames (inTableName IN VARCHAR2) IS 
+   SELECT COLUMN_NAME FROM USER_TAB_COLUMNS WHERE TABLE_NAME = inTableName;
+/* Removed for brevity */
+OPEN columnNames('TEMP');
+</code></pre>
+
+<p>And here is the error message that I'm getting back,</p>
+
+<pre>
+27/20   PLS-00306: wrong number or types of arguments in call to 'COLUMNNAMES'
+27/2    PL/SQL: Statement ignored
+</pre>
+
+<p>If I am understanding the documentation correctly, that should work, but since it is not I must be doing something wrong. Any ideas?</p>
+
+<hr>
+
+<p>@<a href=""http://stackoverflow.com/questions/43832/pls-00306-error-on-call-to-cursor#43938"">Matthew</a> - I appreciate the help, but the reason that I am confused is because this bit of code isn't working for me and is raising the errors referenced. We have other triggers in the database with code almost exactly the as that so I'm not sure if it is something that I did wrong, or something with how I am trying to store the trigger, etc.</p>
+
+<hr>
+
+<p>@<a href=""http://stackoverflow.com/questions/43832/pls-00306-error-on-call-to-cursor#43938"">Matthew</a> - Well, now I get to feel embarrassed. I did a copy/paste of the code that you provided into a new trigger and it worked fine. So I went back into the original trigger and tried it and received the error message again, except this time I started to delete stuff out of the trigger and after getting rid of this line,</p>
+
+<pre><code>FOR columnName IN columnNames LOOP
+</code></pre>
+
+<p>Things saved fine. So it turns out that where I thought the error was, wasn't actually were the error was.</p>
+","1185","Rob","321731","","2014-05-20 19:09:45","2014-05-20 19:09:45","PLS-00306 error on call to cursor","<oracle><plsql><triggers><cursor>","3","0","","","","43832","194"
+"43866","1","43901","","2008-09-04 14:26:06","","88","285192","<p>Why do I need two of them? When I have to use one or another?</p>
+","4052","Georgy Bolyuba","12870","Oli","2008-09-24 16:06:28","2015-05-19 13:36:09","How SID is different from Service name in Oracle tnsnames.ora","<database><oracle><service><administration><sid>","4","1","30","","","43866","194"
+"44005","1","","","2008-09-04 15:21:44","","13","1028","<p>We have an existing C++ application that we are going to gradually replace with a new Java-based system.  Until we have completely reimplemented everything in Java we expect the C++ and Java to have to communicate with each other (RMI, SOAP, messaging, etc - we haven't decided).</p>
+
+<p>Now my manager thinks we'll need the Java and C++ sides to participate in the same Oracle DB transaction.  This is related to, but different from the usual distrbuted transaction problem of having a single process co-ordinate 2 transactional resources, such as a DB and a message queue.</p>
+
+<p>I think propagating a transaction across processes is a terrible idea from a performance and stability point-of-view, but I am still going to be asked for a solution.</p>
+
+<p>I am familiar with XA transactions and I've done some work with the JBoss Transaction Manager, but my googling hasn't turned up anything good on propagating an XA transaction between 2 processes.</p>
+
+<p>We are using Spring on the Java side and their documentation explicitly states they do not provide any help with transaction propagation.</p>
+
+<p>We are not planning on using a traditional Java EE server (for example: IBM Websphere), which may have support for propagation (not that I can find any definitive documentation).</p>
+
+<p>Any help or pointers on solutions is greatly appreciated.</p>
+","1809","Steven Dick","324152","","2015-03-31 14:52:43","2015-04-07 13:58:12","Propagation of Oracle Transactions Between C++ and Java","<java><c++><oracle><transactions><jta>","3","4","5","","","44005","194"
+"44224","1","45989","","2008-09-04 17:21:54","","4","1605","<p>I am looking for some advice on what should I concentrate my efforts to get the needed skills to become a Java developer for Oracle applications. I'm bit confused as there are lot of technologies in the Java world. Where should I start? What to avoid? Is JDeveloper a good IDE for a beginner?</p>
+","3515","Kamil Zadora","","","","2010-01-06 01:17:52","How to start learning JAVA for use with Oracle RDBMS?","<java><oracle>","7","0","","","","44224","194"
+"46380","1","46400","","2008-09-05 17:45:02","","41","13203","<p>If you've used Oracle, you've probably gotten the helpful message ""ORA-00942: Table or view does not exist"". Is there a legitimate technical reason the message doesn't include the name of the missing object? </p>
+
+<p>Arguments about this being due to security sound like they were crafted by the TSA. If I'm an attacker, I'd know what table I just attempted to exploit, and be able to interpret this unhelpful message easily. If I'm a developer working with a complex join through several layers of application code, it's often very difficult to tell.</p>
+
+<p>My guess is that when this error was originally implemented, someone neglected to add the object name, and now, people are afraid it will break compatibility to fix it. (Code doing silly things like parsing the error message will be confused if it changes.)</p>
+
+<p>Is there a developer-friendly (as opposed to recruiting your DBA) way to determine the name of the missing table?</p>
+
+<p><hr /></p>
+
+<p>Although I've accepted an answer which is relevant to the topic, it doesn't really answer my question: <em>Why isn't the name part of the error message?</em> If anyone can come up with the real answer, I'll be happy to change my vote.</p>
+","3474","erickson","3474","erickson","2011-04-28 14:56:28","2013-03-03 22:03:18","Why doesn't Oracle tell you WHICH table or view does not exist?","<sql><database><oracle><orm><ora-00942>","8","4","7","","","46380","194"
+"47225","1","67198","","2008-09-06 03:25:44","","4","441","<p>We have literally 100's of Access databases floating around the network. Some with light usage and some with quite heavy usage, and some no usage whatsoever. What we would like to do is centralise these databases onto a managed database and retain as much as possible of the reports and forms within them.</p>
+
+<p>The benefits of doing this would be to have some sort of usage tracking, and also the ability to pay more attention to some of the important decentralised data that is stored in these apps.</p>
+
+<p>There is no real constraints on RDBMS (Oracle, MS SQL server) or the stack it would run on (LAMP, ASP.net, Java) and there obviously won't be a silver bullet for this. We would like something that can remove the initial grunt work in an automated fashion.</p>
+","4134","Mark Nold","15401","Nigel Campbell","2008-10-08 22:21:07","2012-07-01 13:14:36","How would you migrate hundreds of MS Access databases to a central service?","<sql-server><oracle><ms-access>","5","0","","","","47225","194"
+"47279","1","845174","","2008-09-06 06:19:13","","4","1608","<p>Are there any good oracle podcasts around? The only ones I've found is produced by oracle corp, and as such are little more than advertising pieces pushing their technology of the moment.</p>
+
+<p>I'm specifically interested in Database technologies.</p>
+","3839","Matthew Watson","3839","huseyint","2009-05-11 10:46:02","2009-07-22 10:17:09","Are there any good oracle podcasts?","<oracle><podcast>","3","0","","2011-09-18 02:59:08","","47279","194"
+"47366","1","1521408","","2008-09-06 10:06:32","","9","3786","<p>We're a .NET team which uses the Oracle DB for a lot of reasons that I won't get into. But deployment has been a bitch. We are manually keeping track of all the changes to the schema in each version, by keeping a record of all the scripts that we run during development. </p>
+
+<p>Now, if a developer forgets to check-in his script to the source control after he ran it - which is not that rare - at the end of the iteration we get a great big headache.</p>
+
+<p>I hear that SQL Compare by Red-Gate might solve these kind of issues, but it only has SQL Server support. Anybody knows of a similar tool for Oracle? I've been unable to find one.</p>
+","3389","Hitchhiker","","","","2014-03-31 19:13:02","SQL Compare-Like tool for Oracle?","<oracle><sqlcompare>","7","1","1","2013-05-09 11:00:19","","47366","194"
+"48486","1","48488","","2008-09-07 14:45:38","","3","939","<p>I'm looking for a desktop/embedded database. The two candidates I'm looking at are
+Microsoft SQL Server CE and Oracle Lite. If anyone's used both of these products, it'd be great if you could compare them. I haven't been able to find any comparisons online.</p>
+
+<p>The backend DB is Oracle10g.</p>
+
+<p><strong>Update:</strong> Clarification, the business need is a client-server app with offline functionality (hence the need for a local data store on the client)</p>
+","217","Jonathan Rauch","2432317","aku","2013-12-02 13:56:43","2013-12-02 13:56:43","Choosing a desktop database","<database><oracle><sql-server-ce>","7","0","","","","48486","194"
+"49355","1","","","2008-09-08 09:19:42","","0","1995","<p>We've got an Apache instance deployed through Oracle Application Server. It's currently installed with the default wallet, and, the self-signed certificate. We've got a GEOTRUST certificiate, imported the Trusted Roots and imported the new Cert to the Wallet Manager. We've then updated the SSL properties of the VHOST and the HTTP_SERVER through Enterprise Manager.</p>
+
+<p>Things have restarted fine, however, we now can't connect to the Apache service, we're getting the error:</p>
+
+<blockquote>
+  <p>call to NZ function nzos_Handshake failed</p>
+</blockquote>
+
+<p>This seems to point to a problem with the root certs, but in my opinion, these are registered with the Wallet correctly.</p>
+
+<p>Anyone seen this before and have some pointers?</p>
+","1776","Andrew Taylor","1668244","","2014-07-17 15:00:07","2014-07-17 15:00:07","Oracle Application Server SSL Certificates preventing connection to Apache service","<oracle><apache><ssl>","1","0","","","","49355","194"
+"49503","1","49546","","2008-09-08 11:29:59","","5","3816","<p>Can anyone recommend good tools for reverse engineering database schemas to ERD/UML, preferably to some generic format.</p>
+","3839","Matthew Watson","1853","serg10","2008-09-19 16:27:49","2012-06-03 07:24:45","Reverse engineer (oracle) schema to ERD","<oracle><uml><reverse-engineering>","5","0","","","","49503","194"
+"49602","1","49604","","2008-09-08 12:47:26","","3","6193","<p>In Oracle, the number of rows returned in an arbitrary query can be limited by filtering on the ""virtual"" <code>rownum</code> column. Consider the following example, which will return, at most, 10 rows.</p>
+
+<pre>SELECT * FROM all_tables WHERE rownum &lt;= 10</pre>
+
+<p>Is there a simple, generic way to do something similar in Ingres?</p>
+","5193","Craig","2932774","","2015-05-04 15:51:10","2015-05-04 15:51:10","How to limit result set size for arbitrary query in Ingres?","<sql><oracle><ingres>","4","0","","","","49602","194"
+"51092","1","51103","","2008-09-09 01:49:32","","3","2187","<p>Consider the Oracle <code>emp</code> table. I'd like to get the employees with the top salary with <code>department = 20</code> and <code>job = clerk</code>. Also assume that there is no ""empno"" column, and that the primary key involves a number of columns. You can do this with:</p>
+
+<pre><code>select * from scott.emp
+where deptno = 20 and job = 'CLERK'
+and sal =  (select max(sal) from scott.emp
+            where deptno = 20 and job = 'CLERK')
+</code></pre>
+
+<p>This works, but I have to duplicate the test deptno = 20 and job = 'CLERK', which I would like to avoid. Is there a more elegant way to write this, maybe using a <code>group by</code>? BTW, if this matters, I am using Oracle.</p>
+","5295","Alessandro Vernet","3431869","","2015-08-15 12:26:54","2015-08-15 12:26:54","SQL: aggregate function and group by","<sql><oracle><aggregate>","6","0","","","","51092","194"
+"51264","1","51285","","2008-09-09 05:46:34","","3","1628","<p>What object do you query against to select all the table names in a schema in Oracle?</p>
+","4491","minty","426671","","2013-06-25 20:10:40","2013-06-25 20:10:40","What table/view do you query against to select all the table names in a schema in Oracle?","<sql><oracle>","3","0","","","","51264","194"
+"51470","1","93633","","2008-09-09 09:36:39","","98","271798","<p>In <a href=""http://en.wikipedia.org/wiki/PostgreSQL"">PostgreSQL</a>, I can do something like this:</p>
+
+<pre><code>ALTER SEQUENCE serial RESTART WITH 0;
+</code></pre>
+
+<p>Is there an Oracle equivalent?</p>
+","917","Mauli","114029","","2014-06-19 23:23:10","2015-09-29 05:25:27","How do I reset a sequence in Oracle?","<sql><database><oracle><sequence><reset>","14","2","38","","","51470","194"
+"52239","1","52244","","2008-09-09 15:58:37","","10","14366","<p>We are working with an oracle database in which the person that set it up is ""long gone"" and thus do not know the sysdba password, but need it. We have root access to the box (its on linux). Is there any way to recover or change the sys passwords?</p>
+","673","Adam Lerman","","","","2010-08-23 09:00:06","Oracle lost sysdba password","<linux><oracle><passwords>","1","0","3","","","52239","194"
+"53316","1","54792","","2008-09-10 02:09:02","","0","905","<p>I have a one to many relationship between two tables. The many table contains a clob column. The clob column looks like this in hibernate:</p>
+
+<pre><code>@CollectionOfElements(fetch = EAGER)
+@JoinTable(name = NOTE_JOIN_TABLE, joinColumns = @JoinColumn(name = ""note""))
+@Column(name = ""substitution"")
+@IndexColumn(name = ""listIndex"", base = 0)
+@Lob
+private List&lt;String&gt; substitutions;
+</code></pre>
+
+<p>So basically I may have a Note with some subsitutions, say <code>""foo""</code> and <code>""fizzbuzz""</code>. So in my main table I could have a Note with id 4 and in my <code>NOTE_JOIN_TABLE</code> I would have two rows, <code>""foo""</code> and <code>""fizzbuzz""</code> that both have a relationship to the Note.</p>
+
+<p>However, when one of these is inserted into the DB <strong>the larger substitution values are cropped to be as long as the shortest.</strong> So in this case I would have <code>""foo""</code> and <code>""fiz""</code> in the DB instead of <code>""foo""</code> and <code>""fizzbuzz""</code>.</p>
+
+<p>Do you have any idea why this is happening? I have checked and confirmed they aren't being cropped anywhere in our code, it's defintely hibernate.</p>
+","1666","SCdF","","","","2008-09-10 17:36:46","Hibernate crops clob values oddly","<java><oracle><hibernate>","2","0","1","","","53316","194"

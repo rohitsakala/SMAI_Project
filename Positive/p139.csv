@@ -1,0 +1,825 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"361","1","362","","2008-08-02 06:57:57","","103","140653","<p>How would I go about generating a list of all possible permutations of a string between x and y characters in length, containing a variable list of characters.</p>
+
+<p>Any language would work, but it should be portable.</p>
+","115","","321731","chills42","2013-12-17 22:36:29","2015-07-27 02:58:18","Generate list of all possible permutations of a string","<string><language-agnostic><cross-platform>","33","0","73","","2014-01-23 03:28:19","361","139"
+"746","1","","","2008-08-03 16:03:48","","15","7644","<p>How do I format a string to title case?</p>","192","","","","","2013-10-08 16:13:50","Format string to title case","<string><language-agnostic><format><title-case>","16","0","2","","","746","139"
+"935","1","938","","2008-08-04 01:00:24","","62","126747","<p>Attempting to insert an escape character into a table results in a warning. </p>
+
+<p>For example:</p>
+
+<pre><code>create table EscapeTest (text varchar(50));
+
+insert into EscapeTest (text) values ('This is the first part \n And this is the second');
+</code></pre>
+
+<p>Produces the warning:</p>
+
+<pre><code>WARNING:  nonstandard use of escape in a string literal
+</code></pre>
+
+<p>(<em>Using PSQL 8.2</em>)</p>
+
+<p>Anyone know how to get around this?</p>
+","246","","3576214","","2015-01-02 22:34:17","2015-01-02 22:34:17","String literals and escape characters in postgresql","<string><postgresql><escaping>","6","0","10","","","935","139"
+"2647","1","2657","","2008-08-05 18:15:47","","293","489320","<p>Using SQL Server 2005, how do I split a string so I can access item x?</p>
+
+<p>For example, take the string ""Hello John Smith"". How can I split the string by a space and access the item at index 1 which should return ""John""?</p>
+","383","","3234422","","2014-04-25 08:11:55","2015-08-31 16:37:31","How do I split a string so I can access item x","<sql><sql-server><string><sql-server-2005><split>","29","1","83","","","2647","139"
+"2968","1","2985","","2008-08-05 23:49:53","","22","46000","<p>For parsing player commands, I've most often used the <a href=""http://docs.oracle.com/javase/6/docs/api/java/lang/String.html#split%28java.lang.String%29"" rel=""nofollow"">split</a> method to split a string by delimiters and then to then just figure out the rest by a series of <code>if</code>s or <code>switch</code>es. What are some different ways of parsing strings in Java?</p>
+","362","","362","Lane","2014-05-13 17:34:45","2015-08-20 22:13:23","What are the different methods to parse strings in Java?","<java><string><parsing>","15","1","4","2014-05-13 17:04:48","","2968","139"
+"4824","1","4838","","2008-08-07 15:00:34","","19","40475","<p>Is there a C library function that will return the index of a character in a string?</p>
+
+<p>So far, all I've found are functions like strstr that will return the found char *, not it's location in the original string.</p>","75","","","","","2010-10-24 23:33:33","String.indexOf function in C","<c><string>","5","0","4","","","4824","139"
+"7074","1","7077","","2008-08-10 07:18:02","","2702","467706","<p>In C#, what is the difference between <code>String</code> and <code>string</code>? (<em>note the case</em>)</p>
+
+<p>Example:</p>
+
+<pre><code>string s = ""Hello world!"";
+String S = ""Hello world!"";
+</code></pre>
+
+<p>What are the guidelines for the use of each? And what are the differences?</p>
+","571","","4995522","","2015-09-19 16:00:29","2015-10-01 17:43:01","What's the difference between String and string?","<c#><string>","47","3","501","","2012-10-04 10:37:21","7074","139"
+"7681","1","7688","","2008-08-11 11:33:01","","3","1352","<p>What is the best way to verify/test that a text string is serialized to a byte array with a certain encoding?</p>
+
+<p>In my case, I want to verify that an XML structure is serialized to a byte array with the UTF-8 encoding which is of variable character length. As an example, my current ugly procedure is to inject a character known to require two bytes into the structure before serializing, then replacing the two-byte character with an ASCII character and comparing the serialized array lengths. This should yield two serialized arrays where the array containing the two-byte characters should have length +1.</p>
+
+<p>Plus if the solution is elegant for Java. 
+I can't think of any elegant way to seek for a byte sequence in a byte array. (Could be used to seek for a known byte sequence representing the desired character representation in UTF-8.)</p>
+","972","","","","","2013-01-09 05:53:18","Test serialization encoding","<java><xml><string><serialization><encoding>","2","0","","","","7681","139"
+"7917","1","8113","","2008-08-11 16:28:57","","8","40534","<p>I'm importing some data from a <code>CSV</code> file, and numbers that are larger than <code>1000</code> get turned into <code>1,100</code> etc. </p>
+
+<p>What's a good way to remove both the quotes and the comma from this so I can put it into an <code>int</code> field?</p>
+
+<p><strong>Edit:</strong> </p>
+
+<p>The data is actually already in a MySQL table, so I need to be able to this using SQL. Sorry for the mixup.</p>
+","402","","751527","Mark Biek","2012-11-14 15:32:42","2013-01-09 05:50:55","Remove Quotes and Commas from a String in MySQL","<mysql><regex><string>","8","0","4","","","7917","139"
+"10230","1","10233","","2008-08-13 19:03:27","","13","10968","<p>Which is more efficient for the compiler and the best practice for checking whether a string is blank? </p>
+
+<ol>
+<li>Checking whether the length of the string == 0</li>
+<li>Checking whether the string is empty (strVar == """")</li>
+</ol>
+
+<p>Also, does the answer depend on language?</p>
+","288","Haydar","1037210","Andy Lester","2012-10-22 00:33:48","2012-10-22 00:33:48","Checking for string contents? string Length Vs Empty String","<string><optimization><language-agnostic><compiler-construction>","12","0","1","","","10230","139"
+"10323","1","10350","","2008-08-13 20:19:09","","35","16651","<p>I recently read a nice <a href=""http://macdevelopertips.com/ruby/using-a-string-as-a-file-in-ruby.html"" rel=""nofollow"">post</a> on using <code>StringIO</code> in Ruby.  What the author doesn't mention, though, is that <code>StringIO</code> is just an ""I.""  There's no ""O.""  You <em>can't</em> do this, for example:</p>
+
+<pre><code>s = StringIO.new
+s &lt;&lt; 'foo'
+s &lt;&lt; 'bar'
+s.to_s
+# =&gt; should be ""foo\nbar""
+# =&gt; really is ''`
+</code></pre>
+
+<p>Ruby really needs a StringBuffer just like the one Java has. StringBuffers serve two important purposes. First, they let you test the output half of what Ruby's StringIO does. Second, they are useful for building up long strings from small parts -- something that Joel reminds us over and over again is otherwise very very slow.</p>
+
+<p>Is there a good replacement?</p>
+
+<p>It's true that Strings in Ruby are mutable, but that doesn't mean we should always rely on that functionality.  If <code>stuff</code> is large, the performance and memory requirements of this, for example, is really bad.</p>
+
+<pre><code>result = stuff.map(&amp;:to_s).join(' ')
+</code></pre>
+
+<p>The ""correct"" way to do this in Java is:</p>
+
+<pre><code>result = StringBuffer.new("""")
+for(String s : stuff) {
+  result.append(s);
+}
+</code></pre>
+
+<p>Though my Java is a bit rusty.</p>
+","1190","Gaius","1157054","Gaius","2015-07-15 19:24:56","2015-07-15 19:24:56","Why doesn't Ruby have a real StringBuffer or StringIO?","<ruby><string><io><buffer>","5","5","4","","","10323","139"
+"11491","1","11502","","2008-08-14 18:49:47","","19","13339","<p>What is the best way people have found to do String to Lower case / Upper case in C++?</p>
+
+<p>The issue is complicated by the fact that C++ isn't an English only programming language. Is there a good multilingual method?</p>
+","1366","Adam","3204551","","2014-04-14 17:47:47","2014-04-14 17:47:47","String To Lower/Upper in C++","<c++><string><unicode>","9","1","5","","","11491","139"
+"11635","1","315463","","2008-08-14 20:01:28","","261","230583","<p>What is the best way of doing case insensitive string comparison in C++ with out transforming a string to all upper or lower case?</p>
+
+<p>Also, what ever methods you present, are they Unicode friendly? Are they portable?</p>
+","1366","Adam","1009479","warren","2013-07-26 15:20:11","2015-09-30 12:47:00","Case insensitive string comparison in C++","<c++><string>","25","5","64","","","11635","139"
+"13454","1","","","2008-08-17 01:23:50","","5","4153","<p>I wrote a piece of code to convert PHP's striplashes into valid Python [backslash] escapes:</p>
+
+<pre><code>cleaned = stringwithslashes
+cleaned = cleaned.replace('\\n', '\n')
+cleaned = cleaned.replace('\\r', '\n')
+cleaned = cleaned.replace('\\', '')
+</code></pre>
+
+<p>How can I condense it? </p>
+","","Matt","205212","","2015-05-30 19:17:17","2015-05-30 19:17:17","Python version of PHP's stripslashes","<python><string><escaping>","5","0","2","","","13454","139"
+"15062","1","15136","","2008-08-18 18:40:34","","12","40729","<p>How do I convert function input parameters to the right type?</p>
+
+<p>I want to return a string that has part of the URL passed into it removed.</p>
+
+<p><strong>This works, but it uses a hard-coded string:</strong></p>
+
+<pre><code>function CleanUrl($input)
+{
+    $x = ""http://google.com"".Replace(""http://"", """")
+    return $x
+}
+
+$SiteName = CleanUrl($HostHeader)
+echo $SiteName
+</code></pre>
+
+<p><strong>This fails:</strong></p>
+
+<pre><code>function CleanUrl($input)
+{
+    $x = $input.Replace(""http://"", """")
+    return $x
+}
+
+Method invocation failed because [System.Array+SZArrayEnumerator] doesn't contain a method named 'Replace'.
+At M:\PowerShell\test.ps1:13 char:21
++     $x = $input.Replace( &lt;&lt;&lt;&lt; ""http://"", """")
+</code></pre>
+","636","BrianLy","63550","","2015-07-13 13:11:08","2015-07-13 13:17:04","How do I do a string replacement in a PowerShell function?","<string><powershell><function><replace>","4","0","1","","","15062","139"
+"16100","1","16104","","2008-08-19 12:51:55","","216","146069","<p>What's the best way to convert a string to an enumeration value in C#?</p>
+
+<p>I have an HTML select tag containing the values of an enumeration. When the page is posted, I want to pick up the value (which will be in the form of a string) and convert it to the enumeration value.</p>
+
+<p>In an ideal world, I could do something like this:</p>
+
+<pre><code>StatusEnum MyStatus = StatusEnum.Parse(""Active"");
+</code></pre>
+
+<p>but that isn't valid code.</p>
+","203","Ben Mills","63550","Keith","2015-08-30 12:36:22","2015-10-02 10:01:32","How do I convert a string to an enum in C#?","<c#><string><enums>","14","1","48","","","16100","139"
+"16306","1","16318","","2008-08-19 14:44:59","","5","1038","<p>What would be the easiest way to separate the directory name from the file name when dealing with <code>SaveFileDialog.FileName</code> in C#?</p>
+","41","Redbaron","","user2509901","2013-12-16 15:13:58","2013-12-16 15:13:58","How to get only directory name from SaveFileDialog.FileName","<c#><string><parsing>","4","0","2","","","16306","139"
+"16413","1","16444","","2008-08-19 15:34:41","","103","89122","<p>Problem: I have an address field from an Access database which has been converted to Sql Server 2005. This field has everything all in one field. I need to parse out the individual sections of the address into their appropriate fields in a normalized table. I need to do this for approximately 4,000 records and it needs to be repeatable.</p>
+
+<p>Assumptions:</p>
+
+<ol>
+<li><p>Assume an address in the US (for now)</p></li>
+<li><p>assume that the input string will sometimes contain an addressee (the person being addressed) and/or a second street address (i.e. Suite B)</p></li>
+<li><p>states may be abbreviated</p></li>
+<li><p>zip code could be standard 5 digit or zip+4</p></li>
+<li><p>there are typos in some instances</p></li>
+</ol>
+
+<p>UPDATE: In response to the questions posed, standards were not universally followed, I need need to store the individual values, not just geocode and errors means typo (corrected above)</p>
+
+<p>Sample Data:</p>
+
+<ul>
+<li><p>A. P. Croll &amp; Son  2299 Lewes-Georgetown Hwy, Georgetown, DE 19947</p></li>
+<li><p>11522 Shawnee Road, Greenwood DE  19950</p></li>
+<li><p>144 Kings Highway, S.W. Dover, DE  19901</p></li>
+<li><p>Intergrated Const. Services 2 Penns Way Suite 405 New Castle, DE  19720</p></li>
+<li><p>Humes Realty 33 Bridle Ridge Court, Lewes, DE  19958</p></li>
+<li><p>Nichols Excavation 2742 Pulaski Hwy Newark, DE  19711</p></li>
+<li><p>2284 Bryn Zion Road, Smyrna, DE  19904</p></li>
+<li><p>VEI Dover Crossroads, LLC  1500 Serpentine Road, Suite 100 Baltimore MD  21</p></li>
+<li><p>580 North Dupont Highway Dover, DE  19901</p></li>
+<li><p>P.O. Box 778 Dover, DE  19903</p></li>
+</ul>
+","149","Rob Allen","2641576","Remou","2014-11-25 20:42:56","2015-06-12 21:55:00","Parse usable Street Address, City, State, Zip from a string","<string><parsing><sql-server-2005><street-address>","24","5","82","2014-12-13 11:37:37","","16413","139"
+"16432","1","18342","","2008-08-19 15:46:53","","115","54802","<p>Let's say that you want to output or concat strings. Which of the following styles do you prefer?</p>
+
+<ul>
+<li><p><code>var p = new { FirstName = ""Bill"", LastName = ""Gates"" };</code></p></li>
+<li><p><code>Console.WriteLine(""{0} {1}"", p.FirstName, p.LastName);</code></p></li>
+<li><p><code>Console.WriteLine(p.FirstName + "" "" + p.LastName);</code></p></li>
+</ul>
+
+<p>Do you rather use format or do you simply concat strings? What is your favorite? Is one of these hurting your eyes?</p>
+
+<p>Do you have any rational arguments to use one and not the other?</p>
+
+<p>I'd go for the second one.</p>
+","920","Philippe","63550","paan","2013-10-28 17:41:13","2015-08-31 16:53:39","String output: format or concat in C#?","<c#><string><coding-style><string.format>","31","2","16","","2009-11-30 21:11:53","16432","139"
+"18524","1","18529","","2008-08-20 18:29:48","","52","104750","<p>I have a list of integers, <code>List&lt;Integer&gt;</code> and I'd like to convert all the integer objects into Strings, thus finishing up with a new <code>List&lt;String&gt;</code>.</p>
+
+<p>Naturally, I could create a new <code>List&lt;String&gt;</code> and loop through the list calling <code>String.valueOf()</code> for each integer, but I was wondering if there was a better (read: <em>more automatic</em>) way of doing it?</p>
+","916","ChrisThomas123","2024761","ChrisThomas123","2013-11-18 05:35:04","2015-01-12 10:17:08","Java: Best way of converting List<Integer> to List<String>","<java><string><collections><integer>","18","0","11","","","18524","139"
+"21078","1","21093","","2008-08-21 20:27:15","","134","88821","<p>What's the most efficient way to concatenate strings?</p>
+","2358","jimmij","8454","Andy Lester","2008-10-02 17:27:48","2015-07-22 08:51:12","What's the best string concatenation method using C#?","<c#><.net><string><optimization>","13","1","46","","","21078","139"
+"22732","1","22770","","2008-08-22 16:03:00","","22","47590","<p>Is there documentation or an article on the rules for passing strings into PowerShell functions? I just trying to do some string concatenation/formatting, but it's putting all the parameters into the first placeholder.</p>
+
+<p><strong>Code</strong></p>
+
+<pre><code>function CreateAppPoolScript([string]$AppPoolName, [string]$AppPoolUser, [string]$AppPoolPass)
+{
+    # Command to create an IIS application pool
+    $AppPoolScript = ""cscript adsutil.vbs CREATE """"w3svc/AppPools/$AppPoolName"""" IIsApplicationPool`n""
+    $AppPoolScript += ""cscript adsutil.vbs SET """"w3svc/AppPools/$AppPoolName/WamUserName"""" """"$AppPoolUser""""`n""
+    $AppPoolScript += ""cscript adsutil.vbs SET """"w3svc/AppPools/$AppPoolName/WamUserPass"""" """"$AppPoolPass""""`n""
+    $AppPoolScript += ""cscript adsutil.vbs SET """"w3svc/AppPools/$AppPoolName/AppPoolIdentityType"""" 3""
+
+    return $AppPoolScript
+}
+$s = CreateAppPoolScript(""name"", ""user"", ""pass"")
+write-host $s
+</code></pre>
+
+<p><strong>Output</strong></p>
+
+<pre><code>cscript adsutil.vbs CREATE ""w3svc/AppPools/name user pass"" IIsApplicationPool
+cscript adsutil.vbs SET ""w3svc/AppPools/name user pass/WamUserName"" """"
+cscript adsutil.vbs SET ""w3svc/AppPools/name user pass/WamUserPass"" """"
+cscript adsutil.vbs SET ""w3svc/AppPools/name user pass/AppPoolIdentityType"" 3
+</code></pre>
+","636","BrianLy","","","","2014-06-18 19:46:26","PowerShell - How do I pass string parameters correctly?","<string><powershell><parameters><arguments>","3","0","6","","","22732","139"
+"23228","1","24143","","2008-08-22 19:15:08","","36","3206","<p>Compare</p>
+
+<pre><code>String.Format(""Hello {0}"", ""World"");
+</code></pre>
+
+<p>with</p>
+
+<pre><code>""Hello {0}"".Format(""World"");
+</code></pre>
+
+<p>Why did the .Net designers choose a static method over an instance method? What do you think?</p>
+","2361","Jakub Šturc","234","Orion Edwards","2008-08-23 04:21:57","2015-04-08 03:15:52","Why is String.Format static?","<.net><string><design>","22","0","3","","","23228","139"
+"24816","1","25207","","2008-08-24 02:52:42","","357","336053","<p>Does anyone know of an easy way to escape HTML from strings in <a href=""http://jquery.com/"">jQuery</a>?  I need to be able to pass an arbitrary string and have it properly escaped for display in an HTML page (preventing JavaScript/HTML injection attacks).  I'm sure it's possible to extend jQuery to do this, but I don't know enough about the framework at the moment to accomplish this.</p>
+","2657","Page","894284","Haacked","2012-05-01 10:47:46","2015-09-02 06:05:04","Escaping HTML strings with jQuery","<javascript><jquery><string><escaping>","22","0","90","","","24816","139"
+"25349","1","25354","","2008-08-24 21:23:23","","11","7119","<p>I have a string that has some Environment.Newline in it. I'd like to strip those from the string and instead, replace the Newline with something like a comma. </p>
+
+<p>What would be, in your opinion, the best way to do this using C#.NET 2.0?</p>
+
+<p>Thanks in advance.</p>
+","2684","Mart&#237;n Marconcini","","","","2012-07-11 13:46:22","What would be the fastest way to remove Newlines from a String in C#?","<c#><.net><string><replace>","5","0","","","","25349","139"
+"25746","1","25798","","2008-08-25 07:54:29","","47","32051","<p>I'm learning objective-C and Cocoa and have come across this statement:</p>
+
+<blockquote>
+  <p>The Cocoa frameworks expect that global string constants rather than string literals are used for dictionary keys, notification and exception names, and some method parameters that take strings.</p>
+</blockquote>
+
+<p>I've only worked in higher level languages so have never had to consider the details of strings that much. What's the difference between a string constant and string literal?</p>
+","2799","Benedict Cohen","379897","Paul","2010-08-28 22:11:41","2012-09-10 14:59:21","What's the difference between a string constant and a string literal?","<objective-c><string>","3","0","30","","","25746","139"
+"28098","1","28111","","2008-08-26 13:56:49","","286","784598","<p>How do I convert the value of a PHP variable to string?</p>
+
+<p>I was looking for something better than concatenating with an empty string:</p>
+
+<pre><code>$myText = $myVar . '';
+</code></pre>
+
+<p>Like the <code>ToString()</code> method in Java or .NET.</p>
+","2680","","63550","","2014-02-02 10:10:29","2015-08-11 13:06:13","ToString() equivalent in PHP","<php><string>","20","1","41","","","28098","139"
+"28165","1","28247","","2008-08-26 14:20:48","","9","2124","<p>Python has this wonderful way of handling string substitutions using dictionaries:</p>
+
+<pre><code>&gt;&gt;&gt; 'The %(site)s site %(adj)s because it %(adj)s' % {'site':'Stackoverflow', 'adj':'rocks'}
+'The Stackoverflow site rocks because it rocks'
+</code></pre>
+
+<p>I love this because you can specify a value once in the dictionary and then replace it all over the place in the string.</p>
+
+<p>I've tried to achieve something similar in PHP using various string replace functions but everything I've come up with feels awkward.</p>
+
+<p>Does anybody have a nice clean way to do this kind of string substitution in PHP?</p>
+
+<p><em><strong>Edit</em></strong><br>
+Here's the code from the sprintf page that I liked best.  </p>
+
+<pre><code>&lt;?php
+
+function sprintf3($str, $vars, $char = '%')
+{
+    $tmp = array();
+    foreach($vars as $k =&gt; $v)
+    {
+        $tmp[$char . $k . $char] = $v;
+    }
+    return str_replace(array_keys($tmp), array_values($tmp), $str);
+}
+
+echo sprintf3( 'The %site% site %adj% because it %adj%', array('site'=&gt;'Stackoverflow', 'adj'=&gt;'rocks'));
+?&gt;
+</code></pre>
+","305","Mark Biek","321731","Mark Biek","2012-10-29 21:02:13","2012-10-29 21:02:13","Does PHP have an equivalent to this type of Python string substitution?","<php><python><string>","3","0","2","","","28165","139"
+"29383","1","29571","","2008-08-27 02:32:34","","44","60395","<p>Maybe this is a dumb question, but is there any way to convert a boolean value to a string such that 1 turns to ""true"" and 0 turns to ""false""?  I could just use an if statement, but it would be nice to know if there is a way to do that with the language or standard libraries.  Plus, I'm a pedant.  :)</p>
+","2147","Jason","","","","2013-05-28 22:00:14","Converting bool to text in C++","<c++><string><boolean>","9","2","6","","","29383","139"
+"32149","1","33168","","2008-08-28 12:55:58","","17","6454","<p>Does anyone have a trusted Proper Case or PCase algorithm (similar to a UCase or Upper)?  I'm looking for something that takes a value such as <code>""GEORGE BURDELL""</code> or <code>""george burdell""</code> and turns it into <code>""George Burdell""</code>.</p>
+
+<p>I have a simple one that handles the simple cases.  The ideal would be to have something that can handle things such as <code>""O'REILLY""</code> and turn it into <code>""O'Reilly""</code>, but I know that is tougher.</p>
+
+<p>I am mainly focused on the English language if that simplifies things.</p>
+
+<hr>
+
+<p><strong>UPDATE:</strong> I'm using C# as the language, but I can convert from almost anything (assuming like functionality exists).</p>
+
+<p>I agree that the McDonald's scneario is a tough one.  I meant to mention that along with my O'Reilly example, but did not in the original post.</p>
+","3203","","365102","jttraino","2011-11-22 07:26:53","2014-02-27 04:17:13","Does anyone have a good Proper Case algorithm","<algorithm><string>","10","0","4","","","32149","139"
+"32637","1","32648","","2008-08-28 15:49:32","","14","10078","<p>I am consuming the Twitter API and want to convert all URLs to hyperlinks. </p>
+
+<p>What is the most effective way you've come up with to do this?</p>
+
+<p>from</p>
+
+<pre><code>string myString = ""This is my tweet check it out http://tinyurl.com/blah"";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>This is my tweet check it out &lt;a href=""http://tinyurl.com/blah""&gt;http://tinyurl.com/&gt;blah&lt;/a&gt;
+</code></pre>
+","2347826","nbirkes","41956","","2010-04-18 07:29:10","2015-08-14 18:12:31","Easiest way to convert a URL to a hyperlink in a C# string?","<c#><regex><string><hyperlink>","5","1","4","","","32637","139"
+"34395","1","34431","","2008-08-29 14:51:24","","6","2503","<p>I would like to put a string into a byte array, but the string may be too big to fit.  In the case where it's too large, I would like to put as much of the string as possible into the array.  Is there an efficient way to find out how many characters will fit?</p>
+","2348","TimK","3205","","2013-08-13 21:03:59","2013-08-13 21:03:59","How do I truncate a string while converting to bytes in C#?","<c#><.net><arrays><string><truncate>","5","0","","","","34395","139"
+"36122","1","177740","","2008-08-30 16:45:44","","2","290","<p>Take the following string as an example:  </p>
+
+<p>""The quick brown fox""  </p>
+
+<p>Right now the q in quick is at index 4 of the string (starting at 0) and the f in fox is at index 16. Now lets say the user enters some more text into this string.</p>
+
+<p>""The very quick dark brown fox""</p>
+
+<p>Now the q is at index 9 and the f is at index 26.</p>
+
+<p>What is the most efficient method of keeping track of the index of the original q in quick and f in fox no matter how many characters are added by the user?</p>
+
+<p>Language doesn't matter to me, this is more of a theory question than anything so use whatever language you want just try to keep it to generally popular and current languages.</p>
+
+<p>The sample string I gave is short but I'm hoping for a way that can efficiently handle any size string. So updating an array with the offset would work with a short string but will bog down with to many characters. </p>
+
+<p>Even though in the example I was looking for the index of unique characters in the string I also want to be able to track the index of the same character in different locations such as the o in brown and the o in fox. So searching is out of the question.</p>
+
+<p>I was hoping for the answer to be both time and memory efficient but if I had to choose just one I care more about performance speed.</p>
+","3677","JohnMcCon","23354","Andy Lester","2009-07-14 22:22:01","2009-07-14 22:22:01","What is the most efficient way to keep track of a specific character's index in a string?","<algorithm><string><optimization>","4","0","","","","36122","139"
+"36139","1","36156","","2008-08-30 17:03:09","","150","197924","<p>What is the best way of creating an alphabetically sorted list in Python?</p>
+","3205","ziobro","","","","2015-06-12 08:23:55","How do I sort a list of strings in Python?","<python><string><sorting>","5","1","24","","","36139","139"
+"38010","1","38011","","2008-09-01 14:41:59","","3","1061","<p>When performing string concatentation of an existing string in the intern pool, is a new string entered into the intern pool or is a reference returned to the existing string in the intern pool? According to this article, String.Concat and StringBuilder will insert new string instances into the intern pool? </p>
+
+<p><a href=""http://community.bartdesmet.net/blogs/bart/archive/2006/09/27/4472.aspx"" rel=""nofollow"">http://community.bartdesmet.net/blogs/bart/archive/2006/09/27/4472.aspx</a></p>
+
+<p>Can anyone explain how concatenation works with the intern pool?</p>
+","2993","Sean Chambers","4405852","Ian Nelson","2015-08-20 07:42:03","2015-08-20 07:42:03","C# string concatenation and string interning","<c#><.net><string>","2","0","","","","38010","139"
+"40873","1","41016","","2008-09-02 23:01:32","","8","6472","<p>I have a table which is full of arbitrarily formatted phone numbers, like this</p>
+
+<pre><code>027 123 5644
+021 393-5593
+(07) 123 456
+042123456
+</code></pre>
+
+<p>I need to search for a phone number in a similarly arbitrary format ( e.g. <code>07123456</code> should find the entry <code>(07) 123 456</code></p>
+
+<p>The way I'd do this in a normal programming language is to strip all the non-digit characters out of the 'needle', then go through each number in the haystack, strip all non-digit characters out of it, then compare against the needle, eg (in ruby)</p>
+
+<pre><code>digits_only = lambda{ |n| n.gsub /[^\d]/, '' }
+
+needle = digits_only[input_phone_number]
+haystack.map(&amp;digits_only).include?(needle)
+</code></pre>
+
+<p>The catch is, I need to do this in MySQL. It has a host of string functions, none of which really seem to do what I want. </p>
+
+<p>Currently I can think of 2 'solutions'</p>
+
+<ul>
+<li>Hack together a franken-query of <code>CONCAT</code> and <code>SUBSTR</code></li>
+<li>Insert a <code>%</code> between every character of the needle ( so it's like this: <code>%0%7%1%2%3%4%5%6%</code> ) </li>
+</ul>
+
+<p>However, neither of these seem like particularly elegant solutions.<br>
+Hopefully someone can help or I might be forced to use the %%%%%% solution</p>
+
+<h3>Update: This is operating over a relatively fixed set of data, with maybe a few hundred rows. I just didn't want to do something ridiculously bad that future programmers would cry over.</h3>
+
+<p>If the dataset grows I'll take the 'phoneStripped' approach. Thanks for all the feedback!</p>
+
+<hr>
+
+<blockquote>
+  <p>could you use a ""replace"" function to strip out any instances of ""("", ""-"" and "" "", </p>
+</blockquote>
+
+<p>I'm not concerned about the result being numeric. 
+The main characters I need to consider are <code>+</code>, <code>-</code>, <code>(</code>, <code>)</code> and <code>space</code>
+So would that solution look like this?</p>
+
+<pre><code>SELECT * FROM people 
+WHERE 
+REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phonenumber, '('),')'),'-'),' '),'+')
+LIKE '123456'
+</code></pre>
+
+<p>Wouldn't that be terribly slow?</p>
+","234","Orion Edwards","50776","Orion Edwards","2012-08-17 18:07:37","2014-12-15 21:09:29","Searching for phone numbers in mysql","<mysql><string><search><numbers>","14","0","2","","","40873","139"
+"41107","1","41156","","2008-09-03 02:58:43","","712","612453","<p>I've been looking for a <em>simple</em> Java algorithm to generate a pseudo-random alpha-numeric string.  In my situation it would be used as a unique session/key identifier that would ""likely"" be unique over 500K+ generation (my needs don't really require anything much more sophisticated).  Ideally, I would be able to specify a length depending on my uniqueness needs. For example, a generated string of length 12 might look something like <code>""AEYGF7K0DM1X""</code>.  </p>
+","3803","Todd","16587","Todd","2014-12-08 01:51:22","2015-10-03 16:22:55","How to generate a random alpha-numeric string?","<java><string><random><alphanumeric>","36","6","274","","2013-07-29 14:07:23","41107","139"
+"42286","1","42293","","2008-09-03 18:45:51","","3","1113","<p>It seems like there should be something shorter than this:</p>
+
+<pre><code>private string LoadFromFile(string path)
+{
+   try
+   {
+       string fileContents;
+       using(StreamReader rdr = File.OpenText(path))
+       {
+            fileContents = rdr.ReadToEnd();
+       }
+
+       return fileContents;
+   }
+   catch
+   {
+       throw;
+   }
+}
+</code></pre>
+","3475","Scott","96","Chris Marasti-Georg","2008-11-03 19:47:10","2008-11-03 19:47:10","What's the best way to read the contents of a text file to a string in .NET?","<.net><string><text-files>","4","0","1","","","42286","139"
+"44078","1","44124","","2008-09-04 16:04:57","","22","12527","<p>I am trying to write a regular expression to strip all HTML with the exception of links (the <code>&lt;a href</code> and <code>&lt;/a&gt;</code> tags respectively. It does not have to be 100% secure (I am not worried about injection attacks or anything as I am parsing content that has already been approved and published into a <a href=""http://en.wikipedia.org/wiki/SWF"">SWF</a> movie).</p>
+
+<p>The original ""strip tags"" regular expression I'm using was <code>&lt;(.|\n)+?&gt;</code>, and I tried to modify it to <code>&lt;([^a]|\n)+?&gt;</code>, but that of course will allow any tag that has an <strong>a</strong> in it rather than one that has it in the beginning, with a space.</p>
+
+<p>Not that it should really matter, but in case anyone cares to know I am writing this in <a href=""http://en.wikipedia.org/wiki/ActionScript#ActionScript%5F3.0"">ActionScript 3.0</a> for a <a href=""http://en.wikipedia.org/wiki/Adobe%5FFlash"">Flash</a> movie.</p>
+","1306","Jeff Winkworth","63550","Jeff Winkworth","2009-12-28 21:15:13","2014-05-13 20:02:30","Strip all HTML tags except links","<html><regex><actionscript-3><string><tags>","6","0","11","","","44078","139"
+"44288","1","44373","","2008-09-04 17:44:10","","171","123033","<p>Comparing string in C# is pretty simple.  In fact there are several ways to do it.  I have listed some in the block below.  What I am curious about are the differences between them and when one should be used over the others?  Should one be avoided at all costs?  Are there more I haven't listed?  </p>
+
+<pre><code>string testString = ""Test"";
+string anotherString = ""Another"";
+
+if (testString.CompareTo(anotherString) == 0) {}
+if (testString.Equals(anotherString)) {}
+if (testString == anotherString) {}
+</code></pre>
+
+<p>(Note: I am looking for equality in this example, not less than or greater than but feel free to comment on that as well)</p>
+","2894","Craig","182542","","2014-07-15 08:46:26","2015-07-17 18:36:45","Differences in string compare methods in C#","<c#><string><comparison>","10","2","56","","","44288","139"
+"44713","1","44728","","2008-09-04 20:35:54","","31","72124","<p>How can I create an empty one-dimensional string array?</p>
+","3821","YonahW","","","","2015-01-28 14:52:40","VB.NET Empty String Array","<.net><vb.net><string>","8","1","0","","","44713","139"
+"45030","1","45037","","2008-09-05 00:22:54","","128","66829","<p>I'm wanting to parse a string into a nullable int in C#.  ie. I want to get back either the int value of the string or null if it can't be parsed.</p>
+
+<p>I was kind of hoping that this would work</p>
+
+<pre><code>int? val = stringVal as int?;
+</code></pre>
+
+<p>But that won't work, so the way I'm doing it now is I've written this extension method</p>
+
+<pre><code>public static int? ParseNullableInt(this string value)
+{
+	if (value == null || value.Trim() == string.Empty)
+	{
+		return null;
+	}
+	else
+	{
+		try
+		{
+			return int.Parse(value);
+		}
+		catch
+		{
+			return null;
+		}
+	}
+}
+</code></pre>
+
+<p>Is there a better way of doing this?</p>
+
+<p><strong>EDIT:</strong>  Thanks for the TryParse suggestions, I did know about that, but it worked out about the same.  I'm more interested in knowing if there is a built-in framework method that will parse directly into a nullable int?</p>
+","2975","Glenn Slaven","41956","Glenn Slaven","2014-12-13 06:10:32","2015-03-20 15:01:42","How to parse a string into a nullable int","<c#><.net><string><.net-3.5><nullable>","17","1","18","","","45030","139"
+"46160","1","","","2008-09-05 16:11:44","","4","6470","<p>I am looking for a way to create an int\long representation of an arbitrary alpha-numeric String. Hash codes won't do it, because I can't afford hash collisions i.e. the representation must be unique and repeatable. </p>
+
+<p>The numeric representation will be used to perform efficient (hopefully) compares. The creation of the numeric key will take some time, but it only has to happen once, whereas I need to perform vast numbers of comparisons with it - which will hopefully be much faster than comparing the raw Strings.</p>
+
+<p>Any other idea's on faster String comparison will be most appreciated too...</p>
+","4216","jase","2432317","","2013-12-02 13:09:25","2013-12-02 13:09:25","Getting an int representation of a String","<java><performance><string>","14","0","","","","46160","139"
+"46863","1","47119","","2008-09-05 20:49:53","","3","18647","<p>How do I concatenate together two strings, of unknown length, in COBOL? So for example:</p>
+
+<pre><code>WORKING-STORAGE.
+    FIRST-NAME    PIC X(15) VALUE SPACES.
+    LAST-NAME     PIC X(15) VALUE SPACES.
+    FULL-NAME     PIC X(31) VALUE SPACES.
+</code></pre>
+
+<p>If <code>FIRST-NAME = 'JOHN           '</code> and <code>LAST-NAME = 'DOE            '</code>, how can I get:</p>
+
+<pre><code>FULL-NAME = 'JOHN DOE                       '
+</code></pre>
+
+<p>as opposed to:</p>
+
+<pre><code>FULL-NAME = 'JOHN            DOE            '
+</code></pre>
+","4650","Eric H","13992","Eric H","2015-06-08 22:03:51","2015-06-08 22:03:51","concatenating unknown-length strings in COBOL","<string><cobol>","2","2","","","","46863","139"
+"47045","1","47049","","2008-09-05 23:05:35","","175","104811","<p>Printf got added to Java with the 1.5 release but I can't seem to find how to send the output to a string rather than a file (which is what sprintf does in C). Does anyone know how to do this? </p>
+","4498","paperhorse","66519","Rudd","2009-06-06 07:40:08","2015-07-14 11:47:15","Sprintf equivalent in Java","<java><string><formatting>","3","0","26","","","47045","139"
+"47605","1","47628","","2008-09-06 16:08:54","","208","340986","<p>I'm curious and wasn't sure, so i thought id ask:</p>
+
+<p>assuming String a and b.</p>
+
+<pre><code>a+=b
+a.concat(b)
+</code></pre>
+
+<p>Under the hood are they the same thing?</p>
+
+<p>Edit:</p>
+
+<p>Here is concat decompiled as reference, I'd like to be able to decompile the + operator as well to see what that does, not sure how to do that yet.</p>
+
+<pre><code>public String concat(String s) {
+
+    int i = s.length();
+    if (i == 0) {
+        return this;
+    } else {
+        char ac[] = new char[count + i];
+        getChars(0, count, ac, 0);
+        s.getChars(0, i, ac, count);
+        return new String(0, count + i, ac);
+    }
+}
+</code></pre>
+","292","shs","1065197","shs","2013-08-21 15:21:37","2015-04-16 19:31:34","String concatenation: concat() vs + operator","<java><string>","10","4","80","","","47605","139"
+"49263","1","50110","","2008-09-08 07:21:20","","36","22942","<p>Here at work, we often need to find a string from the list of strings that is the closest match to some other input string. Currently, we are using Needleman-Wunsch algorithm. The algorithm often returns a lot of false-positives (if we set the minimum-score too low), sometimes it doesn't find a match when it should (when the minimum-score is too high) and, most of the times, we need to check the results by hand. We thought we should try other alternatives.</p>
+
+<p>Do you have any experiences with the algorithms?
+Do you know how the algorithms compare to one another?</p>
+
+<p>I'd really appreciate some advice.</p>
+
+<p>PS: We're coding in C#, but you shouldn't care about it - I'm asking about the algorithms in general.</p>
+
+<hr>
+
+<p>Oh, I'm sorry I forgot to mention that.</p>
+
+<p>No, we're not using it to match duplicate data. We have a list of strings that we are looking for - we call it search-list. And then we need to process texts from various sources (like RSS feeds, web-sites, forums, etc.) - we extract parts of those texts (there are entire sets of rules for that, but that's irrelevant) and we need to match those against the search-list. If the string matches one of the strings in search-list - we need to do some further processing of the thing (which is also irrelevant).</p>
+
+<p>We can not perform the normal comparison, because the strings extracted from the outside sources, most of the times, include some extra words etc.</p>
+
+<p>Anyway, it's not for duplicate detection.</p>
+","1353085","Maruška","50049","","2011-11-20 08:16:01","2014-03-20 02:50:47","Approximate string matching algorithms","<algorithm><string>","7","2","34","","","49263","139"
+"49274","1","49282","","2008-09-08 07:41:00","","112","54660","<p>I have a string, say <code>'123'</code>, and I want to convert it to <code>123</code>.</p>
+
+<p>I know you can simply do <code>some_string.to_i</code>, but that converts <code>'lolipops'</code> to <code>0</code>, which is not the effect I have in mind. I want it to blow up in my face when I try to convert something invalid, with a nice and painful <code>Exception</code>. Otherwise, I can't distinguish between a valid <code>0</code> and something that just isn't a number at all.</p>
+
+<p><strong>EDIT:</strong> I was looking for the standard way of doing it, without regex trickery.</p>
+","2018","wvdschel","128421","wvdschel","2012-09-20 23:35:01","2013-12-19 12:46:14","Safe integer parsing in Ruby","<ruby><string><string-parsing>","8","1","21","","","49274","139"
+"50144","1","50198","","2008-09-08 16:55:41","","13","1354","<p>I noticed some posts here on string matching, which reminded me of an old problem I'd like to solve. Does anyone have a good <a href=""http://en.wikipedia.org/wiki/Levenshtein_distance"">Levenshtein</a>-like algorithm that is weighted toward Qwerty keyboards?</p>
+
+<p>I want to compare two strings, and and allow for typos. Levenshtein is okay, but I'd prefer to also accept spelling errors based on the physical distance between keys on Qwerty keyboard. In other words, the algorithm should prefer ""yelephone"" to ""zelephone"" since the ""y"" key is located nearer to the ""t"" key than to the ""z"" key on most keyboards.</p>
+
+<p>Any help would be great... this feature isn't central to my project, so I don't want to veer off into a rat-hole when I should be doing something more productive.</p>
+","4939","username","4939","","2013-08-11 10:49:46","2013-08-11 10:49:46","A good algorithm similar to Levenshtein but weighted for Qwerty keyboards?","<algorithm><string><text><comparison>","1","0","7","","","50144","139"
+"51165","1","51169","","2008-09-09 03:25:15","","105","105229","<p>I have a list of data objects to sort. I want to do something like</p>
+
+<pre>list.sort(function(item1, item2){
+    return item1.attr - item2.attr;
+}) 
+</pre>
+
+<p>to sort it based on a string attribute of the object. But I found that the minus (-) operator does not work for strings in <a href=""http://en.wikipedia.org/wiki/JavaScript"">JavaScript</a>. So how do you do string comparison?</p>
+","5304","toby","210916","","2011-12-08 03:58:47","2014-10-10 14:56:22","How do you do string comparison in JavaScript?","<javascript><string>","6","3","12","","","51165","139"
+"51185","1","4717855","","2008-09-09 03:44:54","","114","26084","<p>Does javascript use immutable or mutable strings? Do I need a ""string builder""?</p>
+","1220","ChanChan","651104","","2012-07-19 00:07:24","2015-08-18 14:16:30","Are JavaScript strings immutable? Do I need a ""string builder"" in JavaScript?","<javascript><string>","7","2","24","","","51185","139"
+"51949","1","52009","","2008-09-09 13:57:34","","44","84628","<p>Given a string ""filename.conf"", how to I verify the extension part?</p>
+
+<p>I need a cross platform solution.</p>
+","445087","Jeff V","445087","Jeff V","2008-09-09 15:28:53","2015-08-21 19:33:56","How to get file extension from string in C++","<c++><string><filenames>","20","0","10","","","51949","139"
+"52002","1","","","2008-09-09 14:24:27","","46","102563","<p><strong>Definition:</strong></p>
+
+<p><em>A palindrome is a word, phrase, number or other sequence of units that has the property of reading the same in either direction</em></p>
+
+<p>How to check if the given string is a palindrome?</p>
+
+<p>This was one of the FAIQ [Frequently Asked Interview Question] a while ago but that mostly using C.</p>
+
+<p>Looking for solutions in any and all languages possible.</p>
+","123","Prakash","976554","Jeff Atwood","2011-10-18 09:05:22","2015-09-13 13:42:37","How to check if the given string is palindrome?","<string><language-agnostic>","69","9","21","2015-09-24 03:50:35","2008-10-23 05:24:17","52002","139"
+"53480","1","53539","","2008-09-10 05:37:30","","19","15892","<p>Hey, I'm using <a href=""http://en.wikipedia.org/wiki/Levenshtein_distance"">Levenshteins</a> algorithm to get distance between source and target string.</p>
+
+<p>also I have method which returns value from 0 to 1:</p>
+
+<pre><code>/// &lt;summary&gt;
+/// Gets the similarity between two strings.
+/// All relation scores are in the [0, 1] range, 
+/// which means that if the score gets a maximum value (equal to 1) 
+/// then the two string are absolutely similar
+/// &lt;/summary&gt;
+/// &lt;param name=""string1""&gt;The string1.&lt;/param&gt;
+/// &lt;param name=""string2""&gt;The string2.&lt;/param&gt;
+/// &lt;returns&gt;&lt;/returns&gt;
+public static float CalculateSimilarity(String s1, String s2)
+{
+    if ((s1 == null) || (s2 == null)) return 0.0f;
+
+    float dis = LevenshteinDistance.Compute(s1, s2);
+    float maxLen = s1.Length;
+    if (maxLen &lt; s2.Length)
+        maxLen = s2.Length;
+    if (maxLen == 0.0F)
+        return 1.0F;
+    else return 1.0F - dis / maxLen;
+}
+</code></pre>
+
+<p>but this for me is not enough. Because I need more complex way to match two sentences.</p>
+
+<p>For example I want automatically tag some music, I have original song names, and i have songs with trash, like <em>super, quality,</em> years like <em>2007, 2008,</em> etc..etc.. also some files have just <a href=""http://trash..thash..song_name_mp3.mp3"">http://trash..thash..song_name_mp3.mp3</a>, other are normal. I want to create an algorithm which will work just more perfect than mine now.. Maybe anyone can help me?</p>
+
+<p>here is my current algo:</p>
+
+<pre><code>/// &lt;summary&gt;
+/// if we need to ignore this target.
+/// &lt;/summary&gt;
+/// &lt;param name=""targetString""&gt;The target string.&lt;/param&gt;
+/// &lt;returns&gt;&lt;/returns&gt;
+private bool doIgnore(String targetString)
+{
+    if ((targetString != null) &amp;&amp; (targetString != String.Empty))
+    {
+        for (int i = 0; i &lt; ignoreWordsList.Length; ++i)
+        {
+            //* if we found ignore word or target string matching some some special cases like years (Regex).
+            if (targetString == ignoreWordsList[i] || (isMatchInSpecialCases(targetString))) return true;
+        }
+    }
+
+   return false;
+}
+
+/// &lt;summary&gt;
+/// Removes the duplicates.
+/// &lt;/summary&gt;
+/// &lt;param name=""list""&gt;The list.&lt;/param&gt;
+private void removeDuplicates(List&lt;String&gt; list)
+{
+    if ((list != null) &amp;&amp; (list.Count &gt; 0))
+    {
+        for (int i = 0; i &lt; list.Count - 1; ++i)
+        {
+            if (list[i] == list[i + 1])
+            {
+                list.RemoveAt(i);
+                --i;
+            }
+        }
+    }
+}
+
+/// &lt;summary&gt;
+/// Does the fuzzy match.
+/// &lt;/summary&gt;
+/// &lt;param name=""targetTitle""&gt;The target title.&lt;/param&gt;
+/// &lt;returns&gt;&lt;/returns&gt;
+private TitleMatchResult doFuzzyMatch(String targetTitle)
+{
+    TitleMatchResult matchResult = null;
+
+   if (targetTitle != null &amp;&amp; targetTitle != String.Empty)
+   {
+       try
+       {
+           //* change target title (string) to lower case.
+           targetTitle = targetTitle.ToLower();
+
+           //* scores, we will select higher score at the end.
+           Dictionary&lt;Title, float&gt; scores = new Dictionary&lt;Title, float&gt;();
+
+           //* do split special chars: '-', ' ', '.', ',', '?', '/', ':', ';', '%', '(', ')', '#', '\""', '\'', '!', '|', '^', '*', '[', ']', '{', '}', '=', '!', '+', '_'
+           List&lt;String&gt; targetKeywords = new List&lt;string&gt;(targetTitle.Split(ignoreCharsList, StringSplitOptions.RemoveEmptyEntries));
+
+          //* remove all trash from keywords, like super, quality, etc..
+           targetKeywords.RemoveAll(delegate(String x) { return doIgnore(x); });
+          //* sort keywords.
+          targetKeywords.Sort();
+        //* remove some duplicates.
+        removeDuplicates(targetKeywords);
+
+        //* go through all original titles.
+        foreach (Title sourceTitle in titles)
+        {
+            float tempScore = 0f;
+            //* split orig. title to keywords list.
+            List&lt;String&gt; sourceKeywords = new List&lt;string&gt;(sourceTitle.Name.Split(ignoreCharsList, StringSplitOptions.RemoveEmptyEntries));
+            sourceKeywords.Sort();
+            removeDuplicates(sourceKeywords);
+
+            //* go through all source ttl keywords.
+            foreach (String keyw1 in sourceKeywords)
+            {
+                float max = float.MinValue;
+                foreach (String keyw2 in targetKeywords)
+                {
+                    float currentScore = StringMatching.StringMatching.CalculateSimilarity(keyw1.ToLower(), keyw2);
+                    if (currentScore &gt; max)
+                    {
+                        max = currentScore;
+                    }
+                }
+                tempScore += max;
+            }
+
+            //* calculate average score.
+            float averageScore = (tempScore / Math.Max(targetKeywords.Count, sourceKeywords.Count)); 
+
+            //* if average score is bigger than minimal score and target title is not in this source title ignore list.
+            if (averageScore &gt;= minimalScore &amp;&amp; !sourceTitle.doIgnore(targetTitle))
+            {
+                //* add score.
+                scores.Add(sourceTitle, averageScore);
+            }
+        }
+
+        //* choose biggest score.
+        float maxi = float.MinValue;
+        foreach (KeyValuePair&lt;Title, float&gt; kvp in scores)
+        {
+            if (kvp.Value &gt; maxi)
+            {
+                maxi = kvp.Value;
+                matchResult = new TitleMatchResult(maxi, kvp.Key, MatchTechnique.FuzzyLogic);
+            }
+        }
+    }
+    catch { }
+}
+//* return result.
+return matchResult;
+}
+</code></pre>
+
+<p>This works normally but just in some cases, a lot of titles which should match, does not match... I think I need some kind of formula to play with weights and etc, but i can't think of one.. </p>
+
+<p>Ideas? Suggestions? Algos?</p>
+
+<p>by the way I already know this topic (My colleague already posted it but we cannot come with a proper solution for this problem.): 
+<a href=""http://stackoverflow.com/questions/49263/approximate-string-matching-algorithms"">http://stackoverflow.com/questions/49263/approximate-string-matching-algorithms</a></p>
+","5369","HalFas","","","","2012-04-09 20:23:40","Fuzzy text (sentences/titles) matching in C#","<c#><algorithm><string><fuzzy-search>","4","0","7","","","53480","139"
+"53849","1","53863","","2008-09-10 12:10:25","","258","308524","<p>Java has a convenient split method:</p>
+
+<pre><code>String str = ""The quick brown fox"";
+String[] results = str.split("" "");
+</code></pre>
+
+<p>Is there an easy way to do this in C++?</p>
+","1288","Bill the Lizard","1497596","","2013-04-04 18:04:54","2015-07-13 06:48:11","How do I tokenize a string in C++?","<c++><string><split><tokenize>","32","3","95","","","53849","139"
+"54866","1","54928","","2008-09-10 18:00:12","","6","7002","<p>I have string like this</p>
+
+<pre><code> /c SomeText\MoreText ""Some Text\More Text\Lol"" SomeText
+</code></pre>
+
+<p>I want to tokenize it, however I can't just split on the spaces. I've come up with somewhat ugly parser that works, but I'm wondering if anyone has a more elegant design.</p>
+
+<p>This is in C# btw.</p>
+
+<p><strong>EDIT:</strong> My ugly version, while ugly, is O(N) and may actually be faster than using a RegEx.</p>
+
+<pre><code>private string[] tokenize(string input)
+{
+    string[] tokens = input.Split(' ');
+    List&lt;String&gt; output = new List&lt;String&gt;();
+
+    for (int i = 0; i &lt; tokens.Length; i++)
+    {
+        if (tokens[i].StartsWith(""\""""))
+        {
+            string temp = tokens[i];
+            int k = 0;
+            for (k = i + 1; k &lt; tokens.Length; k++)
+            {
+                if (tokens[k].EndsWith(""\""""))
+                {
+                    temp += "" "" + tokens[k];
+                    break;
+                }
+                else
+                {
+                    temp += "" "" + tokens[k];
+                }
+            }
+            output.Add(temp);
+            i = k + 1;
+        }
+        else
+        {
+            output.Add(tokens[i]);
+        }
+    }
+
+    return output.ToArray();            
+}
+</code></pre>
+","1965","Jonathan Holland","1537726","Mark Biek","2015-09-09 10:19:42","2015-09-09 10:19:42","Best way to parse Space Separated Text","<c#><string><tokenize>","6","1","3","","","54866","139"
+"55054","1","55057","","2008-09-10 19:07:08","","22","23452","<p>What’s the best way to capitalise the first letter of each word in a string in SQL Server.</p>
+","5170","","","","","2015-07-23 20:24:32","What’s the best way to capitalise the first letter of each word in a string in SQL Server","<sql><sql-server><string>","6","2","10","","","55054","139"
+"56561","1","56694","","2008-09-11 13:45:30","","34","42844","<p>What is the approved way to convert from char* to System::string and back in C++/CLI? I found a few references to marshal_to&lt;> templated functions on Google, but it appears that this feature never made the cut for Visual Studio 2005 (and isn't in Visual Studio 2008 either, AFAIK). I have also seen some code on <a href=""http://blogs.msdn.com/slippman/archive/2004/06/02/147090.aspx"">Stan Lippman's blog</a>, but it's from 2004. I have also seen Marshal::StringToHGlobalAnsi(). Is there a method that is considered ""best practice""?</p>
+","3114","Brian","3204551","","2015-03-09 12:47:23","2015-03-09 12:47:23","What is the best way to convert between char* and System::String in C++/CLI","<.net><string><c++-cli>","5","0","11","","","56561","139"
+"58054","1","58060","","2008-09-12 00:57:11","","28","68099","<p>I have a list of bean objects passed into my JSP page, and one of them is a comment field. This field may contain newlines, and I want to replace them with semicolons using JSTL, so that the field can be displayed in a text input. I have found one solution, but it's not very elegant. I'll post below as a possibility.</p>
+","6027","parkerfath","","","","2015-07-20 15:22:43","How can I replace newline characters using JSP and JSTL?","<string><jsp><replace><jstl><newline>","14","0","5","","","58054","139"
+"58431","1","","","2008-09-12 07:10:21","","11","2702","<p>I have wondered for some time, what a nice, clean solution for joining an array of strings might look like.
+Example: I have [""Alpha"", ""Beta"", ""Gamma""] and want to join the strings into one, separated by commas – ""Alpha, Beta, Gamma"".</p>
+
+<p>Now I know that most programming languages offer some kind of join method for this. I just wonder how these might be implemented.
+When I took introductory courses, I often tried to go it alone, but never found a satisfactory algorithm. Everything seemed rather messy, the problem being that you can not just loop through the array, concatenating the strings, as you would add one too many commas (either before or after the last string).
+I don’t want to check conditions in the loop. I don’t really want to add the first or the last string before/after the loop (I guess this is maybe the best way?).</p>
+
+<p>Can someone show me an elegant solution? Or tell me exactly why there can’t be anything more elegant?</p>
+","4991","knuton","4991","","2011-05-28 13:40:38","2011-05-28 13:40:38","Algorithm for joining e.g. an array of strings","<arrays><algorithm><string><language-agnostic>","16","2","2","","","58431","139"

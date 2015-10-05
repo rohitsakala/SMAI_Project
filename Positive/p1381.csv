@@ -1,0 +1,856 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"1069","1","1073","","2008-08-04 07:30:01","","36","30411","<p>I'm working on a <strong>multithreaded</strong> C++ application that is corrupting the heap.  The usual tools to locate this corruption seem to be inapplicable.  Old builds (18 months old) of the source code exhibit the same behaviour as the most recent release, so this has been around for a long time and just wasn't noticed; on the downside, source deltas can't be used to identify when the bug was introduced - there are <em>a lot</em> of code changes in the repository.</p>
+
+<p>The prompt for crashing behaviuor is to generate throughput in this system - socket transfer of data which is munged into an internal representation.  I have a set of test data that will periodically cause the app to exception (various places, various causes - including heap alloc failing, thus: heap corruption).</p>
+
+<p>The behaviour seems related to CPU power or memory bandwidth; the more of each the machine has, the easier it is to crash.  Disabling a hyper-threading core or a dual-core core reduces the rate of (but does not eliminate) corruption.  This suggests a timing related issue.</p>
+
+<p>Now here's the rub:<br>
+When it's run under a lightweight debug environment (say <code>Visual Studio 98 / AKA MSVC6</code>) the heap corruption is reasonably easy to reproduce - ten or fifteen minutes pass before something fails horrendously and exceptions, like an <code>alloc;</code> when running under a sophisticated debug environment (Rational Purify, <code>VS2008/MSVC9</code> or even Microsoft Application Verifier) the system becomes memory-speed bound and doesn't crash (Memory-bound: CPU is not getting above <code>50%</code>, disk light is not on, the program's going as fast it can, box consuming <code>1.3G</code> of 2G of RAM).  So, <strong>I've got a choice between being able to reproduce the problem (but not identify the cause) or being able to idenify the cause or a problem I can't reproduce.</strong></p>
+
+<p>My current best guesses as to where to next is:</p>
+
+<ol>
+<li>Get an insanely grunty box (to replace the current dev box: 2Gb RAM in an <code>E6550 Core2 Duo</code>); this will make it possible to repro the crash causing mis-behaviour when running under a powerful debug environment; or</li>
+<li>Rewrite operators <code>new</code> and <code>delete</code> to use <code>VirtualAlloc</code> and <code>VirtualProtect</code> to mark memory as read-only as soon as it's done with.  Run under <code>MSVC6</code> and have the OS catch the bad-guy who's writing to freed memory.  Yes, this is a sign of desperation: who the hell rewrites <code>new</code> and <code>delete</code>?!  I wonder if this is going to make it as slow as under Purify et al.</li>
+</ol>
+
+<p>And, no: Shipping with Purify instrumentation built in is not an option.</p>
+
+<p>A colleague just walked past and asked ""Stack Overflow?  Are we getting stack overflows now?!?""</p>
+
+<p>And now, the question: <strong>How do I locate the heap corruptor?</strong></p>
+
+<hr>
+
+<p>Update: balancing <code>new[]</code> and <code>delete[]</code> seems to have gotten a long way towards solving the problem.  Instead of 15mins, the app now goes about two hours before crashing.  Not there yet.  Any further suggestions? The heap corruption persists.</p>
+
+<p>Update: a release build under Visual Studio 2008 seems dramatically better; current suspicion rests on the <code>STL</code> implementation that ships with <code>VS98</code>.</p>
+
+<hr>
+
+<blockquote>
+  <ol>
+  <li>Reproduce the problem. <code>Dr Watson</code> will produce a dump that might be helpful in further analysis. </li>
+  </ol>
+</blockquote>
+
+<p>I'll take a note of that, but I'm concerned that Dr Watson will only be tripped up after the fact, not when the heap is getting stomped on.</p>
+
+<blockquote>
+  <p>Another try might be using <code>WinDebug</code> as a debugging tool which is quite powerful being at the same time also lightweight.</p>
+</blockquote>
+
+<p>Got that going at the moment, again: not much help until something goes wrong.  I want to catch the vandal in the act.</p>
+
+<blockquote>
+  <p>Maybe these tools will allow you at least to narrow the problem to certain component.</p>
+</blockquote>
+
+<p>I don't hold much hope, but desperate times call for...</p>
+
+<blockquote>
+  <p>And are you sure that all the components of the project have correct runtime library settings (<code>C/C++ tab</code>, Code Generation category in VS 6.0 project settings)?</p>
+</blockquote>
+
+<p>No I'm not, and I'll spend a couple of hours tomorrow going through the workspace (58 projects in it) and checking they're all compiling and linking with the appropriate flags.
+<hR>
+Update: This took 30 seconds.  Select all projects in the <code>Settings</code> dialog, unselect until you find the project(s) that don't have the right settings (they all had the right settings).</p>
+","257","","1561378","Alex Miller","2012-09-16 10:09:41","2015-09-01 17:32:32","Heap corruption under Win32; how to locate?","<c++><windows><multithreading><debugging><memory>","15","5","26","","2008-09-02 03:03:53","1069","1381"
+"2482","1","2513","","2008-08-05 15:42:09","","27","2582","<P>With the rise of multicore CPUs on the desktop, multithreading skills will become a valuable asset for programmers. Can you recommend some good resources (books, tutorials, websites, etc.) for a programmer who is looking to learn about threaded programming?</P>","311","","311","Alex Miller","2009-09-05 17:29:51","2009-09-05 17:29:51","What are some good resources for learning threaded programming?","<multithreading><language-agnostic><concurrency>","18","0","13","2014-08-19 07:25:19","","2482","1381"
+"6184","1","6211","","2008-08-08 17:32:41","","22","20984","<p>When you subscribe to an event on an object from within a form, you are essentially handing over control of your callback method to the event source. You have no idea whether that event source will choose to trigger the event on a different thread.</p>
+
+<p>The problem is that when the callback is invoked, you cannot assume that you can make update controls on your form because sometimes those controls will throw an expection if the event callback was called on a thread different than the thread the form was run on.</p>","756","","7671","Alex Miller","2008-09-26 12:07:51","2012-05-30 21:57:58","How do I make event callbacks into my win forms thread safe?","<c#><.net><winforms><multithreading><events>","6","0","10","","","6184","1381"
+"6817","1","6929","","2008-08-09 15:42:17","","4","778","<p>I'm working on a project were we need more performance. Over time we've continued to evolve the design to work more in parallel(both threaded and distributed). Then latest step has been to move part of it onto a new machine with 16 cores. I'm finding that we need to rethink how we do things to scale to that many cores in a shared memory model. For example the standard memory allocator isn't good enough.</p>
+
+<p>What resources would people recommend? </p>
+
+<p>So far I've found Sutter's column Dr. Dobbs to be a good start.
+I just got The Art of Multiprocessor Programming and The O'Reilly book on Intel Threading Building Blocks</p>
+","852","","7671","Alex Miller","2008-09-26 12:06:30","2008-09-26 12:07:21","Scaling multithreaded applications on multicored machines","<performance><multithreading><scalability><malloc>","8","0","1","","","6817","1381"
+"6890","1","7101","","2008-08-09 20:00:37","","4","6730","<p>I have some code for starting a thread on the .NET CF 2.0:</p>
+
+<pre><code>ThreadStart tStart = new ThreadStart(MyMethod);
+Thread t = new Thread(tStart);
+t.Start();
+</code></pre>
+
+<p>If I call this inside a loop the items complete out of order. How do introduce a wait after <code>t.Start()</code>, so that the work on the thread completes before the code continues? Will BeginInvoke/EndInvoke be a better option for this than manually creating threads?</p>
+","636","","2246344","Oli","2014-09-07 19:02:48","2015-08-31 16:32:46","How to wait for thread complete before continuing?","<c#><multithreading><compact-framework>","3","0","","","","6890","1381"
+"6915","1","6955","","2008-08-09 21:16:29","","29","18976","<p>Is there a way to implement a singleton object in C++ that is:</p>
+
+<ol>
+<li>Lazily constructed in a thread safe manner (two threads might simultaneously be the first user of the singleton - it should still only be constructed once).</li>
+<li>Doesn't rely on static variables being constructed beforehand (so the singleton object is itself safe to use during the construction of static variables).</li>
+</ol>
+
+<p>(I don't know my C++ well enough, but is it the case that integral and constant static variables are initialized before any code is executed (ie, even before static constructors are executed - their values may already be ""initialized"" in the program image)?  If so - perhaps this can be exploited to implement a singleton mutex - which can in turn be used to guard the creation of the real singleton..)</p>
+
+<hr>
+
+<p>Excellent, it seems that I have a couple of good answers now (shame I can't mark 2 or 3 as being <strong>the answer</strong>).  There appears to be two broad solutions:</p>
+
+<ol>
+<li>Use static initialisation (as opposed to dynamic initialisation) of a POD static variable, and implementing my own mutex with that using the builtin atomic instructions.  This was the type of solution I was hinting at in my question, and I believe I knew already.</li>
+<li>Use some other library function like <a href=""http://opengroup.org/onlinepubs/007908799/xsh/pthread_once.html"">pthread_once</a> or <a href=""http://www.boost.org/doc/libs/1_33_1/doc/html/call_once.html"">boost::call_once</a>.  These I certainly didn't know about - and am very grateful for the answers posted.</li>
+</ol>
+","755","","889260","Alex Miller","2011-10-20 07:35:25","2012-07-03 14:56:23","Thread safe lazy construction of a singleton in C++","<c++><multithreading><singleton><construction><lazy-initialization>","10","0","22","","","6915","1381"
+"6957","1","7458","","2008-08-10 00:01:18","","2","1436","<p>Looking for feedback on :</p>
+
+<p><a href=""http://code.google.com/p/google-perftools/wiki/GooglePerformanceTools"" rel=""nofollow"">http://code.google.com/p/google-perftools/wiki/GooglePerformanceTools</a></p>","116","","61342","superjoe30","2009-10-11 12:48:22","2009-10-11 12:48:22","Has anybody used Google Performance Tools?","<performance><multithreading><malloc><google-perftools>","2","0","1","","","6957","1381"
+"7015","1","7020","","2008-08-10 03:07:39","","5","1392","<P>I have a quad core machine and would like to write some code to parse a text file that takes advantage of all four cores. The text file basically contains one record per line.</P>
+<P>Multithreading isn't my forte so I'm wondering if anyone could give me some patterns that I might be able to use to parse the file in an optimal manner.</P>
+<P>My first thoughts are to read all the lines into some sort of queue and then spin up threads to pull the lines off the queue and process them, but that means the queue would have to exist in memory and these are faily large files so I'm not so keen on that idea.</P>
+<P>My next thoughts are to have some sort of controller that will read in a line and assign it a thread to parse, but I'm not sure if the controller will end up being a bottleneck if the threads are processing the lines faster than it can read and assign them.</P>
+<P>I know there's probably another simpler solution than both of these but at the moment I'm just not seeing it.</P>","493","","7671","Alex Miller","2008-09-26 12:05:37","2008-09-26 12:05:37","Multicore Text File Parsing","<c#><multithreading>","7","0","","","","7015","1381"
+"7095","1","7105","","2008-08-10 08:23:55","","172","39076","<p>In other words, is this Singleton implementation thread safe:</p>
+
+<pre><code>public class Singleton
+{
+    private static Singleton instance;
+
+    private Singleton() { }
+
+    static Singleton()
+    {
+        instance = new Singleton();
+    }
+
+    public static Singleton Instance
+    {
+        get { return instance; }
+    }
+}
+</code></pre>
+","373","","","","","2014-09-07 18:56:01","Is the C# static constructor thread safe?","<c#><multithreading><singleton>","9","1","62","","","7095","1381"
+"8546","1","8553","","2008-08-12 06:19:38","","38","10820","<p>I need to try to lock on an object, and if its already locked just continue (after time out, or without it).</p>
+
+<p>The C# lock statement is blocking.</p>
+","195","","2246344","","2014-09-07 19:51:41","2014-09-07 19:51:41","Is there a ""try to lock, skip if timed out"" operation in C#?","<c#><multithreading><locking>","4","0","9","","","8546","1381"
+"9191","1","9826","","2008-08-12 19:50:13","","23","4799","<p>I'd like to ask a question then follow it up with my own answer, but also see what answers other people have.</p>
+
+<p>We have two large files which we'd like to read from two separate threads concurrently.  One thread will sequentially read fileA while the other thread will sequentially read fileB.  There is no locking or communication between the threads, both are sequentially reading as fast as they can, and both are immediately discarding the data they read.</p>
+
+<p>Our experience with this setup on Windows is very poor.  The combined throughput of the two threads is in the order of 2-3 MiB/sec.  The drive seems to be spending most of its time seeking backwards and forwards between the two files, presumably reading very little after each seek.</p>
+
+<p>If we disable one of the threads and temporarily look at the performance of a single thread then we get much better bandwidth (~45 MiB/sec for this machine).  So clearly the bad two-thread performance is an artefact of the OS disk scheduler.</p>
+
+<p><strong>Is there anything we can do to improve the concurrent thread read performance?</strong>  Perhaps by using different APIs or by tweaking the OS disk scheduler parameters in some way.</p>
+
+<p>Some details:</p>
+
+<p>The files are in the order of 2 GiB each on a machine with 2GiB of RAM.  For the purpose of this question we consider them not to be cached and perfectly defragmented.  We have used defrag tools and rebooted to ensure this is the case.</p>
+
+<p>We are using no special APIs to read these files.  The behaviour is repeatable across various bog-standard APIs such as Win32's CreateFile, C's fopen, C++'s std::ifstream, Java's FileInputStream, etc.</p>
+
+<p>Each thread spins in a loop making calls to the read function.  We have varied the number of bytes requested from the API each iteration from values between 1KiB up to 128MiB.  Varying this has had no effect, so clearly the amount the OS is physically reading after each disk seek is not dictated by this number.  This is exactly what should be expected.</p>
+
+<p>The dramatic difference between one-thread and two-thread performance is repeatable across Windows 2000, Windows XP (32-bit and 64-bit), Windows Server 2003, and also with and without hardware RAID5.</p>
+","755","pauldoo","6899","ΤΖΩΤΖΙΟΥ","2008-10-10 11:06:19","2015-04-20 08:26:01","How to obtain good concurrent read performance from disk","<windows><multithreading><file-io>","6","0","7","","","9191","1381"
+"9666","1","9788","","2008-08-13 11:41:29","","56","16595","<p>I've been raised to believe that if multiple threads can access a variable, then all reads from and writes to that variable must be protected by synchronization code, such as a ""lock"" statement, because the processor might switch to another thread halfway through a write.</p>
+
+<p>However, I was looking through System.Web.Security.Membership using Reflector and found code like this:</p>
+
+<pre><code>public static class Membership
+{
+    private static bool s_Initialized = false;
+    private static object s_lock = new object();
+    private static MembershipProvider s_Provider;
+
+    public static MembershipProvider Provider
+    {
+        get
+        {
+            Initialize();
+            return s_Provider;
+        }
+    }
+
+    private static void Initialize()
+    {
+        if (s_Initialized)
+            return;
+
+        lock(s_lock)
+        {
+            if (s_Initialized)
+                return;
+
+            // Perform initialization...
+            s_Initialized = true;
+        }
+    }
+}
+</code></pre>
+
+<p>Why is the s_Initialized field read outside of the lock? Couldn't another thread be trying to write to it at the same time? <strong>Are reads and writes of variables atomic?</strong> </p>
+","1016","","1016","Rory MacLeod","2008-08-13 12:28:40","2014-09-07 20:09:14","Is accessing a variable in C# an atomic operation?","<c#><multithreading>","16","0","16","","","9666","1381"
+"9926","1","20736","","2008-08-13 15:09:51","","7","1777","<p>We have a codebase that is several years old, and all the original developers are long gone.  It uses many, many threads, but with no apparent design or common architectural principles.  Every developer had his own style of multithreaded programming, so some threads communicate with one another using queues, some lock data with mutexes, some lock with semaphores, some use operating-system IPC mechanisms for intra-process communications.  There is no design documentation, and comments are sparse.  It's a mess, and it seems that whenever we try to refactor the code or add new functionality, we introduce deadlocks or other problems.</p>
+
+<p>So, does anyone know of any tools or techniques that would help to analyze and document all the interactions between threads?  FWIW, the codebase is C++ on Linux, but I'd be interested to hear about tools for other environments.</p>
+
+<p><hr /></p>
+
+<h2>Update</h2>
+
+<p>I appreciate the responses received so far, but I was hoping for something more sophisticated or systematic than advice that is essentially ""add log messages, figure out what's going on, and fix it.""  There are lots of tools out there for analyzing and documenting control-flow in single-threaded programs; is there nothing available for multi-threaded programs?</p>
+
+<p><hr /></p>
+
+<p>See also <a href=""http://stackoverflow.com/questions/619677/debugging-multithreaded-applications"">http://stackoverflow.com/questions/619677/debugging-multithreaded-applications</a></p>
+","1175","Kristopher Johnson","881229","Kristopher Johnson","2013-12-12 06:44:59","2013-12-12 06:44:59","Analyzing Multithreaded Programs","<multithreading><concurrency>","7","0","1","2013-11-13 16:38:43","","9926","1381"
+"10071","1","10157","","2008-08-13 16:55:51","","3","3907","<p>I'm working on an app that grabs and installs a bunch of updates off an an external server, and need some help with threading. The user follows this process:</p>
+
+<ul>
+<li>Clicks button</li>
+<li>Method checks for updates, count is returned.</li>
+<li>If greater than 0, then ask the user if they want to install using MessageBox.Show().</li>
+<li>If yes, it runs through a loop and call BeginInvoke() on the run() method of each update to run it in the background.</li>
+<li>My update class has some events that are used to update a progress bar etc. </li>
+</ul>
+
+<p>The progress bar updates are fine, but the MessageBox is not fully cleared from the screen because the update loop starts right after the user clicks yes (see screenshot below).</p>
+
+<ul>
+<li>What should I do to make the messagebox disappear instantly before the update loop starts?</li>
+<li>Should I be using Threads instead of BeginInvoke()?</li>
+<li>Should I be doing the initial update check on a separate thread and calling MessageBox.Show() from that thread?</li>
+</ul>
+
+<p><strong>Code</strong></p>
+
+<p>// Button clicked event handler code...</p>
+
+<pre><code>DialogResult dlgRes = MessageBox.Show(
+    string.Format(""There are {0} updates available.\n\nInstall these now?"", 
+    um2.Updates.Count), ""Updates Available"", 
+    MessageBoxButtons.YesNo, 
+    MessageBoxIcon.Question, 
+    MessageBoxDefaultButton.Button2
+);
+
+if (dlgRes == DialogResult.Yes)
+{
+    ProcessAllUpdates(um2); 
+}
+
+// Processes a bunch of items in a loop
+private void ProcessAllUpdates(UpdateManager2 um2)
+{
+    for (int i = 0; i &lt; um2.Updates.Count; i++)
+    {
+    	Update2 update = um2.Updates[i];
+
+    	ProcessSingleUpdate(update);
+
+    	int percentComplete = Utilities.CalculatePercentCompleted(i, um2.Updates.Count);
+
+    	UpdateOverallProgress(percentComplete);
+    }
+}
+
+// Process a single update with IAsyncResult
+private void ProcessSingleUpdate(Update2 update)
+{
+    update.Action.OnStart += Action_OnStart;
+    update.Action.OnProgress += Action_OnProgress;
+    update.Action.OnCompletion += Action_OnCompletion;
+
+    //synchronous
+    //update.Action.Run();
+
+    // async
+    IAsyncResult ar = this.BeginInvoke((MethodInvoker)delegate() { update.Action.Run(); });
+}
+</code></pre>
+
+<p><strong>Screenshot</strong></p>
+
+<p><a href=""http://www.flickr.com/photos/brianly/2760435228/"" rel=""nofollow"" title=""Windows Mobile Bug by BrianLy, on Flickr""><img src=""http://farm4.static.flickr.com/3043/2760435228_1af7dbf365_o.gif"" width=""233"" height=""266"" alt=""Windows Mobile Bug"" /></a></p>
+","636","BrianLy","7671","Alex Miller","2008-09-26 12:03:51","2008-09-26 12:03:51","Compact Framework/Threading - MessageBox displays over other controls after option is chosen","<c#><winforms><multithreading><compact-framework>","3","0","","","","10071","1381"
+"10229","1","10484","","2008-08-13 19:03:21","","3","636","<p>Consider this problem: I have a program which should fetch (let's say) 100 records from a database, and then for each one it should get updated information from a web service. There are two ways to introduce parallelism in this scenario:</p>
+
+<ol>
+<li><p>I start each request to the web service on a new Thread. The number of simultaneous threads is controlled by some external parameter (or dynamically adjusted somehow).</p></li>
+<li><p>I create smaller batches (let's say of 10 records each) and launch each batch on a separate thread (so taking our example, 10 threads).</p></li>
+</ol>
+
+<p>Which is a better approach, and why do you think so?</p>
+","380","Vaibhav","590783","","2012-02-08 20:23:49","2014-01-10 16:30:51","Multithreading Design Best Practice","<.net><multithreading>","4","3","2","","","10229","1381"
+"10274","1","10287","","2008-08-13 19:24:22","","33","11080","<p>When should I <strong>not</strong> use the ThreadPool in .Net?</p>
+
+<p>It looks like the best option is to use a ThreadPool, in which case, why is it not the only option?</p>
+
+<p>What are your experiences around this?</p>
+","380","Vaibhav","200449","","2013-04-15 12:56:31","2013-10-25 18:53:38","When should I not use the ThreadPool in .Net?","<c#><.net><multithreading><design><design-decisions>","9","0","10","","","10274","1381"
+"10349","1","10359","","2008-08-13 20:41:24","","16","5830","<p>I'm sure there is a good (or at least decent) reason for this.  What is it?</p>
+","337","Larsenal","","","","2015-04-17 15:43:23","In WinForms, why can't you update UI controls from other threads?","<winforms><multithreading>","8","0","3","","","10349","1381"
+"12095","1","12119","","2008-08-15 09:19:04","","2","1495","<p>Our team is creating a new recruitment workflow system to replace an old one. I have been tasked with migrating the old data into the new schema. I have decided to do this by creating a small Windows Forms project as the schema are radically different and straight TSQL scripts are not an adequate solution.</p>
+
+<p>The main sealed class 'ImportController' that does the work declares the following delegate event:</p>
+
+<pre><code>public delegate void ImportProgressEventHandler(object sender, ImportProgressEventArgs e);
+public static event ImportProgressEventHandler importProgressEvent;
+</code></pre>
+
+<p>The main window starts a static method in that class using a new thread:</p>
+
+<pre><code>Thread dataProcessingThread = new Thread(new ParameterizedThreadStart(ImportController.ImportData));
+dataProcessingThread.Name = ""Data Importer: Data Processing Thread"";
+dataProcessingThread.Start(settings);
+</code></pre>
+
+<p>the ImportProgressEvent args carries a string message, a max int value for the progress bar and an current progress int value. The Windows form subcribes to the event:</p>
+
+<pre><code>ImportController.importProgressEvent += new ImportController.ImportProgressEventHandler(ImportController_importProgressEvent);
+</code></pre>
+
+<p>And responds to the event in this manner using it's own delegate:</p>
+
+<pre><code>    private delegate void TaskCompletedUIDelegate(string completedTask, int currentProgress, int progressMax);
+
+private void ImportController_importProgressEvent(object sender, ImportProgressEventArgs e)
+            {
+                this.Invoke(new TaskCompletedUIDelegate(this.DisplayCompletedTask), e.CompletedTask, e.CurrentProgress, e.ProgressMax);
+            }
+</code></pre>
+
+<p>Finally the progress bar and listbox are updated:</p>
+
+<pre><code>private void DisplayCompletedTask(string completedTask, int currentProgress, int progressMax)
+        {
+            string[] items = completedTask.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string item in items)
+            {
+                this.lstTasks.Items.Add(item);
+            }
+
+            if (currentProgress &gt;= 0 &amp;&amp; progressMax &gt; 0 &amp;&amp; currentProgress &lt;= progressMax)
+            {
+                this.ImportProgressBar.Maximum = progressMax;
+                this.ImportProgressBar.Value = currentProgress;
+            }
+        }
+</code></pre>
+
+<p>The thing is the ListBox seems to update very quickly, but the progress bar never moves until the batch is almost complete anyway ??? what gives ?</p>
+","2083160","HollyStyles","6899","ΤΖΩΤΖΙΟΥ","2008-10-15 21:46:51","2008-10-15 21:46:51","Windows Forms Threading and Events - ListBox updates promptly but progressbar experiences huge delay","<windows><multithreading><events><forms><delegates>","6","0","1","","","12095","1381"
+"12159","1","","","2008-08-15 11:44:33","","391","64880","<p>I have thus far avoided the nightmare that is testing multi-threaded code since it just seems like too much of a minefield.  I'd like to ask how people have gone about testing code that relies on threads for successful execution, or just how people have gone about testing those kinds of issues that only show up when two threads interact in a given manner?</p>
+
+<p>This seems like a really key problem for programmers today, it would be useful to pool our knowledge on this one imho.</p>
+","912","JKP","229044","Chris Fournier","2015-07-30 02:00:50","2015-09-14 20:44:38","How should I unit test threaded code?","<multithreading><unit-testing>","23","4","173","","","12159","1381"
+"12476","1","12484","","2008-08-15 17:02:44","","20","8007","<p>self explanatory question.</p>
+
+<p>Why does this thing bubble into my try catch's even when nothing is wrong? </p>
+
+<p>Why is it showing up in my log, hundreds of times?</p>
+
+<p><strong>I know its a newb question, but if this site is gonna get search ranking and draw in newbs we have to ask them</strong></p>
+","1220","ChanChan","1220","ChanChan","2008-08-15 17:12:44","2013-08-29 09:53:49","Why is my asp.net application throwing ThreadAbortException?","<asp.net><multithreading>","5","0","1","","","12476","1381"
+"13170","1","13255","","2008-08-16 15:24:19","","6","4092","<p>From time to time I get a System.Threading.ThreadStateException when attempting to restart a thread. The code in question is as follows:</p>
+
+<pre><code>// Make sure the thread is done stopping
+while (this.mThread.ThreadState == ThreadState.Running)
+{ 
+    Thread.Sleep(0);
+}
+// Respawn a thread if the current one is stopped or doesn't exist
+if (this.mThread == null || this.mThread.ThreadState == ThreadState.Stopped)
+{ 
+    this.mThread = new Thread(new ParameterizedThreadStart(Monitor)); }
+// Start the thread
+if (check)
+{ 
+    this.mThread.Start(60000); 
+}
+else
+{   
+    this.mThread.Start(0); 
+}
+</code></pre>
+
+<p>So two questions - is this the correct way of doing things, and  it is, is there a way to prevent the error from occurring?</p>
+","1185","Rob","1477076","Rob","2012-08-11 15:40:55","2012-08-11 15:40:55","A ThreadStateException occures when trying to restart a thread","<c#><.net><multithreading><exception>","3","0","1","","","13170","1381"
+"19713","1","19732","","2008-08-21 12:24:23","","11","1971","<p>Is there an equivalent for <code>Interlocked.Exchange</code> for boolean?  </p>
+
+<p>Such as an atomic exchange of values that returns the previous value and doesn't require locks?</p>
+","1228","Will","4638313","","2015-04-06 22:12:10","2015-04-06 22:12:10","Interlocked.Exchange, but not for booleans?","<.net><multithreading>","1","0","1","","","19713","1381"
+"22187","1","22285","","2008-08-22 12:19:29","","19","3193","<p>What libraries exist for other programming languages to provide an Erlang-style concurrency model (processes, mailboxes, pattern-matching receive, etc.)?</p>
+
+<p>Note: I am specifically interested in things that are intended to be similar to Erlang, not just any threading or queueing library.</p>
+","1175","Kristopher Johnson","1175","","2008-10-20 13:26:48","2011-10-07 21:26:07","Erlang-style Concurrency for Other Languages","<multithreading><concurrency><erlang>","13","1","11","","2008-10-20 13:26:47","22187","1381"
+"22354","1","","","2008-08-22 13:33:37","","1","1898","<p>I am working on a SharePoint application that supports importing multiple documents in a single operation.  I also have an ItemAdded event handler that performs some basic maintenance of the item metadata.  This event fires for both imported documents and manually created ones.  The final piece of the puzzle is a batch operation feature that I implemented to kick off a workflow and update another metadata field.</p>
+
+<p>I am able to cause a COMException 0x81020037 by extracting the file data of a SPListItem.  This file is just an InfoPath form/XML document.  I am able to modify the XML and sucessfully push it back into the SPListItem.  When I fire off the custom feature immediately afterwards and modify metadata, it occassionally causes the COM error.</p>
+
+<p>The error message basically indicates that the file was modified by another thread.  It would seem that the ItemAdded event is still writing the file back to the database while the custom feature is changing metadata.  I have tried putting in delays and error catching loops to try to detect that the SPListItem is safe to modify with little success.</p>
+
+<p>Is there a way to tell if another thread has a lock on a document?</p>
+","2470","JasonZ","2470","Jason Z","2008-08-25 13:39:35","2013-01-24 10:13:46","Sharepoint COMException 0x81020037","<multithreading><sharepoint><com>","2","0","","","","22354","1381"
+"22356","1","22397","","2008-08-22 13:34:02","","61","70584","<p>I find that the .NET event model is such that I'll often be raising an event on one thread and listening for it on another thread.  I was wondering what the cleanest way to marshal an event from a background thread onto my UI thread is.</p>
+
+<p>Based on the community suggestions, I've used this:</p>
+
+<pre><code>// earlier in the code
+mCoolObject.CoolEvent+= 
+           new CoolObjectEventHandler(mCoolObject_CoolEvent);
+// then
+private void mCoolObject_CoolEvent(object sender, CoolObjectEventArgs args)
+{
+    if (InvokeRequired)
+    {
+        CoolObjectEventHandler cb =
+            new CoolObjectEventHandler(
+                mCoolObject_CoolEvent);
+        Invoke(cb, new object[] { sender, args });
+        return;
+    }
+    // do the dirty work of my method here
+}
+</code></pre>
+","1490","Nick","1490","Nick","2008-08-22 16:00:38","2015-08-18 17:07:27","Cleanest Way to Invoke Cross-Thread Events","<c#><multithreading><events>","10","0","36","","","22356","1381"
+"26816","1","26830","","2008-08-25 20:38:09","","16","17628","<p>is there a way to abort threads created with QueueUserWorkItem?</p>
+
+<p>Or maybe I don't need to? What happens if the main application exits? Are all thread created from it aborted automatically?</p>
+","1782","Juan Manuel","1782","","2008-08-28 17:59:13","2009-06-10 14:30:01","How to abort threads created with ThreadPool.QueueUserWorkItem","<c#><multithreading>","6","0","5","","","26816","1381"
+"29643","1","29652","","2008-08-27 06:58:51","","7","502","<p>Okay, here's the scenario. I have a utility that processes tons of records, and enters information to the Database accordingly.</p>
+
+<p>It works on these records in multi-threaded batches. Each such batch writes to the same log file for creating a workflow trace for each record. Potentially, we could be making close to a million log writes in a day.</p>
+
+<p>Should this log be made into a database residing on another server? Considerations:</p>
+
+<ol>
+<li>The obvious disadvantage of multiple threads writing to the same log file is that the log messages are shuffled amongst each other. In the database, they can be grouped by batch id.</li>
+<li>Performance - which would slow down the batch processing more? writing to a local file or sending log data to a database on another server on the same network. Theoretically, the log file is faster, but is there a gotcha here?</li>
+</ol>
+
+<p>Are there any optimizations that can be done on either approach?</p>
+
+<p>Thanks.</p>
+","380","Vaibhav","","","","2008-10-16 13:57:54","Which is a better approach in logging - files or DB?","<multithreading><logging>","10","0","1","","","29643","1381"
+"29841","1","29920","","2008-08-27 10:05:02","","5","2516","<p>We have a Windows Service written in C#. The service spawns a thread that does this: </p>
+
+<pre><code>private void ThreadWorkerFunction()
+{
+  while(false == _stop) // stop flag set by other thread
+  {
+    try
+    {
+      openConnection();
+
+      doStuff();
+
+      closeConnection();
+    }
+    catch (Exception ex)
+    {
+      log.Error(""Something went wrong."", ex);
+
+      Thread.Sleep(TimeSpan.FromMinutes(10));
+    }
+  }
+}
+</code></pre>
+
+<p>We put the Thread.Sleep in after a couple of times when the database had gone away and we came back to 3Gb logs files full of database connection errors.  </p>
+
+<p>This has been running fine for months, but recently we've seen a few instances where the log.Error() statement logs a ""System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable"" exception and then never ever comes back. The service can be left running for days but nothing more will be logged.</p>
+
+<p>Having done some reading I know that Thread.Sleep is not ideal, but why would it simply never come back?</p>
+","1039","Dan Thompson","1039","Dan Thompson","2008-08-27 10:56:54","2010-07-05 09:59:50","Thread not waking up from Thread.Sleep()","<.net><multithreading>","8","1","","","","29841","1381"
+"30036","1","30197","","2008-08-27 13:09:10","","88","66979","<p>Is there some way to do multi-threading in JavaScript?</p>
+","184","Niyaz","16587","Jeff Atwood","2009-06-16 17:23:54","2015-07-01 12:10:20","JavaScript and Threads","<javascript><multithreading>","11","2","37","","","30036","1381"
+"31340","1","31398","","2008-08-27 23:44:47","","66","25699","<p>I've been trying to wrap my head around how threads work in Python, and it's hard to find good information on how they operate. I may just be missing a link or something, but it seems like the official documentation isn't very thorough on the subject, and I haven't been able to find a good write-up.</p>
+
+<p>From what I can tell, only one thread can be running at once, and the active thread switches every 10 instructions or so?</p>
+
+<p>Where is there a good explanation, or can you provide one? It would also be very nice to be aware of common problems that you run into while using threads with Python.</p>
+","242853","jdd","63550","","2010-09-11 20:31:26","2014-02-06 16:19:03","How do threads work in Python, and what are common Python-threading specific pitfalls?","<python><multithreading>","6","0","24","","","31340","1381"
+"31581","1","31833","","2008-08-28 03:01:10","","23","8505","<p>I'm writing an app that will need to make use of <code>Timer</code>s, but potentially very many of them.  How scalable is the <code>System.Threading.Timer</code> class?  The documentation merely say it's ""lightweight"", but doesn't explain further.  Do these timers get sucked into a single thread (or very small threadpool) that processes all the callbacks on behalf of a <code>Timer</code>, or does each <code>Timer</code> have its own thread?  </p>
+
+<p>I guess another way to rephrase the question is: How is <code>System.Threading.Timer</code> implemented?</p>
+","3279","aggieben","3279","","2013-09-05 16:16:25","2013-09-05 16:16:25","How scalable is System.Threading.Timer?","<c#><.net><multithreading><timer>","4","0","6","","","31581","1381"
+"32198","1","32242","","2008-08-28 13:07:57","","4","2856","<p>I am looking for any strategies people use when implementing server applications that service client TCP (or UDP) requests: design patterns, implementation techniques, best practices, etc.</p>
+
+<p>Let's assume for the purposes of this question that the requests are relatively long-lived (several minutes) and that the traffic is time sensitive, so no delays are acceptable in responding to messages.  Also, we are both servicing requests from clients and making our own connections to other servers.</p>
+
+<p>My platform is .NET, but since the underlying technology is the same regardless of platform, I'm interested to see answers for any language.</p>
+","1219","Eric Z Beard","-1","","2008-09-14 15:14:36","2015-08-19 23:39:46","How do you minimize the number of threads used in a tcp server application?","<multithreading><sockets><tcp><udp>","4","0","2","","","32198","1381"
+"32343","1","32348","","2008-08-28 14:11:20","","44","25121","<p>Let's say I had a program in C# that did something computationally expensive, like encoding a list of WAV files into MP3's. Ordinarily I would encode the files one at a time, but let's say I wanted the program to figure out how many CPU cores I had and spin up an encoding thread on each core. So, when I run the program on a quad core CPU, the program figures out it's a quad core CPU, figures out there's four cores to work with, then spawns four threads for the encoding, each of which is running on its own separate CPU. How would I do this?</p>
+
+<p>And would this be any different if the cores were spread out across multiple physical CPU's? As in, if I had a machine with two quad core CPU's on it, are there any special considerations or are the eight cores across the two dies considered equal in Windows?</p>
+","2577","Schnapple","","","","2015-04-01 14:17:56","How do I spawn threads on different CPU cores?","<c#><.net><windows><multithreading>","10","0","18","","","32343","1381"
+"34020","1","34060","","2008-08-29 05:43:16","","14","5328","<p>A reliable coder friend told me that Python's current multi-threading implementation is seriously buggy - enough to avoid using altogether.  What can said about this rumor?</p>
+","3561","Tyler","63550","Rob Cooper","2010-09-10 22:32:11","2011-09-09 07:39:39","Are Python threads buggy?","<python><multithreading>","6","1","9","","","34020","1381"
+"34151","1","","","2008-08-29 08:02:03","","10","3963","<p>Is the following safe?</p>
+
+<p>I am new to threading and I want to delegate a time consuming process to a separate thread in my C++ program.
+Using the boost libraries I have written code something like this:</p>
+
+<p>thrd = new boost::thread(boost::bind(&amp;myclass::mymethod, this, &amp;finished_flag);</p>
+
+<p>Where finished_flag is a boolean member of my class. When the thread is finished it sets the value and the main loop of my program checks for a change in that value.
+I assume that this is okay because I only ever start one thread, and that thread is the only thing that changes the value (except for when it is initialised  before I start the thread)
+So is this okay, or am I missing something, and need to use locks and mutexes, etc</p>
+","","Hamish","95735","","2009-07-11 19:18:14","2012-07-03 14:52:21","C++ Thread question - setting a value to indicate the thread has finished","<c++><multithreading><boost-thread>","5","0","2","","","34151","1381"
+"34510","1","34550","","2008-08-29 15:55:10","","321","187891","<p>When writing multi-threaded applications, one of the most common problems experienced are race conditions.  </p>
+
+<p>My question to the community, is:</p>
+
+<p>What is a race condition?  How do you detect them?  How do you handle them?  And finally, how do you prevent them from occurring?</p>
+","1931","Dalroth","34813","","2009-10-19 02:08:57","2015-08-05 07:24:06","What is a race condition?","<multithreading><concurrency><race-condition>","17","1","172","","","34510","1381"
+"34512","1","34520","","2008-08-29 15:56:27","","36","18533","<p>When writing multi-threaded applications, one of the most common problems experienced are deadlocks.  </p>
+
+<p>My question to the community, is:</p>
+
+<p>What is a deadlock?  How do you detect them?  Do you handle them?  And finally, how do you prevent them from occurring?</p>
+","1931","Dalroth","","","","2015-05-07 12:47:28","What is a deadlock?","<multithreading><concurrency><deadlock>","10","1","20","","","34512","1381"
+"34519","1","","","2008-08-29 15:58:15","","119","60663","<p>A semaphore is a programming concept that is frequently used to solve multi-threading problems.  My question to the community: </p>
+
+<p>What is a semaphore and how do you use it?</p>
+","1931","Dalroth","","","","2015-06-18 13:33:08","What is a semaphore?","<multithreading><concurrency><semaphore>","11","1","58","","","34519","1381"
+"34524","1","","","2008-08-29 15:59:25","","180","73379","<p>A mutex is a programming concept that is frequently used to solve multi-threading problems.  My question to the community: </p>
+
+<p>What is a mutex and how do you use it?</p>
+","1931","Dalroth","","","","2015-04-08 02:07:45","What is a mutex?","<multithreading><concurrency><mutex>","7","3","74","","","34524","1381"
+"37026","1","37046","","2008-08-31 18:47:12","","177","110571","<p>If one Googles for ""difference between <code>notify()</code> and <code>notifyAll()</code>"" then a lot of explanations will pop up (leaving apart the javadoc paragraphs). It all boils down to the number of waiting threads being waken up: one in <code>notify()</code> and all in <code>notifyAll()</code>.</p>
+
+<p>However (if I do understand the difference between these methods right), only one thread is always selected for further monitor acquisition; in the first case the one selected by the VM, in the second case the one selected by the system thread scheduler. The exact selection procedures for both of them (in the general case) are not known to the programmer.</p>
+
+<p>What's the <strong>useful</strong> difference between <a href=""http://download.oracle.com/javase/6/docs/api/java/lang/Object.html#notify%28%29"">notify()</a> and <a href=""http://download.oracle.com/javase/6/docs/api/java/lang/Object.html#notifyAll%28%29"">notifyAll()</a> then? Am I missing something?</p>
+","3894","","592746","","2011-12-29 18:49:44","2015-08-05 16:11:25","Java: notify() vs. notifyAll() all over again","<java><multithreading>","18","3","112","","","37026","1381"
+"37067","1","37314","","2008-08-31 20:13:52","","5","677","<p>I've created a model for executing worker tasks in a server application using a thread pool associated with an IO completion port such as shown in the posts below:</p>
+
+<p><a href=""http://weblogs.asp.net/kennykerr/archive/2008/01/03/parallel-programming-with-c-part-4-i-o-completion-ports.aspx"">http://weblogs.asp.net/kennykerr/archive/2008/01/03/parallel-programming-with-c-part-4-i-o-completion-ports.aspx</a></p>
+
+<p><a href=""http://blogs.msdn.com/larryosterman/archive/2004/03/29/101329.aspx"">http://blogs.msdn.com/larryosterman/archive/2004/03/29/101329.aspx</a></p>
+
+<p>Are there any classes in boost that can help with this programming model?</p>
+","3146","1800 INFORMATION","","","","2010-10-04 11:16:31","Task oriented thread pooling","<c++><multithreading><boost>","4","0","1","","","37067","1381"
+"37089","1","37090","","2008-08-31 20:42:43","","8","7055","<p>When launching a thread or a process in .NET or Java, is there a way to choose which processor or core it is launched on? How does the shared memory model work in such cases?</p>
+","646","lfoust","63550","Chris Hanson","2012-03-11 13:21:52","2012-03-11 13:21:52","How can an application use multiple cores or CPUs in .NET or Java?","<c#><java><multithreading>","5","0","","","","37089","1381"
+"37142","1","","","2008-08-31 21:41:24","","7","1892","<p>Even though <a href=""http://twistedmatrix.com/pipermail/twisted-python/2004-May/007896.html"">Python</a> and <a href=""http://www.reddit.com/comments/6wmum/thread_safe_ruby_on_rails_in_22_release/"">Ruby</a> have one kernel thread per interpreter thread, they have a global interpreter lock (GIL) that is used to protect potentially shared data structures, so this inhibits multi-processor execution. Even though the portions in those languajes that are written in C or C++ can be free-threaded, that's not possible with pure interpreted code unless you use multiple processes. What's the best way to achieve this? <a href=""http://blogs.codehaus.org/people/tirsen/archives/001041_ruby_on_rails_and_fastcgi_scaling_using_processes_instead_of_threads.html"">Using FastCGI</a>? Creating a <a href=""http://blog.innerewut.de/files/images/stage_2.png"">cluster or a farm</a> of virtualized servers? Using their Java equivalents, JRuby and Jython?</p>
+","3855","","","","","2008-10-10 13:24:31","How to make Ruby or Python web sites to use multiple cores?","<python><ruby><multithreading><multicore>","5","0","4","","","37142","1381"
+"37551","1","","","2008-09-01 07:01:34","","4","4360","<p>I have a problem with an application running on Fedora Core 6 with JDK 1.5.0_08.</p>
+
+<p>After some amount of uptime (usually some days) threads begin getting stuck in native methods.</p>
+
+<p>The threads are locked in something like this:</p>
+
+<pre><code>""pool-2-thread-2571"" prio=1 tid=0x08dd0b28 nid=0x319e waiting for monitor entry [0xb91fe000..0xb91ff7d4]
+at java.lang.Class.getDeclaredConstructors0(Native Method)
+</code></pre>
+
+<p>or</p>
+
+<pre><code>""pool-2-thread-2547"" prio=1 tid=0x75641620 nid=0x1745 waiting for monitor entry [0xbc7fe000..0xbc7ff554]
+at sun.misc.Unsafe.defineClass(Native Method)
+</code></pre>
+
+<p>Especially puzzling to me is this one:</p>
+
+<pre><code>""HealthMonitor-10"" daemon prio=1 tid=0x0868d1c0 nid=0x2b72 waiting for monitor entry [0xbe5ff000..0xbe5ff4d4]
+at java.lang.Thread.dumpThreads(Native Method)
+at java.lang.Thread.getStackTrace(Thread.java:1383)
+</code></pre>
+
+<p>The threads remain stuck until the VM is restarted.</p>
+
+<p>Can anyone give me an idea as to what is happening here, what might be causing the native methods to block?
+The monitor entry address range at the top of each stuck thread is different. How can I figure out what is holding this monitor?</p>
+
+<p>Any suggestions or advice will be greatly appreciated!</p>
+
+<p>Thanks,
+David </p>
+","3904","abunetta","","","","2011-02-15 15:41:30","Multiple threads stuck in native calls (Java)","<java><multithreading><native-methods><blocked>","5","0","1","","","37551","1381"
+"38501","1","40291","","2008-09-01 21:57:16","","9","1980","<p>I'm trying to come up with a design for a thread pool with a lot of design requirements for my job. This is a real problem for working software, and it's a difficult task. I have a working implementation but I'd like  to throw this out to SO and see what interesting ideas people can come up with, so that I can compare to my implementation and see how it stacks up. I've tried to be as specific to the requirements as I can.</p>
+
+<p>The thread pool needs to execute a series of tasks. The tasks can be short running (&lt;1sec) or long running (hours or days). Each task has an associated priority (from 1 = very low to 5 = very high). Tasks can arrive at any time while the other tasks are running, so as they arrive the thread pool needs to pick these up and schedule them as threads become available.</p>
+
+<p>The task priority is completely independant of the task length. In fact it is impossible to tell how long a task could take to run without just running it.</p>
+
+<p>Some tasks are CPU bound while some are greatly IO bound. It is impossible to tell beforehand what a given task would be (although I guess it might be possible to detect while the tasks are running).</p>
+
+<p>The primary goal of the thread pool is to maximise throughput. The thread pool should effectively use the resources of the computer. Ideally, for CPU bound tasks, the number of active threads would be equal to the number of CPUs. For IO bound tasks, more threads should be allocated than there are CPUs so that blocking does not overly affect throughput. Minimising the use of locks and using thread safe/fast containers is important.</p>
+
+<p>In general, you should run higher priority tasks with a higher CPU priority (ref: SetThreadPriority). Lower priority tasks should not ""block"" higher priority tasks from running, so if a higher priority task comes along while all low priority tasks are running, the higher priority task will get to run.</p>
+
+<p>The tasks have a ""max running tasks"" parameter associated with them. Each type of task is only allowed to run at most this many concurrent instances of the task at a time. For example, we might have the following tasks in the queue:</p>
+
+<ul>
+<li>A - 1000 instances - low priority - max tasks 1</li>
+<li>B - 1000 instances - low priority - max tasks 1</li>
+<li>C - 1000 instances - low priority - max tasks 1</li>
+</ul>
+
+<p>A working implementation could only run (at most) 1 A, 1 B and 1 C at the same time.</p>
+
+<p>It needs to run on Windows XP, Server 2003, Vista and Server 2008 (latest service packs).</p>
+
+<p><hr /></p>
+
+<p>For reference, we might use the following interface:</p>
+
+<pre><code>namespace ThreadPool
+{
+    class Task
+    {
+    public:
+    	Task();		
+    	void run();
+    };
+
+    class ThreadPool
+    {    
+    public:
+    	ThreadPool();
+    	~ThreadPool();
+
+    	void run(Task *inst);
+    	void stop();
+    };
+}
+</code></pre>
+","3146","1800 INFORMATION","3146","1800 INFORMATION","2008-09-01 22:23:37","2008-09-02 20:02:42","Thread pool for executing arbitrary tasks with different priorities","<c++><windows><multithreading>","6","0","2","","","38501","1381"
+"39879","1","39961","","2008-09-02 16:03:23","","110","45188","<p>Is it a deliberate design decision or a problem with our current day browsers which will be rectified in the coming versions?</p>
+","184","Niyaz","184","Niyaz","2008-09-05 00:17:55","2015-06-21 09:14:02","Why doesn't JavaScript support multithreading?","<javascript><multithreading><browser>","13","1","38","","2008-09-02 16:55:06","39879","1381"
+"39983","1","322727","","2008-09-02 16:36:29","","3","629","<p>Reading through <a href=""http://stackoverflow.com/questions/39879/why-doesnt-javascript-support-multithreading"" rel=""nofollow"">this question</a> on multi-threaded javascript, I was wondering if there would be any security implications in allowing javascript to spawn mutliple threads.  For example, would there be a risk of a malicious script repeatedly spawning thread after thread in an attempt to overwhelm the operating system or interpreter and trigger entrance into ""undefined behavior land"", or is it pretty much a non-issue?  Any other ways in which an attack might exploit a hypothetical implementation of javascript that supports threads that a non-threading implementation would be immune to?</p>
+
+<p><strong>Update:</strong>  Note that locking up a browser isn't the same as creating an undefined behavior exploit. </p>
+","3043","Joel Coehoorn","3043","Joel Coehoorn","2008-09-02 17:25:43","2008-11-27 01:41:46","Security implications of multi-threaded javascript","<javascript><multithreading>","4","0","1","","","39983","1381"
+"41290","1","41559","","2008-09-03 07:44:40","","6","3285","<p>I have a file which is an XML representation of some data that is taken from a Web service and cached locally within a Web Application. The idea being is that this data is <em>very</em> static, but just <em>might</em> change. So I have set it up to cache to a file, and stuck a monitor against it to check if it has been deleted. Once deleted, the file will be refreshed from its source and rebuilt.</p>
+
+<p>I am now running in to problems though, because obviously in a multi-threaded environment it falls over as it is trying to access the data when it is still reading/writing the file.</p>
+
+<p>This is confusing me, because I added a object to lock against, and this is always locked during read/write. It was my understanding that attempted access from other threads would be told to ""wait"" until the lock was released?</p>
+
+<p>Just to let you know, I am real new to multi-threaded development, so I am totally willing to accept this is a screw up on my part :)</p>
+
+<ul>
+<li><strong>Am I missing something?</strong></li>
+<li><strong>What is the best file access strategy in a multi-threaded environment?</strong>
+<hr /></li>
+</ul>
+
+<h3>Edit</h3>
+
+<p>Sorry - I should have said this is using <strong>ASP.NET 2.0</strong> :)</p>
+","832","Rob Cooper","-1","","2008-09-09 22:13:40","2015-09-21 17:36:58","File Access Strategy in a Multi-Threaded Environment (Web App)","<asp.net><multithreading><web-applications><caching><file-io>","5","0","2","","","41290","1381"
+"41568","1","41589","","2008-09-03 12:39:52","","13","8956","<p>this kind of follows on from another <a href=""http://stackoverflow.com/questions/41290/file-access-strategy-in-a-multi-threaded-environment-web-app"">question</a> of mine.</p>
+
+<p>Basically, once I have the code to access the file (will review the answers there in a minute) what would be the best way to <strong>test</strong> it?</p>
+
+<p>I am thinking of creating a method which just spawns lots of <a href=""http://msdn.microsoft.com/en-us/library/system.componentmodel.backgroundworker.aspx"" rel=""nofollow"">BackgroundWorker</a>'s or something and tells them all load/save the file, and test with varying file/object sizes. Then, get a response back from the threads to see if it failed/succeeded/made the world implode etc.</p>
+
+<p>Can you  guys offer any suggestions on the best way to approach this? As I said before, this is all kinda new to me :)</p>
+
+<h3>Edit</h3>
+
+<p>Following <a href=""http://stackoverflow.com/questions/41568/whats-the-best-way-to-test-a-method-from-multiple-threads#41572"">ajmastrean's</a> post:</p>
+
+<p>I am using a console app to test with Debug.Asserts :)</p>
+
+<hr>
+
+<h2>Update</h2>
+
+<p>I originally rolled with using <a href=""http://msdn.microsoft.com/en-us/library/system.componentmodel.backgroundworker.aspx"" rel=""nofollow"">BackgroundWorker</a> to deal with the threading (since I am used to that from Windows dev) I soon realised that when I was performing tests where multiple ops (threads) needed to complete before continuing, I realised it was going to be a bit of a hack to get it to do this.</p>
+
+<p>I then followed up on <a href=""http://stackoverflow.com/questions/41568/whats-the-best-way-to-unit-test-from-multiple-threads#41589"">ajmastrean</a>'s post and realised I should really be using the <a href=""http://msdn.microsoft.com/en-us/library/system.threading.thread(VS.80).aspx"" rel=""nofollow"">Thread</a> class for working with concurrent operations. I will now refactor using this method (albeit a different approach). </p>
+","832","Rob Cooper","3218692","Rob Cooper","2015-07-14 07:59:41","2015-07-14 07:59:41","Whats the best way to unit test from multiple threads?","<c#><multithreading><unit-testing><testing>","3","1","5","","","41568","1381"
+"41792","1","41820","","2008-09-03 14:28:57","","5","3228","<p>I am re-factoring some code and am wondering about the use of a <code>lock</code> in the instance constructor.</p>
+
+<pre><code>public class MyClass
+{
+    private static Int32 counter = 0;
+    private Int32 myCount;
+    public MyClass()
+    {
+        lock(this)
+        {
+            counter++;
+            myCount = counter;
+        }
+    }
+}
+</code></pre>
+
+<p>Please confirm</p>
+
+<ol>
+<li>Instance constructors are thread-safe.</li>
+<li>The lock statement prevents access to that code block, not to the static 'counter' member.</li>
+</ol>
+
+<p>If the intent of the original programmer were to have each instance know its 'count', how would I synchronize access to the 'counter' member to ensure that another thread isn't new'ing a <code>MyClass</code> and changing the count before this one sets its count?</p>
+
+<p><em>FYI - This class is not a singleton. Instances must simply be aware of their number.</em></p>
+","3619","ajmastrean","2354564","ajmastrean","2014-07-14 11:19:00","2014-07-14 11:21:42","Instance constructor sets a static member, is it thread safe?","<c#><.net><multithreading><thread-safety>","7","0","1","","","41792","1381"
+"42505","1","42551","","2008-09-03 20:29:15","","11","3745","<p>I have a C# singleton class that multiple classes use. Is access through <code>Instance</code> to the <code>Toggle()</code> method thread-safe? If yes, by what assumptions, rules, etc. If no, why <em>and</em> how can I fix it?</p>
+
+<pre><code>public class MyClass
+{
+    private static readonly MyClass instance = new MyClass();
+
+    public static MyClass Instance
+    {
+        get { return instance; }
+    }
+
+    private int value = 0;
+
+    public int Toggle()
+    {
+        if(value == 0) 
+        {
+            value = 1; 
+        }
+        else if(value == 1) 
+        { 
+            value = 0; 
+        }
+
+        return value;
+    }
+}
+</code></pre>
+","3619","ajmastrean","3619","","2009-12-01 13:54:58","2012-08-11 18:03:44","Thread-safe use of a singleton's members","<c#><.net><multithreading><singleton><thread-safety>","10","1","3","","","42505","1381"
+"43086","1","43179","","2008-09-04 02:24:38","","-6","559","<p>What is the best way to multi-thread in the C language? I want something that is very efficient and not a CPU hog. Thanks.</p>
+","130278","Sasayins","1644214","John","2014-03-09 00:19:34","2014-03-09 00:19:34","Best way to multi-thread?","<c><multithreading>","3","0","","2011-09-16 09:36:47","","43086","1381"
+"44522","1","","","2008-09-04 19:11:19","","1","605","<p>We have a third party dll that is used in our web service hosted in IIS6. The problem is that once this dll is loaded into memory, the exception <a href=""http://msdn.microsoft.com/en-us/library/system.accessviolationexception.aspx"" rel=""nofollow"">AccessViolationException</a> gets thrown if a thread different then the one that created it tries to execute any code within the dll. The worker process is multi threaded and each call to the web service will get a random thread from the pool. We tried to unload it from memory and reload it each time we needed it, but I guess only the front end is .Net and the rest is unmanaged so it never actually gets completely unloaded from memory. We are using VB and .Net 2.0. Any suggestions?</p>
+
+<p>(Response to Rob Walker)</p>
+
+<p>We thought about creating a new thread and using it to call the dll, but how do we make the thread sit and wait for calls? How do you delegate the call to the thread without having the Dispatcher class supplied by .Net 3.0? Creating a hidden form and putting it in a message loop might work. And then we could call the Invoke() method of the form. But I can see many problems occurring if we create a form inside an IIS hosted web service.</p>
+","2835","Krucible","2835","Krucible","2008-09-04 19:48:29","2008-11-02 03:56:49","How to ensure that the same thread is used to execute code in IIS?","<vb.net><multithreading><iis><dll>","5","0","","","","44522","1381"
+"44656","1","44761","","2008-09-04 20:03:50","","9","8040","<p>The code that I want to write is like this:</p>
+
+<pre><code>void MethodOnThreadA()
+{
+    for (;;)
+    {
+        // Do stuff
+        if (ErrorConditionMet)
+            ThrowOnThread(threadB, new MyException(...));
+    }
+}
+
+void MethodOnThreadB()
+{
+    try
+    {
+        for (;;)
+        {
+            // Do stuff
+        }
+    }
+    catch (MyException ex)
+    {
+        // Do the right thing for this exception.
+    }
+}
+</code></pre>
+
+<p>I know I can have thread B periodically check, in thread safe way, to see if a flag has been set by thread A, but that makes the code more complicated.  Is there a better mechanism that I can use?</p>
+
+<p>Here is a more fleshed out example of periodically checking:</p>
+
+<pre><code>Dictionary&lt;Thread, Exception&gt; exceptionDictionary = new Dictionary&lt;Thread, Exception&gt;();
+
+void ThrowOnThread(Thread thread, Exception ex)
+{
+    // the exception passed in is going to be handed off to another thread,
+    // so it needs to be thread safe.
+    lock (exceptionDictionary)
+    {
+        exceptionDictionary[thread] = ex;
+    }
+}
+
+void ExceptionCheck()
+{
+    lock (exceptionDictionary)
+    {
+        Exception ex;
+        if (exceptionDictionary.TryGetValue(Thread.CurrentThread, out ex))
+            throw ex;
+    }
+}
+
+void MethodOnThreadA()
+{
+    for (;;)
+    {
+        // Do stuff
+        if (ErrorConditionMet)
+            ThrowOnThread(threadB, new MyException(...));
+    }
+}
+
+void MethodOnThreadB()
+{
+    try
+    {
+        for (;;)
+        {
+            // Do stuff
+            ExceptionCheck();
+        }
+    }
+    catch (MyException ex)
+    {
+        // Do the right thing for this exception.
+    }
+}
+</code></pre>
+","4592","fryguybob","","","","2010-08-08 20:48:15","Is there a good method in C# for throwing an exception on a given thread","<c#><multithreading><exception>","8","1","4","","","44656","1381"
+"46981","1","","","2008-09-05 22:04:39","","6","2471","<p>I have an Image control with it's source bound to a property on an object(string url to an image).  After making a service call, i update the data object with a new URL.  The exception is thrown after it leaves my code, after invoking the PropertyChanged event.</p>
+
+<p>The data structure and the service logic are all done in a core dll that has no knowledge of the UI.  How do I sync up with the UI thread when i cant access a Dispatcher? </p>
+
+<p>PS:  Accessing Application.Current.RootVisual in order to get at a Dispatcher is not a solution because the root visual is on a different thread(causing the exact exception i need to prevent).  </p>
+
+<p>PPS: This only is a problem with the image control, binding to any other ui element,  the cross thread issue is handled for you.</p>
+","580","Brian Leahy","580","Brian Leahy","2008-09-05 22:42:41","2013-09-06 04:45:04","Silverlight DataBinding cross thread issue","<silverlight><multithreading><data-binding>","6","0","1","","","46981","1381"
+"47144","1","47147","","2008-09-06 00:59:14","","2","353","<p>In my C# program, I have a thread that represents a running test, which can be aborted by a click on a button labeled ""Interrupt execution"". In order for the thread (and therefore the test) to terminate in an elegant manner (and do some vital work beforehand), this button is enabled only in some well-defined moments, in which I catch <code>ThreadAbortedException</code>, do <code>Thread.ResetAbort()</code> and die beautifully (that is, the thread).</p>
+
+<p>The problem is that, in the time window in which aborting is possible, there are some tasks that need to be done from start to finish once initiated, and, so, I fear TAE. Locks don't provide a solution for this, and, although finally blocks do, I don't find it elegant to wrap important code in the following manner:</p>
+
+<pre><code>try {
+} finally {
+  // vital code
+}
+</code></pre>
+
+<p>However, I didn't find any other solution.</p>
+
+<p>Is this another way to delay the interference of <code>ThreadAbortException</code> until the end of the block?</p>
+","4850","Andr&#233; Neves","4850","Andr&#233; Neves","2008-09-22 19:35:00","2008-09-22 19:35:00","Is there a way to ensure entire code block execution in a .NET thread?","<.net><multithreading>","2","0","","","","47144","1381"
+"47703","1","47705","","2008-09-06 18:21:09","","13","7743","<p>Is here any performance benefit to using multiple threads on a computer with a single CPU that does not having hyperthreading?  </p>
+","4883","Tim","","","","2012-08-03 08:30:09","Multiple threads and performance on a single CPU","<performance><multithreading>","6","0","4","","","47703","1381"
+"48916","1","48971","","2008-09-08 00:10:07","","52","32935","<p>I want a splash screen to show while the application is loading. I have a form with a system tray control tied to it. I want the splash screen to display while this form loads, which takes a bit of time since it's accessing a web service API to populate some drop-downs. I also want to do some basic testing for dependencies before loading (that is, the web service is available, the configuration file is readable).  As each phase of the startup goes, I want to update the splash screen with progress.</p>
+
+<p>I have been reading a lot on threading, but I am getting lost on where this should be controlled from (the main() method?). I am also missing how <code>Application.Run()</code> works, is this where the threads for this should be created from? Now, if the form with the system tray control is the ""living"" form, should the splash come from there? Wouldn't it not load until the form is completed anyway?</p>
+
+<p>I'm not looking for a code handout, more of an algorithm/approach so I can figure this out once and for all :) </p>
+","4246","John Virgolino","63550","","2012-06-15 11:26:02","2014-08-06 09:15:17","Multi-threaded splash screen in C#?","<c#><.net><winforms><multithreading><splash-screen>","11","0","43","","","48916","1381"
+"49445","1","","","2008-09-08 10:41:05","","6","7957","<p>I have a WCF service which includes UI components, which forces me to be in STA mode.</p>
+
+<p>How do I set the service behaviour to STA-mode?</p>
+
+<hr>
+
+<p>The service uses a reference to a WPF DLL file which opens a UI window (used as view port) for picture analysis. When the service is trying to create an instance of that item (inherits from window) it throws an exception:</p>
+
+<blockquote>
+  <p>The calling thread must be an STA</p>
+</blockquote>
+","","Michael","100297","","2015-07-31 22:03:19","2015-07-31 22:03:19","How to make a WCF service STA (single-threaded)","<.net><wcf><web-services><multithreading><user-interface>","4","0","2","","","49445","1381"
+"49799","1","49836","","2008-09-08 14:25:29","","5","754","<p>I am sure a responsive UI is something that everyone strives for and the reccomended way to do stuff is to use the BackgroundWorker for this. </p>
+
+<p>Do you find it easy to work with ? Do you use it often ? Or do you have your own frameworks for lengthy tasks and reporting process.</p>
+
+<p>I have found that I am using it quite a lot and even using its delegates wherever I need some sort of progress reporting.</p>
+","4694","Tomas Pajonk","832","Rob Cooper","2008-09-08 14:27:51","2008-09-17 14:50:54","How often do you use System.Component.BackgroundWorker in your UIs ? (if ever)","<.net><winforms><multithreading><user-interface>","6","0","2","","","49799","1381"

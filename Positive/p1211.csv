@@ -1,0 +1,823 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"8569","1","13367","","2008-08-12 07:36:14","","19","9634","<p>I'm currently trying to get into the Java EE development with the Spring framework. As I'm new to Spring, it is hard to imaging how a good running project should start off.</p>
+
+<p>Do you have any <em>best practices</em>, tipps or major <em>DO NOTs</em> for a starter? How did you start with Spring - big project or small tutorial-like applications? Which technology did you use right away: AOP, complex Hibernate...</p>
+","834","","834","cringe","2008-08-12 07:55:11","2013-11-26 03:59:25","What's your ""best practice"" for the first Java EE Spring project?","<java><spring><java-ee><aop>","11","1","12","2013-11-18 06:01:19","","8569","1211"
+"8968","1","9404","","2008-08-12 15:29:18","","7","493","<p>We need to add WorkFlow to our Spring managed application. Does anyone have any useful experience in using any of the myriad of OSS Work Flow solutions? Which one is best? Which one integrates with Spring best? Which ones should we avoid?</p>
+","1126","TiGz","","","","2013-08-18 09:19:43","What OSS project should I look at if I need to do Spring friendly WorkFlow?","<java><spring><workflow>","5","0","","","","8968","1211"
+"16140","1","16817","","2008-08-19 13:20:49","","36","8141","<p>What makes a module/service/bit of application functionality a particularly good candidate for an OSGi module? </p>
+
+<p>I'm interested in using <a href=""http://en.wikipedia.org/wiki/OSGi"">OSGi</a> in my applications. We're a Java shop and we use Spring pretty extensively, so I'm leaning toward using <a href=""http://www.springframework.org/osgi"">Spring Dynamic Modules for OSGi(tm) Service Platforms</a>. I'm looking for a good way to incorporate a little bit of OSGi into an application as a trial. Has anyone here used this or a similar OSGi technology? Are there any pitfalls? </p>
+
+<p>@Nicolas - Thanks, I've seen that one. It's a good tutorial, but I'm looking more for ideas on how to do my first ""real"" OSGi bundle, as opposed to a Hello World example.</p>
+
+<p>@david - Thanks for the link! Ideally, with a greenfield app, I'd design the whole thing to be dynamic. What I'm looking for right now, though, is to introduce it in a small piece of an existing application. Assuming I can pick any piece of the app, what are some factors to consider that would make that piece better or worse as an OSGi guinea pig?</p>
+","765","Nicholas Trandem","765","Nicholas Trandem","2008-08-19 17:00:07","2013-11-27 18:30:59","What's the best way to get started with OSGI?","<java><spring><osgi>","8","0","28","2013-07-24 14:14:03","","16140","1211"
+"29516","1","64037","","2008-08-27 04:29:02","","56","41960","<p>I've taken quite a shine to the Spring Framework and would like to get into it a bit more. I have noticed that aside from plain vanilla JSPs there are various template engines for use with Spring MVC, such as <a href=""http://velocity.apache.org/engine/index.html"">Velocity</a> and <a href=""http://freemarker.sourceforge.net/"">Freemarker</a>. Are there others? Which one do you recommend?</p>
+","1915","Scott","1915","Scott","2008-09-03 05:00:20","2013-10-09 07:44:37","Template Engines for Spring Framework","<java><spring><velocity><template-engine><freemarker>","12","2","27","2013-12-06 09:32:53","","29516","1211"
+"37912","1","","","2008-09-01 13:06:31","","2","963","<p>How do you use the the org.springframework.ws.transport.jms.WebServiceMessageDrivenBean class from the Java Spring Framework - Spring-WS project?</p>
+
+<p>There is very little documentation or examples available on the web.</p>
+","","Keith Lyall","","Keith Lyall","2008-09-02 08:04:34","2015-08-06 09:10:34","How do you use WebServiceMessageDrivenBean in Spring-WS?","<java><spring><spring-ws>","2","0","1","","","37912","1211"
+"39639","1","67661","","2008-09-02 14:19:23","","4","2289","<p>My project is based on spring framework 2.5.4. And I try to add aspects for some controllers (I use aspectj 1.5.3).</p>
+
+<p>I've enabled auto-proxy in application-servlet.xml, just pasted these lines to the end of the xml file:</p>
+
+<pre><code>&lt;aop:aspectj-autoproxy /&gt;
+&lt;bean id=""auditLogProcessor"" class=""com.example.bg.web.utils.AuditLogProcessor"" /&gt;
+</code></pre>
+
+<p>Created aspect:</p>
+
+<pre><code>package com.example.bg.web.utils;
+
+import org.apache.log4j.Logger;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class AuditLogProcessor
+{
+    private final static Logger log = Logger.getLogger(AuditLogProcessor.class);
+
+    @After(""execution(* com.example.bg.web.controllers.assets.AssetThumbnailRebuildController.rebuildThumbnail(..))"")
+    public void afterHandleRequest() {
+        log.info(""test111"");
+    }
+
+    @After(""execution(* com.example.bg.web.controllers.assets.AssetThumbnailRebuildController.rebuildThumbnail(..))"")
+    public void afterRebuildThumbnail() {
+        log.info(""test222"");
+    }
+}</code></pre>
+
+<p>My controllers:</p>
+
+<pre><code>class AssetAddController implements Controller
+class AssetThumbnailRebuildController extends MultiActionController</code></pre>
+
+<p>When I set brake points in aspect advisors and invoke controllers I catch only afterHandleRequest() but not afterRebildThumbnail()
+What did I do wrong?</p>
+
+<p><strong>NOTE</strong></p>
+
+<p>I'm asking this question on behalf of my friend who doesn't have access to SO beta, and I don't have a clue what it's all about.</p>
+
+<p><strong>EDIT</strong></p>
+
+<p>There were indeed some misspellings, thanks Cheekysoft. But the problem still persists.</p>
+","1007","Serge","1007","Serge","2008-09-03 14:58:26","2008-09-15 22:35:30","Aspectj doesn't catch all events in spring framework?","<java><spring><aspectj>","4","0","1","","","39639","1211"
+"45546","1","45585","","2008-09-05 11:11:21","","13","16427","<p>I want my controller to return the right HTTP response code when the user lacks permission to view a particular page.</p>
+","4702","Will Harris","","","","2015-05-19 15:03:48","How do I return a 403 Forbidden in Spring MVC?","<java><spring>","4","0","2","","","45546","1211"
+"53387","1","","","2008-09-10 03:51:08","","3","6392","<p>I downloaded a couple of webapps and placed them in my /webapps folder.
+Some of them I could open by going to <code>http://localhost:8080/app1</code> and it would open.
+However, some others I would do the exact same thing and go to <code>http://localhost:8080/app2</code> and it will display ""HTTP Status 404 - /app2/"", even though I am sure it is there.  I've checked that it contains a WEB-INF folder just like app1, and I've even restarted Tomcat to be sure.</p>
+
+<p>My question is: is there anything (perhaps in the web.xml file) that specifies what the URL has to be to start the webapp? Or is it simply just <code>http://localhost:8080/&lt;folder name&gt;</code> ?</p>
+
+<p>P.S. If you want to know exactly what app1 and app2 I am refering to:
+app1 (works) = <a href=""http://assets.devx.com/sourcecode/11237.zip"" rel=""nofollow"">http://assets.devx.com/sourcecode/11237.zip</a>
+app2 (doesn't work) = <a href=""http://www.laliluna.de/download/eclipse-spring-jdbc-tutorial.zip"" rel=""nofollow"">http://www.laliluna.de/download/eclipse-spring-jdbc-tutorial.zip</a></p>
+
+<p>I've tried a few others as well, some work, some don't.  I'm just wondering if I'm missing something.</p>
+","","Steve","1122645","John Meagher","2014-05-01 10:29:46","2014-05-01 10:29:46","Some Tomcat webapps not opening","<java><spring><tomcat><web-applications>","7","1","1","","","53387","1211"
+"57314","1","","","2008-09-11 18:43:19","","0","2771","<p>What could the best strategy for writing validation layer for mid-enterprise level business application built on Spring 2.5</p>
+
+<p>I know that Spring provides facility where we can implement Validator interface and write validation logic in validate method. But this will be restricted to only web requests coming through spring controller.</p>
+
+<p>I would like to develop the validation framework which can be utilized during web-services calls.</p>
+
+<p>In other words, the framework can remain and be called independently without the need of implementing Validator interface and then too it can be automatically integrated into Spring MVC flow.</p>
+
+<p>Hope you get my point.</p>
+","959","jatanp","","","","2011-11-01 12:05:35","Validation framework for business app built on Spring 2.5","<spring><validation>","2","0","","","","57314","1211"
+"59850","1","59875","","2008-09-12 20:12:52","","6","5110","<p>I'd like to create a spring bean that holds the value of a double.     Something like:</p>
+
+<pre><code>&lt;bean id=""doubleValue"" value=""3.7""/&gt;
+</code></pre>
+","6180","Alex","","","","2008-09-16 15:51:25","How do I create a spring bean for a Java double primitive?","<java><spring>","3","0","3","","","59850","1211"
+"62713","1","","","2008-09-15 13:12:04","","5","1193","<p>In a flow definition, I am trying to access a bean that has a dot in its ID</p>
+
+<p>(example: <code>&lt;evaluate expression=""bus.MyServiceFacade.someAction()"" /&gt;</code></p>
+
+<p>However, it does not work. SWF tries to find a bean ""bus"" instead.</p>
+
+<p>Initially, I got over it by using a helper bean to load the required bean, but the solution is inelegant and uncomfortable. The use of alias'es is also out of the question since the beans are part of a large system and I cannot tamper with them.</p>
+
+<p>In a nutshell, none of the solution allowed me to refernce the bean directly by using its original name. Is that even possible in the current SWF release?</p>
+","6871","Arnelism","12604","Eli Courtwright","2013-01-18 22:18:12","2013-01-18 22:18:12","Accessing a bean with a dot(.) in its ID","<java><spring><spring-webflow><spring-el>","4","1","1","","","62713","1211"
+"67980","1","","","2008-09-15 23:38:35","","3","10734","<p>I need to pass a UUID instance via http request parameter. Spring needs a custom type converter (from String) to be registered. How do I register one?</p>
+","7199","alexei.vidmich","","","","2009-10-12 15:02:22","How do I register a custom type converter in Spring?","<java><spring>","4","0","2","","","67980","1211"
+"68527","1","71582","","2008-09-16 01:25:16","","62","27502","<p>My team is developing a new service oriented product with a web front-end.  In discussions about what technologies we will use we have settled on running a JBoss application server, and Flex frontend (with possible desktop deployment using Adobe AIR), and web services to interface the client and server.</p>
+
+<p>We've reached an impasse when it comes to which server technology to use for our business logic.  The big argument is between EJB3 and Spring, with our biggest concerns being scalability and performance, and also maintainability of the code base.</p>
+
+<p>Here are my questions:</p>
+
+<ol>
+<li>What are the arguments for or against EJB3 vs Spring? </li>
+<li>What pitfalls can I expect with each?</li>
+<li>Where can I find good benchmark information?</li>
+</ol>
+","92","Justin Standard","","","","2013-09-12 04:33:58","Should I use EJB3 or Spring for my business layer?","<java><performance><spring><ejb-3.0><scalability>","9","1","33","","","68527","1211"
+"71469","1","71504","","2008-09-16 11:44:28","","1","6379","<p>Let's assume we've got the following Java code:</p>
+
+<pre><code>public class Maintainer {
+   private Map&lt;Enum, List&lt;Listener&gt;&gt; map;
+
+   public Maintainer() {
+      this.map = new java.util.ConcurrentHashMap&lt;Enum, List&lt;Listener&gt;&gt;();
+   }
+
+   public void addListener( Listener listener, Enum eventType ) {
+      List&lt;Listener&gt; listeners;
+      if( ( listeners = map.get( eventType ) ) == null ) {
+         listeners = new java.util.concurrent.CopyOnWriteArrayList&lt;Listener&gt;();
+         map.put( eventType, listeners );
+      }
+      listeners.add( listener );
+   }
+}
+</code></pre>
+
+<p>This code snippet is nothing but a bit improved listener pattern where each listener is telling what type of event it is interested in, and the provided method maintains a concurrent map of these relationships.</p>
+
+<p>Initially, I wanted this method to be called via my own annotation framework, but bumped into a brick wall of various annotation limitations (e.g. you can't have <em>java.lang.Enum</em> as annotation param, also there's a set of various classloader issues) therefore decided to use Spring.</p>
+
+<p>Could anyone tell me how do I Spring_ify_ this? What I want to achive is:<br />
+1. Define <em>Maintainer</em> class as a Spring bean.<br />
+2. Make it so that all sorts of listeners would be able to register themselves to <em>Maintainer</em> via XML by using <em>addListener</em> method. Spring doc nor Google are very generous in examples.</p>
+
+<p>Is there a way to achieve this easily? Thanks in advance.</p>
+","7345","","","","","2008-09-18 22:35:40","Map of Enums and dependency injection in Spring 2.5","<java><spring><enums><maps>","5","0","1","","","71469","1211"
+"75700","1","78479","","2008-09-16 18:56:20","","9","12570","<p>I have one applicationContext.xml file, and it has two org.springframework.orm.jpa.JpaTransactionManager (each with its own persistence unit, different databases) configured in a Spring middleware custom application.
+<br><br>I want to use annotation based transactions (@Transactional), to not mess around with TransactionStatus commit, save, and rollback.<br><br>
+A coworker mentioned that something gets confused doing this when there are multiple transaction managers, even though the context file is set configured correctly (the references go to the correct persistence unit.
+Anyone ever see an issue?</p>
+
+<hr>
+
+<p>In your config, would you have two transaction managers?
+Would you have txManager1 and txManager2?<br><br>
+That's what I have with JPA, two different Spring beans that are transaction managers.</p>
+","13143","Brian Wilson","2926103","Jeremy Banks","2015-06-17 09:05:29","2015-06-17 09:05:29","JPA Multiple Transaction Managers","<java><spring><orm><jpa><transactions>","2","0","4","","","75700","1211"
+"84680","1","86367","","2008-09-17 15:44:00","","20","44828","<p>I'm writing a Spring web application that requires users to login.  My company has an Active Directory server that I'd like to make use of for this purpose.  However, I'm having trouble using Spring Security to connect to the server.</p>
+
+<p>I'm using Spring 2.5.5 and Spring Security 2.0.3, along with Java 1.6.</p>
+
+<p>If I change the LDAP URL to the wrong IP address, it doesn't throw an exception or anything, so I'm wondering if it's even <em>trying</em> to connect to the server to begin with.</p>
+
+<p>Although the web application starts up just fine, any information I enter into the login page is rejected.  I had previously used an InMemoryDaoImpl, which worked fine, so the rest of my application seems to be configured correctly.</p>
+
+<p>Here are my security-related beans:</p>
+
+<pre><code>  &lt;beans:bean id=""ldapAuthProvider"" class=""org.springframework.security.providers.ldap.LdapAuthenticationProvider""&gt;
+    &lt;beans:constructor-arg&gt;
+      &lt;beans:bean class=""org.springframework.security.providers.ldap.authenticator.BindAuthenticator""&gt;
+        &lt;beans:constructor-arg ref=""initialDirContextFactory"" /&gt;
+        &lt;beans:property name=""userDnPatterns""&gt;
+          &lt;beans:list&gt;
+            &lt;beans:value&gt;CN={0},OU=SBSUsers,OU=Users,OU=MyBusiness,DC=Acme,DC=com&lt;/beans:value&gt;
+          &lt;/beans:list&gt;
+        &lt;/beans:property&gt;
+      &lt;/beans:bean&gt;
+    &lt;/beans:constructor-arg&gt;
+  &lt;/beans:bean&gt;
+
+  &lt;beans:bean id=""userDetailsService"" class=""org.springframework.security.userdetails.ldap.LdapUserDetailsManager""&gt;
+    &lt;beans:constructor-arg ref=""initialDirContextFactory"" /&gt;
+  &lt;/beans:bean&gt;
+
+  &lt;beans:bean id=""initialDirContextFactory"" class=""org.springframework.security.ldap.DefaultInitialDirContextFactory""&gt;
+    &lt;beans:constructor-arg value=""ldap://192.168.123.456:389/DC=Acme,DC=com"" /&gt;
+  &lt;/beans:bean&gt;
+</code></pre>
+","13379","mangst","5640","Rich B","2009-03-10 03:33:43","2014-10-20 08:17:10","How do you authenticate against an Active Directory server using Spring Security?","<java><spring><active-directory><ldap>","7","3","34","","","84680","1211"
+"86487","1","104366","","2008-09-17 19:06:40","","2","781","<p>I'm looking for more and better documentation about snapshots, flow repositories, and flow state serialization in Spring Web Flow.  Available docs I've found seem pretty sparse.  ""Spring in Action"" doesn't talk about this.  The Spring Web Flow Reference Manual does mention a couple flags here:</p>
+
+<p><a href=""http://static.springframework.org/spring-webflow/docs/2.0.x/reference/htmlsingle/spring-webflow-reference.html#tuning-flow-execution-repository"" rel=""nofollow"">http://static.springframework.org/spring-webflow/docs/2.0.x/reference/htmlsingle/spring-webflow-reference.html#tuning-flow-execution-repository</a></p>
+
+<p>but doesn't really talk about why you would change these settings, usage patterns, etc.</p>
+
+<p>Anyone have a good reference?</p>
+","7671","Alex Miller","157882","","2011-11-10 21:06:50","2012-07-26 17:17:45","What is the best documentation for snapshots and flow repositories in Spring Web Flow?","<java><spring><documentation><spring-webflow>","1","1","","","","86487","1211"
+"93944","1","94110","","2008-09-18 16:05:09","","9","4075","<p>You might have a set of properties that is used on the developer machine, which varies from developer to developer, another set for a staging environment, and yet another for the production environment. </p>
+
+<p>In a Spring application you may also have beans that you want to load in a local environment but not in a production environment, and vice versa. </p>
+
+<p>How do you handle this? Do you use separate files, ant/maven resource filtering or other approaches? </p>
+","17542","stian","","","","2013-07-18 04:09:32","How do you maintain java webapps in different staging environments?","<java><spring><configuration><web-applications>","13","0","6","","","93944","1211"
+"94542","1","94588","","2008-09-18 17:10:38","","11","12837","<p>I have a handful of projects that all use one project for the data model.  Each of these projects has its own applicationContext.xml file with a bunch of repetitive data stuff within it.</p>
+
+<p>I'd like to have a modelContext.xml file and another for my ui.xml, etc.</p>
+
+<p>Can I do this?</p>
+","2443","Allain Lalonde","","","","2010-07-21 20:00:08","Can I compose a Spring Configuration File from smaller ones?","<java><spring>","7","0","3","","","94542","1211"
+"97173","1","","","2008-09-18 21:27:14","","0","1681","<p>I'm using freemarker, SiteMesh and Spring framework.
+For the pages I use ${requestContext.getMessage()} to get the message from message.properties. But for the decorators this doesn't work. How should I do to get the internationalization working for sitemesh?</p>
+","8041","dmouraneto","8041","moocha","2009-07-31 18:54:36","2009-07-31 18:54:36","Internationalization sitemesh","<spring><internationalization><freemarker><sitemesh>","2","0","1","","","97173","1211"
+"98320","1","98544","","2008-09-19 00:25:25","","5","1767","<p>My model layer is being used by a handful of different projects and I'd like to use a single XML Spring Configuration file for the model regardless of which project is using it.</p>
+
+<p>My question is: Since not all beans are used in all projects am I wasting resources to any significant amount if there not being instantiated?  I'm not too sure how lazy Spring is about loading them since it's never been an issue until now.</p>
+
+<p>Any ideas?</p>
+","2443","Allain Lalonde","","","","2008-09-29 19:18:22","Does having many unused beans in a Spring Bean Context waste significant resources?","<java><spring>","4","0","","","","98320","1211"
+"100243","1","142029","","2008-09-19 07:27:22","","27","6463","<p>My developers are waging a civil war. In one camp, they've embraced Hibernate and Spring. In the other camp, they've denounced frameworks - they're considering Hibernate though.</p>
+
+<p>The question is: Are there any nasty surprises, weaknesses or pit-falls that newbie Hibernate-Spring converts are likely to stumble on?</p>
+
+<p><hr /></p>
+
+<p>PS: We've a DAO library that's not very sophisticated. I doubt that it has Hibernate's richness, but it's reaching some sort of maturity (i.e. it's not been changed in the last few projects it's included).</p>
+","428965","magius","428965","magius","2008-09-24 09:13:52","2010-02-19 09:40:20","Java Frameworks War: Spring and Hibernate","<java><hibernate><spring>","18","1","15","","","100243","1211"
+"100990","1","","","2008-09-19 10:32:29","","2","6718","<p>How could I get the Fault Detail sent by a SoapFaultClientException ?
+I use a WebServiceTemplate as shown below :</p>
+
+<pre><code>WebServiceTemplate ws = new WebServiceTemplate();
+ws.setMarshaller(client.getMarshaller());
+ws.setUnmarshaller(client.getUnMarshaller());
+try {
+    MyResponse resp = (MyResponse) = ws.marshalSendAndReceive(WS_URI, req);
+} catch (SoapFaultClientException e) {
+     SoapFault fault =  e.getSoapFault();
+     SoapFaultDetail details = e.getSoapFault().getFaultDetail();
+      //details always NULL ? Bug?
+}
+</code></pre>
+
+<p>The Web Service Fault sent seems correct :</p>
+
+<pre><code>&lt;soapenv:Envelope xmlns:soapenv=""http://schemas.xmlsoap.org/soap/envelope/"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""&gt;
+&lt;soapenv:Body&gt;
+  &lt;soapenv:Fault&gt;
+     &lt;faultcode&gt;soapenv:Client&lt;/faultcode&gt;
+     &lt;faultstring&gt;Validation error&lt;/faultstring&gt;
+     &lt;faultactor/&gt;
+     &lt;detail&gt;
+        &lt;ws:ValidationError xmlns:ws=""http://ws.x.y.com""&gt;ERR_UNKNOWN&lt;/ws:ValidationError&gt;
+     &lt;/detail&gt;
+  &lt;/soapenv:Fault&gt;
+&lt;/soapenv:Body&gt;
+</code></pre>
+
+<p></p>
+
+<p>Thanks</p>
+
+<p>Willome</p>
+","18714","","","","","2013-10-18 06:26:47","spring & web service client - Fault Detail","<spring><service><webservicetemplate>","3","0","","","","100990","1211"
+"102453","1","","","2008-09-19 14:50:08","","0","1017","<p>I got pretty big webflow definition, which I do not want to copy/paste for reusing. There are references to action bean in XML, which is kind natural.</p>
+
+<p>I want to use same flow definiton twice: second time with actions configured differently (inject different implementation of service to it). </p>
+
+<p>Is there easy way to do this?</p>
+
+<hr>
+
+<p>Problem is I want to use same flow with different beans at once, in the same app. Copy/Paste is bad, but I dont see other solution for now.</p>
+","","PR","157882","","2011-11-10 21:08:01","2013-12-08 17:05:22","Reuse Spring Webflow definitions with different action implementations","<java><spring><spring-webflow>","4","0","","","","102453","1211"
+"104587","1","105481","","2008-09-19 19:03:12","","1","11945","<p>Everywhere I look always the same explanation pop ups.<br/>
+Configure the view resolver.</p>
+
+<pre><code>&lt;bean id=""viewMappings""
+	  class=""org.springframework.web.servlet.view.ResourceBundleViewResolver""&gt;
+	&lt;property name=""basename"" value=""views"" /&gt;
+&lt;/bean&gt;
+</code></pre>
+
+<p>And then put a file in the classpath named view.properties with some key-value pairs (don't mind the names).<br/></p>
+
+<pre><code>logout.class=org.springframework.web.servlet.view.JstlView
+logout.url=WEB-INF/jsp/logout.jsp
+</code></pre>
+
+<p>What does <code>logout.class</code> and <code>logout.url</code> mean?<br/>
+How does <code>ResourceBundleViewResolver</code> uses the key-value pairs in the file?<br/>
+My goal is that when someone enters the URI <code>myserver/myapp/logout.htm</code> the file <code>logout.jsp</code> gets served.</p>
+","2024","Elliot Vargas","","","","2009-07-08 23:23:13","How to configure ResourceBundleViewResolver in Spring Framework 2.0","<java><spring><frameworks>","3","0","","","","104587","1211"
+"104690","1","","","2008-09-19 19:15:01","","6","15561","<p>Any good tutorials or samples on spring security.</p>
+
+<p>Thanks</p>
+","","chris","123","Prakash","2008-10-01 09:04:25","2015-03-31 21:36:10","Any good tutorials/examples for the Spring Security Framework?","<spring><spring-security><security-framework>","7","3","6","","","104690","1211"
+"105998","1","106165","","2008-09-19 21:59:11","","2","2289","<p>According to what I have found so far, I can use the following code:</p>
+
+<pre>
+    LocalSessionFactoryBean sessionFactory = (LocalSessionFactoryBean)super.getApplicationContext().getBean(""&sessionFactory"");
+    System.out.println(sessionFactory.getConfiguration().buildSettings().getJdbcBatchSize());
+</pre>
+
+<p>but then I get a Hibernate Exception:</p>
+
+<blockquote>
+  <p>org.hibernate.HibernateException: No local DataSource found for
+  configuration - dataSource property must be set on
+  LocalSessionFactoryBean</p>
+</blockquote>
+
+<p>Can somebody shed some light?</p>
+","14068","SamS","4111568","SamS","2015-09-13 14:04:39","2015-09-13 14:04:39","How do I get the value of the jdbc.batch_size property at runtime for a Web application using Spring MVC and Hibernate?","<java><hibernate><spring>","2","0","","","","105998","1211"
+"106402","1","106743","","2008-09-19 23:34:02","","11","16229","<p>I already know how to:</p>
+
+<p>Load properties files into my Spring configuration using:</p>
+
+<pre><code>&lt;context:property-placeholder location=""aaa/bbb/ccc/stuff.properties""/&gt;
+</code></pre>
+
+<p>Build properties objects on the fly using:</p>
+
+<pre><code>&lt;props&gt;&lt;prop key=""abc""&gt;some value&lt;/prop&gt;&lt;/props&gt;
+</code></pre>
+
+<p>But what I cant do, and would be really useful, is to have Spring load a properties file and then build the matching properties object. I could then inject this into a bean in the normal way. </p>
+
+<p>I've searched for this elsewhere without success. Any ideas?</p>
+","2635682","Garth Gilmour","2134","Chris","2008-09-26 18:47:26","2013-05-03 16:02:13","Can Spring Parse and Inject Properties Files?","<java><spring><configuration-files>","2","0","8","","","106402","1211"
+"110592","1","110762","","2008-09-21 09:06:52","","4","3700","<p>Spring DA helps in writing DAOs. When using iBATIS as the persistence framework, and extending SqlMapClientDaoSupport, a SqlMapClient mock should be set for the DAO, but I can't do it. SqlMapClientTemplate is not an interface and EasyMock cannot creates a mock for it.</p>
+","19888","","","","","2010-06-16 11:33:47","How to unit test a DAO that is extending SqlMapClientDaoSupport","<java><spring><ibatis><easymock>","4","0","","","","110592","1211"
+"117751","1","416975","","2008-09-22 21:27:26","","7","45993","<p>I have a web application using JPA and JTA with Spring. I would like to support both JBoss and Tomcat. When running on JBoss, I'd like to use JBoss' own TransactionManager, and when running on Tomcat, I'd like to use JOTM.</p>
+
+<p>I have both scenarios working, but I now find that I seem to need two separate Spring configurations for the two cases. With JOTM, I need to use Spring's <code>JotmFactoryBean</code>:</p>
+
+<pre><code>&lt;bean id=""transactionManager"" 
+ class=""org.springframework.transaction.jta.JtaTransactionManager""&gt;
+    &lt;property name=""userTransaction""&gt;
+        &lt;bean class=""org.springframework.transaction.jta.JotmFactoryBean""/&gt;
+    &lt;/property&gt;
+&lt;/bean&gt;
+</code></pre>
+
+<p>In JBoss, though, I just need to fetch ""TransactionManager"" from JNDI:</p>
+
+<pre><code>&lt;bean id=""transactionManager"" 
+ class=""org.springframework.transaction.jta.JtaTransactionManager""&gt;
+    &lt;property name=""transactionManager""&gt;
+        &lt;bean class=""org.springframework.jndi.JndiObjectFactoryBean""&gt;
+             &lt;property name=""resourceRef"" value=""true"" /&gt;
+             &lt;property name=""jndiName"" value=""TransactionManager"" /&gt;
+             &lt;property name=""expectedType"" 
+               value=""javax.transaction.TransactionManager"" /&gt;
+        &lt;/bean&gt;
+    &lt;/property&gt;
+&lt;/bean&gt;
+</code></pre>
+
+<p>Is there a way to configure this so that the appropriate TransactionManager - JBoss or JOTM - is used, without the need for two different configuration files?</p>
+","7034","Henning","","","","2012-11-02 17:26:19","Spring JTA TransactionManager config: Supporting both Tomcat and JBoss","<java><spring><jboss><jta><jotm>","5","1","7","","","117751","1211"
+"118724","1","118790","","2008-09-23 01:57:03","","1","1681","<p>I have done some searches looking for information about how to do logging with the Spring Framework.</p>
+
+<p>We currently have an application that has no logging in it except for system.out statements (very bad way).</p>
+
+<p>What I would like to do, is add logging, but also want to be able to control the logging at run time, with say JMX.</p>
+
+<p>We are using Rad 7.0 / WebSphere 6.1</p>
+
+<p>I am interesting to find out what is the best way(s) to accomplish this (I figure there may be several).</p>
+
+<p>Update:  Thoughts on the following <a href=""http://www.devx.com/Java/Article/30799/0/page/1"" rel=""nofollow"">Spring AOP Logging</a> Good ideal or not.  This is in reference to a question posted here on logging:  <a href=""http://stackoverflow.com/questions/105852/how-do-you-deal-with-conditional-logging-when-trying-to-respect-a-limited-cyclo"">Conditional Logging</a>.  Does this improve things or just makes it more difficult in the area of logging?</p>
+","8981","boyd4715","8981","boyd4715","2008-09-24 18:41:22","2008-09-24 18:41:22","Preferred way to do logging in the SpringFrame work","<java><spring><logging>","3","0","","","","118724","1211"
+"120007","1","120665","","2008-09-23 09:15:26","","7","11760","<p>I have been given a requirement where I need to support multiple databases in the same instance, to support multi-tenancy. Each DB has an identical schema. The user logs into a specific database by choosing from a list, and all subsequent calls will go to that DB until they log out.</p>
+
+<p>I want to hot swap the session factory inside a single HibernateDaoTemplate based on a parameter supplied by the client. </p>
+
+<p>I can find lots of stuff on hot-swapping data sources (and all the transaction issues associated with that) but I want to hot swap session factories - retaining all the caching for each.</p>
+
+<p>What's the easiest way to do this? Configure a HotSwappableTarget for the DaoTemplate? Can anyone point me to samples on how to do this?</p>
+","450527","","","","","2010-01-15 06:40:29","Multiple Session Factories under Spring/Hibernate","<hibernate><spring><sessionfactory>","5","0","6","","","120007","1211"
+"125794","1","","","2008-09-24 07:16:21","","4","2797","<p>I have been able to define multiple aspects (one is @Before and another is @Around) using Spring AOP (combined with AspectJ annotations) over a business service class.</p>
+
+<p>Currently they are getting called one by one (in sequence). However I would like to know how the priority of calling the aspects can be defined and where.</p>
+
+<p>Please guide me with respect to Spring AOP. Please note that I am using Spring 2.5.3 framework.</p>
+
+<p>Thanks in advance.</p>
+","959","jatanp","","","","2008-09-24 08:37:40","How to define / configure priority for multiple aspects using Spring AOP (or AspectJ)","<spring><aop><aspectj>","1","0","0","","","125794","1211"
+"128377","1","887426","","2008-09-24 17:01:40","","13","14756","<p>I have an application - more like a utility - that sits in a corner and updates two different databases periodically. </p>
+
+<p>It is a little standalone app that has been built with a Spring Application Context. The context has two Hibernate Session Factories configured in it, in turn using Commons DBCP data sources configured in Spring. </p>
+
+<p>Currently there is no transaction management, but I would like to add some. The update to one database depends on a successful update to the other.</p>
+
+<p>The app does not sit in a Java EE container - it is bootstrapped by a static launcher class called from a shell script. The launcher class instantiates the Application Context and then invokes a method on one of its beans. </p>
+
+<p>What is the 'best' way to put transactionality around the database updates?</p>
+
+<p>I will leave the definition of 'best' to you, but I think it should be some function of 'easy to set up', 'easy to configure', 'inexpensive', and 'easy to package and redistribute'. Naturally FOSS would be good.</p>
+","15452","Vihung","472792","skaffman","2013-07-23 21:11:06","2014-11-20 07:47:04","What is the 'best' way to do distributed transactions across multiple databases using Spring and Hibernate","<java><hibernate><spring><transactions><xa>","5","0","5","","","128377","1211"
+"129207","1","129999","","2008-09-24 19:10:01","","131","185583","<p>Is there a way to statically/globally request a copy of the ApplicationContext in a Spring application?</p>
+
+<p>Assuming the main class starts up and initializes the application context, does it need to pass that down through the call stack to any classes that need it, or is there a way for a class to ask for the previously created context?  (Which I assume has to be a singleton?)</p>
+","14057","Joe Skora","1858327","","2015-09-16 14:28:01","2015-09-16 14:28:01","Getting Spring Application Context","<java><spring><configuration>","9","0","39","","","129207","1211"
+"131975","1","182447","","2008-09-25 07:37:19","","88","11784","<p>I understand benefits of dependency injection itself. Let's take Spring for instance. I also understand benefits of other Spring featureslike AOP, helpers of different kinds, etc. I'm just wondering, what are the benefits of XML configuration such as:</p>
+
+<pre><code>&lt;bean id=""Mary"" class=""foo.bar.Female""&gt;
+  &lt;property name=""age"" value=""23""/&gt;
+&lt;/bean&gt;
+&lt;bean id=""John"" class=""foo.bar.Male""&gt;
+  &lt;property name=""girlfriend"" ref=""Mary""/&gt;
+&lt;/bean&gt;
+</code></pre>
+
+<p>compared to plain old java code such as:</p>
+
+<pre><code>Female mary = new Female();
+mary.setAge(23);
+Male john = new Male();
+john.setGirlfriend(mary);
+</code></pre>
+
+<p>which is easier debugged, compile time checked and can be understood by anyone who knows only java.
+So what is the main purpose of a dependency injection framework? (or a piece of code that shows its benefits.)</p>
+
+<p><hr /></p>
+
+<p><strong>UPDATE:</strong><br/>
+In case of</p>
+
+<pre><code>IService myService;// ...
+public void doSomething() {  
+  myService.fetchData();
+}
+</code></pre>
+
+<p>How can IoC framework guess which implementation of myService I want to be injected if there is more than one? If there is only one implementation of given interface, and I let IoC container automatically decide to use it, it will be broken after a second implementation appears. And if there is intentionally only one possible implementation of an interface then you do not need to inject it.</p>
+
+<p>It would be really interesting to see small piece of configuration for IoC which shows it's benefits. I've been using Spring for a while and I can not provide such example. And I can show single lines which demonstrate benefits of hibernate, dwr, and other frameworks which I use.</p>
+
+<p><hr /></p>
+
+<p><strong>UPDATE 2:</strong><br/>
+I realize that IoC configuration can be changed without recompiling. Is it really such a good idea? I can understand when someone wants to change DB credentials without recompiling - he may be not developer. In your practice, how often someone else other than developer changes IoC configuration? I think that for developers there is no effort to recompile that particular class instead of changing configuration. And for non-developer you would probably want to make his life easier and provide some simpler configuration file.</p>
+
+<p><hr /></p>
+
+<p><strong>UPDATE 3:</strong><br/></p>
+
+<blockquote>
+  <p>External configuration of mapping between interfaces and their concrete implementations </p>
+</blockquote>
+
+<p>What is so good in making it extenal? You don't make all your code external, while you definitely can - just place it in ClassName.java.txt file, read and compile manually on the fly - wow, you avoided recompiling. Why should compiling be avoided?!</p>
+
+<blockquote>
+  <p>You save coding time because you provide mappings declaratively, not in a procedural code </p>
+</blockquote>
+
+<p>I understand that sometimes declarative approach saves time. For example, I declare only once a mapping between a bean property and a DB column and hibernate uses this mapping while loading, saving, building SQL based on HSQL, etc. This is where the declarative approach works. In case of Spring (in my example), declaration had more lines and had the same expressiveness as corresponding code. If there is an example when such declaration is shorter than code - I would like to see it.</p>
+
+<blockquote>
+  <p>Inversion of Control principle allows for easy unit testing because you can replace real implementations with fake ones (like replacing SQL database with an in-memory one)</p>
+</blockquote>
+
+<p>I do understand inversion of control benefits (I prefer to call the design pattern discussed here as Dependency Injection, because IoC is more general - there are many kinds of control, and we are inverting only one of them - control of initialization). I was asking why someone ever needs something other than a programming language for it. I definitely can replace real implementations with fake ones using code. And this code will express same thing as configuration - it will just initialize fields with fake values.</p>
+
+<pre><code>mary = new FakeFemale();
+</code></pre>
+
+<p>I do understand benefits of DI. I do not understand what benefits are added by external XML configuration compared to configuring code that does the same. I do not think that compiling should be avoided - I compile every day and I'm still alive. I think configuration of DI is bad example of declarative approach. Declaration can be useful if is declared once AND is used many times in different ways - like hibernate cfg, where mapping between bean property and DB column is used for saving, loading, building search queries, etc. Spring DI configuration can be easily translated to configuring code, like in the beginning of this question, can it not? And it is used only for bean initialization, isn't it? Which means a declarative approach does not add anything here, does it?</p>
+
+<p>When I declare hibernate mapping, I just give hibernate some information, and it works based on it - I do not tell it what to do. In case of spring, my declaration tells spring exactly wht to do - so why declare it, why not just do it?</p>
+
+<p><hr /></p>
+
+<p><strong>LAST UPDATE:</strong><br/>
+Guys, a lot of answers are telling me about dependency injection, which I KNOW IS GOOD.
+The question is about purpose of DI configuration instead of initializing code - I tend to think that initializing code is shorter and clearer.
+The only answer I got so far to my question, is that it avoids recompiling, when the configuration changes. I guess I should post another question, because it is a big secret for me, why compiling should be avoided in this case.</p>
+","5507","Pavel Feldman","33226","chris","2009-04-29 22:45:49","2015-08-28 20:51:00","What are the benefits of dependency injection containers?","<xml><spring><dependency-injection>","16","5","46","","2008-09-25 09:00:53","131975","1211"
+"132118","1","","","2008-09-25 08:28:19","","9","17338","<p>When you use tiles in struts and do</p>
+
+<pre><code>request.getRequestURL()
+</code></pre>
+
+<p>You get url to <code>/WEB-INF/jsp/layout/newLayout.jsp</code> instead of real URL that was entered/clicked by user, something like <code>/context/action.do</code>.</p>
+
+<p>In new struts versions, 1.3.x and after, you can use <a href=""http://saloon.javaranch.com/cgi-bin/ubb/ultimatebb.cgi?ubb=get_topic&amp;f=58&amp;t=012300"" rel=""nofollow"">solution mentioned on javaranch</a> and get real url using attribute <a href=""http://struts.apache.org/1.x/apidocs/org/apache/struts/Globals.html#ORIGINAL_URI_KEY"" rel=""nofollow""><code>ORIGINAL_URI_KEY</code></a> attribute.</p>
+
+<p>But how to do this in struts 1.2.x?</p>
+","","eltehaem","386213","eltehaem","2012-05-11 08:40:10","2012-05-11 08:40:25","How to get real request URL in struts with tiles?","<java><spring><struts><tiles>","4","0","1","","","132118","1211"
+"132231","1","134974","","2008-09-25 08:59:36","","29","20003","<p>When I'm writing a Spring command line application which parses command line arguments, how do I pass them to Spring? Would I want to have my main() structured so that it first parses the command line args and then inits Spring? Even so, how would it pass the object holding the parsed args to Spring?</p>
+","22063","","","","","2011-11-01 17:44:12","Dealing with command line arguments and Spring","<java><spring><command-line>","5","0","12","","","132231","1211"
+"132444","1","","","2008-09-25 10:09:15","","3","1431","<p>There is a UNIQUE database constraint on an index which doesn't allow more than one record having identical columns.</p>
+
+<p>There is a piece of code, managed by Hibernate (v2.1.8), doing two DAO <BR>
+ <code>getHibernateTemplate().save( theObject ) </code><BR>
+calls which results two records entered into the table mentioned above.</p>
+
+<p>If this code is executed without transactions, it results INSERT, UPDATE, then another INSERT and another UPDATE SQL statements and works fine. Apparently, the sequence is to insert the record containing DB NULL first, and then update it with the proper data.</p>
+
+<p>If this code is executed under Spring (v2.0.5) wrapped in a single Spring transaction, it results two INSERTS, followed by immediate exception due to UNIQUE constraint mentioned above.</p>
+
+<p>This problem only manifests itself on <a href=""http://connect.microsoft.com/SQLServer/feedback/ViewFeedback.aspx?FeedbackID=299229"" rel=""nofollow"">MS SQL</a> due to its incompatibility with ANSI SQL. It works fine on MySQL and Oracle. Unfortunately, our solution is cross-platform and must support all databases.</p>
+
+<p>Having this stack of technologies, what would be your preferred workaround for given problem?</p>
+","7345","mindas","15401","Nigel Campbell","2008-10-08 15:47:58","2008-10-08 15:47:58","Workaround for Spring/Hibernate due to non-standard behaviour of UNIQUE constraint in MS SQL","<java><sql-server><hibernate><spring>","2","2","","","","132444","1211"
+"134797","1","","","2008-09-25 17:45:07","","2","574","<p>What parts of your application are not coded?
+I think one of the most obvious examples would be DB credentials - it's considered bad to have them hard coded. And in most of situations it is easy to decide if you want something to be externalized or coded.For me the rules are simple. Some part of the application should be externalized if:  </p>
+
+<ol>
+<li>it can and should be changed by non-developer, but not so often to be included in application settings defined in UI (DB credentials, service URLs, etc)</li>
+<li>it does not require programming language and seems unnatural being coded (localization)</li>
+</ol>
+
+<p>Do you have anything to add?</p>
+
+<p>This is a little related to <a href=""http://stackoverflow.com/questions/131975/what-are-benefits-of-dependency-injection-container"">this question about spring cfg</a>.
+Spring configuration seems less obvious example for me, because in my practice it is never modified by anyone except the developer. And the road of externalizing can take you far away, to the entire project being ""configured"", not coded - so where to stop?</p>
+
+<p>So please post here some examples from your experience, when you got benefit from having something configured, not coded - like dependency injection configuration in spring, etc.
+And if you use spring - how often is configuration changed without recompiling?</p>
+","5507","Pavel Feldman","20074","Ken","2008-11-29 09:12:41","2011-09-27 15:20:35","What parts of application you prefer to be externalized as configuration and why?","<spring><configuration>","11","0","","","","134797","1211"
+"142740","1","142796","","2008-09-27 01:55:23","","4","2921","<p>I want to do something like the following in spring:</p>
+
+<pre><code>&lt;beans&gt;
+    ...
+    &lt;bean id=""bean1"" ... /&gt;
+    &lt;bean id=""bean2""&gt;
+        &lt;property name=""propName"" value=""bean1.foo"" /&gt;
+...
+</code></pre>
+
+<p>I would think that this would access the getFoo() method of bean1 and call the setPropName() method of bean2, but this doesn't seem to work.</p>
+","22063","","","","","2008-09-27 02:47:31","How do you acess a property of a bean for reading in a spring xml config file?","<spring>","3","0","0","","","142740","1211"
+"145641","1","156359","","2008-09-28 10:40:30","","1","1779","<p>I am trying to setup a multi module SpringMVC appfuse applicaiton in Eclipse but it seems that I'm facing lots of errors in Eclipse after I import the project in Eclipse. Can anyone please help me with a step by step guideline showing the ideal way to setup such application in Eclipse?</p>
+","20165","Mozammel","21234","skaffman","2008-09-28 11:17:11","2009-08-14 18:13:29","How to properly setup a multi module SpringMVC application created by appfuse in Eclipse?","<java><eclipse><spring><maven-2><appfuse>","4","0","","","","145641","1211"
+"150146","1","373588","","2008-09-29 19:02:04","","3","995","<p>In my just-completed project, I was working getting distributed transactions working.</p>
+
+<p>We implemented this using JBoss's Arjuna Transaction Manager, and Spring's declarative transaction boundaries.</p>
+
+<p>Our request sequence looked like:</p>
+
+<pre><code>browser -&gt; secured servlet -&gt; 'wafer-thin' SLSB -&gt; spring TX-aware proxy -&gt; request-handler POJO
+</code></pre>
+
+<p>What this meant is that we had a WAR to serve our secured servlet and an EAR to serve our SLSB.</p>
+
+<p>Our SLSB had a static initialiser block to bootstrap our Spring application context.</p>
+
+<p>I don't like the mix of technologies, but I do like the separation of presentation and business tiers, which could reside on different physical locations.</p>
+
+<p>I would be interested to know what others propose to separate tiers when using Spring?</p>
+","3295","toolkit","","","","2008-12-17 04:06:56","Separation of Presentation and Business Tiers with Spring","<spring><n-tier>","2","4","","","","150146","1211"
+"155504","1","158511","","2008-09-30 23:02:53","","5","25209","<p>I had a look in the reference doc, and Spring seems to have pretty good support for sending mail. However, I need to login to a mail account, read the messages, and download any attachments. Is downloading mail attachments supported by the Spring mail API?</p>
+
+<p>I know you can do this with the Java Mail API, but in the past I've found that very verbose and unpleasant to work with.</p>
+
+<p><strong>EDIT</strong>: I've received several replies pointing towards tutorials that describe how to send mail with attachments, but what I'm asking about is how to <strong>read</strong> attachments from <strong>received</strong> mail.</p>
+
+<p>Cheers,
+Don</p>
+","2648","Don","2648","Don","2008-10-01 13:38:58","2014-08-04 02:50:21","download mail attachment with Java","<java><spring><email><attachment>","6","4","13","","","155504","1211"
+"157294","1","","","2008-10-01 12:11:49","","0","1042","<p>We have a project consisting of multiple subprojects. With each subproject we potentially have some hibernate mapping files but in the end only <strong>one actual hibernate session</strong>. Those subprojects could be combined in several ways, some depend on each other. My problem is that actually I want to have a SessionFactoryBean which would be able to collect those mappings/mappinglocations from the applicationContext(s) and configure itself.</p>
+
+<p>Has somebody written something like this, or do I have to do it myself (I envision something a bit like the urlresolver or viewresolver functionality from SpringMVC)?</p>
+","917","Mauli","","","","2008-10-03 11:56:54","Hibernate SessionFactoryBean for multiple locations of mapping files","<java><hibernate><spring>","2","0","","","","157294","1211"
+"160611","1","","","2008-10-02 02:23:16","","16","79126","<p>I'm trying to unit test (JUnit) a DAO i've created.  I'm using Spring as my framework, my DAO (JdbcPackageDAO) extends SimpleJdbcDaoSupport.  The testing class (JdbcPackageDAOTest) extends AbstractTransactionalDataSourceSpringContextTests.  I've overridden the configLocations as follows:</p>
+
+<pre><code>protected String[] getConfigLocations(){
+    return new String[] {""classpath:company/dc/test-context.xml""};
+}
+</code></pre>
+
+<p>My test-context.xml file is defined as follows:</p>
+
+<pre><code>&lt;beans xmlns=""http://www.springframework.org/schema/beans""
+    xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance""
+    xsi:schemaLocation=""http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd""&gt;
+
+    &lt;bean id=""dataPackageDao"" class=""company.data.dao.JdbcPackageDAO""&gt;
+        &lt;property name=""dataSource"" ref=""dataSource"" /&gt;
+    &lt;/bean&gt;
+
+    &lt;bean id=""dataSource"" class=""org.springframework.jdbc.datasource.DriverManagerDataSource""&gt;
+        &lt;property name=""driverClassName"" value=""org.hsqldb.jdbcDriver""/&gt;
+        &lt;property name=""url"" value=""jdbc:hsqldb:hsql://localhost""/&gt;
+        &lt;property name=""username"" value=""sa"" /&gt;
+        &lt;property name=""password"" value="""" /&gt;
+    &lt;/bean&gt;
+
+    &lt;bean id=""propertyConfigurer"" 
+          class=""org.springframework.beans.factory.config.PropertyPlaceholderConfigurer""&gt;
+        &lt;property name=""locations""&gt;
+            &lt;list&gt;
+                &lt;value&gt;company/data/dao/jdbc.properties&lt;/value&gt;
+            &lt;/list&gt;
+        &lt;/property&gt;
+    &lt;/bean&gt;
+
+    &lt;bean id=""transactionManager"" 
+          class=""org.springframework.jdbc.datasource.DataSourceTransactionManager""&gt;
+        &lt;property name=""dataSource"" ref=""dataSource"" /&gt;
+    &lt;/bean&gt;
+&lt;/beans&gt;
+</code></pre>
+
+<p>I'm using HSQL as my backend, it's running in standalone mode.   My IDE of choice is eclipse.  When I run the class as a JUnit test here's my error (below).  I have no clue as to why its happening.  hsql.jar is on my build path according to Eclipse.</p>
+
+<pre>
+org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is java.sql.SQLException: No suitable driver found for jdbc:hsqldb:hsql://localhost
+    at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:219)
+    at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:377)
+    at org.springframework.test.AbstractTransactionalSpringContextTests.startNewTransaction(AbstractTransactionalSpringContextTests.java:387)
+    at org.springframework.test.AbstractTransactionalSpringContextTests.onSetUp(AbstractTransactionalSpringContextTests.java:217)
+    at org.springframework.test.AbstractSingleSpringContextTests.setUp(AbstractSingleSpringContextTests.java:101)
+    at junit.framework.TestCase.runBare(TestCase.java:128)
+    at org.springframework.test.ConditionalTestCase.runBare(ConditionalTestCase.java:76)
+    at junit.framework.TestResult$1.protect(TestResult.java:106)
+    at junit.framework.TestResult.runProtected(TestResult.java:124)
+    at junit.framework.TestResult.run(TestResult.java:109)
+    at junit.framework.TestCase.run(TestCase.java:120)
+    at junit.framework.TestSuite.runTest(TestSuite.java:230)
+    at junit.framework.TestSuite.run(TestSuite.java:225)
+    at org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestReference.run(JUnit3TestReference.java:130)
+    at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+    at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: java.sql.SQLException: No suitable driver found for jdbc:hsqldb:hsql://localhost
+    at java.sql.DriverManager.getConnection(Unknown Source)
+    at java.sql.DriverManager.getConnection(Unknown Source)
+    at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:291)
+    at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:277)
+    at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:259)
+    at org.springframework.jdbc.datasource.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:241)
+    at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:182)
+    ... 18 more
+</pre>
+","17337","oneBelizean","45935","Jeff Atwood","2012-01-16 03:42:35","2015-06-25 09:16:35","Cause of No suitable driver found for","<java><eclipse><spring><junit><hsqldb>","15","0","6","","","160611","1211"
+"161003","1","","","2008-10-02 05:29:06","","2","9006","<p>I'm in the early phases of developing a brand spanking new site with Spring + Tiles. The site needs dynamically generated breadcrumbs.</p>
+
+<p>What I mean by dynamic is that the user may reach a certain site from multiple starting points. If I have views for Customers, Orders and Products, the user could reach a Product directly:</p>
+
+<pre><code>Products -&gt; Product xyz
+</code></pre>
+
+<p>or the user could reach a product through a customer's order:</p>
+
+<pre><code>Customers -&gt; John Doe -&gt; Orders -&gt; Order 123 -&gt; Product xyz
+</code></pre>
+
+<p>What is the best way to achieve breadcrumbs like these in a java environment? I've previously done this by using a request attribute (a Vector of Url objects) that is filled with the Urls in each action/servlet of my webapp (like in the action List of Products). I'm not happy with this solution as it requires adding code to each controller/action for generating the breadcrumb trail. And in a case like viewing a product of given order of given customer, the if-then-else logic needed to determine the trail is awful.</p>
+
+<p>Are there any libraries that I could use?</p>
+","15114","kosoant","","","","2011-02-25 17:32:22","Dynamic breadcrumb generation - how to do?","<java><spring><tiles><breadcrumbs>","3","0","0","","","161003","1211"
+"162310","1","162341","","2008-10-02 13:37:48","","8","2609","<p>What role is Spring taking in Struts + Spring + Hibernate?</p>
+","10927","","1820","Cheekysoft","2008-10-03 18:37:10","2015-04-16 13:34:10","What is the role of Spring in Struts + Spring + Hibernate?","<java><hibernate><spring><struts>","3","0","6","","","162310","1211"
+"162497","1","171260","","2008-10-02 14:13:18","","26","10440","<p>There is a select dropdown and I want to add ""No selection"" item to the list wich should give me 'null' when submitted.
+I'm using SimpleFormController derived controller.</p>
+
+<pre><code>protected Map referenceData(HttpServletRequest httpServletRequest, Object o, Errors errors) throws Exception {
+    Map&lt;String, Object&gt; map = new HashMap&lt;String, Object&gt;();
+
+    map.put(""countryList"", Arrays.asList(Country.values()));
+
+    return map;
+}
+</code></pre>
+
+<p>And the jspx part is</p>
+
+<pre class=""lang-html prettyprint-override""><code>&lt;form:select path=""country"" items=""${countryList}"" title=""country""/&gt;
+</code></pre>
+
+<p>One possible solution seems to be in adding a null value to the beginning of the list and then using a custom PropertyEditor to disply this 'null' as 'No selection'.
+Is there a better solution?</p>
+
+<p>@Edit: I have solved this with a custom validation annotation which checks if the selected value is ""No Selection"". Is there a more standard and easier solution?</p>
+","578","Aleksey Kudryavtsev","384674","skaffman","2012-06-05 12:03:44","2014-03-27 14:03:40","Spring MVC Form tags: Is there a standard way to add ""No selection"" item?","<java><forms><spring><spring-mvc>","2","0","3","","","162497","1211"
+"167609","1","168501","","2008-10-03 16:05:01","","2","1467","<p>I am building an application using Spring MVC. I want to make certain changes to my Model for every Controller in the application. In particular, I want to insert certain extra data into the model which will be present for all pages of the application.</p>
+
+<p>I could do this several ways: just add the data at the end of every Controller, use a subclass of Model that adds my extra data, use a subclass of ModelAndView that wraps my Model, use a subclass of VelocityView that wraps the Model before using it... I'm sure there are other options.</p>
+
+<p>But I have an ""elegance"" constraint: I don't want to write code in each and every Controller, I want this behavior defined in <a href=""http://en.wikipedia.org/wiki/Don%27t_repeat_yourself"" rel=""nofollow"">one-and-only-one</a> place. Ideally, it would be controlled by my IOC bean config file.</p>
+
+<p>Does anyone have a recommendation of how to achieve this elegantly?</p>
+","14570","mcherm","1140748","","2012-04-30 21:14:13","2012-04-30 21:14:13","How best to modify my model in Spring MVC if I care about IOC","<spring><spring-mvc><inversion-of-control>","3","0","0","","","167609","1211"
+"167745","1","170277","","2008-10-03 16:27:41","","0","4069","<p>I'm using hibernate validator framework with Spring. A class implementing the Spring Validator validates objects with Hibernate's ClassValidator. To localize ClassValidator's error messages I need to pass a ResourceBundle into the class' constructor. My ApplicationCountext has a MessageSource bean (ReloadableResourceBundleMessageSource) which is used throught the application. It makes sense to use this same MessafeSource for the ClassValidator. But how do I convert the MessageSource to a ResourceBundle? Is there any adapter class?</p>
+","578","Aleksey Kudryavtsev","","","","2008-10-04 12:44:04","Spring: Obtaining ResourceBundle based on MessageSource","<java><hibernate><validation><spring>","1","0","0","","","167745","1211"
+"171130","1","","","2008-10-04 22:42:46","","2","3207","<p>So is there a way to initialize and start a command line Spring app without writing a main method. It seems like all such main methods have the same form</p>
+
+<pre><code>public static void main(final String[] args) throws Exception {
+    ApplicationContext ctx = new ClassPathXmlApplicationContext(""context.xml"", Boot.class);
+    FooService fooService = (FooService) ctx.getBean(""fooService"");
+    fooService.bar();
+}
+</code></pre>
+
+<p>I suppose that's not complicated, but has someone found a way to provide a way to just specify the <code>context.xml</code> at the command line or, better yet, in a manifest file?</p>
+
+<p>The goal here is to simplify the creation of spring applications as executable jars. I hope that I can specify some utility class as the <code>Main-Class</code> in the manifest. I suppose I would also need to specify the starting point for the app, a bean and a method on it where begins the process.</p>
+","4893","sblundy","4893","sblundy","2008-10-04 23:38:14","2012-01-21 15:40:32","Autostart spring app","<java><spring>","2","4","4","","","171130","1211"
+"173880","1","","","2008-10-06 11:04:02","","1","982","<p>I have a web service, that takes an input xml message, transforms it, and then forwards it to another web service.</p>
+
+<p>The application is deployed to two web logic app servers for performance, and resilience reasons.</p>
+
+<p>I would like a single website monitoring page that allows two things</p>
+
+<ul>
+<li><p>ability to stop/ start forwarding of messages</p></li>
+<li><p>ability to monitor throughput of number of messages in the last hour etc. Number of different senders into the webservice etc.</p></li>
+</ul>
+
+<p>I was wondering what the best way to implement this was.</p>
+
+<p>My current idea is to have an in memory database (eg Debry or HSQL) replicating data to share the information between the two (or more) instances of my application that are running in different instances of the app server. I imagine I would have to setup some sort of master/ slave configuration.</p>
+
+<p>I would love a link to an article that discusses how to solve this problem.</p>
+
+<p>(Note, this is a simple spring application using spring MVC)</p>
+
+<p>thanks,</p>
+
+<p>David.</p>
+","10171","David Turner","","","","2014-05-13 18:16:39","Multiple instances of a java web application sharing a resource","<java><spring><java-ee><weblogic>","3","0","1","","","173880","1211"
+"174380","1","","","2008-10-06 13:55:30","","2","5767","<p>Within a spring webflow, i need to implement a navigation bar that will allow to ""step back"" or resume the flow to one of the previous view.</p>
+
+<p>For example :</p>
+
+<ul>
+<li>View 1 = login</li>
+<li>View 2 = My informations</li>
+<li>View 3 = My messages</li>
+<li>View 4 = Close session</li>
+</ul>
+
+<p>For this example, i would like to return back to view 2 from the view 4 page.</p>
+","25492","Olivier","157882","S&#233;bastien Rocca-Serra","2011-11-10 21:06:59","2011-11-10 21:06:59","Spring webflow : Move through view states","<java><spring><spring-webflow>","2","1","","","","174380","1211"
+"175880","1","178610","","2008-10-06 19:46:37","","4","8834","<p>It appears that our implementation of using Quartz - JDBCJobStore along with Spring, Hibernate and Websphere is throwing unmanaged threads.  </p>
+
+<p>I have done some reading and found a tech article from IBM stating that the usage of Quartz with Spring will cause that.  They make the suggestion of using CommnonJ to address this issue.</p>
+
+<p>I have done some further research and the only examples I have seen so far all deal with the plan old JobStore that is not in a database.</p>
+
+<p>So, I was wondering if anyone has an example of the solution for this issue.</p>
+
+<p>Thanks</p>
+","8981","boyd4715","3474","erickson","2009-02-09 18:46:39","2013-07-23 21:07:49","Unmanaged Threads Spring Quartz Websphere Hibernate","<java><hibernate><spring><websphere><quartz-scheduler>","7","2","2","","","175880","1211"
+"179617","1","180013","","2008-10-07 17:52:00","","1","2805","<p>We are using Hibernate 3.1 with Spring MVC 2.0.  Our problem occurs when data is updated on the database directly (not in the application).  We use a Filter to filter a collection of results by whether the orders are opened or closed.  If we change an order on the DB to be closed, the filter returns the correct list, however, the object's status does not change.  </p>
+
+<ul>
+<li>We do not have second-level or query caching enabled.</li>
+<li>The retrieval of the collection from the DB is via Hibernate's Session.createQuery.    </li>
+<li>Also, we have one SessionFactory wired, and using one Session throughout the application.  </li>
+</ul>
+
+<p>The only time the object displays the correct status result is when the server is restarted--which we'd prefer not to have to do on a regular basis.  Please offer any insight, and if any other information is required, please ask.</p>
+
+<p>Thanks!</p>
+","13435","Chris Serra","","","","2008-10-07 19:40:25","Strange Hibernate Cache Issue","<java><hibernate><spring>","4","0","","","","179617","1211"
+"182393","1","183401","","2008-10-08 12:06:00","","81","39192","<p>In a few large projects i have been working on lately it seems to become increasingly important to choose one or the other (XML or Annotation). As projects grow, consistency is very important for maintainability. </p>
+
+<p>My question is, what do people prefer.  Do you prefer XML based or Annotation based? or Both? Everybody talks about XML configuration hell and how annotations are the answer, what about Annotation configuration hell?</p>
+","24390","","","","","2014-09-26 06:42:56","Xml configuration versus Annotation based configuration","<java><xml><spring><annotations>","16","1","52","2014-08-28 16:19:29","","182393","1211"
+"182721","1","183682","","2008-10-08 13:23:36","","0","1385","<p>We use Spring + Hibernate for a Webapp.</p>
+
+<p>This Webapp will be deployed on two unrelated production sites. These two production sites will use the Webapp to generate and use Person data in parallel.</p>
+
+<p>What I need to do, is to make sure that the Persons generated on these two unrelated production sites all have distinct PKs, so that we can merge the Person data from these two sites at any time.</p>
+
+<p>A further constraint imposed to me is that these PKs fit in a <code>Long</code>, so I can't use UUIDs.</p>
+
+<p>What I'm trying to do is to change the current hibernate mapping, that has sequence <code>S_PERSON</code> as generator:</p>
+
+<pre><code>&lt;hibernate-mapping default-cascade=""save-update"" auto-import=""false""&gt;
+    &lt;class name=""com.some.domain.Person"" abstract=""true""&gt;
+        &lt;id name=""id""&gt;
+            &lt;column name=""PERSON_ID""/&gt;
+            &lt;generator class=""sequence""&gt;
+                &lt;param name=""sequence""&gt;S_PERSON&lt;/param&gt;
+            &lt;/generator&gt;
+        &lt;/id&gt;
+    ...
+&lt;/hibernate-mapping&gt;
+</code></pre>
+
+<p>into something configurable, so that <code>PERSON_ID</code> have its PKs generated from different sequences (maybe <code>S_PERSON_1</code> and <code>S_PERSON_2</code>)  depending on the deployment site's  Spring configuration files.</p>
+
+<p>Of course,</p>
+
+<pre><code>            &lt;generator class=""sequence""&gt;
+                &lt;param name=""sequence""&gt;${sequenceName}&lt;/param&gt;
+            &lt;/generator&gt;
+</code></pre>
+
+<p>doesn't work, so I have to figure out something else... I guess my generator should point to a configurable bean that in turn points to a sequence or another, but I can't figure how to do that...</p>
+
+<p>Any ideas or workaround?</p>
+
+<p>Thanks!</p>
+","2797","S&#233;bastien Rocca-Serra","2797","S&#233;bastien Rocca-Serra","2008-10-09 08:28:52","2008-10-09 08:28:52","Spring + Hibernate: how to have a configurable PK generator?","<java><hibernate><spring><sequences>","2","0","","","","182721","1211"
+"184312","1","185675","","2008-10-08 18:57:28","","15","12537","<p>I am building Java web applications, and I hate the traditional ""code-compile-deploy-test"" cycle. I want to type in one tiny change, then see the result INSTANTLY, without having to compile and deploy.</p>
+
+<p>Fortunately, <a href=""http://www.mortbay.org/jetty/"">Jetty</a> is great for this. It is a pure-java web server. It comes with a really nice <a href=""http://docs.codehaus.org/display/JETTY/Maven+Jetty+Plugin"">maven plugin</a> which lets you launch Jetty reading directly from your build tree -- no need to package a war file or deploy. It even has a scanInterval setting: put this to a non-zero value and it will watch your java files and various config files for changes and automatically re-deploy a few seconds after you make a change.</p>
+
+<p>There's just one thing keeping me from nirvana. I have javascript and css files in my src/main/webapp directory which just get served up by Jetty. I would like to be able to edit <em>these</em> and have the changes show up when I refresh the page in the browser. Unfortunately, Jetty holds these files open so I can't (on Windows) modify them while it is running.</p>
+
+<p>Does anyone know how to make Jetty let go of these files so I can edit them, then serve up the edited files for subsequent requests?</p>
+","14570","mcherm","","","","2015-08-15 16:27:06","How to make Jetty dynamically load ""static"" pages","<java><spring><jetty>","9","0","11","","","184312","1211"
+"188392","1","211132","","2008-10-09 17:49:04","","1","1416","<p>I'd like to call methods of my DAOs by AJAX. I'm quite new in that so I would like to ask what is the best way to do that. Is it possible to publish my beans as web services and call them with e.g. jQuery? I think it is not possible :) I've also read about Direct Web Remoting but I don't know which way to go... </p>
+
+<p>As I see, there are lot of experienced guys here so I think you can show me direction.. thanks in advance</p>
+","20403","Lukas","","","","2008-10-17 05:05:02","How to connect my Spring + Hibernate based application backend with pure HTML and AJAX based client?","<ajax><web-services><hibernate><spring>","2","0","1","","","188392","1211"

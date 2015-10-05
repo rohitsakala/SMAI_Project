@@ -1,0 +1,923 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"1779858","1","1780120","","2009-11-22 20:21:52","","23","9600","<p>In <a href=""http://nodejs.org/"">nodejs</a>, the only way to execute external commands is via sys.exec(cmd). I'd like to call an external command and give it data via stdin. In nodejs there does yet not appear to be a way to open a command and then push data to it (only to exec and receive its standard+error outputs), so it appears the only way I've got to do this right now is via a single string command such as:</p>
+
+<pre><code>var dangerStr = ""bad stuff here"";
+sys.exec(""echo '"" + dangerStr + ""' | somecommand"");
+</code></pre>
+
+<p>Most answers to questions like this have focused on either regex which doesn't work for me in nodejs (which uses Google's V8 Javascript engine) or native features from other languages like Python.</p>
+
+<p>I'd like to escape dangerStr so that it's safe to compose an exec string like the one above. If it helps, dangerStr will contain JSON data.</p>
+","50505","","123671","","2015-01-10 19:44:45","2015-01-10 19:45:14","How do I escape a string for a shell command in node?","<javascript><shell><escaping><node.js><v8>","3","2","8","","","1779858","46426"
+"1787716","1","","","2009-11-24 04:08:48","","235","111462","<p>I'm experimenting with building an entire web application using Node.js. Is there a template engine similar to (for example) the Django template engine or the like that at least allows you to extend base templates?</p>
+","216225","","229044","","2013-06-04 13:55:29","2014-05-23 05:46:40","Is there a template engine for Node.js?","<javascript><template-engine><node.js>","21","13","83","2012-11-28 14:18:50","","1787716","46426"
+"1801160","1","","","2009-11-26 01:54:20","","350","161656","<p>Is it possible to use jQuery selectors/DOM manipulation on the server-side using Node.js?</p>
+","219069","","1380918","","2013-10-16 16:47:09","2015-07-27 08:49:15","Can I use jQuery with Node.js?","<javascript><jquery><node.js>","11","4","111","","","1801160","46426"
+"1809619","1","1809712","","2009-11-27 16:24:42","","17","6733","<p>In Nodejs, there are virtually no blocking I/O operations. This means that almost all nodejs IO code involves many callbacks. This applies to reading and writing to/from databases, files, processes, etc. A typical example of this is the following:</p>
+
+<pre><code>var useFile = function(filename,callback){
+    posix.stat(filename).addCallback(function (stats) {
+        posix.open(filename, process.O_RDONLY, 0666).addCallback(function (fd) {
+            posix.read(fd, stats.size, 0).addCallback(function(contents){
+                callback(contents);
+            });
+        });
+    });
+};
+
+...
+
+useFile(""test.data"",function(data){
+    // use data..
+});
+</code></pre>
+
+<p>I am anticipating writing code that will make <strong>many</strong> IO operations, so I expect to be writing <strong>many</strong> callbacks. I'm quite comfortable with using callbacks, but I'm worried about all the recursion. Am I in danger of running into too much recursion and blowing through a stack somewhere? If I make thousands of individual writes to my key-value store with thousands of callbacks, will my program eventually crash?</p>
+
+<p>Am I misunderstanding or underestimating the impact? If not, is there a way to get around this while still using Nodejs' callback coding style?</p>
+","50505","","213269","","2010-04-27 23:35:11","2010-06-24 18:48:06","Managing lots of callback recursion in Nodejs","<javascript><recursion><callback><node.js><v8>","6","1","7","","","1809619","46426"
+"1873378","1","1877447","","2009-12-09 11:45:37","","6","988","<p>I`ve been looking for a serverside language for some time, and python got my attention somewhat.
+But as I already know and love javascript, I now want learn to code on the server with js and node.js.</p>
+
+<p>Now, what books and what subjects do I need to learn to understand the serverside world better?</p>
+
+<p>(let me know if Im to vague)</p>
+","43919","","213269","","2010-04-27 23:43:28","2012-06-18 17:50:22","Clientside going serverside with node.js","<node.js>","3","0","2","","","1873378","46426"
+"1875754","1","1875815","","2009-12-09 18:12:06","","6","1901","<p>I have a for loop, and inside it a variable is assigned with var. Also inside the loop a method is called which requires a callback. Inside the callback function I'm using the variable from the loop. I would expect that it's value, inside the callback function, would be the same as it was outside the callback during that iteration of the loop. However, it always seems to be the value from the <em>last</em> iteration of the loop. </p>
+
+<p>Am I misunderstanding scope in JavaScript, or is there something else wrong?</p>
+
+<p>The program in question here is a node.js app that will monitor a working directory for changes and restart the server when it finds one. I'll include all of the code for the curious, but the important bit is the parse_file_list function.</p>
+
+<pre><code>var posix = require('posix');
+var sys = require('sys');
+var server;
+var child_js_file = process.ARGV[2];
+var current_dir = __filename.split('/');
+current_dir = current_dir.slice(0, current_dir.length-1).join('/');
+
+var start_server = function(){
+    server = process.createChildProcess('node', [child_js_file]);
+    server.addListener(""output"", function(data){sys.puts(data);});
+};
+
+var restart_server = function(){
+    sys.puts('change discovered, restarting server');
+    server.close();
+    start_server();
+};
+
+var parse_file_list = function(dir, files){
+    for (var i=0;i&lt;files.length;i++){
+        var file = dir+'/'+files[i];
+        sys.puts('file assigned: '+file);
+        posix.stat(file).addCallback(function(stats){
+            sys.puts('stats returned: '+file);
+            if (stats.isDirectory())
+                posix.readdir(file).addCallback(function(files){
+                    parse_file_list(file, files);
+                });
+            else if (stats.isFile())
+                process.watchFile(file, restart_server);
+        });
+    }
+};
+
+posix.readdir(current_dir).addCallback(function(files){
+    parse_file_list(current_dir, files);
+});
+
+start_server();
+</code></pre>
+
+<p>The output from this is:</p>
+
+<pre><code>file assigned: /home/defrex/code/node/ejs.js
+file assigned: /home/defrex/code/node/templates
+file assigned: /home/defrex/code/node/web
+file assigned: /home/defrex/code/node/server.js
+file assigned: /home/defrex/code/node/settings.js
+file assigned: /home/defrex/code/node/apps
+file assigned: /home/defrex/code/node/dev_server.js
+file assigned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+stats returned: /home/defrex/code/node/main_urls.js
+</code></pre>
+
+<p><em>For those from the future:</em> <a href=""http://github.com/defrex/node.devserver.js"" rel=""nofollow"">node.devserver.js</a></p>
+","6007","","213269","","2010-04-27 23:58:35","2010-04-27 23:58:35","node.js callback getting unexpected value for variable","<javascript><scope><node.js>","1","0","2","","","1875754","46426"
+"1884724","1","1902991","","2009-12-10 23:05:21","","507","252442","<p>I don't fully get what <a href=""http://en.wikipedia.org/wiki/Node.js"" rel=""nofollow"">Node.js</a> is all about. Maybe it's because I am mainly a web based business application developer. What is it and what is the use of it?</p>
+
+<p>My understanding so far is that:</p>
+
+<ol>
+<li>The programming model is event driven, especially the way it handles <a href=""http://en.wikipedia.org/wiki/Input/output"" rel=""nofollow"">I/O</a>.</li>
+<li>It uses <a href=""http://en.wikipedia.org/wiki/JavaScript"" rel=""nofollow"">JavaScript</a> and the parser is <a href=""http://en.wikipedia.org/wiki/V8_%28JavaScript_engine%29"" rel=""nofollow"">V8</a>.</li>
+<li>It can be easily used to create concurrent server applications.</li>
+</ol>
+
+<p>Are my understandings correct? If yes, then what are the benefits of evented I/O, is it just more for the concurrency stuff? Also, is the direction of Node.js to become a framework like, JavaScript based (V8 based) programming model?</p>
+","52752","","63550","","2013-06-22 09:11:06","2013-06-22 10:22:09","What is Node.js?","<javascript><node.js><v8><evented-io>","10","0","928","2012-04-28 14:03:11","","1884724","46426"
+"1911015","1","2536734","","2009-12-15 22:50:07","","759","251411","<p>How do I debug a Node.js server application? Right now I'm mostly using <em>alert debugging</em> with print statements like this:</p>
+
+<pre><code>sys.puts(sys.inspect(someVariable));
+</code></pre>
+
+<p>There must be a better way to debug. I know that <a href=""http://en.wikipedia.org/wiki/Google_Chrome"">Google Chrome</a> has a command-line debugger. Is this debugger available for Node.js as well?</p>
+","129322","","2174742","","2014-09-26 09:24:54","2015-09-15 15:33:22","How to debug Node.js applications","<javascript><node.js><debugging><google-chrome-devtools>","23","1","504","","","1911015","46426"
+"1972242","1","14406029","","2009-12-29 00:08:49","","209","97090","<p>EDIT: Use <a href=""http://github.com/isaacs/node-supervisor"">http://github.com/isaacs/node-supervisor</a>; This is an old question and the code example is made with an outdated Node.js API. </p>
+
+<p>Any ideas on how I could implement an auto-reload of files in node.js. I'm tired of restarting the server every time I change a file. 
+Apparently Node.js' <code>require()</code> function does not reload files if they already have been required, so I need to do something like this:</p>
+
+<pre><code>var sys     = require('sys'), 
+    http    = require('http'),
+    posix   = require('posix'),
+    json    = require('./json');
+
+var script_name      = '/some/path/to/app.js';
+this.app     = require('./app').app;
+
+process.watchFile(script_name, function(curr, prev){
+    posix.cat(script_name).addCallback(function(content){
+        process.compile( content, script_name );
+    });
+});
+
+http.createServer(this.app).listen( 8080 );
+</code></pre>
+
+<p>And in the <em>app.js</em> file I have:</p>
+
+<pre><code>var file = require('./file');
+this.app = function(req, res) { 
+    file.serveFile( req, res, 'file.js');  
+}
+</code></pre>
+
+<p>But this also isn't working - I get an error in the <code>process.compile()</code> statement saying that 'require' is not defined. <code>process.compile</code> is evaling the <em>app.js</em>, but has no clue about the node.js globals.</p>
+","36047","","1288306","","2014-03-30 16:59:21","2015-08-31 15:56:21","Auto-reload of files in Node.js","<javascript><node.js>","19","3","88","","","1972242","46426"
+"2159559","1","2160309","","2010-01-29 02:41:47","","1","1233","<p>Using <a href=""http://github.com/visionmedia/express"" rel=""nofollow"">Express</a> (for <a href=""http://nodejs.org/"" rel=""nofollow"">node.js</a>)
+How do I write a response after a callback?</p>
+
+<p>The following is a minimal example.  <code>posix.cat</code> is a function that returns a promise, <code>up</code> does something to the result, and I want to send that as the response.</p>
+
+<pre><code>require.paths.unshift('lib');
+require('express');
+var posix = require('posix');
+
+get('/', function () {
+    function up(s) {
+        return s.toUpperCase();
+    }
+    return posix.cat('/etc/motd').addCallback(up);
+});
+
+run(3001);
+</code></pre>
+
+<p>The client never gets a response.</p>
+
+<p>I've also tried variations on this:</p>
+
+<pre><code>get('/2', function () {
+    var myRequest = this;
+    function up(s) {
+        myRequest.respond(s.toUpperCase());
+    }
+    return posix.cat('/etc/motd').addCallback(up);
+});
+</code></pre>
+
+<p>but that tends to crash everything:</p>
+
+<pre><code>[object Object].emitSuccess (node.js:283:15)
+[object Object].&lt;anonymous&gt; (node.js:695:21)
+[object Object].emitSuccess (node.js:283:15)
+node.js:552:29
+node.js:1027:1
+node.js:1031:1
+</code></pre>
+","9585","","9585","","2010-01-29 02:54:15","2010-01-29 06:33:09","How do I do a deferred response from a node.js express action handler?","<javascript><node.js><promise>","1","1","","","","2159559","46426"
+"2179619","1","5210140","","2010-02-01 19:56:02","","22","14584","<p>I'm starting to get my head around node.js, and I'm trying to figure out how I would do normal MVC stuff. For example, here's a Django view that pulls two sets of records from the database, and sends them to be rendered in a template. </p>
+
+<pre><code>def view(request):
+    things1 = ThingsOne.objects.all()
+    things2 = ThingsTwo.objects.all()
+    render_to_response('template.html, {'things1': things1, 'things2': things2})
+</code></pre>
+
+<p>What might a similar node.js function look like?</p>
+","61295","","61295","","2010-02-02 21:09:04","2013-11-10 22:34:09","How would MVC-like code work in Node.js?","<javascript><model-view-controller><server-side><node.js><serverside-javascript>","5","1","9","","","2179619","46426"
+"2185188","1","2185376","","2010-02-02 15:28:47","","0","971","<p>Here is my query:</p>
+
+<pre><code>select * 
+  from (select *, 3956 * 2 * ASIN(SQRT(POWER(SIN(RADIANS(45.5200077 - lat)/ 2), 2) + COS(RADIANS(45.5200077)) * COS(RADIANS(lat)) * POWER(SIN(RADIANS(-122.6942014 - lng)/2),2))) AS distance 
+          from stops 
+      order by distance, route asc) as p 
+group by route, dir 
+order by distance asc 
+   limit 10
+</code></pre>
+
+<p>This works fine at the command line and in PHPMyAdmin. I'm using <a href=""http://code.nytimes.com/projects/dbslayer/wiki"" rel=""nofollow"">Dbslayer</a> to connect to MySQL via my JavaScript backend, and the request is returning a 1064 error.</p>
+
+<p>Here is the encoded DBSlayer request string:</p>
+
+<blockquote>
+  <p><a href=""http://localhost:9090/db"" rel=""nofollow"">http://localhost:9090/db</a>?{%22SQL%22:%22select%20*%20from%20%28select%20*,%203956%20*%202%20*%20ASIN%28SQRT%28POWER%28SIN%28RADIANS%2845.5200077%20-%20lat%29/%202%29,%202%29%20+%20COS%28RADIANS%2845.5200077%29%29%20*%20COS%28RADIANS%28lat%29%29%20*%20POWER%28SIN%28RADIANS%28-122.6942014%20-%20lng%29/2%29,2%29%29%29%20AS%20distance%20from%20%60stops%60%20order%20by%20%60distance%60,%20%60route%60%20asc%29%20as%20p%20group%20by%20%60route%60,%20%60dir%60%20order%20by%20%60distance%60%20asc%20limit%2010%22}</p>
+</blockquote>
+
+<p>And the response:</p>
+
+<blockquote>
+  <p>{""MYSQL_ERRNO"" : 1064 , ""MYSQL_ERROR"" : ""You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(RADIANS(45.5200077)) * COS(RADIANS(lat)) * POWER(SIN(RADIANS(-122.6942014 - lng' at line 1"" , ""SERVER"" : ""trimet""}</p>
+</blockquote>
+
+<p>Thanks!</p>
+","","user128970","213269","","2010-04-28 08:01:46","2010-04-28 08:01:46","MySQL 1064 error, works in command line and phpMyAdmin; not in app","<mysql><mysql-error-1064><node.js><dbslayer>","2","3","","","","2185188","46426"
+"2214289","1","3368232","","2010-02-06 18:53:26","","2","2804","<p>Our company has a project that right now uses nginx as a reverse proxy for serving static content and supporting comet connections. We use long polling connections to get rid of constant refresh requests and let users get updates immediately.</p>
+
+<p>Now, I know there is a lot of code already written for Node.js, but is there a solution that lets Node.js act as a reverse proxy for serving static content as nginx does? Or maybe there is a framework that allows to quickly develop such a layer using Node.js?</p>
+","123564","","213269","","2010-04-27 23:41:34","2010-07-30 01:50:56","Is there a solution that lets Node.js act as an HTTP reverse proxy?","<nginx><reverse-proxy><node.js>","2","0","","","","2214289","46426"
+"2219333","1","2222004","","2010-02-08 03:08:40","","8","7080","<p>How do i store data to be used for all the clients in my server? (like the messages of a chat)</p>
+","259427","","213269","","2010-04-28 08:00:17","2011-04-19 11:31:58","Nodejs in-memory storage","<storage><node.js>","3","0","2","","","2219333","46426"
+"2308389","1","2308419","","2010-02-22 01:59:42","","3","2112","<p>I have written a css server which does minimization and basic parsing/var replacement. The server is using node.js.</p>
+
+<p>I am wanting to gzip my response from this server. As told in IRC, node.js does not currently have a gzip lib, so I am attempting to do it manually from the command line (as I am only gzipping when not in cache).</p>
+
+<p>I am pushing the file data out to a temp file and then using exec to call <code>'gzip -c -9 -q ' + tempFile</code>. I get the compressed data back correctly (it seems), and send the proper <code>Content-Encoding</code> header as <code>'gzip'</code>, but Chrome reports:</p>
+
+<p><code>Error 330 (net::ERR_CONTENT_DECODING_FAILED): Unknown error</code>.</p>
+
+<p>Also some independant gzip testers online fail as well (not just Chrome).</p>
+
+<p>I'm assuming this is something simple I do not know about generating gzip blocks for browsers, seeing as I have never tried to do it manually.</p>
+
+<p>Any assistance would be helpful. The server is blazing fast, but I need to gzip the content to get best performance for end users.</p>
+
+<p>Thanks. </p>
+
+<p><strong>UPDATE</strong>
+I have verified my <code>Content-Length</code> is correct</p>
+","111661","","213269","","2010-04-28 07:52:34","2010-04-28 07:52:34","gzip without server support?","<http><compression><gzip><node.js><http-compression>","2","0","1","","","2308389","46426"
+"2353818","1","","","2010-03-01 04:09:28","","1267","813539","<p>Are there any good resources to get started with Node.JS? Any good tutorials, blogs or books?</p>
+
+<p>Of course, I have visited its official website <a href=""http://nodejs.org/"">http://nodejs.org/</a>, but I didn't think the documentation they have is a good starting point.</p>
+","279932","","739331","","2013-01-13 16:05:55","2015-07-08 18:15:02","How do I get started with Node.js","<javascript><node.js>","2","1","3666","","2012-10-02 22:04:34","2353818","46426"
+"2387724","1","2387753","","2010-03-05 15:13:47","","320","84562","<p><a href=""http://en.wikipedia.org/wiki/Node.js"">Node.js</a> looks interesting, <strong>BUT</strong> I must miss something - isn't Node.js tuned only to run on a single process and thread?</p>
+
+<p>Then how does it scale for multi-core CPUs and multi-CPU servers? After all, it is all great to make fast as possible single-thread server, but for high loads I would want to use several CPUs. And the same goes for making applications faster - seems today the way is use multiple CPUs and parallelize the tasks.</p>
+
+<p>How does Node.js fit into this picture? Is its idea to somehow distribute multiple instances or what?</p>
+","206855","","63550","","2013-06-22 09:06:14","2015-10-02 14:53:26","Node.js on multi-core machines","<javascript><node.js>","15","3","189","","","2387724","46426"
+"2403280","1","","","2010-03-08 17:31:32","","2","1526","<p>I want to build an upload-centric app using Django. One way to do this is with nginx's upload module (nonblocking) but it has its problems. Node.js is supposed to be a good candidate for this type of application. But how can I make node.js act as an <a href=""http://docs.djangoproject.com/en/1.1/topics/http/file-uploads/#modifying-upload-handlers-on-the-fly"" rel=""nofollow"">upload_handler() for Django</a>? I'm not sure where to look for examples?</p>
+","248813","","114462","","2010-03-08 20:59:19","2010-05-02 17:22:00","Node.js as a custom (streaming) upload handler for Django","<python><django><javascript><node.js><uploading>","2","0","2","","","2403280","46426"
+"2424346","1","","","2010-03-11 11:02:39","","65","24820","<p>As I run this piece of code using <code>node a.js</code>:</p>
+
+<pre><code>var sys = require('sys');
+sys.puts('Hello, World');
+</code></pre>
+
+<p>I'm getting the following as an error          </p>
+
+<blockquote>
+<pre><code>axconfig: port 1 not active
+axconfig: port 2 not active
+</code></pre>
+</blockquote>
+","","user291390","942589","","2012-08-21 18:38:43","2014-04-24 03:15:20","Getting error while running simple javascript using node framework","<javascript><node.js>","8","2","16","","","2424346","46426"
+"2493460","1","","","2010-03-22 15:26:51","","18","13426","<p>I'm looking for an example using mustache.js with node.js</p>
+
+<p>here is my example but it is not working.  Mustache is undefined.
+I'm using Mustache.js from the master branch.</p>
+
+<pre><code>var sys = require('sys');
+var m = require(""./mustache"");
+
+
+var view = {
+  title: ""Joe"",
+  calc: function() {
+    return 2 + 4;
+  }
+};
+
+
+var template = ""{{title}} spends {{calc}}"";
+
+var html = Mustache().to_html(template, view);
+
+sys.puts(html);
+</code></pre>
+","299141","","102937","","2010-12-11 23:20:35","2012-02-12 13:48:46","a server side mustache.js example using node.js","<node.js><serverside-javascript>","4","0","7","","","2493460","46426"
+"2496710","1","2497040","","2010-03-23 00:25:02","","374","303582","<p>I've been trying to find a way to write to a file when using Node.js, but with no success. How can I do that?</p>
+","282329","","63550","","2015-08-31 17:58:00","2015-08-31 18:07:00","Writing files in Node.js","<node.js><file>","7","0","118","","","2496710","46426"
+"2515121","1","2515294","","2010-03-25 11:47:31","","2","1104","<p>After reading
+<a href=""http://www.pragprog.com/magazines/2010-03/javascript-its-not-just-for-browsers-any-more"" rel=""nofollow"">http://www.pragprog.com/magazines/2010-03/javascript-its-not-just-for-browsers-any-more</a>
+im wondering which is the best IDE to develop server-side javascript applications?</p>
+
+<p>I want a nice development environment with commonjs and node etc. Preferebly windows but anything is interesting really. Is there any IDE with some nifty refactoring tools, maybe some intellisense-like function, etc etc.. Or is it notepad++ ftw?</p>
+","267733","","229753","","2010-12-05 14:22:44","2010-12-05 14:22:44","Best IDE for javascript server development","<javascript><ide><node.js><commonjs>","1","1","0","2014-08-05 04:46:54","","2515121","46426"
+"2515415","1","2529385","","2010-03-25 12:31:46","","2","168","<p>I'm interested in using Node.js as a socket server for stream-based communication with tens of thousands of clients. Clients will be sending votes for particular pieces of content, and receiving near-realtime updates of aggregated vote tallies from the server.</p>
+
+<p>The datastore needs to support:</p>
+
+<ol>
+<li>Storing the votes</li>
+<li>Summarising the votes in near-realtime</li>
+<li>Preventing multiple votes within an arbitrary time period (e.g. clients can only vote once for a piece of content every 1 minute)</li>
+</ol>
+
+<p>Something that already has client libraries for Node.js would be preferable.</p>
+","11109","","213269","","2010-04-28 07:51:59","2010-04-28 07:51:59","Data store for capturing votes & aggregating them","<javascript><database><node.js>","1","0","","","","2515415","46426"
+"2535925","1","2570625","","2010-03-29 05:25:02","","3","531","<p>Obviously, I'm pretty new to node.js. I'm attempting to debug a node.js application and I see node.js in the stack trace.</p>
+
+<p>I would like to put some sys.puts calls in there, but I cannot locate the node.js that is being run by my server.</p>
+
+<p>Is there a way to tell where node.js is located? Is there an equivalent to Ruby's <code>__FILE__</code> in node?</p>
+
+<p>Thanks,
+Brian</p>
+","142571","","213269","","2010-04-27 23:58:51","2010-04-27 23:58:51","Where is the node.js file in the stack trace located?","<javascript><debugging><node.js>","1","2","","","","2535925","46426"
+"2558606","1","2563459","","2010-04-01 06:48:37","","29","24399","<p>I want to know if it is possible to stream data from the server to the client with Node.js. From what I can understand all over the internet is that this has to be possible, yet I fail to find a correct example or solution.</p>
+
+<p>What I want is a single http post to node.js with AJAX. Than leave the connection open and continuously stream data to the client.</p>
+
+<p>The client will receive this stream and update the page continuously.</p>
+
+<blockquote>
+  <h2>Update 1</h2>
+</blockquote>
+
+<p>As an update to this answer: <a href=""http://stackoverflow.com/questions/2558606/stream-data-with-node-js/2563459#2563459"">http://stackoverflow.com/questions/2558606/stream-data-with-node-js/2563459#2563459</a></p>
+
+<p>I tried this already and I tried it again after your anser. I can not get this to work. The response.write is not send before you call close. I have set up an example program that i use to achieve this.</p>
+
+<p>Node.js code:</p>
+
+<pre><code>var sys = require('sys'), 
+http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    var currentTime = new Date();
+    setInterval(function(){
+        res.write(
+            currentTime.getHours()
+            + ':' + 
+            currentTime.getMinutes()
+            + ':' +
+            currentTime.getSeconds()
+        );
+    },1000);
+}).listen(8000);
+</code></pre>
+
+<p>Here the html code:</p>
+
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Testnode&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;!-- This fields needs to be updated --&gt;
+Server time: &lt;span id=""time""&gt;&amp;nbsp;&lt;/span&gt;
+
+&lt;!-- import jQuery from google --&gt;
+&lt;script 
+  type=""text/javascript""  
+  src=""http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js""&gt;
+&lt;/script&gt;
+
+&lt;!-- import jQuery --&gt;
+&lt;script type=""text/javascript""&gt;
+$(document).ready(function(){
+    // I call here node.localhost nginx ports this to port 8000
+    $('#time').load('http://node.localhost');
+});
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Using this method I don't get anything back until I call close(). is this possible or should  I rather go with a long poll approach where I call the load function again as one comes in.</p>
+
+<p>i really rather want to stream this. I hope someone can help.</p>
+","207633","","207633","","2010-04-02 09:08:40","2013-10-08 22:11:41","Stream data with Node.js","<jquery><html><ajax><node.js><data-stream>","3","2","19","","","2558606","46426"
+"2571519","1","2577884","","2010-04-03 14:36:08","","3","1647","<p>Does anyone know off a way or maybe think its possible to connect Node.js with Nginx http push module to maintain a persistent connection between client and browser.</p>
+
+<p>I am new to comet so just don't understand the publishing etc maybe someone can help me with this.</p>
+
+<p>What i have set up so far is the following. I downloaded the jQuery.comet plugin and set up the following basic code:</p>
+
+<blockquote>
+  <h2>Client JavaScript</h2>
+</blockquote>
+
+<pre><code>&lt;script type=""text/javascript""&gt;
+
+    function updateFeed(data) {
+        $('#time').text(data);
+    }
+
+    function catchAll(data, type) {
+        console.log(data);
+        console.log(type);
+    }
+
+    $.comet.connect('/broadcast/sub?channel=getIt');
+    $.comet.bind(updateFeed, 'feed');
+    $.comet.bind(catchAll);
+
+    $('#kill-button').click(function() {
+        $.comet.unbind(updateFeed, 'feed');
+    });
+&lt;/script&gt;
+</code></pre>
+
+<p>What I can understand from this is that the client will keep on listening to the url followed by /broadcast/sub=getIt. When there is a message it will fire updateFeed.</p>
+
+<p>Pretty basic and understandable IMO.</p>
+
+<blockquote>
+  <h2>Nginx http push module config</h2>
+</blockquote>
+
+<p>default_type  application/octet-stream;
+sendfile        on;
+keepalive_timeout  65;
+push_authorized_channels_only off;</p>
+
+<pre><code>server {
+  listen       80;
+  location /broadcast {
+    location = /broadcast/sub {
+      set $push_channel_id $arg_channel;
+      push_subscriber;
+      push_subscriber_concurrency broadcast;
+      push_channel_group broadcast;
+    }
+
+    location = /broadcast/pub {
+      set $push_channel_id $arg_channel;
+      push_publisher;
+      push_min_message_buffer_length 5;
+      push_max_message_buffer_length 20;
+      push_message_timeout 5s;
+      push_channel_group broadcast;
+    }
+  }
+}
+</code></pre>
+
+<p>Ok now this tells nginx to listen at port 80 for any calls to /broadcast/sub and it will give back any responses sent to /broadcast/pub.</p>
+
+<p>Pretty basic also. This part is not so hard to understand, and is well documented over the internet. Most of the time there is a ruby or a php file behind this that does the broadcasting.</p>
+
+<blockquote>
+  <p><em><strong>My idea is to have node.js broadcasting <code>/broadcast/pub</code>. I think this will let me have <code>persistent streaming data</code> from the server to the client without breaking the connection. I tried the long-polling approach with looping the request but I think this will be more efficient.</em></strong></p>
+</blockquote>
+
+<p>Or is this not going to work.</p>
+
+<blockquote>
+  <h2>Node.js file</h2>
+</blockquote>
+
+<p>Now to create the Node.js i'm lost. First off all I don't know how to have node.js to work in this way.</p>
+
+<p>The setup I used for long polling is as follows:</p>
+
+<pre><code>var sys = require('sys'), 
+http = require('http');
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    res.write(new Date());
+    res.close();
+    seTimeout('',1000);
+}).listen(8000);
+</code></pre>
+
+<p>This listens to port 8000 and just writes on the response variable.</p>
+
+<p>For long polling my <code>nginx.config</code> looked something like this:</p>
+
+<pre><code>server {
+  listen      80;
+  server_name _;
+
+  location / {
+    proxy_pass   http://mydomain.com:8080$request_uri;
+    include      /etc/nginx/proxy.conf;
+  }
+ }
+</code></pre>
+
+<p>This just redirected the port 80 to 8000 and this worked fine.</p>
+
+<blockquote>
+  <p><em><strong>Does anyone have an idea on how to have Node.js act in a way Comet understands it. Would be really nice and you will help me out a lot.</em></strong>  </p>
+</blockquote>
+
+<h2>Recources</h2>
+
+<p><em><strong>used</em></strong></p>
+
+<ul>
+<li><a href=""http://www.igvita.com/2009/10/21/nginx-comet-low-latency-server-push/"" rel=""nofollow"">An example where this is done with ruby instead of Node.js</a></li>
+<li><a href=""http://github.com/SeanOC/jquery.comet"" rel=""nofollow"">jQuery.comet</a></li>
+<li><a href=""http://pushmodule.slact.net/"" rel=""nofollow"">Nginx HTTP push module homepage</a></li>
+<li><a href=""http://blog.jcoglan.com/2010/02/02/faye-a-comet-client-and-server-for-node-js-and-rack/"" rel=""nofollow"">Faye: a Comet client and server for Node.js and Rack</a></li>
+</ul>
+
+<p>To use faye I have to install the comet client, but I want to use the one supplied with Nginx. Thats why I don't just use faye. The one nginx uses is much more optimzed.</p>
+
+<p><em><strong>extra</em></strong></p>
+
+<ul>
+<li><a href=""http://gist.github.com/258696"" rel=""nofollow"">Persistant connections</a></li>
+<li><a href=""http://www.nakedjavascript.com/going-evented-with-nodejs"" rel=""nofollow"">Going evented with Node.js</a></li>
+</ul>
+","207633","","","","","2010-04-05 11:03:43","Need help with setting up comet code","<jquery><nginx><comet><node.js><persistent-connection>","1","0","6","","","2571519","46426"
+"2590642","1","2590702","","2010-04-07 07:23:23","","3","196","<p>Is there a way in which the http connection and tcp connection listeners can interact with each other?</p>
+
+<p>I have two separate application modules one is working through http and other requires tcp .
+I need to do an interaction between these two modules so is there way i can make my http based module interact with tcp based module.</p>
+","241001","","213269","","2010-04-28 07:51:33","2010-04-28 07:51:33","Can tcp and http connection listeners can interact with each other or not?","<http><tcp><connection><node.js>","2","2","","","","2590642","46426"
+"2607320","1","2692001","","2010-04-09 12:25:45","","4","1070","<p>I'm trying to serve long polling requests for 60 secs using node.js. The problem I'm facing is, the browser is getting timed out. The same setup is working for 30 secs. Can anybody suggest how to achieve this? Using JQuery as JS framework. </p>
+
+<p>Thanks...</p>
+","231842","","","","","2010-06-20 00:10:55","Long polling getting timed out from browser","<node.js><long-polling>","1","0","1","","","2607320","46426"
+"2615677","1","2646079","","2010-04-11 01:14:14","","14","13071","<p><strong>NodeJS</strong> is a fantastic tool and blazing fast. </p>
+
+<p>I'm wondering if HTTPClient supports <strong>cookies</strong> and if can be used in order to simulate very <strong>basic browser behaviour</strong>!</p>
+
+<hr>
+
+<p>Help would be very much appreciated! =)</p>
+
+<hr>
+
+<p><strong>EDIT:</strong></p>
+
+<p>Found this: <a href=""http://github.com/billywhizz/node-httpclient"">node-httpclient</a> (seems useful!) <strong><em>not working!</em></strong></p>
+","208827","","213269","","2010-04-28 07:59:42","2015-04-29 09:59:57","NodeJS and HTTP Client - Are cookies supported?","<javascript><http><node.js>","6","0","2","","","2615677","46426"
+"2628971","1","2636994","","2010-04-13 11:08:36","","4","1800","<p>Is there any way to accept POST type requests without using Nerve lib in Node.js? </p>
+","231842","","","","","2011-04-28 11:12:48","POST request and Node.js without Nerve","<post><node.js>","1","0","1","","","2628971","46426"
+"2644936","1","2645819","","2010-04-15 11:53:39","","20","12861","<p>I am trying to parse form data, including upload files with a node.js http server. All of the tutorial type articles I have found use a <code>require(""multipart"");</code> to include the multipart module, but when I try the same I get:</p>
+
+<pre><code>Error: Cannot find module 'multipart'
+</code></pre>
+
+<p>I also can't find it in the current <a href=""http://nodejs.org/api.html"">api docs</a> (though it is in the google cached version). So, has this module been removed from the standard installation or is there something else that does the job?</p>
+","144287","","213269","","2010-04-28 00:00:10","2013-03-20 04:23:27","Node.js appears to be missing the multipart module","<javascript><module><node.js><multipart>","3","0","4","","","2644936","46426"
+"2677532","1","2695594","","2010-04-20 18:09:26","","22","3356","<p>I've been working with <a href=""http://nodejs.org/"">node.js</a> for a while on a chat app (I know, very original, but I figured it'd be a good learning project). <a href=""http://documentcloud.github.com/underscore/"">Underscore.js</a> provides a lot of functional programming concepts which look interesting, so I'd like to understand how a functional program in JavaScript would be setup.  </p>
+
+<p>From my understanding of functional programming (which may be wrong), the whole idea is to avoid side effects, which are basically having a function which updates another variable outside of the function so something like</p>
+
+<pre><code>var external;
+function foo() {
+   external = 'bar';
+}
+foo();
+</code></pre>
+
+<p>would be creating a side effect, correct?  So as a general rule, you want to avoid disturbing variables in the global scope.  </p>
+
+<p>Ok, so how does that work when you're dealing with objects and what not?  For example, a lot of times, I'll have a constructor and an init method that initializes the object, like so:</p>
+
+<pre><code>var Foo = function(initVars) {
+   this.init(initVars);
+}
+
+Foo.prototype.init = function(initVars) {
+   this.bar1 = initVars['bar1'];
+   this.bar2 = initVars['bar2'];
+   //....
+}
+
+var myFoo = new Foo({'bar1': '1', 'bar2': '2'});
+</code></pre>
+
+<p>So my init method is intentionally causing side effects, but what would be a functional way to handle the same sort of situation?</p>
+
+<p>Also, if anyone could point me to either a Python or JavaScript source code of a program that tries to be as functional as possible, that would also be much appreciated.  I feel like I'm close to ""getting it"", but I'm just not quite there.  Mainly I'm interested in how functional programming works with traditional OOP classes concept (or does away with it for something different if that's the case).</p>
+","1827653","","20578","","2010-11-11 14:41:55","2013-11-11 16:55:56","How is a functional programming-based JavaScript app laid out?","<javascript><functional-programming><node.js><serverside-javascript><underscore.js>","4","1","13","","","2677532","46426"
+"2697899","1","","","2010-04-23 10:50:06","","36","22808","<p>Looking to do output formatting (sprintf type functionality) in node.js, but before I write it myself I was wondering if there's something similar built-in (I've trawled the docs to no avail) or if someone's already written a module.</p>
+
+<p>Many thanks</p>
+","139473","","213269","","2010-04-28 07:54:17","2014-12-11 07:42:24","Is there a sprintf equivalent for node.js","<printf><node.js>","4","1","","","","2697899","46426"
+"2726120","1","2737827","","2010-04-28 00:39:39","","8","11469","<p>Is it possible to create a real time game with node.js that requires twitch reflexes. How high is the latency? How low can it realistically go?</p>
+","115608","","213269","","2010-04-28 07:59:04","2015-08-01 03:45:37","node.js real-time game","<node.js>","3","0","4","","","2726120","46426"
+"2727167","1","2727191","","2010-04-28 06:10:16","","190","159887","<p>I can't find where in the documentation I can get all filenames in a directory.</p>
+","76969","","1420197","","2013-06-03 11:36:38","2015-04-13 14:49:02","getting all filenames in a directory with node.js","<javascript><node.js><serverside-javascript>","8","1","42","","","2727167","46426"
+"2733473","1","2733553","","2010-04-28 22:13:38","","2","1093","<p>Stupid question, but just making sure here:</p>
+
+<p>When should I use TCP over HTTP?  Are there any examples where one is better than the other?</p>
+","76969","","213269","","2010-04-29 10:39:41","2010-04-30 23:23:00","When to use TCP and HTTP in node.js?","<http><tcp><node.js>","2","0","1","","","2733473","46426"
+"2735919","1","2737756","","2010-04-29 08:52:52","","1","4107","<p>After toying around with this for hours, I simply cannot find a solution. I'm working on a WebSocket server using ""node.js"" for a canvas based online game I'm developing. My game can connect to the server just fine, it accepts the handshake and can even send messages to the server. However, when the server responds to the client, the client doesn't get the message. No errors, nothing, it just sits there peacefully. I've ripped apart my code, trying everything I could think of to fix this, but alas, nothing.</p>
+
+<p>Here's a stripped copy of my server code. As I said before, the handshake works fine, the server receives data fine, but sending data back to the client does not.</p>
+
+<pre><code>var sys = require('sys'),
+net = require('net');
+var server = net.createServer(function (stream) {
+    stream.setEncoding('utf8');
+    var shaken = 0;
+    stream.addListener('connect', function () {
+        sys.puts(""New connection from: ""+stream.remoteAddress);
+    });
+    stream.addListener('data', function (data) {
+        if (!shaken) {
+            sys.puts(""Handshaking..."");
+            //Send handshake:
+            stream.write(
+            ""HTTP/1.1 101 Web Socket Protocol Handshake\r\n""+
+            ""Upgrade: WebSocket\r\n""+
+            ""Connection: Upgrade\r\n""+
+            ""WebSocket-Origin: http://192.168.1.113\r\n""+
+            ""WebSocket-Location: ws://192.168.1.71:7070/\r\n\r\n"");
+            shaken=1;
+            sys.puts(""Handshaking complete."");
+        }
+        else {
+            //Message received, respond with 'testMessage'
+            var d = ""testMessage"";
+            var m = '\u0000' + d + '\uffff';
+            sys.puts(""Sending '""+m+""' to client"");
+            var result = stream.write(m, ""utf8"");
+   /*
+            Result is equal to true, meaning that it pushed the data out.
+            Why isn't the client seeing it?!?
+            */
+        }
+    });
+    stream.addListener('end', function () {
+        sys.puts(""Connection closed!"");
+  stream.end();
+    });
+});
+server.listen(7070);
+sys.puts(""Server Started!"");
+</code></pre>
+
+<p>Here's my client side code. It uses Chrome native WebSockets.</p>
+
+<pre><code>socket = new WebSocket(""ws://192.168.1.71:7070"");
+socket.onopen = function(evt) {
+    socket.send(""blah"");
+    alert(""Connected!"");
+};
+socket.onmessage = function(evt) {
+    alert(evt.data);
+};
+</code></pre>
+","328655","","328655","","2010-04-29 11:05:43","2013-03-22 01:37:07","Why Won't the WebSocket.onmessage Event Fire?","<javascript><canvas><node.js><websocket><multiplayer>","1","2","2","","","2735919","46426"
+"2736899","1","2736912","","2010-04-29 11:35:48","","7","10999","<p>I am trying to understand the purpose of addListener in <a href=""http://nodejs.org/"">node.js</a>. Can someone explain please? Thanks! A simple example would be:</p>
+
+<pre><code>var tcp = require('tcp');
+var server = tcp.createServer(function (socket) {
+  socket.setEncoding(""utf8"");
+  socket.addListener(""connect"", function () {
+    socket.write(""hello\r\n"");
+  });
+  socket.addListener(""data"", function (data) {
+    socket.write(data);
+  });
+  socket.addListener(""end"", function () {
+    socket.write(""goodbye\r\n"");
+    socket.end();
+  });
+});
+server.listen(7000, ""localhost"");
+</code></pre>
+","52752","","238578","","2010-04-29 12:00:35","2010-04-29 12:00:35","What does addListener do in node.js?","<javascript><javascript-events><node.js><listeners>","2","0","1","","","2736899","46426"
+"2750673","1","","","2010-05-01 16:22:44","","103","44307","<p>I'm looking for a database to pair with a node.js app. I'm assuming a json/nosql db would be preferable to a relational DB [I can do without any json/sql impedance mismatch]. I'm considering:</p>
+
+<ul>
+<li>couchdb</li>
+<li>mongodb</li>
+<li>redis</li>
+</ul>
+
+<p>Anyone have any views / war stories re compatiability/deployability of the above with node.js? Any clear favorites?</p>
+","124179","","1804678","","2013-04-04 02:16:12","2013-12-09 08:05:19","node.js database","<node.js><mongodb><couchdb><redis>","12","1","38","2013-04-04 09:11:11","","2750673","46426"
+"2785531","1","","","2010-05-07 01:01:18","","10","4167","<p>i was wondering if any of you had insights about which one is better, and what factors should be taken into consideration when using one of these</p>
+","180663","","","","","2015-06-29 22:07:53","Real time ruby apps: CRAMP vs NODE.JS","<ruby-on-rails><asynchronous><real-time><node.js>","5","0","6","","","2785531","46426"
+"2798931","1","","","2010-05-09 19:45:14","","20","12801","<p>Hopefully someone can help me out with this.</p>
+
+<p>I'm playing around with a node.js server that streams audio to a client, and I want to create an HTML5 player. Right now, I'm streaming the code from node using chunked encoding, and if you go directly to the URL, it works great.</p>
+
+<p>What I'd like to do is embed this using the HTML5 <code>&lt;audio&gt;</code> tag, like so:</p>
+
+<pre><code> &lt;audio src=""http://server/stream?file=123""&gt;
+</code></pre>
+
+<p>where <code>/stream</code> is the endpoint for the node server to stream the MP3.  The HTML5 player loads fine in Safari and Chrome, but it doesn't allow me to seek, and Safari even says it's a ""Live Broadcast"".  In the headers of <code>/stream</code>, I include the file size and file type, and the response gets ended properly.</p>
+
+<p>Any thoughts on how I could get around this?  I certainly could just send the whole file at once, but then the player would wait until the whole thing is downloaded--I'd rather stream it.</p>
+","135180","","135180","","2010-05-10 01:51:04","2015-09-06 08:10:51","Seeking through a streamed MP3 file with HTML5 <audio> tag","<html><audio><html5><streaming><node.js>","5","1","5","","","2798931","46426"
+"2808125","1","2809872","","2010-05-11 04:41:49","","6","5779","<p>I have an existing app written in PHP (using Kohana framework) and I want to do long polling. From some things I read it seems that doing long polling with PHP is not advisable and using something like nodejs is a better choice. My question is what's the best way to integrate nodejs (or some other well suited tool for long polling) with an existing application?</p>
+
+<p>For clarification my app basically is a browser plugin that you can use to send data to groups of other people. When that data is sent, I want the recipients, if they are online and also have the browser plugin, to instantly receive that data and be notified.</p>
+","235771","","","","","2011-03-02 14:52:11","Recommendation for integrating nodejs with php application","<php><node.js><long-polling>","2","0","4","","","2808125","46426"
+"2836450","1","","","2010-05-14 18:01:00","","4","1347","<p>What is the best way to implement real time updates in ruby on rails using node.js? It would be great to hear either real examples or your thoughts on alternative solutions.</p>
+","180663","","9465","","2010-05-14 18:59:12","2013-07-26 06:23:46","How do I implement real time front end updates using node.js + Ruby on Rails?","<ruby-on-rails><real-time><node.js>","3","1","5","","","2836450","46426"
+"2842264","1","2842309","","2010-05-16 01:09:27","","9","6366","<p>I am amazed by the architectural design of <a href=""http://en.wikipedia.org/wiki/Node.js"" rel=""nofollow"">Node.js</a> and was wondering if C# is capable of such a design:</p>
+
+<blockquote>
+  <p>Asynchronous, event based / event loop, non-blocking <a href=""http://en.wikipedia.org/wiki/Input/output"" rel=""nofollow"">I/O</a> without multithreading.</p>
+</blockquote>
+","52752","","63550","","2013-11-20 15:48:29","2014-10-24 22:11:19","Is it possible in .NET, using C#, to achieve event based asynchronous pattern without multithreading?","<c#><multithreading><asynchronous><events><node.js>","10","12","5","","","2842264","46426"
+"2844257","1","8810300","","2010-05-16 15:16:51","","4","4946","<p>I'm looking to start using javascript on the server, most likely with node.js, as well as use websockets to communicate with clients. However, there doesn't seem to be a lot of information about encrypted websocket communication using TLS and the wss:// handler. In fact the only server that I've seen explicitly support wss:// is Kaazing.</p>
+
+<p><a href=""http://github.com/zimbatm/nodejs-http-websocket/blob/master/lib/http/websocket.js"" rel=""nofollow"" title=""This"">This</a> TODO is the only reference I've been able to find in the various node implementations. Am I missing something or are the websocket js servers not ready for encrypted communication yet?</p>
+
+<p>Another option could be using something like <a href=""http://github.com/nori0428/mod_websocket"" rel=""nofollow"">lighttpd</a> or <a href=""http://code.google.com/p/pywebsocket/"" rel=""nofollow"">apache</a> to proxy to a node listener, has anyone had success there?</p>
+","111716","","111716","","2010-05-19 04:56:16","2012-01-10 20:46:42","Node.js and wss://","<wss><ssl><node.js><websocket>","2","0","2","","","2844257","46426"
+"2855826","1","","","2010-05-18 09:11:13","","2","1399","<p>In my application, when /iframe is requested, I create a cookie and serve the iframe.html file. In the html file I use a Javascript Ajax call to request for user data (/user), which is called on $(document).ready and needs to pass the sid from the cookie (so I know the call is authenticated).</p>
+
+<p>The problem is that, the cookie-sid is not passed along with the Ajax get call the first time /iframe is requested (when there is no cookie yet). After reloading, the cookie-sid is passed with the /user call.</p>
+
+<p>Does anyone have any suggestions on fixing the initial load?</p>
+
+<p>I know the browser receives and stores the cookie, then sends it back to the web site every time a new page is requested, but does this also count for initial Ajax calls?</p>
+","239633","","","","","2011-01-06 20:37:14","Javascript ajax GET call does not include cookie-sid on initial page load","<javascript><html><ajax><cookies><node.js>","1","1","","","","2855826","46426"
+"2859220","1","","","2010-05-18 16:36:36","","5","5944","<p><br/>
+I am trying to broadcast a message through the Node.js service socket.io (http://socket.io/) to certain subset of all subscribers. <p>To be more exact, I would like to use channels that users can subscribe to, in order to efficiently push messages to a couple hundred people at the same time.</p> 
+I'm not really sure if addEvent('channel_name',x) is the way to go.</p>
+
+<p>I have not found anything in the docs. Any ideas?</p>
+
+<p>Thanks
+Mat</p>
+","235603","","","","","2011-10-23 11:07:31","Channels in Socket.io","<sockets><node.js><websocket>","4","1","","","","2859220","46426"
+"2878008","1","","","2010-05-20 21:31:03","","13","12726","<p>How do I create a non-blocking asynchronous function? Below is what I'm trying to achieve but my program is still blocking...</p>
+
+<pre><code>var sys = require(""sys"");
+
+function doSomething() {
+  sys.puts(""why does this block?"");
+  while(true);
+}
+
+setTimeout(doSomething,0);
+setTimeout(doSomething,0);
+setTimeout(doSomething,0);
+
+sys.puts(""main"");
+</code></pre>
+","346567","","","","","2014-05-28 17:23:36","how do i create a non-blocking asynchronous function in node.js?","<node.js>","8","0","6","","","2878008","46426"
+"2886191","1","","","2010-05-21 23:15:54","","1","3905","<p>I'm trying to close a socket after a connection times out after 1000ms. I am able to set a timeout that gets triggered after a 1000ms but I can't seem to destroy the socket... any ideas?</p>
+
+<pre><code>var connection = http.createClient(80, 'localhost');
+var request = connection.request('GET', '/somefile.xml', {'host':'localhost'});
+var start = new Date().getTime();
+
+request.socket.setTimeout(1000);
+
+request.socket.addListener(""timeout"", function() {
+  request.socket.destroy();
+  sys.puts(""socket timeout connection closed"");
+});
+
+request.addListener(""response"", function(response) {
+  var responseBody = [];
+  response.setEncoding(""utf8"");
+  response.addListener(""data"", function(chunk) {
+    sys.puts(chunk);
+    responseBody.push(chunk);
+  });
+
+  response.addListener(""end"", function() {
+
+  });
+});
+
+request.end();
+</code></pre>
+
+<p>returns</p>
+
+<pre><code>socket timeout connection closed
+node.js:29
+  if (!x) throw new Error(msg || ""assertion error"");
+                ^
+Error: assertion error
+    at node.js:29:17
+    at Timer.callback (net:152:20)
+    at node.js:204:9
+</code></pre>
+","320050","","","","","2012-11-24 18:51:21","How do i close a socket after a timeout in node.js?","<node.js>","2","0","","","","2886191","46426"
+"2893458","1","2893480","","2010-05-23 21:08:48","","11","4245","<p>So I'm trying to write a simple TCP socket server that broadcasts information to all connected clients.  So when a user connects, they get added to the list of clients, and when the stream emits the close event, they get removed from the client list.</p>
+
+<p>This works well, except that sometimes I'm sending a message just as a user disconnects.</p>
+
+<p>I've tried wrapping stream.write() in a try/catch block, but no luck.  It seems like the error is uncatchable.</p>
+","101","","21234","","2010-05-23 21:20:06","2012-02-17 12:54:46","Uncatchable errors in node.js","<error-handling><tcp><node.js>","3","0","1","","","2893458","46426"
+"2906594","1","2914210","","2010-05-25 16:41:49","","10","6204","<p>How would you go to create a streaming API with <a href=""http://nodejs.org"">Node</a>? just like the <a href=""http://apiwiki.twitter.com/Streaming-API-Documentation"">Twitter streaming API</a>.</p>
+
+<p>What I want to do ultimately is get the first update from the <a href=""http://friendfeed.com/api/"">FriendFeed api</a>, and stream when a new one becomes available (if the id is different), and later on expose it as a web service so I can use it with WebSockets on my website :).</p>
+
+<p>So far I have this:</p>
+
+<pre><code>var sys = require('sys'),
+    http = require('http');
+
+var ff = http.createClient(80, 'friendfeed-api.com');
+var request = ff.request('GET', '/v2/feed/igorgue?num=1', 
+                         {'host': 'friendfeed-api.com'});
+
+request.addListener('response', function (response) {
+    response.setEncoding('utf8'); // this is *very* important!
+    response.addListener('data', function (chunk) {
+        var data = JSON.parse(chunk);
+        sys.puts(data.entries[0].body);
+    });
+});
+request.end();
+</code></pre>
+
+<p>Which only gets the data from FriendFeed, creating the Http server with node is easy but it can't return a stream (or I haven't yet found out how).</p>
+","29253","","","","","2010-05-26 15:11:18","How to create a streaming API with NodeJS","<javascript><http><api><streaming><node.js>","1","0","5","","","2906594","46426"
+"2913831","1","","","2010-05-26 14:26:08","","1","887","<p>This may seem like seem like a bit of a weird/uncommon request but I am trying to find out if it is possible. I would like to add to the language syntax in Netbeans or Eclipse easily without needing to create an entirely new language. According to this question <a href=""http://stackoverflow.com/questions/281992/how-to-add-more-syntax-elements-for-eclipse"">http://stackoverflow.com/questions/281992/how-to-add-more-syntax-elements-for-eclipse</a> it is not possible in Eclipse, but that was asked in 2008 so maybe things have changed.</p>
+
+<p>The reason I want to do it is I am developing in node.js and it uses callbacks quite heavily. So it would be nice if I could make the word 'callback' and 'callback()' be highlighted in a different colour so it can be easily seen in amongst the rest of the code.</p>
+
+<p>Thanks for your help!</p>
+","267730","","","","","2011-02-24 16:58:18","Add to language syntax in Netbeans/Eclipse","<eclipse><syntax><netbeans><callback><node.js>","1","0","","","","2913831","46426"
+"2923858","1","","","2010-05-27 18:35:59","","210","64200","<p>Does anyone know how to print a stack trace in Node.js?</p>
+","352269","","1480391","","2014-12-29 10:35:59","2015-10-01 18:54:18","How to print a stack trace in Node.js?","<javascript><stack-trace><node.js><printstacktrace>","6","0","44","","","2923858","46426"
+"2925414","1","","","2010-05-27 22:17:54","","17","10106","<p>Starting a new project.  It's basically a blogging/commenting system.</p>
+
+<p>We're considering node.js as the back end server. Is node.js ready for this sort of thing or is it too early and experimental?</p>
+
+<p>We need HTTPS and gzip compression - perhaps a front end nginx server could provide this?</p>
+
+<p>What's missing from node.js that would make developing a web app difficult?</p>
+
+<p>From a production ready perspective, we're wondering if it is stable enough for building a commercial app on top of.</p>
+
+<p>Thanks</p>
+","239472","","762336","","2014-01-17 10:11:24","2014-01-17 10:11:24","Is node.js ready for production use?","<nginx><production><node.js>","6","0","5","","","2925414","46426"
+"2925940","1","2926121","","2010-05-28 00:25:14","","29","11043","<p>I'm trying to setup my own nodejs server, but I'm having a problem. I can't figure out how to see changes to my application without restarting it. Is there a way to edit the application and see changes live with node.js?</p>
+","243568","","243568","","2013-04-19 22:56:04","2013-05-06 07:09:19","How can I edit on my server files without restarting nodejs when i want to see the changes?","<javascript><node.js>","4","0","10","","","2925940","46426"
+"2933608","1","","","2010-05-29 03:08:45","","25","4108","<p>I don't understand what problem these frameworks solve.  Are they replacements for a HTTP server like Apache HTTPD, Tomcat, Mongrel, etc?  Or are they more?  Why might I use them... some real world examples?  I've seen endless examples of chat rooms and broadcast services, but don't see how this is any different than, for instance, setting up a Java program to open sockets and dispatch a thread for each request.</p>
+
+<p>I think I understand the non-blocking I/O, but I don't understand how that is any different than a multi-threaded web server.  For Node.js I read that it only has a single thread, and that this may be more efficient than juggling multiple threads, but is that the only difference between these frameworks and a traditional web server?</p>
+","353386","","","","","2010-05-29 13:51:09","What is the point/purpose of Ruby EventMachine, Python Twisted, or JavaScript Node.js?","<twisted><nonblocking><node.js><eventmachine>","3","0","6","","","2933608","46426"
+"2934884","1","2935008","","2010-05-29 11:49:40","","18","15968","<p>I've heard much good about nodejs and writting client-server application with it. But I can't get, for example, when developing IM client-server application, how nodejs server script is supposed to talk to database server to actually store it's data? Or may be I miss something and nodejs server scripts are not supposed to do that? If so, please, push me to correct direction.</p>
+
+<p>I've noticed DBSLayer <a href=""http://code.nytimes.com/projects/dbslayer/wiki"">http://code.nytimes.com/projects/dbslayer/wiki</a>, but it looks like it's still in beta.</p>
+","173677","","21234","","2010-05-29 12:19:59","2013-06-03 08:11:09","nodejs and database communication - how?","<database><node.js>","2","2","12","","","2934884","46426"
+"2947470","1","4925775","","2010-06-01 05:35:06","","17","8678","<p>I would like to start using Cassandra with a node.js deployment, but I can't find a Thrift or Cassandra client for Node.js and/or JavaScript.</p>
+
+<p>Is there one?</p>
+
+<p>Is there a simple means of generating Thrift connections? </p>
+
+<p><strong>Update:</strong> The short answer to this question turns out to be no, there is no JS client for Thrift that is compatible with Cassandra.</p>
+
+<p><strong>Further Update:</strong> The next release of Cassandra (0.8 at time of writing) is going to have support for an <a href=""http://avro.apache.org/"">Avro</a> API. There is already node.js module for Avro support.</p>
+","14971","","14971","","2010-06-04 08:37:08","2014-10-10 18:01:36","Is there a Thrift or Cassandra client for Node.js/JavaScript","<javascript><cassandra><node.js><thrift>","4","0","3","","","2947470","46426"
+"2974083","1","2987528","","2010-06-04 12:31:11","","6","6196","<p>I'm trying to understand the differences between some of the newer web programming frameworks that now exists, namely Node.js, Rails, and Sinatra.</p>
+
+<p>Could someone give me an example of applications that would work best on each of the frameworks?</p>
+
+<p>That is to say, what is an application that would be best suited for Node.js as opposed to Rails or Sinatra and what is an application that is best suited for Rails as opposed to Node.js and Sinatra etc.....</p>
+","303675","","229044","","2012-06-12 17:39:01","2012-06-12 17:39:01","Could someone give me an example of node.js application","<ruby-on-rails><sinatra><node.js>","1","0","3","","","2974083","46426"
+"2984478","1","3387922","","2010-06-06 14:13:52","","0","688","<p>I tried to put the module ""<a href=""http://socket.io/"" rel=""nofollow"">LearnBoost's Socket.IO-Node</a>"", all works, except event 'onClientMessage'</p>
+
+<p>Tell, in what there can be a problem, thanks! </p>
+
+<p>...sorry for my english</p>
+
+<pre><code>io.listen(server, {
+
+onClientConnect: function(client){
+    client.send(json({ buffer: buffer }));
+    client.broadcast(json({ announcement: client.sessionId + ' connected' }));
+},
+
+onClientDisconnect: function(client){
+    client.broadcast(json({ announcement: client.sessionId + ' disconnected' }));
+},
+
+onClientMessage: function(message, client){
+    var msg = { mess: [client.sessionId, message] };
+    buffer.push(msg);
+    if (buffer.length &gt; 15) {
+        buffer.shift();
+    }
+    client.broadcast(json(msg));
+
+}
+</code></pre>
+","280298","","","","","2010-08-02 12:53:14","LearnBoost's Socket.IO-Node why onClientMessage not work","<javascript-events><node.js><websocket>","1","0","","","","2984478","46426"

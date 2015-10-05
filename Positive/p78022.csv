@@ -1,0 +1,1419 @@
+Id,PostTypeId,AcceptedAnswerId,ParentId,CreationDate,DeletionDate,Score,ViewCount,Body,OwnerUserId,OwnerDisplayName,LastEditorUserId,LastEditorDisplayName,LastEditDate,LastActivityDate,Title,Tags,AnswerCount,CommentCount,FavoriteCount,ClosedDate,CommunityOwnedDate,PostId,Id
+"1588211","1","1592308","","2009-10-19 11:41:47","","2","271","<p>Using the <a href=""http://getangular.com"" rel=""nofollow"">Angular</a> framework, how do I have the ""submit"" button both update the current entity as well as clear the anchor ID - I basically want to rapid-fire add entries, but it always turns my add form into an edit form. Here's my current div which isn't working, it's like it's ignoring the ""<code>$anchor.task=null</code>""...</p>
+
+<p>Note that the ""Add New"" button works fine!</p>
+
+<pre><code>&lt;div&gt;
+	Description: &lt;input name=""task.desc"" ng-required&gt;&lt;br&gt;
+	&lt;a href=""#"" ng-action=""task.$save(); $anchor.task=null""&gt;Save&lt;/a&gt;
+	&lt;input type=""button"" value=""Add New"" ng-action=""$anchor.task=null""&gt;
+&lt;/div&gt;
+</code></pre>
+","6583","","184528","","2009-10-19 11:45:25","2009-10-20 03:38:55","How to submit new entity as well as clear $anchor.task?","<javascript><web-applications><angularjs>","2","1","1","","","1588211","78022"
+"4173526","1","","","2010-11-13 16:35:33","","1","1969","<p><strong>UPDATE</strong> - We recently rebuilt the UI for <a href=""https://stormpath.com"" rel=""nofollow"">Stormpath</a> with Angular.js.  </p>
+
+<p>We're working to build the front-end of our application and struggling with selecting a good UI framework since we're not experienced UI people (we're mainly back-end developers).  The central issue is that we don't know what we don't know and don't know how to best weigh our different options.</p>
+
+<p>At the moment, we're evaluating Flex, ExtJS, and Vaadin.  </p>
+
+<p>Is there another option we should consider?  What, are the major elements we should evalutate on? Any insight would be helpful.</p>
+
+<p>Thanks, 
+Alex</p>
+","457724","","457724","","2014-12-01 16:58:08","2014-12-01 16:58:08","Picking a front-end UI framework","<angularjs><flex><user-interface><extjs><vaadin>","7","3","","","","4173526","78022"
+"5222691","1","5223734","","2011-03-07 17:07:15","","7","7653","<p>I'm comparing these frameworks to do some calculations on the client side. I really liked the example on the <a href=""http://angularjs.org/"" rel=""nofollow"">angular.js</a> site. I was wondering if any of the backbone.js or knockout.js experts on the site would please recreate that example in their respective frameworks.</p>
+
+<p>Here is the jfiddle for it <a href=""http://jsfiddle.net/IgorMinar/PV53g/"" rel=""nofollow"">http://jsfiddle.net/IgorMinar/PV53g/</a></p>
+
+<p>Thank you.</p>
+","590536","","462302","","2012-02-06 00:59:32","2012-02-06 00:59:32","angular.js example in backbone.js and/or knockout.js","<backbone.js><knockout.js><javascript-framework><jsfiddle><angularjs>","2","1","8","","","5222691","78022"
+"6082520","1","","","2011-05-21 14:54:57","","9","7425","<p>I am new to Angular and would like to know how to actually submit a form to the server once the data is filled in.</p>
+
+<p>The cookbook form examples on angularjs.org only save the state on the client. How do I submit to the server?</p>
+
+<p>Alternatively, how do I use jQuery's <code>form.submit()</code> on the form in the <code>ng:click=""save()""</code> function?</p>
+
+<p>Edit - Found 2 ways to do this ( I also removed the html markup i pasted before - just refer to the advanced form cookbook example for the source)</p>
+
+<ol>
+<li><p><a href=""http://webpac2.rot13.org:3000/conference/Work"">http://webpac2.rot13.org:3000/conference/Work</a> (by Dobrica Pavlinusic) to go the angular way using a resource to send  the data to the server in json format. I had issues with that on the server side - Angular was sending it fine but grails was mangling it (according to firebug and request content-length). I need to look into this more. How do i change the content-type in angular for a resource method like $save() ?</p></li>
+<li><p>Put a form in and use a submit button. Since I am not doing a single page web app, I used this method. Most validations were on the client and a few more on the server which were sufficient for me. </p></li>
+</ol>
+
+<p>Just putting this here so that someone else can use this for possible solutions as well as to get the reaction of the javascript/angular experts on the best approach.</p>
+
+<p>Thanks 
+Rajesh</p>
+","506728","","506728","","2011-05-22 12:55:20","2012-09-11 07:08:57","How do I submit a form to a controller on the server?","<javascript><form-submit><angularjs>","2","3","9","","","6082520","78022"
+"6548864","1","6550522","","2011-07-01 13:51:36","","7","8468","<p>i search for this but not get proper answer
+weather we able to connect directly with couchDB with angular.js framework</p>
+
+<p>or </p>
+
+<p>we have to use node.js help for that.</p>
+","546904","","1297623","","2013-12-06 23:43:48","2013-12-06 23:43:48","how to connect with couchDB by angular.js?","<javascript><angularjs><couchdb>","5","0","3","","","6548864","78022"
+"6644632","1","6667725","","2011-07-11 00:17:08","","1","3676","<p>I have the following controller which works fine:</p>
+
+<pre><code>function Controller() {}
+
+Controller.prototype = {
+    getResult: function(project) {
+        var that = this;
+
+        jQuery.ajax({
+            async: false,
+            url: ""/my-service/call?project="" + project,
+            dataType: ""json"",
+            success: function(data) { 
+                that.result = data;
+            }
+        });
+    }
+};
+</code></pre>
+
+<p>I'd like to use angular.scope.$bind to see if I could eliminate the 'var that = this;' hack.  But the following doesn't work:</p>
+
+<pre><code>function Controller() {}
+
+Controller.prototype = {
+    getResult: function(project) {
+        angular.scope.$bind(jQuery.ajax({
+            async: false,
+            url: ""/my-service/call?project="" + project,
+            dataType: ""json"",
+            success: function(data) { 
+                this.result = data;
+            }
+        }))();
+    }
+};
+</code></pre>
+
+<p>What am I missing?</p>
+","807037","","3012290","","2014-02-15 15:49:30","2014-02-15 15:49:30","How to use angular.scope.$bind","<javascript><angularjs>","1","1","0","","","6644632","78022"
+"7072626","1","7125139","","2011-08-16 01:22:14","","4","2778","<p>I have the following code:</p>
+
+<pre><code>function TestStats($xhr) {
+    $xhr(
+            'GET',
+            '/test-dashboard/get-projects.json',
+            angular.bind(this, function(code, response) {
+                this.projects = response.projects;
+                this.projects.splice(0, 0, undefined);
+            }));
+
+    this.$watch('project', angular.bind(this, function() {
+        this.testClassStats = undefined;
+
+        if (this.project) {
+            $xhr(
+                    'GET',
+                    '/test-dashboard/get-test-stats.json?project=' + this.project,
+                    angular.bind(this, function(code, response) {
+                        this.testClassStats = response.testClassStats;
+                    }));
+        }
+    }));
+};
+
+TestStats.prototype.greet = function(name) {
+  return ""Hello "" + name + ""!"";
+};
+
+TestStats.$inject = ['$xhr'];
+</code></pre>
+
+<p>and the following test:</p>
+
+<pre><code>TestDashboardUnitTest = TestCase(""TestDashboardUnitTest"");
+
+TestDashboardUnitTest.prototype.testAoeu = function() {
+    var xhrStub = function(method, url, callback) {
+    };
+    var testStats = new TestStats(xhrStub);
+    assertEquals(""Hello World!"", testStats.greet(""Aoeu""));
+};
+</code></pre>
+
+<p>and the following config:</p>
+
+<pre><code>server: http://localhost:9876
+
+load:
+  - http://code.jquery.com/jquery-1.6.2.min.js
+  - http://code.angularjs.org/angular-0.9.17.min.js
+  - web/*.js
+  - test/*.js
+</code></pre>
+
+<p>When I run the test, JsTestDriver outputs:</p>
+
+<pre><code>Total 1 tests (Passed: 0; Fails: 0; Errors: 1) (0.00 ms)
+  Chrome 13.0.782.112 Linux: Run 1 tests (Passed: 0; Fails: 0; Errors 1) (0.00 ms)
+    TestDashboardUnitTest.testAoeu error (0.00 ms): TypeError: Object #&lt;TestStats&gt; has no method '$watch'
+      TypeError: Object #&lt;TestStats&gt; has no method '$watch'
+          at new TestStats (http://127.0.0.1:9876/test/web/test-dashboard.js:13:10)
+          at [object Object].testAoeu (http://127.0.0.1:9876/test/test/test-dashboard-unit-test.js:9:21)
+
+Tests failed: Tests failed. See log for details.
+</code></pre>
+
+<p>What do I need to do to fix this?</p>
+","807037","","1297623","","2013-12-06 23:26:52","2013-12-06 23:26:52","How to test angular controller with JsTestDriver?","<javascript><angularjs><js-test-driver>","2","0","1","","","7072626","78022"
+"7354870","1","7711707","","2011-09-08 21:41:34","","1","446","<p>I want to sync changes to the server automatically.  Currently I'm detecting changes in a scope.$onEval handler by JSON serializing the application state and comparing that to a previously serialized copy, using diff-match-patch.  I was wondering if angular has anything built in to make this more efficient.</p>
+","2653","","869458","","2012-05-18 19:56:35","2012-05-18 19:56:35","When Angular.JS triggers an $onEval, is there any way to immediately tell what values in this scope have changed?","<javascript><angularjs>","2","0","","","","7354870","78022"
+"7354992","1","11923966","","2011-09-08 21:52:52","","49","48985","<p>Is it at all easy to use jQuery.sortable on ng:repeat elements in Angular JS?  It would be awesome if re-ordering the items automatically propagated that ordering back into the source array.  I'm afraid the two systems would fight though.  Is there a better way to do this?</p>
+","2653","","1297623","","2013-12-06 23:26:07","2015-04-27 00:45:15","Drag and drop sortable ng:repeats in Angular.JS?","<javascript><angularjs><jquery-ui-sortable>","4","4","40","","","7354992","78022"
+"7650674","1","7654856","","2011-10-04 15:55:37","","58","20836","<p>I have been asked to build a small web application for one of our clients and think it might be a good opportunity to try out a different framework for building web applications. Most of the applications we build are based on asp.net web forms and we have no yet done anything in an MVC architecture but I am eager to start building web applications in a more structured manner with the right tools.</p>
+
+<p>I have been researching things like asp.net MVC and the likes which look quite good but I am wondering is there anything to be said for using something like the Google Angular Framework.</p>
+
+<p>If possible I would still like to be able to write my server side code using c# and I have not researched angular enough to know if this is even possible, although I assume I could use web services. </p>
+
+<p>Has anyone had any experience with developing an app using angular and if so, how was it and can you point me in the right direction for some tutorials?</p>
+","40815","","71343","","2012-03-06 09:54:41","2014-05-03 01:11:21","Google Angular Framework - Worth the risk?","<c#><javascript><javascript-framework><angularjs>","8","4","30","","","7650674","78022"
+"7792652","1","8309832","","2011-10-17 10:49:52","","641","388148","<p>Lets say you have an array that is rendered in a <code>ul</code> with an <code>li</code> for each element and a property on the controller called <code>selectedIndex</code>. What would be the best way to add a class to the <code>li</code> with the index <code>selectedIndex</code> in AngularJS?</p>
+
+<p>I am currently duplicating (by hand) the <code>li</code> code and adding the class to one of the <code>li</code> tags and using <code>ng-show</code> and <code>ng-hide</code> to show only one <code>li</code> per index.</p>
+","109306","","3576214","","2015-07-28 10:01:46","2015-09-23 03:53:58","What is the best way to conditionally apply a class?","<css><angularjs>","22","2","239","","","7792652","78022"
+"7853309","1","7876982","","2011-10-21 17:54:19","","2","3000","<p>How should I go about this? </p>
+
+<p>I was able to get the data into CKEditor by using a <code>textarea</code> with the <code>name</code> attribute matching my model and a <code>script</code> tag with <code>ng:bind-template</code> to call <code>CKEDITOR.replace</code>.</p>
+
+<p>I then made a CKEditor plugin that detects changes and writes them back to the <code>textarea</code>. The problem is that the <code>textarea</code> looses its event handlers when CKEditor initializes and CKEditor doesn't pickup changes to the <code>textarea</code>. This makes me think that I am approaching this the wrong way.</p>
+
+<p>Next I tried using <code>ng:eval-order=""LAST"" ng:eval=""setupCKEditor()""</code> and setting up the editor from the <code>setupCKEditor()</code> function. This didn't work because even with <code>ng:eval-order=""LAST""</code> the function is still run before the nodes are created.</p>
+
+<p>I have found that adding a <code>setTimeout(function () {...},0)</code> around the <code>CKEDITOR.replace</code> helps. Now the only problem is that when it changes the model it doesn't repaint the screen until another field is edited.</p>
+
+<p><code>scope.$root.$eval();</code> seems to fix that.</p>
+
+<p><strong>Update</strong></p>
+
+<p>We ended up abandoning this since we could never get it to reliably work. We switched to <a href=""https://github.com/angular-ui/ui-tinymce"" rel=""nofollow"">TinyMCE with Angular-UI</a> for a while and then ended up building something custom.</p>
+","109306","","109306","","2013-10-08 17:07:19","2014-01-08 05:11:14","How can I use AngularJS data binding with CKEditor?","<angularjs><ckeditor>","2","1","1","","","7853309","78022"
+"8302928","1","11108407","","2011-11-28 21:55:48","","205","51867","<p>I want to use AngularJS with Django however they both use <code>{{ }}</code> as their template tags.  Is there an easy way to change one of the two to use some other custom templating tag?</p>
+","432193","","71343","","2012-03-06 09:53:24","2015-05-20 06:25:22","AngularJS with Django - Conflicting template tags","<javascript><django><django-templates><angularjs>","12","1","98","","","8302928","78022"
+"8361982","1","","","2011-12-02 20:06:13","","75","65531","<p>I've tried WebStorm but there only seems to be a basic JavaScript support there, like in any other web IDE I have tried. I'm looking for something that would allow me to click-through from HTML pages to Controllers etc.</p>
+
+<p>If the answer is ""no"" to this question, is there any other JavaScript framework similar to Angular that would have something like an Eclipse plugin or any other kind of explicit support in some IDE?</p>
+","21728","","71343","","2012-03-06 09:52:59","2014-08-17 01:30:18","Is there an IDE with explicit support for Angular JS?","<javascript><ide><angularjs>","5","1","27","2013-11-19 13:26:44","","8361982","78022"
+"8804151","1","","","2012-01-10 13:38:48","","2","2726","<p>I've been trying to pull a ""single-post"" request (ie. grabbing a single entry from my backend database) using AngularJS.  But I was unable to understand the actual concept behind pulling data from a JSON file through a GET() request.</p>
+
+<p>Eg: Within the controller.js / services.js, what should be done to pull all data from a single-post, such as ""/portfolio/design/1"", using either <code>$xhr</code> or <code>angular.service()</code>?</p>
+
+<p>I've attempted to read through the <a href=""http://docs.angularjs.org/#!/api/angular.service.%24resource"" rel=""nofollow"">$resource</a> and also the <a href=""http://docs.angularjs.org/#!/tutorial"" rel=""nofollow"">tutorial</a>, but I think I wasn't able to wrap my mind around how to actually go about doing it. </p>
+
+<p>I sincerely hope someone can help provide a simple example to help me along my problem.</p>
+","1140206","","229044","","2014-02-15 15:45:45","2014-02-15 15:45:45","How do you retrieve a single post on AngularJS?","<javascript><json><angularjs>","1","0","1","","","8804151","78022"
+"9293423","1","9407953","","2012-02-15 12:31:20","","293","172830","<p>Is it possible to have one controller use another?</p>
+
+<p>For example:</p>
+
+<p>This HTML document simply prints a message delivered by the <code>MessageCtrl</code> controller in the <code>messageCtrl.js</code> file.</p>
+
+<pre><code>&lt;html xmlns:ng=""http://angularjs.org/""&gt;
+&lt;head&gt;
+    &lt;meta charset=""utf-8"" /&gt;
+    &lt;title&gt;Inter Controller Communication&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div ng:controller=""MessageCtrl""&gt;
+        &lt;p&gt;{{message}}&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Angular Scripts --&gt;
+    &lt;script src=""http://code.angularjs.org/angular-0.9.19.js"" ng:autobind&gt;&lt;/script&gt;
+    &lt;script src=""js/messageCtrl.js"" type=""text/javascript""&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>The controller file contains the following code:</p>
+
+<pre><code>function MessageCtrl()
+{
+    this.message = function() { 
+        return ""The current date is: "" + new Date().toString(); 
+    };
+}
+</code></pre>
+
+<p>Which simply prints the current date;</p>
+
+<p>If I were to add another controller, <code>DateCtrl</code> which handed the date in a specific format back to <code>MessageCtrl</code>, how would one go about doing this?  The DI framework seems to be concerned with <code>XmlHttpRequests</code> and accessing services.</p>
+
+<p>Can anyone help?</p>
+","442351","","442351","","2015-01-14 11:38:32","2015-07-17 06:17:12","Can one controller call another?","<javascript><html><angularjs>","12","2","150","","","9293423","78022"
+"9381926","1","10971756","","2012-02-21 17:12:12","","344","252876","<p>Is it possible to create an HTML fragment in an Angular controller and have this HTML shown in the view?</p>
+
+<p>This comes from a requirement to turn an inconsistent JSON blob into a nested list of <code>id : value</code> pairs. Therefore the HTML is created in the controller and I am now looking to display it.</p>
+
+<p>I have created a model property, but cannot render this in the view without it just printing the HTML.</p>
+
+<hr>
+
+<p>Update</p>
+
+<p>It appears that the problem arises from angular rendering the created HTML as a string within quotes. Will attempt to find a way around this.</p>
+
+<p>Example controller :</p>
+
+<pre><code>var SomeController = function () {
+
+    this.customHtml = '&lt;ul&gt;&lt;li&gt;render me please&lt;/li&gt;&lt;/ul&gt;';
+}
+</code></pre>
+
+<p>Example view :</p>
+
+<pre><code>&lt;div ng:bind=""customHtml""&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Gives :</p>
+
+<pre><code>&lt;div&gt;
+    ""&lt;ul&gt;&lt;li&gt;render me please&lt;/li&gt;&lt;/ul&gt;""
+&lt;/div&gt;
+</code></pre>
+","418349","","1946501","","2015-09-29 11:28:23","2015-09-29 11:28:23","AngularJS : Insert HTML into view","<javascript><angularjs><escaping><html-sanitizing>","13","3","126","","","9381926","78022"
+"9399239","1","9401113","","2012-02-22 16:51:39","","3","14996","<p>SOLVED!</p>
+
+<p>I'm interested in Angluar.js I was doing some tries.
+I can't understand what I'm wrong.</p>
+
+<p>I want to do a simple list that when the user click on a button the value is displayed in a span element.</p>
+
+<p>The code is here:</p>
+
+<pre><code>&lt;html xmlns:ng=""http://angularjs.org""&gt;
+&lt;script src=""http://code.angularjs.org/angular-0.9.19.js"" ng:autobind&gt;&lt;/script&gt;
+&lt;script type=""text/javascript""&gt;
+function MyController(){
+    this.list = [{name:""Beatles"", songs: [""Yellow Submarine"", ""Helter Skelter"", ""Lucy in the Sky with Diamonds""]}, {name:""Rolling Stones"", songs:[""Ruby Tuesday"", ""Satisfaction"", ""Jumpin' Jack Flash""] }]
+
+    this.songs = [];
+
+}
+&lt;/script&gt;
+&lt;body ng:controller=""MyController""&gt;
+&lt;p&gt;selected: &lt;span ng:bind=""selected"" ng:init=""selected='none'"" /&gt;&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li ng:repeat=""artist in list""&gt;
+            &lt;button ng:click=""selected = artist.name"" &gt;{{artist.name}}&lt;/button&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;!--ol&gt;
+        &lt;li ng:repeat=""song in songs""&gt;
+            {{song}}
+        &lt;/li&gt;
+    &lt;/ol--&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p></p>
+
+<p>What I want to do is display dynamically the list of songs of the cliccked artist. Is the approach right? Or maybe I have to treat it in some other way?</p>
+
+<p>Thanks.</p>
+","779340","","71343","","2012-03-06 08:13:28","2012-03-06 08:13:28","Angularjs click and display from a list","<javascript><angularjs>","1","0","1","","","9399239","78022"
+"9609664","1","9612647","","2012-03-07 21:52:12","","1","3467","<p>I've set up a local environment, where I load data from a json file:</p>
+
+<pre class=""lang-js prettyprint-override""><code>var Players = $resource('data/players.json');
+var players = Players.query(function(){});
+</code></pre>
+
+<p>And it works great.</p>
+
+<p>Now I want to access a CouchDB on a different domain (http://playball.iriscouch.com/players), and based on the google buzz example I've tried the following, but I can't make it work:</p>
+
+<pre class=""lang-js prettyprint-override""><code>var Players = $resource('http://playball.iriscouch.com/players',  
+  {alt: 'json', callback: 'JSON_CALLBACK'},
+  {get:     {method: 'JSON'}
+});
+
+var players = Players.query(function(){});
+</code></pre>
+
+<p>I simply receive an empty array... Any ideas?</p>
+
+<p>Thanks a buch!</p>
+
+<p>Sune</p>
+","1025860","","531342","","2012-03-08 09:31:10","2012-06-28 08:15:06","How to access couchdb cross domain from angularjs","<couchdb><angularjs>","1","1","0","","","9609664","78022"
+"9629000","1","","","2012-03-09 04:35:49","","0","1650","<p>i am facing this issue when i am trying to store data in my angular controller page using the $cookieStore. Are there any additional configurations that i have left out?</p>
+
+<pre><code>function fbLogin($cookieStore){
+
+    $cookieStore.put(""userid"",'12345');
+    validateUser(userid);
+    alert(userid);
+}
+</code></pre>
+","1140204","","869458","","2012-05-18 19:55:52","2012-05-18 19:55:52","Uncaught TypeError: Cannot call method 'put' of undefined","<angularjs>","1","1","","","","9629000","78022"
+"9682092","1","9693933","","2012-03-13 10:16:37","","936","207808","<p>How does databinding work in the AngularJS framework?</p>
+
+<p>I haven't found technical details on <a href=""http://angularjs.org"">their site</a>. It's more or less clear how it works when data is propagated from view to model. But how does AngularJS track changes of model properties without setters and getters? I found that there are <a href=""http://stackoverflow.com/questions/1029241/javascript-object-watch-for-all-browsers"">JavaScript watchers</a> that may do this work. But they are not supported in <a href=""http://en.wikipedia.org/wiki/Internet_Explorer_6"">Internet&nbsp;Explorer&nbsp;6</a> and <a href=""http://en.wikipedia.org/wiki/Internet_Explorer_7"">Internet&nbsp;Explorer&nbsp;7</a>. So how does AngularJS know that I changed for example:</p>
+
+<pre><code>myobject.myproperty=""new value"";
+</code></pre>
+
+<p>and reflect this change on a view?</p>
+","168367","","1946501","","2015-09-29 11:18:52","2015-10-01 11:59:45","AngularJS : How does databinding work?","<javascript><angularjs>","6","5","769","","","9682092","78022"
+"9746916","1","9753286","","2012-03-17 03:08:02","","17","5266","<p>I'm newbie to angularjs. When I read the docs, I found it uses <code>ng</code> as prefix of attributes:</p>
+
+<pre><code>&lt;body ng:controller=""PhoneListCtrl""&gt;
+  &lt;ul&gt;
+    &lt;li ng:repeat=""phone in phones""&gt;
+      {{phone.name}}
+      &lt;p&gt;{{phone.snippet}}&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>I want to know if I can modify it as another word, such as <code>x</code>? Since I think <code>x</code> is much easier to type than <code>ng</code>.</p>
+","342235","","","","","2012-03-17 20:15:00","Can I use another prefix instead of `ng` with angularjs?","<angularjs>","1","2","4","","","9746916","78022"
+"9755780","1","9760798","","2012-03-18 03:33:12","","3","1183","<p>I've recently been using Angularjs in my project. I'm trying to create a dynamic form which enables users to create crossword puzzle questions. I was thinking of using angularjs to allow users to add additional rows and columns into their answers. In my form, I've created an input called ""answer"" which has 2 child element row and column, and ""column"" has it's own child element as well. This is what I have done so far:</p>
+
+<p>html page:</p>
+
+<pre><code>Answer for the question: [&lt;a href='' ng:click='form.answer.$add()'&gt;AddRow&lt;/a&gt;]
+
+    &lt;table&gt;
+        &lt;div ng:repeat='ans in form.answer'&gt;
+            &lt;tr&gt;
+                &lt;td&gt;{{ans.row}}&lt;/td&gt;
+                &lt;div ng:repeat='col in ans.column'&gt;
+                    &lt;td&gt;&lt;input type='text' name=""col.word"" ng:required/&gt;&lt;/td&gt;
+                &lt;/div&gt;
+                [&lt;a href='' ng:click='col.$add()'&gt;AddCol&lt;/a&gt;]
+            &lt;/tr&gt;
+        &lt;/div&gt;
+    &lt;/table&gt;
+</code></pre>
+
+<p>javascript:</p>
+
+<pre><code>questionCtrl.$inject = ['$invalidWidgets'];
+function questionCtrl($invalidWidgets) {
+    this.$invalidWidgets = $invalidWidgets;
+    this.master = {
+        title: 'title',
+        descr:'description here',
+        answer: [{row:'1', column:[{word:'z'},{word:'x'}]}
+                ,{row:'2', column:[{word:'a'},{word:'w'}]}
+                ],
+        user:''
+    };
+    this.cancel();
+}
+
+questionCtrl.prototype = {
+    cancel : function(){ this.form = angular.copy(this.master); },
+    save: function(){
+        this.master = this.form;
+        this.cancel();
+    }
+};
+</code></pre>
+
+<p>I've manage to allow users to add rows to their answers, but I can't display the column array's element's at all. Is this because there is sonething wrong with my codes or Angularjs does not allow double arrays in their forms? Sorry if my explanation isn't clear.</p>
+","1140240","","","","","2012-03-18 18:04:40","Is it possible to have double array in Angularjs form?","<javascript><angularjs>","1","3","","","","9755780","78022"
+"9786781","1","9786877","","2012-03-20 12:29:56","","2","2387","<p>I'm new to angularjs and python and I have this problem. I've been trying to pass in the data of a form to Python server side using angularjs. I've converted the form to a json object before sending it over in my .js controller. </p>
+
+<p>controller.js:</p>
+
+<pre><code>    jsonObj = this.form.toJson;
+    $xhr('POST','/form/processform',jsonObj,function() {
+        alert(""Done!"");
+        window.load(""/"");
+    }, function(){
+        ""Request failed"";
+    });
+</code></pre>
+
+<p>Python:</p>
+
+<pre><code>from google.appengine.ext import webapp
+from google.appengine.ext.webapp.util import run_wsgi_app
+import simplejson as json
+
+class processForm(webapp.RequestHandler):
+    def post(self):
+        form = json.loads(self.request.body)
+        # process forms 
+        self.redirect(""#/"")#redirects to main page
+</code></pre>
+
+<p>I recieved an error called ""JSONDecodeError: No JSON object could be decoded"". I've tried to replace the 'POST' to 'JSON' but it does not seem to work as well. I've also read up on $resource in angularjs, but i'm not sure how to use it.</p>
+
+<p>Is this because of the wrong usage of $xhr? Any help will be greatly appreciated! :)</p>
+","1140240","","342473","","2012-03-20 12:36:10","2012-03-20 13:01:20","Passing json object to python using angularjs","<javascript><python><json><angularjs>","1","2","","","","9786781","78022"
+"9791055","1","9791207","","2012-03-20 16:38:23","","2","1668","<p>I create a form and when I click the submit button, I assign the 3 value into a javascript dict and send it over to a python script to process however My web browser tell me a error!</p>
+
+<p>from Json error:  {u'food': 90, u'cargo': 70, u'fuel': 50} SyntaxError </p>
+
+<p>controller.js</p>
+
+<pre><code>function customiseCtrl($xhr){
+var self = this;
+
+checkPoint();
+this.process = function(){
+    if (checkPoint()){
+
+        var newPlayer = {""fuel"":value, ""food"":value2, ""cargo"":value3 };
+
+        $xhr('POST', '/process', newPlayer, function (code, response) {
+            self.x = response;
+
+        });
+    }
+};
+
+
+}
+</code></pre>
+
+<p>/process --> python script (I am trying to read the information of ""info"" and write it into the Google app engine.</p>
+
+<pre><code>def post(self):
+ user = users.get_current_user()
+ player = Player();
+
+ info = json.loads(self.request.body)
+ player.fuel = info.fuel
+ self.response.out.write(info)
+</code></pre>
+","1140203","","157247","","2012-03-20 16:42:12","2012-03-20 16:49:25","removing `u` character in python output","<javascript><python><google-app-engine><angularjs>","2","2","","","","9791055","78022"
+"9981090","1","9998942","","2012-04-02 17:41:46","","9","9990","<p>Angular's usual way of defining an isolated resource is:</p>
+
+<pre><code>angular.service('TheService', function($resource){
+  return $resource('api/url');
+});
+</code></pre>
+
+<p>I'm trying to figure out the best way to write a model that relates to other models, such as an <code>Order</code> that has 1 or more <code>OrderItem</code>s. My first idea is this:</p>
+
+<ol>
+<li>Create the <code>OrderService</code> and <code>OrderItemService</code> as independent resource models</li>
+<li>Write a controller that queries the <code>OrderService</code> and watches the result array</li>
+<li>When the result array changes, query the <code>OrderItemService</code> for all of the item IDs and decorate the <code>order</code> object with extended information as it comes in</li>
+</ol>
+
+<p>That seems a bit messy. Is there a more elegant way?</p>
+","1319","","","","","2013-03-14 13:32:06","$resource relations in Angular.js","<javascript><angularjs>","1","3","8","","","9981090","78022"
+"10032936","1","","","2012-04-05 17:09:34","","5","459","<p>Does angularJS have anything in place to lazyload external JS/CSS files based on ng-controller namespaces?  So that the following would append com.myApp.SomeClass.js and com.myApp.SomeClass.css to the document head?</p>
+
+<pre><code>&lt;div ng-controller=""com.myApp.SomeClass""&gt;&lt;/div&gt;
+</code></pre>
+","1054454","","-1","","2012-04-05 21:37:36","2014-04-10 08:34:04","Lazyload external JS/CSS files based on controller namespace convention?","<javascript><jquery><model-view-controller><templating><angularjs>","2","0","","","","10032936","78022"
+"10044375","1","10051892","","2012-04-06 13:46:25","","6","8214","<p>I have the following function that I'd like to convert to a service.</p>
+
+<p>How would I go extracting the $resource call into an angular service, and how would I call this service?</p>
+
+<pre><code>self.select = function (email) {
+    var Player = $resource('/player/get',{email:email});
+    var player = Player.get(function() {
+        self.selectedPlayer.email = player.email;
+        self.selectedPlayer.fuel = player.fuel;
+        self.selectedPlayer.cargo = player.cargo;
+        self.selectedPlayer.food = player.food;
+    });
+}
+</code></pre>
+
+<p>Thanks!</p>
+","1140223","","","","","2012-08-29 08:19:52","Convert an Angular function to service","<javascript><angularjs>","2","0","6","","","10044375","78022"
+"10179488","1","10180805","","2012-04-16 18:22:18","","47","24499","<p>Updating the model property has no effect on the view when updating the model in event callback, any ideas to fix this?</p>
+
+<p>This is my service:</p>
+
+<pre><code>angular.service('Channel', function() {        
+    var channel = null; 
+
+    return {        
+        init: function(channelId, clientId) {
+            var that = this;        
+
+            channel = new goog.appengine.Channel(channelId);
+            var socket = channel.open();
+
+            socket.onmessage = function(msg) {
+                var args = eval(msg.data);              
+                that.publish(args[0], args[1]);
+            };
+        }       
+    };
+});
+</code></pre>
+
+<p><code>publish()</code> function was added dynamically in the controller.  </p>
+
+<p>Controller:</p>
+
+<pre><code>App.Controllers.ParticipantsController = function($xhr, $channel) {
+    var self = this;
+
+    self.participants = [];     
+
+    // here publish function is added to service
+    mediator.installTo($channel); 
+
+    // subscribe was also added with publish        
+    $channel.subscribe('+p', function(name) { 
+        self.add(name);     
+    });                 
+
+    self.add = function(name) {     
+        self.participants.push({ name: name });     
+    }
+};
+
+App.Controllers.ParticipantsController.$inject = ['$xhr', 'Channel'];
+</code></pre>
+
+<p>View: </p>
+
+<pre><code>&lt;div ng:controller=""App.Controllers.ParticipantsController""&gt;      
+    &lt;ul&gt;
+        &lt;li ng:repeat=""participant in participants""&gt;&lt;label ng:bind=""participant.name""&gt;&lt;/label&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;button ng:click=""add('test')""&gt;add&lt;/button&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>So the problem is that clicking the button updates the view properly, but when I get the message from the Channel nothings happens, even the <code>add()</code> function is called</p>
+","1187338","","2824961","","2015-07-08 19:14:01","2015-07-08 19:14:01","The view is not updated in AngularJS","<javascript><data-binding><angularjs>","1","0","23","","","10179488","78022"
+"10200314","1","10203985","","2012-04-17 22:46:47","","1","874","<p>I've been playing around with <a href=""http://angularjs.org/#/"" rel=""nofollow"">AngularJS</a> - which is a kick-ass front end framework by the way.</p>
+
+<p>Today I tried to incorporate the angular-seed starter app (found here:  <a href=""https://github.com/angular/angular-seed"" rel=""nofollow"">https://github.com/angular/angular-seed</a>) into a currently existing Rails 3.1.3 application.</p>
+
+<p>Had a few issues getting the demo code - here: <a href=""http://docs.angularjs.org/#!/tutorial"" rel=""nofollow"">http://docs.angularjs.org/#!/tutorial</a> - to work in the asset pipeline, so just for testing purposes I put them into the public folder - old school style.</p>
+
+<p>I followed the tutorial and had all of my views, controllers, services set up correctly.  However, when I included the js files at the bottom of my index page:</p>
+
+<pre><code>&lt;script src=""angular/app/lib/angular/angular.js"" ng:autobind&gt;&lt;/script&gt;
+&lt;script src=""angular/app/js/services.js""&gt;&lt;/script&gt;
+&lt;script src=""angular/app/js/controllers.js""&gt;&lt;/script&gt;
+</code></pre>
+
+<p>... none of the controllers would work.  I would get the <code>{{ model.property }}</code> tags within my templates instead of the actual output.</p>
+
+<p>No Javascript errors in Chrome's dev tools - and network and resources showed all expected files loaded properly.</p>
+
+<p>I thought that maybe I had overlooked something in my code, but when I looked at the developers guide, there is a link to angular's cdn:  </p>
+
+<pre><code>&lt;script src=""http://code.angularjs.org/angular-0.9.19.min.js"" ng:autobind&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Just for the heck of it, I replaced my local angular.js script call with the cdn, and suddenly everything was working as expected.</p>
+
+<p>I double checked, to make sure that I was loading the local copy from the proper directory, and I was - it's the standard directory that comes with the angular-seed file.  This file was also showing as a resource that was downloaded properly.</p>
+
+<p><strong>Anyone have ideas on why the cdn worked but the local copy would not?</strong></p>
+","875342","","875342","","2012-04-18 03:40:32","2012-04-18 06:27:55","AngularJS with Rails 3.1 - trouble loading angular-seed","<javascript><ruby-on-rails-3><angularjs>","3","0","","","","10200314","78022"
+"10282005","1","10283113","","2012-04-23 13:58:51","","0","445","<p>I am using angularJs for our web application. To do the e2e routing scenario testing, based on tutorial, you need to do something like browser().navigateTo('../../app/index.html'). However, we are using cshtml as our main view, which is blocked from direct server browsing. So you cannot do something like browser().navigateTo('../../app/index.cshtml').</p>
+
+<p>I would like the browser to navigate to the application root instead of specific file. I do something like browser().navigateTo('../../'). However, I get following error ""TypeError: Cannot call method '$browser' of undefined"". I think that is due to ""ng-app"" in index.cshtml is not included. Is there some easy way to solve this?</p>
+","1351266","","","","","2012-10-26 17:21:34","Scenario test in AngularJs","<javascript><angularjs>","2","0","","","","10282005","78022"
+"10345282","1","10348833","","2012-04-27 05:36:52","","2","850","<p>I'm studying <a href=""http://angularjs.org"" rel=""nofollow"">angularjs</a>, and found an example of how to use angularjs with 3rd-party's restful store api, in the demo: <a href=""http://jsfiddle.net/tey3H/"" rel=""nofollow"">http://jsfiddle.net/tey3H/</a></p>
+
+<p>I think this is a good idea, that I can write js code in client side. But I'm worried about the security, because I see this code:</p>
+
+<pre><code>  var Project = $resource('https://api.mongolab.com/api/1/databases' +
+      '/angularjs/collections/projects/:id',
+      { apiKey: '4f847ad3e4b08a2xxxxxxxxx' }, {
+        update: { method: 'PUT' }
+      }
+  );
+</code></pre>
+
+<p>You can see there is an <code>apiKey</code> in the code, and the client side code has the ability to modify the data stored in the mongolab. If other people find the key, they can easily modify the data too.</p>
+
+<p>So I wonder how to handle the security? </p>
+","342235","","","","","2012-04-27 10:17:03","How to handle the security to use 3rd-party's restful store api, with js mvc framework?","<restful-authentication><angularjs>","1","0","","","","10345282","78022"
+"10358302","1","","","2012-04-27 21:49:24","","1","431","<p>I am building an HTML5 app combining the <strong>AngularJS</strong> framework and <strong>MongoDB</strong>. The setup is similar to the <a href=""http://angularjs.org/#/list"" rel=""nofollow"">‘Wire up a backend’</a> demo in the AngularJS home page. So far, I have managed to save a large amount of documents in a single simply - structured MongoDB collection (hosted on Mongolab). These documents contain keys with latin characters and values with greek characters or numeric ones:</p>
+
+<pre><code>{ ""name"": ""Νίκος"", ""value"": 1.35}
+</code></pre>
+
+<p>I am pretty sure these documents are utf-8 encoded. The problem is that when I try to query the database with JS, passing strings containing greek characters, I get zero results. </p>
+
+<pre><code>var queryString = ""{\""name\"": \""Νίκος\""}"";
+$scope.query_results = Project.query({q: query_string}, null, $scope.query_success);
+</code></pre>
+
+<p>The same queries using php return the correct results.  All other queries with numeric values or Latin characters are successfully executed (either from php or js). So the only problem is when I try to query the db through js using greek characters.</p>
+
+<p>I have checked the encoding of the js documents to be utf-8 and I have set the html meta charset attribute to utf-8. I have also tried encoding the query string to utf-8 before querying the database, with no success though.</p>
+
+<p>Any ideas?
+Thanks.</p>
+","1173403","","","","","2012-04-27 22:12:23","Executing Queries in MongoDB with Greek Characters using Javascript Returns No Results","<javascript><mongodb><utf-8><angularjs>","1","0","","","","10358302","78022"
+"10371008","1","10372496","","2012-04-29 09:16:26","","0","707","<p><a href=""http://angularjs.org"" rel=""nofollow"">Angularjs</a> is a browser-side mvc framework, and communicate server-side via restful-apis.</p>
+
+<p>Normally, any server-side framework which support restful service can work with it, but I'm looking for one can work well with it.</p>
+
+<p>In angularjs, we can use a <code>$resource</code> to define a external resource, which has some operations. The code is like:</p>
+
+<pre><code>var User = $resource('/users/:id', {}, {
+              get: { method: 'GET'},
+              create: { method: 'POST'},
+              delete: { method: 'DELETE'},
+              resetPassword: { method: 'PUT', params: { reset: passord } }
+           });
+var user = User.get({id: '123'});
+user.delete();
+</code></pre>
+
+<p>You can see, the structure of the code is one uri with many operations.</p>
+
+<p>I'm new to server-side js, and just looked a little about <a href=""http://expressjs.com/"" rel=""nofollow"">express</a>. I feel it's not fit angularjs very well.</p>
+
+<p>You can see the demo:</p>
+
+<pre><code>app.get('/', function(req, res){
+    res.send('Hello World');
+});
+
+app.get('/user/:id', function(req, res){
+    res.send('User: ' + id);
+});
+
+app.post('/user', function(req, res){
+  res.send(req.body);
+});
+</code></pre>
+
+<p>It separate one uri by <code>http-method</code>s. </p>
+
+<p>I'm looking for a framework, that can let me write the code like:</p>
+
+<pre><code>app.route('/user/:id', {
+   get: get(req,res) { ... },
+   post: post(req, res) { ... },
+   resetPassword: put(req, res) {...}
+});
+</code></pre>
+
+<p>The code is probably wrong, but I think you may know what I mean: It has similar structure as the angularjs' side.</p>
+
+<p>Is there such frameworks I can try?</p>
+","342235","","342235","","2012-04-29 09:27:43","2013-03-21 12:56:13","Looking for a server-side js framework which can provide restful service, and works well with angularjs","<javascript><rest><web-frameworks><angularjs>","3","0","","2015-01-26 19:20:55","","10371008","78022"
+"10382337","1","10383481","","2012-04-30 10:43:10","","6","4474","<p>I have this kind of resource: <code>var Products = $resource('companies/:companyId/products')</code>
+The problem is, that I would like to get the products of all companies by url <code>companies/products</code>, but using resource and not providing companyId I am getting <code>companies//products</code>. Probably I could use another url, like just <code>/products</code>, but does it mean that I have to have another resource for the same thing?</p>
+
+<p>In this simple case I could change the url to <code>companies/products/:companyId</code>, but it seems to be  quite general case.</p>
+","1187338","","","","","2012-04-30 12:10:33","Optional url parameters in AngularJs Resource","<javascript><angularjs>","1","0","1","","","10382337","78022"
+"10404646","1","10440396","","2012-05-01 21:30:11","","1","322","<p>All the DI documentation in Angular seems to be based on the idea that you want the system implementation of a service when the code is production and when you are running automated tests, you want to select among several mock implementations.</p>
+
+<p>No, I have several working implementations of a dependency and I want to choose one (based typically on the URL).  How do I do that?</p>
+","238884","","","","","2012-05-03 23:42:23","Selecting among dependencies in Angularjs in production","<angularjs>","1","0","","","","10404646","78022"
+"10405032","1","","","2012-05-01 22:04:58","","3","1392","<p>I am decorating a standard text input with the jquery plugin for tags input, which essentially replaces the text input in my HTML with a text area where users can write tag names and hit enter to have them converted to discrete graphical tags. (see demo at <a href=""http://xoxco.com/projects/code/tagsinput/"" rel=""nofollow"">http://xoxco.com/projects/code/tagsinput/</a>)</p>
+
+<p>I am placing an ngModel directive in the original text input.</p>
+
+<p>I am able to keep my scope updated with changes made in the tags input field by listening to the change handler from the plugin, parsing the ngModel attribute from the original text input html tag, and updating the scope directly.</p>
+
+<p>However, the issue is that when Angular detects a change in the model and updates the view using binding, it is setting the value on the original text input which does not cause any sort of event I can bind to to know when to update the plugin's value, since ""change"" only fires due to user input.</p>
+
+<p>Is there a way to modify the default ngModel directive behavior to have it fire an event or run a function I specify when it is processing bindings, specifically from model to view?</p>
+","1217714","","869458","","2012-05-18 19:56:51","2013-03-14 15:20:48","customizing ngModel directive to support model->view binding in jquery plugin","<javascript><jquery><angularjs>","1","0","","","","10405032","78022"
+"10407581","1","10409342","","2012-05-02 04:09:17","","0","1923","<p>I have this json array</p>
+
+<p>[
+         {
+        Company:  {
+        id: ""19"",
+        features_id: null,
+        features: ""a:6:{i:1;s:1:""1"";i:2;s:1:""2"";i:3;s:1:""3"";i:4;s:1:""0"";i:5;s:1:""0"";i:6;s:1:""6"";}""
+        },
+        User: [ ]
+        },
+-{
+        Company:  {
+        id: ""20"",
+        features_id: null,
+        features: ""a:6:{i:1;s:1:""1"";i:2;s:1:""2"";i:3;s:1:""3"";i:4;s:1:""4"";i:5;s:1:""5"";i:6;s:1:""6"";}""
+        },
+        User:  [
+         {
+        id: ""1"",
+        group_id: ""1"",
+        type: null
+        }
+        ]
+}]</p>
+
+<p>for somereason I cant get data into my div. Anyhelp will be appreciated. here is the jsfidler</p>
+
+<p><a href=""http://jsfiddle.net/4Y9L3/"" rel=""nofollow"">http://jsfiddle.net/4Y9L3/</a></p>
+","295189","","","","","2012-05-03 12:43:56","ng-repeat doesn't work on json array","<javascript><javascript-framework><angularjs>","2","2","","","","10407581","78022"
+"10447337","1","10447955","","2012-05-04 10:46:30","","2","12288","<p>The problem is in binding the state of the checkbox (checked/unchecked) to the object values.</p>
+
+<p>HTML:
+    </p>
+
+<pre><code>&lt;div ng:controller=""Ctrl""&gt; 
+   &lt;div ng:repeat=""(letter, number) in obj""&gt;
+     {{letter}} and {{number}}
+     &lt;input type=""checkbox"" ng:model=""obj[letter]""&gt;
+&lt;/div&gt;    
+</code></pre>
+
+<p>​</p>
+
+<p>Controller: 
+    </p>
+
+<pre><code>function Ctrl() {
+    this.obj = {a:true,b:true};    
+};​
+</code></pre>
+
+<p>When the first checkbox is clicked it affects the state of the second checkbox, but the model is correct, so obj becomes {a:false, b:true}.</p>
+
+<p>Example can be found at
+<a href=""http://jsfiddle.net/alexpetrov/tRxzr/"" rel=""nofollow"">http://jsfiddle.net/alexpetrov/tRxzr/</a></p>
+
+<p>How to fix this?</p>
+","1187338","","","","","2013-12-18 20:30:25","Binding checkboxes to object values in AngularJs","<javascript><angularjs>","2","0","","","","10447337","78022"
+"10457833","1","16808545","","2012-05-05 00:44:46","","45","6633","<p>How would I render a dynamic definition list using angular?</p>
+
+<p>Example:</p>
+
+<p>Data:</p>
+
+<pre><code>[
+    {
+        key: 'a',
+        value: 'x'
+    }, {
+        key: 'b',
+        value: 'y'
+    }
+]
+</code></pre>
+
+<p>Desired HTML:</p>
+
+<pre><code>&lt;dl&gt;
+    &lt;dt&gt;a&lt;/dt&gt;
+    &lt;dd&gt;x&lt;/dd&gt;
+    &lt;dt&gt;b&lt;/dt&gt;
+    &lt;dd&gt;y&lt;/dd&gt;
+&lt;/dl&gt;
+</code></pre>
+
+<p>The example at <a href=""http://docs.angularjs.org/tutorial/step_08"">http://docs.angularjs.org/tutorial/step_08</a>:</p>
+
+<pre><code>&lt;dl&gt;
+    &lt;dt&gt;Availability&lt;/dt&gt;
+    &lt;dd ng-repeat=""availability in phone.availability""&gt;{{availability}}&lt;/dd&gt;
+&lt;/dl&gt;
+</code></pre>
+
+<p>works for a dynamic number of dds and a static number of dts, but not a dynamic number of both.</p>
+","699700","","699700","","2012-05-05 00:50:50","2014-01-23 02:18:57","How would I render a dynamic definition list using angular?","<angularjs>","4","0","8","","","10457833","78022"
+"10474001","1","","","2012-05-06 20:27:45","","-10","1505","<p>I think the vagueness of the question is part of the problem, so my real first question is, what do you call, in Angular, the <em>thing</em>.</p>
+
+<p>The thing I'm trying to name is the view plus the controller, over the model of a single object.  I don't even know what to call it.  For things I know ahead of time I'm going to need, I've been creating <em>directives</em>, but what do you call one instance of the thing that a directive creates?</p>
+
+<p>I have several situations where all of a sudden (in response to some external event), I have a new object in the model and I want to show it on the screen.  Angular seems to want me to list all the possible views <em>ab initio</em> in their parent view, but that isn't really reasonable in my case.  How, for example, would I list all the pop-ups and tool-tips and other stuff.</p>
+
+<p>I'm down in some little edge case, deep in the controller code, and it needs to add something to the current view.  What's the accepted practice.</p>
+
+<p>Incidentally, the $route/ng-view is one case of exactly this.  The view containing the ng-view, and the ng-view DIV itself, have no idea what the $route module is going to put in the ng-view.  I need the more general case of this strategy.</p>
+
+<p><strong>EDIT</strong></p>
+
+<p>People keep asking for an example.  How about this:  I'm making an equipment-requisition app.  When a user asks that one of the 1000 different type of equipment be sent to him, I need to display a pop-up that gathers addition information specific to that type.  If he asks for a screwdriver, the pop-up will ask about blade size, neck length, and handle composition; if he asks for an airplane, it will be a wizard ask him about engine size, fuel tanks, seating arrangement.  All the app knows on start-up is the list of all equipment types, and the name of the UI element that gathers all subsequent information about each particular type.</p>
+","238884","","238884","","2012-11-29 18:36:18","2014-04-01 16:42:05","How do I create a new, uh, thing in Angularjs?","<angularjs>","4","7","2","","","10474001","78022"
+"10486769","1","10489658","","2012-05-07 17:56:59","","88","60854","<p>The following file ""works"" (the sense that it does not throw any errors):</p>
+
+<pre class=""lang-html prettyprint-override""><code>&lt;!doctype html&gt;
+&lt;html ng-app=""modx""&gt;
+    &lt;script src=""http://code.angularjs.org/angular-1.0.0rc7.js""&gt;&lt;/script&gt; 
+    &lt;script&gt;
+        angular.module(""modx"", [], function($routeProvider) {
+        });
+    &lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>but this</p>
+
+<pre class=""lang-html prettyprint-override""><code>&lt;!doctype html&gt;
+&lt;html ng-app=""modx""&gt;
+    &lt;script src=""http://code.angularjs.org/angular-1.0.0rc7.js""&gt;&lt;/script&gt;
+    &lt;script&gt;
+        angular.module(""modx"", [], function($routeProvider, $rootScope) {
+        });
+    &lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>gives the error:</p>
+
+<blockquote>
+  <p>Error: Unknown provider: $rootScope from modx<br>
+  Source File: <a href=""http://code.angularjs.org/angular-1.0.0rc7.js"">http://code.angularjs.org/angular-1.0.0rc7.js</a><br>
+  Line: 2491</p>
+</blockquote>
+
+<p>WTF?</p>
+","238884","","112731","","2013-03-10 02:24:50","2013-05-08 20:51:42","Cannot get to $rootScope","<angularjs>","2","1","25","","","10486769","78022"
+"10490570","1","10508731","","2012-05-07 23:35:52","","137","62629","<p>I'm using angular to build HTML controls that interact with a legacy Flex application. All callbacks from the Flex app must be attached to the DOM window.</p>
+
+<p>For example (in AS3)</p>
+
+<pre><code>ExternalInterface.call(""save"", data);
+</code></pre>
+
+<p>Will call</p>
+
+<pre><code>window.save = function(data){
+    // want to update a service 
+    // or dispatch an event here...
+}
+</code></pre>
+
+<p>From within the JS resize function I'd like to dispatch an event that a controller can hear. It seems that creating a service is the way to go. Can you update a service from outside of Angular? Can a controller listen for events from a service? In one <a href=""http://jsfiddle.net/6JvRV/"">experiment (click for fiddle)</a> I did it seems like I can access a service but updating the service's data doesn't get reflected in the view (in the example an <code>&lt;option&gt;</code> should be added to the <code>&lt;select&gt;</code>).</p>
+
+<p>thanks!</p>
+","627408","","627408","","2012-05-09 00:08:45","2014-10-24 09:29:23","Call Angular JS from legacy code","<javascript><actionscript-3><externalinterface><angularjs>","5","1","96","","","10490570","78022"
+"10514147","1","10557365","","2012-05-09 10:19:49","","19","16716","<p>Once we have a scope in hand, we can navigate to its root and explore the scope hierarchy.</p>
+
+<p>But is there a direct way to find all the scopes on a page?</p>
+
+<p>Likewise given an HTML element, is there a direct way to find its enclosing scope?</p>
+","325905","","","","","2015-07-24 22:06:39","In AngularJS, how do you find all the scopes on a page?","<scope><angularjs>","7","1","20","","","10514147","78022"
+"10520174","1","","","2012-05-09 16:24:17","","4","3494","<p>I am sending a POST AJAX request using Angularjs and its $http module to Django server. Here is an example:</p>
+
+<pre><code>$http({ 
+        method: 'POST', 
+        url: '/url/', 
+        data: 'test data'
+  }).
+  success(function(data, status, headers, config) {
+        doSomeStuffWhenSuccess();
+  });
+</code></pre>
+
+<p>The problem is what I get in Django. No matter what I send the data is always the key of <code>QueryDict</code> object and value of that is always an empty list. </p>
+
+<pre><code>&lt;QueryDict: {u'test data': [u'']}&gt;
+</code></pre>
+
+<p>I don't have a clue why. What am I missing?</p>
+
+<p>I use almost default created Django application with default middlewares only. I created only a view and set an url in url config. Version of Django is 1.3. And I configured angular's $http module to always send a header containg csrf token to satisfy Django.</p>
+","553895","","2350219","","2014-09-12 02:14:34","2014-09-12 02:14:34","sending data from angularjs to django","<ajax><django><http><angularjs>","2","0","1","","","10520174","78022"
+"10542691","1","","","2012-05-10 21:53:13","","2","403","<p>I trying to write a pagination directive, but to do that, I need to know how many elements are being transcluded, so the HTML can look something like this</p>
+
+<pre><code>&lt;pagelister&gt;
+    &lt;div ng-repeat=""name in searchResults""&gt;{{name}}&lt;/div&gt;
+&lt;/pagelister&gt;
+</code></pre>
+
+<p>(That's a simple case -- the code transcluded might be arbitrarily complicated.)</p>
+
+<p>The directive has to watch... something, so it can recalculate the number of pages.</p>
+
+<p><strong>EDIT</strong> Sorry, the code wasn't called out <em>as</em> code.  I want the above code to break up the names in the list into pages of, say, 10 long and add some nice next/prev buttons.</p>
+
+<p>The problem is when the <code>link</code> function of the directive is called, the divs have not yet been expanded.  I ""fixed"" that by just deferring the alteration to the DOM -- but that only works the <em>first</em> time.  If $scope.searchResults (or anything else observed by the transcluded code) changes, I need to re-adjust the DOM.  I just need to know when that is. </p>
+","238884","","238884","","2012-05-11 18:39:11","2013-09-13 13:18:39","How do I observe transcluded elements of a directive?","<angularjs>","3","1","1","","","10542691","78022"
+"10551986","1","","","2012-05-11 13:07:56","","30","11966","<p>A hopefully simple question about AngularJS unit testing. I have a controller using a simple service (adapted from angular-seed project)</p>
+
+<p><strong>services.js:</strong></p>
+
+<pre><code>angular.module('myApp.services', []).value('version', '0.1');
+</code></pre>
+
+<p><strong>controllers.js:</strong></p>
+
+<pre><code>function MyCtrl1($s, version) {
+  $s.version = version;
+}
+MyCtrl1.$inject = [""$scope"",""version""];
+</code></pre>
+
+<p>This works great im my app. However, I have trouble creating the controller in unit test frame work. I can't figure our how to inject 'version' service (or create instance) and pass it to $controller() factory - I assume that's what I want to do?! Here's the bare bones spec:</p>
+
+<p><strong>controllerSpec.js</strong>:</p>
+
+<pre><code>beforeEach(inject(function($rootScope, $controller) {
+  scope = $rootScope.$new();
+  // how about version service?
+  ctrl = $controller(MyCtrl1, {$scope: scope, /* version: &lt;where from?&gt; */});
+}));
+
+it('Version should be 0.1 ...', function() {
+    expect(scope.version).toBe('0.1');
+});
+</code></pre>
+
+<p>Running the test harness yields:
+<strong>>test.sh</strong></p>
+
+<p><em>... failed (3.00 ms): Error: Error: Unknown provider: versionProvider &lt;- version
+            Error: Unknown provider: versionProvider &lt;- version</em></p>
+
+<p>I have tried various things with $injector/$provider and module() but to no avail. I'm sure the answer is simple, but I can't see it.</p>
+","1389434","","","","","2012-05-12 07:29:51","AngularJS controller unit tests - injecting services","<unit-testing><angularjs>","1","0","7","","","10551986","78022"
+"10557921","1","10582613","","2012-05-11 20:06:08","","5","6470","<p>I'm building a simple Contact Management app with Crud using AngularJS 1.0.0rc8.</p>
+
+<p>Getting a list of currently existing contacts is no problem, but while attempting to save a new Contact to the server, a new row is created - complete with the correct id, created_at, and updated_at values - but the rest of the models data is ignored.</p>
+
+<p>Here is a screenshot to show what I mean:</p>
+
+<p><img src=""http://i.stack.imgur.com/OmsVN.png"" alt=""enter image description here""></p>
+
+<p>As you can see, numbers 4 and 5 were given the Id's but first_name, last_name, and phone_num were not saved to the database.</p>
+
+<p>I am using a <strong>$scope.addContact</strong> function within the Controller that deals with the object.</p>
+
+<p>Here is the entire code for the Contact List Controller:</p>
+
+<pre><code>'use strict';
+
+function ContactListCtrl($scope, $http) {
+  $http.get('/contacts').success(function(data) {
+    $scope.contacts = data;
+  });    
+
+  $scope.addContact = function(data) {      
+
+    $http.post('/contacts/', data).success(function(data) {
+        console.log(data);
+        data.first_name = $(""#new_contact_first_name"").val();
+        data.last_name = $(""#new_contact_last_name"").val();
+    });
+
+    this.newFirstName = '';
+    this.newLastName = '';
+  };
+
+};
+</code></pre>
+
+<p>After clicking <strong>'Save'</strong> on the new-contact.html partial, the Object is logged to the Console, if I inspect its contents, than sure enough the values are collected - notice Jimi Hendrix is there:</p>
+
+<p><img src=""http://i.stack.imgur.com/qiTpw.png"" alt=""enter image description here""></p>
+
+<p>Here is the form as it appears in the new-contact.html template:</p>
+
+<pre><code>&lt;form id=""contact_form"" ng-submit=""addContact()""&gt;
+            &lt;input type=""text"" id=""new_contact_first_name"" name=""newContactFirstName"" ng-model=""newFirstName"" placeholder=""First Name""&gt;&lt;/br&gt;
+            &lt;input type=""text"" id=""new_contact_last_name"" name=""newContactLastName"" ng-model=""newLastName"" placeholder=""Last Name""&gt;&lt;/br&gt;
+            &lt;input type=""button"" id=""contact_submit_btn"" value=""Add Contact"" class=""btn btn-primary""&gt;               
+        &lt;/form&gt;
+</code></pre>
+
+<p>The <strong>addContact()</strong> function is fired after the form is submitted with JQuery:</p>
+
+<pre><code>$(document).ready(function(){       
+
+        $(""#contact_submit_btn"").click(function(){          
+            $(""#contact_form"").submit();
+        });
+    });
+</code></pre>
+
+<hr>
+
+<p><em>(Something tells me that I may not be using the ng-model attributes correctly.)</em></p>
+
+<p><strong>Any ideas on where I am going wrong with this?  Or ideas on how I can better go about implementing this design?</strong></p>
+
+<p>Thanks.</p>
+
+<hr>
+
+<h2>UPDATE BELOW:</h2>
+
+<p><strong>Here is my entire updated controller code - with help from Sathish:</strong></p>
+
+<pre><code> // contacts controllers
+
+'use strict';
+
+function ContactListCtrl($scope, $http, Contacts) {   
+
+  $scope.contacts = Contacts.index();  
+
+  $scope.addContact = function() {
+        var newContact = {
+            first_name: $scope.newContactFirstName,
+            last_name: $scope.newContactLastName
+        };
+
+        var nc = new Contacts({ contact: newContact });
+
+        nc.$create(function() {
+            $scope.contacts.push(nc);
+            // now that the contact is saved, clear the form data
+            $scope.newContactFirstName = """";
+            $scope.newContactLastName = """";
+            })
+        }
+
+};
+
+ContactListCtrl.$inject = ['$scope', '$http', 'Contacts'];
+
+
+function ContactDetailCtrl($scope, $routeParams, Contacts) {  
+    $scope.contact = Contacts.get( {contact_id: $routeParams.contact_id} ); 
+}
+
+ContactDetailCtrl.$inject = ['$scope', '$routeParams', 'Contacts'];
+</code></pre>
+
+<p><strike>I am now receiving the error: Unknown Provider for Contacts.  Here is a screenshot of the error</strike></p>
+
+<p>Ok, I managed to fix that error by providing a <strong>ngResource</strong> to the main App file.  Here's what it looks like:</p>
+
+<pre><code>// main app javascript file
+
+'use strict';
+
+angular.module('contactapp', ['ngResource']).
+  config(['$routeProvider', function($routeProvider) {
+  $routeProvider.
+      when('/contacts', {template: 'assets/app/partials/contact-list.html',   controller: ContactListCtrl}).
+      when('/contacts/new', {template: 'assets/app/partials/new-contact.html',   controller: ContactListCtrl}).
+      when('/contacts/:contact_id', {template: 'assets/app/partials/contact-detail.html', controller: ContactDetailCtrl}).
+      otherwise({redirectTo: '/contacts'});
+}]);
+</code></pre>
+
+<p><strike>I am receiving a new error:  <strong>WARNING: Can't verify CSRF token authenticity</strong></strike></p>
+
+<p>Alright, managed to fix that problem too by adding a callback to the API controller:
+<a href=""http://stackoverflow.com/questions/10167956/rails-shows-warning-cant-verify-csrf-token-authenticity-from-a-restkit-post"">Rails shows &quot;WARNING: Can&#39;t verify CSRF token authenticity&quot; from a RestKit POST</a></p>
+
+<p><strike><strong>Now I am back to the original problem.  When the create method is called, a new row is saved to the database, but the models data is not.</strong></strike></p>
+
+<p><strong>Awesome... finally got this thing working.</strong></p>
+
+<p>The problem was the <strong>$scope.addContact</strong> function.  It was using the 'name' of the input instead of the <strong>ng-model</strong> binding called 'newFirstName' and 'newLastName' that resides in the template.</p>
+
+<p>Here's what the updated function looks like:</p>
+
+<pre><code>$scope.addContact = function() {
+        var newContact = {
+            first_name: $scope.newFirstName,
+            last_name: $scope.newLastName
+        };
+
+        var nc = new Contacts({ contact: newContact });
+
+        nc.$create(function() {
+            $scope.contacts.push(nc);
+            // now that the contact is saved, clear the form data
+            $scope.newFirstName = """";
+            $scope.newLastName = """";
+            })
+        }
+</code></pre>
+","875342","","875342","","2012-05-17 22:48:52","2013-04-11 05:02:04","AngularJS - $http POST with Rails 3.2.3","<javascript><jquery><ruby-on-rails-3><angularjs>","2","0","2","","","10557921","78022"
+"10605573","1","10605656","","2012-05-15 17:05:39","","0","110","<p>please check it here: <a href=""http://jsfiddle.net/9VaW2/1/"" rel=""nofollow"">http://jsfiddle.net/9VaW2/1/</a></p>
+
+<p>I want jData be available outside </p>
+
+<pre><code>$http({method: 'POST', url: '/someurl'}).
+            success(function(data, status, headers, config) {
+
+               var jData = data;
+
+
+        }).
+        error(function(data, status, headers, config) {
+            });
+</code></pre>
+
+<p>but when I do this</p>
+
+<pre><code>$view.availableData = {
+                cols:{ID:'ID', Date:'Date'},
+                rows:{data:jData},
+                options:{}
+            };
+</code></pre>
+
+<p>it gives me this error</p>
+
+<pre><code>ReferenceError: jData is not defined
+</code></pre>
+
+<p><strong>EDIT</strong>
+update fiddle</p>
+
+<pre><code>http://jsfiddle.net/9VaW2/3/
+</code></pre>
+
+<p>** I think I found a solution to make a syncronus call ..async : false. that works. I think the page was loading faster than the data was coming back....wonder if someone has a better solution  **</p>
+","295189","","869458","","2012-05-18 19:57:03","2012-05-18 19:57:03","how to make data available outside","<javascript><javascript-events><angularjs>","1","1","","","","10605573","78022"
+"10608365","1","10627565","","2012-05-15 20:25:47","","1","576","<p>I was trying to implement a nested tree structure in AngularJS. It consists of nodes which all get managed by the same controller type. You can find an example here:
+<a href=""http://jsfiddle.net/Yfmdy/2/"" rel=""nofollow"">http://jsfiddle.net/Yfmdy/2/</a></p>
+
+<p>My problem is, that everytime a child node gets deleted and its parent's ""children"" array gets modified, all parents lose their ng-mouseenter and ng-mouseleave behaviors. </p>
+
+<p>Has anyone an idea what to do about that? Have I missed something?</p>
+","1326146","","869458","","2012-05-18 19:56:03","2012-05-22 13:44:18","Mouse directives behave strangely in nested AngularJS environment","<javascript><angularjs>","3","0","","","","10608365","78022"
+"10610282","1","10612424","","2012-05-15 23:38:39","","105","150281","<p>Using AngularJS if I set a simple input text box value to something like ""bob"" below.  The value does not display if the <code>ng-model</code> attribute is added.</p>
+
+<pre><code>    &lt;input type=""text""
+           id=""rootFolder""
+           ng-model=""rootFolders""
+           disabled=""disabled""
+           value=""Bob""
+           size=""40""/&gt;
+</code></pre>
+
+<p>Anyone know of a simple work around to default this input to something and keep the <code>ng-model</code>? I tried to use a <code>ng-bind</code> with the default value but that seems not to work either.</p>
+","1026266","","75642","","2014-02-05 19:49:34","2015-07-24 22:02:08","AngularJS - Value attribute on an input text box is ignored when there is a ng-model used?","<javascript><html><html5><angularjs>","7","0","31","","","10610282","78022"
+"10629238","1","10646761","","2012-05-17 02:51:05","","77","60901","<p>I have a form that is using markup from Bootstrap, like the following:</p>
+
+<pre><code>&lt;form class=""form-horizontal""&gt;
+  &lt;fieldset&gt;
+    &lt;legend&gt;Legend text&lt;/legend&gt;
+    &lt;div class=""control-group""&gt;
+      &lt;label class=""control-label"" for=""nameInput""&gt;Name&lt;/label&gt;
+      &lt;div class=""controls""&gt;
+        &lt;input type=""text"" class=""input-xlarge"" id=""nameInput""&gt;
+        &lt;p class=""help-block""&gt;Supporting help text&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>There's a lot of boilerplate code in there, that I'd like to reduce to a new directive - form-input, like follows:</p>
+
+<pre><code>&lt;form-input label=""Name"" form-id=""nameInput""&gt;&lt;/form-input&gt;
+</code></pre>
+
+<p>generates:</p>
+
+<pre><code>   &lt;div class=""control-group""&gt;
+      &lt;label class=""control-label"" for=""nameInput""&gt;Name&lt;/label&gt;
+      &lt;div class=""controls""&gt;
+        &lt;input type=""text"" class=""input-xlarge"" id=""nameInput""&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+</code></pre>
+
+<p>I have this much working via a simple template.</p>
+
+<pre><code>angular.module('formComponents', [])
+    .directive('formInput', function() {
+        return {
+            restrict: 'E',
+            scope: {
+                label: 'bind',
+                formId: 'bind'
+            },
+            template:   '&lt;div class=""control-group""&gt;' +
+                            '&lt;label class=""control-label"" for=""{{formId}}""&gt;{{label}}&lt;/label&gt;' +
+                            '&lt;div class=""controls""&gt;' +
+                                '&lt;input type=""text"" class=""input-xlarge"" id=""{{formId}}"" name=""{{formId}}""&gt;' +
+                            '&lt;/div&gt;' +
+                        '&lt;/div&gt;'
+
+        }
+    })
+</code></pre>
+
+<p>However it's when I come to add in more advanced functionality that I'm getting stuck.</p>
+
+<h2>How can I support default values in the template?</h2>
+
+<p>I'd like to expose the ""type"" parameter as an optional attribute on my directive, eg:</p>
+
+<pre><code>&lt;form-input label=""Password"" form-id=""password"" type=""password""/&gt;&lt;/form-input&gt;
+&lt;form-input label=""Email address"" form-id=""emailAddress"" type=""email"" /&gt;&lt;/form-input&gt;
+</code></pre>
+
+<p>However, if nothing is specified, I'd like to default to <code>""text""</code>.  How can I support this?</p>
+
+<h2>How can I customize the template based on the presence / absence of attributes?</h2>
+
+<p>I'd also like to be able to support the ""required"" attribute, if it's present.
+Eg:</p>
+
+<pre><code>&lt;form-input label=""Email address"" form-id=""emailAddress"" type=""email"" required/&gt;&lt;/form-input&gt;
+</code></pre>
+
+<p>If <code>required</code> is present in the directive, I'd like to add it to the generated <code>&lt;input /&gt;</code> in the output, and ignore it otherwise.  I'm not sure how to achieve this.</p>
+
+<p>I suspect these requirements may have moved beyond a simple template, and have to start using the pre-compile phases, but I'm at a loss where to start.</p>
+","59015","","","","","2015-01-23 15:45:11","AngularJs: Customizing the template within a Directive","<javascript><angularjs>","4","0","67","","","10629238","78022"
+"10629814","1","10630084","","2012-05-17 04:26:13","","1","328","<p>I am trying to create a table that I found here</p>
+
+<p>but I have to integrate it to my solutions and code and when I do that, I get these wonky chracters but no error.
+my code is here</p>
+
+<p>please see the image below.</p>
+
+<p>I am trying to have this </p>
+","295189","","295189","","2012-05-18 01:53:46","2012-05-18 01:53:46","I am trying to create a table from a jsfiddle example but its not working ANGULAR.JS","<javascript><angularjs>","1","1","","","","10629814","78022"
+"10659890","1","","","2012-05-18 21:18:28","","8","3650","<p>I recently created an AngularJS 1.0.0rc8 app with a Rails 3.2.3 back-end and it worked fine in development, but after deploying to Heroku there was a <strong>Unknown Provider error</strong> - apparently the app could not see the service object.</p>
+
+<p>I know that it's now necessary to include angular-resource.js as a separate file and inject <strong>ngResource</strong> into the app module like this:</p>
+
+<pre><code>// main app javascript file
+
+'use strict';
+
+angular.module('contactapp', ['ngResource']).
+  config(['$routeProvider', function($routeProvider) {
+  $routeProvider.
+      when('/contacts', {template: 'assets/app/partials/contact-list.html', controller: ContactListCtrl}).
+      when('/contacts/new', {template: 'assets/app/partials/new-contact.html', controller: ContactListCtrl}).
+      when('/contacts/:contact_id', {template: 'assets/app/partials/contact-detail.html', controller: ContactDetailCtrl}).
+      otherwise({redirectTo: '/contacts'});      
+
+}]);
+</code></pre>
+
+<p>I also know that when files are minified that the controllers can't tell what their dependencies are unless they are also injected into the controller objects like this:</p>
+
+<pre><code>ContactListCtrl.$inject = ['$scope', '$http', 'Contacts'];
+</code></pre>
+
+<p>I've also tried doing it the other way that Angular recommends with bracket notation and passing in a function like this:</p>
+
+<pre><code>var ContactListCtrl= ['$scope', '$http', 'Contacts', function($scope, $http, Contacts) { /* constructor body */ }];
+</code></pre>
+
+<p>However, none of this seems to work.</p>
+
+<p>The only way my application could see the resource provided was by turning off asset compression in the Production.rb file, like this: </p>
+
+<pre><code># Compress JavaScripts and CSS
+  config.assets.compress = false
+</code></pre>
+
+<p>It took several hours for me to figure this out, but I recently saw another Rails + AngularJS app that had the same issue.</p>
+
+<p>Jens Krause came to the same conclusion and explains it on his blog:  <a href=""http://www.websector.de/blog/2012/01/17/fun-with-angularjs-rails-coffeescript-sass-another-cafe-townsend-example/"">http://www.websector.de/blog/2012/01/17/fun-with-angularjs-rails-coffeescript-sass-another-cafe-townsend-example/</a></p>
+
+<p><strong>If I have a relatively large app, and I need to compress the assets, how do I get around this using Angular with Rails?</strong></p>
+
+<p>Thanks.</p>
+","875342","","875342","","2012-05-18 22:50:55","2014-01-24 23:10:04","AngularJS + Rails - Problems when compressing assets","<javascript><ruby-on-rails-3><angularjs>","3","0","","","","10659890","78022"
+"10666345","1","10678345","","2012-05-19 15:07:17","","1","6456","<p>I tried modifying the ng-checked example so that clicking on one of the checkboxes would automatically update the other.</p>
+
+<p>Clicking A, then B, then A again, is not doing what I'm expecting.</p>
+
+<p>What part of the documentation should I look at to understand what's happening ?</p>
+
+<p><a href=""http://jsfiddle.net/cantcopy/ev62U/"" rel=""nofollow"">http://jsfiddle.net/cantcopy/ev62U/</a></p>
+","512822","","","","","2013-10-21 03:23:36","Angularjs : Learning how ngChecked works","<angularjs>","1","0","","","","10666345","78022"
+"10679727","1","10679889","","2012-05-21 05:03:13","","4","1864","<p>The following html code prints {{1+1}} instead of 2</p>
+
+<pre class=""lang-html prettyprint-override""><code>&lt;!doctype html&gt;
+&lt;html lang=""en"" ng-app=""myApp""&gt;
+&lt;head&gt;
+    &lt;script src=""/js/angular.min.js""&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+{{1+1}}
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>While if I remove ""myApp"" like below, it prints 2 correctly.</p>
+
+<pre class=""lang-html prettyprint-override""><code>&lt;!doctype html&gt;
+&lt;html lang=""en"" ng-app&gt;
+&lt;head&gt;
+    &lt;script src=""/js/angular.min.js""&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+{{1+1}}
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+","216575","","785241","","2012-05-21 06:32:50","2012-05-21 06:32:50","Angular parser is not activatied when application name is provided","<angularjs>","1","2","0","","","10679727","78022"
+"10689182","1","10690194","","2012-05-21 16:43:44","","11","1264","<p>I'm starting a project at work and was wondering what the best build tool to use would be.</p>
+
+<p>The whole thing is written in CoffeeScript, using AngularJS for the client-side and NodeJS for the server.</p>
+
+<p>There are several components to the app:</p>
+
+<ul>
+<li>An iPad app</li>
+<li>An iPhone app (different functionality from the ipad)</li>
+<li>A CMS for the apps</li>
+<li>A NodeJS server</li>
+</ul>
+
+<p>There is tons of shared code between all these, again all written in CoffeeScript.</p>
+
+<p>I'd like a build tool where I can list which app uses what code (much of it shared) and it would build each app's javascript files into a seperate folder.</p>
+
+<p>For example, I would setup a folder called '/compiled/ipad/' which has index.html, and folders for js, css, img, etc.  I would list what compiled coffee files I want thrown into /compiled/ipad/js (some of it from /src/shared/*.coffee, some of it from /src/ipad/*.coffee, etc) and what files I want thrown into /compiled/ipad/css.  I would want it to be able to easily concatenate files how I want, too.</p>
+
+<p>It would also compile my tests, from /src/test/ipad into /compiled/test/ipad/*.js.</p>
+
+<p>All my client-side unit tests are written using <a href=""https://github.com/vojtajina/testacular"">testacular</a> and I'm not sure what I'll write the server-side unit tests in yet.</p>
+
+<p>What build tool/configuration is the best approach here?  A Makefile? Something like Grunt? I'm honestly new to the whole build scene.</p>
+
+<p><strong>edit</strong>: Decided to go with Browserify.  You can find my solution to make it work with Angular here: <a href=""https://groups.google.com/forum/#!topic/angular/ytoVaikOcCs"">https://groups.google.com/forum/#!topic/angular/ytoVaikOcCs</a></p>
+","1397051","","1397051","","2012-05-23 01:18:54","2012-05-23 01:18:54","Build tool: Coffeescript/Node project with multiple components","<node.js><mobile><build><coffeescript><angularjs>","3","1","0","","","10689182","78022"
+"10698791","1","10713601","","2012-05-22 08:56:38","","8","8353","<p>I know that this is usually not the way to use AngularJS but I was wondering if what I want to achieve is doable with AngularJS. If this is not the recommended way could you please provide hints on how to achieve this? Please consider that I am new in the web programming area.</p>
+
+<p>So in my project I draw using SVG &amp; RaphaelJS several widgets on a canvas that is placed within the ""holder"" div. I am trying to bind this widgets to data using AngularJS, basically each widget is linked to an object in the CustomController. How can I access the CustomController when I initialize my widgets?</p>
+
+<pre><code>&lt;html lang=""en"" style=""height: 100%;""  ng-app=""myApp""&gt;
+&lt;head&gt;
+  &lt;script type=""text/javascript""""&gt;
+    $(document).ready(function () {
+      var canvas = Raphael('holder', '800', '600');
+      var widget1 = new Widget1(params);
+      // initialize widgets here, that I need to bind to data using AngularJS
+      // I am not able to access the CustomController here when drawing my widgets
+    });
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=""holder"" ng-controller=""CustomController""&gt;
+
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Is this anyway to achieve data binding on SVG widgets using AngularJS? I am starting to think that this is not the purpose of AngularJS..in this case could you please advise me on how to do this?</p>
+
+<p><strong>UPDATE:</strong></p>
+
+<p>Guys thanks a lot for your answers! The requirement is that the widget accepts user input and I want it not to be placed in the html file (for modularity purposes). So the directive seems to be the primary choice for now. In the link method I would draw the widget using RaphaelJS and I can also draw the editable objects but this way I would not properly use the AngularJS binding mechanism, it would be just watches and event handlers...which seems messy to me. It would have been nice if some way I could've put SVG tags in the template property of the directive and do biding in the template, but that does not seem to be supported. </p>
+
+<p>Do you guys have other ideas on this?</p>
+
+<p>Btw is there any way to apply bindings programatically between a property and a HTML element (eg. textbox) obtained with jQuery?</p>
+
+<p>Regards</p>
+","1267252","","1267252","","2012-05-25 09:25:53","2012-05-25 09:25:53","AngularJS how to bind data with SVG widget","<data-binding><svg><widget><raphael><angularjs>","2","0","4","","","10698791","78022"
+"10713708","1","10713709","","2012-05-23 05:01:29","","131","50600","<p>I'm setting up a new app using Angular.JS as the frontend. Everything on the client side is done with HTML5 pushstate and I'd like to be able to track my page views in Google Analytics.</p>
+","23850","","","","","2015-06-28 02:55:06","Tracking Google Analytics Page Views with Angular.js","<google-analytics><angularjs>","14","1","77","","","10713708","78022"
+"10727207","1","10743413","","2012-05-23 20:18:47","","6","7701","<p>I am currently porting a large application over to a HTML5 based web app - I have started building the app in AngularJS and enjoying the power of the AngularJS framework - I have one issue standing in my way currently:</p>
+
+<p>I have a directive that gives me a jQuery Datepicker however the binding to the model does not seem to be working.</p>
+
+<p><a href=""http://jsfiddle.net/9BRNf/"">http://jsfiddle.net/9BRNf/</a></p>
+
+<p>I am probably misunderstanding the way directives work and would like to see if I can patch this part of my understanding of the framework. I have gone through loads of examples (including the angularui project on github but still not making sense of why the binding is not happening)</p>
+
+<p>any assistance will be greatly appreciated.</p>
+","564379","","","","","2013-09-16 12:36:10","AngularJS - jQuery UI - binding issue","<jquery-ui><angularjs>","7","5","3","","","10727207","78022"
