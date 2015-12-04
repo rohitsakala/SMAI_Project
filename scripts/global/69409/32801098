@@ -1,0 +1,1 @@
+<p>I can't load a javafx image, because image path contains russian characters.</p>  <pre><code>Image img = new Image("file:C:\\Users\\Pussy_penetrator\\Pictures\\Портрет\\portret.jpg"); ImageView imageView = new ImageView(img); </code></pre>  <p>Threr is no exception, image just has 0.0 width and 0.0 height. Help!</p>

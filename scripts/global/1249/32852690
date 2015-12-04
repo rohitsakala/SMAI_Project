@@ -1,0 +1,1 @@
+<p>Creating my own cache I am saving the data of a query in a file and the reading from it again and again. I am in doubt to ether keep data in memory or write in file. Which is the best Thing?  please consider memory constraint memory constraint. </p>

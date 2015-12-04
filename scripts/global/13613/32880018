@@ -1,0 +1,1 @@
+<p>I was reading some open source projects and found a commons package. What is the purpose of a commons package. From what I understood, it is something like a util package containing utility classes for the main source code. i.e. org.apache.commons should contain utility classes common to various classes in org.apache package.</p>

@@ -1,0 +1,1 @@
+<p>I am running jmeter without UI MODE. Here is my script:</p>  <p>nohup ./jmeter.sh -n -t /home/gdev/jmeter/apache-jmeter-23/project.jmx -l /home/gdev/jmeter/apache-jmeter-2.13/ResultsTest.jtl</p>  <p>Error in NonGUIDriver com.thoughtworks.xstream.io.StreamException:  : input contained no data</p>

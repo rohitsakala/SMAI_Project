@@ -1,0 +1,1 @@
+<p>I have an Image with the following code:</p>  <p><code>let image = UIImage(data:imageData)</code></p>  <p>How can i add a <em>Shadow</em> to the Image? </p>  <p>I want it directly to the Image and NOT to the Imageview of the image. The hole Construct is for implementing the Image with Shadow in an PDF-Document. </p>

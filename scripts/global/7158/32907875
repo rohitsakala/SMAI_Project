@@ -1,0 +1,1 @@
+<p>AWS Lambda function, per documentation, timeouts in max 60 seconds. If it hits the timeout, it considers it as error and fires again. I would like to prevent the subsequent firing. Is there a way? </p>

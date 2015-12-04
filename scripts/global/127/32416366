@@ -1,0 +1,1 @@
+<p>ALL,</p>  <p>Can I use PangoAttributes on the GtkTextBuffer instead of GtkTextTag? Can I get some code please if I can?</p>  <p>To give some specifics:</p>  <p>There is a "pango_attr_underline_color_new ()" which is here since Pango 1.8 and GtkTextTag "underline-rgba{-set"}" which there are here since Gtk 3.16.</p>  <p>Thank you.</p>

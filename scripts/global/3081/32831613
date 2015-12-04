@@ -1,0 +1,1 @@
+<p>I'm using shoulda gem and trying to test some private methods:</p>  <pre><code>  it { should respond_to (instance_eval{:get_user_status})}   it { should respond_to (instance_eval{:send_email_notification})} </code></pre>  <p>But the tests are failing because both the above methods are private. How can I properly test their responsiveness using shoulda matchers?</p>

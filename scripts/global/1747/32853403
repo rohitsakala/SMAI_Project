@@ -1,0 +1,1 @@
+<p>I have an internal class with multiple methods inside it, I want to write Nunit for each method, how can I call the method?  Note: this method has interface.</p>  <p>Sample Code:</p>  <pre><code>internal class Sample : ISsample {     public string getValueabc(int a, int b)     {         String h="Value:"+a+"and another:"+b;         return h;     } } </code></pre>

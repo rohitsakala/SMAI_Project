@@ -1,0 +1,1 @@
+<p>I'm using the following url in my template: <code>{% url 'index' %}</code>. </p>  <p>Assume that it resolves to <code>/index</code>.</p>  <p>How can I slice it? To make it /ind? <code>{% url 'index'|slice:"4" %}</code> doesn't work, it slices index.</p>

@@ -1,0 +1,1 @@
+<p>I have view where I can draw something. But I have problem when I try use scroll on this view.  I don't want to allow scrolling when users taps inside the view but only on the scrollbar's thumb.  </p>

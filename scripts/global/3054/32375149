@@ -1,0 +1,1 @@
+<p>By making private constructor, we can avoid instantiating class from anywhere outside. and by making class final, no other class can extend it. Why is it necessary for Util class to have <code>private</code> constructor and <code>final</code> class ?</p>

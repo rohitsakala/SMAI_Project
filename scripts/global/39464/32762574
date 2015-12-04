@@ -1,0 +1,1 @@
+<p>I tried to change the image width through image properties in ck editor. Through inspect element i checked after click save in image properties. Then the image tag width gets disabled.</p>

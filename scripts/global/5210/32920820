@@ -1,0 +1,1 @@
+<p>I am looking into HTTP header files an am wondering, for sites like Facebook, how does the client know what headers to send for a GET request? Like the cookie?</p>  <p>Is this something that has been built into the browsers? Is there a check request that checks what is needed before hand?</p>

@@ -1,0 +1,1 @@
+<p>I have a few tables that I need to move from one server to another. The new server does not contain the same databases as the old server. The destination database does not contain a schema that matches the schemas on the tables I wish to move. </p>  <p>Ex. [dw].[table_name]</p>  <p>Is there a way to import database schemas across servers?</p>

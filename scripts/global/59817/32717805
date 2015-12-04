@@ -1,0 +1,1 @@
+<p>I need to create a Portable Class Library for use in both Windows Phone 8 &amp; 8.1.</p>  <p>However, I need access to some APIs which are only available in Windows Phone 8.1.</p>  <p>How can I create a library to use in a Windows Phone 8 app that can use the 8.1 APIs if the app is running on an 8.1 device?</p>

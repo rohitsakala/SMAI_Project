@@ -1,0 +1,1 @@
+<p>I'd like to have some code loaded/interpreted upon running <code>sbt console</code>. The same code would be shared between projects.</p>  <p>Think of it as something which makes sense in an interactive session only (eg. timing functions) - like <code>.irbrc</code> for Ruby, PYTHONSTARTUP script for Python ..etc.</p>

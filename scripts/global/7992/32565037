@@ -1,0 +1,1 @@
+<p>What does this <code>==~</code> boolean operator do in the code below?</p>  <pre><code>springcacheCacheManager.cacheNames.each { name -&gt;     if (cacheNamePatterns.any { name ==~ it }) {         flushNamedCache(name)     } } </code></pre>

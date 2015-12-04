@@ -1,0 +1,1 @@
+<p>I have Post and User models. Every post belongs to a user. However, during database import, some erroneous user_ids have been entered on some posts. What would be the query to get posts whose user_ids don't refer to any user? Thanks.</p>

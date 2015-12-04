@@ -1,0 +1,1 @@
+<pre><code>&lt;form action="sample.php" method="get"&gt; &lt;input type="submit"&gt; &lt;/form&gt; </code></pre>  <p>After click on submit, there will open a new page with URL: sample.php? I want to open this new page without question mark (?). Is there any way to do this? P.S. Firefox doesn't add this mark. Only chrome</p>

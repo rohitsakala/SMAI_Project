@@ -1,0 +1,1 @@
+<p>Is there a way, in Javascript (ES2015), to map only part of a array?</p>  <p>E.g.:</p>  <pre><code>let m = someArray.map(function(n){ if(n===0) return n+1; } </code></pre>  <p>That's it, it would return a mapped array that has less elements than the original one.</p>  <p>Is that something that we could accomplish out of the box with some functional programming technique?</p>

@@ -1,0 +1,1 @@
+<p>I have spring mvc application</p>  <p>Sometimes on our site we can see that in <code>html</code> exists <code>img</code> tag but actually <code>url</code> is broken. </p>  <p>Now we want show default image for all these situations.</p>  <p>How can we handle it in single place and we should hit at this place only when we want to load image.</p>

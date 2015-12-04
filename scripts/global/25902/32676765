@@ -1,0 +1,1 @@
+<p>UIPickerView is not available in tvOS. How should I build an equivalent to it, knowing that the content of my Pickerview is dynamic and can include up to 10 elements. Thank you for your answers.</p>

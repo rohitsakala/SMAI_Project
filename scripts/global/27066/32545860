@@ -1,0 +1,1 @@
+<p>I'm working in the following Orchard code. For any reason, I can't  get my property ProductsContent persisted on DB. I have rendered properly the text fields for it on the View, and created the migrations accordingly. The Leaves property of my Product part record is being stored properly, but my ProductsContent property is not. </p>

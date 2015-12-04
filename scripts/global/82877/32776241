@@ -1,0 +1,1 @@
+<p>I need what is the animate function in jquery equal function in angularjs</p>  <pre><code>$("#right").animate({"margin-left": "324px","width": "52.5%"},"1200"); </code></pre>  <p>how to write in angularjs</p>

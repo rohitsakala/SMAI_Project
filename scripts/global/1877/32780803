@@ -1,0 +1,1 @@
+<p>I have my own Eclipse platform build by using Tycho.</p>  <p>And i want to include some plugins automatically in it.</p>  <p>So that i can use e.g subclipse without installing it manually.</p>  <p>Whats the possibilities to do this?</p>

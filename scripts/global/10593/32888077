@@ -1,0 +1,1 @@
+<p>I need to open up a modal (overlay) window in Wordpress from the main menu. The contents will be another page.</p>  <p>E.g. abc.com has a link on the menu bar that when clicked will open up an overlay box. The content of this overlay box will be xyz.com/target-content.</p>  <p>Is this possible? Perhaps there's a plugin that allows this? </p>  <p>Regards</p>

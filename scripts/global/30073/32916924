@@ -1,0 +1,1 @@
+<p>Let's say I have documents:</p>  <pre><code>{"index: 2333", "name: a"}  {"index: 2333", "name: b"}  {"index: 2333", "name: c"} ... </code></pre>  <p>How can I make this to be:</p>  <pre><code>{"index: 2333", "name: a"}  {"index: 2334", "name: b"}  {"index: 2335", "name: c"} ... </code></pre>  <p>Any help will be appreciated!</p>

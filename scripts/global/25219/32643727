@@ -1,0 +1,1 @@
+<p>I have a view controller that makes a UITextField firstResponder on ViewWillAppear. Normally I could just rely on a UIKeyboardWillShow notification to detect if the keyboard has shown, but this won't trigger if I came into the current view controller while the keyboard was already showing.</p>  <p>Anyone have any ideas?</p>

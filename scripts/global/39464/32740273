@@ -1,0 +1,1 @@
+<p>Im need to remove class from editable area (cke_textarea_inline) in my plugin.</p>  <pre><code>    var command = editor.addCommand('command', {         exec: function(editor) {             //remove class... HOW?         }     }); </code></pre>

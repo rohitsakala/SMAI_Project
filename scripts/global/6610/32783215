@@ -1,0 +1,1 @@
+<p>I'd like to download a 400+ mb Json file using xmlhttprequest, but the immense size of the file causes chrome to throw an Ah Snap message. </p>  <p>I know I can use something like setInterval() to read the response text as it is streamed, but how do I consume it after each call to setInterval?</p>  <p>Or do I just need to use a different web protocol altogether?</p>

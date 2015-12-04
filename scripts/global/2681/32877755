@@ -1,0 +1,1 @@
+<p>When debugging networking code in Xcode I often run into a sequence of errors such as the following:</p>  <pre><code>NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9802) </code></pre>  <p>None of my efforts to research those errors turn up a reference to them, so I can debug them sequentially without doing research for each individual one. </p>

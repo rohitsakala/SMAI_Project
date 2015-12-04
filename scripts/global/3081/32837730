@@ -1,0 +1,1 @@
+<p>How to stub Nokogiri in fetch method of PromoDate in RSpec    </p>  <pre><code> class PromoDate        def self.fetch_data(request)          page = Nokogiri::HTML(open("#{request.host}#{url}"))        end      end </code></pre>

@@ -1,0 +1,1 @@
+<p>They could be many JVMs per Operative system or it is only one JVM per Operative System ? I also read that with "Runtime.exit()", we stop the execution of a JVM? </p>  <p>I'm a bit confuse because I've always thought that JVM is a machine that never stop working, always awaken waiting to be called for example by the "java App.class".</p>

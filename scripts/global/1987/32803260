@@ -1,0 +1,1 @@
+<p>I am studying OS now. I know context switcher is responsible for switch the process for CPU to run. It also save and restore the state of a process so that the execution can be resumed at a later time. But, I am not quiet understand dispatcher.. What does it responsible for?</p>  <p>Thanks</p>

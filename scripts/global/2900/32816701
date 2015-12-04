@@ -1,0 +1,1 @@
+<p>When I log two errors at the same time: e.g</p>  <pre><code>log.error("error1"); log.error("error2"); </code></pre>  <p>I get two messages for error1 (with cyclic buffer size set to 1) or two messages for error2 when cyclic buffer size is the default.</p>

@@ -1,0 +1,1 @@
+<p>Hey guys I am stuck in a problem I have two classes(Entities) in hibernate and i am using many to many relationship between them that is working perfectly fine but now i have to add two extra columns in the new(Third) table created by hibernate to maintain the relationship. Can you guys help me with this?</p>

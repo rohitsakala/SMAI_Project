@@ -1,0 +1,1 @@
+<p>What is/are the best practices to use get_model() and when should it be imported ? </p>  <p>Ref: <a href="https://docs.djangoproject.com/en/1.8/ref/applications/" rel="nofollow">https://docs.djangoproject.com/en/1.8/ref/applications/</a></p>

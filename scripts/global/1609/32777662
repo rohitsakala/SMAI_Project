@@ -1,0 +1,1 @@
+<p>So, let's assume I have a simple web service in which I am not using attachments. And then I would like to start sending attachements via MTOM. Do I need to change anything in a WSDL file? As far as I know I don't have to make changes there, but I would like to make sure.</p>

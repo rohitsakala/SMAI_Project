@@ -1,0 +1,1 @@
+<p>How do I create an action extension to open pdf files into a document? I am having trouble understanding the logic behind action extensions. I want to be able to open a pdf document into my app and then list the current files in a UITableview, but I can not figure out the swift code needed to locate the files within the app.</p>

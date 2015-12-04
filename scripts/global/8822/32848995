@@ -1,0 +1,1 @@
+<p>my project warnlevel is /w3.  I want to enable as single warning from warnlevel 4.  Such as "C4296 'operator' : expression is always false"</p>  <p>How can I do this in cxx flags of my CMake file?</p>

@@ -1,0 +1,1 @@
+<p>I want to give a long list (with ls -l) of all the files in home directory that is writable by user, how can I combine find and ls -l? </p>

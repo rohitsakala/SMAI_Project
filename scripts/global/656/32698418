@@ -1,0 +1,1 @@
+<p>I have used below command to update the log message for particular revision. Now everybody able to change the log messages for every revision. how to revert this back to restriction to update the log messages. </p>  <pre><code>$ svnadmin setlog "path" -r 7 --bypass-hooks message.txt </code></pre>

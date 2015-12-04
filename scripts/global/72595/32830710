@@ -1,0 +1,1 @@
+<p>I have two fragments in my viewpager: An android.app.fragment and a support.v4.app.fragment.I know that viewpager does not support a android.app.fragment.So is there any way to launch a android.app.Fragment from a support.v4.app.fragment?</p>

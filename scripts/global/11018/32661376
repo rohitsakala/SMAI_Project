@@ -1,0 +1,1 @@
+<p>I am trying to figure out how to get the element or node of a bar (the rect) when it is clicked in a Google Bar chart.  I know about adding the event listener and getting the select or click event, and getSelection() to get the data, but I need to add a class (among other things) to the DOM node.  I've been looking on and off for days and can't find any info on this.    </p>

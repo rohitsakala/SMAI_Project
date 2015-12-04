@@ -1,0 +1,1 @@
+<p>Can Someone tell how can I open telephone with a button click? I have used this for safari and it works </p>  <pre><code>  [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.com"]]; </code></pre>

@@ -1,0 +1,1 @@
+<p>So I have an MKMapView with a lot of customized behavior. Right now all the customized behavior happens in my view controller (ca. 200 lines of code). Should I subclass the map view?</p>

@@ -1,0 +1,1 @@
+<p>I am going through some old C code using Lint which stumbled upon this line:</p>  <pre><code>int16_t max = -0; </code></pre>  <p>The Lint message is that the "Constant expression evaluates to 0 in operation '-'".</p>  <p>Is there any reason why someone would use -0?</p>

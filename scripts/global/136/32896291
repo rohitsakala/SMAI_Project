@@ -1,0 +1,1 @@
+<p>What is a basic security check list in an android app development with a backend? For example, not storing 3rd party secret keys in XML files, not sending a password to the backend, but a hash and a sault etc.</p>

@@ -1,0 +1,1 @@
+<p>I implemented an <code>UILongPressGestureRecognizer</code> into my app to sort cells via drag n drop. Now I'd like to ask you how I can find out if the user released the cell. Thanks for your answers!</p>

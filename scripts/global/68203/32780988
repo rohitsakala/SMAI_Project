@@ -1,0 +1,1 @@
+<p>How can I set local Storage values before opening page in phantomJS ? Those values should exist in my requested page context. To be more specific I want to set auth token to local storage.</p>

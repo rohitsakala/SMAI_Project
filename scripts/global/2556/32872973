@@ -1,0 +1,1 @@
+<p>I'm trying to resolve from a Javascript array everything that is not an number, but look at what it does when the array holds other falsy elements than zero:</p>  <pre><code>[false,null, false, true].filter((x)=&gt;x) </code></pre>  <p>that returns</p>  <pre><code>[true] </code></pre>  <p>but I want to keep the falsy elements. How do I accomplish that?</p>

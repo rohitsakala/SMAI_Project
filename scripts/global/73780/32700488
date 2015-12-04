@@ -1,0 +1,1 @@
+<p>I'm trying to convert a Map to a human readable string.</p>  <p>So let's say I have this Map:</p>  <pre><code>Map&lt;String, String&gt; map = { "foo": "lorem", "bar": "ipsum" }; </code></pre>  <p>I want to convert it too the following string, including the indents:</p>  <pre><code>{     "foo": "lorem",     "bar": "ipsum" } </code></pre>

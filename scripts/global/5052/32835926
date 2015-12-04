@@ -1,0 +1,1 @@
+<p>This is for creating dynamic menu. So, I'm processing the data from DB in JSP and I have to send it to menu.js in order to create it dynamically. How can I pass it.?? One more thing.. I'm including my menu.js in that JSP file.</p>

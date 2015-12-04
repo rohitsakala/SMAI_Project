@@ -1,0 +1,1 @@
+<p>Everything is in the title. I tried several tips found on the web, but nothing worked so far. I can get vec report from gcc, but not from llvm.</p>  <p>Once vectorization reports are triggered, it would be convenient to find a way to get reports only for a fraction of a very large code. Maybe someone has already figured that out?</p>  <p>Tam</p>

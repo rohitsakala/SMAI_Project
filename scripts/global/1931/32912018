@@ -1,0 +1,1 @@
+<p>@BeforeClass doesn't really make sense to me. Everything in that method will be executed before all test cases. But couldn't we write that simply at the beginning of the test class and have the same effect?</p>

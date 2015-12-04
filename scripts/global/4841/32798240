@@ -1,0 +1,1 @@
+<p>How do i use Jar files as a dependency using IntelliJ with Maven? I have some jar's containing API codes but when I put them in my external library it gives an error saying it's missing.</p>

@@ -1,0 +1,1 @@
+<p>I want to theme this page node/add/classified.  I tried creating page--node--add.tpl.php, page--classified--add.tpl.php, page--node--classified--add.tpl.php refreshing cache all the time...Nothing works</p>  <p>I tried also implementing hook_theme() and hook_preprocess_page().</p>

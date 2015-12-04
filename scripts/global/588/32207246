@@ -1,0 +1,1 @@
+<p>I'm using this function right now:</p>  <pre><code>function() {    if (function1() == function2()){        // Do something.      };  }; </code></pre>  <p>So each time I call the <code>function()</code>, the <code>function1()</code> and <code>function2()</code> will also run.  How can I prevent this?</p>

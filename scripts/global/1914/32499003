@@ -1,0 +1,1 @@
+<p>I'm writing a code for installing a software using VC++. So, what I want to do is, I want to copy a *.jar file, which I have, into a particular location when I run the installer. I know that I have to do it using msi. How do I do this? I'm a beginner in VC++.</p>

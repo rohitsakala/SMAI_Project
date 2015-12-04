@@ -1,0 +1,1 @@
+<p>Following an upgrade to OS X El Capitan, Cabal and GHC are no longer found on my system:</p>  <pre><code>-bash: ghc: command not found -bash: cabal: command not found </code></pre>  <p>What do I need to do to get Cabal and GHC working on OS X El Capitan?</p>

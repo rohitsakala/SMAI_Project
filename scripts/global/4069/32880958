@@ -1,0 +1,1 @@
+<p>I have message in one queue and need to send to other queue(destination) both are active MQs. When destination is down message will be in source Queue. I need to check in continuous intervals whether destination is up r not. if it is up I need to send to destination. I'm facing difficulty in checking the destination availability.., please help me., Thanks..,</p>

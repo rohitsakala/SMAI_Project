@@ -1,0 +1,1 @@
+<p>I have installed pip and ez setup. I also checked the system path and I can see the module in the folder structure. Still when i try to run pip command, I get an Import error saying no module named pip. I am running 32bit python on a windows7 machine</p>

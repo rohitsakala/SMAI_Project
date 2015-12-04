@@ -1,0 +1,1 @@
+<p>I have a Silverlight application where my management want to have a MVC project in it. Fine we added a running MVC project into a Silverlight Application and was able to successfully intregate it . But the problem is MVC project opens in a new window which is a POP UP window which is not Debuggable. We cannot Debug the MVC project . Do anyone have any idea why? </p>

@@ -1,0 +1,1 @@
+<p>Is the [DataMember] attribute needed on virtual properties?</p>  <pre><code>[DataMember] public string Title { get; set; }  [DataMember] public virtual ApplicationUser User { get; set; } </code></pre>  <p>or is this the correct way:</p>  <pre><code>[DataMember] public string Title { get; set; }  public virtual ApplicationUser User { get; set; } </code></pre>

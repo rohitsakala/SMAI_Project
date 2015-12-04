@@ -1,0 +1,1 @@
+<p>I have the following TextView:</p>  <pre><code>&lt;TextView     android:layout_width="wrap_content"     android:layout_height="wrap_content"     android:text="This must be bold (but not this)" /&gt; </code></pre>  <p>I want only a part of the text to be bold. <code>android:textStyle="bold"</code> will therefore not work.</p>

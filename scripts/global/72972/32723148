@@ -1,0 +1,1 @@
+<p>I know it could be done this way</p>  <pre><code> Windows.System.Launcher.LaunchUriAsync(new System.Uri("")); </code></pre>  <p>but I don't know the uri of the default app to show the photo gallery. Or is there another way?</p>

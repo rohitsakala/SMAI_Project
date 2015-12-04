@@ -1,0 +1,1 @@
+<p>Is this connection string correct?</p>  <p><strong><code>con.ConnectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=k:\Users\kaarthick\documents\visual studio 2012\WebSites\WebSite8\Database\Database1.mdb;";</code></strong></p>  <p>Are password and userId mandatory to be in connection string?</p>

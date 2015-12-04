@@ -1,0 +1,1 @@
+<p>I have a theme folder with a theme named default. Now is default also a keyword in PHP.</p>  <p>But the namespacing inside that theme folder should be: </p>  <pre><code>Themes\Default\Widgets </code></pre>  <p>Is this possible somehow or should I replace default with something else?</p>

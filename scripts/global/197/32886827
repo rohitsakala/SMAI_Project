@@ -1,0 +1,1 @@
+<p>This is the first time I'm writing a C# code.</p>  <p>In my C# code, I need to generate a string that can be any of these: <code>"00000041"</code>, <code>"0000424E"</code>, <code>"00004244"</code>, <code>"00004D53"</code> </p>  <p>How can you do this? How can you specify strings and randomly generate anyone from them?  </p>

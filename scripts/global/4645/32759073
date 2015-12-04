@@ -1,0 +1,1 @@
+<p>I have an IBM http server v 5.3 I have to set up authorization through ldap. I find CN object by attribute. If CN not in current OU, I can't find it, but if CN in current OU there is no problem. So I think http server searches only in current Ldap entry. How to set up config file of http server to search in subtree too ?</p>

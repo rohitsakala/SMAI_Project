@@ -1,0 +1,1 @@
+<p>A Synchronization service that provide an image in <code>Base64</code> string and I want to save that into a <code>SQLite</code> database <code>blob</code> field?</p>  <p>Could anyone tell me how to proceed with this or any other way to do this procedure?</p>  <p>As later on, I need to show image in bitmap.</p>

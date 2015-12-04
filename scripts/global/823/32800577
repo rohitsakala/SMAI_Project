@@ -1,0 +1,1 @@
+<p>I have a line of assembly that read as follows:</p>  <pre><code>mov target[sizeof source - ecx],byte ptr ebx </code></pre>  <p>However, I'm getting the error <code>A2032: Invalid use of register</code></p>  <p>As far as I know, I'm not doing anything wrong, but, apparently, I am.</p>  <p>Any help would be appreciated.</p>

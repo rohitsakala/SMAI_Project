@@ -1,0 +1,1 @@
+<p>The project have some views with different buttons. When I hide a view and show the other view, I can't get the focus on my button.</p>  <p>I think is related to <code>setNeedsFocusUpdate</code>. I have read the Apple doc. There is not any example.</p>  <p>Does anyone know how to do it and put an example (Objective C)? </p>

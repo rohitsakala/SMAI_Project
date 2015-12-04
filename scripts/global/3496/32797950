@@ -1,0 +1,1 @@
+<p>I have done some research on this and discovered the <strong>rand(), srand(), and mt_srand()</strong> yet they don't work too well for me.</p>  <p>I want PHP to generate a random ID (number) and then have it stay that way no matter how many times you refresh the page. I suppose this could be done with incrementing operators or session variables? Cookies perhaps?</p>

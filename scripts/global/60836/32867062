@@ -1,0 +1,1 @@
+<p>How to get the response. </p>  <pre><code>ws.url("http://www.thomas-bayer.com/sqlrest/CUSTOMER/").get(); </code></pre>  <p>It throws null pointer exception</p>

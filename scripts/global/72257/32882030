@@ -1,0 +1,1 @@
+<p>I have my legacy code in php's Codeigniter and we are writing a new module in django. How to link the new module with the initial php page, basically a redirection from codeigniter php page to django python page.</p>

@@ -1,0 +1,1 @@
+<p>How to use grep -ie to find strings with 2 groups of consecutive same letters. The 2 groups do not overlap. Only grep e is allowed.</p>

@@ -1,0 +1,1 @@
+<p>When <code>Array#uniq</code> is called, the new array keeps the <em>first</em> occurrence of each duplicate:</p>  <pre><code>["a", "b", "c", "a"].uniq #=&gt; ["a", "b", "c"] </code></pre>  <p>Does the standard library provide a clean way to "uniq" an array, but keep the <em>last</em> occurrence of duplicate elements?</p>  <p>e.g.:</p>  <pre><code>["b", "c", "a"] </code></pre>

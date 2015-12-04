@@ -1,0 +1,1 @@
+<p>since the upgrade to version Neo4j 2.3.0 M3 while trying to run an existing process of data loading, i'm getting the error:</p>  <pre><code>Expected line to be a property container </code></pre>  <p>on M2 it runs ok</p>

@@ -1,0 +1,1 @@
+<p>So, if I have text like this:</p>  <pre><code>int x() { int a = 1;  return a; } </code></pre>  <p>Trying to indent the inner part of the function does not indent the blank line. (Using visual mode and >)</p>  <p>How can I change the behavior of vim so that the blank line is also indented?</p>

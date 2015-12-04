@@ -1,0 +1,1 @@
+<p><br/> How do we ensure tenant based logging in WSO2? We do not want logs from different customers getting mingled. Essentially, what we are looking for is completely different directories for each tenant's logs.  I have read a fair bit of documentation for the same and there does not seem to be an out of the box solution. <br/> Any tips is appreciated. <br/></p>

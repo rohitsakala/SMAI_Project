@@ -1,0 +1,1 @@
+<p>I need copy lot of *.txt file from multiple folders to one. </p>  <p>I try use for exp.: </p>  <pre><code>xcopy D:\Dokumenty\*.txt D:\final /sy </code></pre>  <p>But this make 1:1 copy of folder. I need copy only files to a new folder. </p>  <p>Thanks for help. </p>

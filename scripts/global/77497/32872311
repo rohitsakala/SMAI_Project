@@ -1,0 +1,1 @@
+<p>What is considered the best practice when developing a REST API?</p>  <p>Sending a batch request POST with each object having a tracking state?</p>  <p>OR</p>  <p>A separate POST/PUT/DELETE per object?</p>  <p>Think working within a table and editing objects/rows in that table.</p>

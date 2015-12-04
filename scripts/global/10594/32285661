@@ -1,0 +1,1 @@
+<p>Here is my code but it only change first character of the string</p>  <pre><code>$string = 'Earrold Imperial Valdez';  $text = preg_replace('/(\b[a-z])/i','&lt;span style="color:red;"&gt;\1&lt;/span&gt;',$text);   echo $text;  </code></pre>

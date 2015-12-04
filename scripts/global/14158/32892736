@@ -1,0 +1,1 @@
+<p>I want to have my Worker Role (have not done this with a web role) upload a file when it is deployed and also be able to access that deployed file in code.</p>  <ol> <li><p>How do I deploy a file with my Cloud Service to each instance?</p></li> <li><p>How can I find that file in code?</p></li> </ol>

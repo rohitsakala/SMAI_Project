@@ -1,0 +1,1 @@
+<p>I have a Win32 MFC application that does some processing in a loop. Currently the window stops redrawing while the loop is running. Can I somehow allocate time to the message queue inside my loop or will I have to move the processing to a different thread to free up the main thread for message handling?</p>

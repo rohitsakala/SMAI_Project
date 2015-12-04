@@ -1,0 +1,1 @@
+<p>How may I make something like this in prolog:  </p>  <pre><code>if(A &gt; -1 &amp;&amp; A &gt; 0){    //DoSomething } else{    //DoAnotherThing } </code></pre>  <p>Tried this:  </p>  <pre><code>positive([], []). %Tudo Vazio positive([H1|T1], [H2|T2]) :- H1 &gt; -1, H1 &gt; 0 -&gt;  H2 = H1, positivos(T1, T2). </code></pre>

@@ -1,0 +1,1 @@
+<p>My scenario is that i have hosted a WCF Service in a windows service. This WCF service will be used within a local network. Client application will pass on a simple data value to the WCFService. No big amount of datas involved. What is best binding to be used in this situation? And Why.</p>

@@ -1,0 +1,1 @@
+<p>I have a CodenameOne application which has a TextArea that should display a multi-line text.  </p>  <p>When I run the app in the simulator and click on the text-area, the spacing between the lines and possibly also between the characters change so that the area that the text occupies shrinks a bit.</p>  <p>Why is this? What should I do to prevent it?</p>

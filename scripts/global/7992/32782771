@@ -1,0 +1,1 @@
+<p>Since I sometimes needs an if-statement like</p>  <pre><code>if (variable == 'one' || variable == 'two' || variable == 'three') {      // code } </code></pre>  <p>I was wondering if you could write this any shorter, something like:</p>  <pre><code>if (variable == ('one' || 'two' || 'three')) {     // code } </code></pre>

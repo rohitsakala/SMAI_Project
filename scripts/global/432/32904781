@@ -1,0 +1,1 @@
+<p>I have a excel file which keeps updating in 15 minutes. I want to store all the excel data to oracle database automatically. I mean when ever new rows insert into excel file it must insert into oracle database immediately. If any duplicate rows added to excel file it should not be inserted into database.</p>

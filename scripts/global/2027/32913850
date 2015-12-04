@@ -1,0 +1,1 @@
+<pre><code>#include&lt;stdio.h&gt; void f(int *p,int *q){     p=q;     *p=2; } int main(){     int i=0,j=1;     f(&amp;i,&amp;j);     printf("%d%d\n",i,j);     return 0; } </code></pre>  <p>The output of this program is 02 can somebody explain this?</p>

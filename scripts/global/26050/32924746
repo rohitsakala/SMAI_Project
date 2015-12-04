@@ -1,0 +1,1 @@
+<p>I want to get a long press time on UIView when touchesEnded method is called.</p>  <p>I was looking for a property like 'time' or 'duration' in UIEvent but I couldn't find. How can I do?</p>  <p>(I'm creating a game, I want to change a graphic size in response to long press time. e.g. let size = 20 * long_press_sec ) </p>  <p>Environment: Xcode7.0.1 Swift2.0</p>

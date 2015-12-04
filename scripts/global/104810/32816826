@@ -1,0 +1,1 @@
+<p>What is best practice as of today:</p>  <pre><code>1. Use a UISearchController to handle searching. or 2. Create a view controller that has a UISearchBar and scope bar with a UITableView as the results. or 3. Or some other way. </code></pre>  <p>Thanks.</p>

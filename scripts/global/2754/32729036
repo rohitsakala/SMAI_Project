@@ -1,0 +1,1 @@
+<p>Maybe a stupid question, but if I have some arbitrary binary data, can I cast it to string and back to byte array without corrupting it?</p>  <p>Is <code>[]byte(string(byte_array))</code> always the same as <code>byte_array</code>?</p>

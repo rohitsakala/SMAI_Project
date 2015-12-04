@@ -1,0 +1,1 @@
+<p>I'm trying to use apply-partially in a local context:</p>  <pre><code>((apply-partially '+ 1) `(1)) </code></pre>  <p>This give me the following error: <code>eval: Invalid function: (apply-partially (quote +) 1)</code></p>  <p>similarly: </p>  <pre><code>(let ((addone (apply-partially #'+ 1)))   (addone 2)) </code></pre>  <p>Why any of this example doesn't work?</p>

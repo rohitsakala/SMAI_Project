@@ -1,0 +1,1 @@
+<p>Is it possible, and if so, can I add obj-c code into an existing <strong>Swift Dynamic Framework</strong></p>  <p>I know I cannot do an <code>bridging header</code>, and I assume I need to use a <code>module.map</code> but I'm not sure how to proceed.</p>

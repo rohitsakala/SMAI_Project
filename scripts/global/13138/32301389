@@ -1,0 +1,1 @@
+<p>in my Frame, i'm adding labels thanks to a for, in a panel. the problem i can't solve is that it is adding the label on the same line whereas i want to add a \n between one and another so to generate a column! I've no idea how to do it. any help? Thank you!</p>

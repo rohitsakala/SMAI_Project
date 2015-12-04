@@ -1,0 +1,1 @@
+<p>I have an application that requires DotNet Framework 4.6 to be installed. I wanted some help on how to install this Dot Net Framework 4.6 using Dotnetinstaller's bootstrapper utility. Basically, it should detect if the dot net framework 4.6 is already installed. If not proceed with the installation.</p>

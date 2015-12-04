@@ -1,0 +1,1 @@
+<pre><code>$em = $this-&gt;get('doctrine.orm.entity_manager'); $em-&gt;createNativeQuery('SET @c:=1;', $rsm)-&gt;execute(); </code></pre>  <p>throwing PDOException Any ideas?</p>  <p><a href="http://i.stack.imgur.com/otO6e.jpg" rel="nofollow"><img src="http://i.stack.imgur.com/otO6e.jpg" alt="enter image description here"></a></p>

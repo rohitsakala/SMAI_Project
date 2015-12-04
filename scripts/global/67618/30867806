@@ -1,0 +1,1 @@
+<p>I have a MasterPage in which I display two things: one is the user name which I display with the following command <code>&lt;%: Context.User.Identity.GetUserName()  %&gt;</code> and one is the user role. </p>  <p>How can i display it?</p>  <p>Thank you.</p>

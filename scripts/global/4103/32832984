@@ -1,0 +1,1 @@
+<p>I am having trouble exporting the contents of my dgv to a csv file. The data in the dgv is populated by variables that i set which are just values from text boxes that i fill. If i use the $datagrid | export-csv command, it will export just the properties of the gridview itself and not the contents in it. I am extremely new to PS and would appreciate some help or insight.</p>

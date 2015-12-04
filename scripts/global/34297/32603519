@@ -1,0 +1,1 @@
+<p>The first excel cell of this column is a filter which contains all the possible values of the column. I wanna know how to get all the distinct values of this column from the cell and whether POI supports a method that I can get all the rows that contain the particular value I specify in the previous column. Thanks!</p>

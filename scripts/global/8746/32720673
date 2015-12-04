@@ -1,0 +1,1 @@
+<p>How can I build a predicate in prolog that receives a number and a list, I must insert the number in the list by the tail</p>  <p>I tried inserting the number in the list by the head: <code>insert(H,[P|Q],[H,P|Q]).</code>  and it works, but how can I do it by the tail?</p>

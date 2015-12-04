@@ -1,0 +1,1 @@
+<p>I need help writing a code for a work template. A macro that does a Countifs with dynamic ranges based on cell value:</p>  <pre><code>Countifs($H$5:$H$?,$K5,$I$5:$I:$?,N$4)  "**?**" is dynamic based on the value of cell **L5** </code></pre>

@@ -1,0 +1,1 @@
+<p>Is it possible to produce a JMS event that will be consumed in a specific tomcat node?  We are facing a problem that in our cluster of 3 tomcats - an event is thrown from one of the tomcats and is actually consumed by a different node even though we would like it to stick to the same tomcat (original)</p>

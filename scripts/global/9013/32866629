@@ -1,0 +1,1 @@
+<p>I'm sanitizing USER_AGENT for logging in PHP and need to know whether to use substr() or mb_strcut().</p>

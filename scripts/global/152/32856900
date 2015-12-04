@@ -1,0 +1,1 @@
+<p>To avoid special characters, I have used <code>fieldname=QueryParserUtil.escape(fieldname);</code>, to change char <code>+</code> to <code>\+</code>. But I find that when I only input blank space,it is wrong. It shows:</p>  <blockquote>   <p>org.apache.lucene.queryparser.classic.ParseException: Cannot parse ' ': Encountered "" at line 1, column 2.</p> </blockquote>

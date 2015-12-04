@@ -1,0 +1,1 @@
+<p>In Microsoft Visual C++, the default calling convention can be set to stdcall using /Gz compiler option. How to do this in MinGW g++?</p>

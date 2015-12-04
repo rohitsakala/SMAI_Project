@@ -1,0 +1,1 @@
+<p>Requirements dictate that all of the cookies my application uses must expire with the users session. Is there a way to force this on every cookie using an element in my web.config?</p>

@@ -1,0 +1,1 @@
+<p>I have around 150 requests in my LoadRunner HTTP/HTML protocol. I have added 150 tagged web requests (dynatrace headers). </p>  <p>I experimented executing the script with dynatrace headers and without dynatrace headers. Each time, I am getting different response time. </p>  <p>I am just curious to know dynatrace headers will add up or impact the response in the results. </p>

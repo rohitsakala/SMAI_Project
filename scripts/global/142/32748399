@@ -1,0 +1,1 @@
+<p>I have two <code>extension points</code> that are slightly different but use a lot of the same <code>targets</code>, so I was wondering how to have a single <code>target</code> extend multiple <code>extension points</code>? </p>

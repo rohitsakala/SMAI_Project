@@ -1,0 +1,1 @@
+<p>in winform we can embed ms word in application , how can I do the same on wpf , such that I can do the same , I found many commercial plugins but am looking for free one </p>  <p>I use Docx from nuget to edit and add whatever in word , but I wish to display word for user to edit and print if wish </p>

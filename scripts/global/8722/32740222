@@ -1,0 +1,1 @@
+<p>How to set The values in Jasper report in footer section from different different table?I mean to say there are three rows in footer section and I am fetching data from views. Now my requirement is to display the data in footer section from different table in different footer rows(e.g -i.e for three rows i am using three tables)?</p>

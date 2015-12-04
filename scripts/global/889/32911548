@@ -1,0 +1,1 @@
+<p>What's a correct way to call FormatMessageW in Ruby?</p>  <pre><code>   require 'win32api'     FormatMessage = Win32API.new 'kernel32', 'FormatMessageW', 'IPIIPII', 'I'    msg = '\0' * 255    FormatMessage.call 0x00001000 | 0x00000100, nil, 6, 1024, msg, 0, 0 </code></pre>  <p>FormatMessage returns not null result but msg contains not readable message. What's wrong?</p>

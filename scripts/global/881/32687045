@@ -1,0 +1,1 @@
+<p>I am using DOTNETZIP for creating zip files on the fly. my zipfolde is of 755MB on azure as a BlobDirectory.</p>  <p>It is creating zipfile perfectly. but I want to save that zipfile as stream to upload to the Blobstorage in azure. </p>  <p>But while saving Zipfile.save(zipstream) It stops, hangs and time-out occurs on the azure environment.</p>  <p>Please suggest me.</p>

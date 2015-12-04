@@ -1,0 +1,1 @@
+<p>I have a Windows batch file that performs the same action multiple times, except on multiple files. Is there a way I can tell the computer to use different processor cores to speed up the process? Otherwise, it takes longer since the same processor is being used all the time. </p>

@@ -1,0 +1,1 @@
+<p>I have a function like this:</p>  <pre><code>def functionName(par1, par2):      # Here I'm doing something with par1      with open('par2.txt', 'w') as fid:          fid.write(something) </code></pre>  <p>I want use <code>par2</code> as a filename which I create, but don't know how.</p>

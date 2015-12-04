@@ -1,0 +1,1 @@
+<p>I have a multi module maven project.</p>  <p>Module 1: Javascript node.js maven project</p>  <p>Module 2: Java maven project</p>  <p>I want to be able to copy the zipped 'dist' directory from /target directory of module 1 to the /target directory of module 2 during the install phase of Maven</p>

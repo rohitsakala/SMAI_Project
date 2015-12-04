@@ -1,0 +1,1 @@
+<p>Does anyone know if there is a way to do this?  </p>  <p>For example this perl code works, but python does not?</p>  <pre><code>#!/usr/bin/perl5.18 main();  sub main {     print 'hello\n';     return; }  #!/usr/bin/env python3.4 main()  def main():     print('hello')     return </code></pre>  <p>Thanks</p>

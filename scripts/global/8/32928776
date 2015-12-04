@@ -1,0 +1,1 @@
+<p>Why I cant   use two scanf function to Enter the characters</p>  <p>for example</p>  <pre><code>char a; char b; printf("a"); scanf("%c", &amp;a); printf("%c", a); scanf("%c", &amp;b);  printf("%c", b); </code></pre>  <p>There are many solutions, but I want to know what is the reason why the2 scanf function does not work in characters</p>

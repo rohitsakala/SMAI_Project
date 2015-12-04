@@ -1,0 +1,1 @@
+<p>I am trying to make a graph with three panels. I am trying to use the functions multi plot (of ggplot2) and grid.arrange of (of gridExtra). None of them work!  How could I fix this problem???</p>  <pre><code>multiplot(f1.1,f1.2,f1.3) Error: could not find function "multiplot"  grid.arrange(f1.1,f1.2,f1.3) Error: No layers in plot </code></pre>

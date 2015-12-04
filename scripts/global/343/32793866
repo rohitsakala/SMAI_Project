@@ -1,0 +1,1 @@
+<p>I am using Meteor and created a mongo collection in my main .js file. I was just wondering how I could add documents to that collection though the shell on the droplet website?</p>  <p>Thanks!</p>  <p>The line of code which defines the collection in js is: Performers = new Mongo.Collection("performers");</p>

@@ -1,0 +1,1 @@
+<p>Having good practice in mind, how many transient property could I have in an Entity before creating a new object (DTO) to do the job?</p>  <p>Is it a good practice put a transient property into POJOs to save database querys, memory and sessions size?</p>  <p>Where can I learn this kind of good practices and software architecture/design?</p>  <p>tks.</p>

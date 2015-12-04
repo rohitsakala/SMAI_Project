@@ -1,0 +1,1 @@
+<pre><code>&lt;frame name="top" src="../LoginOrder/announcements.asp"&gt; &lt;frame name="bottom" src="../LoginOrder/menu_bar.asp" scrolling="no"&gt; </code></pre>  <p>The content in those two frames is just asp source so I can't find element in those two frames using normal FindElement methods of selenium.</p>  <p>So is there any way I can find those elements? </p>

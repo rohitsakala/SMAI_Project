@@ -1,0 +1,1 @@
+<p>i have a link like this:<br> something com/1<br> I want to print the same link with increasing number at the end to a txt<br> something com/1<br> something com/2<br> something com/3 and so on.<br> How can i do this with C ?<br> Thanks a lot.</p>

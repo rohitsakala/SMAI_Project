@@ -1,0 +1,1 @@
+<p>I want to send user data to my univeral header file, which is shown on every page so I can display a "Hi, {{ username }}" message.</p>  <p>How can I do this without getting the data in all controllers of every page?</p>

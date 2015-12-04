@@ -1,0 +1,1 @@
+<p>It's been ages since I used DOS commands. I want to list the PDF files in a named subdirectory of a list of directories. So I think I need to wildcard the parent directories.</p>  <p>For example:</p>  <pre><code>drive:\maindirectory\[wildcard]\subdirectory\*.pdf </code></pre>  <p>How can I do this? Thanks in advance.</p>

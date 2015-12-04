@@ -1,0 +1,1 @@
+<p>I have a simple GTK program in c that requires the user to set values using GTK Scale widgets. Is there a way to make the settings persistent so that they will still be there when the program is closed and run again?</p>  <p>Thanks!</p>

@@ -1,0 +1,1 @@
+<p>Does anyone know the size of an object reference in Javascript (V8). It's 8 bytes like in C pointers?</p>  <p>Thank you very much.</p>

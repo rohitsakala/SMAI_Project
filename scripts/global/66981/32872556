@@ -1,0 +1,1 @@
+<p>I'm using Laravel 4.2 with Homestead. Is it correct to push my local changes from Vagrant (homestead env.)?</p>  <p>My computer haven't any changes under project root (only on Homestead).</p>

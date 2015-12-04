@@ -1,0 +1,1 @@
+<p>I used <a href="https://github.com/vim-erlang/vim-erlang-tags" rel="nofollow">vim-erlang-tags</a> for long time. But It's used to find the position where function or record defined. when I want to find where functions invoked,or some atoms I have to use <code>grep -r</code>. Is there some other tool can handle this. thks.</p>

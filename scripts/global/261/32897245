@@ -1,0 +1,1 @@
+<p>We are using FileZilla as out FTP. At the moment, I want to insert a script in the live index.html. Unfortunately, there is more than 1 index.html files on the ftp. </p>  <ul> <li>I was wondering how to pinpoint the exact one?</li> <li>Is there a way to trace it back using just the Google Chrome Inspect Element?</li> </ul>  <p>Thank you in advance!</p>

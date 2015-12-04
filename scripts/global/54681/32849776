@@ -1,0 +1,1 @@
+<p>When creating a binding project for a java library that requires the <a href="https://developer.android.com/tools/support-library/index.html" rel="nofollow">Android Support Library</a>, how should the reference be added?  Should the Xamarin Support Libraries be used or should the suport lib jar file be included in the project with a ReferenceJar build type?</p>

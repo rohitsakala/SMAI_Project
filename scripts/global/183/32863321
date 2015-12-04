@@ -1,0 +1,1 @@
+<p>I want to integrate finger print scanning in my app. For that I can use LAContext to integrate default Finger print authentication which is supported after iPhone 5s. But I want the image of finger print and want to use the same in app.  How can I do that ? Is there any way in the same SDK or any third party available for that ?</p>  <p>-Thanks in advance,  Aakil.</p>

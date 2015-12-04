@@ -1,0 +1,1 @@
+<p>I want to write  a Batch file that exports the name of a File to a txt file. I did it like that:</p>  <pre><code>echo %1 &gt;textfile.txt </code></pre>  <p>So this Batch exports the complete Path. But I want to export the name of the file. Is there any way to just export the name of the file? </p>

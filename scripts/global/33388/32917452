@@ -1,0 +1,1 @@
+<p>I see "BatchGetItem" API from AWS, that can be used to retrieve multiple items from dynamodb. But the capacity consumed is n units for n items even if they are just 10 bytes long. Is there a cheaper way of retrieving those items? I see the "Query" API but it probably doesn't support ORing of the keys and even the IN operator.</p>

@@ -1,0 +1,1 @@
+<p>I have <code>UILabel</code> in which <code>int</code> value is shown, I want that if value is in thousand like 1000 then label should show 1k and 2k for 2000 and onward. How can this be achieved?</p>

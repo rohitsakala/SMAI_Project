@@ -1,0 +1,1 @@
+<p>As shown in the example, the two of 150px <code>div</code>s won't stay in the 300px parent div even if I set them as <code>inline-block</code>s.</p>  <p>Why would they occupy extra space? </p>  <p>There is no problem when using <code>float:left</code>.</p>  <p><a href="http://jsfiddle.net/r2LLzwbu/1/" rel="nofollow">http://jsfiddle.net/r2LLzwbu/1/</a></p>

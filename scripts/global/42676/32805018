@@ -1,0 +1,1 @@
+<p>In Firefox using FireBug addon, the data you entered can be seen in POST headers. I wonder if this is a security flaw in the asp.net web application.</p>

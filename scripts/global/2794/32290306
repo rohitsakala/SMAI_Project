@@ -1,0 +1,1 @@
+<p>I have a specific problem. I have an </p>  <p><code>&lt;input type="text"&gt;</code> </p>  <p>with css style</p>  <p><code>input{height:2500px;}</code></p>  <p>when I open it in browser, and click on the text area, I will type at the middle of the inputs height. I want to type right from the left top corner, How do I do this? help me please ...</p>

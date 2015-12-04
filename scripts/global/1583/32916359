@@ -1,0 +1,1 @@
+<p>I need to set the listview's items' text color dynamically based on a sharedPreference, so I do it in my custom CursorAdapter's "bindView" method.</p>  <p>Performance-wise, is this the best way to do it?</p>

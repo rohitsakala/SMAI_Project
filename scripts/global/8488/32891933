@@ -1,0 +1,1 @@
+<p>I'm trying to capture all the relevant links from a web page with beautiful soup. All the links I need have both the class"btn btn-gray" and also the text More Info&lt;></p>  <p>What's the best way to extract just these links?</p>

@@ -1,0 +1,1 @@
+<p>In HLSL, how would I go about packing two floats within the range of 0-1 into one float with an optimal precision. This would be incredibly useful to compress my GBuffer further.</p>

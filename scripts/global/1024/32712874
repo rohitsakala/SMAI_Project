@@ -1,0 +1,1 @@
+<p>I have around 30-40 texture atlas that need to be pre loaded in an SKScene, How do I create a singleton class for all of them, and call them and preload them at once. Each texture is around 4096*2048 pixels.</p>

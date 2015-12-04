@@ -1,0 +1,1 @@
+<p>Can any one please let me know how to open child browser using titanium for IOS. I have used, <code>Titanium.Platform.opeURL(url);</code> but it is opening out of the application and can't come back to our app after closing the window/tab.Any ideas?</p>  <p>Thanks in Advance, Swathi</p>

@@ -1,0 +1,1 @@
+<p>I have used Cassandra::Uuid::Generator.new.now to generate uuid and stored in cassandra as uuid datatype, now i want to retrieve the data using the uuid but the issue is uuid is in sting. How to convert the uuid from string to uuid datatype to find the id in cassandra db.</p>

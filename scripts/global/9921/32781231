@@ -1,0 +1,1 @@
+<p>I'm using Node with request and cheerio to crawl a few pages. I'd like to know how much data is being transmitted (in KB or MB) each run. Is there a way to count the incoming bytes?</p>  <p>I've got a version with and without gzip that I'd like to compare. </p>

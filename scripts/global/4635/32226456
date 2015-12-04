@@ -1,0 +1,1 @@
+<p>I use Oracle 11G database and work in Toad. I need a query to search a number(9901) in all tables and views. I found some PL/SQL codes but they are working for strings. I have knowledge about SQL but I do not know PL/SQL. My user is SYS, I think I have privilege to make such a query. Can you help for this case? </p>

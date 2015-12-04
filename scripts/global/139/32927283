@@ -1,0 +1,1 @@
+<p>For example:</p>  <pre><code>   my_string = "hi how are you?/nIs everything ok?/nAre you happy?" </code></pre>  <p>I need to make a list containing all the indexes of the newline - (/n). How can i do it ?</p>

@@ -1,0 +1,1 @@
+<p>I know that log4j logging level con be configured under "$MAVEN_HOME/conf/logging/simplelogger.properties". On my occasion that file resided on location that i have no write privileges. So is it possible to configure maven logging level different that the one specified on  simplelogger.properties?</p>

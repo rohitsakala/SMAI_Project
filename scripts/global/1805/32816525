@@ -1,0 +1,1 @@
+<p>I'm trying to install scala on my mac (Maverick). I downloaded and unarchived it. I then put myself from where it was unarchived and inside the /bin folder in the terminal. But when I run "scala" or "scalac" I get :</p>  <p><code>-bash: scala: command not found</code></p>  <p>Why?</p>

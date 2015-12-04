@@ -1,0 +1,1 @@
+<p>When connecting using TLSv1 protocol with HIGH cipher, are DH params necessary (in openssl)?</p>  <p>I am getting</p>  <pre><code>SSL_connect(): error:14082174:SSL routines:SSL3_CHECK_CERT_AND_ALGORITHM:dh key too small </code></pre>  <p>even though the certificate being used does not have DH params in it.</p>

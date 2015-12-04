@@ -1,0 +1,1 @@
+<p>I know Python has a powerful multi-assignment function, eg. we can do</p>  <pre><code>a, b = 1, 2 a, (b, c) = 1, (2, 3) </code></pre>  <p>and even</p>  <pre><code>for a, (b, c) in [(1, (2, 3)), ]:     print a, b, c </code></pre>  <p>But how is this implemented? Is it an syntactic sugar or something more complicated?</p>

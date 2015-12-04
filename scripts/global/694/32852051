@@ -1,0 +1,1 @@
+<p>I am attempting to insert a row into a table while leaving two datetime coulumns null. </p>  <p>Error (For both columns): The column column_name in table conflict does not allow null values.</p>  <p>The only constraint the table table has is a primary key constraint. The constraint is not on the datetime columns. </p>  <p>Is it possible to have a null datetime in Sybase? </p>

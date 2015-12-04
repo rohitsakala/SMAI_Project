@@ -1,0 +1,1 @@
+<p>After publishing my app, I got this confusing Optimization tip:</p>  <pre><code>You translated the APK into French but not the store listing. </code></pre>  <p>My APK is still in English (default) and German. I've set up the /values/string.xml (en) and the /values/strings.xml (de).</p>  <p>So, does anyone know why i'm getting this message?</p>

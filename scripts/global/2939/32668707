@@ -1,0 +1,1 @@
+<p>I was trying to update my controls when ever the size of the form changes using <code>SizeChanged</code> and it worked perfectly except when going full screen, I searched for all the grid events and I didn't find any events that occur when the user maximizes the window ( goes full screen).</p>

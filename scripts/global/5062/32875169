@@ -1,0 +1,1 @@
+<p>I'm building a forum where I include header.php and footer.php in each file, problem is, when I have an error that I terminate with <code>die()</code> and a message the header and footer still shows up.</p>  <p>How do I make the <code>die()</code> also terminate the included header and footer files.</p>

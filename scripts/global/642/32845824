@@ -1,0 +1,1 @@
+<p>I want to create the curl request with TLS authentication using c#. If it is possible to send any code snippet, that will be helpful to me.</p>  <p>Example,</p>  <p>curl "<a href="https://uri/json">https://uri/json</a>" --cert cert.pem --key key.pem --cacert ca.pem</p>  <p>I am waiting for response.</p>  <p>Thanks, K.Prathika</p>

@@ -1,0 +1,1 @@
+<p>I'm using Yii2 Framework. I have got 3 module. I want create MenuBuilder for admin module and bind item another modules. But I couldnt, please help me!</p>  <ul> <li>Admin Module</li> <li>Post Module</li> <li>Category Module</li> </ul>

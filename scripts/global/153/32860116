@@ -1,0 +1,1 @@
+<p>I want to make a report of daily income expense account. I am using a <code>data environment</code> for this report and made date field as group field. The problem is that every time I run the program the data sometimes appears and sometime it's showing just blank. I can't understand why this is happening and what is the reason for it? </p>

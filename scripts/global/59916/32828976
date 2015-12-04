@@ -1,0 +1,1 @@
+<p>I want to use a video background on a responsive site, but I don't want to force the user to download a large video on mobile. If I set different backgrounds for mobile and desktop using media queries (image for max-width: 1199px and video for min-width: 1200px for example), will the video still load on mobile, even if the media query does not apply?</p>

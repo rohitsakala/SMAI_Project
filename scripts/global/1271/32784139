@@ -1,0 +1,1 @@
+<p>How to find the line that starts with at least one dog from the following lines</p>  <pre><code>-catdogcat [pass] -dog------ [pass] -catdoglol dog [pass] -catcatcat dog [fail] </code></pre>  <p>I wrote <code>/^-(dog){1,3}/</code> but it certainly doesn't work when the input is <code>'-catdogcat'</code></p>

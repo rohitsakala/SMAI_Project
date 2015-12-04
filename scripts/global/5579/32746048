@@ -1,0 +1,1 @@
+<p>When I use WebDriver in Intellij IDEA, it automatically closes any webdriver browser windows that were launched when there's an exception, or if I manually stop the run. </p>  <p>In Eclipse, webdriver windows are always left open when I stop the execution. How can I make Intellij behave this same way and just leave the browser windows open?</p>

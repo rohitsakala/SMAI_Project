@@ -1,0 +1,1 @@
+<p>I've been using a really cool idea for python rodeo. Basically the interface looks like Rstudio. However, it doesn't recognize loop by giving the following error "SyntaxError: unexpected EOF while parsing". </p>  <p>And when I paste the same command on my python shell and it works just fine. </p>  <p>Anyone know how to debug it? </p>

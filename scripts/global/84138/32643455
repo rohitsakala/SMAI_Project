@@ -1,0 +1,1 @@
+<p>Looking for a way to serialize a BitmapImage in a Windows store app. None of the methods I can find would work with a Windows Store app. I need to call a web service with the BitmapImage and can't seem to find a way to serialize the data. </p>  <p>Any pointers would be appreciated.</p>

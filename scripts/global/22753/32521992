@@ -1,0 +1,1 @@
+<p>I have UITabBarController with 4 tabs. I have a login scene in 2nd tab.When user logins I want to replace the login scene with user profile scene. From next time onwards when ever user selects 2nd tab I want to show them the user profile scene. How is this possible?</p>

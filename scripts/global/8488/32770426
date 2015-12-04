@@ -1,0 +1,1 @@
+<p>I have some html tags that I've selected in Beautiful Soup based on some criteria. I'd like to be able to do further queries (e.g. find() or find_all()) on these tags however I haven't been able to find a method that would allow this since they are all separate entities.</p>

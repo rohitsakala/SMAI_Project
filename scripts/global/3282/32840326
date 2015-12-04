@@ -1,0 +1,1 @@
+<p>i am using xmpp/ejabberd for chatting, it works properly if the two users are online, but when someone is offline he gets the delayed messages but with wrong timestamp. the time is greater than server's time by about 7 mins </p>  <p>Offline Storage</p>

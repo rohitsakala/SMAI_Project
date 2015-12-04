@@ -1,0 +1,1 @@
+<p>I am working on a project based on iOS5. I want to use AFNetworking 2.0 by cocoapods. But 'iOS6+' is needed. Can I use AFNetworking 1.x when it's iOS5 while using 2.0 when it's iOS6+ ?</p>  <p>thanks</p>

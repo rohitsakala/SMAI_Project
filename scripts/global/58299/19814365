@@ -1,0 +1,1 @@
+<p>I am creating one iPhone server side application,in that when ever user will deletes the application i need to update the status of user.I am sending that request in application Terminate Method but it is not calling that method.Don't know where i need to send request inside application.If any one knows please help me as soon as possible.</p>

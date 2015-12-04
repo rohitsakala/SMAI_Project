@@ -1,0 +1,1 @@
+<p>I am looking for APIs for accessing a camera on a device using HTML. I am aware of <code>getUserMedia()</code>, but that appears to only be supported by the Blink and Gecko engines. Is there anything else out there? I am specifically looking for something that WebKit/QtWebKit supports.</p>

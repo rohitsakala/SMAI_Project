@@ -1,0 +1,1 @@
+<p>I have a website coded in classis asp. I see a lot of questions and answers about session variables, but mine is quite different. </p>  <p>I have 9 session variables. </p>  <p>The second last one is AgentId, which is used on every page.  This specific variable does not last long before i get an error that it is not found. </p>  <p>What can the problem be? </p>

@@ -1,0 +1,1 @@
+<p>I am doing reverse engineering. Trying to generate uml class diagram from java file. For this I am using java parser for parsing the java file. I am able to separate out access specifier,class name etc other details of input java file.But I am not getting how to code in java for the input which will be for plantuml generator.</p>

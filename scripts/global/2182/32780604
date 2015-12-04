@@ -1,0 +1,1 @@
+<p>How can I go about setting the scope:</p>  <pre><code>@Component @Scope(proxyMode = ScopedProxyMode.TARGET_CLASS, value = "prototype") </code></pre>  <p>in XML, instead of using <code>@Scope</code> annotation?</p>

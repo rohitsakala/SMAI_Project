@@ -1,0 +1,1 @@
+<p>I want to write a re that accepts everything that is between parenthesis. My re is: r''\'([^&amp;]+'\')' (ingnore the '' in the backslash)</p>  <p>I had to put that random character so it will accept everything except that. How can I write it so it accepts EVERYTHING including that character. Thanks.</p>

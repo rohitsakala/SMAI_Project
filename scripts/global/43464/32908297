@@ -1,0 +1,1 @@
+<p>After a new installation of Sentry server everything works fine but i cannot view any graph. Instead there is an error message showing that there is a problem displaying those data.</p>  <p>Event based graphs are shown for each event. But in the admin backend there is no graph about queues or events.</p>  <p>My TSDB Config is based on redis. How can i turn these graphs on?</p>

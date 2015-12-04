@@ -1,0 +1,1 @@
+<p>I have just installed Cygwin on my 64 bit Windows 10. I need sys/types.h, sys/socket.h and several other libraries. However, I can't find these files under the cygwin installation directory. Where can I get them?</p>

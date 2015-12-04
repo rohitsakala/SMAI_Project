@@ -1,0 +1,1 @@
+<p>I have to use InAppPurchase in my application. But it's not working properly and giving error message while purchasing </p>  <blockquote>   <p>error: Error Domain=Parse Code=146 "The operation couldn’t be   completed. (Parse error 146.)".</p> </blockquote>  <p>and my sample app is proper working.</p>

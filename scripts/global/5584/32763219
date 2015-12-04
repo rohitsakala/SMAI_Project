@@ -1,0 +1,1 @@
+<p>How can I detect which version of Opengl-es is supported by a specific device? I am interested to check it during the initialization of my custom SurfaceGlView</p>

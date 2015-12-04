@@ -1,0 +1,1 @@
+<p>In my build steps I need to provide TFS revision number as a paramter. I know there is a variable $(Build.SourceVersion) but it returns it with a "CS" prefix e.g. "CS1234"</p>  <p>Is there an easy way to remove that "CS" prefix? Any built-in string functions?</p>  <p>Thanks</p>

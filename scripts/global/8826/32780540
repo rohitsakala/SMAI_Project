@@ -1,0 +1,1 @@
+<p>I am using Telerik rad grid. I want to close the "Edit" mode of the grid from the client side (in javascript).</p>  <p>I am trying to search if there is a client side method associated to the following</p>  <pre><code>gridId.get_masterTableView()  </code></pre>  <p>but I'm not getting anything.</p>  <p>Can anybody help me with this?</p>

@@ -1,0 +1,1 @@
+<p>I am creating mvvm application with code first entity which will be used by multiple users and would like to use domain username to lock down tables while reading/writing, are there any good resource to read on this topic.</p>

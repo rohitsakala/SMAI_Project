@@ -1,0 +1,1 @@
+<p>I was trying to split a path</p>  <pre><code>Y:/P18/4000/source/xyz.pl  </code></pre>  <p>and I need everything except <code>Y:\</code> and then concatenate with another path</p>  <pre><code>http:/aswee/5000/trunk </code></pre>  <p>so that I get</p>  <pre><code>http:/aswee/5000/trunk/P18/4000/source/xyz.pl </code></pre>  <p>Can anyone suggest?</p>

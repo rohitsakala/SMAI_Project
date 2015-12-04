@@ -1,0 +1,1 @@
+<p>With JQM when any page is loading, I can begin scrolling along it. And when all's finished loading the page jump itself to top !</p>  <p>This is very bad for the ux and I would like disable this behavior because the user could browse the website even if the loading isn't ready...</p>  <p>How I can do this ? Thank's you</p>

@@ -1,0 +1,1 @@
+<p>What do you put into </p>  <pre><code>SKFieldNode.linearGravityFieldWithVector(???) </code></pre>  <p>The documentation calls for a <code>vector_float3</code>. How do you make one of those?</p>

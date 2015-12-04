@@ -1,0 +1,1 @@
+<p>I'm open to use CSV, JSON etc to make the file structure. I need it to be faster in insertion and retrieval than SQLite for like 65000 entries even when SQLite is indexed on the primary key. How could I achieve this using Android NDK. </p>

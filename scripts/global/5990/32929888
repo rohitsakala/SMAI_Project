@@ -1,0 +1,1 @@
+<p>The set of points closer to a given point than a given set, i.e.,<br> {x | ||x − x0|| ≤ ||x − y|| for all y ∈ S}<br> where S ⊆ R^n</p>  <p>It reminds me of an Euclidean ball, but I don't know how to proceed to check if it's convex or not.<br> ( In this case it's the 2-norm used above ).</p>

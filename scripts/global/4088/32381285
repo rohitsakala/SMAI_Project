@@ -1,0 +1,1 @@
+<p>In my embedded code I need to add offsets 0x100, 0x200, 0x300 etc. (overall number of offsets is fixed, say 64) to initial register address. Is it possible to optimize it with bit shifting? I know that multiplication by 2 is left bit-shifting by 2, but I can't get my head around addition operation.</p>

@@ -1,0 +1,1 @@
+<p>Does a R package exist which implements a circular array or vector in the sense of FIFO?</p>  <p>Say we have this array:</p>  <pre><code>2 4 7 1 </code></pre>  <p>When inserting a new observation(say 3) at position 1, I want the n-th element to be replaced with the n-1st element:</p>  <pre><code>3 2 4 7 </code></pre>

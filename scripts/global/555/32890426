@@ -1,0 +1,1 @@
+<p>I wanted to make a program that formats USB drives using Python. I have idea on paper: I need to scan USB (or HDD), select disk and make algorithm that formats selected device in FAT32 format. I have no idea how to start.</p>

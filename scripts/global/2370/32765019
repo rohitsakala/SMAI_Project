@@ -1,0 +1,1 @@
+<p>i am learning about the word2vec and doc2vec algorithms. I know that there are python implementations for both via the gensim library. I also found the deeplearning4j library that implements word2vec. Apache spark also has an implementation of word2vec. </p>  <p>Is there a java implementation of doc2vec?</p>

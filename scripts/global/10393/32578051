@@ -1,0 +1,1 @@
+<p>Is it possible to open the filename under the cursor using <code>ctrl-w</code> <code>gf</code> on the <strong>right side</strong> of the current tab in gvim ?</p>  <p>Currently when I opened the file its opening at the <strong>very left side</strong> of the gvim <strong>window</strong>, not even <strong>immediate left</strong> to the current tab.</p>

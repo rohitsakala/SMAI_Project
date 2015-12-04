@@ -1,0 +1,1 @@
+<p>I try to write a regular expression to represent two vowels in a row.</p>  <p>Does this code doing my jobs?</p>  <pre><code>'([aieou]*[aieou]){2,}' </code></pre>

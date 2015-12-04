@@ -1,0 +1,1 @@
+<p>How to install pip for python3.4 when my pi have python3.2 and python3.4</p>  <p>when I used <code>sudo install python3-pip</code></p>  <p>it's only for python3.2</p>  <p>but I want install pip for python3.4</p>

@@ -1,0 +1,1 @@
+<p>I'm running a test in Cucumber where a table with ID <code>clickable-rows</code>. My test result is telling me that there is an ambiguous match when navigating to this table, yet running an xpath check via F12 shows the table is only there once.</p>  <p>Is there a way I can say to search within the first table found? Until my dev's can sort this out?</p>  <p>Thanks</p>

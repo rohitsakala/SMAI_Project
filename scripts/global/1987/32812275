@@ -1,0 +1,1 @@
+<p>Assume that a linux process is trying to read() data from a socket and is blocked on socked fd. What happens to this when it is interrupted by a signal ? Will it return with errno EINRPT or continue to read() on socket fd ?</p>  <p>Is there any generic rule that applies to all the system calls on reception of signals ?</p>

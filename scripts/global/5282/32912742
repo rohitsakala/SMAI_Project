@@ -1,0 +1,1 @@
+<p>I'm pretty bad at parsing sed statements -- I need help here. This removes all leading spaces maybe?</p>  <p><code>sed 's/[[:space:]]*$$//g' file.tmp</code></p>

@@ -1,0 +1,1 @@
+<p>Saving a managed object, it is not created, but an existing changed. Despite <code>NSFetchedResultsController</code> send an <code>.Insert</code> signal, any idea why it happens?</p>  <p>Strange that it happens only in Xcode 7, after code conversion to Swift 2.0.</p>

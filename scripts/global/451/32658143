@@ -1,0 +1,1 @@
+<pre><code>Double value = Double.valueOf(temp.getText().toString()); </code></pre>  <p>Let's say editText temp is 32 Celsius. I only want to get 32 instead of "32 Celsius" so how would I be able to do this? Is this possible?</p>  <p>I'm a newbie with Android Studio.</p>

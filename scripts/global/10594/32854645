@@ -1,0 +1,1 @@
+<pre><code>$title = preg_replace("/|/", "", $title); </code></pre>  <p>In case you're wondering what "/|/" is it's the sign on the same key as backslash, except you use the Shift key to use it.</p>  <p>It doesn't do it if you just do it as it is in the example. There must be some way of removing it.</p>

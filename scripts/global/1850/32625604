@@ -1,0 +1,1 @@
+<p>If you start a child process with the System.Diagnostics.Process class and this child process allocates garbage, will the garbage collection of this garbage happen only in the child process?</p>

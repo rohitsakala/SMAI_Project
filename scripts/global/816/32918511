@@ -1,0 +1,1 @@
+<p>I have column with 3 set possibilities, say (fruit, veg, meat). I want to filter my rows with a drop down, so it only shows rows with fruits or veg etc. I have been looking at the ransack gem but all the examples make you type something into a text field. I plan to have several drop downs as will to filter other columns. Is ransack even the best way to do this? </p>

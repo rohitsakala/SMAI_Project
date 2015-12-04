@@ -1,0 +1,1 @@
+<p>I want to create a view of album.album_name, album.Album_Cost, Artist.Artist_name(s) from my Collection database schema. I want to group all the artist who is a part of specific album. So, how should I do it?</p>

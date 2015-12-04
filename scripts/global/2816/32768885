@@ -1,0 +1,1 @@
+<p>Using <a href="https://examples.cloudant.com/movies-demo/_design/app/index.html" rel="nofollow">Cloudant Query</a> I would like to obtain a count of the number of documents which match a query, without returning the actual documents. Is there a way to do this with the current API, or are there plans to add it in the near future?</p>

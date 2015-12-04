@@ -1,0 +1,1 @@
+<p>One of the columns of a pandas data frame contains values such as 0, 'a', 'b'. This column is parsed as a string. Now I want to convert it to integer to get 0, 1, 2. How can I do this? </p>

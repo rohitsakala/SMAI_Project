@@ -1,0 +1,1 @@
+<p>I've seen some scripts on github that have stuff like this inside their code:</p>  <pre><code>.... },{"../vnode/is-widget.js":29,"../vnode/vpatch.js":32,"./apply-properties":14,"./update-widget":19}],18:[function(require,module,exports){ </code></pre>  <p>What exactly is the role of it, because it looks weird? </p>

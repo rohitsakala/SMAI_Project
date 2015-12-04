@@ -1,0 +1,1 @@
+<p>using this:</p>  <pre><code>date_default_timezone_set('Asia/Kolkata'); </code></pre>  <p>is returning a wrong time result. If the real date time is <code>2015-10-02 12:00:00</code> it's showing <code>2015-10-03 12:30:00</code>. How can I get the right 'ist'?</p>

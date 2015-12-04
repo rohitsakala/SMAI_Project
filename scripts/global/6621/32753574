@@ -1,0 +1,1 @@
+<p>I'm checking with installed protobuf lib version on my system and I'm surprised with, following <strong>/usr/bin/protoc --version</strong> return <strong>V2.4.1</strong> and following <strong>protoc --version</strong> return <strong>V3.0.0</strong>. </p>  <p>Why this is so, am I missing any <strong>user account</strong> related installation concept.</p>

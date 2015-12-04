@@ -1,0 +1,1 @@
+<p>I am building a phonegap onsen.ui application, however I have noticed that on some devices to give focus to an input keyboard does not open for writing.</p>  <p>the device that is not opening the keyboard has android 4.2.2 version, I'm using onsenui - v1.3.8, and phonegap version is 5.3.5</p>  <p>if anyone knows this problem must thank you in advance</p>

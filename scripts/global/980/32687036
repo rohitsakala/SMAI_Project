@@ -1,0 +1,1 @@
+<p>I installed the package</p>  <pre><code>meteor add percolate:google-api </code></pre>  <p>and cofigured the accounts:ui and accounts-google and I am logged in with my gmail.</p>  <p>Not sure of where to put and what to do next to fetch all my gmail emails.</p>  <p>Any help?</p>  <p>Thanks</p>

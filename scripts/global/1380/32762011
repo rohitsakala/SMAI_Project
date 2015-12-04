@@ -1,0 +1,1 @@
+<p>I have a service that detects some info about the "way" app is run (whether is artisan call, where route call,etc). This service is run as a service provider, as the app boots in order to set some specific configs. </p>  <p>How can I make some phpunits tests   in order to "simulate" all scenarios? artisan scenario, httpp call scenario,etc...</p>

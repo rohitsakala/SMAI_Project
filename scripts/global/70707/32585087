@@ -1,0 +1,1 @@
+<p>When i tried to get the cover photo of the current logged in person using <code>currentPerson.getCover().getCoverPhoto().geturl();</code> it throws exception and the <code>e.getMessage()</code> is null. I am getting profile picture url in the same method using <code>currentPerson.getImage().getUrl();</code> How can I get the cover picture url of the person signed in.</p>

@@ -1,0 +1,1 @@
+<p>I am setting the overlay text as follows when a new connection is created. connection.getOverlay("labelCondition").setLabel("Success");</p>  <p>When this is done, texts of all the connections changes to "Success".</p>  <p>How can I get and set the values of overlay text individually.</p>

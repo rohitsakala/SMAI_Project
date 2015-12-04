@@ -1,0 +1,1 @@
+<p>In Filemaker, is there a function or a way, perhaps a Get function, that can determine whether this is being viewed as a WebDirect or not?  This way I can alternate some incompatible controls such as printing and saving as a PDF.</p>

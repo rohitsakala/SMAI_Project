@@ -1,0 +1,1 @@
+<p>So, I have a string that I need to pass to a function in x86-64 assembly code. Think of it in c as something like this:</p>  <pre><code>char str[] = "Abcdef"  void fun(char *str) </code></pre>  <p>How do I do it? Should I pass each character as equivalent hex value and pass to reg? I'm not sure how to do it.</p>

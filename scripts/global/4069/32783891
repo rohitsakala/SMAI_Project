@@ -1,0 +1,1 @@
+<p>I'm using JMS Serializer. I want to serialize object in number, and deseriazing number in object. Now I have:</p>  <pre><code>Country: { id: 1 } Countries: [ { id: 1 }, { id: 2 } ] </code></pre>  <p>But I need to remove this wraps:</p>  <pre><code>Country: 1 Countries: [ 1, 2 ] </code></pre>  <p>How it is possible to do this?</p>

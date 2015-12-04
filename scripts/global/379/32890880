@@ -1,0 +1,1 @@
+<p>I'm currently working in Python and I was wondering how professional programmers deal with exceptions in error handling:</p>  <ol> <li>They deal with error handling after the program is done (but it's not yet "idiot proof")</li> <li>They do it along with the rest of the code</li> <li>It's irrelevant and just a personal choice</li> </ol>

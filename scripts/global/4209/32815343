@@ -1,0 +1,1 @@
+<p>I'm using <a href="http://plugins.krajee.com/file-input" rel="nofollow">Bootstrap File Input</a> . One thing annoying is preview's tooltip on hover is displayed like a floating HTML element instead of a normal tooltip. And this makes my page shaking as its height keeps changing on hover on the previews.</p>  <p>Thanks for help.</p>

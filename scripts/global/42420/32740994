@@ -1,0 +1,1 @@
+<p>I use android studio with ndk and opencv. By default ndk-build command builds files under src/main/libs folder . I want to change it to src/main/jniLibs.</p>

@@ -1,0 +1,1 @@
+<p>I'am trying to generate csmith programs without any printf inside.</p>  <p>I tried to apply <strong>-E -DNO_PRINTF</strong> to a generated program but it seem as GCC doesn't have an argument to link files and then apply the preprocessing pass.</p>  <p>So how to tell csmith to avoid printf in its generated programs?</p>  <p>Thank in advance.</p>

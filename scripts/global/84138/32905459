@@ -1,0 +1,1 @@
+<p>I'm trying to move a .net project into an UWP app and the old codebase is using the binaryformatter to read some very important files. Unfourtunatly the Binaryformatter is abundant in the UWP apps (or am I wrong).</p>  <p>Does anyone know any good substitute for the BinaryFormatter that I can use?</p>  <p>Thx</p>

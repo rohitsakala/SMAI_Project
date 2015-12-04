@@ -1,0 +1,1 @@
+<p>I want to create relationship at runtime in neo4j.The query is. "Allow a user to specify other user as friend"</p>  <p>I have one array of userID from that i can assign any user as one user's friend.</p>

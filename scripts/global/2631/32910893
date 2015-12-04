@@ -1,0 +1,1 @@
+<p>I want to echo all directories which do not starts let's say with <code>a</code> letter. I write following snippet</p>  <pre><code>@echo off  for /d %%g in (*) do (     echo %%~nxg ) </code></pre>  <p>and it prints out all directories. How should I filter out those starts with <code>a</code>? I'm trying do something with IF-Statement, but fail miserably.</p>

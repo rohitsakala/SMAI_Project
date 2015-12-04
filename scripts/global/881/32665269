@@ -1,0 +1,1 @@
+<p>I want to put all files in /sys and /proc in zip files.</p>  <p>I tried this </p>  <pre><code> zip -r files.zip /sys </code></pre>  <p>But get </p>  <pre><code> zip warning: name not matched: /sys/block/ </code></pre>  <p>What is the proper way to do this?</p>

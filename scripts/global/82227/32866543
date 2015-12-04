@@ -1,0 +1,1 @@
+<p>I want to get normal wordpress (theme styled) comments view on woocommerce product page. I disabled reviews, but although I call comments template (comments_template('comments.php');) in woocommerce.php, I get woocomerce review form.</p>  <p>Hot could I output wp comments only?</p>

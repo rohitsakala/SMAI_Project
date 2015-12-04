@@ -1,0 +1,1 @@
+<p>I was wondering if there was a way to call a perl command like:</p>  <pre><code>'my $var = &lt;STDIN&gt;' </code></pre>  <p>Thanks for the help!</p>

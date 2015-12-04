@@ -1,0 +1,1 @@
+<p>My wpf components wont resize with my window, and it desont appear so for other people. For example my tab deosnt resize when i set windows state to maximize. it just stays the same,i  tried addinsome extra xaml code i found but still didnt work.</p>

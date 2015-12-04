@@ -1,0 +1,1 @@
+<pre><code>list split(int size,list l){  ........... } </code></pre>  <p>needed to write a routine, so that it can divide the original linked-list into multiple smaller linked-list of size (provided as a function argument).</p>  <p>is it possible to do this better than o(n) complexity. as linked-list is not indexed data structure. can we take benefit of multiple threads</p>

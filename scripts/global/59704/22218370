@@ -1,0 +1,1 @@
+<p>i am developing ipad related app.Login Screen not change to Landscape mode,i change Xib and used shouldAutorotateToInterfaceOrientation also but its didn't work out .can u help where the mistakes is there.i want app only landscape.<img src="http://i.stack.imgur.com/wQELr.png" alt="Login popup image"></p>

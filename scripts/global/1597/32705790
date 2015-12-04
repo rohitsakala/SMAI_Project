@@ -1,0 +1,1 @@
+<p>I'm new on Swift Programming, and I'm trying to build an app that I can get the coordinates of the center of the view with MapKit and Swift 2.</p>  <p>I already can get the current location, but I need if I move on the map, the location set to the new point which will be the center of the screen.</p>  <p>Can you help me with this please?.</p>  <p>Regards,</p>

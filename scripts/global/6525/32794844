@@ -1,0 +1,1 @@
+<p>I was wondering why there is no clojure reader literal for floats. Something like:</p>  <pre><code>1f </code></pre>  <p>I found <a href="https://groups.google.com/forum/#!topic/clojure-dev/0lc0ORfC_5g" rel="nofollow">this</a>, but it has no responses. The clojure docs do not mention one either. Are there no plans to add it, and if not what is the rationale behind this?</p>

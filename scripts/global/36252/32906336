@@ -1,0 +1,1 @@
+<p>I try this code but in the <code>where</code> clause there's an error.</p>  <pre><code>var subComTbl = from subCom in myDb.SubComTbls where subCom.AuthorityID.ToString()== Authoritycombo.SelectedValue select subCom; SubComcombo.Visible = true; SubComcombo.DataSource = subComTbl; SubComcombo.DisplayMember = "SubComName"; SubComcombo.ValueMember = "SubComID"; </code></pre>

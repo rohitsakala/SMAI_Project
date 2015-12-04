@@ -1,0 +1,1 @@
+<p>In C++ encountered such a scenario</p>  <pre><code>    class complex {   public:     int x,y;     complex () {};     complex (int a,int b) : x(a), y(b) {}     complex operator + (const complex&amp;);   }; </code></pre>  <p>What is this <code>complex&amp;</code> and the meaningfulness of <code>const</code> here. </p>

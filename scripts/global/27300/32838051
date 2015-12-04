@@ -1,0 +1,1 @@
+<p>I use a wildfly 8.0.0.  For security reasons i need logging login attempts for management console. Is it possible and how?</p>  <p>The wildfly instance is configured in standalone mode.</p>

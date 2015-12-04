@@ -1,0 +1,1 @@
+<p>I have NSMutableArray with 3 data or more. I need String with this data like: "data1,data2,data3".</p>  <p>My code:</p>  <pre><code>for(int x=0; x&lt;data.count;x++)     {         NSString *string = [data objectAtIndex:x];      } </code></pre>

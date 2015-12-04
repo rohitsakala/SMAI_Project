@@ -1,0 +1,1 @@
+<p>I have tried to use Hibernates <code>Filter</code> annotation  on my <code>ManyToOne</code> relationship but to no success, it works perfectly fine on <code>OneToMany</code>. </p>  <p>So my question to you is :</p>  <blockquote>   <p>Can i use the <code>Filter</code> annotation on my <code>ManyToOne</code> association? If   yes , how? If no, why not?</p> </blockquote>

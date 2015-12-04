@@ -1,0 +1,1 @@
+<p>I'm trying to 10000 records at a time using yield_per(). This gives me all the records of the query one by one in a stream, using a cursor of length 10000. Is there a way to get lists (of size 10000) of records instead of getting the one by one? </p>  <pre><code>for record in connection.query(my_query).yield_per(10000):     foo(position) </code></pre>

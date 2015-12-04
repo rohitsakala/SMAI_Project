@@ -1,0 +1,1 @@
+<p>I have a problem I have an instance called <code>SQLEXPRESS</code> previously created by SQL Server 2005 Express.</p>  <p>Now it is uninstalled but it didn't remove the instance.</p>  <p>How can I remove it and after to create it with an instance of SQL Server 2012?</p>  <p>The instance is: <code>AC5099\SQLEXPRESS</code></p>  <p>Thanks</p>

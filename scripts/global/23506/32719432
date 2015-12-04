@@ -1,0 +1,1 @@
+<p>I have a django project with thousands of users who engage daily with it twice during peak time (3 hour windows in morning and evening). Because of this, the server receives many requests per second.</p>  <p>I would like to know if django can run and process the requests in  parallel?</p>

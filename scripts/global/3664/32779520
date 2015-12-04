@@ -1,0 +1,1 @@
+<p>I am trying to add the namespace Microsoft.VisualStudio.TestTools.UnitTesting to use the assert class in my code. I've tried installing Microsoft.biz.testingtools from nugget packages but don't have the assert class available to use. I'm using visual studio web express and writing in c#. </p>

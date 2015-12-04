@@ -1,0 +1,1 @@
+<p>I have a list of 50+ coordinates. What is the most efficient way to draw lines between all these coordinates (should create a "circular" path because they all have a display order) that is also easy to customize (line thickness, color, etc...)?</p>  <p>Thanks!</p>

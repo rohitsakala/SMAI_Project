@@ -1,0 +1,1 @@
+<p>I cannot seem to figure out how to get this line to work with whmcs. I want to include this in the header &amp; footer.tpl and tried to do this with {php}{/php} but seems not te be working, and I cannot find the correct solution.</p>  <pre><code>include_once $_SERVER['DOCUMENT_ROOT'] . '/SafeGuardPro/protect.php'; </code></pre>

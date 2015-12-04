@@ -1,0 +1,1 @@
+<p>I am using the below code for  copying the files from one directory to another . i want use the below code in .c file. What all the headers required for this code to be compiled.</p>  <pre><code>sftp gd5017181@iwe00341.ute.some.com -b &lt;&lt; EOF    pwd    cd /home/gd5017181/testdata    pwd    lcd /home/gd5017181/sample    pwd    get .111.*   bye </code></pre>

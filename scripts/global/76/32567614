@@ -1,0 +1,1 @@
+<p>I want to compress a compressed file. But when I mixin the compressed file and compress it again, the file is larger than before everytime.</p>  <p>I have 2 methods for mixing. First, compressed file XOR another file(Generated). Second, Swap some bits in compressed file.</p>  <p>Do you have any ideas about new methods or is it impossible ?</p>

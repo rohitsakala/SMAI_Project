@@ -1,0 +1,1 @@
+<p>I've had this problem and didn't find a proper way to check if a given X,Y point is inside an arbitrary 2 dimensional polygon.</p>  <p>After a couple of hours I managed to find a way which also considers points that are right on the edge of a polygon to count as a match.</p>

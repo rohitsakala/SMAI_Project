@@ -1,0 +1,1 @@
+<p>When I run</p>  <pre><code>C:\Windows\System32\inetsrv\appcmd.exe start site /site.name:"Some_site_name" </code></pre>  <p>on Windows Server 2008 R2, it fails with message</p>  <pre><code>ERROR ( hresult:800710d8, message:Command execution failed. The object identifier does not represent a valid object. ) </code></pre>  <p>... although the site exists.</p>

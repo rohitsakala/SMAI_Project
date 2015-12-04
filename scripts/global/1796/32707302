@@ -1,0 +1,1 @@
+<p>By using the following commands, three lines can be shown in one figure. (A, B, C are three functions.)  </p>  <pre><code>plot(A);   hold on;   plot(B);   hold on;   plot(C);   hold off; </code></pre>  <p>I wonder if this can be replaced by one command line.</p>

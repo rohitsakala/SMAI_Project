@@ -1,0 +1,1 @@
+<p>I was reading through Donal Fellows' excellent explanation on why you should <a href="http://stackoverflow.com/a/17457051/476388">brace your <code>expr</code></a>.</p>  <p>It makes me wonder why doesn't the tcl compiler automatically brace <code>{}</code> the <code>expr</code>? What are conditions under which this automatic bracing will fail?</p>

@@ -1,0 +1,1 @@
+<p>I have solution that contain two projects - client and server. Currently I need to debug client side, but to debug it I need to run server one. Additionally it would be nice to have possibility to place breakpoints and go through them in server application side while debugging client side.</p>  <p>How to run server application when starting debug client side?</p>

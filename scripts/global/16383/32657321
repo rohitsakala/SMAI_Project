@@ -1,0 +1,1 @@
+<p>I' new to objective-c and I need to change the navigation bar color in all the scenes. As far a I know this sentences should do it:</p>  <pre><code>UINavigationBar.Appearance.barTintColor = UIColor.Black; UINavigationBar.Appearance.TintColor = UIColor.White; </code></pre>  <p>But I don't know where to set them.</p>

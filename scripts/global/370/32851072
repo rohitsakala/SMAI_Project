@@ -1,0 +1,1 @@
+<p>Say I just moved the "viewport" (is that the right word?) 10 lines down:</p>  <pre><code>10&lt;C-e&gt; </code></pre>  <p>Is there now a quick way I can repeat that viewport movement?</p>

@@ -1,0 +1,1 @@
+<pre><code>    ERROR ITMS-90034: "Missing or invalid signature. The bundle '24D65G53J4.iPhoneTest' at bundle path 'Payload/EHRS_APP.app' is not signed using an Apple submission certificate." </code></pre>  <p>I have this problem, I got certificate from apple still I cant know what is problem</p>

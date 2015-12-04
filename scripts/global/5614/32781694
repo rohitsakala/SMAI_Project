@@ -1,0 +1,1 @@
+<p>I would like to create system modal dialog. I mean a dialog that blocks the entire system screen, not a particular application. So far I found Application modality and Toolkit modality that might be replaced even with manual disabling blocked frames, but still no function to lock the entire screen as in a native application. How can I do this?</p>

@@ -1,0 +1,1 @@
+<p>Here is the code.</p>  <pre><code>xcopy /c/s/z "%appdata%" "./backup" </code></pre>  <p>Is there a way to make it not copy folders with nothing in them?</p>

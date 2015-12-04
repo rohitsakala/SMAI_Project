@@ -1,0 +1,1 @@
+<p>I need to invoke a contentscript method on button click.</p>  <p>The button is inside an iframe that has been injected onto the page by the chrome extension itself on browser action.</p>

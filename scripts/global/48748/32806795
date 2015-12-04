@@ -1,0 +1,1 @@
+<p>What is Devise <code>user_signed_in?</code> method named in RefineryCMS?</p>  <p>I'm using RefineryCMS Core 3.0 and refinerycms-authentication-devise 1.0.</p>  <p>I tried <code>refinery_user_signed_in?</code> since the class is <code>Refinery::User</code> and the current user helper is <code>refinery_current_user</code>. But this gives a NoMethodError.</p>

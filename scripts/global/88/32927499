@@ -1,0 +1,1 @@
+<p>I'm trying to come up figure out a way to automatically go to to the next post in line on a wordpress site when a youtube video in the current post has stopped playing. The youtube videos are not embeded with the youtube API but rather embeded using the iframe. </p>  <p>Does anyone have any idea how to do this?</p>

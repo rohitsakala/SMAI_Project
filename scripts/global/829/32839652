@@ -1,0 +1,1 @@
+<p>how to create event on Mdi Child WPF</p>  <pre><code>using WPF.MDI;  mdiMain.Children.Add(new MdiChild {      Title = "Setup Customer",      Content = uscSetupCustomer      closing += new System.Windows.RoutedEventHandler(fromChile_Closing)  //not work  }); </code></pre>

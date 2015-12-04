@@ -1,0 +1,1 @@
+<p>So I'm trying to run two Python files in one line in a configuration file and it's not working, what's wrong with the way I've done it.</p>  <pre><code>on_event_start python /home/Documents/email_alert.py /home/Documents/sms_alert.py </code></pre>

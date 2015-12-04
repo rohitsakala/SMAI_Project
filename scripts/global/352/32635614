@@ -1,0 +1,1 @@
+<p>I am trying to use Breeze 1.5.4 with NHibernate 4.0.4.4000 using NuGet. The package <code>Breeze.Server.ContextProvider.NH</code> has a dependency on NHibernate (>= 3.3.0 &amp;&amp; &lt; 4.0.0).</p>  <p>Is this accurate? Will Breeze just not work with the latest version of NHibernate?</p>

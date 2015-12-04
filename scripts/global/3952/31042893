@@ -1,0 +1,1 @@
+<p>I repacked an APK into a BlackBerry BAR and uploaded it successfully to the BlackBerry market. I am using Adobe AIR. How can I tell if my app is running on an actual Android device or a Blackberry device ? If I use <code>Capabilities.manufacturer</code>, it always returns "Android".</p>  <p>Thanks !</p>

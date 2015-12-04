@@ -1,0 +1,1 @@
+<p>I want to access the video stream being recorded by Kurento in Real-Time.</p>  <p>In the default implementation, I can only get hold of the video once the call is completed, but how can I access the file as it is being created?</p>

@@ -1,0 +1,1 @@
+<p>We are currently using MSScript.ocx control to run custom VBScript file from C# application. Going forward, MSScript won't be compatible with 64-bit applications. Are there alternatives by which the same results can be achieved?</p>

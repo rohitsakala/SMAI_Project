@@ -1,0 +1,1 @@
+<p>I have this so far and it is readonly, but I would like it to be greyed out. I need it to be an editorFor because I am using bootstrap and it looks better than a textbox. </p>  <pre><code>@Html.EditorFor(model =&gt; model.EndDate, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } }) </code></pre>

@@ -1,0 +1,1 @@
+<p>I'm using an linux instance on amazon EC2 for a Vaadin app, and want to set overall security. I will use 755 so that users can use the app...</p>  <p>How do I set this for all the instance? If I do it folder by folder I will surely miss more than one</p>  <p>Regards</p>

@@ -1,0 +1,1 @@
+<p>i know the following ways to create an object .but can you tell me what is the difference between them.</p>  <ol> <li>Test test =new Test()</li> <li>Test test =null;</li> <li>Test test ;</li> </ol>  <p>Also let me know, which one we need to follow under which circumstances.</p>

@@ -1,0 +1,1 @@
+<p>Hy!</p>  <p>Is there a possibility to use the microphone to get an audio stream? The capture API from Phonegap is only able to save the audio file before accessing the data.</p>  <p>I want to analyse the audio stream in real-time and can't find a way to do this.</p>  <p>Thank you, Chris</p>

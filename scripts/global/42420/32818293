@@ -1,0 +1,1 @@
+<p>There are a lot of examples with adding a whole source folder to paths like a </p>  <pre><code>cppFlags += "-I${file("src/main/jni/native_app_glue")}".toString() </code></pre>  <p>in new experimental gradle plugin for AS 1.3+</p>  <p>Is there a way to add single source file to it?</p>

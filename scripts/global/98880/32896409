@@ -1,0 +1,1 @@
+<p>I am new to Scala and studying a book about it (<em>Programming in Scala</em>). I am really lost, what is the author trying to explain with the code below. Can anyone explain it in more detail ?</p>  <pre><code>{ val x = a; b.:::(x) } </code></pre>

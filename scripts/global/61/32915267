@@ -1,0 +1,1 @@
+<p>I am debugging my program with immunity debugger when I realized that there were data already written in it before the program replace them by the new datas. My question is : is it normal to see something written in a buffer before putting the new datas in it? </p>

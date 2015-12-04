@@ -1,0 +1,1 @@
+<p>please advise me how to get//read parent of currently selected item in menu .... Wordpress//PHP</p>  <p>Example:</p>  <p>Menu structure:</p>  <p>A -aa -ab -ac</p>  <p>B -ba -bb -bc</p>  <p>So, if user chooses, let say "ba" item then I need to get "B" item (...)</p>  <p>Thank You</p>

@@ -1,0 +1,1 @@
+<p>I want to block some IPs through htaccess to visit the site to prevent malicious attacks an example IP is : 172.30.1.193 I am using this rule to block the IP </p>  <pre><code>order allow,deny deny from 172.30.1.193 allow from all </code></pre>  <p>but i am recieving error of forbidden 403</p>

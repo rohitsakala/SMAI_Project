@@ -1,0 +1,1 @@
+<p>I want to fetch next week data. My date is 2/10/2015 and today is friday. I want to fetch next week data that starts from Monday. I refered <a href="http://stackoverflow.com/questions/6671489/mysql-select-only-next-week-data">this link</a>. I am using codeigniter so what is the process to write the sql query in codeigniter?</p>

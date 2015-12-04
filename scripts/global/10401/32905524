@@ -1,0 +1,1 @@
+<p>Is there a command which lists deleted users from Active Directory ?</p>  <p>Regarding the disabled users I found <code>dsquerrry users -disabled</code> command.</p>  <p>Thank you for any help you can provide !</p>  <p>Cheers</p>

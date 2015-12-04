@@ -1,0 +1,1 @@
+<p>I would like to use the querybuilder of Adobe Experience Manager to request all direct child of a node.</p>  <p>At the moment I tryied <code>bin/querybuilder.json?path=/&amp;p.limit=10</code>. How can I make this request non recursive?</p>

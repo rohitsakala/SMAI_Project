@@ -1,0 +1,1 @@
+<p>I know its possible to forward a Wildcard subdmain with DNS (like GoDaddy) by adding: <code>*</code> which points to an <code>IP Address</code>. The problem we have is that we don't know if its possible to forward/map a subdomain like <code>*-suffix</code></p>  <p>Where the pattern is the <code>{wildcard}-suffix.domain.com</code></p>

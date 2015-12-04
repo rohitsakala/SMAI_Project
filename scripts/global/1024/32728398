@@ -1,0 +1,1 @@
+<p>I would like a singleton object in Scala that has an updatable field. Is there a better solution than what I have below that doesn't use a <code>var</code>? </p>  <pre><code>class Foo {    def setFoo(newFoo: String): Unit = {     Foo.foo = newFoo   }    def getFoo: String = {     Foo.foo   } }  object Foo {   var foo = "foo" } </code></pre>

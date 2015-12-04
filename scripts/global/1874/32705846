@@ -1,0 +1,1 @@
+<p>I Have a search text box with out a name.  </p>  <p>How should this code change to handle it?</p>  <pre><code> IWebElement element = driver.FindElement(By.Name("searchBoxText")); </code></pre>

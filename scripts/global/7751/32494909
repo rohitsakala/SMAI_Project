@@ -1,0 +1,1 @@
+<p><a href="http://i.stack.imgur.com/FVh1h.png" rel="nofollow"><img src="http://i.stack.imgur.com/FVh1h.png" alt="this column should computed automatically"></a></p>  <p>I have Payroll table. I want to calculate Netpay automatically. That is, whenever the row is inserted, Netpay should be calculated like (Grosspay - OtherExpenses).How can I do It. Please I need your help!!!</p>

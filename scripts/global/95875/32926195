@@ -1,0 +1,1 @@
+<p>Is there any way to omit the dialect prefix from a thymeleaf processor? Let's say I have defined a processor like this:</p>  <pre><code>&lt;dialect:processor&gt; ... &lt;/dialect:processor&gt; </code></pre>  <p>is there some way to modify the dialect class to be able to use the tag this way:</p>  <pre><code>&lt;processor&gt; ... &lt;/processor&gt; </code></pre>

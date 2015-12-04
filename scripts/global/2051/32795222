@@ -1,0 +1,1 @@
+<p>I use Authenticator to login to the server like that:</p>  <pre><code>Authenticator.setDefault (new Authenticator() {    protected PasswordAuthentication getPasswordAuthentication() {       return new PasswordAuthentication ("admin", "*****".toCharArray());    } }); </code></pre>  <p>It works fine. But how can I ensure that authorization is actually successful?</p>

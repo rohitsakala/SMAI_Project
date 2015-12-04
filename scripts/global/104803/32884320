@@ -1,0 +1,1 @@
+<p>I am using Xcode 6. I have a workspace with two projects written in Swift in the workspace. I want to use some common files like Image assets, common classes, etc.. for both the projects. How can I do that ?</p>

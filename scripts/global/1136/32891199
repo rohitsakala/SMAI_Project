@@ -1,0 +1,1 @@
+<p>We want to change some of our JFace TableViewers to NatTable. The TableViewer had a handy method to change a data sources namely:</p>  <pre><code>tableViewer.setInput(source) </code></pre>  <p>We used this method pass a new List when we queried a database. Is there something similar available in NatTable?</p>

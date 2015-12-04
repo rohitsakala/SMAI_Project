@@ -1,0 +1,1 @@
+<p>Hi I wonder how to set "on" state on init, or how can I call onChange event ? I can't find it in doc.</p>  <pre><code>$this-&gt;widget('yiiwheels.widgets.switch.WhSwitch', array(     'name' =&gt; 'switchbuttontest'             )) </code></pre>

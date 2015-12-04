@@ -1,0 +1,1 @@
+<p>I am scraping a webpage using python. I have to know that current webpage is updated from previous page or not. I scrape webpage after some times regularly. I want it so that if page is not updated then there is no need to rescrape that page.For this, it is sure that we have to connect to server.</p>

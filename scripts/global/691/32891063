@@ -1,0 +1,1 @@
+<p>I want a terminal command or shell (bash) script that will reload/refresh a Safari browser tab with a location/address with a hostname of <code>localhost</code> and any path.</p>  <p><code>open http://localhost:8000</code> doesn't work for any path and switches to Safari, but I want to stay in my text editor Atom.</p>  <p>Bonus: Provide solutions for Chrome &amp; Firefox.</p>

@@ -1,0 +1,1 @@
+<p>Please help me with problem - I have button, or label, or textfield at UiViewController view, which have method to open another view, if i touch it.</p>  <p>But if i touch button, label or textfield very fast, it can open two, or three, or more same views.</p>  <p>How to disable this opening? How to open only one view? How i can do this for all project?</p>  <p>Thanks!</p>

@@ -1,0 +1,1 @@
+<p>I have question about the method how windows os changes mode from user mode(app code) to kernel mode(like driver code)  when Application use directX(or OpenGL) function or normal function(system call like printf).</p>  <p>what is different?</p>  <p>If there is different for performance, I want to know about this.</p>

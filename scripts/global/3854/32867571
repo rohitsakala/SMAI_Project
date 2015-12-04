@@ -1,0 +1,1 @@
+<p>How to get rid of this error? Tried with multiple accounts and multiple apps.</p>  <blockquote>   <p>PHP Error was encountered</p> </blockquote>  <p>Severity: Notice</p>  <p>Message: Undefined index: oauth_token</p>  <p>Filename: twitter/twitteroauth.php</p>  <p>Line Number: 118</p>

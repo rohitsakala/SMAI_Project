@@ -1,0 +1,1 @@
+<p>I used Primefaces dropdownlist in my website.I want to redirect each selected city to different pages.(e.g Usa->NewYork->xxx.xhtml; Usa->Denver->yyy.xhtml; Brazil->Salvador->zzz.xhtml) How can I do? <a href="http://www.primefaces.org/showcase/ui/ajax/dropdown.xhtml" rel="nofollow">Primefaces Dopdownlist</a></p>

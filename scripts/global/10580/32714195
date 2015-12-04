@@ -1,0 +1,1 @@
+<p>I'm developing a site using opencart in which I plan to support multiple currencies. The currency should change based on the user’s physical location; that is, if a person opens it from the USA the currency visibility is set dollars, and if person in India opens it, it should be set to INR. Is that possible?</p>

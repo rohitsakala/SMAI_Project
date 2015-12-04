@@ -1,0 +1,1 @@
+<p>I am running the following java program in eclipse. My string contain latin character.When I am printing the string it looks some weird. Here my code is</p>  <pre><code>    String sample = "tést";     System.out.println(sample); </code></pre>  <p>Output:</p>  <pre><code>    t?st </code></pre>  <p>please help me. thanks in advance</p>

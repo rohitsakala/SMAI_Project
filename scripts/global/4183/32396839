@@ -1,0 +1,1 @@
+<p>I have some text indicators in my VI  that I don't want the user to be able to edit.  However, the user still can copy the text which is displayed (I mean he can focus the cursor on the text and choose a fragment which is highlighted).</p>  <p>How can I disable it? I tried using the KeyFocus property, but it didn't help.</p>

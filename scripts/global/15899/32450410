@@ -1,0 +1,1 @@
+<p>I have installed one addons for IE browser. Which gives result on google search and display it on top of the google search result. </p>  <p>However, this addons work on browser window but when I load browser in WPF with webbrowser control then this addons is not getting display.</p>  <p>Please help !!!!</p>

@@ -1,0 +1,1 @@
+<p>Neo4j doesn't allow Index and Unique constraint on same property against a label. Does it mean ? <br><br> a) Unique Constraint is already indexed <br><br> b) Indexed property can have duplicate value across different node.</p>

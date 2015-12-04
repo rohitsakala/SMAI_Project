@@ -1,0 +1,1 @@
+<p>I need to test deletion from a hash:</p>  <pre><code>store = { 'a': 4 } delete store['a'] expect(store['a']).toBeUndefined() </code></pre>  <p>this test passed on chrome, but not in firefox. I get:</p>  <pre><code>Expected null not to be defined. </code></pre>  <p>How can I avoid this bug?</p>

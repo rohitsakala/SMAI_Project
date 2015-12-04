@@ -1,0 +1,1 @@
+<p>Is there a way to configure a rest web service to allow only one connection at a time?</p>  <p>I am using Wildfly 9.0.1-Final with the resteasy 3.0.11.Final implementation.</p>

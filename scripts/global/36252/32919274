@@ -1,0 +1,1 @@
+<p>I already try that <a href="http://stackoverflow.com/questions/15292175/c-sharp-using-sendkey-function-to-send-a-key-to-another-application">link</a></p>  <p>And I want to do as same as that but when the process not front,  Without <code>SetForegroundWindow</code></p>  <p>Is is possible?</p>

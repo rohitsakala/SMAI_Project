@@ -1,0 +1,1 @@
+<p>Does anybody knows good VB.NET code formatting tool? By code formatting I mean rearranging class members by type, scope and alphabetically, maybe customized.  </p>  <p>Every tool I found is for C# only, no VB.NET. Only tool that can do that is MZ-Tools, which have some major flaws and NArrange, which is obsolete and can not arrange new VB.NET language features.</p>

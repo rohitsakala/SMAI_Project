@@ -1,0 +1,1 @@
+<p>When I do:</p>  <pre><code>print $fh 'text'; </code></pre>  <p>I need a some <code>&amp;sub</code> to be called.</p>  <p>It there a way to do that?</p>

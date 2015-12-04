@@ -1,0 +1,1 @@
+<p>I created a project Windows Phone with Silverlight.</p>  <p>How can I add blur effect in this image?</p>  <pre><code>&lt;Image Source="Images\myImage.png" Stretch="Fill"&gt;         &lt;Image.Effect&gt;             &lt;BlurEffect Radius="20"/&gt;         &lt;/Image.Effect&gt; &lt;/Image&gt; </code></pre>

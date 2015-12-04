@@ -1,0 +1,1 @@
+<p>whats the coordinate unit of the vector images (SVG) specially in CSS? is that px? or something other? i'm using border-image-slice, but i don't know how to use it when the border-image-source is setted on a vector image.</p>

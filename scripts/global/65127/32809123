@@ -1,0 +1,1 @@
+<p>Is the below a good pratice? Any other better way to do it?</p>  <pre><code>app.get('/', function (req, res, next) {     var data = { product: 'test', price: '90.00' };     res.json(data);     io.emit('value', data); }); </code></pre>  <p>If res.render() is use, it won't work and need timeout to emit data.</p>

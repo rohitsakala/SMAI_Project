@@ -1,0 +1,1 @@
+<p>From a json file online I would like to make a playlist in OSMC (OSMC-skin). I managed with python to make a xml file out of it. I would like to create a link in a xml file of the menu of OSMC to this xml file and than try to manage to let it play m3u8 files. I saw it uses xml files to make up the menu. But which xml file it uses to create it's menu?  </p>

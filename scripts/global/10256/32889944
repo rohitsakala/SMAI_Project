@@ -1,0 +1,1 @@
+<p>I have a code like this:</p>  <pre><code>#include &lt;stdio.h&gt; int main() {   char a=20,b=30;   char c=a*b;   printf("%c\n",c);   return 0; } </code></pre>  <p>The output of this program is <strong>X</strong> .</p>  <p>How is this output possible if a*b=600 which overflows as char values lies between -128 and 127 ?</p>

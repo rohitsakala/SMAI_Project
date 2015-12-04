@@ -1,0 +1,1 @@
+    Upload image:         <p>how can i upload image in php in best effective manner eg say class or may be even better method than class.  my requirements from module:  upload the image to folder and saving its path to db  must have image crop functionality for different sizes  must delete image from folder after deleting image.  something like that  thanks</p>

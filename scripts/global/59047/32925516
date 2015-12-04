@@ -1,0 +1,1 @@
+<p>I am using django and want to get the address of the client so that i can find appropriate record from my database using his location.i have obtained geolocation coordinates in html on client side and need to pass them to server side python in django so plz suggest if any body knows</p>

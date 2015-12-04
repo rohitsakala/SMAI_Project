@@ -1,0 +1,1 @@
+<p>Is there a way to convert a Stage view into a web project (styles.css, scripts.js, index.html, images, etc), the one that will trigger listeners from the controller of the Stage view using js?</p>  <p>Im very new to JavaFx, please help me formulating the question as well. </p>  <p>Thank you!</p>

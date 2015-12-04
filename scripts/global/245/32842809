@@ -1,0 +1,1 @@
+<p>I'm trying to parse this format: <code>2015-09-28T12:42:44.000Z</code>  into something more convenient like <code>DD-MM-YYYY HH:MM</code> I've tried with different methods, of following kind:</p>  <pre><code>DateTime.ParseExact(item.snippet.publishedAt, "YYYY-MM-DDTHH:mm:ss.SSSZ", CultureInfo.InvariantCulture); </code></pre>  <p>Nothing seems to work. </p>

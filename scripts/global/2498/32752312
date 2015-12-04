@@ -1,0 +1,1 @@
+<p>I have a string that follows a number in a txt file, and want to replace that string with the following number. So could i replace, for instance, the string "text 1" and any of its variations such as "text 2", "text 6", text 10", "text 1553", etc.?</p>  <p>Im using sed:</p>  <pre><code>sed 's/text 1/new text/g' file.txt </code></pre>

@@ -1,0 +1,1 @@
+<p>I am calling multiple fragments on an activity. i traverse as fragment A->B->C.  When I press back button I go to the previous fragment i.e., B. but if I want to go to C again from B the blank screen of main activity is displayed not any fragment.. what to do?</p>

@@ -1,0 +1,1 @@
+<p>Specifically I'm interested in retrieving information about resources such as conference rooms, projectors, or company vehicles. So far I found this API: <a href="https://developers.google.com/admin-sdk/calendar-resource/" rel="nofollow">https://developers.google.com/admin-sdk/calendar-resource/</a> but it's intended to be used by "Google Apps administrators" only.</p>

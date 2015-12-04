@@ -1,0 +1,1 @@
+<p>How should we store the Product ID, Product Name,Product Size and Product Price using ngStorage or Local Storage, when the customer adds the product to the cart and disply all the products in the cart page? It seems like multi-dimensional arrays aren't that effective with ngStorage.</p>

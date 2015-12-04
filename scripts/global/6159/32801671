@@ -1,0 +1,1 @@
+<p>In pyqt4, I can use <code>setWindowFlags(Qt.SplashScreen)</code> so the window have no title bar.</p>  <p>And use <code>setWindowFlags(Qt.WindowStaysOnTopHint)</code> to make window always stays on top.</p>  <p>But what if I want them both? No title bar and stays on top at the same time.</p>  <p>Is there a way to achieve that...?</p>

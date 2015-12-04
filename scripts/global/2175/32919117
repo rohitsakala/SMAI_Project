@@ -1,0 +1,1 @@
+<p>working Code</p>  <pre><code>this.Output0Buffer.Column = Row.Name; </code></pre>  <p>Not working code</p>  <pre><code>string[] a = new string[] { "Column" }; this.Output0Buffer.a[0] = Row.Name; </code></pre>

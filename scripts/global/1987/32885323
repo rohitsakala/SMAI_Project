@@ -1,0 +1,1 @@
+<p>I am using </p>  <pre><code>ABMultiValueAddValueAndLabel(PhoneValue,(__bridge CFTypeRef)mblNum.number,kABPhoneMobileLabel, NULL); </code></pre>  <p>but its giving me error. How to overcome this? I am developing an app for OS x.</p>

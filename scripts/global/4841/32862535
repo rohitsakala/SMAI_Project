@@ -1,0 +1,1 @@
+<p>how i can enable/disable network with java program <code>.jar</code></p>  <p>how i can use :</p>  <pre><code>Runtime.getRuntime().exec()  </code></pre>  <p>is this can do </p>  <pre><code>Process result = Runtime.getRuntime().exec("ipconfig/release"); </code></pre>  <p>thank you</p>

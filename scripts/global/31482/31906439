@@ -1,0 +1,1 @@
+<p>I'm restricting user to either select default audio profiles or customized audio setting, for this purpose I'm using radio button for profiles and customized audio settings, so if user select customized settings all seek bars are reactive for use, Is there any way to do this, also numbers at seek bars</p>

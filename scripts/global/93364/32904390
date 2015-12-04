@@ -1,0 +1,1 @@
+<p>I have a large assembly (written in VB.NET).</p>  <p>Is there a simple way (or tool) that will list all the functions with perhaps the size of each function (in respect to lines of code)?</p>  <p>I have downloaded nDepend but could not see that facility within it.</p>

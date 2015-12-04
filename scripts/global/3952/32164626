@@ -1,0 +1,1 @@
+<p>Im trying to develop a blackberry native app, whose function is to lock the device. Is it possible to set the device lock state? should i use any third party api?</p>  <p>I found this java code..</p>  <p>ApplicationManager appman =  ApplicationManager.getApplicationManager(); appman.lockSystem(true);</p>  <p>Anything similar in c++?</p>

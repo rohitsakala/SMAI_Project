@@ -1,0 +1,1 @@
+<p>I'm setting an array equal to another array.</p>  <p>So let's say array B = array C.</p>  <p>Then, if I do operations on array B, changing it's values, does C also change?</p>  <p>I want to say absolutely not, but I'm having a brain fart and I feel like that what's happening in my code right now.</p>

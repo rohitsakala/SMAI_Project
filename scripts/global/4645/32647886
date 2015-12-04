@@ -1,0 +1,1 @@
+<p>i have one folder on remote server and i want to get some pictures from there.</p>  <p>My URL is : <code>//lpserver/.../img.jpg</code> I tried do this : <code>&lt;img src="file://///lpserver/.../img.jpg"/&gt;</code>, but its not working...</p>  <p>Any advice? </p>

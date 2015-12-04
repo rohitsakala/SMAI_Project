@@ -1,0 +1,1 @@
+<p>I must use SQL Server procedure <code>sp_send_dbmail</code> to send some mails from an ASP.NET MVC application using Entity Framework.</p>  <p>How can I do it using both plain SQL query and mapped models?</p>  <p>Thanks</p>

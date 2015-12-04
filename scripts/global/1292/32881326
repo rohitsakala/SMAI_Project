@@ -1,0 +1,1 @@
+<p>Is there any alternative present for Static Field in C# as static field never garbage collected? If I want to declaure the number of strings, constants which I want to use throughout the program, I am finding a way for that.</p>

@@ -1,0 +1,1 @@
+<p>I created a simple application that accesses a DataSnap server.</p>  <p>When I run in simulator (iOS 9) or iPad 2 (iOS 9.0.1), everything works perfectly.</p>  <p>When I run on the iPhone 5, an error message appears when connecting to DataSnap Server (External Exception 434C4E47432B2B00).</p>  <p>Any idea?</p>

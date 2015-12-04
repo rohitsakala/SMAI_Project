@@ -1,0 +1,1 @@
+<p>Is it possible to highlight particular page in kendo grid pager ? I tried grid.dataSource.page(n) but it actually loads the page. What I want is I should be able to explicitly highlight say page 3 as selected. </p>

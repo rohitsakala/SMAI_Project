@@ -1,0 +1,1 @@
+<p>Is there a way where I can force the app to call regionDidChangeAnimated every time MKMap is loaded? On initial run of the app regionDidChangeAnimated method is called but when I tap a button it is not called. I need to recall regionDidChangeAnimated method to update the viewconroller's title.</p>  <p>Thanks in advance!</p>

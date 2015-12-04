@@ -1,0 +1,1 @@
+<p>I have a C ruby extension that I document with rdoc. There are both C files and ruby files that are parsed by rdoc.</p>  <p>Does yard can do the same and is there an "easy way", (I mean a commonly used way) to migrate from rdoc to yard?</p>

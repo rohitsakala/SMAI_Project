@@ -1,0 +1,1 @@
+<p>In ActionScript 2.0, hitTest only tests if the movie clips touch by their RECTANGULAR REGIONS, not by the various regions with the drawing.  Does anyone know how to settle this?</p>  <p>I need a nonrectangular analogue of hitTest for a platform game.</p>

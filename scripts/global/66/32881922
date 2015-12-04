@@ -1,0 +1,1 @@
+<p>I am trying to load Navigation functionality from single class to multiple classes. I have already implemented navigation drawer in single class, but need to be implemented using explicit intents.  </p>

@@ -1,0 +1,1 @@
+<p>While creating PDF using xhtm2pdf we are unable to print "£" sign but works for dollar and euro. We have used setting font face and changed font family but still we are not able to print GBP.</p>

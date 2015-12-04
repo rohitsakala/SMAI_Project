@@ -1,0 +1,1 @@
+<p>Is it possible to send API request even if the app is not working on the background. FourSquare can send push notifications while the app is not working if there's a friend nearby. So I thought it's technically possible.</p>

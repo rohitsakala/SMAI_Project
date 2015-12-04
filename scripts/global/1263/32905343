@@ -1,0 +1,1 @@
+<p>Let's say, I have a timeIn of <code>29-09-2015</code> at <code>10:11:03</code> and a timeOut of <code>01-10-2015</code> at <code>02:19:38</code>, how will I get all the <strong>night times</strong> of those, considering that night times will start at <code>23:00(11:00PM)</code> and ends <code>06:00AM</code></p>

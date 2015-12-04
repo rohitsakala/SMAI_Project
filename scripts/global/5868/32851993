@@ -1,0 +1,1 @@
+<p>In asp.net MVC, when I'm working in a cshtml file, is there a way to determine the parent layout file if I don't know which one it is?</p>

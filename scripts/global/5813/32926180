@@ -1,0 +1,1 @@
+<p>when compiling a java program you normally use <code>java programName</code>. What does the below line mean?</p>  <p><code>java BinarySearch whitelist.txt &lt; input.txt</code>   What are the 2 txt files doing (is it input output files) what is the &lt; mean</p>  <p>Thanks</p>

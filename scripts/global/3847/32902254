@@ -1,0 +1,1 @@
+<p>I want to convert single image to 60 seconds video.I tried below code</p>  <pre><code>&lt;?php     print exec('/usr/local/bin/ffmpeg -y -r 1/60 -i img/image1.png video.mp4 2&gt;&amp;1 video.mp4 2&gt;&amp;1 &gt;/dev/null', $output, $exit_status);  ?&gt; </code></pre>  <p>It works and generates video.But video is corrupted.</p>

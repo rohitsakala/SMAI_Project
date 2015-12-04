@@ -1,0 +1,1 @@
+<p>Is primary index created on clustering column of a compound primary key in cassandra? If not, what performance benefit we get by creating secondary index on it?</p>

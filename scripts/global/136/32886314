@@ -1,0 +1,1 @@
+<p>I interested in implementing restful admin areas with AngularJS. Since APIs should be stateless, i want to implement the admin area using OAuth and I'm horrible about security risks like MitM. </p>  <p>So what are the security risks in this case and how can fix theme?</p>

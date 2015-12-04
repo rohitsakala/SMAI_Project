@@ -1,0 +1,1 @@
+<p>I have a spring boot app pushed into cf. Now my app while running needs to get the number of instances in which my app is running. It is using this info in the program logic. what shall I do to my code to get this info.  (Will redeploy the app after needed changes made to my project)</p>

@@ -1,0 +1,1 @@
+<p>Hello I have save the auction time in database in PST (Pacific Standard Time). I want to show the time in user time Zone. For Example if the user is from UTC and my auction time is 1AM PST It should be display to user like 10AM UTC.. I need to convert PST to user time zone.  Any Help Many Thanks </p>

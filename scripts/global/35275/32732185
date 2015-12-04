@@ -1,0 +1,1 @@
+<p>Are there any known issues when opening .accde(compiled from Access 2010) from Access 2013? I know it's supposed to run but I think I'm missing something out. My Access 2013 crashes when I open an .accde file compiled from Access 2010. When I open it using Access 2010, it works fine but completely freezes and stops when opened with Access 2013.</p>

@@ -1,0 +1,1 @@
+<p>I have this piece of code to display an array of elements in the form of radio buttons....For some reason it's allowing to select multiple options.</p>  <pre><code>&lt;label ng-repeat="item in item.items"&gt; &lt;div&gt;     &lt;input type="radio" ng-value="item" ng-click="$parent.onItemSelected(item)" /&gt;     {{item}}     &lt;br /&gt; &lt;/div&gt; </code></pre>  <p></p>

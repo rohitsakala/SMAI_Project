@@ -1,0 +1,1 @@
+<p>I need to access some read only attributes into spring code and use them. however I'm not even able to read those attributes from LDAP . Tried using attribute mapper and context mapper but no use. Any other way is possible?</p>

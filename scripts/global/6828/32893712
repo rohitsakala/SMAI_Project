@@ -1,0 +1,1 @@
+<p>I would like to know if there a way to change array names while looping.</p>  <p>for example </p>  <pre><code>For i= 1 to 4     "array" &amp; i() Next i </code></pre>  <p>array1 ,array2,array3,array4  are my 4 arrays.</p>  <p>Thanks</p>

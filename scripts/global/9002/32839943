@@ -1,0 +1,1 @@
+<p>I have a window that contains a few buttons (the window acts as a starting page). When I first create and open the <code>Shell</code>, the first <code>Button</code> created is assigned the focus. Is there a way to remove the focus from this <code>Button</code>?</p>  <p>Using <code>SWT.NO_FOCUS</code> does not help.</p>

@@ -1,0 +1,1 @@
+<p>In jQuery DataTables pagination control is displayed like:</p>  <p><kbd>1</kbd> ... <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> ... <kbd>14</kbd></p>  <p>How can I make the ellipses clickable so if it's clicked it will show:</p>  <p><kbd>1</kbd> ... <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> ... <kbd>14</kbd></p>

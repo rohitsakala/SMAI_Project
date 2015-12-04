@@ -1,0 +1,1 @@
+<p>When I try to install a bower package like <strong>devextreme</strong> with the following command <strong>jspm install bower:devextreme</strong>, I get an error</p>  <blockquote>   <p>Registry bower not found</p> </blockquote>  <p>Should I update any jspm settings or install any npm package to install bower packages? Both the npm and github works fine with jspm.</p>

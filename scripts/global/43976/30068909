@@ -1,0 +1,1 @@
+<p>I have a combo box and label in Telerik Data Grid .I Want to bind the label text to combo box selected value changed .I need a converter to bind Combo box selected value to label text in order to change the label text according to Combo Box selected value changed .</p>

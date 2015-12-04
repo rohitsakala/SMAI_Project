@@ -1,0 +1,1 @@
+<p>I'm trying URL re-writing for the first time and I have the following URLS which need rewriting:</p>  <pre><code>http://domain.com/hotels/index.php?ct=new delhi </code></pre>  <p>I want this as</p>  <pre><code>http://domain.com/hotels/hotels-in-new delhi </code></pre>

@@ -1,0 +1,1 @@
+<p>If I have JavaScript in a page in domain here.com that calls PHP that resides under domain there.com, does that PHP access cookies in here.com or there.com? Would wrapping an IFRAME make a difference?</p>

@@ -1,0 +1,1 @@
+<p>In the algorithm, you have 3 loops for shortest[u,v,x] which goes x from 1 - n, u from 1 - n, v from 1 - n.</p>  <p>Why are the loops from x,u,v and not x,v,u or u,v,x?</p>

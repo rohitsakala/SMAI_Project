@@ -1,0 +1,1 @@
+<pre><code>Test N        Date Column2   1  2015-07-15      56    2  2015-04-17      45 </code></pre>  <p>How can I change a column with dates to a column with real numbers, I want to change each date to a number of month of date, for example <code>2015-07-15</code> change to <code>7</code>, <code>2014-05-13</code> to <code>5</code>.</p>

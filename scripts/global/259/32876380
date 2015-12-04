@@ -1,0 +1,1 @@
+<p>In mysql, if I do something like</p>  <pre><code>round((amount * '0.75'),2) </code></pre>  <p>it seem to work just fine like without single quotes for 0.75. Is there a difference in how mysql process this?</p>

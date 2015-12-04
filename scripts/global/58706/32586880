@@ -1,0 +1,1 @@
+<p>How do I implement alphanumeric validation in Sencha Touch for <code>textfield</code>? I have tried this way:</p>  <pre><code>regex: /^[a-zA-Z0-9]*$/, regexText: 'Invalid value in field', </code></pre>  <p>But it is not showing any error when I type the <code>#</code> symbol or any other special character.</p>

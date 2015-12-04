@@ -1,0 +1,1 @@
+<p>I want to run a Loop (Do,For ....) but I want the program to be accessible even when that loop is running. An example of what i mean is , that I want the program to run the loop but still ,while running the loop, be able to click anything in my form or to reposition my form.</p>

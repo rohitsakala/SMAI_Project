@@ -1,0 +1,1 @@
+<p>What is the best way to determine if a point is on a polygon edge? We now use a distance between the point and its closest polygon edge but estimating a distance limit for all polygon cases is really a puzzle.</p>  <p>Any idea is welcome.</p>  <p>Thanks.</p>

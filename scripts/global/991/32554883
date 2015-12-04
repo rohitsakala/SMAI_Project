@@ -1,0 +1,1 @@
+<p>Everytime I see functions returning functions, the returned function is always a lambda. I'm wondering if I can have my function return a function that has a name to it. </p>

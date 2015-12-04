@@ -1,0 +1,1 @@
+<pre><code>&lt;input type="text" class="form-control"     data-bind="value:PriceValue,numeric:number"     onpaste="return true;"&gt; </code></pre>  <p>This is the tag I am using to enter the data.</p>

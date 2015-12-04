@@ -1,0 +1,1 @@
+<p>I want to find elements by css selector, but I want to skip some of them, how can I do it?</p>  <pre><code>driver.FindElements(By.CssSelector("a[href]"))  </code></pre>  <p>but I need not to take href that has logoff and client/contract in it</p>

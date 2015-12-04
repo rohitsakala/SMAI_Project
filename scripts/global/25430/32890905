@@ -1,0 +1,1 @@
+<p>How can I bin 3d points into 3d bins? Is there a multi dimensional version for np.digitize? I can use np.digitize separately for each dimension, like <a href="http://stackoverflow.com/questions/3257619/numpy-interconversion-between-multidimensional-and-linear-indexing">here</a>. Is there a better solution? Thanks!</p>

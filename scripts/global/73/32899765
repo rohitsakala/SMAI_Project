@@ -1,0 +1,1 @@
+<p>Compiler says the syntax error is near "FIELDS TERMINATED....."</p>  <pre><code>LOAD DATA LOCAL INFILE '/Data/books.csv'  INTO TABLE Book  IGNORE 1 LINES (@col1,@col2,@dummy,@dummy,@dummy,@dummy,@dummy,@dummy)  set Book_id=@col1,Title=@col2 FIELDS TERMINATED BY '\t'  ENCLOSED BY '"' LINES TERMINATED BY '\n'  </code></pre>

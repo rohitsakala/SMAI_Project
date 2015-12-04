@@ -1,0 +1,1 @@
+<p>I want to find the number of files the JAR contains.  Is there a way to do it without looping through like this: </p>  <pre><code>while (enumEntries.hasMoreElements()) {     enumEntries.nextElement();     count++; } </code></pre>  <p>I want to have the number of files <em>before</em> I loop through the entries.  It seems not elegant to loop through them twice.  </p>

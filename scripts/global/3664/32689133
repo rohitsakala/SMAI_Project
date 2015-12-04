@@ -1,0 +1,1 @@
+<p>In one xslt I found namespace as <code>xmlns:ns="http://www.sometext.co.jp/ns"</code> but this url returns 404 error and there is no url mapping in tomcat container. Could anyone please let me know how and where I found the namespace file and the function defined in it.</p>

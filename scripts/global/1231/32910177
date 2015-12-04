@@ -1,0 +1,1 @@
+<p>Is there a way to delete one line of history without recording the deletion action in the history file? an easy one line command?</p>  <pre><code>history -d #Num </code></pre>  <p>would leave a trace that I deleted some history, Is there an easy way to do it clean?</p>

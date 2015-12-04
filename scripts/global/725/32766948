@@ -1,0 +1,1 @@
+<p>I am using logback.xml file in my application. log files are generating for all days with date. But logs wont be printing for the corresponding days. When i restart the server that time only logs printing. Is there any configuration on log level and date.</p>  <p>Thanks in advance</p>

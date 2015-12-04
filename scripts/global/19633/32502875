@@ -1,0 +1,1 @@
+<p>I'm using Mandrilla Api for Sinatra(Ruby). I'd like to send the same email to several recipients. I read about the method with "type" => "to"/"bcc" but I would ask you about sending email by typing one string with multi email_adresses divided with some punctuation mark(like in gmail and other email clients)?</p>

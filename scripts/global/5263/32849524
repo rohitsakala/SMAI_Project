@@ -1,0 +1,1 @@
+<p>I am trying to fetch multiple fields from a core data entity.  Following code will work to fetch one field. What is syntax for two fields?</p>  <pre><code>NSMutableArray *areas = [[addresses valueForKey:@"area"] mutableCopy]; </code></pre>

@@ -1,0 +1,1 @@
+<p>I have a static lib e.g. something.lib and corresponding def file. </p>  <p>I need static libsomething.a lib converted from something.lib</p>  <p>dlltool creates .a librarys only from dll as far I understood</p>  <p>Is it possible to convert static lib built by MSVC to .a lib?</p>

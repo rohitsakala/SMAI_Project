@@ -1,0 +1,1 @@
+<p>I am looking for a way to use an OpenGL texture inside VTK or to modify a VTK texture inside OpenGL.</p>  <p>Does someone know about OpenGL/VTK interoperability? So far, all I've been able to find out is a vtkOpenGLTexture (which documentation I do not find useful).</p>

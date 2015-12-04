@@ -1,0 +1,1 @@
+<p>The source folder having space in its name which has to be copied using cmd faces invalid paramter syntax such as:</p>  <pre><code>xcopy c:\abc def\* d:\dsdhj /s/i </code></pre>  <p>How to copy the folder having a space in its name?</p>  <p>If the folder doesn't contain any space then it works well.</p>

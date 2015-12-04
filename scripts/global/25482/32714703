@@ -1,0 +1,1 @@
+<p><code>UITextView</code> in <code>TVOS</code> not scrolling, I can see its <code>contentSize</code> is great then its <code>bounds</code>, I can confirm that <code>scrollEnabled = YES</code>, <code>userInteraction = YES</code> and it is current focused view.</p>

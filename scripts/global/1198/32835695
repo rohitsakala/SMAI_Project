@@ -1,0 +1,1 @@
+<p>I'm working with fsharp type inferencing and I'm trying to understand how they work. Why is it that</p>  <pre><code>List.filter List.head </code></pre>  <p>is type <code>bool list list -&gt; bool list list</code>?</p>

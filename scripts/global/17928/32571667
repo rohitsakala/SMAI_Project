@@ -1,0 +1,1 @@
+<pre><code>cout &lt;&lt; f &lt;&lt; "\t\t" &lt;&lt; c &lt;&lt; endl; cout.precision(1); cout.width(5); cout &lt;&lt; fixed; </code></pre>  <p>I'm currently beginning programming, so pardon for the simple question. How can I apply width and precision to individual variables. On my program when I set the width and precision, it sets it for both variables. </p>

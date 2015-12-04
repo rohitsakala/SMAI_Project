@@ -1,0 +1,1 @@
+<p>Here is my regexp to accept only Yes or No (not case sensitive). Is there a better way to do it? Thanks</p>  <pre><code>preg_match('/^(?:Yes\b|YES\b|yes\b|No\b|NO\b|no\b)/',$input) </code></pre>

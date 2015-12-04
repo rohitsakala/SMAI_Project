@@ -1,0 +1,1 @@
+<p>I have 3 Excel files to manipulate and I want to generate a single Excel file based on them. I need to join the third column of the first file with the first column of the second and third Excel file. What would be the best library to use in .NET to manipulate around 200-300k rows?</p>

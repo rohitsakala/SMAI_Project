@@ -1,0 +1,1 @@
+<p>how to format output using racket? I want to output a fixed-width number and fill it with 0 if small? hot to get it? I have searched the racket document but can only find <code>fprintf</code>, and it seems can't do it.</p>

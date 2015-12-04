@@ -1,0 +1,1 @@
+<p>I am trying to understand the implementation of PHP from <a href="https://github.com/php/php-src/tree/PHP-5.6" rel="nofollow">https://github.com/php/php-src/tree/PHP-5.6</a>.   I notice that  Makefile.global uses sevaral variables not defined in the file itself (such as INCLUDES, EXTRA_INCLUDES, PHP_MODULES, OVERALL_TARGET etc).   Where are all those variables defined ?</p>

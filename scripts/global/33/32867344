@@ -1,0 +1,1 @@
+<p>consider this simple example:</p>  <ul> <li>Theres a <code>Person</code> object</li> <li>It must have one of: <code>FirstName</code> and <code>LastName</code> (or both, but one is mandatory)</li> <li>It must have a valid <code>Age</code> (integer, between 0 and 150)</li> </ul>  <p>How would you property-base-test this simple case?</p>

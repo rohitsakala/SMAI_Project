@@ -1,0 +1,1 @@
+<p>models:</p>  <pre><code>class User   include Mongoid::Document   has_one :pet end  class Pet   include Mongoid::Document   belongs_to :user end </code></pre>  <p>spec:</p>  <pre><code>let!(:user){ create :user } let(:pet){ build :pet, user: user} </code></pre>  <p>But this does not set the association: <code>pet.user</code> is nil.</p>  <p>How to set the association?</p>

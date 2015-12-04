@@ -1,0 +1,1 @@
+<p>there is a way to count the rows to define a page number? somebody has added a page number in this editor? </p>  <p>i use this for capture the event but i don't know how cout the row</p>  <p>$('#edit').on('editable.contentChanged', function (e, editor {}</p>

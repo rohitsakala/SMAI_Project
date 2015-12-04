@@ -1,0 +1,1 @@
+<p><br> I want to run <strong>e2e regression tests</strong> when my developer colleagues <strong>commit their code to GitHub</strong>.</p>  <p>I simply cannot find a place at nightwatch.js documentation or at GitHub documentation where this scenario is described.</p>  <p>Any Ideas where to look at? Got a solution? A working hook? Thanks a lot in advance!</p>

@@ -1,0 +1,1 @@
+<p>I'm using sass-version of Bootstrap and want to customize the buttons' font, so that it differs from the system font.</p>  <p>I don't see any sass/less variables that would modify the font-family of my buttons: <a href="http://getbootstrap.com/customize/#buttons" rel="nofollow">http://getbootstrap.com/customize/#buttons</a></p>  <p>So, how do I achieve that ?</p>

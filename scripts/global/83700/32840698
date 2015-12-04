@@ -1,0 +1,1 @@
+<p>My problem is that I want to get data form the database table from the <code>created_at</code> attributes as per year and month only. The code I have tried is:</p>  <pre><code>$post= Mjblog::select(DB::raw('YEAR(created_at) year, MONTH(created_at) month')); $posts_by_y_m = $post-&gt;where('created_at',$post)-&gt;get(); </code></pre>

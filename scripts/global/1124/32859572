@@ -1,0 +1,1 @@
+<p>For different applications I use two different libraries to make my URL's browser-safe. For extended ASCII (characters 128 to 255) the one library escapes the characters while the other encodes them. So, <code>déprés</code> becomes:</p>  <p>escaped: <code>d%E9pr%E9s</code></p>  <p>encoded: <code>d%C3%A9pr%C3%A9s</code></p>  <p>Which of these approaches is correct?</p>

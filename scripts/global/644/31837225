@@ -1,0 +1,1 @@
+<p>I have a collection of text files <strong>on the server</strong>, all of them are good structured XHTML.<br> Is there a quick/good way to feed those files into solr, or do I need to write code to analyze each page structure, break it to it's various components, and feed it to SOLR using a schema I designed?  </p>

@@ -1,0 +1,1 @@
+<p>I'm getting an "Access denied" exception when trying to list some folders on my PC, such as 'c:\Documents and Settings'. My application is running from an administrator account and with elevated privileges (<code>&lt;requestedExecutionLevel  level="requireAdministrator" uiAccess="false" /&gt;</code>)  </p>  <p>What else I need to do to access such folders?</p>

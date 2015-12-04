@@ -1,0 +1,1 @@
+<p>How can i retrieve  emspace present in a word document, example- I have a word document consisting of one paragraph and i have inserted emspace between 2 words. Now i want to know how to retrieve that emspace using word.interop</p>

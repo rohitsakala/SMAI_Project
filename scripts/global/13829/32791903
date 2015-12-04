@@ -1,0 +1,1 @@
+<p>I have a thread that writes to an atomic variable. (using memory_order_release). <strong>Thread A</strong></p>  <p>There are many other threads that read from that variable. (using memory_order_acquire). <strong>Thread B</strong>.</p>  <p>Is it safe, when in thread A, to read that variable with memory_order_relaxed ?</p>

@@ -1,0 +1,1 @@
+<p>How can I set style to some options tags of <code>ComboBox</code> widget.</p>  <pre><code>var comboBox = new ComboBox(); </code></pre>  <p>how to get options tags and set some of them style, for example I would like to set some items (options) with <code>RED</code> text and some items (options) <code>GREEN.</code></p>  <p>Please any hint any help.</p>

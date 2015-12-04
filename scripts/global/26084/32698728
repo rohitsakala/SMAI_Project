@@ -1,0 +1,1 @@
+<p>I have UIButton, on which I have title and image. I've set the imageView contentMode to scaleAspectFit so that the image is seen in normal ratio, but the imageView stays the same. It is still half of the button, so between the title and the image is one big gap.</p>  <p>Does anyone know if there is any way to resize the imageView?</p>  <p>Thanks for any help.</p>

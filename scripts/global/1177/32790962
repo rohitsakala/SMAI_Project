@@ -1,0 +1,1 @@
+<p>Is it possible to have transitions for the views that are rendered and displayed by TabBarIOS? The Navigator component has them. I'm having to implement a Navigator and control that via the TabBarIOS, which seems a bit long winded</p>

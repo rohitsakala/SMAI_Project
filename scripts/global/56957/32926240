@@ -1,0 +1,1 @@
+<p>So I currently have an app that uses V7.1.0 of Facebooks Unity SDK.  Right now if you successfully login the plugin detects that your still logged in if you close the app then open it later, so you don't have to login every time.  My question is if I released an update and the user updated their app would their login session persist the same way?</p>

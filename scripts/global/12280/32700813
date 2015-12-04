@@ -1,0 +1,1 @@
+<p>I have a custom directive that contains a <code>&lt;select&gt;</code> and an <code>&lt;input&gt;</code>.</p>  <p>If I put <code>&lt;my-custom-directive ng-change="vm.someFunction()"&gt;</code>, how can I add the <code>ng-change</code> to the <code>&lt;select&gt;</code> inside the markup in the template of the directive?</p>

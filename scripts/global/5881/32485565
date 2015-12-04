@@ -1,0 +1,1 @@
+<p>I have looked around, but couldn't find anything I might use to print the current buffer size of a channel (say <code>stdout</code>) in tcl.</p>  <p>I am planning on using <code>fconfigure</code> to readjust the buffer size, but I'd like to know what the current size is, before I change it, as a benchmark.</p>

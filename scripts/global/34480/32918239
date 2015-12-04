@@ -1,0 +1,1 @@
+<p>The <a href="http://neo4j.com/docs/stable/rest-api-schema-constraints.html" rel="nofollow">Neo4j Manual page on Constraints</a> shows the <code>type</code> of each constraint as <code>UNIQUENESS</code>. Is there any other kind of constraint that can be applied?</p>

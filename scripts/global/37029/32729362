@@ -1,0 +1,1 @@
+<p>My app gives and takes message by APNS.  but if client's notification set off ,  client doesn't receive message by the other client sent by APNS.</p>  <p>Is this wrong way? If it is not, how does client receive message When client's notification sets off? </p>

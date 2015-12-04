@@ -1,0 +1,1 @@
+<p>I am trying to parse the google results. For example, If I ask: "how old is neil degrasse tyson?" I see a card that says 56 years old. I want to grab "56" but the view page source and inspect elements display different html layouts, so is there any way a server can inspect element the results and grab what I want (56)? </p>  <p>Thanks.</p>

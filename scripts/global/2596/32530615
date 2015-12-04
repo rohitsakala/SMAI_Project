@@ -1,0 +1,1 @@
+<p>Basically, I want the service to have set the below properties by default</p>  <p>Log on as:   * Local System Account     Allow service to interact with Desktop</p>  <p>These properties can be set by accessing the Log On tab in the Service properties menu.</p>

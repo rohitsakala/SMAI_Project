@@ -1,0 +1,1 @@
+<p>When I focus on an edittextview on my chat activity, the recyclerview doesn´t keep the items stacked at the bottom when resizing the view. Previuosly with a ListView was working. I´ve tried any stackFromEnd, reverseLayout parameter.</p>  <p>Basically I want the same behaviour as any chat: whatsapp, telegram, etc.</p>  <p>Somebody has any idea why does it happen?</p>

@@ -1,0 +1,1 @@
+<p>I'm having trouble building my project against the Drive SDK for iOS9. It has mostly to do with a lot of methods being deprecated and certain header files not being found. Any tips on how to make the SDK work with iOS9? Also, will the SDK be updated for iOS9 anytime soon? </p>

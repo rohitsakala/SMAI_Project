@@ -1,0 +1,1 @@
+<p>If i have a set of DOM elements constructed with a containerless foreach, is it possible to use the knockout animated transitions with them? E.g. afteradd, aftermove, afterremove. </p>  <p>Something like:</p>  <pre><code>&lt;!-- ko foreach: somelist(), afterAdd: afterAddCallback --&gt;     &lt;div&gt;dom element for list item&lt;/div&gt; &lt;!-- /ko --&gt; </code></pre>

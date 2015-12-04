@@ -1,0 +1,1 @@
+<p>After upgrade to Neo4j 2.2.5 i see in */graph.db/messages.log queries from cypher :</p>  <pre><code>2015-09-30 10:42:31.319+0000 DEBUG [o.n.k.i.q.QueryExecutionEngine]:  MATCH (n:Identity)  WHERE ((NOT has(n.lifecycleState)) OR n.lifecycleState &lt;&gt; 'DELETED')  AND n.login = {login}  RETURN n </code></pre>  <p>How can i disable this messages?</p>

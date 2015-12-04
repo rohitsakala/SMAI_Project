@@ -1,0 +1,1 @@
+<p>Given:</p>  <pre><code>{:o {:i1 1      :i2 {:ii1 4}}} </code></pre>  <p>I'd like to iterate over the keys of the map in "absolute" form from the root as a vector. So I'd like:</p>  <pre><code>{  [:o :i1] 1  [:o :i2 :ii1] 4 } </code></pre>  <p>As the result. Basically only get the leaf nodes.</p>

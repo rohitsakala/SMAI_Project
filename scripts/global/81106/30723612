@@ -1,0 +1,1 @@
+<p>Experts, I am struggling to dynamically scale the height of UITextField based on the screen size using AutoLayout.</p>  <p>For example I would like to see TextFixed height as 25 when viewed on 3.5 screen size and 50 when viewed on 4.7 screen size.</p>  <p>Is this even possible using IB? If not what would be the correct programmatic way to do so?</p>

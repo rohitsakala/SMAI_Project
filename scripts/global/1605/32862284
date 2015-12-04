@@ -1,0 +1,1 @@
+<p>Let's say my program has a function named <code>MyFunc</code>. I can run the program in such a way that <code>MyFunc</code> is called exactly 2 times. The time it takes to execute <code>MyFunc</code> varies between calls and I want to profile (instrument) the 2nd call of the function.</p>  <p>How can I do that in Visual Studio 2013 Ultimate?</p>

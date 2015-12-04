@@ -1,0 +1,1 @@
+<p>I'm trying to use semaphores in Visual Studio for a project. </p>  <p>However, I I get error C1083: Cannnot open include file: 'pthread.h': No such file or directory </p>  <p>Is there a way I can download semaphores?</p>  <p>I've also tried including the pthread directory and I get the same error</p>

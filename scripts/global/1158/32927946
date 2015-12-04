@@ -1,0 +1,1 @@
+<p>I am setting a model to <code>QComboBox</code> on <code>editTextChanged</code>. While setting a model it again emits an <code>editTextChanged</code> signal on editTextChanged. I am using an SQL like query for filtering combobox items. pls help me</p>

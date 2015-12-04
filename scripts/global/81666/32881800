@@ -1,0 +1,1 @@
+<p>I am trying to connect to GCM (google cloud messaging) API.</p>  <p>I can successfully send notifications from mobile to mobile; now I need to configure my server with GCM Server using php and XMPP Protocol.</p>  <p>Can any one help me with this??</p>

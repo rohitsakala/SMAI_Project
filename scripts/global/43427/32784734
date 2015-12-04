@@ -1,0 +1,1 @@
+<p>I'm using Scrapy to crawl over websites and create a set of links. I want to be able to create an RDF Document using this data set;</p>  <p>My triples will be of the form,</p>  <p><code>&lt;ParentURL&gt; - &lt;HTML Text associated with Link&gt; - &lt;LinkURL&gt;</code></p>  <p>Any pointers on how to proceed? Help is appreciated.</p>

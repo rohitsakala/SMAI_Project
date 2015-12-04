@@ -1,0 +1,1 @@
+<p>I had a .NET 2.0 project that I migrated to .NET 4.5.2.</p>  <p>When I build the migrated project, .cache files are generated and they contain values "v2.0.50727" all over it.</p>  <p>There are no references to .NET 2.0 in my project, did I miss something? Where does "v2.0.50727" come from if it's not reference in my project?</p>  <p>Thank you.</p>

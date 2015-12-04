@@ -1,0 +1,1 @@
+<p>There is problem with adding User control in master Page when I do post back in any page user control disappeared I am add user control normally not dynamic however it disappeared ?</p>  <pre><code>&lt;uc1:CtrlMenu runat="server" ID="CtrlMenu" /&gt; </code></pre>

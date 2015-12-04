@@ -1,0 +1,1 @@
+<p>I want to get a timestamp of the current hour and the current day. How I can do this?</p>  <p>I store a timestamp as a datetime in my database, so I want compare my data like this:</p>  <ul> <li>How many records were inserted during the current hour</li> <li>How many records were inserted during the current day</li> </ul>  <p>Thanks for your help</p>

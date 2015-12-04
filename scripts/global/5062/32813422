@@ -1,0 +1,1 @@
+<p>I am working on a project which includes CLucene library. It Builds and runs fine on Xcode 6 but after upgrading to Xcode 7 it gives an error -Clucene/stdHeader.h file not found.  Any help appreciated. </p>

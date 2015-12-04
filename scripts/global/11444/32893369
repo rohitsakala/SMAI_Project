@@ -1,0 +1,1 @@
+<p>I have a situation where another Amazon account has granted my account permission to upload to their S3 bucket. Is there a way for me to code to check to see if those permissions are currently in place for my account, and return a true or false? I'm using .NET (C#).</p>

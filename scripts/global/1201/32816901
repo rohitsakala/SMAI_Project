@@ -1,0 +1,1 @@
+<p>Here whats the scenario ,</p>  <p>Whenever user want to hit url like</p>  <p>www.abc.com/Controller/Action Then output is coming correct.</p>  <p>But incase if he type anything wrong in the url or misspell the url i want to redirect him to Error page stating that URL is not correct.</p>

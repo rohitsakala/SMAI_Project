@@ -1,0 +1,1 @@
+<p>There is requirement in a project to generate dynamic excel cells without disturbing other parallel rows &amp; columns in excel. Is there any API available by jxl or POI to perform achieve such results.  Here option is not available to attach excel template. If some one needs the project specific template then please let me know? I will email separately.</p>

@@ -1,0 +1,1 @@
+<p>In my Rails application (Rails 4.2.4) I'm using mongoid 5.</p>  <p>When running in production, mongoid logs are not going to production.log. It's going to my thin logs instead.</p>  <p>I didn't have this issue with mongoid 3. Any thoughts on how could I keep all mongoid logs on production.log file?</p>  <p>Thanks</p>

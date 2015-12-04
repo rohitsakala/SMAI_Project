@@ -1,0 +1,1 @@
+<p>i'm going to use JAVA to create a system, and in our system we will use an API. the API is going to be accessed via the internet as it always is. my question here is that how can i secure their connection to prevent any snooping around, i know that the data will be safe in the API but it could be prone to danger during transmission. could this be network security?</p>

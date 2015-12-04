@@ -1,0 +1,1 @@
+<p>Does exist something like:</p>  <pre><code>@isParamSet int SELECT CASE WHEN @isParamSet=1 THEN Name, Surname END telNumber FROM DETAILS </code></pre>  <p>This is a stored procedure of course.</p>

@@ -1,0 +1,1 @@
+<p>I'm using MySQL via PHPMyAdmin.</p>  <p>I've exported one table from one database instance in MySQL.</p>  <p>Now I want to create the same table with the data into another instance of MySQL database from that downloaded sql dump.</p>  <p>Can I create it? If yes, how? If no, why?</p>  <p>Thanks.</p>

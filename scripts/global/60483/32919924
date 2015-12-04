@@ -1,0 +1,1 @@
+<p>I want to add show and hide button for fixed footer on jquerymobile. I tried to add an close button but i did not do.</p>  <pre><code>&lt;div data-role="footer" data-position="fixed"&gt;&lt;/div&gt; </code></pre>  <p>Thanks...</p>

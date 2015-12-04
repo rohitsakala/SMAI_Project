@@ -1,0 +1,1 @@
+<p>is it safe to write code in -awakeFromNib method on UIView Category.</p>  <pre><code>UIView+XXXXXX.m  @implementation UIView (XXXXXX)  - (void) awakeFromNib {      /* some code here */  } </code></pre>  <p>@end</p>

@@ -1,0 +1,1 @@
+<p>Is there any way to reference classes in a Shared project (C#) from a CLI/C++ project in Visual Studio 2015?</p>  <p>At the moment I manage to go around the problem by creating a empty C# class library with a reference to the shared project. Then my CLI/C++ project can reference this class library.</p>

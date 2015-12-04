@@ -1,0 +1,1 @@
+<p>How can I use caffe convnet to detect facial expressions? </p>  <p>I have a image dataset, Cohn Kanade, and I want to train caffe convnet with this dataset. <a href="http://caffe.berkeleyvision.org/" rel="nofollow">Caffe</a> has a documentation site, but its not explain how to train my own data. Just with pre trained data. </p>  <p>Can someone teach me how to do it? </p>

@@ -1,0 +1,1 @@
+<p>In MVC 4.0  I am reading data from SAP where it is 10 digit decimal value. when show in form for as readonly (textbox since I need to submit the value to back) it should show only 2 digit. while submitting I need to send 10 digit data.</p>

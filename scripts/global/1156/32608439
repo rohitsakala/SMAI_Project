@@ -1,0 +1,1 @@
+<p>type error when sprintf  list into string with python2  on linux</p>  <pre><code>x = [ 'aa', 'bbbb', 'ccccccc' ] f = '%-10s%-10s%-10s' s = f % x </code></pre>  <p>TypeError: not enough arguments for format string</p>

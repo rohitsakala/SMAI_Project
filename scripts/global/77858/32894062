@@ -1,0 +1,1 @@
+<p>I’m planning the system that could analyze touch information from my car LCD display and using Raspberry PI change it to standard mouse movements using Bluetooth HID protocol. I’m wondering if it is possible to emulate multi touch thru mouse HID over Bluetooth?</p>

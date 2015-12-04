@@ -1,0 +1,1 @@
+<p>In nhibernate, list cannot be bidirectionnal relation. So I don't get why setting inverse to true is doable knowing it would only lead to loss of data.</p>  <pre><code>&lt;list name="Children" lazy="true"  cascade="all" inverse="true"&gt; </code></pre>  <p>Is there some reason it can be done?</p>

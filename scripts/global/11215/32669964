@@ -1,0 +1,1 @@
+<p>Should I put all events in views code behind or there is a more proper way, like place commands in ViewModel? For example, I want to open Tab on double click on the datagrid row, where should I handle this event? </p>

@@ -1,0 +1,1 @@
+<p>I've got the following line: </p>  <p><code>group_index = apps["special_groups"] == group</code></p>  <p>From my understanding, <code>group_index</code> is being assigned the value in <code>apps["special_groups"]</code>. Then I see the == operator, but what does it do with the result? Or is it comparing <code>apps["special_groups"]</code> to group first?</p>

@@ -1,0 +1,1 @@
+<p>Whenever i print an image (eg. 60x60 pixel JPG) in irfanview via commandline, the output adds a formfeed on my epson matrix printer after the image (about 5cm extra white space). Whenever printing from gui, the image is printed and printer stops right after.</p>  <p>I also send the output to a file and discovered a big difference between gui and commandline.</p>

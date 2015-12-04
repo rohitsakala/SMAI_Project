@@ -1,0 +1,1 @@
+<p>I have an <code>counter</code> which counts from 0 to 32767</p>  <p>At each step, I want to convert the <code>counter</code> (int) to an 2 byte array.</p>  <p>I've tried this, but I got a <code>BufferOverflowException</code>  exception:</p>  <pre><code>byte[] bytearray = ByteBuffer.allocate(2).putInt(counter).array(); </code></pre>

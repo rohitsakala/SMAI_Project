@@ -1,0 +1,1 @@
+<p>I am woking with a app and is receiving push from server.I want to apply call same function either the app is launched from push or directly from App Icon on home screen. I am able to detect if the app is opened from push but when the user tap on icon is their a way to find if he had a notification pending or not? Please help me. Thanks in Advance</p>

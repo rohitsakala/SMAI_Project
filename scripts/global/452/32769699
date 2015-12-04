@@ -1,0 +1,1 @@
+<p>How can I see if an index contains certain numbers?</p>  <pre><code>numbers = [2349523234, 12345123, 12346671, 13246457, 134123431]  for number in nummers:     if (4 in nummer):         print(number + "True")     else:         print("False") </code></pre>

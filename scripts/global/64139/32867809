@@ -1,0 +1,1 @@
+<p>I have a Hashtable and I want to put <strong>check whether the Hashtable has key or not before adding a key</strong> in Hashtable. As adding a duplicate key in Hashtable throwing exception.  Basically I want to override Hashtable's virtual 'Add' method and put a check in it. I dont know how can I override Add method.</p>  <p>Please help me to write override method.</p>

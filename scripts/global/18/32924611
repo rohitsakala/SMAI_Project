@@ -1,0 +1,1 @@
+<p>I am trying to get the "dot -> •" between the words (A-z) with this regex, but I also get the char before and after the dot:</p>  <pre><code>/[A-z](•)[A-z]/g </code></pre>  <p>here is the text:</p>  <pre><code>1.•Molde•FK••••••••••••1•1•0•0•3:1•3• 2.•Ajax•Amsterdam••••••1•0•1•0•2:2•1• •.•Celtic•Glasgow••••••1•0•1•0•2:2•1• 4.•Fenerbahce•Istanbul•1•0•0•1•1:3•0• </code></pre>

@@ -1,0 +1,1 @@
+<p>I'm using elasticsearch for my data and I insert the data by using nodejs scripts. Sometimes there occur errors and the data doesn't inserted successfully to elasticsearch. I want to handle those errors. How can I handle the errors. Thanks for the helps.</p>

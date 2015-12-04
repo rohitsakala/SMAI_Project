@@ -1,0 +1,1 @@
+<p>In the well known Tortoise/Hare algorithm, why does the hare need to move at twice the speed of the tortoise? when I tried to implement it at first, I tried to simply move the hare one ahead of the tortoise, not at twice the speed, and that  didn't work.  </p>

@@ -1,0 +1,1 @@
+<p>When the <code>UITextView</code>'s content is too much, the location of the cursor is in the middle rather than at the beginning. I want to start from the beginning rather than starting from the middle.</p>

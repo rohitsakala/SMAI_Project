@@ -1,0 +1,1 @@
+<p>I am trying to import products in magento (CSV Import), but it gives me following error</p>  <pre><code>Skip import row, the value "Default" is invalid for field "attribute_set" </code></pre>  <p>i have saved file as UTF-8 format, also tried renaming "attribute_set" column to "_attribute_set" but nothing works.</p>  <p>Please help me if anyone have any idea.</p>

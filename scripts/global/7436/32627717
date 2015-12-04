@@ -1,0 +1,1 @@
+<p>I know I can catch a specific Exception type in dart with the following:</p>  <pre><code>try {   ... } on SpecificException catch(e) {   ... } </code></pre>  <p>But is there a way to catch multiple specific exception types with on line instead of using multiple catch statements?</p>

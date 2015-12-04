@@ -1,0 +1,1 @@
+<p>All notifications are handled in <code>AppDelegate</code>, but usually they are needed in top controller to perform some actions on current view. How can I do this?</p>

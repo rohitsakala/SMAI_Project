@@ -1,0 +1,1 @@
+<p>How to Add quantity for this add to cart button code:</p>  <pre><code>onclick="setLocation('   &lt;?php       echo (string)Mage::helper('checkout/cart')-&gt;getAddUrl(Mage::getModel('catalog/product')-&gt;load($prod-&gt;getId()));   ?&gt; ')" </code></pre>

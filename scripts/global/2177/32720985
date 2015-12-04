@@ -1,0 +1,1 @@
+<p>I have a table with no field to log the timestamp of insertion of a row. But right now, I need to find when a specific row was inserted. Is there a way to find this data in some kind of table metadata ? </p>

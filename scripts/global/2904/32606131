@@ -1,0 +1,1 @@
+<p>I want to declare an two dimension array, but I don't know first dimension. Second dimension is known.</p>  <p>How do I declare the array? </p>  <p>I found one syntax:</p>  <pre><code>int (*p) [5]; </code></pre>  <p>Is it correct syntax? But I do not understand this syntax.</p>

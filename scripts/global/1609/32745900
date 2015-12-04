@@ -1,0 +1,1 @@
+<p>I am trying to create web service client from a WSDL. It is a J2SE project and I am getting below error while creating client.</p>  <p>"The WebSphere Application Server v7.0 server does not support the client project."</p>  <p>since it a J2SE project I don't have a web server configured. Please help me how to create the client without web server. Thanks</p>

@@ -1,0 +1,1 @@
+<p>Simple question.</p>  <p>I want to create a jquery selector to select all <code>&lt;p&gt;</code> tags which does not have the text equal to <code>foo</code>.</p>  <p>The more elegant the better!</p>  <p>The first bit is trivial: <code>$('p')</code></p>  <p>Thanks!</p>

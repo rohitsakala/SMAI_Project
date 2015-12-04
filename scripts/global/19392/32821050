@@ -1,0 +1,1 @@
+<p>In older version of Liferay <strong>enable HTTPS</strong> from Liferay Admin (Admin - control Pannel- Custom Field - Org - Fileprotocol - Default Value - HTTPS), Enable HTTPS in default way. But it not working for current version of Liferay 6.2.</p>

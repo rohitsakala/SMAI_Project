@@ -1,0 +1,1 @@
+<p>If I load an AVPlayer with a file from a host with </p>  <p>[AVPlayer playerWithPlayerItem:playerItem];</p>  <p>And the "buffering" takes longer than the user wants, how do I allow them to cancel it? </p>

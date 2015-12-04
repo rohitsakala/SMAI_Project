@@ -1,0 +1,1 @@
+<p>I have implemented an android application using GoogleApiClient which sends the Location updates after every 5m displacement and it is working fine.</p>  <p>Consider sometimes will not get Gps Signal.In such situation how can we get the update can anyone please help me how to handle this situation?</p>

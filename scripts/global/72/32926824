@@ -1,0 +1,1 @@
+<p>I have query which will group column 1 and 2  and calculate count for column3  </p>  <pre><code>(select col1, col2, count(col3) from table1 group by col1,col2 Having count(col3) &lt; 50)  </code></pre>  <p>But I want to display all fields values for col3 where count(col3) &lt; 50 . Can you help me with this? Thank you</p>

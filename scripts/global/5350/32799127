@@ -1,0 +1,1 @@
+<p>is it necessary to check for Unique Value before insert it in to a database? if the <code>unique_col</code> is predefine to be <code>Unique Keys</code>. </p>  <p>for example </p>  <pre><code> SELECT unique_col FROM table WHERE unique_col != unique_val   INSERT INTO table (unique_col) VALUE(:unique_value) </code></pre>

@@ -1,0 +1,1 @@
+<p>I have run into some compatibility issues with IE7 for a responsive website and need a quick short term fix.</p>  <p>It is possible to redirect users of IE7 to a an older compatible version of the website? Would this work?</p>  <pre><code> RewriteEngine on  RewriteCond %{HTTP_USER_AGENT} "MSIE [7]" [NC]  RewriteRule ^(.*)$ http://example.com/ie [R=301,L] </code></pre>

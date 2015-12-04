@@ -1,0 +1,1 @@
+<p>I'm looking for a way to merge two sorted List I.e T = {3, 5, 8, 12, 15} and K = {2, 6, 9, 11} in O(max(T.length, K.length)), can you help me to solve this ? thx</p>

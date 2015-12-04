@@ -1,0 +1,1 @@
+<p>I have an input box in the GUI in VisionWorks. The input is treated as a <code>ValueHolder</code> that holds the string I want to traverse and whatnot, but I can't seem to get to that value. Any ideas?</p>

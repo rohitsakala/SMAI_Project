@@ -1,0 +1,1 @@
+<p>I'm using Struts2 and want to display 24 hours format time but it is showing 12 hours format. </p>  <pre class="lang-jsp prettyprint-override"><code>&lt;sx:datetimepicker name="LoginTime"                     type="time"                     displayFormat = "HH:mm"                     label="Login Time(HH:MM 24hours format)" /&gt; </code></pre>

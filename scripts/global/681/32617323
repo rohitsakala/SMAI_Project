@@ -1,0 +1,1 @@
+<p>Migrating my iOS app to 64 bit using Parse and Bolts and I get this link error:</p>  <blockquote>   <p>Undefined symbols for architecture x86_64:     "_OBJC_CLASS_$_BFCancellationTokenSource", referenced from:         objc-class-ref in Parse(PFQuery.o)         objc-class-ref in Parse(PFFile.o)</p> </blockquote>  <p>Any ideas would be greatly appreciated.</p>

@@ -1,0 +1,1 @@
+<p>When i run JSHint over my Jasmine tests using angular-mocks, i get errors for the "module" or "inject" function. How can I fix this? I know i can define those methods as globals in the .jshintrc, but is this the elegant way to solve this?</p>  <p>'module' is not defined 'inject' is not defined</p>

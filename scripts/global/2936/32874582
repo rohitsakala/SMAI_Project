@@ -1,0 +1,1 @@
+<p>I'm looking for some function where I can compare two string with the exception that the order of the elements no matter. E.g.:</p>  <pre><code>'abc' == 'bca' True </code></pre>  <p>Does python have some built-in function like this?</p>

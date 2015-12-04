@@ -1,0 +1,1 @@
+<p>Simple question: How do you get the current figure size in MATLAB?</p>  <p>Example:</p>  <pre><code>figure(1) [width, height] = ****some function I'm not aware of**** </code></pre>  <p>Googling this always returns how to <strong><em>change</em></strong> the window size but not how to just get the current window size.</p>  <p>Any help is appreciated.</p>  <p>Cheers</p>

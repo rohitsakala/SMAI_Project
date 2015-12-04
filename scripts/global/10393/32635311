@@ -1,0 +1,1 @@
+<p>I want a cursor that displays the coordinates of the place the mouse is pointing to, besides the pointer itself (it should look like a crosshair with little numbers is bottom right corner, that change when the mouse is moving). How to achive such effect efficiently? I tried to use the tooltip mechanism, but then the text lags behind the cursor a lot...</p>

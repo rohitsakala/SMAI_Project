@@ -1,0 +1,1 @@
+<p>I'd like to log how long a call via $http or $resource takes. I can profile as I develop and test, but I'd like to know what kind of responses clients are getting out in the wild. I already have a mechanism to send info back to the server, but haven't found how to get the timing.</p>

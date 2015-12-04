@@ -1,0 +1,1 @@
+<p>UIWebView not loading (mobile web page) <strong>sometime</strong> in iOS 9. I already used ATS bypass using <strong>NSAllowsArbitraryLoads</strong>.The issues not happening always and works well in iOS 7 and 8.      The delegate method webViewDidStartLoad invoked but webViewDidFinishLoad and didFailLoadWithError is not getting called at all.</p>

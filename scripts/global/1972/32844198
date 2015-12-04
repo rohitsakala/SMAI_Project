@@ -1,0 +1,1 @@
+<p>I have added some elements dynamically using javascript on to my web page. I can see them in URL, when I submit the form.</p>  <p>But, I could not able to do cgi.get of those variables?</p>  <p>why so?</p>  <p>Can someone explain me, is anything to do with DOM? is dynamically added elements are belong to DOM?If so, how to handle them?</p>

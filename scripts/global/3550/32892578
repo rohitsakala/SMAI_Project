@@ -1,0 +1,1 @@
+<p>When an android app has made a checkout (pay money for some stuff), how can a php server check its information? After a transaction with wallet, can Android get a transaction Id and send it to the PHP server? Also, how can I check it?</p>

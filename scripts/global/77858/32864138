@@ -1,0 +1,1 @@
+<p>I want to boot RP2 directly to a screen saver without showing anything else. (command line, desktop environment). Having a splash screen and some terminal text during start-up is fine however. I have tried disabling desktop from configuration, but still it shows the command line and RPI icons. How can I achieve this? I do not want to start LXDE however. My OS is Raspbian.</p>

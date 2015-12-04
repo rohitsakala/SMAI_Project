@@ -1,0 +1,1 @@
+<p>This prints out the number of all the lines:</p>  <pre><code>def links(htmlfile):     infile = open('twolinks.html', 'r')     content = infile.readlines()     infile.close()     return len(content)     print("# of lines: " + str(content.count('&lt;/a&gt;'))) </code></pre>  <p>But I only need the number of lines which contain <code>&lt; / a &gt;</code> at the end.</p>

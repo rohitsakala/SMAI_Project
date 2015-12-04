@@ -1,0 +1,1 @@
+<p>Hi I have looked for ways to do this but cant seem to get a clear answer. We have a requirement to Dump any changes to a table in SQL to a CSV File i.e Whenever anyone makes a change on the frontend to a customer record it must dump those changes to a CSV file for us to Update another System. Can anyone help me with an example either using SSIS or SQL Triggers.</p>

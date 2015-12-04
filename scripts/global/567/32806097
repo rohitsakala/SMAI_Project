@@ -1,0 +1,1 @@
+<p>I am making a node.js multiplayer game whit socket.io. my question is can I make the client side open a program isn't  localhost:50741 for ex. and not my internet id +50741, but mysite.com:50741. Can I do this while the server is still on my computer, so people, who aren't connected to my network can open it. Tanks</p>

@@ -1,0 +1,1 @@
+<p>I got error a <a href="https://www.youtube.com/watch?v=r2FpyDdG8PU&amp;feature=youtu.be" rel="nofollow"><code>Load denied by X-Frame-Options</code> error for a YouTube video</a>.</p>  <p>Does YouTube not permit cross-origin framing?</p>  <p>I am new to Angular JS. I have allowed <code>X-Frame-Options</code> in Header PHP file.</p>

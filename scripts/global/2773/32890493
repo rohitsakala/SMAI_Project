@@ -1,0 +1,1 @@
+<pre><code>= IF(A5 =&lt; 8, B5 * .07, IF(A5 &gt; 8 AND A5 =&lt; 15, B5 * .05, IF(A5 &gt; 15 AND A5 &lt; 20, B5 * .03, 00.00))) </code></pre>  <p>I'm not exactly sure why I am receiving and error. The syntax looks correct, isn't it? </p>

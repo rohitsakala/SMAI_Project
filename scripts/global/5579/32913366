@@ -1,0 +1,1 @@
+<p>Selenium web driver launches a new 'Firefox' browser only if I close out previously opened 'FF' browsers which is of a different java class related with selenium web driver. Am facing this issue all of a sudden earlier it was working fine.</p>  <p>Jars used : selenium-2.47.1</p>

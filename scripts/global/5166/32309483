@@ -1,0 +1,1 @@
+<p>Today i have observed the following in a Jquery code:</p>  <pre><code>$.ajaxSetup({ cache: false }); </code></pre>  <p>What does this mean? And what happens if the value of cache turns <code>True</code>.</p>  <p>Thank you in advance</p>

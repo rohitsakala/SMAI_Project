@@ -1,0 +1,1 @@
+<p>There is surprisingly little literature on this topic. MoxieManager obviously provides PHP code in order to get the tool working, but can anyone comment on how well it integrates with Laravel in particular? Do they pair well from a programmatic perspective, or is there a better file manager solution for Laravel?</p>

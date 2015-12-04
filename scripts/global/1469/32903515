@@ -1,0 +1,1 @@
+<p>I want insert " in my variable string:</p>  <pre><code>let myText : String = "\(")" print("the result "+myText) </code></pre>  <p><strong>The result I want</strong></p>  <blockquote>   <p>the result "</p> </blockquote>

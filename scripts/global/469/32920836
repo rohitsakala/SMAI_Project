@@ -1,0 +1,1 @@
+<p>I have a problem with my checkbox. When I try to read the state of it the name of it can not be resolved.</p>  <pre><code>JCheckBox checkbox1 = new JCheckBox("Test");     checkbox1.setBounds(6, 59, 121, 23);     frmTree.getContentPane().add(checkbox1);  public void Checkbox() {  if (checkbox1.isSelected()) { Sytem.out.println("Selected");         }} </code></pre>

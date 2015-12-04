@@ -1,0 +1,1 @@
+<p>I want to get all videos from youtube playlist, using youtube api for java. <a href="https://developers.google.com/youtube/v3/sample_requests" rel="nofollow">https://developers.google.com/youtube/v3/sample_requests</a> - Should I use this api version ? Does it require authentification or can we just use some http request ?</p>

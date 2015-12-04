@@ -1,0 +1,1 @@
+<p>When I try to use </p>  <pre><code> restrictSearchableAttributes </code></pre>  <p>using the Javascript client</p>  <p>I get </p>  <pre><code>Invalid setting for restrictSearchableAttributes, attribute "field" is not in attributesToIndex </code></pre>  <p>But I'm saving using the Laravel package and I already set the field for attributesToIndex there?</p>

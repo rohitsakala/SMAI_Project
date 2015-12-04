@@ -1,0 +1,1 @@
+<p>I have a table T with one row value only, the names are column names and 'not' or 'enrolled' are values</p>  <pre><code>Jack      |    Mary  |   Tom    |  Peter |  enrolled  |   not    |enrolled  | not   | </code></pre>  <p>Is there any way I can return the column names where their values are 'not'</p>  <p>sample result set:</p>  <p><code>| Mary | Peter |</code></p>

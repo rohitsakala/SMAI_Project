@@ -1,0 +1,1 @@
+<p>I am trying to send Xcode server build/test result to JIRA. But not sure what I can do here. I assume I can write a script to listen to the event of the Xcode server, when a build is completed then call the JIRA api. This is technically feasible but if someone has done it before, I would love to hear the process.</p>

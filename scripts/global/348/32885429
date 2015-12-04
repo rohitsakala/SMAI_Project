@@ -1,0 +1,1 @@
+<p>I want to know the format of the bytes returned from <code>TargetDataLine.read()</code>. I get numbers but I don't know what they represent. Any idea? I've Googled to try and find out and read the API documentation but can't work it out...</p>

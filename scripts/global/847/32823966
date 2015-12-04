@@ -1,0 +1,1 @@
+<p>I try to create a custom results page for my custom entities (database). So, i have in home page a search box, the form have to redirect to this "custom" page.</p>  <p>What is the preferable way to accomplish this?</p>  <p>I tried to add new php page to my template, but how can i achieve SEF url in this way? </p>

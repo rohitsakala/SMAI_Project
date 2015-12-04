@@ -1,0 +1,1 @@
+<p>I have this in Sass:</p>  <pre><code>@import 'shared/file1'; @import 'shared/file2'; @import 'shared/file3'; </code></pre>  <p>The result is that in the compiled file the contents of files 1 - 3 are output in sequence. Sass goes to the files in order, compiles what it finds, and outputs the result.</p>  <p>What is the exact equivalent in CoffeeScript?</p>

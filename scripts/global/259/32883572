@@ -1,0 +1,1 @@
+<p>My question is simple, how do I draw a cylinder in modern OpenGL? I'm using GLFW together with OpenGL 3.x. My thought at first was to create a function that computes the vertex positions at the bottom and at the top as circles and then draw lines between these vertices. But I have no idea how to implement this.. Does anyone have a good solution? </p>

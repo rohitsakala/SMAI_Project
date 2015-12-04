@@ -1,0 +1,1 @@
+<p><a href="http://jsfiddle.net/u840vdoz/1/" rel="nofollow">Demo of My Problem</a></p>  <p>I want to select first two input elements.</p>  <pre><code>  .choicesDiv input[type="radio"]:nth-child(-n+2)   {     border: 1px solid yellow;   } </code></pre>

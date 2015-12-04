@@ -1,0 +1,1 @@
+<p>I'm trying to RTL the flask admin template, I know I can override the existing templates, but how do I change only the CSS? Any ideas?</p>

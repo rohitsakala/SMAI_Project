@@ -1,0 +1,1 @@
+<p>Say:</p>  <pre><code>X=[1,2,3,4] Y=[10,20,30,40] Z=[10,0,0,0] </code></pre>  <p>Using built-in functions, is there an easy way to determine if:</p>  <pre><code>For each i:  Xi =&lt; Yi  --&gt;True  Zi =&lt; Xi  --&gt;False </code></pre>

@@ -1,0 +1,1 @@
+<p><code>sudo echo "sadfsadf" &gt; /etc/apache2/mods-available/dir.conf</code></p>  <p>I ran the command with <code>sudo</code> but it returned the error: "permission denied:</p>  <p>Why does this command not work?</p>

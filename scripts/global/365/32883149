@@ -1,0 +1,1 @@
+<p>I have set of urls now i want to filter them out on the bases of web domains(say wikipedia urls). Right now what i am doing is iterating set and for each url i am just finding a keyword of that web address.</p>  <pre><code> if(ur.contains("wikipedia.org")){     //do something  } </code></pre>  <p>is there any other technique that is more efficient than my current approach?</p>

@@ -1,0 +1,1 @@
+<p>I am hoping someone out there can give me an example of the code explaining the parameters and also where to find the location of the "path" parameter in</p>  <pre><code>$DBH = new PDO("sqlite:my/database/path/database.db"); </code></pre>

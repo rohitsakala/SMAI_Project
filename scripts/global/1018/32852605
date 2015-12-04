@@ -1,0 +1,1 @@
+<p>not sure how to check if a word appears as a whole word in a string, not part of a word, case sensitive. for example:</p>  <p><code>Play</code> is in strings</p>  <pre><code>Info Playlist Play pause </code></pre>  <p>but not in the strings</p>  <pre><code>Info Playlist pause Info NowPlay pause </code></pre>

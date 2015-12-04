@@ -1,0 +1,1 @@
+<p>When i'm trying to publish my app for Air from Adobe Flash CC , i'm getting this error all the time:</p>  <blockquote>   <p>Error creating files. aapt tool   failed:C:\Users....\AndroidManifest.xml: error: Unable to open file   for read. No such file or directory</p> </blockquote>  <p>How can i get rid of this?</p>

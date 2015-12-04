@@ -1,0 +1,1 @@
+<p>How can I call <code>myFunc</code> in the below Javascript?</p>  <pre><code>var myParams = "'a','b','c','d'"; myFunc(myParams); // myFunc("'a','b','c','d'"); </code></pre>  <p>Whereas I want it to act like:</p>  <pre><code>myFunc('a','b','c','d'); </code></pre>

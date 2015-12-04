@@ -1,0 +1,1 @@
+<p>This question is coming from an issue on the Docker's repository:<br> <a href="https://github.com/docker/compose/issues/942" rel="nofollow">https://github.com/docker/compose/issues/942</a></p>  <p>I can't figure it out how to create a data container (no process running) with docker compose.</p>

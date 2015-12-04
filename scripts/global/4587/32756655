@@ -1,0 +1,1 @@
+<p>I want to generate HDFS path on my mapper code. FileSystem has all the method that we can do from CLI like put, get, mkdir etc... but not getting when a directory already exists in the HDFS, how to generate its path in my mapper or reducer code.</p>  <p>I am using <code>MR2</code>..</p>  <p>Thanks.</p>

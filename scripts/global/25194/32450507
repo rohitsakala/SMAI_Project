@@ -1,0 +1,1 @@
+<p>I got a problem by creating page on Weebly. So when I modify my 'ul' tag like this: </p>  <pre><code>#top-home-wrap #main #content ul { color: yellow; list-style-image: url('fa-check.png') !important; } </code></pre>  <p>It doesn't work because it is using some default theme styles. How to fix this problem?</p>

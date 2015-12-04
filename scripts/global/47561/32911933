@@ -1,0 +1,1 @@
+<p>I've been learning about web scraping using BeautifulSoup in Python recently, but earlier today I was advised to consider using XPath expressions instead.</p>  <p>How does the way XPath and BeautifulSoup both work differ from each other?</p>

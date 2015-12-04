@@ -1,0 +1,1 @@
+<p>I want to compile qt static build. In that project I used webkit. I know that webkit is disable in static build. So is it possible somehow include (link) weblit dynamically from path(C:\Qt\version...\bin\Qt5WebKitWidgets.dll) and project compile in static build? </p>

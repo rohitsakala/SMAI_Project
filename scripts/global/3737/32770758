@@ -1,0 +1,1 @@
+<p>I am manually creating objects in the rails console using <code>Model.new(&lt;attributes here&gt;)</code>. Is there an easy way to list out which attributes a model will require me to include in order for the <code>.save</code> call to succeed?</p>  <p>I am running rails 4.2.3</p>

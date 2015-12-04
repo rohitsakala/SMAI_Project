@@ -1,0 +1,1 @@
+<p>In previous versions of Xcode you could drag from one UI element in your storyboard to another and by holding the <em>Shift</em> button pressed, you could add more constraints between those two components - all at once. In Xcode 7 this doesn't seem to work.</p>  <p>Any ideas how to add multiple constraints at once in Xcode 7?</p>

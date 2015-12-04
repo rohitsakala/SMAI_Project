@@ -1,0 +1,1 @@
+<p>i want to make a dotted circle</p>  <pre><code>var c = document.getElementById("layerCanvas");         var ctx = c.getContext("2d");         ctx.font = "15px Arial";         ctx.fillStyle = "white";          ctx.fillText(".",500,400); </code></pre>  <p>how do i use the ctx.arc to do this ?</p>

@@ -1,0 +1,1 @@
+<p>I need to know how to take an ASCII character (byte data format) and extract its hexadecimal ASCII code. Despite the simplicity I couldn't find an existing answer for GNU Assembler. Could somebody either show me how to do it or point me to an existing question I may have missed? All help is greatly appreciated.</p>

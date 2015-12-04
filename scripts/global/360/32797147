@@ -1,0 +1,1 @@
+<p>I am generating lists such as the following, with operators, numbers and parameters:</p>  <pre><code>'(* (+ 3 param1) param2) </code></pre>  <p>That I want to evaluate and test with different parameters. But reading around it doesn't look like I can change those values at runtime if I use the <code>eval</code> procedure. </p>  <p>Is there a clean way to do this?</p>

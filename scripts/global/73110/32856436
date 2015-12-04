@@ -1,0 +1,1 @@
+<p>It sometimes takes a second or more to connect to my SignalR server from the browser - even when running locally. I thought websockets were supposd to be fast!</p>

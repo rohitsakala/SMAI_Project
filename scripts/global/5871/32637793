@@ -1,0 +1,1 @@
+<pre><code>class myClass {     enum firstEnum { Value1, Value2, Value3};     enum secondEnum { ValueA, ValueB, ValueC}; }; </code></pre>  <p>I want to overload the | operator on the two enums above. Is it possible?</p>  <p>Notice that there are two enums here, not just one and i want to overload the | for both.</p>  <p>Thanks.</p>

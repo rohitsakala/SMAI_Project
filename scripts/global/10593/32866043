@@ -1,0 +1,1 @@
+<p>When i use www.w3schools.com this un url. It is redirecting me to 404 page not found. I don't want to http or https ncz my url stored in database without http only. </p>  <pre><code>&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;body&gt;  &lt;p&gt;An absolute URL: &lt;a href="www.w3schools.com"&gt;W3Schools&lt;/a&gt;&lt;/p&gt;  &lt;/body&gt; &lt;/html&gt; </code></pre>

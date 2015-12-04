@@ -1,0 +1,1 @@
+<p>As said in the title , i need to create a JButton2 in JFrame2 which is triggered by the click of JButton1 in JFrame1 , After that the name that is inserted into a variable by the clicking of JButton1 , should be displayed in JButton3 in JFrame3, which is opened by JButton2.  </p>

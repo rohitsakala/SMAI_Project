@@ -1,0 +1,1 @@
+<p>How do I set the border color in a Spark TextArea? There is no attribute style for borderColor in Spark TextArea. </p>  <pre><code>&lt;s:TextArea id="textarea" borderColor="0"/&gt; </code></pre>

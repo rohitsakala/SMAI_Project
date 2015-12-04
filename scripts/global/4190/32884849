@@ -1,0 +1,1 @@
+<p>What is the most efficient way to compute the residuals of two numpy arrays?</p>  <p>I'm doing this the next way:</p>  <pre><code>def residuals(array1, array2): sum = 0. for i in xrange(len(lane1)):     sum += (lane1[i] - lane2[i])**2 return sum </code></pre>  <p>And I'm wondering if there is any other better solutions?</p>

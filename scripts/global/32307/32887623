@@ -1,0 +1,1 @@
+<p>I just update Android Studio and I can't build any project, even newly created ones.</p>  <p>The error I got is:</p>  <p>Error:Could not run build action using Gradle distribution '<a href="https://services.gradle.org/distributions/" rel="nofollow">https://services.gradle.org/distributions/</a><strong>gradle-2.4</strong>.zip'.</p>  <p>what should I do?</p>

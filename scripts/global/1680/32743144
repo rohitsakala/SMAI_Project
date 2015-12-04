@@ -1,0 +1,1 @@
+<pre><code>var f = new Array(); for(var i=0;i&lt;3;i++){      var func = function() {         console.log(i);     }      f.push(func);  }   f[0](); f[1](); f[2](); </code></pre>  <p>In this example, I would expect that f[0] logs 0, f[1] logs 1 and f[2] logs 2. However, every function logs 3 !</p>  <p>What is wrong with that?</p>

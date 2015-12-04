@@ -1,0 +1,1 @@
+<p>We have following algorithm:</p>  <pre><code>while(a &gt; b) {      a -= c; } </code></pre>  <p>a, b and c are given, b and c are constants, c > 0.</p>  <p>Now it works in linear time. Is it possible to speed it up, to work in logarithmic or constant time?</p>

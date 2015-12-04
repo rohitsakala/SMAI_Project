@@ -1,0 +1,1 @@
+<p><code>JsonConvert.DeserializeObject</code> successfully deserializes <code>['a','b']</code> as <code>List&lt;KeyValuePair&lt;string, object&gt;&gt;</code>. I would like it to fail, only succeeding when the input string is like <code>[{'Key':'a','Value':'b'}]</code>.</p>  <p>Is there a way to accomplish this?</p>

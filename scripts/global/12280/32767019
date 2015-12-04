@@ -1,0 +1,1 @@
+<p>I want to detect if an alert has been launched on a webpage in javascript. </p>  <pre><code>alert.("some text") </code></pre>  <p>Is there some kind of alertListener that I can implement?</p>

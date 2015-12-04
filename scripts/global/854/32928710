@@ -1,0 +1,1 @@
+<p>I have two matrices with TPRate and FPRate. I want to plot an ROC Curve with that two matrices. I tried <code>plotroc</code> function of matlab but can't understand what its parameter. Is it like this? </p>  <pre><code>plotroc(TPRate, FPRate) </code></pre>  <p>If not how can I plot the ROC Curve with that two matrices?</p>

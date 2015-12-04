@@ -1,0 +1,1 @@
+<p>Is signed magnitude and two's compliment of a binary number the same when given a positive decimal value?</p>  <p>for example the value +29 (decimal) signed magnitude is 00011101 two's compliment is 00011101</p>  <p>for example the value -29 (decimal) signed magnitude is 10011101 two's compliment is 11100011</p>  <p>is this true for all positive decimal numbers?</p>

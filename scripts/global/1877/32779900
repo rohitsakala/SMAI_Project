@@ -1,0 +1,1 @@
+<p>I build a rcp use osgi which can work well when just a user use one of copy. but i want to change it to different linux user share one of copy(read only for all user ) ,but osgi need a "./confiurationg" with writable .  There is a best way to resolve if ?</p>

@@ -1,0 +1,1 @@
+<p>I have a website let say <code>www.company.com</code> that is accessible from everyone and I need to allow its access with parameters like <code>www.company.com?serviceId=2</code> only from a specific IOS APP and specific Website.</p>  <p>How can I verify where from my website is called and allow or not the parameters?</p>

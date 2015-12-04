@@ -1,0 +1,1 @@
+<pre><code>a=[] b=[] c= a[0],b if a else (None,None) d= (a[0],b) if a else (None,None) </code></pre>  <p>the first expression would raise IndexError ,but the second is fine.How does it happened.</p>

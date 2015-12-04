@@ -1,0 +1,1 @@
+<p>Using the pundit gem, authorization on the record id for a given user on the user model is proving to be a challenge</p>  <pre><code>def initialize(user, record)   @user = user   @record = record end   def image   return true if record.user_id == user.id end </code></pre>  <p>generates a <code>undefined method 'user_id'</code> error.</p>

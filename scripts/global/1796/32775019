@@ -1,0 +1,1 @@
+<p>I want to create an alias for running the java projects on command line, like instead of putting "java classname" every time ; I want to create an alias for that 'java' command. For instance, "run classname". Is there any way to substitute standard java project execution command with our own? Thank You.</p>

@@ -1,0 +1,1 @@
+<p>Qt Designer and Assistant quits unexpectedly on my macbook air. I installed qt 4.8 because i wanted the Designer and Assistant, and I installed pyqt 4. I suspect that it is because it cant find the frameworks but i can see all the respective frameworks in /Library/Frameworks. Ive used the mpkg to install it and there is nothing else to do. I need some help please!</p>

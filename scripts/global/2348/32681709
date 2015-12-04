@@ -1,0 +1,1 @@
+<p>I want to write a program with Python which It capable to get some parameter from the input like [-sV -sU -sC] and gives them to Nmap program and then execute it. How can I do this task? Simply I want to run another program via my python code and give the program which i run it some parameters. </p>

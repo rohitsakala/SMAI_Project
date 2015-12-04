@@ -1,0 +1,1 @@
+<p>How do I assign anonymous functions to local variables in either cl, emacs lisp or clojure?</p>  <p>I've tried the following with no success.</p>  <pre><code>(let ((y (lambda (x) (* x x)) )) (y 2)) </code></pre>  <p>and</p>  <pre><code>((lambda (x) 10) (lambda (y) (* y y))) </code></pre>

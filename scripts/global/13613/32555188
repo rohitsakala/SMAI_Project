@@ -1,0 +1,1 @@
+<p>If I have two packages Px and Py with the same class C, is there a way to programmatically chose if I want to take C from Px or from Py? Px and Py (or more packages) names are not known in advance either.</p>  <p>I have a lot of code where I use C, but I want the package from where I take it to be interchangeable.</p>  <p>Is there a clean way to accomplish this?</p>

@@ -1,0 +1,1 @@
+<p>I think that the output of this code should be 12 and 42:</p>  <pre><code>#define PRODUCT(x) (x*x) int main(){     int i=3,j,k;     j=PRODUCT(i++);     k=PRODUCT(++i);     printf("\n%d %d",j,k);     return 0; } </code></pre>  <p>However, gcc produces 12 and 49. Why?</p>

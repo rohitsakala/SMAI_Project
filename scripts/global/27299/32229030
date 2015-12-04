@@ -1,0 +1,1 @@
+<p>I need to upload a text file to a server thru FTP in Java ME. I have tried ftp4j.jar FTPClient, however, there is no java.io.file in Java ME.</p>  <p>Any other third party library that allow file uploading to FTP server in Java ME?</p>

@@ -1,0 +1,1 @@
+<p>The app had been working fine up until i tried to make the UIButton lead to a new view controller. At first, when i clicked the button it just closed the app.  But now the app opens in the simulator, but only shows the splash screen before closing and showing me the AppDelegate.swift file, which doesn't appear to have anything wrong with it.</p>

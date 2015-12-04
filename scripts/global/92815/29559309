@@ -1,0 +1,1 @@
+<p>in my project i have removed the Default ViewController which will be added from the SingleView Template and over ridden with </p>  <pre><code>myapiViewController *fst = [[myapiViewController alloc]init]; UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:fst];  self.window.rootViewController = nav; </code></pre>

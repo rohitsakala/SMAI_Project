@@ -1,0 +1,1 @@
+<p>I have this error when I deploy my application in websphere portal</p>  <pre><code>Cannot create JDBC driver of class 'com.mysql.jdbc.Driver' for connect URL 'jdbc:mysql://localhost:3306/My_dataBase' java.lang.NoClassDefFoundError: com/mysql/jdbc/StringUtils </code></pre>  <p>So can any one help me?</p>

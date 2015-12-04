@@ -1,0 +1,1 @@
+<p>There are so many options for starting a Webapp. We are planning to build a large scale webapp. We have chosen <code>Backbone</code> for <code>MC</code> and <code>React</code> for <code>V</code>. My question is that if we choose Flux over Backbone does it give any extra benefit? For a fresh React application as of now, what should one replace Backbone with? </p>

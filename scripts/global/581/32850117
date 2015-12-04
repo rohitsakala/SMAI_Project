@@ -1,0 +1,1 @@
+<p>Jedis by default provide md5 and murmur hash method for keys, then get shard use consistent hashing. I want to use crc32 for key hashing, and use simple mod method to get the shard</p>  <p>crc32(key) % shard_num</p>  <p>By read the source code, I can pass the key hashing method as a 'algo' parameter, but how can I change the default getting shard method?</p>

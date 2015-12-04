@@ -1,0 +1,1 @@
+<p>Am using cakephp 2.3 version and implemented PayPal Omnipay PHP payment processing library with PayPal Express Checkout which is working fine. But now i wanted change this to PayPal Adaptive Payments using Omnipay.</p>  <p>If any one already used this please give me suggestion how to implement this. Thank you...</p>

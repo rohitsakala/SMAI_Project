@@ -1,0 +1,1 @@
+<p>I have been searching, I checked Laravel 5 documentation but I haven’t found anything. In the Laravel <strong>.env</strong> example file it shows how you can set it to send from one email address, but say I want to send from different email addresses for different situations, how would I do that?</p>

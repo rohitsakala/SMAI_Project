@@ -1,0 +1,1 @@
+<p>I have the following code</p>  <pre><code>&lt;div class="takeover" onclick=location.href="http://google.com/"&gt; &lt;div class="site-container"&gt; </code></pre>  <p>And I want that onclick to work ONLY on Takeover, nothing inside takeover.</p>  <p>How do I do that?</p>  <p>Thanks,</p>  <p>Tom</p>

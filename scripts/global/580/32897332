@@ -1,0 +1,1 @@
+<p>I'm using an API that requires me to use a header named "m_id" to the request.</p>  <p>When I use</p>  <pre><code>$mech-&gt;add_header('m_id' =&gt; 'whatever') </code></pre>  <p>WWW::Mechanize (or rather HTTP::Headers) “helpfully” changes the header name to “M-Id”.  Which doesn't work.</p>  <p>Is there any way to prevent this from happening?</p>

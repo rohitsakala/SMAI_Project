@@ -1,0 +1,1 @@
+<p>I have a very large dictionary of keys and float values. I want to access it quickly, but don't have the memory to do so. Thus, I'd like to create a sql database that has the keys of the dictionary converted to primary keys in the database, and the values of the dictionary would be the columns in the database.</p>

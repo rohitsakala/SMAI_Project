@@ -1,0 +1,1 @@
+<p>I am trying to use Java FX (in Eclipse).  I am building a GridPane using Scene Builder and want to add a TextField to the GridPane which is freely resizable, i.e. isn't constrained by the grid.  How do I do that?  </p>

@@ -1,0 +1,1 @@
+<p>I've looked through all YouCompleteMe's documentation (for vim) but i can't seem to find the option to set which file extensions it recognizes as C++ files. I'm trying to change it so that I have C++ semantic completion in .h files. Any ideas? </p>

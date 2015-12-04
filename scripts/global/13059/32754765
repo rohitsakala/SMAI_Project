@@ -1,0 +1,1 @@
+<p>We want to move a Domain (ex. www.abc.com) to another Magento Installation. For this Domain, there is a Shop running with products and already sales. </p>  <hr>  <p>My question is: </p>  <p>When we move the domain (only the domain, no sales or products), does this have effect on the old magento installation?</p>

@@ -1,0 +1,1 @@
+<p>my problem is when I run a simple mapping using a source (Flat File), a Split and two targets (two oracle tables), I get an error in Validations Results like :</p>  <pre><code>The physical node FAP_1 cannot be supported by technology Oracle on execution unit ORACLE_RETENTION_UNIT of mapping Mapping Map_364_2[141] owning folder=GCA.PRD03. </code></pre>

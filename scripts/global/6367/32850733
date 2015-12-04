@@ -1,0 +1,1 @@
+<p>I'm getting a confusing error:</p>  <blockquote>   <p>Error: Undefined mixin 'at-breakpoint'</p> </blockquote>  <p>every time I attempt to add an <code>@include at-breakpoint</code> in my SCSS. </p>  <p>I'm running:</p>  <ul> <li>Compass v 1.0.3</li> <li>Susy v 2.2.1</li> </ul>  <p>In <code>config.rb</code>, <code>"require susy"</code> is set. </p>

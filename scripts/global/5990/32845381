@@ -1,0 +1,1 @@
+<pre><code>string1&lt;-"ccjar_neutral v_neutral vaux_neutral nnp_neutral prn_neutral v_neutral inj_neutral" </code></pre>  <p>How to write regular expression to</p>  <ol> <li><p>Extract only "v_neutral" from string1</p></li> <li><p>Extract "v_neutral vaux_neutral" from string1</p></li> </ol>

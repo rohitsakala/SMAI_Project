@@ -1,0 +1,1 @@
+<p>I'm using hadoop-1.2.1 and hdfs is in a corrupted state. Below is the output of  hadoop fsck / command.</p>  <pre><code>    /user/hive/warehouse/000018_0:  Under replicated blk_-7419901609036911372_3153595. Target Replicas is 3 but found 1 replica(s).     Status: CORRUPT </code></pre>  <p>Is there a way to recover hdfs since 1 block is available?</p>

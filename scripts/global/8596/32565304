@@ -1,0 +1,1 @@
+<p>I want to hide the scroll bar by using Jquery. Can anyone help me with it?</p>  <pre><code>$     ::-webkit-scrollbar {      display: none;  } </code></pre>  <p>This works for Chrome but I want my scroll to hide for all browsers, how can I do that?</p>

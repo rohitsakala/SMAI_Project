@@ -1,0 +1,1 @@
+<p>When I see the <em>TortoiseSVN > Properties</em> for a folder to view the 'Properties Window', I see some of the property-values are greyed out. What does grey color signify here?</p>  <p>Is is to highlight that these properties have been inherited from the parent folder (if such property inheritance works for SVN folders)?</p>

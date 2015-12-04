@@ -1,0 +1,1 @@
+<p>I am interested in developing a Java app that will run on Windows. I'd like for it to be able to create and host a live http video stream of a window/process that is running on my PC? Is there a library to achieve this? The goal is to allow another PC to be able to view this video stream.</p>

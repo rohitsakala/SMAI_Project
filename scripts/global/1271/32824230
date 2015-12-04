@@ -1,0 +1,1 @@
+<p>with <code>svn log | grep "keyword"</code> I can grep the line containing the "keyword", e.g., </p>  <pre><code>svn log -v | grep "recur" (endless recursion) when deleting an object in the tree. </code></pre>  <p>However, how can I get the revision number of this commit? </p>  <p>I am using svn 1.6 (not latest one, which has no svn search)</p>

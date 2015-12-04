@@ -1,0 +1,1 @@
+<p>In a UITextView with the editing disabled I try to select a string like '#hash' with a long press in that string, but it is only selected 'hash' without the '#' prefix. </p>  <p>Is there a way to select all the string (hashtag pattern) with a long press?. </p>  <p>Thanks in advance.</p>

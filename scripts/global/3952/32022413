@@ -1,0 +1,1 @@
+<p>I'm trying to sign the BAR file generated from apk file but i got this error:</p>  <p>Error: Code signing request failed because it could not be logged. Package-Version-Id [gYACgLU-GLg8YtNMuWU17-BoxsM], Application-Version-Id [gYAEgM4XsG9ppojbj3zOO9gg-Nc], Client-Id [2189468].</p>  <p>I tried to redownlowd the CSK file but no luck.</p>

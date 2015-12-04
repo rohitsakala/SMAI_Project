@@ -1,0 +1,1 @@
+<p>I am trying to extend the Event Calendar package for Umbraco 7.2. I would like to add an image to the events being displayed on the event page. Not sure if it is possible to extend the package. The Package uses Angular.</p>

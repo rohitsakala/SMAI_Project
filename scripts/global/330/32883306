@@ -1,0 +1,1 @@
+<p>after upgrading to Safari 9 I'm getting this error in the browser:</p>  <pre><code>[Warning] [blocked] The page at https://localhost:8443/login was not allowed to run insecure content from http://localhost:8080/assets/static/script.js. </code></pre>  <p>Anyone knows how to enable the running of insecure content on the new Safari?</p>

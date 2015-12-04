@@ -1,0 +1,1 @@
+<p>How would i use the following htaccess on lightspeed webserver</p>  <pre><code>RewriteEngine on RewriteCond $1 !^(MJ12_62ae72c1-7c81-4e44-818a-d176d5ed3ee6.txt|fatalforum|radio\.php|content|blog|sites|index\.php|sitemap\.xml|images|robots\.txt) RewriteRule ^(.*)$ /index.php/$1 [L] </code></pre>  <p>I've tried alot of configurations but cannot figure it out</p>

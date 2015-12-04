@@ -1,0 +1,1 @@
+<p>I'm using Atom (Github's editor) and I am making a package that is supposed to search whatever file I am on for a function called main, and then evaluate that function. I have got everything down, except for how to find that function. I tried exports, but that requires me to know the file name, which I do not want.</p>

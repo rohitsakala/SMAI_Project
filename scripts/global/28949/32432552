@@ -1,0 +1,1 @@
+<p>I am trying to load xib view for particular scene in cocos2d-js for cross plate form. because of some of the functionality does not available in cocos2d-js so i am trying to load xib. In short some times i want to run scene and some times i want to load xib. please help me how to do it?</p>

@@ -1,0 +1,1 @@
+<p>I'm looking for an implementation of a generic BTree that writes on disk in c++</p>  <p>I alredy tried to make a class that writes on disk but I had some memory problems that I really don't know what it means... if you can give me a hand, I also tried looking for the implementation on Internet</p>

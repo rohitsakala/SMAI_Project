@@ -1,0 +1,1 @@
+<p>Iam new to protractor, Please help me to find the element locator using below code in Protractor/angularJS i have tried using xpath and CSS. what locator can be used from this code</p>  <pre><code>&lt;button type="submit" value="autofocus" class="btn" data-ng-click="reset()"&gt;Reset&lt;/button&gt; </code></pre>

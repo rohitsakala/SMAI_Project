@@ -1,0 +1,1 @@
+<p><code>&lt;div&gt; &lt;sf:input type="text" cssClass="xxsLen" id="field1" maxlength="3" path="Data.field1"/&gt; &lt;/div&gt;</code></p>  <p>I have more  but I want to add autofocus to the first one. How do I do it here? I tried adding auto focus at the end but it breaks my code. Also this is a .jsp file.</p>

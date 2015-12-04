@@ -1,0 +1,1 @@
+<p>I get nothing in return and, can anyone see the simple ting that I am missing?</p>  <pre><code>SELECT SUM(Amount * InPrice) AS TotalItemsOrdered FROM tblMaterial WHERE [tblMaterial].[OwnerId] = [tblTask].[Id]  </code></pre>  <p>Do I need to do something different to get a result?</p>  <p>Hope for a simple answer....yes I am new at this :)</p>

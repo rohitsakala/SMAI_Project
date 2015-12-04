@@ -1,0 +1,1 @@
+<p>When opening files in Vim I almost always do something like this:</p>  <pre><code>:e subDir/**/file&lt;ctrl-d&gt; </code></pre>  <p>But in the docs and basically every StackOverflow/blog post I have read it seems that people use "find" the way I use "edit".</p>  <p>What am I missing by using the edit command instead of the find command?</p>

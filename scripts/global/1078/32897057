@@ -1,0 +1,1 @@
+<p>In java, I know you can use <code>Class&lt;?&gt;</code>. I was wondering if the same thing is possible with <code>Enum</code>s. </p>  <p>I would like to declare something that would look like this: <code>HashMap&lt;Enum&lt;?&gt;, Object&gt; myMap = ...</code></p>

@@ -1,0 +1,1 @@
+<p>After adding new function from project I get "glibc detected memory corruption"</p>  <p>Error doesn't specify line on which error occures.</p>  <p>How to detect the source of the error ?</p>  <p><strong>Update:</strong> </p>  <p>Also worth to mention, I don't use malloc in my code explicitly and my code is C++.</p>

@@ -1,0 +1,1 @@
+<p>I've tried the following piece of code:</p>  <pre><code>$.each.call({foo: 'bar'}, [1,2,3], function(i){console.log(i, this);}) </code></pre>  <p>I thought it would print out {foo: 'bar'} for the <code>this</code> value, but instead it prints the item (which is the expected behavior for $.each). Can someone explain why the <code>this</code> value isn't being overwritten?</p>

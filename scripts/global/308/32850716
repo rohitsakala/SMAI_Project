@@ -1,0 +1,1 @@
+<p>I am a beginner into this so I might question might sound silly. I have a IDXGISurface which holds some data/image. Now I wish to crop certain rectangle areas out of it and store it into same IDXGISurface or another similar surface. I believe Direct2D provides a way to do it through layers.  Any guidance on this(preferable step by step) would be helpful. </p>

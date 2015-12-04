@@ -1,0 +1,1 @@
+<p>what is the correct way to use guard inside a for loop?</p>  <pre><code>for (index,user) in myUsersArray.enumerate() {      guard user.id != nil else {         print("no userId")         //neither break / return will keep running the for loop     }      if user.id == myUser.id {          //do stuff      } } </code></pre>

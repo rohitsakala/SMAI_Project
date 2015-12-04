@@ -1,0 +1,1 @@
+<p>I know the life cycle of JSP page but i wondered when i started to use JSTL. <strong>My question is that in which phase of JSP life cycle this JSTL tags evaluates?</strong> for example in jsp translation phase or in service phase.</p>

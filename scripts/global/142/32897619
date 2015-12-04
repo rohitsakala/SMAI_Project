@@ -1,0 +1,1 @@
+<p>I need script to start and stop web sphere server.</p>  <p>My requirement is need to write build.xml which I need to configure in Hudson to start and stop web sphere application server.</p>  <p>I done all the tasks but to stop and start in the ant script not familiar. Please provide any examples.</p>

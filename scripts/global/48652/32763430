@@ -1,0 +1,1 @@
+<p>I need to set white color to the region that the user touches on an ImageView. If I setOnTouchListener to the ImageView and get the x and y positions of the touch, how can I change the appropriate pixel values in the ImageView? or is there a better solution?</p>

@@ -1,0 +1,1 @@
+<p>I was wondering why is it that we don't apply Bessel's correction (N-1) when calculating the sample mean but we use it to calculate the sample standard deviation? </p>

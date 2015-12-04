@@ -1,0 +1,1 @@
+<p>Column A is Category, Column B is Sub Category and  Column C is Original/Repeat Telecast. So if column A if "Film" or Column B is "Consumer" then column C should be Original.If Repeat is entered in column C then it should allow entry but a warning message should pop up. </p>

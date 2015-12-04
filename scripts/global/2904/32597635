@@ -1,0 +1,1 @@
+<p>I'm developing an androd app and I'm using both BitmapFont and GlyphLayout to display a text on the screen. But unfortunately when I call scale() to make it bigger, the text looks pixelated. It's all blurry and looks like it's been drawn with a super-old computer. How do I solve that problem?</p>

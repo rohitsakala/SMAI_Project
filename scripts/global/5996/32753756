@@ -1,0 +1,1 @@
+<p>I want to use php mail() on my local host but when I installed sendmail it giving me the error "WARNING: local host name (xxx) is not qualified; see cf/README: WHO AM I?" I did not get it. how to change local host name and resolve it?</p>

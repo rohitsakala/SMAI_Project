@@ -1,0 +1,1 @@
+<p>I am using the v1 API ( <a href="https://api.pinterest.com/v1/pins/" rel="nofollow">https://api.pinterest.com/v1/pins/</a>{PIN_ID}/ ... ) but there is no documentation on how to retrieve comments for certain pin.</p>  <p>So how do you do that? </p>

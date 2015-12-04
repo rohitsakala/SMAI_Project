@@ -1,0 +1,1 @@
+<p>I have a subclass of <code>XCTestCase</code> and I would like to mark some test as <code>pending</code>, in the same way that is possible with RSpec </p>  <p><a href="https://www.relishapp.com/rspec/rspec-core/v/2-0/docs/pending/pending-examples" rel="nofollow">https://www.relishapp.com/rspec/rspec-core/v/2-0/docs/pending/pending-examples</a></p>

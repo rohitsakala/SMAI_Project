@@ -1,0 +1,1 @@
+<p>I am unable to download xls file in Internet with SSL(https) i am using following header information in jsp page.same is downloading fine with other browser.please help if i can add any thing extar in header information.</p>  <pre><code>response.setHeader("Cache-Control","no-cache") response.setHeader("Pragma","no-cache") response.setDateHeader ("Expires", 0) </code></pre>

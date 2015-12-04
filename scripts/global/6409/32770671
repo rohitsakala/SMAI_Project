@@ -1,0 +1,1 @@
+<p>I used Custom Field Suite plugin to create a set of custom fields. Subsequently, I add this set to a custom post type created with Custom Post Type plugin.</p>  <p>The question is which .php file do I need to edit to start displaying these field? At the moment I am using one of the basic templates (twenty fourteen), but later intend to add a custom one. </p>

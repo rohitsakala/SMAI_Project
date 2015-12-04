@@ -1,0 +1,1 @@
+<p>All the examples for splitting strings generate arrays.  I want the following</p>  <p>Given string like <code>x.y.z</code>  e.g. <code>storage.clusters.us-la-1</code> How do I generate a table from that resembling</p>  <pre><code>x = {   y = {     z = {     }   } } </code></pre>

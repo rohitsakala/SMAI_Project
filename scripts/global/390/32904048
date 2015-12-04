@@ -1,0 +1,1 @@
+<p>I'm not sure how to handle directories of directory scenario in shell. </p>  <p>I have folder structure as below.<br> Directory structure:</p>  <pre><code>/DirA/DirA1/DirA11/*.txt   /DirA2/DirA21/*.txt /DirA3/DIrA31/*.txt' </code></pre>  <p>I'm new to shell scripting, not able to figure out how to read these text files.</p>

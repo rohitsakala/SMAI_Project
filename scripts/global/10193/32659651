@@ -1,0 +1,1 @@
+<p>I have the following <code>find</code> command which will give me all files:</p>  <pre><code>find /Users/david/Desktop/-type f  </code></pre>  <p>How would I find only those files with extension <code>txt</code> <code>mpg</code> or <code>jpg</code> ?</p>

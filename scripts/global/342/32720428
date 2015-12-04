@@ -1,0 +1,1 @@
+<p>I'm trying to consume messages sent to SQS by a Node App. So the "push" action is performed by Node App on the server A, the "listen" action by Laravel App on server B. </p>  <p>My problem: I don't know how to format the payload to be consumed with <code>php artisan queue:work</code>.</p>  <p>Has anyone experienced this before and found a solution?</p>  <p>Thanks!</p>

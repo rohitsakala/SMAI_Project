@@ -1,0 +1,1 @@
+<p>I am encoding animated GIFs using the usual tools (imagemagick, gifsicle, FFMPEG) from video and use per-frame color maps to improve the color quality. These tools seem to allow specifying global color maps, but I can't seem to find a way to do it per-frame.</p>  <p>Is there a way to do this with these or other tools?</p>

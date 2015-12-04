@@ -1,0 +1,1 @@
+<p>The rows in my table get wiped out when I click on my pagination links. Is there any way that I can prevent this? I am using will_paginate to generate my pagination links.</p>

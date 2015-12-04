@@ -1,0 +1,1 @@
+<p>for instance:</p>  <pre><code>def m(arg, ...args) {     println "arg: $arg"     println "args: $args" }  m('arg', k:'v') </code></pre>  <p>output:</p>  <pre><code>arg:['k':'v'] args:['arg'] </code></pre>  <p>I think the right output should be </p>  <pre><code>args:['arg'] arg:['k':'v'] </code></pre>

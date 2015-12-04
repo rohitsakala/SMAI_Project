@@ -1,0 +1,1 @@
+<p>I have this HTML :  </p>  <pre><code>&lt;input type="submit" value="Connect" name="connect" onclick="document.status.action='/goform/contorl' ;" style="visibility: visible; display: table-row;" disabled=""/&gt; </code></pre>  <p>Can someone tell me what <code>document.status.action</code> means? </p>

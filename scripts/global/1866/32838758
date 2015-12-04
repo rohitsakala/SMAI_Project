@@ -1,0 +1,1 @@
+<p>Does anyone know how to sort the results in AJAX Solr with the structure form the reuters tutorial? There's a problem with the schema.xml, because Solr says that our results are multiValued, but we've indexed it with multiValued="false"; Would be nice if someone had the same problem and could help us how to fix it.</p>  <p>Greets</p>

@@ -1,0 +1,1 @@
+<p>I'm using Asp.Net SignalR 2.</p>  <p>In a .net client (I'm using Microsoft.AspNet.SignalR.Client), is disposing a HubConnection necessary?</p>  <p>I tried doing that, but it takes too much time....</p>

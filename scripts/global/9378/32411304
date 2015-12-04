@@ -1,0 +1,1 @@
+<p>I am using tooltip inside of an echo statement i.e.</p>  <pre><code>echo "&lt;div id='image' data-toggle='tooltip' title=".$row['displayname']."&gt;";  </code></pre>  <p>but it only displays the first word.</p>  <p>suppose the $row['displayname'] returns "here is the code" then on hover it only displays "here".</p>  <p>So any help  Thankyou..</p>

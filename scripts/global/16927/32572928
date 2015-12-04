@@ -1,0 +1,1 @@
+<p>Can I parse an HTML file using an XML parser?</p>  <p>Why can('t) I do this. I know that XML is used to store data and that HTML is used to display data. But syntactically they are almost identical.</p>  <p>The intended use is to make an HTML parser, that is part of a web crawler application</p>

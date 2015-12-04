@@ -1,0 +1,1 @@
+<p>I would like to highlight new record(s), let say all new news(s) and unread from last 3 days to be highlighted as new in the list and when user clicks on the record and read the detail, change to unhighlighted.</p>  <p>my json, delivers delivers the date and time of the each recored.</p>  <p>any idea how to manage this issue?</p>

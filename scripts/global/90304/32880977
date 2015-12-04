@@ -1,0 +1,1 @@
+<p>I've got a Rails app on a Docker image deployed to Heroku using <code>heroku docker:release</code>. I normally use <code>heroku run rails console</code> to access the console, but I am getting <code>bash: /app/user/bin/rails: Permission denied</code>.  How do I access the Rails console via the Heroku-CLI command line?</p>

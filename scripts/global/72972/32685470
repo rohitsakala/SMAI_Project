@@ -1,0 +1,1 @@
+<p>I'd like to know if it's possible to resize a XAML <code>TextBox</code> during runtime, and through user interaction. That is, the user uses handlebars to manually resize the <code>TextBox</code> as needed. Although the <code>TextBox</code> seems to have a <code>sizeChanged</code> event, I can't figure out how can I possibly change the size manually at runtime.</p>

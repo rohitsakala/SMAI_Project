@@ -1,0 +1,1 @@
+<p>I have string in PHP, like:</p>  <pre><code>"%\u0410222\u0410\u0410%" </code></pre>  <p>And I need to modify the string by adding slashes like:</p>  <pre><code>"%\u0410222\\\\u0410\\\\u0410%" </code></pre>  <p>(add 3 slashes for each slash in string, except first slash) I want to use PHP preg_replace for this case, and how to write regular expression?</p>

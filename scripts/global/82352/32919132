@@ -1,0 +1,1 @@
+<p>I want to display a dropdown with mutiple sub items please see the picture for example</p>  <p>In the below picture customer is a table right side displayed items are columns i want to display like this in angularjs</p>  <p>example   customer->name             city             Address   order->name          quanttity</p>

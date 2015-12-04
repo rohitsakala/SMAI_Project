@@ -1,0 +1,1 @@
+<p>In my Repository, I have a function " count_locations($building) ".</p>  <p>But this function is called several times in the page : in the controller, in two services and in menu (KnpMenuBundle).</p>  <p>What is the best practice for to avoid not repeat the request ? Create in repository static variable for result ?</p>

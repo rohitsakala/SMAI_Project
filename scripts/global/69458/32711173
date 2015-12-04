@@ -1,0 +1,1 @@
+<p>I am using <code>metro textbox</code> and <code>metro combo box</code> in my windows application. When running the application, the font family of <code>metro textbox</code> and <code>metro combo box</code> looks different. But I want to change all control font family to "ARIAL".</p>  <p>Any suggestions or Reference? </p>

@@ -1,0 +1,1 @@
+<p><code>TempTable</code> has columns <code>RunningTotal</code> and <code>ClientCount</code>, we also have <code>@RunningTotal</code> variable declared and set to 0.</p>  <p>Can someone please explain what does this line do ?</p>  <pre><code>UPDATE Temptable  SET @RunningTotal = RunningTotal = @RunningTotal + ClientCount </code></pre>

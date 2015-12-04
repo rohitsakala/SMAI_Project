@@ -1,0 +1,1 @@
+<p>I have a server running Windows Server 2008 R2 Standart.</p>  <p>Server contains files which are highly confidential. Next week I have to give administator access to a third party.</p>  <p>Is there a way to password protect/hide folders from user with administrator rights? Is it possible without third-party software?</p>

@@ -1,0 +1,1 @@
+<pre><code>[root@Z ~]# echo \n n [root@Z ~]# echo "\n" \n [root@Z ~]# echo '\n' \n </code></pre>  <p>And</p>  <pre><code>[root@Z ~]# echo '\\' \\ [root@Z ~]# echo "\\" \ [root@Z ~]# echo \\ \ </code></pre>  <p>What's the problem?</p>  <p>soft quoting can disable \ or not???</p>

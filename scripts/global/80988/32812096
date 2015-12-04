@@ -1,0 +1,1 @@
+<p>I've got a .html page with several links on it, I want to check the links through grunt and fail the build if I get a 404 or similar status basically anything but a 200</p>

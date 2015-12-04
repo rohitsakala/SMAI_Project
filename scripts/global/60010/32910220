@@ -1,0 +1,1 @@
+<p>Given the limited hardware and its memory we encounter float-point problem. My questions is, how come in Python: <code>0.1 + 0.1 + 0.1 == 0.3</code> returns  <code>False</code> while Mathematica returns it <code>True</code>? </p>  <p>How did Wolfram guys managed it to work and can Python developers implement their solution?</p>

@@ -1,0 +1,1 @@
+<p>I got a code like this</p>  <pre><code>int def_function(typeA *, double &amp;) {} </code></pre>  <p>Could you please explain what is the meaning of these variables, why they have types but do not have name?</p>

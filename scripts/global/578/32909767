@@ -1,0 +1,1 @@
+<p>When I'm defining a recursive  function, is it better/safer to allocate local variables on heap, and then clean them up before the function returns, than to allocate them on stack. The stack size on embedded systems is very limited, and there is a danger of stack overflow, when the recursion runs too deep.</p>

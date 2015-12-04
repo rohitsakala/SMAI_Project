@@ -1,0 +1,1 @@
+<p>I need to create a Jasper Report for report for the size of 6' x 4' which is feed using tractor as continuous paper. My report is printed successfully for 1st page.But second page is printed very close to the tear mark. 3 page is started to print from end of second page.</p>  <p>My page size in Jasper is 6'x4' Page margins are 0.278' from all sides.</p>

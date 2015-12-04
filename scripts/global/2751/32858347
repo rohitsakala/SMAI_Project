@@ -1,0 +1,1 @@
+<p>I am looking for an existing cuda (cuBLAS, cuSolver,cuSparse) code that builds the csr matrix for the Kronecker sum of a dense matrix with itself (I am working with a discrete laplacian using Chebyshev methods).</p>

@@ -1,0 +1,1 @@
+<p>I wanted to pass the management console port(specified in catalina-server) and service http port(specified in axis2.xml) as system properties (using -DmgmntPort=9292 -DservPort=8282) while starting wso2 server. I tried -DhttpsPort but not working. please help</p>

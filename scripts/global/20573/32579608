@@ -1,0 +1,1 @@
+<p>I have opened a PDF file by using document viewer in titanium.</p>  <p><code>var viewer = Ti.UI.iOS.createDocumentViewer({     url: "sample.pdf"  });  viewer.show();</code></p>  <p>It will open a viewer with a "DONE" button on top left, when clicks , closes this viewer. May I know to handle that listener?</p>  <p>Thanks, Swathi.</p>

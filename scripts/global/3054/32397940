@@ -1,0 +1,1 @@
+<p>Should there be a space between <code>&lt;?php</code> and <code>namespace</code> inside a php class file?</p>  <p>I am looking for this information in PSR guidelines. There are indication about a space after. But before?</p>  <p><a href="https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md" rel="nofollow">PSR-2-coding-style-guid</a></p>

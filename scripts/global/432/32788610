@@ -1,0 +1,1 @@
+<p>I'd like to shadow some Predef members and introduce my own realization for them. How can I inform compiler that my.own.Predef._ should be imported instead of scala.Predef._ ?</p>

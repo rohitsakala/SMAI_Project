@@ -1,0 +1,1 @@
+<pre><code>function(n) {     for(int i=1; i&lt;=n; i++)         for(int j=1; j&lt;=n; j+=i)             printf("*"); } </code></pre>  <p>I thought this was O(n²logn), but the book says O(n*log(n)), so where am I going wrong?</p>

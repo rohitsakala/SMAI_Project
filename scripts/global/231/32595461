@@ -1,0 +1,1 @@
+<p>I'm trying to convert DDS defined tables to DDL without impacting the existing legacy RPG code. I can do it if I recreate the table in SQL, and then manually turn off the record level checking.</p>  <p>Wondering if the record level check can be turned off somehow as part of the create statement, or another SQL command.</p>

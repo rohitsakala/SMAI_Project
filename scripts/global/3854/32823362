@@ -1,0 +1,1 @@
+<p>I've just migrated a site across to a new account on CPanel and I just can't access the databases at all. The error I'm receiving is: </p>  <pre><code>SQLSTATE[28000] [1045] Access denied for user </code></pre>  <p>I've changed the usernames and passwords in the config and connection files, and altered paths, but it's left me stumped.</p>

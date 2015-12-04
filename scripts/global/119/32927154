@@ -1,0 +1,1 @@
+<p>I have a branch and a tag by the name <code>3.0.0</code>. Now how do i only delete the branch not the tag.</p>  <p>I tried </p>  <pre><code>git push origin --delete 3.0.0 error: dst refspec 3.0.0 matches more than one. </code></pre>

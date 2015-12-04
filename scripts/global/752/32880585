@@ -1,0 +1,1 @@
+<p>I have MVC4 website project and WCF project, both using Ninject.</p>  <p>I want to use class from WCF project in website project. I add reference to project and get both <code>NinjectWebCommon.Start()</code> executing (with "The static container already has a kernel associated with it!" error).</p>  <p>Is there way to make what I want?</p>

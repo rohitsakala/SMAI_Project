@@ -1,0 +1,1 @@
+<p>In DB2, I have this query to list numbers 1-x:</p>  <pre><code>select level from SYSIBM.SYSDUMMY1 connect by level &lt;= "some number" </code></pre>  <p>But this maxes out due to <code>SQL20450N Recursion limit exceeded within a hierarchical query.</code></p>  <p>How can I generate a list of numbers between 1 and x using a select statement when x is not known at runtime?</p>

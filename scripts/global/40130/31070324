@@ -1,0 +1,1 @@
+<p>Simply I am trying to load a sound using an URL. But Its not loading.... So I am trying debug this. But I am getting a different thing. For that sound object I am getting</p>  <blockquote>   <p>bytesLoaded value is 15903</p> </blockquote>  <p>but the</p>  <blockquote>   <p>bytesToal value is 0</p> </blockquote>  <p>Is it possible to come like this???</p>

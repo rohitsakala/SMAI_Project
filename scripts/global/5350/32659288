@@ -1,0 +1,1 @@
+<p>I have a hash like</p>  <pre><code>%has  = ('TCA' =&gt;'S', 'TTC'=&gt;'N'....) </code></pre>  <p>and a </p>  <pre><code>$string = 'TCA'  </code></pre>  <p>I want to look for my <code>$string</code> in the <code>%has</code> and if it exist,  print the value using perl like this: </p>  <pre><code>TCA, S </code></pre>  <p>How can I do that? Thank you so much!</p>

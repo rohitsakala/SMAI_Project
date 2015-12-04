@@ -1,0 +1,1 @@
+<p>I've tried out using <code>memcpy()</code> method to strings but was getting a "no matching function call" although it works perfectly when I use an array of <code>char[]</code>. Can someone explain why? <a href="http://www.cplusplus.com/reference/cstring/memcpy/" rel="nofollow">www.cplusplus.com/reference/cstring/memcpy/</a></p>

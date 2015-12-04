@@ -1,0 +1,1 @@
+<p>I'm using JNI to pass a jobjectarray from java (which is in fact a byte[][]).</p>  <p>I'd to convert this into a usable "byte array" in the form of uint8_t* or vector (ideally the latter) so that it is compatible with all of my existing code which uses it in those forms.</p>  <p>Any advice on how I can best do this? Open to using jbytearray instead if that's cleaner...</p>

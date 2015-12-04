@@ -1,0 +1,1 @@
+<p>I am trying to encrypt binary vector using AES encryption in matlab, the problem is that I want the output to be binary vector aswell, and the same size as the original binary vector, is that possible ? and if yes, how can I do that ?</p>

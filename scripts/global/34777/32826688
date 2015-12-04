@@ -1,0 +1,1 @@
+<p>I am new to Amazon Web services. I want to use SQL Server Reporting Services only for my report in EC2 instance and point to my RDS instance for data. Is it possible to use SSRS without installing SQL Server on it?</p>  <p>I have my DB in amazon's RDS.  </p>

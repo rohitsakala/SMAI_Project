@@ -1,0 +1,1 @@
+<p>I use worker in mobile project,the worker to be started,when send message to worker ,the worker isPrimordial always return true,it's seemingly always running into  main thread，anyone can tell me why？thanks very much。 </p>

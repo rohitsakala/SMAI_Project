@@ -1,0 +1,1 @@
+<p>I have a war file which has multiple <em>jar</em> files in it. One of the jar files has <em>logback.xml</em> inside it which the tomcat recognizes and logs on the <em>catalina.out</em> accordingly whereas the other jar which has another <em>logback.xml</em> is not read and is ignored. Does anyone know why the second <em>logback.xml</em> is not read?</p>

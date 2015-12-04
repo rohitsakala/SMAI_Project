@@ -1,0 +1,1 @@
+<p>I was looking at a header file in my linux system. It has a macro defined as:</p>  <pre><code>#define INIT_C_CC "\003\034\177\025\004\0\1\0\021\023\032\0\022\017\027\026\0" </code></pre>  <p>I do not understand what does this mean? This isn't escape/octal/anything that I could easily find. Please help.</p>

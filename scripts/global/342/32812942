@@ -1,0 +1,1 @@
+<p>Can someone please explain the code below. I am new to C and trying to figure it out. why do we have queueNodeT at the end? </p>  <pre><code>typedef char queueElementT;  typedef struct queueNodeTag {   queueElementT element;   struct queueNodeTag *next; } queueNodeT; </code></pre>

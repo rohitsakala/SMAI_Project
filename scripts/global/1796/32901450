@@ -1,0 +1,1 @@
+<p>I tried from C programming but that gives error "sh: 1: history: not found".<br> my code of c programming<br> </p>  <pre><code>int main () {    char command[50];    strcpy( command,"history | tail -20" );    system(command);    return(0); } </code></pre>

@@ -1,0 +1,1 @@
+<p>i deployed my application on glassfish server 4.1. everything work wonderful until next day, when i tried to authentifie but i can't, my application can't access to my database to verify my username and my password. after redeployed it, it work again. my ORM is hibernate 4. Can you help me please.</p>

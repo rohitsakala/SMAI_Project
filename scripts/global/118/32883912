@@ -1,0 +1,1 @@
+<p>Is there a <em>(even a not realistic)</em> limit to the number of lines/size of code/etc that the compiler can accept and process? I could not find anything about this in the documentation.</p>  <p>Can we say that the ability to process the length/size of just one file is limited only by hardware?</p>

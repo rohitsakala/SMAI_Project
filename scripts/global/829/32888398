@@ -1,0 +1,1 @@
+<p>It seems that there is no connectionDetached event when connectionMoved event fires.</p>  <p>So when you move a connection, it creates a new one and keeps the old one.</p>  <p>I would like to remove the first connection please. Preferrably before the second one is created (not to go over maxConnections). Is this possible?</p>

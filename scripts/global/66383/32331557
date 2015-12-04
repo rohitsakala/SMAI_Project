@@ -1,0 +1,1 @@
+<p>I came across a weird situation:</p>  <p>I found a record that only exist in the entity's extension table in the DB, <strong>but doesn't appear in the entity's base table</strong>?</p>  <p>How is it possible? Is there another optional reason beside the one of someone deleting the record directly from the base table?</p>  <p>Thanks in advance.</p>

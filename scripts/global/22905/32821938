@@ -1,0 +1,1 @@
+<p>I need to login with webview-</p>  <pre><code>        Map&lt;String, String&gt; _loginheader = new HashMap&lt;String, String&gt;();         _loginheader.put("X-Username","1111");         _loginheader.put("X-Password","1111");          _webViewManager.loadUrl(_urlLogin,_loginheader); </code></pre>  <p>Here is my code but i need to set method type GET,DELETE. Please help me.</p>

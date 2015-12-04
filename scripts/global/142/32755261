@@ -1,0 +1,1 @@
+<p>I am exploring an open source project. As of now, its using Jbehave and Ant. But I want to replace the usage of JBehave with Cucumber JVM. I would like to know if cucumber JVM is compatible with Apache ANT and if it is, how can i replace the usage of JBehave with cucumber JVM in same project?</p>

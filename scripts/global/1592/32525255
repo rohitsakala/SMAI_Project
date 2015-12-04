@@ -1,0 +1,1 @@
+<p>As in topic, I'd like to use a Java method taking a Function as an argument and provide it with a <code>Clojure</code> function, be it anonymous or a regular one. Anyone has any idea how to do that? </p>

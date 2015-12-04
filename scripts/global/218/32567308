@@ -1,0 +1,1 @@
+<p>When I use Directory.Delete, the delete completes after I update my controls tied to the folder structure.</p>  <pre><code> Directory.Delete(System.IO.Path.Combine(StorageSchemaPath, selectedSKU), true); </code></pre>  <p>I have considering starting a timer to check when delete completes or timeout. </p>  <p>Are there any event notifications I can tie into instead?</p>

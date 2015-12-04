@@ -1,0 +1,1 @@
+<p>After dismissing alertView, still  _UIAlertNormalizingOverlay is appearing on windows subviews and this is the one which becomes first responder after alertview dismiss.</p>  <p>Please tell me how to remove this from hierarchy and make textfield as first responder.</p>

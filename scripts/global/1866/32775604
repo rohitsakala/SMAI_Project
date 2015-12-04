@@ -1,0 +1,1 @@
+<p>Trying to updating the solr document with below passed data</p>  <pre><code>[{"id":"6","status":{"set":"3"}}, {"id":"10","status":{"set":"3"}}] </code></pre>  <p>Throwing this error message : </p>  <pre><code>"msg": "Expected: OBJECT_START but got ARRAY_START at [16]", </code></pre>  <p>Please suggest a best way to update solr 4.0 document data with single url.</p>

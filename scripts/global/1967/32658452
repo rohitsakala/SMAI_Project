@@ -1,0 +1,1 @@
+<p>I am looking to find out the response times that takes for my nodejs application with (lets say) when 1000 users uses it simultaneously. I believe this is called stress testing. How Can I acheive this ? </p>  <p>I am new to testing area and yet to acquire knowledge on tools that will be used. </p>  <p>Edit: I need to know how to have virtual users for the application.</p>

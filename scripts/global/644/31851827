@@ -1,0 +1,1 @@
+<p>I am trying to convert xhtml to PDF using itext or flying saucer. XHTML file generally contains CJK extension B (Japanese) characters. PDF file shows all English characters but displaying blank instead of CJK extension B (Japanese) characters.</p>

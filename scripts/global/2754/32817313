@@ -1,0 +1,1 @@
+<p>I am studing C# and this for me sound really strange... Why to add to <code>short</code> type I have to do an explicit conversion?</p>  <pre><code>short x = 1, y = 1; short z = x + y; // Compile-time error </code></pre>  <p>Explicit Cast:</p>  <pre><code>short z = (short) (x + y); // OK </code></pre>

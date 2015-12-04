@@ -1,0 +1,1 @@
+<p>I'm using Breeze to validate some of my input fields. While IE and Firefox will show the Validator.messageTemplate text as tooltip, when the input field is hovered, Chrome does not.</p>  <p>I don't have any idea anomore why this happens. I hope that someone can help.</p>

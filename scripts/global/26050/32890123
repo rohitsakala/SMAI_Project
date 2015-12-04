@@ -1,0 +1,1 @@
+<p>I have attached UIViews to a storyboard scene dock and connected them to an IBOutlet. For mosts views this is an one-to-one relationship, but sometimes I'd like to use the view as a template and create new instances as if it was a nib. </p>  <p>Is this possible to to from views put in the scene dock?</p>

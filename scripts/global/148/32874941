@@ -1,0 +1,1 @@
+<p>I have the following code which I am hoping to have a generic return type for my function:</p>  <pre><code>object myUtility {    def myFunction(input1:String, input2:String, returnType: T): T = {    :   : } </code></pre>  <p>What should be the right syntax and what should I import in order to achieve this? Thank you very much!</p>

@@ -1,0 +1,1 @@
+<p>I have logging thread context value in application logs successfully with %X pattern. Now, I want log same value in tomcat access log tomcat. Is there any pattern to log?</p>

@@ -1,0 +1,1 @@
+<p>I have a problem.</p>  <p>I have console application, that can chose between console interface, WinForm or WPF. I have to add a some kind of Web Form to it. How i can do it?  Controls on UI is dynamic and draw programly.</p>

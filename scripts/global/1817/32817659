@@ -1,0 +1,1 @@
+<p>Today when i have started compiling the code i am getting the folloing error I have tried the other option like, setting the liker flag, framework search path, </p>  <pre><code>ld: library not found for -lAdIdAccess clang: error: linker command failed with exit code 1 (use -v to see invocation) </code></pre>

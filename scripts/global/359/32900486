@@ -1,0 +1,1 @@
+<p>Is it possible in django to create permission to control (view/add/delete/change) user accounts only from specific group or e. g. having flag <code>is_staff</code> set to false? How can I do it?</p>  <p>For example, users from 'operators' group can manage users from 'clients' group and cannot control (even view) staff user accounts in admin interface.</p>

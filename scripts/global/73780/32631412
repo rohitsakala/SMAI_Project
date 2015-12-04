@@ -1,0 +1,1 @@
+<p>Does Dart have some function or property that can tell whether the OS uses "/" or "\" in the file system paths, like File.separator in Java?</p>

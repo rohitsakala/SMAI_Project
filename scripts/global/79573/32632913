@@ -1,0 +1,1 @@
+<p>i have a project that use GTL lib (i integrate the GTL project into mine, not the compiled lib).</p>  <p>now i want to compile using iOS 9, but the project do not compile anymore (allot of deprecated functions).</p>  <p>i can't found any compilable codes in google repositories.</p>  <p>could anyone give me a solution, thanks.</p>

@@ -1,0 +1,1 @@
+<p>How would one go about making a byte[] that is a packet that needs to be run through an RC4 encryption class and then sent to a server?</p>  <p>So let's say I need the packet to stsrt with a string, followed with an int, byte, int, string. How would I create that as a byte array? (Byte[])</p>  <p>Thanks!</p>

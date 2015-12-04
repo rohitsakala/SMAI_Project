@@ -1,0 +1,1 @@
+<p>I am learning how to code with Java.  What is the difference between a class and a method, and which is which in the following code?</p>  <pre><code>package template; public class Template {     /**      * @param args the command line arguments      */     private static class BGCode {         public BGCode() {         }     } }     </code></pre>

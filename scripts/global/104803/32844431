@@ -1,0 +1,1 @@
+<p>Can we use custom UIView class for Launch Screen file ?</p>  <p>It is giving error like this : Illegal Configuration: Launch screens may not use instances of customclass of UIView.</p>  <p><a href="http://i.stack.imgur.com/zuNig.png" rel="nofollow"><img src="http://i.stack.imgur.com/zuNig.png" alt="enter image description here"></a></p>

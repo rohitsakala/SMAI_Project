@@ -1,0 +1,1 @@
+<p>We can use Schema.sObjectType.Contact.isUpdatable() to check if the current user has permissions to update Contact objects in general.</p>  <p>I want this for dynamic object.my object name is within the objName string variable.</p>

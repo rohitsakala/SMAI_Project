@@ -1,0 +1,1 @@
+<p>I'm making custom keyboard with obj-c, Xcode 7 (tried 6 too). The issue is that keyboard is loading too slow.<br> I tried to load completely empty <code>UIInputViewController</code>'s view - no changes. I have no xibs, no heavy resources. Please if someone know any solution of this problem, write an answer. user won't be glad to wait every time keyboard lags.</p>

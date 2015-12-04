@@ -1,0 +1,1 @@
+<p><p>Hi all!<p> <p>I have a Native Java application in linux and i want detect memory weak. I try used Valgrind but seem that don't work fine. Then I tried to also install <code>dbx (Oracle Studio)</code> but it seems that is not available for <code>Ubuntu 14.04</code>. Is there another solution that can be used to detect these leaks ?<p></p>

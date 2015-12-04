@@ -1,0 +1,1 @@
+<p>Is it possible to create a TFS Group / role where users in that group <strong>can only manage work items</strong> but <strong>not check in code</strong>?</p>  <p>If so,  how would you go about doing this and what permissions does this role need?</p>  <p>I want this for my Project Managers / Business Analysts.</p>

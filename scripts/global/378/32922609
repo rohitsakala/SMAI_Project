@@ -1,0 +1,1 @@
+<p>I have the following issue: I want write a basic Program that renders a code created image. I have problems displaying the Image though.  I save my Image in a three dimensional array like this: Image[x-Pos,y-Pos, RGB-value]. Now my question is how can i convert this into an object that can be displayed in a WPF-Image object on my GUI? Yours Tifferan</p>

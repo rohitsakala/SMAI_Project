@@ -1,0 +1,1 @@
+<p>I am working on a project which requires me to add events on multiple elements on a page which are repeated numerous times. This obviously causes performance issues especially in older browser. It also shows "Stop script" alert for older browsers. Currently, i've managed to put some events on window on load event.</p>  <p>Is there any optimized way of doing the same?</p>

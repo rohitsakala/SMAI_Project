@@ -1,0 +1,1 @@
+<p>When I ran SSMS I got this error message: </p>  <blockquote>   <p>A problem occurred when loading the Microsoft SQL Server Management Studio menu. To fix this problem, run <code>Ssms.exe /resetsettings</code> from the command prompt. Note: this command resets your environment settings.</p> </blockquote>  <p>Please help.</p>

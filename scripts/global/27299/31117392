@@ -1,0 +1,1 @@
+<p>Is this the correct way to bit shift into a char?</p>  <pre><code>char value = (char)((array[offset] &lt;&lt; 9) + (array[offset + 1])); </code></pre>  <p>If not, please correct me.</p>

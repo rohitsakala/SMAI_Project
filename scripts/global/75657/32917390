@@ -1,0 +1,1 @@
+<p>Is there a way in EmberJS to have a separate template for login that doesn't render the rest of the application template? Ideally I would like to create a login component, but I can't figure out how to render it on the <code>login</code> route without it being wrapped in the application template.</p>

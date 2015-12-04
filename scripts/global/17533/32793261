@@ -1,0 +1,1 @@
+<p>This is a very simple question, I want to know how I'd switch between storyboards with the press of a button.  I understand how to get input from a button.</p>  <pre><code>- (IBAction)button:(id)sender {      //Code goes here } </code></pre>  <p>All I need to know though, is the code that'll allow me to switch between storyboards.</p>  <p>Any help is appreciated.</p>

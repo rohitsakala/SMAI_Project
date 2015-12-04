@@ -1,0 +1,1 @@
+<p>I have to call a webservice, that takes only one argument, but that argument should contain three values(UserName,Password,company) inside it. How can I achieve this in Java?</p>

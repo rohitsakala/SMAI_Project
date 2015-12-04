@@ -1,0 +1,1 @@
+<p>I Want to make a table with 2 columns :- first one contains a checkboxes, second one will contain textboxes . I want to bind the selected checkbox with its textbox and get its value in controller in mvc.</p>

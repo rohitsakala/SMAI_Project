@@ -1,0 +1,1 @@
+<p>In my swift code I use the peertalk objective-c library using a bridging-header.</p>  <p>In a delegate method I get some payload in a parameter with the type of <code>UnsafeMutablePointer&lt;Void&gt;</code>.</p>  <p>How can I cast the payload to my struct type in Swift so I can use the data?</p>

@@ -1,0 +1,1 @@
+<p>Suppose I have declared some types</p>  <p><code>type ABC_TYPE is range 0 .. 7;  subtype AB_SUBTYPE is ABC_TYPE range 0 .. 3;  type DE_TYPE is range 1 .. 4;</code></p>  <p>what is the expected behavior of:</p>  <p><code>abc : ABC_TYPE := 7;  ab : AB_SUBTYPE := AB_SUBTYPE(abc);  de : DE_TYPE := DE_TYPE(abc);</code></p>  <p>when compiling without range checks?</p>

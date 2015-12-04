@@ -1,0 +1,1 @@
+<p>I have written a functional test using <code>django.test.LiveServerTestCase</code> and selenium. But when I am running the tests no CSS or JS file is being rendered. When browser is calling these CSS and JS files it gets 404.</p>  <p>I have tried <code>@override_settings(DEBUG=True)</code> but still not working.</p>

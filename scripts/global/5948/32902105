@@ -1,0 +1,1 @@
+<p>First question, Since we can control the volts that we can throw via PWM pins on Arduino, can we use it to power the 3.3v ESP8266?</p>  <p>Second question, Can we also use these PWM pins as Software serial pins i.e. they will be sending instructions at 3.3v?</p>

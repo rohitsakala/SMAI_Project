@@ -1,0 +1,1 @@
+<p>TFS Query Editor allows the user to specify that the "Assigned To" field use the "=" operator against "@Me" to show all the item assigned to the current user.</p>  <p>Is there a way for TFS to query all the items assigned to current user's "Direct Reports" as controlled by AD so that when AD is updated, the query reflects that?</p>

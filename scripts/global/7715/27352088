@@ -1,0 +1,1 @@
+<p>I have a Javascript object which I have to iterate over the keys of. I need to check whether the key matches with my local variable, if it matches I need the corresponding value of that key.</p>  <p>I'm getting the object using session attribute. The object looks like this when I see it in alert. { 1= Apple , 2= Orange }.</p>

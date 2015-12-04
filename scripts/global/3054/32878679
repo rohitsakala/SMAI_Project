@@ -1,0 +1,1 @@
+<pre><code>public static final </code></pre>  <p>or</p>  <pre><code>private static final </code></pre>  <p>Considering cases when constants are used only from class itself. Which style is preferable?</p>

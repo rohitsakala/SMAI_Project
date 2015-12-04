@@ -1,0 +1,1 @@
+<p>I have to write assembly equivalent of a c code that looks like this:</p>  <pre><code>void fun_name(char *array) </code></pre>  <p>I know I have to pass this value to %edi register in order to pass it as first param to function fun_name. How do I encode this value? </p>

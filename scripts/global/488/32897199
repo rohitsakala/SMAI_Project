@@ -1,0 +1,1 @@
+<p>I have a hook, from which I want to detect if Sails is run in interactive mode (i.e. <code>sails console</code>) or in normal mode. How do I do this?</p>

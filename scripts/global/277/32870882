@@ -1,0 +1,1 @@
+<p>with the tool Process Explorer I know that my process hangs at a special function myexe.exe+0x1b5773</p>  <p>is there a way to get to the exact function if I have the pdb available? Or must there be a .map file for this information?</p>  <p>I know I can attach to the exe with a debugger, but this is now always a option if the problem occures on a not developer machine..</p>

@@ -1,0 +1,1 @@
+<p>I am running this script nmrCube.tcl for generating 3D box from NMR data. </p>  <p>I initially had problem with Library before which is now sorted</p>  <p>While running the script I get this, (even though it is indeed there):</p>  <blockquote>   <p>Error in startup script: couldn't read file "“./nmrCube.tcl”": no such file or directory</p> </blockquote>

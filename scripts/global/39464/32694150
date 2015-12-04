@@ -1,0 +1,1 @@
+<p>Need Ck editor events before it performs undo and redo operations? I have tried the undo manager events after Redo and after Undo but it gives events after operation is performed and I need it before that.</p>

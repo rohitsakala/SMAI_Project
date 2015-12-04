@@ -1,0 +1,1 @@
+<p>I am working on a custom keyboard extension. I need to configure it from the main storyboard within the containing app. How can I pass the information from the story board of the containing app as during running you should use the target of the extension?</p>

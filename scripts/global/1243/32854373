@@ -1,0 +1,1 @@
+<p>I am unable to do the following - as there is a space in the <code>$MY_PATH</code></p>  <pre><code>osascript -e "tell application \"Terminal\" to do script \"cd $MY_PATH\"" </code></pre>  <p>Can this be done. I know that in a normal sh script I need to do something like "<code>$(pwd)"</code> but I don't know how to do this, when passing it to an Apple script?</p>

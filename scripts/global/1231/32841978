@@ -1,0 +1,1 @@
+<p>If I run androidstudio from project A folder, it still opens the last opened project instead of the project in the current directory.</p>  <p>Is it possible to force androidstudio to open the project from the current folder from command line?</p>

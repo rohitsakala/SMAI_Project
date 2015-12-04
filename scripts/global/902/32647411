@@ -1,0 +1,1 @@
+<p>I've got a lot of kendo comboboxes in angular project. The desired behaviour I want to get: when I select combobox item, filter event is fired, as if I've wrote the name of item. Is there any easy ways to do it?</p>

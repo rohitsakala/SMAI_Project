@@ -1,0 +1,1 @@
+<p>I have a <code>mapView</code> with pins showing users positions, tapping on them I show some info about users and places. I'd like to implement a feature in wich by tapping on those info little panel, I can navigate to another <code>viewController</code> from which  send a personal message via Parse. Even a button could be fine.</p>

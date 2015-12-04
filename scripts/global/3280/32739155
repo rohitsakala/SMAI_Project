@@ -1,0 +1,1 @@
+<p>I am using angularJS with ionic. When I do <code>$state.go('app.test')</code> the page opens with sliding from right to left. Is there any way to disable this transition? Thank's a lot!</p>

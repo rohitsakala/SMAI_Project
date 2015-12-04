@@ -1,0 +1,1 @@
+<p>I'm trying to submit a form using jquery submit function. When I submit the form without handler everything works. Submit function with handler doesn't submit at all. Also it doesn't invoke the handler code. </p>  <p>This is the code that doesn't work</p>  <p>jsfiddle.net/ge5575nj/2/</p>  <p>Any help would be appreciated</p>

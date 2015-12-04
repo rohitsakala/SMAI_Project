@@ -1,0 +1,1 @@
+<p>Demo is found at ...</p>  <p>I noticed 2 issues.</p>  <p>1) In Column Chooser dialog, I can't drag 'n drop the column name bar to other box.</p>  <p>2) Click on "-" icon for VIN and Year column then click "OK" button.  The column header is unable to resize.   So, how do I do autoresizeOnLoad to false for Column Chooser if that's the issue here.</p>

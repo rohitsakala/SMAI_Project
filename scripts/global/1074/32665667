@@ -1,0 +1,1 @@
+<p>I know this is probably very easy but I am having an overly hard time finding an answer. How do you check what web server your app is running in production?</p>  <p>I just switched from WEBrick to Puma (for production) and want to double check it is in fact using Puma. I am assuming it is as simple as a command? Any help would be much appreciated.</p>  <p>I am on Rails 4.</p>

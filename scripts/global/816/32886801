@@ -1,0 +1,1 @@
+<p>imagine this kind of db</p>  <pre><code>Authors(id, author)  Publication(id, authorID, Title, Year....) </code></pre>  <p>What is the best way to proceed string search queries f.e. "2001 Smith Theory of Evolution", I mean not in particular case, but in general: searching records not by 1 column?</p>

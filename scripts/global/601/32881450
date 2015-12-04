@@ -1,0 +1,1 @@
+<p>i've a lot of jobs in /etc/cron.d/ directory. How can i set any variables (ex. MAILTO) globally, for all this cron jobs?</p>  <p>I set MAILTO=username in /etc/crontab, but its doesn't work for jobs in /etc/cron.d/</p>

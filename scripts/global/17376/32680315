@@ -1,0 +1,1 @@
+<p>In Database, i have stored/assigned the given name for the string. example, 0- Not Schedule,1-Schedule.</p>  <p>In Admin interface,I want to display only the string name(not schedule, schedule) not for string number (0,1).</p>  <p>Thanks in advance..</p>

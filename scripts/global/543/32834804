@@ -1,0 +1,1 @@
+<p>I have some code that i would like to optimize with the help of CUDA. The code performs many sine and cosine calls in a loop. Initially my idea was to try and leverage the parallel nature of the GPU cores to improve performance but i wasn't sure if the GPU will be able to optimize such trig functions.</p>

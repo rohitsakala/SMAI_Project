@@ -1,0 +1,1 @@
+<p>i have copied .mm files from old project to my new project , after copied i am facing errors in each .h file of that class</p>  <p>Unknown type name 'class': did you mean 'Class'? Expected';' after top level declarator</p>

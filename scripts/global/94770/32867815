@@ -1,0 +1,1 @@
+<pre><code>$stateProvider     .state('messagelogs', {         controller: 'Messages',         url:'/messageLogs/{pageIndex:int}/{itemsPerPage:int}/{text:string}/{fromDate:date} }) </code></pre>  <blockquote>   <p>Will ui-router recognize :date?</p> </blockquote>

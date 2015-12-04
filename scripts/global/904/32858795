@@ -1,0 +1,1 @@
+<p>see the html code below it post input data to  <a href="http://demo.com/data/a.aspx" rel="nofollow">http://demo.com/data/a.aspx</a></p>            product id:           <br />          return url:           <br />                   <p>How Can I do the same thing using asp.net web form ( I mean using  asp.button server control and WebRequest(C#).</p>

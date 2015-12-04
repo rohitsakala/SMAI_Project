@@ -1,0 +1,1 @@
+<p>I have a datatable with a list of events which gets refreshed with new events added to the list periodically. How can i differntiate the newly updated rows in datatable?? as we get in mails, i.e the new mail in inbox will be highlighted.</p>

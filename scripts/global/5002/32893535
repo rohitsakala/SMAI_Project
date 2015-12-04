@@ -1,0 +1,1 @@
+<p>I'm trying to add 30 minutes to a date, but I can't find the way to do it.</p>  <pre><code>Date d = objects2.get(0).getDate("departure"); </code></pre>

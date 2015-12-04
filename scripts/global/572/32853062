@@ -1,0 +1,1 @@
+<p>I need to create code that simulate menu in console that has submenus which are also menus:</p>  <pre><code>class MenuItem {     public int ID;     public string Caption;     public List&lt;MenuItem&gt; Children; } </code></pre>  <p>How can I declare Children?</p>

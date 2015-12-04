@@ -1,0 +1,1 @@
+<p>I am working on rdlc reports in asp.net. What my company wants me to do is to leave an empty page only after the first page since they are printing it two-side. The content is in tablix group and I somehow need to add an empty page only after the first page/ first group item (there are lots of group items coming from SQL). Any help would be really appreciated.</p>

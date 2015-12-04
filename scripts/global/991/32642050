@@ -1,0 +1,1 @@
+<p>Basically what is needed is the ability to use Lisp expression like car (returns a pointer to the first part of a multi-list) and cdr (returns a pointer to the second part of a multi-list). Pretty much the "car" and "cdr" need to be pointing to the first and second positions of a list.</p>

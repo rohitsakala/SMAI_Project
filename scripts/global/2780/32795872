@@ -1,0 +1,1 @@
+<p>What's the difference?</p>  <ul> <li>request.META['HTTP_ACCEPT_LANGUAGE']</li> <li>request.LANGUAGE_CODE</li> </ul>  <p>or are they the same??</p>  <p>I want to get the browser's language but using request.LANGUAGE_CODE got me to another language. </p>

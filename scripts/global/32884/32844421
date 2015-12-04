@@ -1,0 +1,1 @@
+<p>Is it possible to send notifications(toast, tiles, raw) from a server and receive it from Windows Phone 8.1 not using Azure Account(Notification Hub). I saw examples using 8.1 silverlight but I could not implement within WP 8.1.</p>  <p>If yes, can you explain simply how, or suggest a document?</p>

@@ -1,0 +1,1 @@
+<p>I'm looking for a tool to convert different kind of logs (Apache, Sendmail, etc) to JSON. Some of this logs have a dynamic format in which sometimes a field appears or not. I know some tools like logstash convert logs to JSON but they are pretty slow. Is there any library or software to convert logs (with the format defined somehow previously) quickly?</p>

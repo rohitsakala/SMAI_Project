@@ -1,0 +1,1 @@
+<p>I'm curious about how <code>use</code> statements work in PHP. I was watching a tutorial and the code looked like this:</p>  <pre><code>&lt;?php  use Illuminate\Foundation\Testing\DatabaseTransactions;  class ConversationTest extends TestCase {      use DatabaseTransactions;  } </code></pre>  <p>Why does the <code>DatabaseTransactions</code> item have to be declared twice?</p>

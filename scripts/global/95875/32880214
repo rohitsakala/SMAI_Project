@@ -1,0 +1,1 @@
+<p>I am using auto wiring concept in spring boot application to create objects if classes present in jars files created by me and included as maven dependency.But it is not working.It is saying that No bean definition found . </p>

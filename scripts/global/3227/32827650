@@ -1,0 +1,1 @@
+<p>What is the exact difference between the two locking read clauses:</p>  <pre><code>SELECT ... FOR UPDATE </code></pre>  <p>and</p>  <pre><code>SELECT ... LOCK IN SHARE MODE  </code></pre>  <p>And why would you need to use one over the other?</p>

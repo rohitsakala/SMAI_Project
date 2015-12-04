@@ -1,0 +1,1 @@
+<p>The options are following the filename rather than hh.sh. And the following code does not work.</p>  <pre><code>while getopts ":ec" opt; do   case $opt in     e)       eflag=1       ;;     c)       cflag=1       ;;   esac done shift $(($OPTIND - 1)) </code></pre>

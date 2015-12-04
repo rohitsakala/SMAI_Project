@@ -1,0 +1,1 @@
+<p>This code works very well in Google Chrome, but wont work in Internet Explorer:</p>  <pre><code>document.getElementsByClassName('info')[i].remove(); </code></pre>  <p>Is there some other method to do the same thing or can I make <code>.remove()</code> work in Internet Explorer?</p>

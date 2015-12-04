@@ -1,0 +1,1 @@
+<p>I have <code>ng-options</code> for select list. Also I have <code>ng-change</code> event that is called when I change optiosn inside select list.</p>  <p>How I can add new text near value of selected option?</p>

@@ -1,0 +1,1 @@
+<p>I tried to find on google but no success.</p>  <p>Can anybody explain at what level elastic search take locks to handle multiple threaded or multi process environment?</p>  <p>Whether it is at index or doctype or a particular document in a doc-type?</p>

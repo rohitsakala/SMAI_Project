@@ -1,0 +1,1 @@
+<p>It was working fine till a while ago but after few requests I started getting the error saying</p>  <p>HTTP/1.1 403 Forbidden</p>  <p>I even generated the API key from the google console and then added the key like following to the post url</p>  <p>?key= but still getting the same error.</p>  <p>Is there a daily free quota for making Post / Put requests ? Thanks.</p>

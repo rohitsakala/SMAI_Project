@@ -1,0 +1,1 @@
+<p>I have a website (written in aspx) that allows me to upload and download files like google drive. If I would like to create an android app that does the same, would I need to implement a new server that my android app will use?</p>  <p>I read little about web services which allow sharing code between apps. Should I use it?</p>

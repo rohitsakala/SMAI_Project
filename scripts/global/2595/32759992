@@ -1,0 +1,1 @@
+<p>I have tried overriding the <code>-webkit-margin</code> for <code>&lt;ul&gt;</code> by setting <code>Margin: 0; padding: 0;</code>.  this has not worked and the <code>-webkit-margin-before</code> is still set.</p>

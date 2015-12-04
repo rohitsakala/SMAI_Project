@@ -1,0 +1,1 @@
+<p>How can I convert a Unicode string like </p>  <pre><code>"\u0646\u0627\u0645" </code></pre>  <p>to a human-readable string that I can put in a <code>TextView</code>?</p>

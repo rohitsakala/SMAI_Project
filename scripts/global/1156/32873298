@@ -1,0 +1,1 @@
+<p>I need some help.</p>  <p>What does <code>%20.5</code> mean here?</p>  <pre><code>printf( "%20.5lf " , x ) ; </code></pre>  <p>What does <code>%18s</code> mean here?</p>  <pre><code>printf ( "%18s " , "n . d . \n" ) ; </code></pre>  <p>Thanks for the help.</p>

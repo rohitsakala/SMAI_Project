@@ -1,0 +1,1 @@
+<p>I want to check if a string contains the restricted symbol (®).  As of now, I'm doing it like this:</p>  <pre><code>if(mystr.contains("®")) {     //do stuff } </code></pre>  <p>This seems to work, but I really don't think using the restricted symbol in actual code is the best approach here.  What is an alternative way to check if a string contains the restricted symbol?</p>

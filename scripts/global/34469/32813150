@@ -1,0 +1,1 @@
+<p>Hey guys I'm using Visual C++ 2010, trying to write a server/client app using Winsock... I'm not sure why, but sometimes the server waits at the listen() function, and sometimes at the accept().  Just wondering, what is the mechanism of these two functions? Isn't it supposed to wait at listen() until it hears an incoming connection and then proceed to accept()?</p>

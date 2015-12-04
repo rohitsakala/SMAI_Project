@@ -1,0 +1,1 @@
+<p>I am having Navigation drawer which is having 8 menus and each menu is having individual Fragment each one is having <code>AsyncTask</code> so basically I want to cancel the <code>AsyncTask</code> of previous Fragment on selecting new Fragment</p>

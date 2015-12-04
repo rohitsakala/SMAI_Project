@@ -1,0 +1,1 @@
+<p>I am new in mule. I have created a solution for database to sales force contact and account migration and it is work perfectly run in any point studio. but after i have export this solution and deploy on mule enterprise 3.7.0 it failed because mule 3.7.0 not support record Vars as target is Null Payload i have use when condition in choice flow control plugins.</p>

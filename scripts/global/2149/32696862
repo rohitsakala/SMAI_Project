@@ -1,0 +1,1 @@
+<p>I am using <code>cucumber</code> <code>jvm</code> with with background before each scenario. When the background fails the test is skipped but in the end is marked as passed (in the <code>cucumber</code> report). How can I mark a scenario as failed once it's background failed?</p>

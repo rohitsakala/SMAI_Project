@@ -1,0 +1,1 @@
+<p>I'm new to CodeIgniter and I'm very confuse on how to load my header.php to all the other pages I made. I want my header to be included on every page I made without manually putting them so that every time I make changes to the header I won't edit the entire page. Instead I'll just make changes in the header.php. Thank You.</p>

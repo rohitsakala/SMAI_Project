@@ -1,0 +1,1 @@
+<p>I want to make uploader script in CGI bash (shell script)</p>  <p>with a "browse" and "submit" to upload files from it</p>  <p>note : the uploader <strong>without</strong> ftp and <strong>without</strong> user and password of ftp or cpanel or sftp</p>  <p>or:</p>  <p>I want to make CGI script "bash", so script can upload files into the web.</p>

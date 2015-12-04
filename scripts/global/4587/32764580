@@ -1,0 +1,1 @@
+<p>I would like to know is there any way to build a simple wordcount mapreduce example from scratch without extending mapper and reducer class but by building the whole steps like splitting,shuffle and sort etc by self?  Just to get to know how everything works inside.</p>  <p>Thank you</p>

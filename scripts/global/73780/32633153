@@ -1,0 +1,1 @@
+<p>Before I spend a lot of time (I guess) reading up on SpeechSynthesisUtterance, is this the way to go to add voice recognition to my Dart+Polymer web app?</p>  <p>In fact, all I need is dictation (to fill in a text box). Nothing particularly clever (on my part at least!).</p>  <p>Or [polymer] "is there an element for that?" ;-)</p>  <p>cheers</p>  <p>Steve</p>

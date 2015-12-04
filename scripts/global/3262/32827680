@@ -1,0 +1,1 @@
+<p>I want to upload one file through <code>IMCE</code> and <code>ckeditor</code> but <code>IMCE</code> uploads the same file too many times. It doesn't stop until you close the <code>IMCE</code>.</p>

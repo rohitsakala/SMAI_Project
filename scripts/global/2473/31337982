@@ -1,0 +1,1 @@
+<p>I'm wondering if there is a way to have a "read-only" connection in Propel. Basically, I'm going to need to execute a written-by-user request, and I need to be sure he will not break anything.</p>  <p>Of course, I can wrap the request into a transaction (and will do so with no other choice), but I would like to know if Propel has this ability.</p>

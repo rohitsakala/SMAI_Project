@@ -1,0 +1,1 @@
+<p>I want parse JSON from this url <a href="http://api.ipsw.me/v2.1/firmwares.json" rel="nofollow">http://api.ipsw.me/v2.1/firmwares.json</a> and I want make this with using classes. How can I do? </p>  <p>Edit: I am using Newtonsoft.Json Library</p>

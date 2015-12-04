@@ -1,0 +1,1 @@
+<p>I made a custom 404 page using error400.ctp. In this case message from error404.ctp is correct but header and footer of the page are escaped. </p>  <p>Do you know how can I disable escaping html in case of an error? </p>  <p>CakePHP 2.0</p>

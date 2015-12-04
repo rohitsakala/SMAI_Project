@@ -1,0 +1,1 @@
+<p>Without thinking in C# I tried to compare three objects. It failed, and explained why [since (typeof("A == B") == bool) and (typeof(C) != bool) it was an invalid comparison]. Do any languages support short circuiting logic like this?</p>

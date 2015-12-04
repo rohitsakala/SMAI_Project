@@ -1,0 +1,1 @@
+<p>I have One  NSArray That contains NSDictionary Object with keys{"name","age","weight"} where the key name is NSString ,age is NSInteger ,weight is float Value</p>  <p>I need to filter the NSArray with the following conditions   1.name contains 'abc'  2.age below 18  3.weight less than 50</p>  <p>Answer will be Appreciated</p>

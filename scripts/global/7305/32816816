@@ -1,0 +1,1 @@
+<p>I want to use <code>GestureRecogniser</code> on an Image to open <code>DatePicker</code> in Xamarin.Forms. I know the <code>TapGestureRecogniser</code> part. How do I programatically open DatePicker in Xamarin.Forms ?</p>  <p>Note: The real reason behind this is I dont want Border that comes with WinPhone's DatePicker</p>

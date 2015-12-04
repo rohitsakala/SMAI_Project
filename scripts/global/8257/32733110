@@ -1,0 +1,1 @@
+<p>How can i achieve stream concept in JavaScript? I want to read file from URL in JavaScript? </p>  <p>I able to do using JQuery $.get() method, but i need a stream type output. [ex. stream in C#]. is this possible in JavaScript?</p>

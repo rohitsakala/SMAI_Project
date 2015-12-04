@@ -1,0 +1,1 @@
+<p>Folks, help me please managing my app by giving hints, how to make an android app running in the background after leaving it. I read about services but they have conditions like "no user interface control". Im seeking for a solution which can handle hardware(volume buttons) also while running in background.</p>

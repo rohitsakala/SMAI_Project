@@ -1,0 +1,1 @@
+<p>am using QRegExp to grep the last line of the QProcess output via </p>  <pre><code>QString str (process-&gt;readAllStandardOutput()); </code></pre>  <p>now i want read the last line of str and show that in Statusbar  please how can get the last line only :(</p>

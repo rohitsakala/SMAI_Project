@@ -1,0 +1,1 @@
+<p>In order to pass environment variables to my build, I used the Jenkins Bindings Plugin.</p>  <p>However, I'd like to delete un-used Bindings.</p>  <p>How can I do that?</p>  <p>Note - posted on <a href="https://groups.google.com/forum/#!topic/jenkinsci-users/rZwfW4__nz0" rel="nofollow">jenkins-users google groups</a> too.</p>

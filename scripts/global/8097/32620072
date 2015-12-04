@@ -1,0 +1,1 @@
+<p>I am writing a simple select subquery statement and it is not giving any result. Neither it is throwing any error. My Sql query is like this - </p>  <pre><code>select * from Table1 where id in (select ID from Table2 where user = 'xyz') </code></pre>  <p>I tried with exists also, but not showing any result. Appreciate your help.</p>

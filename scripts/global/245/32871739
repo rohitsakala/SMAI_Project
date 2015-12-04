@@ -1,0 +1,1 @@
+<p>I wanna check if a string is in format dd.mm.yyyy, like</p>  <pre><code>if(myString is in format dd.mm.yyyy) {   NSLog(@"Ok"); } else{   NSLog(@"No"); </code></pre>

@@ -1,0 +1,1 @@
+<p>How can I run something like <code>gdb -e path/to/exe -ex 'run --argnamae argvalue'</code>?</p>  <p>Let's assume a recent version of gfb, within the past year or two.</p>  <p>Gdb runs and prints responses but not interactively.</p>

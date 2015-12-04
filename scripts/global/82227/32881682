@@ -1,0 +1,1 @@
+<p>I have a database of 23 terms in my Woocommerce terms table. If I list them on sidebar using any widget, it shows of only 22 terms. I see the term id with the number 11 showing issues. If I change the term id number to say 32, it shows successfully. So what's wrong with term id :11 ???? Why it is behaving strange?</p>

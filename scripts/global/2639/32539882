@@ -1,0 +1,1 @@
+<p>On Mac OSX, I created a <code>wx.grid</code>, and call <code>wx.grid.Grid.SetCellValue</code> to set an emoji to a cell, this will leads to crash：</p>  <pre><code>grid.SetCellValue(0, 0, '🍎') </code></pre>  <p>But if I create a <code>wx.grid</code> and run it successfully, then I edit a cell manully at runtime, it's OK.</p>  <p>Anybody know what's wrong with it?</p>

@@ -1,0 +1,1 @@
+<p>I have 2 forms. I want to open the second form in the last state it was left? I mean changes intact, textfields changed, choices made etc etc. I try using .show but it does load the form from its load sub which resets the form from the fresh state.</p>  <p>Can anyone guide me here? Thanks in advance</p>

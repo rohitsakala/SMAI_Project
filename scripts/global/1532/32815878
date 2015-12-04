@@ -1,0 +1,1 @@
+<p>Can someone please tell me what the meaning of the following pattern is used in XML.</p>  <pre><code>'[A-Za-z\d\-_\s]+'` </code></pre>

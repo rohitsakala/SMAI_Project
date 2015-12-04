@@ -1,0 +1,1 @@
+<p>I'm writing an universal app by using windows 10, visual studio 2015 and c#. I would like ro run this app on windows, Linux and mac. I know mono doesn't implements windows presentation framework, so, if I write a wpf app it runs onluy on windows. Now, if I write an universal app, can mono run that? If yes, How can i do?</p>

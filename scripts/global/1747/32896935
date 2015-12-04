@@ -1,0 +1,1 @@
+<p>Can anyone help me in implementing the expected Exception in Nunit?.  in my Nunit test method it will make a method call which will throw Exception, I need to validate the exception in Nunit using Expected Exception</p>  <p>Thanks in Advance</p>

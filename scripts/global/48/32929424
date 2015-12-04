@@ -1,0 +1,1 @@
+<p>I would like to know how the ALU is able to calculate status flags such as A>B, parity, overflow, etc. Also, what kind of register specifically saves these flags, just regular registers or a stack memory (FILO)?</p>

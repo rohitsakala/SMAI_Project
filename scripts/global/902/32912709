@@ -1,0 +1,1 @@
+<p>I have a single page app that has a dojo dgrid grid and a map.  All the elements on the map appear in the dgrid grid.  When a user clicks on an item on the map, I would like to programmatically jump/scroll to the element in the dgrid grid.  I haven't come across any documentation that explains how to do this.  Is this possible?</p>  <p>Thanks in advance</p>

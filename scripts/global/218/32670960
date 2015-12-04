@@ -1,0 +1,1 @@
+<p>This has stumped me for a bit now after working on it for a while. I need to change the permission settings of all files and directories so that group and others have no read, write, or execute access except for one specific directory. So far I have tried variations of `</p>  <pre><code>chmod go-rwx | chmod go+rwx 'filename' </code></pre>  <p>Any tips?`</p>

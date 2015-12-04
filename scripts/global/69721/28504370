@@ -1,0 +1,1 @@
+<p>I have XCode 6.2 and would like to test my App on iOS 5.0. It is required by a test I am doing.. so I created 2 development targets, however XCode 6.2 does not have a simulator for iOS 5.0..</p>  <p><strong>Is it possible to test on iOS 5.0 so using XCode 6.2?</strong> </p>

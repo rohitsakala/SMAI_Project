@@ -1,0 +1,1 @@
+<p>I have problems try to install CUDA (driver, toolkit and samples) in MSI LAPTOP on ubuntu 14.04. Which is the right way to install CUDA in Laptop with two graphics card? If I installed cuda in --no-opengl-libs mode the simulation samples  don't work  only display their results by milliseconds.</p>

@@ -1,0 +1,1 @@
+<p>I want to write an algorithm that takes in an input for a number of jobs, n, with a completion time of the jobs, t. I want to find the optimal solution when outputting n/t = average completion time. </p>  <p>This algorithm has to be solved in O(n log n) time.</p>  <p>Thank you!</p>

@@ -1,0 +1,1 @@
+<p>Consider a set of points. Given the (integer) x and y coordinates of each point, what is an efficient (faster than <code>O(n^4)</code> brute force) method to find the triangle with the largest area that does not contain any other point?</p>  <p>This is an excerpt from an old set of ACM-ICPC practice problems.</p>

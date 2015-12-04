@@ -1,0 +1,1 @@
+<p>Is there a way to flag In Parse the tokens that were sent a push notification in a certain period of time? For example if one wants to exclude (not delete) from the next campaign the tokens who received a push notification in the last three days, can these tokens be somehow identified? Does Parse do this automatically?</p>

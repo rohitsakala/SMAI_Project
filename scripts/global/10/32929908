@@ -1,0 +1,1 @@
+<p>I am confused as to why the <a href="http://www.cplusplus.com/reference/queue/priority_queue/" rel="nofollow">priority_queue</a> in C++ uses <a href="http://www.cplusplus.com/reference/functional/less/" rel="nofollow">less</a> as a default comparator and implement a max heap ? Doesn't less arrange the elements in ascending order ?</p>

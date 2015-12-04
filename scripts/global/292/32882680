@@ -1,0 +1,1 @@
+<pre><code>setcookie("TestCookie", "", time() - 3600, "www.example.com"); </code></pre>  <p>using PHP if i set a cookie this way how can i access the value of the domain in $_COOKIE or some other way? Plz Help</p>

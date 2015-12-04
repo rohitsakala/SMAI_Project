@@ -1,0 +1,1 @@
+<p>i want to send a custom header to a domain.</p>  <p>i tried like the following :</p>  <pre><code>header("myheader: value1"); //i want to redirect above header to a samplesite now header('Location: http://localhost/samplesite', FALSE); exit; </code></pre>  <p>And now in samplesite, I could not get myheader. How to achieve it, please help me.</p>

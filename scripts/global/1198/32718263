@@ -1,0 +1,1 @@
+<p>How can i run these two independent loops simultaneously in parallel.</p>  <pre><code>let a1=Seq.map2 (fun a b-&gt;(1.0-a)/(a-b)) a2  a3  let b1=Seq.map2 (fun a b-&gt;a*b) b2 b3 </code></pre>

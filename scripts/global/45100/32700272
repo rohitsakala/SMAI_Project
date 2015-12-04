@@ -1,0 +1,1 @@
+<p>Is double that is gotten from a json with Gson is constant and could be compared to a double (from same orgin) with simple <code>"==","=!"</code>. </p>  <p>The double is a price for a item(that is 0 or decimal number X.XX), that is compared to a different price.</p>  <p>Or should I use <code>Double.compare(x,y) or x/3==y/3</code>, or something similar.</p>

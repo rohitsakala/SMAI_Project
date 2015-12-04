@@ -1,0 +1,1 @@
+<p>I get this javascript-error in <em>Sitecore 8 > Control Panel</em> when e.g. clicking "Install a package" or any other link:</p>  <pre><code>ReferenceError: scForm is not defined </code></pre>  <p>Looking in Firebug, seems like a file is missing: <a href="http://my.site/-/speak/v1/assets/main.js" rel="nofollow">http://my.site/-/speak/v1/assets/main.js</a>.</p>

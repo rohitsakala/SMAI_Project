@@ -1,0 +1,1 @@
+<p>I need a toggle function for a dialog popup that locks page scroll, but permits the dialog to be scrollable. I have tried CSS only with, but the code does not work in Safari iOS.</p>  <pre><code>body{overflow:hidden; } //does not work in Safari iOS </code></pre>  <p>So, i think I may need to use some JS magic for this to work. Any Ideas? thx.</p>

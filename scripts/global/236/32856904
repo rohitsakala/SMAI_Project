@@ -1,0 +1,1 @@
+<p>I have an embedded C source code. In it's definitions, it has a lot of #define lines like following:</p>  <pre><code>#define XNV_SPI_TX(x)               st(U1CSR &amp;= 0xFD; U1DBUF = (x);) </code></pre>  <p>any idea what does      st( )  means and does? I am using IAR as compiler and toolchain.</p>

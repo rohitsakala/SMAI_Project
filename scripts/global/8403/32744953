@@ -1,0 +1,1 @@
+<p>I have a recyclerview in activity. When I rotate screen, I want to change number of columns of my recyclerview, but I don't want to create activity. How can I do that?</p>

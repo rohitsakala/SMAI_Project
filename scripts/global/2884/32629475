@@ -1,0 +1,1 @@
+<p>When I search on internet for tutorials and examples about projects using ejb, jpa and jsf, I found examples using only one table entity, so how can I generate ejb and jpa files if I have multiple tables in database. I'm using eclipse kepler version ide.</p>

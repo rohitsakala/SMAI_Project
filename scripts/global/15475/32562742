@@ -1,0 +1,1 @@
+<p>I'm working on a 4 core machine and using a vagrant box to host my application. I've configured Supervisor to spawn 5 processes on different ports and I can easily run all the processes independently. Does this mean that each processes spawned by Supervisor does not adhere to an individual core ?</p>

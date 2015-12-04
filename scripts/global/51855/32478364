@@ -1,0 +1,1 @@
+<p>I want to retrieve records with limited fields (i.e. omitting others). I searched a lot but query returns all fields with nil value which I dont want. e.g. for User model I want id, email only excluding name, age, etc.</p>  <p>thanks for help</p>

@@ -1,0 +1,1 @@
+<p>How can I convert an <code>NSDate</code> to seconds? I need it in seconds so that I can added 30 secs to the date and then convert back to <code>NSDate</code> to schedule a local notification. Any better ways of doing that are welcome too.</p>

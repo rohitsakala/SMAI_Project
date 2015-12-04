@@ -1,0 +1,1 @@
+<p>I'm using a global option set in CRM 2011. After related this with an entity I can't retrieve the selected value of that option set. Attribute returns null everytime. Can anyone please help?</p>

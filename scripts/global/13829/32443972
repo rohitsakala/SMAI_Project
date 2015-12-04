@@ -1,0 +1,1 @@
+<p>Please consider the following code:</p>  <pre><code>void h(M m2) { ... }  int main() {   while (true) {     M m1 = ...;     std::thread t(h, std::move(m1));     t.detach();   } } </code></pre>  <p>Is it guaranteed that m2 is properly move constructed from m1 before m1 is destroyed?  or is there a race?</p>

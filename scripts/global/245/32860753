@@ -1,0 +1,1 @@
+<p>Need to easily convert Excel date-time format from <code>mm/dd/yyyy HH:mm:ss</code> to <code>dd/mm/yyyy HH:mm:ss</code></p>  <p>After the conversion, it needs to still be in the proper date-time format so it can be sorted correctly according to date and time.</p>

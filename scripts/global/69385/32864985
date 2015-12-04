@@ -1,0 +1,1 @@
+<p><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html#sort-java.util.Comparator-" rel="nofollow">List</a> class in Java 8 has a new method <code>sort</code> added to it. Could anyone please clarify when should I prefer to use this as opposed to <code>Collections.sort(..)</code> method?</p>

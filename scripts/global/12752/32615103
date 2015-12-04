@@ -1,0 +1,1 @@
+<p>I work on a firefox addon using JPM.</p>  <p>I want to install it on my android phone, i've run "jpm xpi" and copy xpi on my sdcard. When i browse to file://path/to/my/xpi in android firefox nothing happen. Same issue if i upload xpi on my server and browse to url.</p>  <p>i've tested with google play firefox up to date version and nighty.</p>  <p>where is my mistake?</p>

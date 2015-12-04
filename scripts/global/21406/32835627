@@ -1,0 +1,1 @@
+<p>Just wanted to ask some help on the Inbound Email scenario. I have setup one mailbox to receive CSV files that contains different mappings for each. I know I can use the choice filetr for it but I can seem to get the correct attachment name values on the email. Any thoughts?</p>  <p>Thanks </p>

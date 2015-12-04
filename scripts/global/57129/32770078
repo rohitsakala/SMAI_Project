@@ -1,0 +1,1 @@
+<p>I'm trying to write a small coffeescript for hubot that gets the first message in a thread and posts it to an external script. I can get the flow id and user id info from the msg object but can't seem to find any object that contains the thread info (messages inside &amp; thread id). How can I get that?</p>  <p>Thanks.</p>

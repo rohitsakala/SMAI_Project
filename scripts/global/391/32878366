@@ -1,0 +1,1 @@
+<p>I like to list all image names in a directory with its subdirectories using terminal on Mac. I used the below command, it listed everything including folder names, but not working for my problem.</p>  <pre><code>ls -R /Users/samuel/Apps/assets/images &gt; file_names.txt </code></pre>  <p>Thanks for your time and help.</p>

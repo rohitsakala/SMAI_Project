@@ -1,0 +1,1 @@
+<p>I like creating UIViewController-subclasses in code, and make transitions between them with code.  </p>  <p>Still I would like to use interface builder to apply autolayout (constraints) to the views of the viewcontrollers.</p>  <p>Is this possible?</p>

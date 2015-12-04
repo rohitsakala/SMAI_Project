@@ -1,0 +1,1 @@
+<p>From which version of tomcat onwards can adding maxPostSize in server.xml work? I want to receive a POST request where Form param value is greater than 2MB. Am using Tomcat 7.0.56 and setting maxPostSize to 0 or any negative value isnt making any change. Am getting null value for the param. Should anything else need to be done ? </p>

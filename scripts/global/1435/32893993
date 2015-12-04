@@ -1,0 +1,1 @@
+<p>I'm passing stored image and video files to: <code>PHLivePhoto.requestLivePhotoWithResourceFileURLs</code> and getting a <code>PHLivePhoto</code> object that I can display in <code>PHLivePhotoView</code>. But I am wondering, once I have a <code>PHLivePhoto</code> is there a way to save it to the Photo Library?</p>

@@ -1,0 +1,1 @@
+<p>I have an on-click event on an iron-icon which works just fine in IE but not Chrome.  Why wont this work?</p>  <pre><code>&lt;iron-icon icon="icons:foose" **on-click="doSomething"** hidden$="{{!foo.opened}}"&gt;&lt;/iron-icon&gt; &lt;iron-icon icon="icons:ball" hidden$="{{foo.opened}}"&gt;&lt;/iron-icon&gt; </code></pre>

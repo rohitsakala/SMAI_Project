@@ -1,0 +1,1 @@
+<p>Is it possible to debug a web application in Visual Studio with the release configuration of web.config?</p>  <p>So we do a lot of transformation in the web.config file from development to release. Is it possible to "run" the debug version but with the web.config file that would exist after the release transformation has been added?</p>

@@ -1,0 +1,1 @@
+<p>I have a long and complicated chain of class extension and my final goal is to write a class that is independent from this chain...is there any automation that can be applied?</p>  <p>e.g.</p>  <p>A extends A1 A1 extends A2 .... An extends An-1</p>  <p>I need to write a new An class that does the same of An but not extends An-1</p>  <p>thanks in advance</p>

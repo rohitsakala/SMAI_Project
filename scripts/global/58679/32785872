@@ -1,0 +1,1 @@
+<p>I'm using OAuth 2 to authenticate an app that consumes data from the Google Analytics API.</p>  <p>Once authenticated, however, no login is needed to use the app.</p>  <p>How can I require login with our Google App account's hosted domain.</p>  <p>Or, alternatively, how can I ensure a user is logged in before loading the app?</p>  <p>Thanks!</p>

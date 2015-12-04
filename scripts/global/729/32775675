@@ -1,0 +1,1 @@
+<p>Npgsql used to print all the SQL statements that it executed to my output debug window. </p>  <p>But for some reason it stopped doing that. I am not seeing that anymore. I did not upgrade npgsql. I am at version 2.2.6</p>  <p>Anyone know how I can get that really helpful feature back?</p>

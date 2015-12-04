@@ -1,0 +1,1 @@
+<p>I'd like to be able to drag a window from anywhere not just the title bar. Like jquery ui draggable but not for the content but the whole window.</p>  <p>Something like </p>  <pre><code>$(window).draggable(); </code></pre>

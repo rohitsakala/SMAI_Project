@@ -1,0 +1,1 @@
+<p>I'm using Grails 3 and using a template <code>_displayWidget.gsp</code> to show certain parts of the show view differently.</p>  <p>All works fine when running the application directly, but when I build the war (using gradle assemble) and deploy this (on a tomcat 7) my own written <code>_displayWidget.gsp</code> is not used anymore. Anyone has an idea why?</p>

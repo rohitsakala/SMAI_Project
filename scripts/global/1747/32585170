@@ -1,0 +1,1 @@
+<p>I have a method which will insert record into database. Now i need to test this method in Nunit without inserting records into database. Kindly suggest how do i write NUnit scripts for such methods?</p>

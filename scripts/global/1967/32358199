@@ -1,0 +1,1 @@
+<p>I have a pipe delimited text file with 400 values. Out of which I need to load only 40 values at positions[1, 2, 4, 5, 7, 8, 9, 15, 17, 18, 20...] into my Hive table, how can it be achieved?</p>

@@ -1,0 +1,1 @@
+<p>consider this code</p>  <pre><code>users = UserProfile.objects.all()[:10] # evaluate the query set users_list = list(users)  users = users.prefetch_related('posts') </code></pre>  <p>i want to know that using prefetch_related on queryset after it is evaluated will repeat the query on UserProfile model or not. Thanks.</p>

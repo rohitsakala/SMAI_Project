@@ -1,0 +1,1 @@
+<p>I have pkcs12 keystore(.p12) which contains multiple private key entries(3 entries) I want to extract only one key from this store and use that key to decrypt a file(which encrypted by a public key) Are there any way to extract one key from the store via openssl by using key alias??</p>

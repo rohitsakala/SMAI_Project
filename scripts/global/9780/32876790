@@ -1,0 +1,1 @@
+<p>I have 1200 files encoded ANSI. I need to convert them into UTF-8. It is not reasonable to convert each file using the simple solution file/save as! Is there a commande in php which convert files from ANSI to UTF-8?</p>

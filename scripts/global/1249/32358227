@@ -1,0 +1,1 @@
+<p>Rails 4 api has an object called ActiveSupport::Cache::Entry with a method expires_at(). If I'm caching using Rails.cache.fetch('my_cache_key') how do I get the expiration date of this entry?</p>

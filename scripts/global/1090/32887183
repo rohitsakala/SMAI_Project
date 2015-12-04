@@ -1,0 +1,1 @@
+<p>How would I go about writing a C program that lists ALL the contents of stack and heap including its own variables and mallocations ?</p>  <p>The purpose of it is for me to be able to see what's going on in the memory as I write and test code.</p>

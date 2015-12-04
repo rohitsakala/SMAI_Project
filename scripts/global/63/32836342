@@ -1,0 +1,1 @@
+<p>I've seen many questions about creating an graphical SVN overview with differnt programs.</p>  <p>Is any of those able to take externals into account?</p>  <p>I am using svn::externals to link different libs to my project.</p>  <p>Greetings and thank for helping.</p>

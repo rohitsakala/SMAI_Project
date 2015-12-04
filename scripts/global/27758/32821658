@@ -1,0 +1,1 @@
+<p>[self.navigationController setNavigationBarHidden:YES/NO animated:YES] makes the whole view slide up/down.Did anybody know how to solve this problem.It bothers me for a long time.Thanks very much!</p>

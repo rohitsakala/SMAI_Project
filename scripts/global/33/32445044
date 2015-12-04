@@ -1,0 +1,1 @@
+<p>Let's say I have a GUI application that performs long computations for the user (for example, video processing). Should I increase the priority of my computation process/thread to make it run faster? What would be the harm in doing so?</p>

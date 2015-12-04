@@ -1,0 +1,1 @@
+<p>Given an infinite sequence of numbers:</p>  <p>12345678910111213141516..... and so on. I have to find a first position of an input string. Like this:</p>  <blockquote> <pre><code>1234   gives 1    13     gives 16   111    gives 12   </code></pre> </blockquote>  <p>Anyone already figured out an algorithm for such question?</p>

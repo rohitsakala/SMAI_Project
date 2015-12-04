@@ -1,0 +1,1 @@
+<p>I'm using "Model frame" with "Automodal "module,where i am rendering node on edit. </p>  <p>Recently i faced an issue while Deleting a node it doesn't delete pop up window &amp; also not close window automatically.(in the same modalframe itself it load a window.)</p>

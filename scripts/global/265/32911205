@@ -1,0 +1,1 @@
+<p>When I use an MSBuild step and run the build, I see that the property  env.MSBuildEmitSolution is set to 1. Why does TeamCity set this env variable to 1? And how can I disable it ?</p>

@@ -1,0 +1,1 @@
+<p>I am using actionscript as3 . The fla contains a bitmap image which i converted using Convert to bitmap option I want to release the memory of this bitmap image quickly I am using adobe scout for monitoring the memory flow Please guide if you have any suggestion</p>

@@ -1,0 +1,1 @@
+<p>In rails commands like javascript_path 'application' gives path to application.js</p>  <p>Is there a command or a way to find the root directory for javascript files?</p>

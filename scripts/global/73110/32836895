@@ -1,0 +1,1 @@
+<p>I have created a small and simple chat with signalr on a azure website. That doesn't work as expected. After some hours on Google I found out, that signalr should be implemented different on Azure.</p>  <p>What is best practise? Any good examples? </p>  <p>It should work on both mobile and in normal browsers.</p>

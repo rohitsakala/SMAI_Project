@@ -1,0 +1,1 @@
+<p>How to reverse this videos list?  </p>  <pre><code>https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&amp;playlistId=PLYQWoSxgWOXMjtLQJIikS56pu7eJusSKW&amp;maxResults=25&amp;pageToken=CB4QAA&amp;key=AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o </code></pre>  <p>I need newest first! (by publishedAt sorting newest first)</p>

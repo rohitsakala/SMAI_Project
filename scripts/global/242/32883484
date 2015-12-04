@@ -1,0 +1,1 @@
+<p>There is a node, that I find by coordinates and wish to execute a relative xpath query on it, so I probably need a Capybara object (<code>Capybara::Node::Element</code>) for <code>.find(:xpath</code>, but the object I get from <code>evaluate_script("document.elementFromPoint</code> is a Selenium object (<code>Selenium::WebDriver::Element</code>).</p>

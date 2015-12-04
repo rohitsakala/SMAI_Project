@@ -1,0 +1,1 @@
+<p>My form contains a select field that contains two options: show and hide option: I want when I select the show option, a text field should be appear in the form and if I select hide option ,the text field should be disappear (hided).</p>  <p>I ask which method should be used, any one has an example how doing this?</p>

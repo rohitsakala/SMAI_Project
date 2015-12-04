@@ -1,0 +1,1 @@
+<p>I have an object with 10 properties some of which are null. i need them to be empty strings instead.</p>  <p>Here is the code, but the properties are not being set to empty strings</p>  <pre><code>$.each(elt, function (key, value) {   if (value === null) {     value = "";   } }); </code></pre>  <p>elt is an object.</p>

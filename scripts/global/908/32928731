@@ -1,0 +1,1 @@
+<p>After El Capitan upgrade both Xcode 7.01 and Xcode 7.1.0-Beta now fail to Build or Clean or even preform syntax highlighting. I have rebooted and deleted Xcode(s) and reinstalled Xcode without luck.</p>  <p>I dropped back to Xcode 7.0 in desperation also without luck.</p>

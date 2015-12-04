@@ -1,0 +1,1 @@
+<p>How to clear DatePicker value if textfield is clear? I known, that I can do it by:</p>  <pre><code>datePicker.setValue(null); </code></pre>  <p>But I need listener for textfield in datepicker.</p>

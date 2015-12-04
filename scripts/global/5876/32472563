@@ -1,0 +1,1 @@
+<p>I made a module for Apache that serves every type of GET and HEAD requests. I compiled and enabled it with apxs. The Apache Service restart correctly and everything is fine. How can I put it inside the chain of a service request? I have to disable other modules in order to use my own?</p>  <p>Thank you very much!</p>

@@ -1,0 +1,1 @@
+<p>Is it possible that to run a JavaFX Application at windows boot time. what efforts i can make so that my java application automatically starts when windows(OS) start or boots ? (after displaying a windows logo, before desktop mode load)</p>

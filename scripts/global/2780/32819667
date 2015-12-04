@@ -1,0 +1,1 @@
+<p>I've a floorplan in a .png format. I want to develop an app for a indoor localisation service with beacon. What is the suitable way to build a map view like MKMapView but for indoor? I want all the features of MKMapView like pan gesture, rotate gesture, zoom gesture ecc.</p>  <p>Thanks</p>

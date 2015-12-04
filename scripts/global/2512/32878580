@@ -1,0 +1,1 @@
+<pre><code>fourdigityear&lt;-c("2003/7/15","2009/6/12") </code></pre>  <p>How should I convert 4-digit year to 2-digit year so I end up having something like "7/15/03","12/6/09".</p>

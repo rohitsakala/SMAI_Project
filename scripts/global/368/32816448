@@ -1,0 +1,1 @@
+<p>I have a linear equation (binary) system:</p>  <pre><code>x+1=0; x+1=y; x=1; </code></pre>  <p>It has binary solutions x=1,y=0; But I don't know how to solve this system in matlab, could anybody help? Thanks so much!</p>

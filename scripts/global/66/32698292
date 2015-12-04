@@ -1,0 +1,1 @@
+<p>Looking at various sources across the internet I have found that</p>  <pre><code>Frame.Navigate(typeof (SecondaryPage)) </code></pre>  <p>Seems to be the method of switching pages. However, I get an error on 'SecondaryPage' Saying: SecondaryPage is a class type and cannot be used in this expression. Any Ideas?</p>  <p>I need navigation between a few pages</p>

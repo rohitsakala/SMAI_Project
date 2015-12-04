@@ -1,0 +1,1 @@
+<p>I have button with setText() to TextView. If I click it text change. next I change activity to other and back to main activity. Now setText() don't working(text dont replace).</p>  <p>My code:</p>  <pre><code>    public void test(View view){     String dataS = "dupa slonia";     data.setText(dataS);     System.out.println(dataS); } </code></pre>

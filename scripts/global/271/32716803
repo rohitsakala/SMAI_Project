@@ -1,0 +1,1 @@
+<p>Django comes with really handy admindocs app, and I'm wondering whether it's possible to generate a PDF file, containing description of all models in format similar to what we see in admindocs.</p>

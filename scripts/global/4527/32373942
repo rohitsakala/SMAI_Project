@@ -1,0 +1,1 @@
+<p>I am trying to restore backup of a database which was created in SQL 2000 in SQL 2005 and getting this error</p>  <blockquote>   <p>Index was outside the bounds of the   array.(Microsoft.SqlServer.Express.Smo)</p> </blockquote>  <p>How can I restore ?</p>

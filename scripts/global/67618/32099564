@@ -1,0 +1,1 @@
+<p>I am trying to create a url with query string in MCV application  Here is the code</p>  <pre><code> &lt;%= Html.ActionLink(Resources.Strings.SignIn_lbl, "SignIn", "Account", new { lang = ViewData["user-language"] })%&gt; </code></pre>  <p>and here is the generated url</p>  <pre><code>mydomain.com/Admin/Account.aspx?Length=7 </code></pre>

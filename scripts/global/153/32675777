@@ -1,0 +1,1 @@
+<p>QueryFullProcessImageName not work,Err.LastDllError is 6,The handle is invalid. Please help.</p>  <pre><code>hProcess = OpenProcess(PROCESS_QUERY_INFORMATION, 0, lProcessID) sBuf = String$(1024, Chr$(0)) Ret = QueryFullProcessImageName(hProcess, 0, sBuf, 1024) </code></pre>

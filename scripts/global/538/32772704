@@ -1,0 +1,1 @@
+<p>I have a table with the following attributes: </p>  <pre><code>SortCode   Index  Created </code></pre>  <p><code>SortCode</code> is the primary key and <code>Index</code> is secondary key. Given an <code>Index</code> value, how do I get the associated <code>SortCode</code> value? </p>  <p>I have tried <code>ets:lookup/3</code> but it takes only a primary key.</p>

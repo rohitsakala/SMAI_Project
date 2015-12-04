@@ -1,0 +1,1 @@
+<p>I want to include some security features which are present in security.xml.in web.xml during build.</p>  <p>Is there any way in maven (without using antrun plugin) to read xml files in pom and copy the same content in web.xml?</p>

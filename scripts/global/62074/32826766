@@ -1,0 +1,1 @@
+<p>I am using typescript and requirejs. For the most part the amd modules are generated beautifully. I am however stuck with loading using requirejs json or for that matter text plugin.</p>  <pre><code>define(["json!sometextfile.json"], function(myJson) </code></pre>  <p>How can I do this in typescript. I am using TS 1.6 at the moment.</p>

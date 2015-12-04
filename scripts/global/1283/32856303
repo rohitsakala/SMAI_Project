@@ -1,0 +1,1 @@
+<p>I have a small client/server application</p>  <p>on either side of the application I have to close the connection. My application uses threads. Does simply having a "return" close the connection to the port, and stops the current process? </p>

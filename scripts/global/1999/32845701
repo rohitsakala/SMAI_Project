@@ -1,0 +1,1 @@
+<p>What will I need to upgrade from the standard distributed install on OSX 10.10.5 to achieve TLSv1.2 support through its apache webserver?</p>  <p>I believe this is required to meet the <a href="https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/" rel="nofollow">App Transport Security</a> recommendations for ios9 apps.</p>

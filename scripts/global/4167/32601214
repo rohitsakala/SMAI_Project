@@ -1,0 +1,1 @@
+<p>I am trying to export html table into excel file by using jquery plugin. I tried lots of plugins but every time while opening the exported excel file it shows the warning message "File format is different than the extension specified". However, Contents in the file are correct. How can I resolve the issue?</p>

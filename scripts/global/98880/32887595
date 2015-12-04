@@ -1,0 +1,1 @@
+<p>Assume I have a list of Strings. I filter &amp; sort them, and collect the result to driver. However, things are distributed, and each RDD has it's own part of original list. So, how does Spark achieve the final sorted order, does it merge results?</p>

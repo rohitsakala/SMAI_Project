@@ -1,0 +1,1 @@
+<p>I have a windows app that's reusing (hosting) IE browser to show a web page.</p>  <p>Is there a way to access IE's built-in JSON object using c++ interfaces?</p>  <p>I looked at IHTMLWindow7 and IHTMLWindow8 but I did not see it.</p>  <p>I am trying to parse a simple json string without having to include a full-blown json parser in my code.</p>  <p>Thanks</p>

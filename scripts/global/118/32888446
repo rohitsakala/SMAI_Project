@@ -1,0 +1,1 @@
+<p>I think the title speaks for itself, I can’t find a TTable component in Delphi XE8. The functions <code>SetKey</code> and <code>GotoNearest</code> are not part of ADO, therefore the following code with a TADOTable does not work:</p>  <pre><code>with tblCandidates do begin   SetKey   FieldByName('Surname').AsString := edtSearch.Text;   GotoNearest; end; </code></pre>

@@ -1,0 +1,1 @@
+<p>my question is about PHP values into any file like:</p>  <pre><code>.odt .doc .docx .pdf </code></pre>  <p>Is it possible to "transport" some of value from PHP e.x. $customer_name, into ready template of file? (.odt, .doc, .docx)</p>  <p>Thanks for answer.</p>

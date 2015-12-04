@@ -1,0 +1,1 @@
+<p>When I try to insert date like <code>20-jan-50</code> by changing </p>  <pre><code>date("d-m-Y", strtotime($date)) </code></pre>  <p>It stores like <code>20-01-2050</code>. But the actual date  was <code>20-01-1950</code>. After <code>1980</code> stores perfect.Like <code>20-jan-89</code> was stored as <code>20-01-1989</code>.</p>

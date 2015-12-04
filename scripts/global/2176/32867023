@@ -1,0 +1,1 @@
+<p>In jButton,i want to write a title or text on button and it will look like</p>  <pre><code>Advance Search Option </code></pre>  <p>But the button text look like </p>  <pre><code>AdvanceSearchOption </code></pre>  <p>It won't take new line. I try change some properties but it won't work.</p>

@@ -1,0 +1,1 @@
+<p>im using a visual studio expression </p>  <pre><code>=parameter!site.label(0) </code></pre>  <p>the user can select all/ multiple values for this parameter  but the parameter is only showing the first one </p>  <p>say user selected all (birm,londn,leeds)  the field should say birm, londn,leeds but it only says birm</p>

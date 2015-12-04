@@ -1,0 +1,1 @@
+<p>I want to put the French words in a Array.</p>  <pre><code>&lt;?php  $contents = file_get_contents("http://quizlet.com/9117/envol-7-unite-1-presentation-flash-cards/");   $pattern = '/&lt;span class="TermText qWord lang-fr"&gt;(.*?)&lt;/s';  preg_match($pattern,$contents, $matches);  print_r($matches);   ?&gt; </code></pre>  <p>The result of this code is a empty Array.</p>

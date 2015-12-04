@@ -1,0 +1,1 @@
+<p>How to I make the answer display in two decimal places?</p>  <pre><code>runningCalories  = 0.0175 * RUNNING_METS * weight * TIME_RUNNING; System.out.println(name + " burned an estimated " + runningCalories + " calories running."); </code></pre>

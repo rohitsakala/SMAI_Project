@@ -1,0 +1,1 @@
+<p>I have some drag and drop functionality working - I can drag a button to another button and the image from button1 drops in button2 and it's working. What I need to accomplish is to see the image moving with the mouse, not to see the plus sign, which is the default behaviour.</p>  <p>Do you know how to change that behaviour? Thanks in advance!</p>

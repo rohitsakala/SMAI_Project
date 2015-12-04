@@ -1,0 +1,1 @@
+<p>I have a classification task. I want to use apache spark ml lib SVM algorithm for classification. I have input data which is n-dimensional. In the feature vectors some of dimensions may be missing. </p>  <p>How to approach with missing values? I think it would me wrong to assume missing values as zero or something else.</p>

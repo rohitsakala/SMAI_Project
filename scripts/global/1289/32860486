@@ -1,0 +1,1 @@
+<p>How could I get the number of odbc connections opened by odbc_connect or odbc_pconnect (PHP 5.4 and apache 2.2)?</p>

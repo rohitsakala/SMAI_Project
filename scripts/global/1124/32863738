@@ -1,0 +1,1 @@
+<p>how to create MSSQL database which accepts most languages?</p>  <p>There are a lot of options like <code>Latin1_General_BIN2</code> or <code>Arabic_CI_AI_KS_WS</code> so which one should I use?</p>

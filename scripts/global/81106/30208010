@@ -1,0 +1,1 @@
+<p>I am trying to generate and scan a PDF 417 barcode using camera. I able to do this on iOS 7 pretty smoothly but camera, on iOS 6, is not able to detect PDF 417. Anybody worked on this before and have some clue, please advise.</p>

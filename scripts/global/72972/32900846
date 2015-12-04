@@ -1,0 +1,1 @@
+<p>I'm porting a feature from an iOS app over to a Windows 10 UWP app that requires URLs to be detected in strings (so that I can present the URL part as clickable in the view). In iOS the NSDataDetector API works great for this, but I have not found the equivalent API for a UWP app. Does such an API exist?</p>  <p>Thanks! -Tom B.</p>

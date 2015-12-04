@@ -1,0 +1,1 @@
+<p>I have a bytestring. It's guaranteed that it's a representation of a zip file in bytes. How can I create a zip file object in Python, knowing this bytestring?</p>

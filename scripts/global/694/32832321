@@ -1,0 +1,1 @@
+<p>Just to make things simple: Let's say that we have tables with these definitions:</p>  <pre><code>create table t1 (id int primary key, f1 int references t2(f2), f3 int references t1(id) )  create table t2 (id int primary key, f2 int) </code></pre>  <p>Would it be possible to make a constraint that only allows f1 to be set when f3 is null? How would this be done?</p>

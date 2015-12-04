@@ -1,0 +1,1 @@
+<pre><code>&gt; python2 -c "print(ord(b'a'[0]))"  97 &gt; python3 -c "print(ord(b'a'[0]))" Traceback (most recent call last):   File "&lt;string&gt;", line 1, in &lt;module&gt; TypeError: ord() expected string of length 1, but int found </code></pre>  <p>How can I write this code in a way that would work both for Python 2 and Python 3?</p>

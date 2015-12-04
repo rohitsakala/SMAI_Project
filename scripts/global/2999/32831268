@@ -1,0 +1,1 @@
+<p>I'm working with Yii2 Advanced Template, so I have <code>frontend</code>, <code>backend</code> and <code>common</code>spaces. What I need is to get all the controllers that a module, which I know the ID, has. I will call it from <code>backend</code>, but the module should be in any part, not necessarily in the same namesapace . Any help is welcome.</p>

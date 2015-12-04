@@ -1,0 +1,1 @@
+<p>On OSX.</p>  <p>When I open the pad I get this error message: /Library/Frameworks/Mono.framework/Versions/4.0.4/bin/fsharpi: line 24: exec: mono: not found</p>  <p>However I can build and run F# programs, so Xamarin obviously does find mono. </p>

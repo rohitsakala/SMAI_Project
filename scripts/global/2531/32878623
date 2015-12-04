@@ -1,0 +1,1 @@
+<p>To do this you must multiply 6*5*4*3*2*1.  To verify your loop is working correctly, the value you are looking for as a result is: 720</p>  <pre><code>var dvDDG = document.querySelector("#ddg");  for(var i = 0; i &lt; 7; i++) {     //remainder..      if( (i*7) == 720 ) {         dvDDG.innerHTML += i +   "&lt;br /&gt;";     } } </code></pre>

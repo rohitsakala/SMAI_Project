@@ -1,0 +1,1 @@
+<p>i got error while login in parse New command</p>  <p>panic: run time error: invalid memory address or nil pointer dereference [signal 0xc0000005 code=0x0 addr=0x8 PC=0x404cf5]</p>

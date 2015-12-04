@@ -1,0 +1,1 @@
+<p>I have small but burdensome problem. In my private git repository I added temporary/cache folder to push and now any time my cached files supplications in pushes. How to set them ignore?</p>  <p>I've try to set /temporary/cache in .gitignore file but it doesn't work.</p>

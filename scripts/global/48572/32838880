@@ -1,0 +1,1 @@
+<p>I have two scenarios in my App</p>  <ol> <li>User Side (iPhone App - Native)</li> <li>Management Side (iPad App - WebApp) I have identified the app from device type, on iPhone native iOS App will run but on iPad an URL will open in the <code>WebView</code>.</li> </ol>  <p>Does Apple allow this to be upload on AppStore?</p>

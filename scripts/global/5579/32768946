@@ -1,0 +1,1 @@
+<p>I am a beginner in Selenium WebDriver (Java with TestNg). I'm trying to create a framework of my own. </p>  <p>My question here is what would be the better option to store my objects (my object repository) Page Object Model or External Property file? Why? Is there a better method than those?</p>

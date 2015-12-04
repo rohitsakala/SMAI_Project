@@ -1,0 +1,1 @@
+<p>Do maps in groovy maintain order in which the data has been provided? I.e. when iterating over keys, will the order be preserved at all times?</p>  <p><code>farms = [Idaho: ["Duck", "Dog"], Ohio: ["Chicken", "Duck"], "New Mexico": ["Dog", "Cow"]]</code></p>

@@ -1,0 +1,1 @@
+<p>What is the best method of exporting SQL Server 2012 <code>Sequence</code> objects from one instance to another instance? Is there something similar to the bcp utility that is used for table data?</p>  <p>We have several hundred to transfer. I need to maintain the next value since we are moving table data as well.</p>

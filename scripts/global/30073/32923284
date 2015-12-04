@@ -1,0 +1,1 @@
+<p>I have a collection with a TTL index configured to expire documents after a certain amount of time. Does those deletions appear in the oplog?</p>

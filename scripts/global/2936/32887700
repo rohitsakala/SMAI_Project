@@ -1,0 +1,1 @@
+<p>I can compare the values of varchar by using "LIKE" . For example</p>  <pre><code> CompanyName like 'google' </code></pre>  <p>how can I compare it for dissimilarity. i.e, I want do 'companyName' is not equal to "google". How can I do it??</p>

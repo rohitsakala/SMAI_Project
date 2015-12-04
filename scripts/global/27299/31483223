@@ -1,0 +1,1 @@
+<p>I know that for detect the kind of device, <code>DeviceClass</code> is used:</p>  <pre><code>void deviceDiscovered(RemoteDevice btDevice, DeviceClass cod) </code></pre>  <p>I can use <code>cod.getMajorDeviceClass()</code> but I don't know which are the int values that corresponds to a "Computer", "Phone", <strong>...</strong></p>

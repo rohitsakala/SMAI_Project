@@ -1,0 +1,1 @@
+<p>I was trying to download a file using</p>  <pre><code>InetLoad::load "https://www.dropbox.com/xxx/xxx.exe" "$INSTDIR\temp\xxx.exe" </code></pre>  <p>But this is giving me connection error. Any idea how to overcome connection error.</p>  <p>I have tried inetc::get also but no use. I am guessing its the same issue with inetc plugin also.</p>

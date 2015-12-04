@@ -1,0 +1,1 @@
+<p>After I look around, I haven't find a built in function for <strong>UUID</strong> creation within <strong>OSX kernel space</strong>. (which is limited to <strong>Kernel.framework</strong>)</p>  <p>Are there any alternatives I could use? Or should I just use time hash (MD5/SHA1)?</p>

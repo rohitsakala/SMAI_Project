@@ -1,0 +1,1 @@
+<p>I have a property (text box) which is a part of a list. And that list is a property in another list (class). Now when I write something in that text box , the ancestor one should get updated. I have tried RaisePropertyChanged() but its not working out. Can anyone provide me with right syntax??</p>

@@ -1,0 +1,1 @@
+<p>Is there in C# connect to COM-object and use contents of com-object such as in the Builder c++:</p>  <pre><code>CreateOleObject("some.someClass"); </code></pre>  <p>(OLE C # seems to be not supported, except OLEDb, but it is not the current case in my opinion) I know I can add a link -> COM -> Seeking a registered com-object.</p>  <p>But it does not fit.</p>

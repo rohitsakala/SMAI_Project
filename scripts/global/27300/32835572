@@ -1,0 +1,1 @@
+<p>What is the point of using <code>httpSession</code> object when we already have a <code>httpServlet</code> context object? The <code>httpSession</code> object is limited only to particular user or browser, but the <code>httpServlet</code> context object is available to multiple users and multiple browsers.</p>

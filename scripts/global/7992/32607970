@@ -1,0 +1,1 @@
+<p>I was just messing with random stuff, while I found something interesting..</p>  <p>if I have ~ before a number, for example I have tried</p>  <pre><code>~110100100 // result will be  " -110100101 " ~11 // result will be " -12 " </code></pre>  <p>is it making it negative and reducing it by 1? I don't have any idea, can anyone pleas explain this??</p>

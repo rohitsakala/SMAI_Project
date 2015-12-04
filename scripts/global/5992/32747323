@@ -1,0 +1,1 @@
+<p>To solve a problem I need a 2D array which should be accessed by other functions. I feel it problematic to pass the pointer and then using the pointer in other functions. As the dimension of the array is input dependent so I don't want to declare a huge 2D global array.<br> So I want to declare a 2D array in main as a global array and access it from other functions. </p>

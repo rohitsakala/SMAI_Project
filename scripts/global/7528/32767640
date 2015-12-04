@@ -1,0 +1,1 @@
+<p>How can database changes be tracked in Git?</p>  <p>Currently we are tracking the database as an SQL file in our Git repo and any changes made in the database are manually recorded in the file for tracking. We are using phpMyAdmin.</p>  <p>Is there anyway to record the database changes automatically in the file with hooks in the phpMyAdmin or pre-commit hooks in Git?</p>

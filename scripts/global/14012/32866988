@@ -1,0 +1,1 @@
+<p>Starling scene sometimes has blank area after browser resize. Next resize though restores the scene.</p>  <p>Issue is appearing in browsers: Chrome/Opera. Its not possible to reproduce bug in FF.</p>  <p>Is it relates to browser refreshing specifics or Starling/GPU issue?</p>

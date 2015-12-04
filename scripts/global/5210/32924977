@@ -1,0 +1,1 @@
+<p>I am trying to have jmeter run the same exact tests (same threads, assertions, etc.) on multiple servers, is it possible to do this without defining seperate HTTP Request objects for each one? I have tried setting up multiple HTTP Config elements but this does not work.</p>  <p>Thank you</p>

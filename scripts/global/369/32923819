@@ -1,0 +1,1 @@
+<p>when I type the command &lt; ? php phpinfo (); ? > the command shows ONLY shows the contents of this script in browser</p>  <p>i already:</p>  <p>Saving my_phpinfo.php file in the folder " Sites"</p>  <p>I removed the "#" in LoadModule php5_module libexec / apache2 / libphp5.so</p>  <p>Please help. What can I do to make it work ?</p>

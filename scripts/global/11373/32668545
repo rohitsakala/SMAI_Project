@@ -1,0 +1,1 @@
+<p>When I am setting an <strong><em>IBOutlet</em></strong> property (e.g. to an UIImageView of my storyboard) to '<strong>nil</strong>', I presume my property gets disconnected from this UIImageView.  </p>  <p>How can one - programmatically - reconnect it further down the line to make it again be a reference to the very same UIImageView of my storyboard?</p>

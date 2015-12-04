@@ -1,0 +1,1 @@
+<p>Have a a few tables into slick. Read data from them and send to the remote API. Remote API can send response with 'error' or 'ok' status.</p>  <p>How in the correct way can I lock tables ROW and roll-back data into table if remote API send response 'error'</p>  <p>BR!</p>

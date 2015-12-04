@@ -1,0 +1,1 @@
+<p>Is it possible to make buttons in AWT transparent? I drew an image and aligned parts of it with buttons.</p>  <pre><code>Button start = new Button (); start.setBounds(98, 333, 326, 51); start.setBackground(null); </code></pre>

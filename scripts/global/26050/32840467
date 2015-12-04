@@ -1,0 +1,1 @@
+<p>I'm building a customized user interface input which let the user connect two circle with each other through a line.</p>  <p>This is what the prototype looks like </p>  <p><img src="http://i.stack.imgur.com/H49aT.jpg" alt="enter image description here"></p>  <p>I'm wondering how could I draw the straight line? UIViews? SpriteKit? or what?</p>

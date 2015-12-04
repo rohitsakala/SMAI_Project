@@ -1,0 +1,1 @@
+<p>In my linux machines, I use the command line utility e2cp to copy files from and to ext2 disk images. Unfortunately, OS X does not provide any ext2fs utility out of the box. Is there a version of e2cp that is compatible to OS X, or a similar alternative? Notice that I don't need to mount or do anything advanced, I just have to copy files.</p>

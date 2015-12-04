@@ -1,0 +1,1 @@
+<p>I update a table by modifying an observable array list but now 2 threads might modify the observable array list. Should I place the code that modifies the list in a synchronized method or will only 1 thread be allowed to modify the list anyway? </p>

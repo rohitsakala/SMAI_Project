@@ -1,0 +1,1 @@
+<p>Uploading the video more than once over YouTube (via api) doesn't provide any exception. Instead it returns the success in response.</p>  <p>YouTube response after uploading same video is given in this link:</p>  <p><a href="https://bpaste.net/raw/5504d0129088" rel="nofollow">https://bpaste.net/raw/5504d0129088</a></p>

@@ -1,0 +1,1 @@
+<p>I'm creating an msi installer using Visual Studio. I need to create a property that displays the JavaHome of the CurrentVersion of JRE in a system with multiple JREs. What should I give the RegKey and Value as in the Properties Tab of the Registry Search?</p>

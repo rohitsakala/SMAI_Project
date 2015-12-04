@@ -1,0 +1,1 @@
+<p>I am using sgen.exe to generate a serializer for the classes of my project. Many classes have to be serizalized, and many others don't. </p>  <p>The attribute <code>[XmlIgnore]</code> doesn't works on classes, so is there a way to do it? </p>  <p>thanks</p>

@@ -1,0 +1,1 @@
+<p>My string is <code>Car.audi=true</code> I wanna select <code>audi</code> alone. If i use <code>.</code> regular expression take it as any single character. How do I match string?</p>

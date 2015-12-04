@@ -1,0 +1,1 @@
+<p>I'm planning to start learning MySQL.I already know quite a bit of Django.So anyway I've been watching tutorials about MySQL but all of them are related to using PHP + MySQL.I haven't done PHP.I was wondering if there's a way to set up MySQL using Django's development server.If yes,then how do I do it where will I be giving all the commands such as SHOW,SELECT,etc?</p>

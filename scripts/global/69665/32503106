@@ -1,0 +1,1 @@
+<p>I have Windows 8 and Oracle SQL Developer. When I tried to connect to a remote server, it give me v$session.osuser error and vendor code 17190.</p>  <p>Do anyone know what this means? I have tried to search for the vendor code 17190 but nothing related to Oracle.</p>  <p>Thanks </p>

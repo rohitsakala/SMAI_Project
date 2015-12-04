@@ -1,0 +1,1 @@
+<p>We have object files generated after compiling a code (not written in C/C++). Is it possible to generate equivalent RISC-V code from this object file? If so, how? </p>

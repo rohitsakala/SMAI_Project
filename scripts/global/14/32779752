@@ -1,0 +1,1 @@
+<p>I just want to omit first value of list using a function but below code is returning same list<br> I dont want to return from a fucntion Code:  </p>  <pre><code> #! /usr/bin/clisp      (defun omit(lstold)     (setf lstold (cdr lstold)) ) (setq x (list 3 1 2)) (omit x) (write x)  --&gt; gives output 3 1 2 ... why? </code></pre>

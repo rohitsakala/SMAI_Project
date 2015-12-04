@@ -1,0 +1,1 @@
+<p>I am trying to export a custom label from Word or Access that I have created but can not seem to find where they are stored in the Registry, I was told they where stored in this location but I can not find them in my Registry. </p>  <p>HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Word\Custom Labels</p>  <p>I am using Windows 7 with office 2013 anyone any ideas?</p>

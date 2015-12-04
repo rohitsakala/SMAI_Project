@@ -1,0 +1,1 @@
+<p>I want to pass an array of characters i.e. a <em>String</em> in <strong>c</strong>  </p>  <pre><code>int main() {     const   char c[]="Joseph";      TestWord(&amp;c,&amp;c);     return 0;  }  int TestWord(char tiles[], char  word[]) {     return tiles;  } </code></pre>

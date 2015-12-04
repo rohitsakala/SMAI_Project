@@ -1,0 +1,1 @@
+<p>I post back using javascript and while debugging it goes through the controller and redirect to another action in the same page but does not display the view of that action result in MVC 2. Please help me.</p>

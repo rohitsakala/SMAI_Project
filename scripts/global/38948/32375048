@@ -1,0 +1,1 @@
+<p>I want to add one point annotation on long press tap and another by single tap. I Also wanted to set two different images for respective taps. how can I set two different annotation in ViewForAnnotation method? And I also want to remove annotation from map once a user tap on another location. How can I get two different images for two different annotations?</p>

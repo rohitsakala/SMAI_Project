@@ -1,0 +1,1 @@
+<p>Why does a foreign key with option <code>ON DELETE SET NULL</code> can result in potential cycles?</p>  <p>I received the warning in SQL Server 2008 and do not understand it.  It is clear for me that cascading operations may result in cycles but <code>SET NULL</code>?</p>

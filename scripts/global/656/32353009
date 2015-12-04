@@ -1,0 +1,1 @@
+<p>Manually through svn gui/commandline we can fetch the data from the svn based on Revision number,but my requirement is to fetch the data based on the label given in the log... please suggest me .. are there any tools for doing like this,Actually my requirement is to automate the whole manual process</p>

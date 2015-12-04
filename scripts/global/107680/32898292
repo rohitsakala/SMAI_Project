@@ -1,0 +1,1 @@
+<p>Multiple UDP servers (on multiple PCs/devices) can listen on the same port. It works (tested) inside a LAN. But if the client is outside, is it supposed to works ??? I mean, the client is elsewhere and uses another internet connection/public IP and sends the packet (broadcast?) to the router public IP; the router recieves it and ? sends it to all the LAN PCs ?</p>

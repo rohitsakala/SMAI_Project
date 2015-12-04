@@ -1,0 +1,1 @@
+<p>I have generated a JSON-encoded content using <code>JSONGenerator</code> object(say <code>gen</code>). Following code  </p>  <pre><code>gen.getAsString();  </code></pre>  <p>is retruning a JSON string but it is <b>prettified</b> by default.</p>  <p>I want to convert this prettified JSON string to normal JSON string. How can I do it in apex?</p>

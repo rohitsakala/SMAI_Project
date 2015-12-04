@@ -1,0 +1,1 @@
+<p>What is the best way to represent a client object in ASP.NET MVC?</p>  <p>A client can either be a business or an individual. They both have id and name fields. The individual client other fields can be date of birth and gender whereas the business client adds up registration number, vat and industry fields.</p>

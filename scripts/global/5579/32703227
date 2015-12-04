@@ -1,0 +1,1 @@
+<p>I want to capture Chrome developer tool network data, either using java/javascript code or using automation tool like selenium2 webdriver.</p>  <pre><code>1) I want to capture name of fired event from the network tab. 2) I need to get "Request URL" (from Header) info for that particular captured name. </code></pre>  <p>Any thoughts would be helpful</p>

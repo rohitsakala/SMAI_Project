@@ -1,0 +1,1 @@
+<p>I would like to add an image size to Wordpress where the width is fixed (516px) and the height is 100% (no crop). What is actually the right method to do this ?</p>  <p>would the function below is the right way to achieve that ?</p>  <pre><code>add_image_size('my_image', 516, 9999, false);  </code></pre>

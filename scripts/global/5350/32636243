@@ -1,0 +1,1 @@
+<p>I am trying to use foreach loop in smarty after assigning an associative array with unordered keys but it is not working. I need both the keys and the values. How do I do this.</p>  <p>The assigned array :</p>  <pre><code>$arr[34] = 'Profile'; $arr[70] = 'Logo'; $arr[300] = 'Items';  $this-&gt;assign('arr', $arr); </code></pre>

@@ -1,0 +1,1 @@
+<p>I have two webapi projects hosted on two separate azure websites. Is there a way i can have same base url for both? One project is actually OAuth auth server which i want to access </p>  <pre><code>http:\\abc.azurewebsites.net/oauth instead of http:\\myoauth.azurewebsites.net </code></pre>  <p>any help?</p>

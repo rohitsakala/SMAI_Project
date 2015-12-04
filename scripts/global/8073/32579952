@@ -1,0 +1,1 @@
+<p>I need to restrict a ldap user account from logging in oauth2 token authentication. I could not find any configuration for its service provider configuration. By default, all ldap users are getting logged in by the wso2 identity server. Need help to sort this case.</p>  <p>Thanks</p>

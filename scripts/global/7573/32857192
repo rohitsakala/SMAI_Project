@@ -1,0 +1,1 @@
+<p>Does anyone happen to know how to run a MARS model with a multinomial response (0,1,2) in R or other softwares? I have used <code>earth</code> package for binomial one with "binomial" family and it works well. However, when it comes to a multinomial response, it seems that there is no option available for that. Any hint will be much appreciated.</p>

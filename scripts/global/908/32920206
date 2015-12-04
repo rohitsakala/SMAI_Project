@@ -1,0 +1,1 @@
+<p>I have a simple block of code with a defer block, but playground is not executing the defer block. What am I doing wrong? </p>  <p>The following gets printed: "Step 1" "Step 3" "Step 4" "Step 5"</p>  <pre><code>import UIKit  print("Step 1")  do {     defer { print("Step 2") }     print("Step 3")     print("Step 4") }   print("Step 5") </code></pre>

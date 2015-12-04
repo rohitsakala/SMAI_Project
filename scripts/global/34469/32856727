@@ -1,0 +1,1 @@
+<p>Triangle T  has vertices P1 = (x1, y1, z1), P2 = (x2, y2, z2), P3 = (x3, y3, z3). There is a point P = (a, b, c) in the plane of the triangle. Find an efficient algorithm to determine whether P is inside, on or outside the triangle.</p>

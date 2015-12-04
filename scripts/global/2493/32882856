@@ -1,0 +1,1 @@
+<p>I'd like to use Google AppEngine full text search to search for items in an index that have their logo set to None</p>  <p>tried "NOT logo_url:''"</p>  <p>is there any way I write such a query, or do I have to add another property which is has_logo?</p>

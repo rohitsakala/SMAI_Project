@@ -1,0 +1,1 @@
+<p>So i was trying to make a widget, basically it only contains a Chronometer and a button. I want to get the current time and call the stop() function but findViewById() method does not work in RemoteView. Any ideas?</p>

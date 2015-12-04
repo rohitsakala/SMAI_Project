@@ -1,0 +1,1 @@
+<p>I created two virtual machines: ubuntu and its clone. In the network settings I chose the internal network. Both VMs have the same IP. I want to connect VMs, but for that i need them to have different IP addresses.</p>  <p>Can anyone help me out here?</p>

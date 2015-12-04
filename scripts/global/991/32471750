@@ -1,0 +1,1 @@
+<p>I am trying to append <code>(</code> to an element of a list followed by <code>)</code></p>  <p>How should it be? I am trying the following:</p>  <p><code>(append (list 'lambda) (list 'x))</code> : this compiles and gives the result <code>'(lambda x)</code></p>  <p>I want the result to be:</p>  <p><code>(lambda (x))</code></p>  <p>Any hint?</p>

@@ -1,0 +1,1 @@
+<p>I am working on building a co browsing solution using express, socket and mutation summary.</p>  <p>I saw the mutation summary example but was not able to figure out how yet I can replicate the DOM at a remote location.</p>  <p>How can I merge mutation to remote location?</p>  <p>Please provide guidance and examples which I can use for this.</p>

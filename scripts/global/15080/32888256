@@ -1,0 +1,1 @@
+<p>I am trying to have a wildcard for:</p>  <pre><code>#room-userlist-user-username </code></pre>  <p>Where I would like room to be wildcarded, is this possible?</p>  <p>I have tried multiple things to fix this but am unable to find a solution.</p>  <ul> <li>Please note this is to be used with stylish, so I can't add HTML.</li> </ul>

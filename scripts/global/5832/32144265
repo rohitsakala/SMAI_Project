@@ -1,0 +1,1 @@
+<p>I have a <code>QWidget</code> that contains a few other <code>QWidget</code>s.</p>  <p>When I hide the parent, its <code>hideEvent</code> is always called after the visible child's is called.</p>  <p>Is there a way to enforce a strict ordering that children are always shown after the parent and parent is always all children are hidden?</p>

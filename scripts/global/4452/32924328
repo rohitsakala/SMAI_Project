@@ -1,0 +1,1 @@
+<p>I have upgrade my R to 3.2.2. When I restart my Rstudio, before is show > , there is a messeage</p>  <pre><code>Error in tools:::httpdPort &lt;= 0L :         comparison (4) is possible only for atomic and list types </code></pre>  <p>What does this means? What should I do to remove this message?</p>

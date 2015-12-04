@@ -1,0 +1,1 @@
+<p>I can't get out from lisp, to pass to bash, in the same script...</p>  <pre><code> #!/bin/bash { gimp -n -i -b - &lt;&lt;EOF (let* ( (file's (cadr (file-glob "*.xcf" 1))) (filename "") (image 0) (number 0) (condition 0) (testo "") )   (while (pair? file's)  ...   (gimp-quit 0)   ) EOF }  echo $testo; </code></pre>

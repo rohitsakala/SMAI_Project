@@ -1,0 +1,1 @@
+<p>I am new to cocos2d right now I have some action as following:</p>  <pre><code>[self.rewardLabel runAction:[CCSequence actionOne:[CCFadeOut actionWithDuration:3.5] two:[CCHide action]]]; </code></pre>  <p>I want to do something after this sequence of actions is done. How can I achieve that since there is a 3.5s duration? </p>

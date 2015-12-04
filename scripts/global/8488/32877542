@@ -1,0 +1,1 @@
+<p>I would like to make a parser with the following functionality:</p>  <ol> <li>Person inputs his login and password in html-form</li> <li>Parser connects to closed pages with this password and login</li> <li>Parse all necessary information</li> <li>Create a csv file with the data</li> </ol>  <p>So my question is: how to make step 2 with <code>beautifulsoup</code>?</p>

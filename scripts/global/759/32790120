@@ -1,0 +1,1 @@
+<p>What exactly the constant "long android.os.Build.TIME" means?</p>  <p>I tested in my device and I get a strange number which I do not know the meaning.</p>  <p>In <a href="http://developer.android.com/reference/android/os/Build.html" rel="nofollow">http://developer.android.com/reference/android/os/Build.html</a>, it is not explained.</p>

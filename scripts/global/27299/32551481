@@ -1,0 +1,1 @@
+<p>How do I create a simple custom Form using canvas, with background color? </p>  <pre><code>myform=new Form("myform"); myform.append(cmd); myform.setCommandListner(this); display.setCurrent(myform);  </code></pre>  <p>Here I want to set the form's background color</p>

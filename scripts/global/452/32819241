@@ -1,0 +1,1 @@
+<p>I'm new to this C++ environment and might need a simple help.</p>  <p>Let's say you have an array</p>  <pre><code>const char digits[] = "01234567..XYZ" </code></pre>  <p>How do you convert integer using ASCII conversion by reading in an integer (ex. 123) and display it on the console separately like 1, 2, and 3.</p>  <p>Thanks in advance.</p>

@@ -1,0 +1,1 @@
+<p>i want to to show infopath from with XmlFormViewLetterTemplate but i receive this run-time error "An exception of type 'System.Security.SecurityException' occurred in SABA_SandBox.dll but was not handled in user code Additional information: That assembly does not allow partially trusted callers."</p>  <p>is there any way to do this?</p>

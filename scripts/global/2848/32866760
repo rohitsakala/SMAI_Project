@@ -1,0 +1,1 @@
+<p>How could the following be made more compact (perhaps using Booleans), given that I am supplied with an integer variable?</p>  <pre><code>indexTag = 0 # or 1 1 if indexTag == 0 else 0 </code></pre>

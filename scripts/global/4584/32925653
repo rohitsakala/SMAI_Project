@@ -1,0 +1,1 @@
+<p>How can I initialize a <code>std::set&lt;int&gt;</code> with five elements ?? like arrays I can say <code>int x[5];</code> or vectors I also can use <code>vector&lt;int&gt; v(5);</code> how am I supposed to do the same in <code>std::set&lt;int&gt;</code> ? </p>

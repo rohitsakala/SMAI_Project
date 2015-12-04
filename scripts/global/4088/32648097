@@ -1,0 +1,1 @@
+<p>I am trying to right shift an integer by 32 but the result is the same number. (e.g. <code>5 &gt;&gt; 32</code> is 5.)</p>  <p>If I try to do same operation on Byte and Short it works. For example, "(byte)5 >> 8" is 0.</p>  <p>What is wrong with Integer?</p>

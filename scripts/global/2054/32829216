@@ -1,0 +1,1 @@
+<p>I have an function address stored in an <code>unsigned int</code>, and a function pointer.</p>  <p>Now i want that <code>function_pointer</code> will contain the value of  <code>function_address</code></p>  <pre><code>unsigned int function_address = 0xdeadbeef; void(*function_pointer)(void) = function_address; // not valid </code></pre>  <p>how to do that in C ?</p>

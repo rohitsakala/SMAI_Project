@@ -1,0 +1,1 @@
+<p>I created a fragment with <code>MapView</code>, everything works fine if user is logged into Google Play Account. Then if I reset the device and launch my application, it crashes when I initialize mapView.</p>  <pre><code>map = mapView.getMap(); </code></pre>  <p>Why would this happen? And in order to prevent the crash, should I check if user is logged into Google Account?</p>

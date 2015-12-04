@@ -1,0 +1,1 @@
+<p>I tried running my code in a Ruby script from my terminal. Nothing happens when I run<br> <code>ruby Main.rb</code>.</p>  <pre><code># Main.rb  module Main     class MyClass         def initialize             puts "Hello World"          end     end end </code></pre>  <p>Please advise.</p>

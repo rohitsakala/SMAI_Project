@@ -1,0 +1,1 @@
+<p>My app, if I click the "maximize button", it will maximize the window. But if I go to another scene(in the same stage), the window will restore to the  original size. So, how can I control it to keep maximizing? <a href="http://i.stack.imgur.com/N0wle.png" rel="nofollow"><img src="http://i.stack.imgur.com/N0wle.png" alt="enter image description here"></a></p>

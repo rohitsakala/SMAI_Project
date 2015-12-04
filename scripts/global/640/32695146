@@ -1,0 +1,1 @@
+<p>I am using dropdown list to select an area within my city that, upon selection it displays that area on the map (with highlighted within boundaries/polygon)..</p>  <p>For example on their official Google Map site if you search for ('Malir Karachi') it shows a highlighted region. I wan to do the same on my page. on my page it is not displaying it with polygon..</p>

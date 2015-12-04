@@ -1,0 +1,1 @@
+<p>I am editing a project in assembly language and there is a line in data segment:</p>  <pre><code>buffer1 db 80, 0, 80 dup(0) </code></pre>  <p>Can somebody elaborate it please?</p>

@@ -1,0 +1,1 @@
+<p>A webapp I created supports offline storage... but it very quickly becomes maxed out when users add 10-13 photos. The photos are stored as super long base64 encoded strings.... but can they be stored as sha1?</p>

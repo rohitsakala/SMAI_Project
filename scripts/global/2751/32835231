@@ -1,0 +1,1 @@
+<p>We define a tensor as follows:</p>  <pre><code>t = torch.Tensor(10, 10, 3, 200, 200) </code></pre>  <p>Then we assign a value to <code>t</code> and call <code>t:cuda()</code> in a loop. It takes about 10 seconds in the first iteration, but it takes 0.01 second in the next iterations. I would appreciate it if someone explains why this happens and how we can fix the problem.</p>

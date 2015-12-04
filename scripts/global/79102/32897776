@@ -1,0 +1,1 @@
+<p>I'm trying to save a Parse.com Object with a custom objectId, but the object is not saved at all.  I'm using the Javascript API. Here is an example:</p>  <pre><code>var newsfeed = new Parse.Object("Newsfeed"); newsfeed.id = 'customid'; newsfeed.save(); </code></pre>  <p>But when looking at the list of Newsfeed object on Parse data it is not there.</p>

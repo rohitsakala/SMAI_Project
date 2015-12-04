@@ -1,0 +1,1 @@
+<p>I have a table which stores 0-6 as weekday value, and I want to display weekday name. E.g. if value is <code>0</code>, it will display <code>Sunday</code>, if value is <code>1</code>, it will display <code>Monday</code>, likewise. Is there any inbuilt MySQL function for getting day name from Index?</p>  <p>Thanks in Advance!! </p>

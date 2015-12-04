@@ -1,0 +1,1 @@
+<p>I need to use a star symbol <code>*</code> in <code>Pattern.matches()</code>,but the compiler says that <code>*</code> is illegal character for reggae,does anyone know how to solve it?</p>

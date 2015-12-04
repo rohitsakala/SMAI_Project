@@ -1,0 +1,1 @@
+<p>many of the cloud solutions give you options of getting a runtime instance or just a docker container. I have a web app which I used to run on tomcat, and uses postgres as db. Which option should I take and why?</p>

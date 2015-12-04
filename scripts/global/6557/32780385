@@ -1,0 +1,1 @@
+<p>I have some custom data to be stored in a bitmap. I read the PropertyItem's IDs to chose where I can put. Is there any PropertyItem.Id that I use to store my custom data in Bitmap.SetPropertyItem()? Any suggestions here?</p>

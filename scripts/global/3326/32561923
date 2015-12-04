@@ -1,0 +1,1 @@
+<p>What is the benefit or purpose to change the <code>CALayer</code> <code>position</code>, which is by default in center, don't it suppose to be a center of <code>CALayer</code>? Whats the point changing a center point to bottom right or any other, because bottom right can't be the center of a square.</p>

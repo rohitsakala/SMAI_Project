@@ -1,0 +1,1 @@
+<p>I'm converting PDFs to JPEGs and I can't get setImageScene to work.  </p>  <p>I've tried calling it before readImage and after readImage.  It has no effect on the numbering of the files.</p>  <p>Can someone provide a working example?</p>  <p>Thanks</p>

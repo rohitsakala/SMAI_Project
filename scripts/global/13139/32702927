@@ -1,0 +1,1 @@
+<p>Everytime I open a JFrame from my main JFrame It appears in front of my main JFrame. I know how to open it in different positions of the screen but that doesn't solve the problem.</p>  <p>I have no idea how to open it behind the main JFrame. Any help would be appreciated.</p>

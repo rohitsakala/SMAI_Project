@@ -1,0 +1,1 @@
+<p>Same error appears even I am using HTTPS </p>  <p>App Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure. Temporary exceptions can be configured via your app's Info.plist file. gete The resource could not be loaded because the App Transport Security policy requires the use of a secure connection.</p>  <p>any help?</p>

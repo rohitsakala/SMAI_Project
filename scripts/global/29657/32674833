@@ -1,0 +1,1 @@
+<p>I need to create application with Express.js, jade and less and want to assemble application in bundles with webpack. Whole internet is full of articles about setup webpack for react but no one about setting up it for usual express application with modular javascript.</p>  <p>There is also no one article about how to make common.css from .less files</p>  <p>Help me please!</p>

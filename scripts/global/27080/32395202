@@ -1,0 +1,1 @@
+<p>I have searched for the explanation/meaning of following website validation code in PHP,but didnt get it. Any clue?</p>  <pre><code>(!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&amp;@#\/%?=~_|!:,.;]*[-a-z0-9+&amp;@#\/%=~_|]/i",$website)) </code></pre>

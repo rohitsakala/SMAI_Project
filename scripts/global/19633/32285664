@@ -1,0 +1,1 @@
+<p>Can any one please help how to use form_form in Sinatra views.</p>  <p>I have included active support in my gemfile and have also required that in my app.rb</p>  <pre><code>gem 'activesupport', require: 'active_support/all' require 'active_support/all' </code></pre>  <p>While trying to use form_for i am getting syntax errors from sinatra.</p>

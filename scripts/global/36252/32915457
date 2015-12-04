@@ -1,0 +1,1 @@
+<p>Because I want a nicer looking message box that actually appears where I want it to appear, I have to make my own custom message box. </p>  <p>How do I make one that returns a value?</p>  <p>The built in MessageBox.Show can return a DialogResult. I'm guessing I create something like that DialogResult class or can I use that class?</p>

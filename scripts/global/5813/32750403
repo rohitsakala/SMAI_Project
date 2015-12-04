@@ -1,0 +1,1 @@
+<p>I have the power shell below that selectes certain fields</p>  <pre><code>dir -Path E:\scripts\br\test  | Get-FileMetaData | Select-Object name, Comments, Path, Rating  </code></pre>  <p>what i want to do is utilize Name,Comments,Path,Rating in further Pipes $_.name etc dosnt work</p>

@@ -1,0 +1,1 @@
+<p>Is there a way to prevent activity get destroy when saving in progress to the server? I have a profile activity which allow user to save the profile to server. I show a progress dialog but there is a chance the activity get destroy when it go  to the background. When it go back to front, the progress dialog will disappear but the background saving still executing.</p>

@@ -1,0 +1,1 @@
+<p>When I authenticate in my app1, I get authenticate in my app2 too.</p>  <p>Exemple.</p>  <p>I login at localhost/app1/web/app_dev.pho/login as "foo_user". When I check my localhost/app2/web/app_dev.php/ I am also authenticated as "foo_user" when I was anon. just before.</p>  <p>Do you know how can I fix that ? </p>

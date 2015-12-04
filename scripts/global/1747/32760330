@@ -1,0 +1,1 @@
+<p>I am writing a script in selenium using webdriver and nunit to automate my web application. I have to upload file in my application. But unable to do it.</p>  <p>The dialog opens while browse button is clicked, and upon selecting file the file is uploaded.</p>  <p>Browse</p>  <p>How can i do it in selenium?</p>

@@ -1,0 +1,1 @@
+<p>I'm implementing a memory manager with fixed partitions<br> The size of the processes that are coming are known,<br> and the total memory size is given and may vary.</p>  <p>I wanna know how can I define the size of the partitions<br> and consequently the number of partitions,<br> based on the memory size, and average, min, max process size.</p>

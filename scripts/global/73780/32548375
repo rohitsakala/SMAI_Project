@@ -1,0 +1,1 @@
+<p>Dart filter blur doesn't work with Safari, Chrome... Why ?</p>  <pre><code>&lt;h1&gt;This text will blur in Firefox, not in Webkit&lt;/h1&gt;   import 'dart:html'; import 'dart:core';  main() {   document.querySelector('h1').style.filter = 'blur(5px)'; } </code></pre>

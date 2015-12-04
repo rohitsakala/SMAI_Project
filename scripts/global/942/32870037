@@ -1,0 +1,1 @@
+<p>Is it possible to do logging on certain path - which will be provided as input argument - in Apache Spark while working in local mode?</p>  <pre><code>val conf = new SparkConf().   setAppName("SparkProgrammingGuide").   setMaster(master).   set("spark.eventLog.enabled", "true").   set("spark.eventLog.dir", "file:///home/USER") val sc = new SparkContext(conf) </code></pre>

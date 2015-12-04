@@ -1,0 +1,1 @@
+<p>I have program listening on port 10000. Program accept HTTP GET requests. Other programs in same computer will send requests. Because there is no communication outside computer - Ist it correct to accept that url size limit will not be applied?</p>

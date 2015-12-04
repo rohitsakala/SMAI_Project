@@ -1,0 +1,1 @@
+<p>PHPStorm is telling me that</p>  <pre><code>jQuery('#myform button[type="submit"]') </code></pre>  <p>is a jQuery inefficient usage, and suggests that this is more efficient:</p>  <pre><code>jQuery('#myform').find('button[type="submit"]') </code></pre>  <p>Do you agree?</p>

@@ -1,0 +1,1 @@
+<p>I have a mysql query in php:</p>  <pre><code>mysqli_query($link,"SELECT * FROM `content` WHERE `page`='$cont_sel_e['name']'") </code></pre>  <p>However it does not return anything. I know that the error are the single quoutes in the <code>'$cont_sel_e['name']'</code> part. The question is, how do i format it correctly, so that it works?</p>

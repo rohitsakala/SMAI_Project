@@ -1,0 +1,1 @@
+<p>I know how to turn off all monitors</p>  <pre><code>SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM) 2); </code></pre>  <p>But I want to turn only single one.</p>

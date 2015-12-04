@@ -1,0 +1,1 @@
+<p>How to see the list of files in the current directory that will be published by <code>npm publish</code>, in other words those files that are not being ignored by ignore rules of <code>.gitignore</code> and <code>.npmignore</code>.</p>  <p>I expect a specific command line or Node.js module/function that could do the job.</p>

@@ -1,0 +1,1 @@
+<p>Using HTTP to stream audio, I have managed to command line the clients. But I also need the host.</p>  <p>Clients are easy;</p>  <pre><code>Run("[VLC path] http://[localhost]:[port]") </code></pre>  <p>Using Autoit to code, and stuff in brackets should be considered set values. How would I broadcast a stream though? I want it in HTTP with everything set to default.</p>

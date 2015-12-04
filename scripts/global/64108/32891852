@@ -1,0 +1,1 @@
+<p>I want to know how to convert this php function into Ruby on Rails :</p>  <pre><code>&lt;?php print_r(sha1($messageHash, true)); ?&gt; </code></pre>  <p>The output should be the same in both languages. I can use SHA1 encoding in ruby but don't know how to get the <code>raw_output</code></p>

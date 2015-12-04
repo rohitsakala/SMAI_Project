@@ -1,0 +1,1 @@
+<p>I have had issues with DateRangeItem so I replaced it with two DateItems : one for the start date and an another for the end date . I want to allow the user to choose (like in the DateRangeItem)  given values for example "Today", "Tomorrow" ,"N months from now", etc.  is it possible ? </p>

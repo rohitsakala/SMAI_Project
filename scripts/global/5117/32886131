@@ -1,0 +1,1 @@
+<p>I am trying to connect BLE device with android application. I am getting the device name,Mac Address and rssi value in foreground. I dont know how to scan the device in background and get the details of that particular device like MAC address,rssi value.</p>

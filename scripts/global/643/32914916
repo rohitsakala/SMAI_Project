@@ -1,0 +1,1 @@
+<p>Suppose I have the following document displayed in an iframe:</p>  <pre><code>&lt;html&gt;   &lt;head&gt;     &lt;style&gt;         @media print { body { color: blue; } }     &lt;/style&gt;   &lt;/head&gt;   &lt;body&gt;Hi!&lt;/body&gt; &lt;/html&gt; </code></pre>  <p>Is there a way to set the iframe's media type to print, so the body color style is activated?</p>

@@ -1,0 +1,1 @@
+<p>I moved my boot disk to a new VM today - so all details should be the same except vm name when connecting to my site - right? I can connect to my https management panel but I can't connect to http (either the i.p or the URL) and the external i.p is the same. I checked all the firewall rules and there's still one for http port 80. Not sure what's going on.</p>

@@ -1,0 +1,1 @@
+<p>I have multiple KML files, I would like to load appropriate KML depending on the user current location, as KML contains multiple Geometry is there a simple way to get the boundary of Placemarks so that I can manage internal structure &amp; load correct KML.</p>  <p>Or</p>  <p>Given a (lat,lng) is there a way to figure out which KML file to load?</p>

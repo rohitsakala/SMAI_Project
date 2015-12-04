@@ -1,0 +1,1 @@
+<p>Is there a way I can set the DisplayDateStart property on a DatePicker (Telerik) control in XAML without having a property in my ViewModel?</p>

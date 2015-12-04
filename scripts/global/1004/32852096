@@ -1,0 +1,1 @@
+<p>I have a fragment that use the speech recognition of Andriod. It is work O.K. but I have a text on the fragment which the user need to read. But when I open the speech service the icon cover the text. Is there a way to make the icon of the service transperant  or put it on the side? Thanks Bar.</p>

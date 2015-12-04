@@ -1,0 +1,1 @@
+<p>When I executed the following statement:</p>  <pre><code>Select id,unnest(xpath('./comment/text()', xmldoc::xml)) AS comment from table </code></pre>  <p>I get this error:</p>  <pre><code>Could not parse XML document, Document labelled UTF-16 but has UTF-8 content </code></pre>  <p>How can I parse it?</p>

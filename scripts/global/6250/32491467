@@ -1,0 +1,1 @@
+<p>I need to print this double array but I keep getting an error at the last line with "index" and it says "cannot convert double to int".</p>  <pre><code>double[] i1 = new double[] {0.15, 0.875, 0.375};  Arrays.sort(i1); System.out.print("1st array : ");  for(double index=0; index &lt; i1.length ; index++)     System.out.print("  "  + i1[index]); </code></pre>

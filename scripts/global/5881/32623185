@@ -1,0 +1,1 @@
+<pre><code>for {set i 0} {$i &lt; 5} {incr i} {     if {$node($i) &lt; $node($i++)} {         puts "first $i"     } } </code></pre>  <p>I got error in <code>if</code> condition. Is it possible to increment <code>i</code> in if condition. If yes, how?</p>

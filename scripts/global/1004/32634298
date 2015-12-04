@@ -1,0 +1,1 @@
+<p>When I upload an icomoon font via SVG, then select an icon from the free library, the icomoon.tff shows up blank and does not work on my website. </p>  <p>My only workaround was to upload another SVG with the desired icon, upload the other SVG with my font, then download.</p>  <p>Any ideas on why this occurs? </p>

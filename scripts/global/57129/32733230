@@ -1,0 +1,1 @@
+<p>I want to use for my new project BabelJS, but I have a big requirement: It must be  executable on IE8.</p>  <p><strong>PROBLEM</strong>: Babel compiles ES6 to ES5. ES5 support on IE8 is poor.</p>  <p>Do you know alternatives to Babel that allow me to write "OOP" code, easily debuggable and "IE8 friendly"?</p>

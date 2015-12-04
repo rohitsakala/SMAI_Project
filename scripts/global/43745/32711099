@@ -1,0 +1,1 @@
+<p>I have opened many sites that use HTML5 video in the emulator ( android 2.3.3 and android 5 ) but it doesn't work: I can hear the audio but the video doesn't appear. On my smartphone ( samsung s5 with android 5 ) it works.</p>  <p>So why html5 video tag doesn't work well in the emulator ?</p>

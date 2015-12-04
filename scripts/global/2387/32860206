@@ -1,0 +1,1 @@
+<p>Say we have to encrypt some data using DES (or Triple DES). If the IV used is 8 bytes, set to '0' (ie. IV is a constant byte[], all set to 0x00), is it okay? Or is it same as using no IV in the first place?</p>

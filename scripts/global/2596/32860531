@@ -1,0 +1,1 @@
+<p>I have folder structure as below </p>  <pre><code>ConsoleApp    app.config WindowService    service    app.config DataLayer </code></pre>  <p>I need to get app.config data such as connection string in DataLayer.I am not able to get. It throws null reference. In consoleApp and WindowService project, its is working.</p>  <p>please suggest me how to resolve this issue.</p>

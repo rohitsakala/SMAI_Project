@@ -1,0 +1,1 @@
+<p>I want to encode string in base64 using jstl tag on jsp page.</p>  <p>Example:</p>  <pre><code>&lt;a href="deleteBatch.do?batchId=12" </code></pre>  <p>encoded</p>  <pre><code>&lt;a href="deleteBatch.do?batchId=12hgxb4" </code></pre>  <p>How could I do this?</p>

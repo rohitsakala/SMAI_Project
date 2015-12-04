@@ -1,0 +1,1 @@
+<p>I send data through the socket from python to java.</p>  <p>So on the python 2.7 side I have:</p>  <pre><code>s = "this is test str" compressed = s.encode('zlib') push_to_tcp_socket(compressed) </code></pre>  <p>So I need to restore initial string on the java side. How I could do that?</p>

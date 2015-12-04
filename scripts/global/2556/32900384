@@ -1,0 +1,1 @@
+<p>I am doing a clojure excersice and this is one question.</p>  <pre><code>(true?  (__ :a {:a nil :b 2})) </code></pre>  <p>the answer is :</p>  <pre><code> #(nil?(%2 %1 0)) </code></pre>  <p>But I could not get it. What does ％2 ％1 0 do here? Especially, what does that 0 do there?</p>  <p>can you explain it for me? thanks</p>

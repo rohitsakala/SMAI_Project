@@ -1,0 +1,1 @@
+<p>I am little confused about how pointers are/or can be used. for example:</p>  <pre><code>int addtwonumbersfunction(int* number_1, int* number_2) </code></pre>  <p>Is it same as: <code>int addtwonumbersfunction(int *number_1, int *number_2)</code>?</p>  <p>Does it matter where * is placed? after int, or before variable?</p>

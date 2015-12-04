@@ -1,0 +1,1 @@
+<p>I am returning a text field in admin list display and it is too long so i want to truncate it..</p>  <pre><code>def comment(self, obj):     return '{{{}|truncatewords:10}}'.format(obj.comment) comment.allow_tags = True comment.short_description = "Comment" </code></pre>  <p>It is not giving me the comment. I have included the comment in list_display Any suggestions ?</p>

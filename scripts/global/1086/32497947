@@ -1,0 +1,1 @@
+<p>I'm trying to reactor this code. Any advice? </p>  <pre><code>@contest_users = []  @contest.squads.each do |squad|   @contest_users &lt;&lt; squad.users[0] end  </code></pre>

@@ -1,0 +1,1 @@
+<p>Is there some way to get the <strong>git parameter</strong> dynamically in jenkins?</p>  <pre><code>https://mygitaddressnothere:8888/$mygit.git </code></pre>  <p>Suposing that I am using the variable mygit.</p>

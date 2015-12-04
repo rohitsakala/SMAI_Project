@@ -1,0 +1,1 @@
+<p>In the last exam I got a very interesting question and I can't find the answer. The question was: you have a class. How should you change it when it's instance could be allocated only in heap, not in stack. I tried to answer that I should made it as a singletone - private constructor and static instance but it was a wrong answer. Has anybody any ideas about it?</p>

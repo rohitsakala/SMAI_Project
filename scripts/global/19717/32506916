@@ -1,0 +1,1 @@
+<p>I need to select all inputs elements having the attribute "name" value ending in "[date]", like:</p>  <pre><code>&lt;input name="[blabla][hello][date]"&gt; </code></pre>  <p>This is what I tried, but doesn't work:</p>  <pre><code>$('input[name=*\[date\]]'); </code></pre>

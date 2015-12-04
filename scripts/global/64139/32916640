@@ -1,0 +1,1 @@
+<p>I need help to group by date and find the minimum time for each date. Here, updateTime is an XML node. My application does not support LINQ.</p>  <pre><code>**UpdateTime** 2014-01-18T23:04:51.223542 2014-01-18T16:39:36.030992 2014-01-18T04:33:44.307508 2014-01-17T22:47:01.163672 2014-01-17T15:57:26.389259 2014-01-17T06:19:41.422436 </code></pre>

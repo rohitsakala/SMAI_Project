@@ -1,0 +1,1 @@
+<p>I get this error please help me out</p>  <p><strong>The model item passed into the dictionary is of type</strong> <code>'Hospital_Management_system.Models.ModelDepartment',</code> but this dictionary requires a model item of type <code>'System.Collections.Generic.IEnumerable</code>1[Hospital_Management_system.Models.ModelDepartment]'.`</p>

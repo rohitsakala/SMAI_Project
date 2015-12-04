@@ -1,0 +1,1 @@
+<p>I want to log every request that come to the my site with all the parameters and the time it need to generate the response. The site is build in Laravel 5. I did try different approaches but no luck. My main problem is in how to get the total execution time. </p>  <p>Thanks </p>

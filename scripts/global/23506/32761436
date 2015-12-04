@@ -1,0 +1,1 @@
+<p>Im work with django framework i had an little problem</p>  <p>this is my urls.py</p>  <pre><code>.... url(r'some/$' view, name) .... </code></pre>  <p>how to use url with in <a href="http://url.com/path?q=some&amp;s=ds" rel="nofollow">http://url.com/path?q=some&amp;s=ds</a> (and some long query)</p>  <p>if i use request.GET in view.py, it's so DRY</p>

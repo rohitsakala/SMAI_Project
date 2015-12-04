@@ -1,0 +1,1 @@
+<p>I am having a classic ASP application which demands URL Rewriting like below</p>  <p>mysite.com/product.asp?prid=100 </p>  <p>must be written like this</p>  <p>mysite.com/product/100/</p>  <p>I dont have direct server access as I am on a shared server, Here they provide Plesk as hosting panel</p>

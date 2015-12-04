@@ -1,0 +1,1 @@
+<p>I'm facing the same issue described here: <a href="http://stackoverflow.com/questions/1709290/how-can-i-force-maven-to-leave-the-version-number-out-of-dependency-file-names">How can I force maven to leave the version number out of dependency file names?</a> but with the WAR plugin. Looked around but didn't find any solution.</p>

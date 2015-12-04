@@ -1,0 +1,1 @@
+<p>I am using XAMPP for local windows development. </p>  <p>I installed only PHP, PHPMYADMIN and MySQL while installing xampp for the first time. Now I require Tomcat. I can not figure out how to re-run the installer so my existing settings are not overwritten and I can also install tomcat.</p>

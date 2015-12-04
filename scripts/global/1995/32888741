@@ -1,0 +1,1 @@
+<p>i am new to hadoop eco system. I managed to import 2 different datasets from rdbms to hdfs. Now I need to aggregate the dataset and export/ move it to base. What is the best approach?</p>  <p>I have 3rd type of dataset already sitting in hbase</p>  <p>Thanks for help</p>

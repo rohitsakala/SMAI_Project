@@ -1,0 +1,1 @@
+<p>How can I run following query in laravel ???</p>  <blockquote>   <p>Select column1,column2,column3 from table;</p> </blockquote>  <p>I don't want to retrieve all columns records as we do by </p>  <blockquote>   <p>Select * from table;</p> </blockquote>

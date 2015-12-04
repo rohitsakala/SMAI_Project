@@ -1,0 +1,1 @@
+<p>My code is working fine and able to plot what I need to plot but Plot looks little bit hard to read. Can any one suggest module available to shift y scales? my plot grounded to 2 since min value i have in my data is 2. Can I make y scale starts from Zero ?</p>  <p>Stack over flow is not allowing me to post figure.</p>

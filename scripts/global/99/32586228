@@ -1,0 +1,1 @@
+<p>I was editing a file in nano and, when I saved it, I got a disk is full error. However, when I opened the file again, all it's content was gone, including everything that was there before the disk was filled. How can I recover the file's content? My partition type is EXT4. I've already tried recovering it using debugfs with no success. Thanks in advance. </p>

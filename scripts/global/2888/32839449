@@ -1,0 +1,1 @@
+<p>I want to know how connections are handled?</p>  <p>Should the client make explicit calls to release RMI resources?</p>  <p>Please answer this question with respect to custom sockets and default RMI sockets.</p>

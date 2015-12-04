@@ -1,0 +1,1 @@
+<p>ffmpeg is asking to compile with minGW to add subtitles to video. I have installed MinGW. I am following this <a href="https://trac.ffmpeg.org/wiki/HowToBurnSubtitlesIntoVideo" rel="nofollow">https://trac.ffmpeg.org/wiki/HowToBurnSubtitlesIntoVideo</a> to add subtitles. This filter requires ffmpeg to be compiled with --enable-libass. how can i compile those filters?</p>

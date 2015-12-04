@@ -1,0 +1,1 @@
+<p>I'm trying to build my application with sencha cmd 6.0 and ext 6.0, but I have this problem since ext 5 with sencha cmd 5.0. What is happening is that my application in build folder is losing the special characters, like 'ç', 'é', anyone with this problem ?</p>

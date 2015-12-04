@@ -1,0 +1,1 @@
+<p>Suppose that i have a collection of objects like</p>  <pre><code>id: 1 fname: John lname: Doe age: 20 role: admin </code></pre>  <p>Can i use redis for reverse lookup using 2 or more attributes, say <code>fname</code> and <code>admin</code>?</p>

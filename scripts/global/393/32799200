@@ -1,0 +1,1 @@
+<p>I'm trying to mount my usb into www folder of apache and then accessing it by url. The problem is that appears this "You don't have permission to access 'foldername' on this server." I already tried to create a .htaccess file with "allow from all", but it still doesn't work. How can I do this?</p>

@@ -1,0 +1,1 @@
+<p>I want to trace hardware performance counter data, such as branch miss, instructions retired, iTLB miss. Is there any tutorial or samples for writing a driver to obtain these parameters ? </p>

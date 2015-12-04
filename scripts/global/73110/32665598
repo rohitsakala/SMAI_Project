@@ -1,0 +1,1 @@
+<p>Is it possible to host a SignalR application in IIS without using the OWIN start-up class ? I have an empty ASP.Net application with SignalR hub class and an html page in this same application. </p>  <p>If it is possible, how can we register the SignalR in OWIN pipeline ??</p>

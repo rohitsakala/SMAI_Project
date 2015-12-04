@@ -1,0 +1,1 @@
+<p>I am trying to implement auto_complete functionality in Rails 2.3.x application which is developed in Ruby 1.8.7. My application uses pure javascript and prototypen js. I am unable to use jQuery-UI which has inbuilt auto-complete functionality. I need rails plugin or any other javascript plugin to implement in my app.</p>  <p>Thanx in Advance</p>

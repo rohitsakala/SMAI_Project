@@ -1,0 +1,1 @@
+<p>Is there a way in javascript to filter and get the indices of all the found items. Example:</p>  <pre><code>filter([{a: 5},{a,9},{a:1},{a:2}], el =&gt; el.a&lt;3)  ===&gt;&gt;&gt;  [2,3] </code></pre>  <p>I have a feeling underscore should have this utility but I can't seem to find it.</p>

@@ -1,0 +1,1 @@
+<pre><code>while ((len = var1) != -1){     // do something  } </code></pre>  <p>What I am asking if it's different to -1? For <code>len</code>? For <code>var1</code>?</p>  <p>This is Java EE.</p>

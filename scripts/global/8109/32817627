@@ -1,0 +1,1 @@
+<p>I have a receiver which catches an alarm/system broadcasts and then it has to get the current data from the server and then send a notification. How can I achieve this ? Please help. Thank you.</p>

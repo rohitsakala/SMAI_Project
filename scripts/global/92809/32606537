@@ -1,0 +1,1 @@
+<p>I am using </p>  <pre><code>appstore =[NSURL URLWithString:[NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%d",YOUR_APP_STORE_ID]]; </code></pre>  <p>it shows the "details" tab, but I want "Reviews" tab selected by default.</p>  <p>Can Any one help? Thank in Advance</p>

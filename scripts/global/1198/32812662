@@ -1,0 +1,1 @@
+<p>I'm attempting to rewrite List.filter manually so far I have this:</p>  <pre><code>let rec filter f = function     |[] -&gt; []     |x::xs -&gt; if f x = true then x @ filter f xs               else filter f xs;; </code></pre>

@@ -1,0 +1,1 @@
+<p>I have pw_check.java and I need to run it with an argument first and then run it without argument in terminal.</p>  <blockquote>   <p>java pw_check -g</p>      <p>java pw_check</p> </blockquote>  <p>But in second command, without argument, the system is throwing exception. How could I handle it to feed my requirement.</p>

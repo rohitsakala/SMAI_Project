@@ -1,0 +1,1 @@
+<p>I added a http connection manager to my SSIS project, did some additional work, then closed the IDE.</p>  <p>When I opened the IDE (VS 2010 10.0.40219.1 SP1 REL), the http connection manager had vanished.  When I examined the project's folder in Explorer, the .conmgr file is present.</p>  <p>Why is this occurring?  What do I need to get it to load?</p>

@@ -1,0 +1,1 @@
+<p>im using tweepy stream api now.</p>  <p>I can filter the keyword use the <code>stream.fileter(track=[])</code> method.</p>  <p>I also want to filter the tweets that starts with a given string.</p>  <p>But he method <code>stream.filter(track=['H'])</code> won't match the tweet <code>'Hello'</code></p>  <p>Can i do that and how to do it?</p>  <p>Thanks~</p>

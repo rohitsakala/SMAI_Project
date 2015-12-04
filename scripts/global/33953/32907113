@@ -1,0 +1,1 @@
+<p>I have added a new solution to VSO and would like to reference a project already belonging to a different solution. As an example I have a solution that contains common/core framework code. I then want to be able to create new solutions that reference this common code. Does anybody know the best way to achieve this? or if it is possible?</p>

@@ -1,0 +1,1 @@
+<p>I'm working with handlebars and i18n-node and would like to pass parameters to i18n helper like following :</p>  <pre><code>&lt;span&gt;{{__ 'Hello {{name}}, how are you today?' name='john' }}&lt;/span&gt; </code></pre>  <p>Can you please help me.</p>

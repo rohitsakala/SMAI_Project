@@ -1,0 +1,1 @@
+<p>I am trying to make metronome in c++, however I am stuck at very beginning.</p>  <p>I'm not sure how to deal with "click" sound.</p>  <p>Is that sound somehow recorded then repeatedly played  or is it generated in c++ code ?</p>  <p>If it is generated in c++ can I get some sources to read about it more ?</p>

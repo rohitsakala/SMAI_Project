@@ -1,0 +1,1 @@
+<p>I was testing innodb compression(8kb page size). when i see in information_schema.tables it shows less size (around 10gb) but on disk it is consuming around 70gb..also when i use strings command over the file in disk,it shows data as it is as if it is not compressed.what could be the issue?</p>

@@ -1,0 +1,1 @@
+<p>A <code>JTable</code> displays data from an array of objects. Object data changes in the background and the table is updated. When rows are selected and the table data changes the row selections are lost. It is difficult for the user to select rows for an action when the selections are frequently lost.</p>  <p>Is there a way to stop the deselection?</p>

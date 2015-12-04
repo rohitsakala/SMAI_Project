@@ -1,0 +1,1 @@
+<p>I want to count and get child name of treeview if there is only on root element like the following picture.</p>  <pre><code> Item1     |_____SubItem1                  |___A                  |___B </code></pre>  <p>The result should be Count:2, Item:A,B</p>

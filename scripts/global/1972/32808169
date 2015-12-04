@@ -1,0 +1,1 @@
+<p>How does server handle interpreted scripts (for example, PHP). </p>  <p>Does the server send the script's content to the program's stdin stream or does it simply sends meta/environment variables and the executable program then loads the file from disk?</p>

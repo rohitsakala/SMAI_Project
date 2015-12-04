@@ -1,0 +1,1 @@
+<p>How to forward ports in external ip. I tried port forwarder but it forwards my internal ip ports like 10.xxx.xx.xxx to 192.168.0.1</p>  <p>How to actually forward ports To my external ip? so that i could access my mobile via ssh when im out of my network. My external ip is dynamic too.</p>

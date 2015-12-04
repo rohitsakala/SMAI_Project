@@ -1,0 +1,1 @@
+<p>I am using dates in parse,And now I have problem when I want to run cloud code that add date to some object. The date that created in the server is UTC time and I have a problem that I want to make it localize. cause I it I dont want to work with utc.. </p>  <p>Their is a way to set the local of the new Date() in parse , or in js?</p>  <p>Thanks</p>

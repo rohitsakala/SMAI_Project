@@ -1,0 +1,1 @@
+<p>I'm wondering if I should keep one singleton instance of the Gson object for parsing json in my app. </p>  <p>Are there any issues with this approach? Is it premature optimization? </p>

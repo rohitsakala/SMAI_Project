@@ -1,0 +1,1 @@
+<p>I am currently writing a piece of C++ code that will listen for network connections. I'm using gtest to write unit tests but I've reached a problem I don't know how to fix:</p>  <p>How can I test the functions that listen for network connections? If I put this in my unit test they'll block.</p>  <p>Any ideas?</p>

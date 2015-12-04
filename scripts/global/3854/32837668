@@ -1,0 +1,1 @@
+<p>I'm trying to sign-in to skype using HttpURLConnection class with POST requests, but don't know how to send the 'form data' and where are the cookies (viz. MSFPC, SC, SWACC, frmrgtpe, lastLogin, mbox, s_pers, s_sess, s_vi, tracking) generating their values from.</p>

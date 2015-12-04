@@ -1,0 +1,1 @@
+<p>I am aware that on every GET, POST, PUT, DELETE made by the client (separate web application) should provide the token back to the server as part of authentication.</p>  <p>My question is when a user logs in he gets back a token, but do i also have to send that token on every page load? for instance in a protected html page</p>

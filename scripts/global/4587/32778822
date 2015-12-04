@@ -1,0 +1,1 @@
+<p>I have two <code>csv</code> files. One has <code>(user_id, gameName,score)</code> and other has <code>(user_id, age)</code>. How do I perform a join using map reduce programming so that I can calculate average age of players for each game. I have no idea how to proceed with this one.</p>

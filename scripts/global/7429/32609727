@@ -1,0 +1,1 @@
+<p>I am getting this error when I am using Captcha field type.</p>  <blockquote>   <p>Could not load file or assembly 'MSCaptcha, Version=4.0.4250.31585, Culture=neutral, PublicKeyToken=b9ff12f28cdcf412' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. </p> </blockquote>

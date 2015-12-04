@@ -1,0 +1,1 @@
+<p>Is there a way (service, app, etc) to detect when an user is disabled or deleted from Active Directory ?, something like PasswordHook, which is used to detect when an user is changing his password ?</p>

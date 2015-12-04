@@ -1,0 +1,1 @@
+<p>I am editing the same index.jsp file with another colleague and we use Tortoise SVN for Subversion. He commits his changes and Weblogic tells me that the file I am editing has been modified. If I choose to reload the file, do I lose the changes that I've done locally but not committed?</p>

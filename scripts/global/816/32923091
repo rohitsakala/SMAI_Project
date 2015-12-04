@@ -1,0 +1,1 @@
+<p>I implemented the search bar in my test application via UISearchController. when I start my app, I see the search bar under the navigation controller. but how i can hide it when app is starts and show it only when I pull a table view down? and hide again when pull up a table view? I can't find any solution in google or youtube, please help.</p>

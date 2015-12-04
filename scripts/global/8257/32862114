@@ -1,0 +1,1 @@
+<p>I have an ActiveMQ topic provider. I need to feed the data received from that topic into the storm topic. is there any way to do it directly or should I create intermediate queue and feed topic data into the queue and then pull the data into the spout. which is the best option. really appreciate your responses. </p>  <p>thanks. </p>

@@ -1,0 +1,1 @@
+<p>I've noticed that some background processes that I run on my website don't work in IE in case the user opened a dialog box (such as pressing ctrl + o). Is it possible to register to some sort of event in javascript that lets me handle dialog boxes opening, so that I can know when my processes will be inactive?</p>  <p>Thanks</p>

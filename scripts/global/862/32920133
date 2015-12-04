@@ -1,0 +1,1 @@
+<p>I have a registration popup in layout view and I want to pass parameters with a class in model from layout to action.so every thing is OK .</p>  <p>problem start when I use another model in another view for example to show data in that view.</p>  <p>how can I solve that</p>

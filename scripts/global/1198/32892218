@@ -1,0 +1,1 @@
+<p>Instead of importing a whole module, is there a way to open specific functions in another module? Something like:</p>  <pre><code>open TestFuncs with [myTestFuncInOtherModule] </code></pre>

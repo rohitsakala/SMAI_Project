@@ -1,0 +1,1 @@
+<p>Of course, we can do it with Javascript. But maybe there is solution like that: <code>@Ajax.TimeoutRequest("Action", Timeout, ...)</code></p>  <p>Maybe there is some library for such task?</p>

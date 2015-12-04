@@ -1,0 +1,1 @@
+<p>Intro: I figured it out, that it gives you a list of computers connected to the same network. </p>  <p>Then I turned the network discovery off and my pc isn't on the list anymore.</p>  <p>Question: Is there any command ( or other way ) to see ALL the computers using same network, even if network discovery is off.</p>

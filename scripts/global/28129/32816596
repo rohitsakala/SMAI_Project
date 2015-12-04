@@ -1,0 +1,1 @@
+<p>I have upgrade my xcode to latest version and after updating I tried to submit build to appstore while I am archiving I got the following issue: </p>  <pre><code>Unexpected CFBundleExecutable Key </code></pre>  <p>I have searched my sites and some links but could not find solutions. Can anyone tell me what is the problem? Looking for anyone's help</p>

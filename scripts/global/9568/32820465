@@ -1,0 +1,1 @@
+<p>I am invoking a REST POST service to which I am sending the following JSON body,</p>  <pre><code>[{"studentId":99999}] </code></pre>  <p>But, the data which is received by server is,</p>  <pre><code>%5B%7B%22studenId%22%3A99999%7D%5D </code></pre>  <p>and getting errored out. Is there any way to make it work?</p>

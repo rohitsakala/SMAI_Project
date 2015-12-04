@@ -1,0 +1,1 @@
+<p>In spark mllib, is there a way to dump more information within each iteration of training such as loss value ?  Right now, I only see the final model. </p>

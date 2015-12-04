@@ -1,0 +1,1 @@
+<p>I'm just beginning with GTK and am looking for some advice. I have a GtkScale which has a range of 0 - 6. I have a progress bar next to it that I would like to have move with the progress bar, i.e. when scale is set to 3, progress bar is set to 50%. What is the best way to link them together?</p>  <p>Thanks!</p>

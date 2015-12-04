@@ -1,0 +1,1 @@
+<p>I am using CakePhp3.x which requires <code>php_intl.dll</code>. How can I enable <code>php_intl.dll</code> extension on shared hosting?</p>  <p>I am using <code>Godaddy</code> shared hosting. I asked them to enable it, but they refuse it for shared hosting. Is there any  possible alternate solution?</p>

@@ -1,0 +1,1 @@
+<p>I am trying to code an appplication supporting Kinect Sensor V2, using the pykinect2 library. however, there aren't any reliable sources and samples that use pykinect2. there are substantial changes in the library and hence the code samples for pykinect do not work. also the much required nui class does not import. please help.</p>

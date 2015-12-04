@@ -1,0 +1,1 @@
+<p>I am creating a game with Cocos and Sprite Builder in Objective-C, and I'm finishing the support scene but I have a problem. I want to add a button that when clicked, it opens directly the email with my address so that the users can contact me if there is some problems.</p>  <p>What code do I need to write to accomplish this?</p>

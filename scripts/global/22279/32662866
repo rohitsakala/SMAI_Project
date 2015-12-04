@@ -1,0 +1,1 @@
+<p>Beside VideoView, are there other ways to stream videos in my android app? I need a customized solution so my question is not talking about implicit intents. I mean within android itself, for API 14, is VideoView the only way to stream a video in my app. Thanks.</p>

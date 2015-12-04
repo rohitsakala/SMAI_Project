@@ -1,0 +1,1 @@
+<p>I'm trying to make load testing on visual studio 2015. I have this problem and I don't know how to resolve this issue.</p>  <p>at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)  at Microsoft.VisualStudio.TestTools.WebStress.WebTestTransaction.ResponseReceived(IAsyncResult result)</p>  <p>Does anybody knows how to pass this? </p>  <p>thanks.</p>

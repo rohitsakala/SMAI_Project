@@ -1,0 +1,1 @@
+<p>Consider that iam creating two variables</p>  <pre><code>              char a1,b1,c1; /*consider that im assigning*/                a1='a',b1='b';                /* now i want to combine a1 and b1  and assign to c1                 i.e c1='ab' pls suggest me the code to do that.                Dont suggest any complex code im a begineer.  </code></pre>

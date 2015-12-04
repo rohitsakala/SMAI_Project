@@ -1,0 +1,1 @@
+<p>What's wrong with that code <a href="https://dartpad.dartlang.org/59c9ac878a0335fdcffb" rel="nofollow">https://dartpad.dartlang.org/59c9ac878a0335fdcffb</a> or with DartPad? It produces </p>  <blockquote>   <p>Uncaught TypeError: constr is not a function</p> </blockquote>  <p>in the CONSOLE.</p>

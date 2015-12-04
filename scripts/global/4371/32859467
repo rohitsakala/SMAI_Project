@@ -1,0 +1,1 @@
+<pre><code>string name = "BLK000012345summary.pdf"; string fileName = "20150929111111zp2zq23BLK000012345summary.pdf"; </code></pre>  <p>I have a string <code>name</code> which I have to find in <code>fileName</code>, if it exists it should return true otherwise false.</p>

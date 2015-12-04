@@ -1,0 +1,1 @@
+<p>Can you please explain me the difference in simple terms for Versionable Vs. Revisionable. I have a couple of 3rd party binaries and some 3rd party source code projects which I use within my VS project.</p>  <p>I would like to move versionable into one repository and others into a different repo .</p>  <p>How should I distinguish ?</p>  <p>Thank you</p>

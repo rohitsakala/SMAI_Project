@@ -1,0 +1,1 @@
+<p>Why cant I get the weekdays in danish (mandag, tirsdag...) when I get the date from MySQL?</p>  <p><code>$Weekday = date('l', strtotime($Date));</code></p>  <p><code>echo " - $Weekday";</code></p>  <p>I have tryed to set locale settings, but it dosn't work? It only returns in english.</p>

@@ -1,0 +1,1 @@
+<p>I created a part in xmi file as unvisible. I want to make this part visible by using EPartService at runtime. I used this code line.</p>  <pre><code>   PartService.activate(PartConfiguration); </code></pre>  <p>Can anybody give me some advice about how can I call part to make visible?</p>

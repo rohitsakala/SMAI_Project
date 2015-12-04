@@ -1,0 +1,1 @@
+<p>I know a little knowledge about C++ 11 template. My intention is to have a template function as shown below:</p>  <pre><code>template&lt;class T&gt; void function(T * a) {   if (T belongs to class M) {     a-&gt;function_m();   } else {     a-&gt;function_o();   } } </code></pre>  <p>Does C++ 11 support this template class reflection?</p>

@@ -1,0 +1,1 @@
+<p>Is there an easy way to generate a Cloudfront Signed URL in Clojure?</p>  <p>I'm using Amazonica for S3 (which works great):</p>  <pre><code>(s3/set-s3client-options {:path-style-access true}) (aws/defcredential s3_accesskey s3_secretkey) (s3/generate-presigned-url bucket key (-&gt; 6 hours from-now)) </code></pre>  <p>Is there anything similar for Cloudfront?</p>

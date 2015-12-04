@@ -1,0 +1,1 @@
+<p>Currently, I'm trying to use below code to get the offset of a section in UIScrollView</p>  <pre><code>[self.tableView reloadData];  CGRect rectInTableView = [self.tableView rectForSection:section]; return rectInTableView.origin.y; </code></pre>  <p>But it doesn't work.</p>

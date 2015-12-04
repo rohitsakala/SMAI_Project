@@ -1,0 +1,1 @@
+<p>This is my code:</p>  <pre><code>$url = '/'; //or $url = '/slug'; //or $url = '/slug/slug1'; //or $url = '/slug/slug1/slug2'; //or $url = '/slug/slug1/slug2/slug3'; $patterns = ??? preg_match_all($pattern, $url, $parts, PREG_OFFSET_CAPTURE); </code></pre>  <p>What is the pattern to satisfy all the url above? Somebody can help me?</p>

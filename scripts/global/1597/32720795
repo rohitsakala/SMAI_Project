@@ -1,0 +1,1 @@
+<p>) I use JS to go to another page but it is not updated, I always press F5... I tried with location.assign(), .replace,... I got the updated page only if I use location.reload(true), but it works on my current page and not in the destination...</p>

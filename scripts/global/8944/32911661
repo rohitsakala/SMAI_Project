@@ -1,0 +1,1 @@
+<p>How do I display iso-latin1 characters (for example : the symbol mu) in a web page that has encoding UTF-8 as in  <code>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;</code><br> I change the encoding to <code>encoding="ISO-8859-1"</code> but I still get <code>?</code> instead of those Latin symbols.</p>

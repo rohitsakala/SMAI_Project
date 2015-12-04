@@ -1,0 +1,1 @@
+<p>In my vb6 program I want to remove PictureBox but when ever i delete the picture box all form controls automatically delete with it, Even when I try to disable PictureBox all controls on it automatically set disable with it. I can't move my controls out from the PictureBox, I don't know what I am missing. How can I remove the PictureBox totally but keep only form controls</p>

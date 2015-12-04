@@ -1,0 +1,1 @@
+<p>When I type this:</p>  <pre><code>Cat *cat = new Cat();  </code></pre>  <p>and put the "using namespace Namespace;" at the top, it works.  But, if I try this:</p>  <pre><code>Namespace :: Cat *cat = new Cat(); </code></pre>  <p>It doesn't work. So if anyone could could explain it I'd appreciate it.</p>

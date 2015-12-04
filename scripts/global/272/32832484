@@ -1,0 +1,1 @@
+<p>I'm new to DTD and I'm not sure if I understand this code correctly.</p>  <pre><code>&lt;!ELEMENT P         - - (#PCDATA) +(tag1 | tag2 | tag3) &gt; </code></pre>  <p>Is this code allows P tag to contain tag1, tag2 and tag3?</p>

@@ -1,0 +1,1 @@
+<p>I want to get my current address using GPS and without providing any coordinates or address in the method as arguments. So is there any way in python I can do it?. I have tried reverse and geocode method but they require query as argument </p>

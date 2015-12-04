@@ -1,0 +1,1 @@
+<p>Where should the META-INF directory be in order for sbt to pick up custom configurations. I had this issue when trying to use the ServiceLoader and I was trying to create a custom services in META-INF/services</p>

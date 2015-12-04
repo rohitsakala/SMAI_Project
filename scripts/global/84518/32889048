@@ -1,0 +1,1 @@
+<p>I'm looking for dock layout engine for angularjs written in typescript. I found <a href="http://www.dockspawn.com/" rel="nofollow">Dockspawn</a> but it is written in DART and it's not compatible with the rest of my project. Does somebody know any dock layout engine (even paid ones) for angularjs in typescript?</p>

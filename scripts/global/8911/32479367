@@ -1,0 +1,1 @@
+<p>I know how to show a submit after submitting a form. But I would like a loading div to appear after ANY submit on the page. The same that happens on PHPMyAdmin. </p>  <p>Can anyone please help? How do I trigger to load a div after a submit?</p>

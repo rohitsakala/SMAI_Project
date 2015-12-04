@@ -1,0 +1,1 @@
+<p>To compile n source files, assuming that a context switch costs 20 CPU cycles, and a read from disk costs 100 CPU cycles, which way of compiling the n source files is faster, parallel or linear?</p>

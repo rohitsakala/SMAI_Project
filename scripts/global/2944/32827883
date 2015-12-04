@@ -1,0 +1,1 @@
+<p>I've got a dialog window (called Dialog1) and my main form, (called Form1).</p>  <p>How can I respond to an event on Dialog1 from Form1 in Windows forms? Should I have made Dialog1 another form and instantiated it using the <code>WithEvents</code> keyword? </p>  <p>Thanks in advance!</p>

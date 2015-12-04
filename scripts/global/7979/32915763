@@ -1,0 +1,1 @@
+<p>I am getting a "TypeError: 'float' object is not callable.</p>  <p>Here is my code:</p>  <pre><code>from matplotlib.pylab import * def f(x,t):     return (exp(-(x-3*t)**2) )*sin(3*pi(x-t))   x = linspace(-4, 4, 8)    y = zeros(len(x))   for i in xrange(len(x)):     y[i] = f(x[i],0)  plot(x, y) show() </code></pre>

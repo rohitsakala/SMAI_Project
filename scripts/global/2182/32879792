@@ -1,0 +1,1 @@
+<p>If I have a statement in JavaScript like:</p>  <pre><code>if(!me.a || !me.b || !me.c) {      // I want to know which not was matched here } </code></pre>  <p>How do I know which conditional was matched inside the scope? Is there any magic operator?</p>

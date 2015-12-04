@@ -1,0 +1,1 @@
+<p>For a typed ArrayList <code>list&lt;E&gt;</code> , why isn't remove method is like</p>  <pre><code>public boolean remove(E e) { } </code></pre>  <p>remove() and contains() method takes Object o as parameter. while add() takes E. There is a likelihood someone can call remove() with different object type and get Runtime Error.</p>

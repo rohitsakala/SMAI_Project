@@ -1,0 +1,1 @@
+<p>I was try to add plugin for cordova-cloudinary through following command and not support.Kindly update the command for add cloudinary plugin in cordova web site.</p>  <p>cordova plugin add cordova.plugins.cloudinary</p>  <p>but it shows the error. 404not found.</p>

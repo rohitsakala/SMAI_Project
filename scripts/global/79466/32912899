@@ -1,0 +1,1 @@
+<p>My requirement is to run a clean-up job on my firebase DB.</p>  <ul> <li>Does firebase has an api to run through the database for any such operations?</li> <li>If so can we also clean up references of an object within different data sets?</li> </ul>

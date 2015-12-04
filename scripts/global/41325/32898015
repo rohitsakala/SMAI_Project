@@ -1,0 +1,1 @@
+<p>I have an SBT project A which depends on a project B. Both of them have their maven dependencies. I want to assemble A and B into a single jar to publish to maven without their dependencies bundled into jar, just leave them as maven dependencies.</p>  <p>How is it possible with sbt-assembly?</p>

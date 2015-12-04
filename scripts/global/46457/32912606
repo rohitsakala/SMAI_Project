@@ -1,0 +1,1 @@
+<p>I know how to call a data.frame by column name but it returns a numeric vector rather than a data.frame. How to I force it to return a data.frame instead?</p>  <pre><code>data = data.frame(rand1 = rnorm(5, sd = 0.3),rand2 = rnorm(5, sd = 0.3) )  data[,'rand2']  [1]  0.54355118 -0.34235808  0.30914102 -0.06509097  0.29061738  class(data[,'rand2'])  [1] "numeric" </code></pre>

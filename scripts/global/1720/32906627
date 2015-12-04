@@ -1,0 +1,1 @@
+<p>I use remote desktop connection to connect another pc and run the code to play a video.I set  waitkey(30).But i use GetTickCount() to get the time which are nearly 0.5s, not 30 ms. Why? Then i try teamviewer to connect and run the code, the time is nearly 30ms. I don't know why, can somebody know this?</p>

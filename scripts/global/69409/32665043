@@ -1,0 +1,1 @@
+<p>Please help me with simple code to bring combo box inside a table view .</p>  <pre><code>column2.setCellValueFactory(new ComboBoxTableCell.forTableColumn(null)); column2.setPrefWidth(150); </code></pre>  <p>Is this the way to add combo box into table view.Is there need to create fxml for create table view.Please if you have runnable code please share</p>

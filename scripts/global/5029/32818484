@@ -1,0 +1,1 @@
+<p>Is it possible to change the value of variables in an interface class using XmlDecoder and XmlEncoder?.</p>  <p>I have an interface class that contains variables that needs to be implemented by other classes. however the value of these variables needs to be changed after some time.</p>

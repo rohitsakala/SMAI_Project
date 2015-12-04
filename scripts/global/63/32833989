@@ -1,0 +1,1 @@
+<p>I have the following scenario:</p>  <ul> <li>/DirParent              = svn info shows mapped to branch1</li> <li>/DirParent/dirchild     = svn info shows mapped to branch2</li> </ul>  <p>What I would like to do is ignore all child mappings and just use branch1 for the parent and all asociated child directories.</p>  <p>Is this possible?</p>  <p>Thanks.   </p>

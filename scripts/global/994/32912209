@@ -1,0 +1,1 @@
+<p>Is it possible to disable actuation <em>(fake-click)</em> for ForceTouch touchpad on stage transition in OSX? I am using <code>NSPressureBehavior.PrimaryGeneric</code> to keep the touch pressure in one stage, but there is still 0 to 1 stage transition which generates actuation.</p>

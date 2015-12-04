@@ -1,0 +1,1 @@
+<p>I have got a Cocos2d-x iOS app and Today widget. All the app data stored by cocos2d::UserDefault. But I can't get it with my Today widget. I'm using "NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];" When I try to get boolean by key- it returns false, but it's true. What to do with it?</p>  <p>Thanks in advance!</p>

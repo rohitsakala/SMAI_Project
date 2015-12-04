@@ -1,0 +1,1 @@
+<p>I have a question. If I see the content of constructor.prototype of a dom element in IE8 I can found the list of its methods as, for example, appendChild. But in IE7 a dom element haven't the constructor. Why? Where is the constructor of the dom element? I searched everywhere, but I can't find it. Sorry for my bad English.</p>

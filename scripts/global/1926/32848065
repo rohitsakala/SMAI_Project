@@ -1,0 +1,1 @@
+<p>In C++11, is there a clean way to disable implicit conversion between typedefs, or do you have to do something nasty like wrap your int in a class and define and delete various operators? </p>  <pre><code>typedef int Foo; typedef int Bar; Foo foo(1); Bar bar(2); bar = foo; // Implicit conversion! </code></pre>

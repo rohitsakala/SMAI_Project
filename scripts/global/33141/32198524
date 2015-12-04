@@ -1,0 +1,1 @@
+<p>Sometimes div collapses when styling. I've already known that <strong>floating children make parent div collapsed</strong> and <strong>same margins shared by two divs</strong>. <a href="http://jsbin.com/huqutakeda/edit?html,css,output" rel="nofollow">Some DEMOS</a></p>  <p>Is there any other case to make a div <em>collapsed</em> when using CSS?</p>

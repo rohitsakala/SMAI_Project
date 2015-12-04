@@ -1,0 +1,1 @@
+<p>I am running a webserver for Mantis BT. I have configured it on my laptop for test phase. The user's which I have created manually receive a URL for initial sign-up. they can only connect to me by replacing the localhost in the URL with my laptop name. is there any way to replace the localhost with my machine name in MySQL?</p>

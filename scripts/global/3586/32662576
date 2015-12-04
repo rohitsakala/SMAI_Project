@@ -1,0 +1,1 @@
+<p>how can I determine if an exception is database related so it can be logged as text?</p>  <p>For example, I log errors into database, but if the database server is out, I want to log into text...</p>  <p>Thanks in advance.</p>

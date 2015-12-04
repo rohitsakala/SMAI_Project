@@ -1,0 +1,1 @@
+<p>Is there a socket library that sets up multi cast sockets properly and operates the signal and read/write operations in C?</p>  <p>I have tried many online resources but I am trying to operate several multicast from a single process which is a bit daunting.</p>

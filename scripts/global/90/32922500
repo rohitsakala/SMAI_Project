@@ -1,0 +1,1 @@
+<pre><code>html_data = os.path.abspath("apps/dashboard/templates/pdfdata.html")      response_data['status'] = False      pdfkit.from_file(html_data, 'out.pdf') </code></pre>  <p>By Using pdfkit and the above code, pdf generated sucessfully. Now i want to download this generated pdf.</p>  <p>Thanks in advance</p>

@@ -1,0 +1,1 @@
+<p>Errors are shown below:</p>  <pre><code>npm install browser-sync                   npm WARN optional dep failed, continuing fsevents@1.0.1  &gt; utf-8-validate@1.2.1 install [webapp_path]/node_modules/browser-sync/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate &gt; node-gyp rebuild </code></pre>

@@ -1,0 +1,1 @@
+<p>I want to know is every subsequent call to mysqli_fetch_object will return the next row within the result set just as <code>mysqli_fetch_row</code>? or why is the while loop needed in the following code:</p>  <pre><code>while($obj=mysqli_fetch_object($result)){     printf("%s %s\n", $obj-&gt;lastname, $obj-&gt;age); } </code></pre>

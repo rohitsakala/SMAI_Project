@@ -1,0 +1,1 @@
+<p>I want to import publish settings file in powershell which is kept in azure storage. But it is not working I am trying the below command. If I use my local file system it works... </p>  <p>Import-AzurePublishSettingsFile -PublishSettingsFile "https://.blob.core.windows.net/scripts/MyFile.publishsettings"</p>  <p>How do I resolve this ?</p>

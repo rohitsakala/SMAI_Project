@@ -1,0 +1,1 @@
+<p>What's the best way to track any change in the <strong>entire</strong> the bundle population?</p>  <p>I've got some logic which scans all bundles for some bundle capabilities.</p>  <p>I want this to kick in only if there's a change in the bundle population, i.e. a bundle has been added/updated/removed.</p>

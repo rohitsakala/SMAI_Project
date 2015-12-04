@@ -1,0 +1,1 @@
+<p>I am exploring JavaScript es6 code in angularjs app and used grunt babel to compile the es6 to es5.</p>  <p>My unit test (jasmine) doesn't run with es6 code using phantomjs.</p>  <p>Whats best way to run test? Is there any plugin to use for jasmine to run es6 code?</p>

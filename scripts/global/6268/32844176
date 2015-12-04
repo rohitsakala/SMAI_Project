@@ -1,0 +1,1 @@
+<p>I need to "read" an array of some paperjs paths in nodejs and get their dimension. I wanted to use paper npm module but saw that it has a dependency to <strong>Cairo</strong>. </p>  <p>As I'm deploying to heroku it is a little difficult to use Cairo. I know its possible but I want to know if its really necessary just for "reading" the dimensions of a path group.</p>

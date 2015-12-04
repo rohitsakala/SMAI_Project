@@ -1,0 +1,1 @@
+<p>im working on a WebApp, which will be used offline from time to time. In the App the user can capture images (Using the HTML Input Tag and read it as dataUrl). On Android I can use the FileSystem Api to store the images and upload them later, but what do I have to use on IOS?</p>  <p>Is there anything like FileSystem API for Safari/Chrome on IOS?</p>  <p>Kind Regards</p>

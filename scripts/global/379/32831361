@@ -1,0 +1,1 @@
+<p>In JDK8, direct memory can be configured separately, and if you run out of direct memory (such as allocated using ByteBuffer.allocateDirect()), then the JDK will crash your app with a out of direct memory error.</p>  <p>Is there any way to programmatically check how much direct memory is left in the app?</p>

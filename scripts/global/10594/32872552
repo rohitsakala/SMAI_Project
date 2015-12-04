@@ -1,0 +1,1 @@
+<p>I have this pattern:</p>  <pre><code>preg_replace_callback('#@abc\((.*?)\)(.*?)@end.#is', .. </code></pre>  <p>My template string:</p>  <pre><code>$test = "@abc('test')&lt;h1&gt;test&lt;/h1&gt;@end"; // not working $test2 = "@abc('test')&lt;h1&gt;test&lt;/h1&gt;@end "; // working </code></pre>  <p>Why it doesn't work if there's no space after @end?</p>

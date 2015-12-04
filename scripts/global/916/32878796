@@ -1,0 +1,1 @@
+<p>Currently, I am using Tess4j to recognize the text in my image. It accurately reads 95% of the characters I throw at it, but I would like to get 100%. I know the font that the image is using and I was wondering if there was a way I can get Tess4j to learn the font I am looking for.</p>  <p>Thanks in advance!</p>

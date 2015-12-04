@@ -1,0 +1,1 @@
+<pre><code>$data=memcache-&gt;get($key) if(!empty($data)) {    var_dump(unserialize($data)); } </code></pre>  <p>How can I get each item in a new line instead of displaying as paragraph array.?</p>

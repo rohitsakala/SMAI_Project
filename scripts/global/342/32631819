@@ -1,0 +1,1 @@
+<p>My task can fail, and in that case, i would like to kill the worker, and put back the element in queue so that another worker can do the job.</p>  <p>How to do that ?</p>  <pre><code>def worker():   while 1:     item=q.get()     try:        ataskthatcanfail(item)     except:       break     else:       q.task_done() </code></pre>

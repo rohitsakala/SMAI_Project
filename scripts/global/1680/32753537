@@ -1,0 +1,1 @@
+<p>For example,</p>  <pre><code>alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler:{ (x:UIAlertAction) in ... </code></pre>  <p>will give a "Cannot find initializer with..." error.</p>  <p>But if I say <code>UIAlertAction!</code> or <code>UIAlertAction?</code> instead of just <code>UIAlertAction</code>, it works. Why is this? </p>

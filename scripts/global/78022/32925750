@@ -1,0 +1,1 @@
+<p>So I have a form which is in a div with ng-if expression. Without that ng-if I could just do $scope.form, but as I found out ng-if creates a child scope. How can I access the form in the controller then?</p>  <p>Basically:</p>  <pre><code>&lt;div ng-if="whatever"&gt;     &lt;form name="x"&gt;     &lt;/form&gt; &lt;/div&gt; </code></pre>

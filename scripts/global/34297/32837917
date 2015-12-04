@@ -1,0 +1,1 @@
+<p>I would like to determine if a xls file has Pivot tables and then if it does to extract the data using POI.  I know there are other libraries which can do this such as Aspose but I need to use POI.</p>  <p>xlsx files are supported but POI doesn't seem to support xls.</p>

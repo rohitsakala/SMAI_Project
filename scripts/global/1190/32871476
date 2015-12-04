@@ -1,0 +1,1 @@
+<p>If I place iframe on my website, which links to another website, which isnt mine, and inside that iframe, on that website, someone clicks on a link that leads to another page, that redirection happens in my browsers main window, and not in iframe.</p>  <p>Is there any way I can make it so that It redirects inside iframe?</p>

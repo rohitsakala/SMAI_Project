@@ -1,0 +1,1 @@
+<p>I wonder if there is a possibility to do the following redirection using .htaccess file :</p>  <p>FROM www.domain1.com/REST_OF_URL</p>  <p>TO www.domain2.com/REST_OF_URL</p>  <p>I want to copy the rest of the old url to the new one.</p>

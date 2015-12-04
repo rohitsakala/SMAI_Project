@@ -1,0 +1,1 @@
+<p>I am creating an android app where when GCM sends a message to my application then I want to show the total new notifications number. I want it to appear on top of my notification icon like facebook or Myntra(all the updates). My notification icon is in a tablayout. So how can I change or make a marker(or anything) just to show that there are new notification?</p>

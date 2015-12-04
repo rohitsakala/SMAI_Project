@@ -1,0 +1,1 @@
+<p>We need to input a number of columns and rows, also we need to input a symbol. For example:</p>  <pre><code>5 8 * asdferyh jfgty*jh gdhffldh gfjkklll fjfjj*f* </code></pre>  <p>Output must be: 5 6</p>

@@ -1,0 +1,1 @@
+<p>I want to add multiples images in a <code>JFrame</code> and make each of them clickable. As listeners cannot be implemented directly on image in Swing, I would have to make those many <code>JComponent</code> objects and implement listeners on these components.</p>  <p>Is this understanding correct or is there a better approach?</p>

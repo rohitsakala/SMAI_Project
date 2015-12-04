@@ -1,0 +1,1 @@
+<p>I have a NSMutableDictionary with the following keys/values:</p>  <pre><code> mutable=     {     GROUP = 0;     "ORDER_CODE" = 301;     "PROD_DESCR" = "Cement";     id = 0;     } </code></pre>  <p>I want to remove some objectKeys from the mutable array so that it will look like the following:</p>  <pre><code>    {     "PROD_DESCR" = "Cement"; } </code></pre>  <p>Anyone?</p>

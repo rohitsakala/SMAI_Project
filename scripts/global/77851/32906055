@@ -1,0 +1,1 @@
+<p>Is Autolayout needed to setup for any subview, if my application <strong>only support one orientation</strong> (e.g., landscape right), applied for all UIViewControllers?</p>  <p>Yes, of course in the case of using animation I agree. But for the normal case, do I need AutoLayout?</p>  <p>Note: I am using XCode7, Swift, ios9</p>

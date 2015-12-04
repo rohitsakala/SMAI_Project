@@ -1,0 +1,1 @@
+<p>As I can automate a simple code? Whether with a shortcut, or putting a word? That is, I want to debug code written only toastdebug and automatically put the following:</p>  <pre><code>Toast.makeText (getApplicationContext (), "toast here"     Toast.LENGTH_LONG) .Show (); </code></pre>  <p>So you could save lot of time to know when that happens or failure.</p>

@@ -1,0 +1,1 @@
+<p>I am calling a SAPUI5 view passing url parameters to perform specific custom actions. Once, these actions have been processed, I would like to use the router to move to another page but removing the url parameters first. Is there a way to do this?</p>  <p>Cheers</p>

@@ -1,0 +1,1 @@
+<p>In Flex, itemRenderer acts on the whole column and not a specific cell but is there a way to apply it just on a specific cell?</p>

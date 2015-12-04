@@ -1,0 +1,1 @@
+<p>I am submitting a page once an item from a list box as been selected as follows:</p>  <pre><code>  onchange="submit()" </code></pre>  <p>As soon as the selection is made, the page immediately scrolls to the top of the page with new information which depends on the selection.</p>  <p>Is there a way in jsf that scrolling from happening?</p>  <p>Best regards Edmond</p>

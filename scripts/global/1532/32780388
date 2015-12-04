@@ -1,0 +1,1 @@
+<p>Can someone please explain me the meaning of this pattern with a example of a valid data argument.</p>  <pre><code>&lt;xsd:simpleType&gt;   &lt;xsd:restriction base="xsd:string"&gt;     &lt;xsd:pattern value="[A-Z]{4}\d{2}-\d{4}"/&gt;   &lt;/xsd:restriction&gt; &lt;/xsd:simpleType&gt; </code></pre>

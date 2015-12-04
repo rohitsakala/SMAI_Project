@@ -1,0 +1,1 @@
+<p>Say that G′ is a graph re-weighted from G using the rule: w′(u,v)=w(u,v)−f(u)+f(v), where f always produce the positive results for any nodes. Can we prove that the shortest path PG from s to t remains the shortest path from s to t in G′?</p>

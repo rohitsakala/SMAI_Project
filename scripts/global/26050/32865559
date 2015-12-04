@@ -1,0 +1,1 @@
+<p>If I create a rectangular object for example like this:</p>  <pre><code>square = UIView(frame: CGRect(x: 100, y: 100, width: 300, height: 100)) square.backgroundColor = UIColor.redColor() view.addSubview(square) </code></pre>  <p>How to position it, that it always be centered on all devices?</p>

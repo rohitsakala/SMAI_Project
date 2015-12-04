@@ -1,0 +1,1 @@
+<p>say the file path is saved as an variable f</p>  <pre><code>puts "$f" </code></pre>  <p>Then outcome is </p>  <pre><code>/home/usr/testfile.txt </code></pre>  <p>I want to remove everything but the name, 'testfile' and save it in a new variable. </p>

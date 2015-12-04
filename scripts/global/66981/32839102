@@ -1,0 +1,1 @@
+<p>I have iso image of windows 7. How can i create windows vagrant box using this iso image. </p>  <pre><code>I tried "vagrant box add name fileLocation of iso". But box wasn't created.  </code></pre>

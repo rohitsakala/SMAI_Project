@@ -1,0 +1,1 @@
+<p>i am use a ModalPopupExtender for show the message and get yes/No confirmation status with panel.....but when the modelpopup on screen and i press Yes/No Button then my global variables values are clear, they are blank... In this ..what can i do....</p>

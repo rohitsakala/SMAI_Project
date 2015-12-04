@@ -1,0 +1,1 @@
+<p>I have VPS on OVH, and I have one failover IP (eth0:0). Could you tell me, if It is possible to use this failover IP in cURL requests with PHP? </p>  <p>I tried:</p>  <pre><code>curl_setopt($ch, CURLOPT_INTERFACE, "eth0:0"); </code></pre>  <p>and:</p>  <pre><code>curl_setopt($ch, CURLOPT_INTERFACE, "XX.XXX.XXX.XXX"); </code></pre>  <p>..but it doesn't work :-/ </p>

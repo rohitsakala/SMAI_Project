@@ -1,0 +1,1 @@
+<p>How do check the user is authenticated or not when some one try to access a page through url. ex: <a href="http://127.0.0.1/test" rel="nofollow">http://127.0.0.1/test</a>  when some one types the url i want to check in the page that url redirects, that user is authenticated or not.?</p>

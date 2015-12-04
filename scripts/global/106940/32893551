@@ -1,0 +1,1 @@
+<p>I am using <code>Laravel 5.1</code> and I am having a problem with views. I cannot edit the links, html tags, etc. I tried to <code>ctrl + F5</code> and it is still not working (they remain the same). I tried to use <code>vagrant halt</code> but without luck. I don't know what is wrong with my files.</p>

@@ -1,0 +1,1 @@
+<p>Check it out</p>  <pre><code>var q = $('&lt;div&gt; test 1 &lt;/div&gt;');  $('body').append(q);  q = $('&lt;div&gt; test 2 &lt;/div&gt;'); </code></pre>  <p>the page prints "test 1" !! Why?</p>

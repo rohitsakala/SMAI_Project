@@ -1,0 +1,1 @@
+<p>i have an embedded h2 database with .mv.db extension. I added the latest h2 driver h2 1.4.189 but i still get this exception when testing connection</p>  <pre><code>Cannot establish a connection to jdbc:h2:E:\xxx using org.h2.Driver (General error: "java.lang.NoClassDefFoundError: com/vividsolutions/jts/io/ParseException" [50000-189]) </code></pre>  <p>How can i solve ?</p>

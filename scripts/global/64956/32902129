@@ -1,0 +1,1 @@
+<p>In <code>EditText</code> maximum limit set to 10. But if user copies data from anywhere else and length of copied data is more than 10 characters user can paste it in the <code>EditText</code>.</p>  <p>what is the solution of this problem?</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to get awk to print the sixth column <em>IF</em> it matches my regex but right now it returns just 1.</p>  <pre class="lang-bash prettyprint-override"><code>awk -v OFS='\t' {'print $3, $4, $5, $6 ~ /([^07].*)/'} </code></pre>  <p>What am I missing here? I can't really use grep because the fourth column begins with the same characters as the sixth column. </p>

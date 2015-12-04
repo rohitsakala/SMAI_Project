@@ -1,0 +1,1 @@
+<p>We are using TFS 2013 and SQL Server 2014.  A client of ours is requesting the TFS project and also uses TFS 2013 but with SQL Server 2012.  How can we go about migrating?  Will a simple backup and restore work when downgrading from 2014 to 2012?</p>

@@ -1,0 +1,1 @@
+<p>I've used standard yii2 functions for authorization. User sessions are stored in database. How can I get the list of all authorized users in Yii2?</p>

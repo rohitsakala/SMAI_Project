@@ -1,0 +1,1 @@
+<p>I use asciidoc to generate html files and know little about html.</p>  <p>Can I make a paragraph fold into one line and expand only when user click on it?</p>  <p>If JS is needed, how to insert script into asciidoc elegantly? I mean, I don't want to edit the html file generate by asciidoc.</p>

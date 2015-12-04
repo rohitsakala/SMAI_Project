@@ -1,0 +1,1 @@
+<p>I am trying to remove all the <code>#EXTM3U</code> from my big string. My current code doesn't remove anything and gives no result! What i am doing wrong here?</p>  <pre><code>$test_value = preg_match_all("#EXTM3U", "", $input_value); </code></pre>

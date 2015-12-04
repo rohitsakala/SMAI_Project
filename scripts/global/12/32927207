@@ -1,0 +1,1 @@
+<p>I have a simple script written in Ruby that can start and stop an executable. I would like to have two buttons on a simple web page, start and stop, and execute the code on the machine the page is hosted from. What would be the easiest/lightest way of doing it?</p>

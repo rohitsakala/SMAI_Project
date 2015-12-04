@@ -1,0 +1,1 @@
+<p>In Powershell, I've managed to check if a file is locked for editing ("The document is locked for editing by another user"). </p>  <p>But I cannot retrieve some information about the user. How can I retrieve which user locked the file?</p>

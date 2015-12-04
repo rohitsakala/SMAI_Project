@@ -1,0 +1,1 @@
+<p>To capture error message into variable I have tried as <code>#[message.exception]</code> and <code>#[exception]</code>. None of them are working.</p>  <p>Please assist me! Thanks!</p>

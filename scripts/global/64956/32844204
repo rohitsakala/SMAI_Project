@@ -1,0 +1,1 @@
+<pre><code>EditText edittext = (EditText)findViewById(R.id.etEditView); if (edittext .getText().toString().isEmpty()) edittext.setError("Fill detail"); </code></pre>  <p>If the value is empty it shows error dialog but as the background is white and the textcolor is also white the error is not visible.</p>  <p>How can I change the color of the background and textcolor??</p>

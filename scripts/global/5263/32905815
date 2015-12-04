@@ -1,0 +1,1 @@
+<p>I have one <code>UIPickerView</code> and when user click on <code>UIButton</code> then <code>UIPickerView</code> will appear and user select value from <code>UIPickerView</code> and this value display on <code>UIButton</code>. i want to store <code>UIButton</code> value in core database for iOS swift application.</p>

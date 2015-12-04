@@ -1,0 +1,1 @@
+<p>i have number of routers and clients behind them, i want the clients to use  proxy without modifying any config in client side. is that possible knowing that connection between routers and transparent proxy would be over internet. PS my router doesn't support iptables </p>

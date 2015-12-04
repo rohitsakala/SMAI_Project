@@ -1,0 +1,1 @@
+<pre><code>begin   ctx_ddl.optimize_index('"WEB"."CTX_t1"','REBUILD'); end; </code></pre>  <blockquote>   <p>ORA-20000: Oracle Text error: DRG-50857: oracle error in drftoptrebxch   ORA-00942: table or view does not exist</p>      <p>ORA-06512: at "CTXSYS.DRUE", line 160 ORA-06512: at "CTXSYS.CTX_DDL",   line 941 ORA-06512: at line 3</p> </blockquote>

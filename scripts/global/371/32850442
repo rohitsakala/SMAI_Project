@@ -1,0 +1,1 @@
+<p>In tmux once in <code>copy-mode</code> one can exit either with <code>Esc</code> or with <code>q</code> (in vi-mode). I would like that to be <code>C-g</code>. Is there a way to do that?</p>

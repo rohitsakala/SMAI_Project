@@ -1,0 +1,1 @@
+<p>I have a WordPress site in which I have a PDF file and when user pays via PayPal pro, user downloads the file, Is their any automated facility that PayPal or WordPress provides in this regard or I have to do some real PHP coding in it?</p>  <p>I have used simple PayPal earlier, but downloading stuff after successful payment is something new for me.</p>

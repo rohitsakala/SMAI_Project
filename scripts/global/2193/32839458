@@ -1,0 +1,1 @@
+<p>When I try to split a String value   <code>",,1,"</code>   it returns an array of size three instead of four. How can I correct it? </p>  <p>code:</p>  <pre><code>    String values= ",,1,";     values.split(","); </code></pre>  <p>returns:</p>  <pre><code>    [0]=""     [1]=""     [2]=1 </code></pre>

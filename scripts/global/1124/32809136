@@ -1,0 +1,1 @@
+<p>How Can I change a string to the UTF-8 format in android? For example when I get a text string from server I want change the text format to the UTF-8. How can I do this?</p>  <pre><code>String getText = text; // this text variable has a value from the server and now I want change it to UTF-8 format. </code></pre>

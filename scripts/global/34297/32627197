@@ -1,0 +1,1 @@
+<p>I have the same issue:</p>  <p><a href="http://stackoverflow.com/questions/18222931/extracting-chart-in-excel-as-image-using-java">Extracting chart in EXcel as image using java</a></p>  <p>My problem is that JXL does not support .xlsx format. Any other suggested libraries that might help or any possible workaround ?</p>

@@ -1,0 +1,1 @@
+<p>We can access and change value of variable in Activity from Fragment by using <code>getActivity()</code> but how can we access and change value of variable in Fragment from Activity. Accessing from the object of Fragment is not working.</p>

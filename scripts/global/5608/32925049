@@ -1,0 +1,1 @@
+<p>I want to check if a value exists.</p>  <p>My Code:</p>  <pre><code>public static final Map&lt;String, List&lt;String&gt;&gt; m = new HashMap&lt;&gt;();  if(m.containsValue("gummi")) {...} </code></pre>  <p>My problem is that the value is a List. How can I check for the List?</p>

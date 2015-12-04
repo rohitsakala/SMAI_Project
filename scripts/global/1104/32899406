@@ -1,0 +1,1 @@
+<p>Its general knowledge that in Java, the easiest way to accomplish this is by </p>  <pre><code>List &lt;WebElement&gt; listItems=findElement(by.selector(selector)).findElements(by.selector(selector)); </code></pre>  <p>The question is how do you accomplish this in Javascript. I have searched online to no avail. </p>  <p>I use Selenium-Mocha-chai.</p>

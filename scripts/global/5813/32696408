@@ -1,0 +1,1 @@
+<p>Let's consider:</p>  <pre><code> cat &gt; outout.txt | cat &gt; outout2.txt  </code></pre>  <p>I don't know how to interpret something like this. What is the input for the second command?</p>

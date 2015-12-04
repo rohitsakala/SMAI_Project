@@ -1,0 +1,1 @@
+<p>I tried <code>update(Object)</code>, <code>update(PreparedUpdate)</code>, <code>executeRaw(String)</code>, <code>updateRaw(String)</code>, and even tried directly using the helper class then using <code>getData(String query)</code>. But my table's foreign field is still not updated. Any thoughts why this is happening?</p>

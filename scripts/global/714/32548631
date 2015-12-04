@@ -1,0 +1,1 @@
+<p>A system administrator is tasked with creating a WebSphere Application Server Network Deployment topology with the following servers:</p>  <p>• a deployment manager (DMGR) • a custom node • an IBM HTTP Server (IHS)</p>  <p>What types of nodes and management services pairs should the administrator configure for this topology?</p>

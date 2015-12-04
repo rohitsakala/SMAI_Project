@@ -1,0 +1,1 @@
+<p>I'm trying to autogenerate html docs with pdoc. We're using Django Rest Framework and some of our functions are decorated with api_view -- but these all get ignored when I run pdoc on the module.</p>  <p>Why? How can I fix this?</p>

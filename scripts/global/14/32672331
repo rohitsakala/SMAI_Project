@@ -1,0 +1,1 @@
+<p>Basically I'm looking for a function that does the opposite of the following.</p>  <pre><code>(intern "CAR") </code></pre>  <p>This question is related. <a href="http://stackoverflow.com/questions/5038155/in-common-lisp-is-there-a-function-that-returns-a-symbol-from-a-given-string">In Common Lisp, is there a function that returns a symbol from a given string?</a></p>

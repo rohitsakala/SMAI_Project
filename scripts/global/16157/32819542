@@ -1,0 +1,1 @@
+<p>I have defined <strong>css</strong> for <strong>a:focus</strong> which is working <strong>fine</strong> in desktops and laptops,but is <strong>not</strong> working in <strong>iphone</strong> , samsung galaxy, other touch devices etc.</p>  <p>Do we need to define any alternative css for <strong>a:focu</strong>s in touch devices.</p>  <p>Thanks, Balaji</p>

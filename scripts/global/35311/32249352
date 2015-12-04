@@ -1,0 +1,1 @@
+<pre><code>&lt;customErrors defaultRedirect="testRedirect.aspx" mode="On"&gt; &lt;error redirect="PageNotFound.aspx" statusCode="404" /&gt; &lt;/customErrors&gt;   </code></pre>  <p>I did above changes in the web.config. Why the redirect is not happening on the server. If I am doing the same changes to my machine then same code is working.</p>

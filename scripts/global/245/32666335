@@ -1,0 +1,1 @@
+<p>I want to display the weeks dates based on a week number that I get from my db. So if I get week=43 then it would display all 7 dates for that week. Like this.</p>  <pre><code>M=23 T=24 W=25 T=26 F=27 S=28 S=29 </code></pre>  <p>Have tested with a lot of date formating but I can't get it working. So any input really appreciated, thanks!</p>

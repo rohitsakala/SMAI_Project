@@ -1,0 +1,1 @@
+<p>I was wondering, How am I supposed to write unit tests for laravel's eloquent models because most of my application are basically CRUD apps and there isn't much logic especially in ORM models, but obviously I want to have covered my application by tests, so my question is, what is the best way to write unit tests for those classes, if they are testable ?</p>

@@ -1,0 +1,1 @@
+<p>I am using Directional Lights on my 2.5D scene.  I have multiple spotlights going across the level, but when they overlap the brightness is ugly.</p>  <p>Is there any way to maintain the same brightness on a material regardless if there is 1 light shining on it or 2?</p>

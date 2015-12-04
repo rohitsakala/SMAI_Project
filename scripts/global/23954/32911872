@@ -1,0 +1,1 @@
+<p>Example: User B is offline (his device just lost internet connection). User A sends a push notification to User B. User B is back online.</p>  <p>Question: How does user B is going to receive the push notification?</p>

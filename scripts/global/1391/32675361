@@ -1,0 +1,1 @@
+<p>I have a 2D array called <code>char **str</code> (allocated by malloc). Lets say str[0] has the string "hello". How would I print that hex?</p>  <p>I tried <code>printf("%d\n", (unsigned char)strtol(str[0], NULL, 16))</code>, but that doesn't print it out in hex. </p>  <p>Any help would be appreciated, thank you!</p>

@@ -1,0 +1,1 @@
+<p>I processed 50 data. The consuming from one queue to database is processed well. If the RabbitMQ is went down. The data processing stopped. Again we, Re- connect the RabbitMQ means how the data processed from that break point without manually (automatically). How these steps will be coded using Python script</p>

@@ -1,0 +1,1 @@
+<p>How can I create unicode character with the desired index stored in the variable in Swift?</p>  <pre><code>var unicodeIndex: Int var unicodeChar: Character unicodeChar = function(unicodeIndex) print(unicodeChar) </code></pre>

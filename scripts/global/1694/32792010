@@ -1,0 +1,1 @@
+<p>When a new row is inserted into table <code>forumtopics</code> (cols: id | userid), than I want to do a trigger that makes an insert into table <code>upvotes</code>, that uses the id and userid from the forumtopics row.</p>  <p>So the upvotes table would look: id | userid | forumtopicsid (id from original insert)</p>  <p>How may I do this?</p>

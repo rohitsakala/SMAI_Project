@@ -1,0 +1,1 @@
+<p>Can a process respond to <strong>WakeUp()</strong> signal transmitted by another process only when it is in <strong>Sleep()</strong> mode?</p>

@@ -1,0 +1,1 @@
+<p>Using XCode 6.3.1 , SDK 8.3</p>  <p>Suddenly my app stopped running in (any) simulator and Xcode throws error </p>  <blockquote>   <p>The operation couldn’t be completed. (OSStatus error -600.)</p> </blockquote>  <p>Tried cleaning, reset content and setting and even restarting my Mac.</p>  <p>Is there anything I can do to run my app in simulator. </p>

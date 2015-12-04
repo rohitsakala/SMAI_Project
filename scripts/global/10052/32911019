@@ -1,0 +1,1 @@
+<p>Given a set or array like <code>[1,2,3,"x"]</code> or <code>["1","2","3","x"]</code>, how might I best extract (using .filter perhaps) the integers (for example). In either of the examples above, I'm hoping to get the answer <code>[1,2,3]</code>.</p>

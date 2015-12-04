@@ -1,0 +1,1 @@
+<p>Is there a simple way to add dollar signs to a column that I have? I can't find any way within <code>format()</code> other than just decimals, commas, etc.. For example, I have:</p>  <pre><code>numbers &lt;- data.frame(x1 = 1:4, x5 = 11:14, x6 = 21:24, y = 31:34) </code></pre>  <p>How can I format <code>numbers$y</code> to have dollar signs in front of it?</p>

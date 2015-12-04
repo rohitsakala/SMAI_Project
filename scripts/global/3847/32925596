@@ -1,0 +1,1 @@
+<p>I have some mp4 files I'd like to add some white text reading something like</p>  <p>"StackOver Flow Rules see more at www.stack.com/324324 bla bla and some more words here!" </p>  <p>To the end of the videos on a black background that last 10 seconds. </p>  <p>How would I achieve this with FFMPEG? </p>

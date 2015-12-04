@@ -1,0 +1,1 @@
+<p>I'm completely stuck with this. I have a kendo grid where all rows are selected  by "select all" button and some rows can be unselected. So I need to get exactly the IDs of unselected rows. </p>  <p>There is an easy way to get selected rows as grid.select(), but could there be a way to distinguish unselected ones? Any help is appreciated. </p>

@@ -1,0 +1,1 @@
+<p>On Compiling opencv 2.4.11 on the ubuntu 14.04 for an arm platform , I received the following error: -</p>  <p>make[2]: * [3rdparty/lib/libzlib.a] Error 2</p>  <p>make[1]: * [3rdparty/zlib/CMakeFiles/zlib.dir/all] Error 2</p>  <p>make: * [all] Error 2</p>  <p>I have check, 3rdparty/lib is empty</p>

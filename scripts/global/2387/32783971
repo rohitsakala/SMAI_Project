@@ -1,0 +1,1 @@
+<p>I'm using pyOpenSSL and I have a PKCS12 object and with the <code>get_privateKey()</code> and <code>get_publicKey()</code> methods one can obtain the RSA Private/Public key objects. Is there a way from these objects to extract the RSA key parameters (p, q, dp, dq, qinv)? </p>

@@ -1,0 +1,1 @@
+<p>I would like to create a zip that contains just a subset based on another zip file. Is there a smarter way to do this than just extracting the specific files and then re-zipping them under a new name?</p>  <p>I'm looking for an efficient way to do this, as the original file will contain thousands and thousands of files and will have a rough size of ~30 GB.</p>

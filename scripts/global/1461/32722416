@@ -1,0 +1,1 @@
+<p>Okay so the only way to draw in wpf I know of is by adding your shape after setting it up to grid, panel etc as a child. I've tried adding them to my grid after making them public in another class but only ended up making an infinite loop. So my question is how do I draw from another class on grid in wpf efficiently. </p>

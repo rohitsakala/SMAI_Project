@@ -1,0 +1,1 @@
+<p>I have a jqgrid with dynamic columns and model. In that grid I have textarea formatter in one column .I want to save values from all rows textarea in database on button click. I am able to do that successfully in IE but in Chrome and Firefox, <code>jQuery("#tblAppendGrid").getRowData()</code> is not providing values inputted in textarea.</p>

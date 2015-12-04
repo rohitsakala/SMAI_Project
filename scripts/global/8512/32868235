@@ -1,0 +1,1 @@
+<p>I have a matrix that has some unique rows and I would like to get the row names of those unique rows only.</p>  <pre><code>m &lt;- matrix( data = c(1,1,2,1,1,2,1,1,2), ncol = 3 ) </code></pre>

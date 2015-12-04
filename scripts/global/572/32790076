@@ -1,0 +1,1 @@
+<p>Given a tree, where the nodes have a value(can be negative), find the path that maximizes the sum of nodes in the path.</p>  <p>I have tried using to get a solution using Dynamic programming techniques, but can not break through.</p>

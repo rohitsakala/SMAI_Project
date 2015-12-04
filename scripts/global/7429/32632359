@@ -1,0 +1,1 @@
+<p>When I select a WFFM from and open the form report and try to delete one of the records the following error appears:</p>  <p>[SqlException (0x80131904): Invalid object name 'dbo.SplitIds'.]</p>  <p>Is this object a missing table or stored procedure?.</p>

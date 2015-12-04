@@ -1,0 +1,1 @@
+<p>Why unsigned byte is CLS compliant instead of the signed byte ? All other unsigned types are are not CLS compliant, yet it is just the opposite on bytes. </p>  <pre><code>sbyte x = 1; //NOT CLS Compliant byte y = 1; //CLS Compliant </code></pre>

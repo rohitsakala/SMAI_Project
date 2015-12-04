@@ -1,0 +1,1 @@
+<p>I am reading about Intel's EPT to support virtualization. I read about the nested page table. My question is, does the TLB caches guest VA to guest PA as well as guest PA to host machine address? or is it just virtual address to machine address?</p>

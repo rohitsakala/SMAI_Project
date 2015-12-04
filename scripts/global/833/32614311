@@ -1,0 +1,1 @@
+<p>I have a method that rearranges the elements in the screen according to a TextView's height. I need to know what event to listen for whenever I change the text from the TextView AND it is shown, previous attempts to get the height of the TextView always show me the previous height (with dummy text) instead of the new height with the new text. What event do I need? Thanks!</p>

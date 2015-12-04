@@ -1,0 +1,1 @@
+<p>I am trying to add <code>preg_match</code> validation for a URL like:</p>  <p><code>http://test.com/page/?param1[0=a&amp;param2[1]=b</code> </p>  <p>If you see in above example one square bracket is missing. </p>

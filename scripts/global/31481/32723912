@@ -1,0 +1,1 @@
+<p>I have a date field that is CYYMMDD in numeric format. I wanted to get rid of the century so I did the Formula Field:</p>  <p>If {field} &lt;> 0 then {field}-1000000</p>  <p>This gives me a date in numeric format of YYMMDD example 150922</p>  <p>I now want to filter the field to only show me records from yesterday. </p>  <p>How would I go about doing this?</p>

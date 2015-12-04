@@ -1,0 +1,1 @@
+<p>when I initialize the http get request. If the header contains "content-type", "application/json", the server will report 500 error. If remove this header, the result is fine. Although the result is json.</p>  <p>Does it related to respond_to ? </p>

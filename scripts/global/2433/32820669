@@ -1,0 +1,1 @@
+<p>How can I make sure a singleton class never creates more than instance even if I call <code>[[Class alloc] init]</code>?</p>  <p>Even if it's called, it should return the existing object, not a new object.</p>

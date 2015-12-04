@@ -1,0 +1,1 @@
+<p>I am working with PHP and jquery validation script for my several forms. I am using </p>  <pre><code>submitHandler: function(form) {      $(".submit").attr("disabled", true);     form.submit(); } </code></pre>  <p>script for disabling <code>submit</code> button after successful submition. </p>  <p>Is there any way to set this as default setting as above for my forms?</p>

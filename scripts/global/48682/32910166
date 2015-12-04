@@ -1,0 +1,1 @@
+<p>I have such CoffeeScripted class:</p>  <pre><code>class Hair   truncate: () -&gt;     DoAsyncStuffWithMyDB -&gt;       console.log "Async Stuff With My DB completed" </code></pre>  <p>Now I want to use this class, e.g.:</p>  <pre><code>doghair = new Hair doghair .truncate() .then(() -&gt;     #do stuff ) </code></pre>  <p>How do I use Bluebird do achieve such?</p>

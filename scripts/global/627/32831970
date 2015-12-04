@@ -1,0 +1,1 @@
+<p>Getting an error when adding a value to the rootscope in Typescript. </p>  <pre><code>class TestClass{    this.rootScope: ng.IRootScopeService;    constructor($rootScope){        this.rootScope = $rootScope;     }      addValueToRoot=()=&gt;{        this.rootScope.val1 = "something";    //Error: Property doesn't exist on the IRootScopeService     } } </code></pre>

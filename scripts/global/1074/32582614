@@ -1,0 +1,1 @@
+<p>I wanna show dialog ti user when new version of app is available on play store, for this i found a logic to sync version of app with server and according to that we will pop up dialog.</p>  <p>Issue is that i don't know how to sync  server with version of app on play store automatically. So please tell me how to do that.</p>

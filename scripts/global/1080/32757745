@@ -1,0 +1,1 @@
+<p>I was wandering if I can optimize this function such that after optimization it will use the minimum computation effort.</p>  <pre><code>public class Rectangle2 {     Vector2 origin;     Vector2 size;     public boolean isInside(double x, double y){         return false;     } } </code></pre>  <p>The origin is considered the minimum of x and y</p>  <p>Thank you</p>

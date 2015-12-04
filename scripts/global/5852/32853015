@@ -1,0 +1,1 @@
+<pre><code>num = zeros(1,freq); den = zeros(1,freq); for R = 1:freq     [num(R), den(R)]=butter(4, [0.1 0.9]); end </code></pre>  <p>I thought it was quite trivial but once I run it, I get:</p>  <blockquote>   <p>In an assignment  A(I) = B, the number of elements in B and I must be the same.</p> </blockquote>  <p>What am I doing wrong?</p>

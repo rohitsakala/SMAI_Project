@@ -1,0 +1,1 @@
+<p>I have a table with float value represented using numeric type. How can I get float value from this field using libpq lib?</p>  <p>There is a specialized format for float type in postgres, but I have to work with existing database with numeric fields. I haven't found information about it in the Postgres documentation so every info is appreciated.</p>

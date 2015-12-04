@@ -1,0 +1,1 @@
+<p>I have a situation where I have to deploy my Portal application on Web sphere application server 7 instead of Web sphere portal server 7. We are using separate WAS instance.  Is any one know is there any separate step to do so. Can able to configure portlate  authorization with multiple active directory  server. How to apply theme in WAS?  </p>

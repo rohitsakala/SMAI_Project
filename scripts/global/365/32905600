@@ -1,0 +1,1 @@
+<p>Which is safer in term of security, sending parameters thru url or JSON object?</p>  <p>URL:</p>  <pre><code>www.mywebsite.com/search.php?password=t45vye45vh </code></pre>  <p>JSON object:</p>  <pre><code>request.post(url, data); </code></pre>

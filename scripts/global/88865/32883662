@@ -1,0 +1,1 @@
+<p>Where exactly is this ng-init variable 'someData' stored?</p>  <pre><code>&lt;tr data-ng-repeat="item in items" ng-init="someData=1"&gt;  &lt;td&gt;{{item.id}}&lt;/td&gt;  &lt;td&gt;{{someData}}&lt;/td&gt; &lt;/tr&gt; </code></pre>  <p>How can I access it from outside, ie from a function that should set someData = someData + 1?</p>

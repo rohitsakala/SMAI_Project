@@ -1,0 +1,1 @@
+<p>I am trying to use silent push notifications in my application, it seems to be working fine for an hour or two but the notifications won't be delivered after this period and I receive "High Priority Push: bundleID- Insufficient Resources" warning. Anyone knows what can be the problem?</p>

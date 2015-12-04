@@ -1,0 +1,1 @@
+<p>As title says it, is there a DataSet class available in UWP? More specifically, if I am writing a code with c# to be compiled through .Net native, is there a dataset class available similar to how it is in .Net Framework?</p>  <p>I couldn't find anything in <a href="https://msdn.microsoft.com/en-us/library/windows/apps/mt185500.aspx" rel="nofollow">MSDN</a></p>

@@ -1,0 +1,1 @@
+<p>I am working on collapsible force layout in d3.The problem I am facing is I need to increase the length of the link between the nodes when it is clicked keeping the link distance same among the childs. Referring to the code below</p>  <p>how to increase the distance between analytics and flare when analytics is expanded keeping distance to its children small.</p>

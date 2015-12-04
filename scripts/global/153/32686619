@@ -1,0 +1,1 @@
+<p>I am creating a Media Player as my project. I have a VB form which contains a media player and a data grid. I have MS Access as backend database. </p>  <p>When i add a mp3 file to my library, the program should take the meta data from the mp3 file and store it into respective columns in the DataGrid.  The metadata i want is Title, Album, Artist and Track Length. </p>

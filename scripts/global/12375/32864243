@@ -1,0 +1,1 @@
+<p>I have 2 EC2 Ubuntu instances. They are sharing same VPC, subnet and Security Group. Instances' firewall was turnoff. But I still can't ping each other by private IP. How to allow those instances ping each other?</p>

@@ -1,0 +1,1 @@
+<p>Any other way to write exif data into image, i search all over the web but nothing give the right one, most of them are just read exif. I tried Php Exif Library but it doesn't work for me, i didn't know what my mistake. I actually trying to set gps (lat and lon) into image. Please help me to seek for the solution. Appreciate your help.</p>

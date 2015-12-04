@@ -1,0 +1,1 @@
+<p>I have three custom table view cell in one section. First cell have a <code>UISwtich</code>. What I want is that when the <code>UISwitch</code> is <code>ON</code> then other two table view cell's <code>UITextField</code> are editable, otherwise not.  Is it Possible?</p>

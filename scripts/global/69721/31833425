@@ -1,0 +1,1 @@
+<p>I have some question to ask you</p>  <ol> <li>How to use Accelerometer framework into in iOS8?</li> <li>How many iOS versions can i use it till now? </li> <li>As its already deprecate in iOS 5. </li> </ol>  <p>Now we have Core Motion in place of it. I have a large code of files so  I don't want to remove it.</p>  <p>Can somebody please tell me?</p>

@@ -1,0 +1,1 @@
+<p>Is it good practice to use a single <code>Fragment</code> with <code>RecyclerView</code> to display different data (Image with title or Image with title and description or only a  title) using a different <code>CustomAdapter</code> and a different <code>custom_item_view</code>?</p>  <p>Or is it better to create a <code>Fragment</code> for each different type of data??</p>

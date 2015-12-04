@@ -1,0 +1,1 @@
+<p>I have a script that crashes after a while. It says: <code>PhantomJS has crashed. Please read the crash reporting guide...</code> Is it possible to restart the script when such a crash happens? I use Windows task scheduler to run the casperjs script. </p>  <p>Best Regards</p>

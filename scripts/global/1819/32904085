@@ -1,0 +1,1 @@
+<p>As I am getting the same latitude and longitude from database for different markers, the markers are getting pin on each other, now I want to perform click event on makers alternatively, but only the top marker pin is clicked, how can I click the back one .</p>

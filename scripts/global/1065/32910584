@@ -1,0 +1,1 @@
+<p>Im using </p>  <pre><code>UIView animateKeyframesWithDuration </code></pre>  <p>and i have 3 animation sections using</p>  <pre><code>[UIView addKeyframeWithRelativeStartTime </code></pre>  <p>However, on one of the key frames I want to easeIn.</p>  <p>How can I add an easing function to this?</p>

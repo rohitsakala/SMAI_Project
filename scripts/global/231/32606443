@@ -1,0 +1,1 @@
+<p>My problem is when I run this statement:</p>  <pre><code>select * from ADMIN.TABLE WHERE NOM="" AND PRENOM ="" </code></pre>  <p>It takes more than 5 minutes because <code>NOM</code> and <code>PRENOM</code> are not primary keys. How can I improve the performance?</p>

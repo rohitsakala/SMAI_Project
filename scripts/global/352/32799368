@@ -1,0 +1,1 @@
+<p>Im add to project Fluent and Fluent NHibernate and I have on Fluently: Project.DNX Core 5.0 - Not available.</p>  <pre><code>ISessionFactory sessionFactory = Fluently.Configure()             .Database(MsSqlConfiguration.MsSql2012 </code></pre>  <p>I dont know what to do.</p>

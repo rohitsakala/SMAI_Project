@@ -1,0 +1,1 @@
+<p>I am working windows server 2012. I develop web application Asp.net and hosted in "IIS". In my page text-box set current date time in "dd/MM/YYYY" but i get text-box date value in "dd-MM-yyyy" this format why?(date separated from database)</p>

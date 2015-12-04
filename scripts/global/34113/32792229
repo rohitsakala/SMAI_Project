@@ -1,0 +1,1 @@
+<p>I am using Datastax Enterprise 4.7.3 and have installed cassandra and spark on my nodes. There is a spark streaming job which streams data from Kafka and I want to use checkpointing to ensure atleast 1 semantic for my data.</p>  <p>Looked up online and everywhere found that we need a hdfs directory, is it possible to store checkpoints in Cassandra FS?</p>

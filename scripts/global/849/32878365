@@ -1,0 +1,1 @@
+<p>Error thrown"java.lang.NullPointerException: Cannot invoke method readLine() on null object error at Line 1" when below groovy script is run on SOAP UI Version 5.1.3</p>  <pre><code>nextLine = context.fileReader.readLine() if(nextLine != null){ String[] propData = nextLine.split(",")  curTC = testRunner.testCase </code></pre>

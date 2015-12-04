@@ -1,0 +1,1 @@
+<p>How can I give a value to a char array on one line. For example: </p>  <pre><code>char a[5];  // Is it possible to give multiple values on one line? cin &gt;&gt; a[5]  // If I entered 'hello', could the whole word appear on one line?  cout &lt;&lt; a[5]; </code></pre>  <p>Beause when I enter 'hello', only the letter 'h' appears. Could someone help me?</p>

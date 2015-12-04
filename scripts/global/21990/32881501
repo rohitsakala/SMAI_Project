@@ -1,0 +1,1 @@
+<p>What is the difference between scheduling latency and wakeup latency</p>  <p>a) to pick a process to run is a scheduler logic and how is this latency important</p>  <p>b) When a process is picked up for running but its not still run, is the wakeup latency IMHO</p>  <p>Can someone help understanding the difference?</p>

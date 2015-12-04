@@ -1,0 +1,1 @@
+<p>I am trying to call a rest service from IE9 browser. The browser Internet explorer is automatically adding the header called <code>accept-encoding: gzip, deflate</code> to the request header due to which I am getting the encoded/compressed response.</p>  <p>Is there any way to stop IE browser adding the header <code>accept-encoding: gzip, deflate</code> to my request?</p>

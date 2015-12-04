@@ -1,0 +1,1 @@
+<p>In a Magento website, where users can buy online, the images imported from NAV are stored on server, but this brings lower free space on server. I want to make that this storage flush at least once a day, and through the cron.php file to delete all unnecessary media (images) stored on server. How can I do this, what code should I add on cron.php file? </p>

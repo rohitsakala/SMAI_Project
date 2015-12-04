@@ -1,0 +1,1 @@
+<p>When I create a point using Three.js it looks like a square. How can I make it look round? I saw in the documentation some blending factors but I did not quite understand how to use them on my points and I don't even know whether it is the right way to do it.</p>

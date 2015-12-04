@@ -1,0 +1,1 @@
+<p>So I have a <code>UIButton</code> which I need to replace with a better method but I have carefully positioned it using storyboard so I would like to know how to find the x y origins NON-programatically how can I do that?</p>

@@ -1,0 +1,1 @@
+<p>I have mysql database which I created using phpMyAdmin on Windows(Wamp). The database has over 2million records. Anytime I run a query either through CLI or phpMyAdmin, the query takes a very long time to execute. So I want to move my database from Windows to Ubuntu system with higher capacity. Kindly advise me on the best way to go about this. Thank you.</p>

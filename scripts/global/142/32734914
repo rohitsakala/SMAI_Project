@@ -1,0 +1,1 @@
+<p>I am running the JUnit test cases through ANT in eclipse, the build is successful, however the JUnit Html report of the test cases (index.html) is not generated in the JUnit folder.</p>  <p>Following are the versions:</p>  <p>ANT: apache-ant-1.9.4 JUnit: junit 4.11 Jar file Eclipse: Version: 3.7.2</p>  <p>Please help!</p>

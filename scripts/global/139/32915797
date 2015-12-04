@@ -1,0 +1,1 @@
+<p><strong>Question:</strong>  How do you remove the first character of the first index of an array.</p>  <pre><code>var arr = ['/a','b','c','r']; </code></pre>  <p>I would like to output</p>  <pre><code>var arr = ['a','b','c','r']; </code></pre>

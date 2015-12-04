@@ -1,0 +1,1 @@
+<p>I know to hide an element in the same page I have to do this:</p>  <pre><code> $('#district-collection').click(function(){         $('.hemisphere').hide();   }); </code></pre>  <p>My problem is <code>.hemisphere</code> is in my <code>products.html</code> page and <code>index.html</code> doesn't see it!</p>

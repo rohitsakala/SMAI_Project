@@ -1,0 +1,1 @@
+<p>How to add event handler to index control in VB6</p>  <p>I have indexed control: txtInput(0), txtInput(1), txtInput(2)</p>  <p>but when i create event to them like <strong>txtInput(0)_Click</strong>, the error showing... Please tell me how to fix it. Thanks!</p>

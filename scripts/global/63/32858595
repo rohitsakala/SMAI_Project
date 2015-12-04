@@ -1,0 +1,1 @@
+<p>I am trying to execute this command on my redhat 6.5 box and it throws the error "git: 'svn' is not a git command. See 'git --help'." I have git 1.7.1 installed on this box. Please help.</p>  <p>git svn clone <a href="http://yourcompany.com/path/to/svn/project-abc" rel="nofollow">http://yourcompany.com/path/to/svn/project-abc</a> project-abc</p>

@@ -1,0 +1,1 @@
+<p>Lets say I have a "Department", "Manager", and "Employee" <code>NSManagedObjects</code>.  Lets also say all relationships are many-many.</p>  <p>I want to be able to search for all Employee's that are in Department shoes and under Manager Bob.</p>  <p>How would I word that <code>NSPredicate</code>?</p>

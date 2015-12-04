@@ -1,0 +1,1 @@
+<p>I am using Yii 1 and MySQL for my application. I used CRON to execute some operation at the server.</p>  <p>Am I able to use <strong>pthread</strong> or any other <strong>multi-threading</strong> mechanism to optimized or reduce the execution time of cron at server side?</p>  <p>Please give me some suggestions. Thanks.  </p>

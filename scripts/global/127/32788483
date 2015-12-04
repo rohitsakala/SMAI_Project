@@ -1,0 +1,1 @@
+<p>I am developing a Qt4 gui on raspberry pi 2. When trying to run the interface I get an error that says QGtkStyle was unable to detect the current GTK+ Theme. I have looked and looked but can not find a solution to this error. Any help would be greatly appreciated. </p>

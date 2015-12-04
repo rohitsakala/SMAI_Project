@@ -1,0 +1,1 @@
+<p>In spring we have several scopes like</p>  <ol> <li>Singleton</li> <li>Prototype</li> <li>Request</li> <li>Session</li> <li>Global session</li> <li>Application</li> </ol>  <p>I just wanted to know the various usecases for these scopes, like any real life scenarios or how to decide which scope to use?</p>

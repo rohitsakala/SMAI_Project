@@ -1,0 +1,1 @@
+<p>I want to implement undo facility in fabricjs, I searilized object and store its content into javascript <code>array</code> , but when I load it back into using <code>loadFromJson()</code> also fire <code>object:add</code> event, so is there any way to fire this event when I load back from history.</p>

@@ -1,0 +1,1 @@
+<p>I have a variable containing a string. I want to find the substring starting from the last uppercase letter, like "Hig" below:</p>  <pre><code>string str = "AbcDefHig";  string substring = "Hig"; </code></pre>

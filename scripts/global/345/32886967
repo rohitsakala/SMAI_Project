@@ -1,0 +1,1 @@
+<p>I'm working on a performance tool and I'm interested in the total disk I/O i single process have done since it started. I have the porcess PID and i can easily get the current I/O rate with tools like iotop or sar, but not the total I/O.</p>  <p>Is this even logged in Linux and is there a way to get it? </p>  <p>/Mpresmann</p>

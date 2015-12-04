@@ -1,0 +1,1 @@
+<p>I know that I can add a string or an integer by putting putextra() on my Intent but what do I do if I have to send a List? For example, My main activity contains a list, I have a different activity that adds an item into the list and I have a third activity that needs to show the whole list</p>

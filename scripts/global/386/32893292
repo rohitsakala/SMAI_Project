@@ -1,0 +1,1 @@
+<p>Hello I am trying to use a batch file to log into a server using plink, go to specific directory and run commands. I can not get this to work. Appreciate any help.</p>  <pre><code>plink -t -ssh root@111.111.111.111 -pw xxxxx cd /home/wonderd/public_html/dev.xxxx.com ./shell/indexer.php --reindex catalog_product_price </code></pre>

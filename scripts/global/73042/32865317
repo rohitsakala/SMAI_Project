@@ -1,0 +1,1 @@
+<p>Am facing some issues while using <code>kendo</code> and <code>jquery.mCustomScrollbar</code>. Issue is when i click on date picker which is present inside the grid which makes a call to <code>jquery.mCustomScrollbar</code> and scroll bar moves up vertically.</p>  <p>Need to troubleshoot how that call is made am clueless.</p>  <p>Thanks</p>

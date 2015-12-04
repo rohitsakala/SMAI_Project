@@ -1,0 +1,1 @@
+<p>My question is about slowness while doing an export. Is there a reason why tables that have 0 row takes 3-4 seconds per table while a table with 30000+ rows take a fraction of a second?  </p>

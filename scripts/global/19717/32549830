@@ -1,0 +1,1 @@
+<p><code>$('foo\\-bar')</code> works.</p>  <p>I want to do <code>$('foo\\-bar', '&lt;foo-bar&gt;foobar&lt;/foo-bar&gt;')</code>, but this will not work. Why? And how can I select all <code>foo-bar</code> tags in my string?</p>

@@ -1,0 +1,1 @@
+<p>How the Cassandra client chooses the coordinator node? is the coordinator node stores the data sent by the client before replicating?</p>

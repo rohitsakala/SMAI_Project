@@ -1,0 +1,1 @@
+<p>I am wondering is there a way for me to package up all the contents of an app in the same app directory?</p>  <p>I want to have all the HTML, CSS, JS, and Image files associated with my apps in the same directory as the app itself (the views.py).</p>  <p>I then want the views.py to be able to access these files and render them.</p>  <p>Is this possible?</p>

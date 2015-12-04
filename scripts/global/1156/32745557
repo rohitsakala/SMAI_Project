@@ -1,0 +1,1 @@
+<p>What printf format specifier can I use to print a 64 bit unsigned integer in hexadecimal notation across 32/64 bit and Windows/POSIX? The closest I've seen is <code>%llX</code> but I'm not sure that is portable enough. Answers that ignore older compilers (e.g. Visual Studio 2010) are acceptable.</p>

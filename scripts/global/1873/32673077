@@ -1,0 +1,1 @@
+<p>Making a site and I have a number of scripts piling up. I was thinking to myself it might be better to have a separate file to 'include' all my scripts without the clutter in my main html code. </p>  <p>Is this possible? What are some of the styles / methods people use for such a thing?</p>

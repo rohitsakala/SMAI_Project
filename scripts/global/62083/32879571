@@ -1,0 +1,1 @@
+<p>using MVC5 EF Code First, I need to implement school ERP that a user can have rule of either Teacher, Student, Parent, Principle...</p>  <p>I cant figure out what is the best practice to implement the relationship between users. Say Parent &lt;-> Student, Teacher &lt;-> Student. Also each rule has a different set of properties.</p>  <p>Please give me a lead.</p>

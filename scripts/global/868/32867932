@@ -1,0 +1,1 @@
+<p>In my gwt application, I want to create an external file config.properties or config.xml. It must be outside the war file! </p>  <p>How can I do?</p>  <p>Thanks Manolo</p>

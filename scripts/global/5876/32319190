@@ -1,0 +1,1 @@
+<p>I have create a apache server in docker, but the ip what i get in access log is just from my docker ip, not from remote client ip.</p>  <p>Is it possible to get remote ip? </p>  <p>I have try to use mod_remoteip and it is not works.</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to build a VAADIN application as an executable jar. I don't want to have a webapp directory for my theme and instead store it in the resource directory. </p>  <p>When running mvn vaadin:compile-theme I get an error indicating that nothing is found in the webapp directory. </p>  <p>Is it possible to switch the directory which Vaadin scans for themes?</p>

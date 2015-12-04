@@ -1,0 +1,1 @@
+<p>My sencha touch application built with cordova 3.6.0.In iOS&lt;=8 sencha touch loading mask(Ext.LoadMask) worked absolutely fine. After release of iOS9, LoadMask is not animating at all, instead it just struck. Ajax requests are working but loading spinning is not animating.</p>  <p>Thanks in advance.</p>

@@ -1,0 +1,1 @@
+<p>I have some data in my datatable dt. I want to create Odata service using WCF.  I am unable to use Entity framework for datatable, it only need tables, views and procedures from database. How can I create directly from c# datatable.</p>

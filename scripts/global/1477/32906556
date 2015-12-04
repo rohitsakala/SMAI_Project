@@ -1,0 +1,1 @@
+<p>I find that many programs such as those under /bin still have .got section while they are non-pie. But interestingly, the size of .got are always 4 bytes. Is it possible that this .got is of no practical use? If so, how do these non-pie program access external global variables?</p>

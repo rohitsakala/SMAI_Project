@@ -1,0 +1,1 @@
+<p>I need to be able to display dates in a table, with the date displayed as say 22nd Sept 2014, where the nd is shown as small text to the top right of the 22 as in most date displayed formats. Using the  tag works in Html but not in IOS, does this format work in iOS?</p>

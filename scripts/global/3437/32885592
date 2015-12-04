@@ -1,0 +1,1 @@
+<pre><code>select qn.child_id,count(qu.id) as total_question  from question_notifications as qn join questions as qu on qn.modify_date&lt;qu.add_date  group by qn.child_id </code></pre>  <p>I want to write the above query in cakephp.</p>  <p>Anyone can guide ? thanks in advance.</p>

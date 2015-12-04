@@ -1,0 +1,1 @@
+<p>I need to download all types of file (binary, image, text, etc) using Retrofit library in my app. All the examples on the net is using HTML GET method. I need to use POST to prevent automatic caching.</p>  <p>My question is how to download a file using POST method in Retrofit? </p>

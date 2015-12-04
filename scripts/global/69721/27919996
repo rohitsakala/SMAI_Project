@@ -1,0 +1,1 @@
+<p>I have one <strong>"Test1.js"</strong> JavaScript file which will be running continuously. I have another <strong>"Test2.js"</strong> JavaScript file which I will update periodically. I want to call a dynamically created Test2.js JavaScript function from Test1.js file.</p>  <p>Any help appreciated.</p>

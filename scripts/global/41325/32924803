@@ -1,0 +1,1 @@
+<p>How would you create a new sbt task which will run a <a href="https://github.com/lihaoyi/utest#test-running-api" rel="nofollow">utest runner</a>, or any other arbitrary code of your own, that is placed in a dedicated main class for that sake? </p>

@@ -1,0 +1,1 @@
+<p>I'm trying to scrape linkedin data from public profiles in the US. So far I've found several scrapers that fetch all the text data but I also need to get the profile pictures. </p>  <p>Is there a scraper out there that will fetch images? Code examples? </p>

@@ -1,0 +1,1 @@
+<p>Can netrw :E display .h and .c files together as pairs?</p>  <p>For example:</p>  <pre><code>file1.h file1.c file2.h file2.c file3.h file3.c </code></pre>  <p>Currently my netrw :E list the files in this sequence:</p>  <pre><code>file1.h file2.h file3.h file1.c file2.c file3.c </code></pre>

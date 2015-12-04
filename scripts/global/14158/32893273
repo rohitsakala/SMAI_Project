@@ -1,0 +1,1 @@
+<p>I'd like to be able to modify the OfferType (e.g. Pricing Tier <code>S2</code>, <code>S3</code>, etc.) of an existing DocumentDB collection from within C#, but I don't see any members of the <code>Microsoft.Azure.Documents.DocumentCollection</code> class that will facilitate this.</p>  <p>Is there another approach that would provide this functionality?</p>

@@ -1,0 +1,1 @@
+<p>I have an e-shop with <code>MySQL (PHP)</code> and a warehouse website with <code>SQL server 2012(ASP),</code></p>  <p>I want write a service with <code>WCF</code> that when customer buy a good from my e-shop,insert a record into both database.</p>  <p>how can i do this?</p>  <p>or is there another secure solution for insert into different database?</p>

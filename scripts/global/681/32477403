@@ -1,0 +1,1 @@
+<p>I have a version of OpenCV 2.4.10 Library which was built for Intel X64 on Windows.</p>  <p>How can I know if the CV_SSE2 is active? I do not have the code. I just have the libs ,DLLs and headers.</p>  <p>Thanks </p>

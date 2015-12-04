@@ -1,0 +1,1 @@
+<p>I want to read and dump information into Database by retrieving from spreadsheets present in my Google Drive, I have seen Google-apps-script but not sure how would it will interact with my local database.</p>  <p>Also seen Google Sheets API but seems like it doesn't have support for Django/Python.</p>

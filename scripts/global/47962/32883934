@@ -1,0 +1,1 @@
+<p>when I am using my native app camera to take video, the output file have 3gp extension. I need to intent to camera with ACTION_VIDEO_CAPTURE intent action which will produce a file that has a mp4 file extension. how can I do it?</p>

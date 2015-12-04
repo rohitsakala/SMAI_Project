@@ -1,0 +1,1 @@
+<p>I'm using <a href="https://github.com/evonove/django-oauth-toolkit" rel="nofollow">django-oauth-toolkit</a> in django-restframework, I cannot figure out how to add a new scope, say '<code>ifttt</code>', which can access all the resources of the user. Then all the generated tokens should have this scope. </p>

@@ -1,0 +1,1 @@
+<p>Within my component, how can I access the name of the parent component it is nested inside?</p>  <p>So if my render is thus:</p>  <pre><code>ReactDOM.render(       &lt;RadialsDisplay data={imagedata}/&gt;,       document.getElementById('radials-1') ); </code></pre>  <p>How can I retrieve the <code>id</code> name <code>#radials-1</code> from within the component itself?</p>

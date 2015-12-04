@@ -1,0 +1,1 @@
+<p>I'm trying to crop image using node-imagemagick (<a href="https://github.com/rsms/node-imagemagick" rel="nofollow">https://github.com/rsms/node-imagemagick</a>). Can I crop from top for example on 40px and from left side also on 40px? I found option gravity how I understand it takes Center, West and so on but thats not what I need. </p>  <p>Thanks in advance.</p>

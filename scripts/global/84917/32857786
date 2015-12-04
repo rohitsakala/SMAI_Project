@@ -1,0 +1,1 @@
+<pre><code>number = 1 name = 'Frames' + str(number) + '.html' usedNumbers = [] if number in usedNumbers:     number += 1 else:     open(name,'w')   </code></pre>  <p>How would I go about doing this where 'number' increases by 1, puts out the html document, until it gets to 18, then stops before it gets to 19? ("Frames1.html. Frames2.html, ..., Frames18.html")</p>

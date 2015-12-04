@@ -1,0 +1,1 @@
+<p>i am using the date picker in an input field the input field is disabled, but when I click on it, the date picker opens</p>  <p>any idea?</p>  <p>im disableing it with this</p>  <pre><code>document.getElementById('id').readOnly = true; </code></pre>

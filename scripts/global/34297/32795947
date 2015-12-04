@@ -1,0 +1,1 @@
+<p>In one of my projects I need to read images from an <code>.xls</code> file. For each row there is a column containing an image which I need to read out.  </p>  <p>It looks like I can read all the images together, but how can I also get the position of each image, like column and row numbers, so I can relate those images with other data? </p>

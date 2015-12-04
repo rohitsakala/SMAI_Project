@@ -1,0 +1,1 @@
+<p>We would like to bump-map a sphere with a texture map. However, the surface of the sphere has an area that is 10 times the area of the texture map(area for both in pixels). Describe different ways in which the texture map can be used for bump mapping.</p>

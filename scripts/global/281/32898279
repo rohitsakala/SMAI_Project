@@ -1,0 +1,1 @@
+<p>I'm coding an PHP CMS and I've an important question... After query, its important to close the MSSQL Connection?</p>  <p>This will give some performance on server? Or it is relative, doesn't make any sense?</p>

@@ -1,0 +1,1 @@
+<p>how to check if an entity framework query executed successfully?</p>  <p>is it enough to check number of the effected rows like <code>if(context.savechanges() &gt; 0)</code> or should we check in different way?</p>

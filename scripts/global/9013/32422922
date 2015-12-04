@@ -1,0 +1,1 @@
+<p>My context:</p>  <pre><code>&lt;context:property-placeholder location="file:${CATALINA_HOME}/conf/project.properties"/&gt; </code></pre>  <p>End of my ~/.profile</p>  <pre><code>export CATALINA_HOME=/home/arthur/tomcat export PATH=$CATALINA_HOME/bin:$PATH </code></pre>  <p>Echo gives not null.</p>

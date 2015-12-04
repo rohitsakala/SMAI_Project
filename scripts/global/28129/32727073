@@ -1,0 +1,1 @@
+<p>While archive and validate my app before upload to App Store,error occured:</p>  <p>"No suitable records were found.Verify your bundle identifier "xxx.xxx.xxx" is correct"</p>  <p>But bundle id in project properties, General -> "Bundle Identifier" are the same: "xxx.xxx.xxx". Where may be a problem?</p>

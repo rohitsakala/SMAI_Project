@@ -1,0 +1,1 @@
+<p>I'm finding difficult in implementing real time clock for pic16lf1902, wherein their are no serial protocols for communicating/interfacing with builtin LCD drive. Is their a convenient way to solve the problem? For example using I2C software functions with DS1309 for LCD disply as used for PIC18 microcontrollers.</p>

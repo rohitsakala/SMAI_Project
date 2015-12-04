@@ -1,0 +1,1 @@
+<p>I want to self host a Web API in a windows service, but should I keep my Web API separate or should it be done within the windows service. I am pretty sure it can be done both ways based on <a href="https://github.com/danesparza/OWIN-WebAPI-Service" rel="nofollow">this example</a>.</p>  <p>What will the downsides be if I combine them.</p>

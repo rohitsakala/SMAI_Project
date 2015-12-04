@@ -1,0 +1,1 @@
+<p>I'm developing in PyCharm using lots of ibPy api. It's a wrapper for a Java API supported by Interactive Brokers. The debugger is great for functions called in script.  However when a function is called via callback the debugger doesn't stop on error/exception like it does usually.<br> How do I configure PyCharm to make debugger work on callbacks? </p>

@@ -1,0 +1,1 @@
+<p>how I can insert the value of image in the tag div?</p>  <pre><code>&lt;f:verbatim&gt;     &lt;div style="background: #000  #{item.image} no-repeat 0 0          backround-size:cover;height:90px;width:160px"&gt;               &lt;/div&gt; &lt;/f:verbatim&gt; </code></pre>  <p>n this way it doesn't work.</p>

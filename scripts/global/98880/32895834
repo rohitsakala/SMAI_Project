@@ -1,0 +1,1 @@
+<p>I am trying to figure out how to map a SchemaRDD object that I retrieved from a sql HiveContext over to a PairRDDFunctions[String, Vector] object where the string value is the name column in the schemaRDD and the  rest of the columns (BytesIn, BytesOut, etc...) are the vector.  </p>

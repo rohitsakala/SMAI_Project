@@ -1,0 +1,1 @@
+<p>I am generating LaTeX tables from R using xtable. While scaling works just fine with <code>print(xtable(someTable, scalebox=0.7)</code>, I cannot figure out a way to preserve the height, i.e. add the height option <code>[1]</code> to it. Is this possible? </p>

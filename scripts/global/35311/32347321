@@ -1,0 +1,1 @@
+<p>I recently been asked by my boss to migrate one our company's website to a new machine running on Windows Server 2012.</p>  <p>I never have any experience in deploying websites on a local machine, much less ASP.Net sites. I managed to bind IIS on the website directory and I can browse it on the server machine yet I can't access it from other machines.</p>  <p>Please help.</p>

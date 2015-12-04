@@ -1,0 +1,1 @@
+<p>spark hive 1.4 <br>  build.sbt  config:  <br>  libraryDependencies ++= Seq(   "org.apache.spark" % "spark-hive_2.10" % "1.4.0" excludeAll(ExclusionRule(organization = "org.spark-project.hive")) , ) </p>  <p>it not work in idea , the project dependencies still contains  "org.spark-project.hive: xxx" </p>  <p>config error ?</p>

@@ -1,0 +1,1 @@
+<p>I get an "Unsupported major.minor version 51.0 error" when connecting to SQS using the AWS's JMS SQSConnectionFactory in Java 1.6.  It works in Java 1.7</p>  <p>I have not found any documentation which specifically says that it is imcompatible with 1.6  Has anyone managed?  Any suggestions? </p>

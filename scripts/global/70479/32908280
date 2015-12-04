@@ -1,0 +1,1 @@
+<p>I am using <code>container-fluid</code> for all my containers. This allows the layout to expand on a large display (good) but causes probs when a user shrinks the layout by grabbing the corner of the browser and dragging (bad).</p>  <p>Is it possible to constrain the ability to shrink the layout. Perhaps using media queries? Something else in the Bootstrap bag of tricks?</p>

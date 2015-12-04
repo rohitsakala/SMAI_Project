@@ -1,0 +1,1 @@
+<p>I want to find the 2nd to last or nth to last value in a column, I already have a formula that works perfectly for my needs for finding the last value and I'm hoping there is a way to modify it to allow for the nth to last value to be found but as of yet I cant figure that out. Here it is:</p>  <pre><code>=LOOKUP(2,1/(1-ISBLANK(B:B)),B:B) </code></pre>

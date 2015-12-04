@@ -1,0 +1,1 @@
+<p>I run this importxml query:</p>  <p>=IMPORTXML("<a href="https://es.wikipedia.org/wiki/Benifato" rel="nofollow">https://es.wikipedia.org/wiki/Benifato</a> "; "//p")</p>  <p>it retrieve all the <p> tags but output each of them in a cell . Is there any way that it shows  all in one cell ?</p>

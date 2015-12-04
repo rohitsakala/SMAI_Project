@@ -1,0 +1,1 @@
+<p>I need to query a hp vertica database from SQL Server stored procedure. It is a join query and If I use linked server, it is going to fire as 2 separate selects and join it in the SQL Server . Is there any way I can use ODBC to fire the join query to Vertica from TSQL and get the processed result set back into an SQL table.? Any other approach to suggest to achieve this ?</p>

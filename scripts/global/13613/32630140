@@ -1,0 +1,1 @@
+<p>I'm able to create deb . I want to write a debian rule to copy the file to it's target. For eg a script to be copied to init.d and executing it after installation.</p>

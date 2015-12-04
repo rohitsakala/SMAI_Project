@@ -1,0 +1,1 @@
+<p>When using windows authentication for my web application if someone gets the username/password combination wrong they are prompted to enter their username/password again. This repeats indefinitely.</p>  <p>If possible I would like to be able to redirect them to an error page after 3 incorrect login attemps. Is this possible?</p>

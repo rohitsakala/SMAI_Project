@@ -1,0 +1,1 @@
+<p>Is there a way to include a javascript file inside a javascript?</p>  <p>My current script does not work...</p>  <pre><code>    &lt;script&gt;     if ( Modernizr.touch == false) {         loadScript("http://your.cdn.com/second.js", function(){});     }     &lt;/script&gt; </code></pre>

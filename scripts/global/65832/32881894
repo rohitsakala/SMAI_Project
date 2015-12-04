@@ -1,0 +1,1 @@
+<p>I updated Xcode 7 and write some new code. The problem is that my app support iOS 7.1, that require run from Xcode 6.4 to run iOS 7.1 simulator. But I can not run the app from Xcode 6.4 any more, because there's some new coding syntax that is only run from Xcode 7. How can I debug my app for iOS 7.1. Thank you!</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to trigger or register remote events in Azure AD. For example i add/modify/delete a user or a group in AAD, that trigger C# code or call an API.</p>  <p>Thanks in advance.</p>

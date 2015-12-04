@@ -1,0 +1,1 @@
+<p>I have several files in my home folder that I want to have under version control. But if I put the entire folder under version control, on every run of git or hg status, I will see a huge list of untracked files. Is there a way to use git or hg in such a way that they track only the files specified and ignore every other file?</p>

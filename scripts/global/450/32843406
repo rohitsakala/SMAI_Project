@@ -1,0 +1,1 @@
+<p>In elixir we have the Pseudo-variables <code>__MODULE__</code>, <code>__DIR__</code> et al. In erlang there is also the functionality to get the current line, using an erlang macro.</p>  <p>How do I get the current file line in elixir.</p>  <p>Something like</p>  <pre><code>IO.puts __LINE__ </code></pre>

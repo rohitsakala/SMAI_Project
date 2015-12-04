@@ -1,0 +1,1 @@
+<p>I'm creating a PDF using iTextSharp and it contains some fillable form fields.  What I need, is to somehow set it up so that when those form fields are filled in and the resulting PDF is saved (in one of the commercially-available PDF readers like Adobe's Reader), I need those form fields to be fixed text (no longer editable).</p>  <p>Is there any way to do this?</p>

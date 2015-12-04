@@ -1,0 +1,1 @@
+<p>Could anyone please let me know why this doesn't work?</p>  <pre><code>List&lt;? super Person&gt; list = new ArrayList&lt;&gt;(); list.add(new Object()); </code></pre>  <p>My understanding is that the variable list can hold any value as long as it is a superclass of Person. Object is definitely a superclass of Person, then why it can't be added to the list?</p>

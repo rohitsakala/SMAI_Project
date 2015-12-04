@@ -1,0 +1,1 @@
+<pre><code>def paraula(file,wordtofind):      f = open(file,"r")     text = f.read()     f.close()     count = 0     for i in text:         s = i.index(wordtofind)         count = count + s     return count paraula (file,wordtofind) </code></pre>

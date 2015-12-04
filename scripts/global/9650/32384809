@@ -1,0 +1,1 @@
+<p>It is possible to load .NET 2.0 dll into CLR 4.0 using <code>useLegacyV2RuntimeActivationPolicy</code>.</p>  <p>Now is it possible to install an assembly compiled with .NET 2.0 into GAC for CLR 4.0 without recompiling?</p>  <p>CLR 2.0 gac = C:\Windows\assembly</p>  <p>CLR 4.0 gac = C:\Windows\Microsoft.NET\assembly</p>

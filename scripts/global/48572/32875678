@@ -1,0 +1,1 @@
+<p>iPad Pro requires 167x167 App icon and 2732 x 2048 (landscape) launch image. But where should I put them? Xcode 7.0 and Xcode 7.1 beta Asset Catalogs don't provide any place to add iPad Pro specific icons or images.</p>  <p>My launch image is size specific, so using storyboard for this isn't a good option.</p>

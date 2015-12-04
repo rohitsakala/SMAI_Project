@@ -1,0 +1,1 @@
+<p>I'm trying to send a DM from a Raspberry Pi connected to the internet to a specific user, but I also want to attach a photo to said DM. Is this possible with tweepy? If so, how do you recommend me to do this? I have read the documentation, and haven't found a single thing relating DMs with photos. If tweepy can't do this, is there any other library that can? Thank you.</p>

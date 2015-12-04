@@ -1,0 +1,1 @@
+<p>New with MSVS2015 is a memory profiling tool that can be used with the debugger. When analyzing a stapshot I can see the instance of an object. I would like to know what is referencing this object, however I can't seem to find a way. I have the Instance address, I could take a heap dump and find out in Windbg but I was hoping this could be done directly in the debugger. </p>

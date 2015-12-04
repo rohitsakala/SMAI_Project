@@ -1,0 +1,1 @@
+<p>I am used to use <strong>px</strong> on desktop and sometime <strong>em</strong> (even though I don't know why one is best when developing a responsive interface).</p>  <p>My concern now is: shall I use <strong>px</strong>, <strong>viewport units</strong> (vh,vw) or what else when developing for mobile?</p>

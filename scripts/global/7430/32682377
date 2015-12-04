@@ -1,0 +1,1 @@
+<p>Why return false?</p>  <pre><code>private static final HashMap&lt;Integer, Integer&gt; tags_tbl = new HashMap&lt;Integer, Integer&gt;() {{     put(0x01, 1);     put(0x8a, 1); }}; </code></pre>  <p>tags_tbl.containsKey(-118) - this return false, why?<br> tags_tbl.containsKey(1) - this return true<br> tags_tbl.containsKey(0x8a) - this return true</p>  <p>0x8a = -118 in dec</p>

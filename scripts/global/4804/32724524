@@ -1,0 +1,1 @@
+<p>How do I pass double quotes as a parameter in powershell? For example, I need to execute this line but K="Key words" has to be in double quote</p>  <pre><code>$Ie.Navigate2("http://inside.nv.com/demo/Search/Pages/results_Table.aspx?k="Boiling Point"(CreatedBy:Broussard AND Write&gt;=6/1/2015 AND Write&lt;=6/30/2015)", 0x10000) </code></pre>

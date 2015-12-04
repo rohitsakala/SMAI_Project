@@ -1,0 +1,1 @@
+<p>I am using ImageMagick in Codeigniter 2.x to save multiple copies of an image for a social site. After each crop, it sends the image to an AWS s3 bucket. </p>  <p>I am wondering if there is any way to make this process Asynchronous in PHP to keep the user from having to wait for 4 crops and saves before returning the response.</p>

@@ -1,0 +1,1 @@
+<p>I have a request-response flow that starts with VM. Is there a way to restrict a number of the requests that could be processed in parallel by the flow?  I'm on 3.7. Thanks. </p>

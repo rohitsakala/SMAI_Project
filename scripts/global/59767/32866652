@@ -1,0 +1,1 @@
+<p>I know how hash map works. We can't use duplicate keys in Hashmap. I want to know the logic behind this used by Sun people. How it has been coded that we can't store duplicate key in HashMap.</p>

@@ -1,0 +1,1 @@
+<p>Is there some reliable way how to check if spring boot is running in JAR (standalone with embedded tomcat) or WAR (in j2ee server) mode?</p>

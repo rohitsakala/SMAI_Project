@@ -1,0 +1,1 @@
+<p>I keep getting a floating point expection on my program that is trying to determine if a number is prime or not in C. I used this loop: </p>  <pre><code>for(i=1:i&lt;num/2:i++)    (if num%i==0)  </code></pre>  <p>then it is prime. Please help!</p>

@@ -1,0 +1,1 @@
+<p>When building application with <code>dist</code>, is there a way to avoid aggregation of assets in a jar and let these assets in a root "public" folder ?</p>

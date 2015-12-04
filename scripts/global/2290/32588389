@@ -1,0 +1,1 @@
+<p>After uploading my symfony2 project to the server, I try to reload : <a href="http://my_website.com/web/app_dev.php" rel="nofollow">http://my_website.com/web/app_dev.php</a> and it show me this error :</p>  <blockquote>   <p>Fatal error: Class 'Doctrine\Common\Annotations\AnnotationRegistry'   not found in /my_path/app/autoload.php on line 11</p> </blockquote>

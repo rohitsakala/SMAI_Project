@@ -1,0 +1,1 @@
+<p>I am using jython script - wsadmin - admintask command for changing the password. However before that I need to check for current password of the user in WAS. Is there any way / command I can retreive the password of a given user from WAS using wsadmin tool</p>  <p>Thanks</p>

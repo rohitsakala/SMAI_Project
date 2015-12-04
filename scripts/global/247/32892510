@@ -1,0 +1,1 @@
+<p>Using Reflection, can we find the methods effected in a changelist(check-in), we have line numbers that has the changes in a source file. Using C# reflection we can get methods in module/class. I am not sure how to find methods that belong for a given line number.  The plan is to run all the tests that call these methods, that have changes. Any ideas friends? Thanks!</p>

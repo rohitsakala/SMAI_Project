@@ -1,0 +1,1 @@
+<p>I am using Xcode 7, Swift, and the new UI Automation announced at WWDC 15. I want to test some things in an oracle database after some of my UI automation tests have run.</p>  <p>Can this be done? If so how do you do it? I can't seem to find any sort of documentation on the subject.</p>

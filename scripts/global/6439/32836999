@@ -1,0 +1,1 @@
+<p>I want to change the status bar color to a specific color with a color code. Only the default colors can be specified in the code as given below, is there any way to give a specific color code to get that color?</p>  <pre><code>&lt;item name="android:statusBarColor"&gt;@color/dark_blue_Shade1&lt;/item&gt; </code></pre>

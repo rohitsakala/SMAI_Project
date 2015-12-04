@@ -1,0 +1,1 @@
+<p>I am creating a 2d game and was wondering if it was better to have a single large background image which scrolls or make the background from multiple smaller images.</p>  <p>ie does Unity cull images if they out of camera view? If this is the case would a single large image be less performant?</p>

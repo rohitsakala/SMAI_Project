@@ -1,0 +1,1 @@
+<p>Why filter or sorting does not work in kendo UI Grid when an inline Dropdown is used for editing. I tried all the methods but some hoe i can observe that the fiter operator is blocked... error comes when sorting is enable for that column where inline dropdown is used. where as when filter is used an empty box without operators is specified. </p>

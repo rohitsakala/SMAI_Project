@@ -1,0 +1,1 @@
+<p>What guarantees does C++ make about the ordering of character literals? Is there a definite ordering of characters in the <em>basic source character set</em>? (e.g. is <code>'a' &lt; 'z'</code> guaranteed to be true? How about <code>'A' &lt; 'z'</code>?)</p>

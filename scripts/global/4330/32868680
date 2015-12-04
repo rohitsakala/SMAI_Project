@@ -1,0 +1,1 @@
+<p>I have a label that I want to only copy the first character. The label reads 1000. I have my copy button set up like this </p>  <pre><code>var textCopy = label.Text; Clipboard.SetText(textCopy); </code></pre>  <p>Can I add something to the label.Text part that only allows the first character to be copied?</p>

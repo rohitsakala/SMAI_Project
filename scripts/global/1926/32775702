@@ -1,0 +1,1 @@
+<p>I am getting error:</p>  <blockquote>   <p>initialiser for conditional binding must have optional type, not '()'.  </p> </blockquote>  <p>Using Swift language, below is the code:</p>  <pre><code>if let result = brain.performOperation(operation) </code></pre>

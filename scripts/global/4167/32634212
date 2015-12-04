@@ -1,0 +1,1 @@
+<p>I have a chart with images on xAxis. When I export my chart (in PNG, JPG, PDF etc.), images do not appear even if I have set the export option "allowHTML" to <strong>TRUE</strong>.</p>  <p>I use the library Highcharts JS v4.1.8</p>  <p>If someone could help me :)</p>  <p>Thank you very much for your help !</p>  <p>Regards,</p>

@@ -1,0 +1,1 @@
+<p>Is there a way of event binding to recognize when the options of a select field get changed by some different, external, not editable JavaScript?</p>  <p>Just to clearify: I don't want to listen to value changes, I want to listen to a change of the DOM structure</p>

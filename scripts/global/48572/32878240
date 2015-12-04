@@ -1,0 +1,1 @@
+<p>I am working on making a video, using the <code>html5</code> <code>video</code> tag, and I am running into the issue of playback being very choppy when I'm using the <code>currenttime</code> attribute and the <code>currenttime</code> is set to something other than 0.</p>  <pre><code>vid3.currentTime = 0; vid3.play(); </code></pre>  <p>Any Suggestions?</p>

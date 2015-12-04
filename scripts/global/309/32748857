@@ -1,0 +1,1 @@
+<p>I think at least some old graphics drivers used to crash if glClear wasn't used and that glClear is probably faster in a lot of cases but why? How are 3-d graphics drivers usually implemented such that these uses would have different results?</p>

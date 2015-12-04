@@ -1,0 +1,1 @@
+<p>I installed sublime text on my pc and changed some settings which included changing the location of "path" to minGW. However when I use codeblocks or visual studio, whenever I create a console application and ask for user input it automatically fills the inputs with 0's and runs to the end of the program. Any ideas on how to fix this its getting very frustrating.   </p>

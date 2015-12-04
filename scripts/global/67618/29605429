@@ -1,0 +1,1 @@
+<p>I am passing a string in an MVC action method where anti forgery token is enabled, the string contains   a single quote. I am getting page crash while calling the action method. Please suggest a solution. Thanks in advance.</p>

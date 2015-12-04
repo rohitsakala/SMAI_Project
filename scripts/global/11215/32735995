@@ -1,0 +1,1 @@
+<p>In Windows Form you can programatically perform a click for example  C# snippet below:</p>  <pre><code>ButtonX.performClick(); </code></pre>  <p>I want to do the same for an android application but for screen Touch or the cardboard Trigger.</p>  <p>Any Workaround?</p>

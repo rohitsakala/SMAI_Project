@@ -1,0 +1,1 @@
+<p>In MVC3 VS 2010, I have telerik grid view, add, edit and update in session repository, the logic i implemented from Telerik samples. But its working only in session. I need to update this into the relevent table. Kindly advice how to proceed where to add context.SaveChanges(); ?</p>

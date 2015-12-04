@@ -1,0 +1,1 @@
+<p>I had to make the link of a div </p>  <pre><code>&lt;div onclick="location.href='&lt;?php the_permalink() ?&gt;';&gt;&lt;/div&gt; </code></pre>  <p>to make it work the way I needed it too. (Using Wordpress)</p>  <p>But I also need the link to open in a new window using target="_blank" but that I can't figure out how to apply that to an onclick in a div. Anyone any ideas? </p>

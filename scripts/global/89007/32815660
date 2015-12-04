@@ -1,0 +1,1 @@
+<p>I have a table where i bind all the json data using ngrepeat. Now my task is to filter based the column. I have two dropdown lists and a text box control. It has to perform all sort of search based on both DDL selected values and textbox value.</p>

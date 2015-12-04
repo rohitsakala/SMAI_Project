@@ -1,0 +1,1 @@
+<p>I have in database a column notified, that contains a integer representing a binary, such 001 as 1, 111 as 7 and it's combinations. I need verify if one bit is activated, for this, in PHP I use AND, but in a query of doctrine 2 I can't use that by default because I obtain: "Expected =, &lt;, &lt;=, &lt;>, >, >=, !=, got 'AND'". How can I resolve this problem??? Thanks</p>

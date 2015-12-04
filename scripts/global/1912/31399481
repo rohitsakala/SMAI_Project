@@ -1,0 +1,1 @@
+<p>I need to create maven version pattern to get one before latest artifact. I know that i can use [0,) to get latest one, but is there a possibility to search for one before?</p>

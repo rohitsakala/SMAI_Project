@@ -1,0 +1,1 @@
+<p>Is it possible split linking of executable for Linux to two stages:</p>  <p>1) Link all found static objects and libraries.</p>  <p>2) Link shared objects.</p>  <p>I want distribute my application in binaries format but pass linking shared libraries to end user on end specific Linux OS because full set of .o and .a files very grow the distributive.</p>

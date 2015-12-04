@@ -1,0 +1,1 @@
+<p>I want to get the last update time of the sheet from within an apps script of that sheet. I tried looking at the docs and couldn't find mention of this and DocsList which apparently could be used to return the revision history (though I only want the last change date) is no longer functioning. </p>

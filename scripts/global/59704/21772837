@@ -1,0 +1,1 @@
+<p>I made a view without using auto layout . The buttons positions was same as that in .xib file when I run the app on device . But when I used autolayout option one of my button is stick to the bottom (Although having right position in .xib file) . What constraints should I use to adjust that button on same position . I am a beginner please help . </p>

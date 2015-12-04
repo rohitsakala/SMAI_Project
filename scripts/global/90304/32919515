@@ -1,0 +1,1 @@
+<p>We can create Docker images and all push them to Hub without a Dockerfile. Why is it useful, to have a Dockerfile? What are advantages of it? Dockerfile creation is a process with high consumption of time and can made only by a human. I would like to know what is the main difference between a base image based, committed image and a Dockerfile based image.</p>

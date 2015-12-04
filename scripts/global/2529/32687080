@@ -1,0 +1,1 @@
+<p>I have these code</p>  <pre><code>FONT = pygame.font.Font("font/calibri.ttf", 50) FONT.size = 25 </code></pre>  <p>but the compilter say</p>  <blockquote>   <p>AttributeError: 'pygame.font.FONT' object attribute 'size' is read-only</p> </blockquote>  <p>I see no method help me change size. How can I do that?</p>

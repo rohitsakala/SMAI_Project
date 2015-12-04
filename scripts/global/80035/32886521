@@ -1,0 +1,1 @@
+<p>After updating Android Support Libary v7 AppCompat  I'm not able to change style to the title and the following  is not wotking anymore:</p>  <pre><code>int myTitleId = Resources.GetIdentifier("action_bar_title", "id", "android"); TextView barTitle = FindViewById&lt;TextView&gt;(myTitleId); barTitle.SetTypeface(FontFactory.GetMyFont(this), TypefaceStyle.Normal); </code></pre>

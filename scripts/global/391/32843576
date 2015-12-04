@@ -1,0 +1,1 @@
+<p>I would like to replace a string in a bunch of text files with another string. Suppose I have <code>*.txt</code> files with values of <code>INDEF</code> and I would like to replace them with <code>0000</code>? </p>  <p>Is there a command in bash/csh that I can use to do this (sed/cat)?</p>

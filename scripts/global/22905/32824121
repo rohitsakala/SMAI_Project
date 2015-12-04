@@ -1,0 +1,1 @@
+<p>I want to store an URL in parse database and pass on to a webview in android. So I have to just store an URL and extract it and do webview.load(url)</p>  <p>But how do I store and retrieve URLs to and from Parse?</p>

@@ -1,0 +1,1 @@
+<p>I am trying to understand what is going on with the code:</p>  <pre><code>cout &lt;&lt; '5' - '3'; </code></pre>  <p>Is what I am printing an int? Why does it automatically change them to ints when I use the subtraction operator?</p>

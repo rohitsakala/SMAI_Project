@@ -1,0 +1,1 @@
+<p>I have produced an Excel file with various macros, data validations, calculations etc on a normal PC.  However when opened on a thin client, one of the data validation drop down lists disappears.  The list is supposed to be: </p>  <pre><code>=AE!$A:$A </code></pre>  <p>Does anybody know how I can fix this so it doesn't disappear?</p>

@@ -1,0 +1,1 @@
+<p>Im trying to do an elipsoid and to do so I need the following operation</p>  <pre><code>float result = this-&gt;eValues[0]+this-&gt;eValues[2]-this-&gt;eValues[1] </code></pre>  <p>in this case </p>  <pre><code>eValues[0]=-1.86265e-09; eValues[1]=8.999999; eValues[2]=8.999999; </code></pre>  <p>It supposed it should return -1.86265e-09 but the result is 0</p>  <p>Thanks</p>

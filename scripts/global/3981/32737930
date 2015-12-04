@@ -1,0 +1,1 @@
+<p>I have a duplicated items that are part of a set called dashb as shown in the third column. I am trying to make the code detects one Aligned (status) to override the other cells that has Not Aligned. Knowing that there are other 1002 of non-dashb items, how can I group/identify this duplicated item and make this change only for this set? </p>

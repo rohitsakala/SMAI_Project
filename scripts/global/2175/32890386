@@ -1,0 +1,1 @@
+<p>I when I import a pipe delimited .txt file I receive from a client every once in a while, one of my records will import into the raw table with a line break in the tuple. But when I look at the .txt file I see neither <code>{CR}{LF}</code> or <code>{LF}</code>.</p>  <p>I can't figure out why this is happening. Has anyone else ever experienced this?</p>

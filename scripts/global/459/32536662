@@ -1,0 +1,1 @@
+<pre><code>line 26, column 41: XML parsing error: :26:41: mismatched tag [help]          &lt;category&gt;&lt;![CDATA[Uncategorized]]&gt;&lt;/category&gt; </code></pre>  <p>I have checked and rechecked and modified the feed-rss2.php, nothing will change!</p>

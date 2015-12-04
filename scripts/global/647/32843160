@@ -1,0 +1,1 @@
+<p>Currently I'm using following commands at the beginning of each function that accesses the database. </p>  <pre><code>o := orm.NewOrm() o.Using("default") // Using default, you can use other database </code></pre>  <p>It feels like I should do that only once at router initialization. Can that be a security issue?</p>

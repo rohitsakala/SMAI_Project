@@ -1,0 +1,1 @@
+<p>Is it possible to compile / install a software via NPM?</p>  <p>Let's say I want to install Redis:</p>  <pre><code>$ npm install c-redis -g </code></pre>  <p>Would it be possible to compile it?</p>

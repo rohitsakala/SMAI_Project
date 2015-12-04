@@ -1,0 +1,1 @@
+<p>As root MySQL user in phpMyAdmin, I ran:</p>  <pre><code>GRANT INSERT ON db.* TO 'db_user'@'localhost'  </code></pre>  <p>And received:</p>  <blockquote>   <p>1044 - Access denied for user 'db_user'@'localhost' to database 'db'</p> </blockquote>  <p>I am not understanding why root is not able to grant this permission to a db user.</p>

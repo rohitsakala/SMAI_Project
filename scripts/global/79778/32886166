@@ -1,0 +1,1 @@
+<p>I have created a macro in excel which saves data at some remote location; now the problem is if the network connection is slow it shows a progress bar reflecting the remote location with the name of file where the data is being saved, I want to hide that progress bar to keep my remote location unknown for end users.</p>

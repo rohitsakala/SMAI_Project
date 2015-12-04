@@ -1,0 +1,1 @@
+<p>I need to create two projects in Qt Creator. First one is some kind of process manager and second one is just a dummy project to produce some executable (.exe) file. I need to run second one (dummy) from first one (manages).</p>  <p>The problem is I don't know (can't predict) the path to the second project .exe file.</p>  <p>How can I deal with it?</p>

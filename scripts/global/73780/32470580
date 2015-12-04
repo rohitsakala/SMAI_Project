@@ -1,0 +1,1 @@
+<p>In AngularDart I used to extend <code>ShadowRootAware</code> and <code>AttachAware</code> to query the document with <code>shadowRoot.querySelector(...)</code>.</p>  <p>Now it seems that those classes are gone. How can I query the DOM, and how do I execute some code in the "attach" phase?</p>

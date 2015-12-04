@@ -1,0 +1,1 @@
+<p>I have a View Controler containing a UITextView. the app just hangs if the default text in the UITextView is less than 10 characters and there are no errors. NB : i think it's related to xCode 7</p>

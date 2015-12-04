@@ -1,0 +1,1 @@
+<p>I already know how to create a dynamic 2D matrix using <code>new</code> and free it using <code>delete</code>. Since C++ 11 is here with many new memory features such as <code>unique_ptr</code>, <code>array</code> container etc.; what is a nice way to create a 2D matrix so that one needs not to free the matrix explicitly using <code>delete</code> operator?</p>

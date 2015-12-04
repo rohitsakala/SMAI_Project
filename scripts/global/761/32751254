@@ -1,0 +1,1 @@
+<p>SO every-time i run the command <strong>gem install bundler</strong> on my ipad i end up getting this message. ERROR:  While executing gem ... (ArgumentError)     invalid byte sequence in US-ASCII</p>  <p>Please help me, I cant seem to find a way around this</p>

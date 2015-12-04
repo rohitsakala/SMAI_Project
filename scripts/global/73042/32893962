@@ -1,0 +1,1 @@
+<p>I have created a Kendo UI Grid and set pageable to true and added custom page sizes. Now I want to pop up an alert if user selects a value say 10000 in the  "items per page" drop down. Please suggest how can I achieve that.</p>

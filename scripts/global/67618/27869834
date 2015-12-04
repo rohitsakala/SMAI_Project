@@ -1,0 +1,1 @@
+<p>A hidden field is rendering in master page through first action method, need to access this hidden field value inside next action method calls in asp.net mvc2.</p>

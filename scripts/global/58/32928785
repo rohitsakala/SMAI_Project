@@ -1,0 +1,1 @@
+<p>For some reason, I have to execute commands such as <code>ls</code>, <code>ps</code> using native c code in Android.</p>  <p>I tried <code>system()</code> and <code>popen()</code>, but none of them works. I don't know why.</p>  <p>Any help will be appreciated.</p>

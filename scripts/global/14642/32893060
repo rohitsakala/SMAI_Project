@@ -1,0 +1,1 @@
+<p>Authorize.net on Magento 1.9.2 is not working when Test mode is set to "No". It is giving the error:</p>  <pre><code>Gateway error: This transaction has been declined. Response code 103 </code></pre>  <p>When Test mode is "Yes" it accepts transactions. I don't know what is wrong with it. I've tried a new transaction key, cleared the cache, and reindexed.</p>

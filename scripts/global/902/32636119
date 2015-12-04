@@ -1,0 +1,1 @@
+<p>How to get and disable any node in tree?</p>  <p>It's my tree:</p>  <pre><code>var store = new dojo.data.ItemFileReadStore({ data: {items: list} });  var treeModel = new dijit.tree.ForestStoreModel({ store: store });  var navTree = new dijit.Tree({     model: treeModel,     showRoot: false,     dndParams: ['singular'],     autoExpand: true }, "navTree") </code></pre>

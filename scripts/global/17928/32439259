@@ -1,0 +1,1 @@
+<p>I have a progress bar showing me progress in uploads. the CSS works for chrome ,but dosent for IE</p>  <pre><code>   &lt;div class="progress-bar"&gt;                             &lt;div style="width: {{media.progress*0.95 + (media.result ? 5 : 0)}}%;" class="progress-bar__bg"&gt;&lt;/div&gt;                         &lt;/div&gt; </code></pre>

@@ -1,0 +1,1 @@
+<p>Using complex number in Numpy is as simple as np.exp(1+ 2.3j). How to implement this simple notation? What is 2.3j? It's not like that it is a variable name.</p>

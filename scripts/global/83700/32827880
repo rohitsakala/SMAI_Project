@@ -1,0 +1,1 @@
+<p>How to write a request for such a plan</p>  <pre><code>    SELECT T1.id, T1.name_ua,     (SELECT COUNT(*) FROM categories T2 WHERE T2.parent_id = T1.id)  AS children_count   FROM categories T1 WHERE parent_id = 0  this-&gt;select('name_ua','select COUNT(*) from categories where parent_id = id')             -&gt;where('parent_id', '=', 0) </code></pre>

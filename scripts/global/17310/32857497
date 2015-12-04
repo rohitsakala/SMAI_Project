@@ -1,0 +1,1 @@
+<p>Why does this work:</p>  <pre><code>a = [1, 2, 3] while n = a.shift   puts n end </code></pre>  <p>while this doesn't:</p>  <pre><code>a = [1, 2, 3] puts n while n = a.shift </code></pre>  <p>It works only if I initialize <code>n</code> in advance:</p>  <pre><code>a = [1, 2, 3] n = nil puts n while n = a.shift </code></pre>

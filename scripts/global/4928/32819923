@@ -1,0 +1,1 @@
+<p>I have large dataset in excel (2013) in which I'm trying to group values together. </p>  <p>Data:</p>  <pre><code>A - A - A - 4 B - B - B - 5 A - A - A - 2  C - C - C - 3 B - B - B - 8 </code></pre>  <p>Desired output</p>  <pre><code>A - A - A - 6 B - B - B - 13 C - C - C - 3 </code></pre>  <p>How do I do this?</p>

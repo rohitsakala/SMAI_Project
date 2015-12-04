@@ -1,0 +1,1 @@
+<p>I am using word open XML.</p>  <pre><code>rowCopy.Descendants&lt;TableCell&gt;().ElementAt(0).Append(new Paragraph(new Run(new Text(dr["NAME"].ToString())))); </code></pre>  <p>The about code is writing name to a cell in the table. But it is creating top and bottom padding inside the cell. How can I remove it. Is it because of the new Paragraph? I am new to word open XML.</p>

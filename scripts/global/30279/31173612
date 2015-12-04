@@ -1,0 +1,1 @@
+<p>I'm looking for a way to replicate the functionality of <a href="https://msdn.microsoft.com/en-us/library/system.type.getenumunderlyingtype(v=vs.100).aspx" rel="nofollow"><code>Type.GetEnumUnderlyingType()</code></a> which is missing in .net35.</p>

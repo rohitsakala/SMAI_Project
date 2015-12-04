@@ -1,0 +1,1 @@
+<p>Do agents (-javaagent:agent.jar) affect the classpath of the JVM they are attached to?</p>

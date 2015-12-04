@@ -1,0 +1,1 @@
+<p>I would like to stack more than one class in <code>not()</code> selector but <code>,;:</code> does not work.</p>  <pre><code>input[type=text]:hover:not(.ui-pg-input .mandatory){ background-color: #D9EDF7;} </code></pre>  <p>So, what is proper way to stack classes in css <code>not()</code> selector?</p>

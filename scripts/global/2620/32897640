@@ -1,0 +1,1 @@
+<p>How would one go about setting up the following in Spring using only Java and annotations. </p>  <p><code>&lt;property name="hibernate.hbm2ddl.auto" value="update"/&gt;</code></p>  <p>I amIt should be possible and I do believe it is a lot cleaner to make projects xml free.</p>  <p>PS: This shouldn't be important but I'm running this on Heroku.</p>

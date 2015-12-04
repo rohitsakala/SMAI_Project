@@ -1,0 +1,1 @@
+<p>In the following code, I can not understand why the string is converted to int in this way.</p>  <p>Why is it using a sum with <code>0</code>?</p>  <pre><code>string mystring;  vector&lt;int&gt; myint;  mystring[i+1]=myint[i]+'0'; </code></pre>

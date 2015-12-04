@@ -1,0 +1,1 @@
+<p>Is it possible to add the k-on-change event to a Kendo Grid using the GridOptions.  I want to call a function when a row in the grid is selected.  I see where I can add it to the html but can not find documentation about adding it to the GridOptions.</p>

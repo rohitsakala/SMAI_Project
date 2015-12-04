@@ -1,0 +1,1 @@
+<p>I've created a branc "B" from master. After this, I have two new commits on master that I want to integrate into "B" branch. </p>  <p>What would it be the best strategy for this? Should I simply merge master into "B"?</p>

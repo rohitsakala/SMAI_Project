@@ -1,0 +1,1 @@
+<p>I added <strong>SWReveal Controller</strong> everything is great but there is one issue</p>  <p><strong>I can't get back to the main VC "sw_front"</strong> <strong>either  by back button</strong> or  with <strong>bar item dismissViewControllerAnimated</strong>. </p>  <p>In Github most answers are vague or pretty advance for my basic understanding of this framework.</p>

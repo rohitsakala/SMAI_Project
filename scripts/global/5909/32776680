@@ -1,0 +1,1 @@
+<p>In objective C, I want to countdown timer start from user has first launch and after 24 hours, an alert will be showed not dependent on user quit app or not. The problem appear when user change device date time. If I use a server to store date time first launch, then the problem if user turn off network when first launch. Do you have any solution to do that? Thank you!</p>

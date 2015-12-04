@@ -1,0 +1,1 @@
+<p>In the latest build of Xcode 7 (beta 5), the NSString method stringByAppendingPathComponent: has been entirely removed. This had been incredibly useful when working with file paths</p>  <p>Is there a new method to replace this or achieve similar functionality?</p>

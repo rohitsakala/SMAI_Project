@@ -1,0 +1,1 @@
+<pre><code>for(i=0;i++&lt;10;)     {         printf("%d\n",i);     } </code></pre>  <p>Here why it is printing 1 to 10? As i know post increment happens after a loop,then why it is not showing 0? And why it is showing 10?</p>

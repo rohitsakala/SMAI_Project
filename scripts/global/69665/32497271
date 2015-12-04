@@ -1,0 +1,1 @@
+<p>We have a requirement to run the production builds in windows 8 machine.</p>  <p>We need to configure this application in IIS in the user machines, they will be accessing it by localhost.(also sql express will be installed)</p>  <p>Is there any problem if we are going to use Window 8 OS for this purpose ?</p>

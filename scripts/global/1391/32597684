@@ -1,0 +1,1 @@
+<p>If i have a set of data such as the following, how do I set it so that all numbers are 8 nibbles long?</p>  <pre><code>A1: FF4C6EFF A2: 286EFF A3: 1156EFF A4: 2806EF7 </code></pre>  <p>The <code>TEXT</code> command doesn't work. </p>  <pre><code>=TEXT(A2, "00000000") B2: 286EFF </code></pre>

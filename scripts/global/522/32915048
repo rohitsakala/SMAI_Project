@@ -1,0 +1,1 @@
+<p>I have a lookup formula that I currently use to gather information from a different page in my spreadsheet:</p>  <pre><code>=(VLOOKUP($A$3,Lookup!$A$3:$AG$472,2,FALSE)*0.01) </code></pre>  <p>But if there is no data in the cell of the lookup page, it returns a value of <code>0</code>. I would like the cell to remain blank, the same as the original cell.</p>

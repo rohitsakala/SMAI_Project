@@ -1,0 +1,1 @@
+<p>We have Jenkins building our projects via custom shell scripts. However, they rely on Jenkins's environment variables and env files. </p>  <p>Is there a straightforward way to move those jobs to TeamCity, or is the only way going through every script and rewriting it?</p>

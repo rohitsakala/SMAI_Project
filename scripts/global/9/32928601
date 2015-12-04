@@ -1,0 +1,1 @@
+<p>I have boolean property in my view model wit [Required] attribute.</p>  <p>I have @(Html.Kendo().CheckBoxFor(m => m.AcceptTermsOfUseAndPrivacyPolicy) + $("form").kendoValidator(); in my view.</p>  <p>All other controls on forms validates as expected, only check box validation is not working (validation is not performed).</p>  <p>What I am missing?</p>

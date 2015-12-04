@@ -1,0 +1,1 @@
+<p>How would I go about uploading image files, using Paperclip, directly into a carousel (using Slick Carousel)? I have both Paperclip and Slick working independently in my project now. How do I integrate the two so the pictures go directly into the carousel? </p>

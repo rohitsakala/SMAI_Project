@@ -1,0 +1,1 @@
+<p>Is there any easy way to check if a unix timestamp (ex: 1442957750) is a time which is > 24 hours from right now?  I'm having trouble with the conversion from linux timestamp to something JS can deal with</p>  <p>Thanks!</p>

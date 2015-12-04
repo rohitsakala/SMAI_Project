@@ -1,0 +1,1 @@
+<p>please say me, what's wrong ? we have many checkbox. OnClick any checkbox div "catdiv" must show with animate (bottom,0 %). </p>  <p>If checked checkbox is &lt;1, "catdiv" must hide with animate...</p>  <pre><code>&lt;script&gt; $(':checkbox').on('change', function() { $("#catdiv").animate ({bottom: "0%"), 500 ); }); &lt;/script&gt; </code></pre>

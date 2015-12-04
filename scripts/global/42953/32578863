@@ -1,0 +1,1 @@
+<p>I have a requirement in an SSRS report to make few fields as READ ONLY after the report is exported to excel.</p>  <p>I need to do to export a report to excel, in this case, the user can not change the data in few fields in file.</p>  <p>How do we achieve this in SSRS? Please help.</p>

@@ -1,0 +1,1 @@
+<p>I'm making a Ruby gem and want to calculate the directory root of the project the gem is included in. It's like <code>Rails.root</code>. How do I do that?</p>  <p>Whoever marked it as a duplicate question didn't link to a right question. None of those methods work - I tried them all. See my comments for an explanation too.</p>

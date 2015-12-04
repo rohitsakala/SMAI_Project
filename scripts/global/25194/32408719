@@ -1,0 +1,1 @@
+<p>I found many answers, but none of them worked in my case. Here is my <a href="http://jsfiddle.net/gsamaras/ggdkpbk7/" rel="nofollow">jsfiddle</a>. How to remove the dots?</p>  <p>Here is the basis of all of my attempts:</p>  <pre><code>ol {     counter-reset: item;     display: inline-block;     list-style-type: none; } </code></pre>

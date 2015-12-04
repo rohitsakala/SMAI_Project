@@ -1,0 +1,1 @@
+<p>I am doing a project on face detection and recognition. I have detected the face and now i want to crop the facial part from that image. How can i do it using open cv? I have used cropImage function but it doesn't work.</p>

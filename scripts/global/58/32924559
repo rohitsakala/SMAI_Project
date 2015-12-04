@@ -1,0 +1,1 @@
+<p>I'm seeing this error in my Mono program running on AWS:</p>  <pre><code>* Assertion at mini-exceptions.c:2007, condition `tls-&gt;signal_stack' not met * Assertion at mini.c:4100, condition `code' not met </code></pre>  <p>What could cause this?</p>

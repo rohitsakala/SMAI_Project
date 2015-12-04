@@ -1,0 +1,1 @@
+<blockquote>   <p>At certain specified points in the execution sequence called sequence points, all side effects of previous evaluations shall be complete and no side effects of subsequent evaluations shall have taken place.</p> </blockquote>  <p>Can anyone explain these lines and related terminologies in a beginners words? </p>

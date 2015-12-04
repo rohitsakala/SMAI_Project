@@ -1,0 +1,1 @@
+<p>I have attached a script with a folder to run whenever something is added to the folder. The problem is if multiple files are added one after another the process gets queued. How to make the script run even if its already running for another file.</p>

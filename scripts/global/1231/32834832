@@ -1,0 +1,1 @@
+<p>Is it possible with Sublime Text 3 to create a new file in the current working directory and open it from cmd prompt?</p>  <p>Something like:</p>  <pre><code>C:\path\to\directory $ subl newfile myfile.txt </code></pre>  <p>I'm on a Windows 7 machine and using <a href="https://github.com/cmderdev/cmder" rel="nofollow">Cmder</a> if that's something relevant.</p>

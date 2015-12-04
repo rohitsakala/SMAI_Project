@@ -1,0 +1,1 @@
+<p>There is a task:<br> I have a queue of grouped big files and client connection strings at server's queue and service on a client side. I need to transfer that files to a clients in sequence.<br> Can you tell me, which framework/pattern better to use for that?</p>

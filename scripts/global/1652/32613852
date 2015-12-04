@@ -1,0 +1,1 @@
+<p>I installed XAMP inside a folder in My Google Drive, everything synchronized perfect except Data folder for MySQL (Database files), and I realized the reason was due to MySQL Service that not allows Google Drive or even anything to copy some files, I ask if there is any solution to avoid this? like copying the files using Shadow copy?</p>

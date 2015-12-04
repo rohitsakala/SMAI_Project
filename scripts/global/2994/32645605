@@ -1,0 +1,1 @@
+<p>I'm using SecurityModule - AuthenticationStandard in my C# app. I don't need to block users after 3 failed tries. How can I turn it off? Found nothing on offical documentation and forum.</p>

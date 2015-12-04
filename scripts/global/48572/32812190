@@ -1,0 +1,1 @@
+<p>I recently submitted an update for my iOS app, and decided not to include screenshots for iPad. Does this mean my app won't show up in the iPad App Store? Can my app get rejected because of this? Or is there an option in Xcode which controls this behavior?</p>  <p>EDIT: If it helps to know, the binary I submitted is marked "iPhone" not "Universal"</p>

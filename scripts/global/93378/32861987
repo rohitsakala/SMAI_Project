@@ -1,0 +1,1 @@
+<p>I am using Ajax.BeginForm in mvc view, when expiring the session value, the page redirect to login page, and the login page is displayed in the partial view, How can I avoid the issue of showing the login page within the partial view?</p>

@@ -1,0 +1,1 @@
+<p>I am validating using rich:validator tag and custom validators in my application.My question is <strong><em>how can I do cross-field validation using rich:validator and custom validators.</em></strong></p>  <p>Note: I am able to do cross-field validations on form submit.</p>

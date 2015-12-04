@@ -1,0 +1,1 @@
+<p>Is there suitable graph library available for following specification?</p>  <ol> <li>I need to create a matrix like graph(means 4 direction pointers) to dynamically expand. </li> <li>It is to represent segments of an image.</li> <li>Graph is grown dynamically. </li> </ol>

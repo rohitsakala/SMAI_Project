@@ -1,0 +1,1 @@
+<p>I'm working with an API that provides a DTD document, but no WSDL document.  It would seem that the Web Service Task requires a WSDL document.</p>  <p>Is there another task that will allow me to interact with this service?</p>

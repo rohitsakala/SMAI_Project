@@ -1,0 +1,1 @@
+<p>I clean all data whenever I change property in model (ex. add name, email property to 'User')</p>  <p>In production, if I change the model, I can't clean all data!</p>  <p>just know how to migrate items.</p>

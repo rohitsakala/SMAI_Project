@@ -1,0 +1,1 @@
+<p>I am running ubuntu 12.0.4 LTS on my controller. I was trying to install qt4-make using apt-get, but I am getting a message that the package is not found. I need this to make and compile a file. How can I install this ? Also, is there any alternative I can download ? I even tried sudo apt-get install libqt4-* . Still nothing happens.</p>

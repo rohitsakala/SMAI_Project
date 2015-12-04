@@ -1,0 +1,1 @@
+<p><strong>Swift allows variables to be declared but not initialized</strong>. How can I check if a variable is not initialized in Swift?</p>  <pre><code>class myClass {} var classVariable: myClass // a variable of class type - not initialized and no errors! //if classVariable == nil {} // doesn't work - so, how can I check it? </code></pre>

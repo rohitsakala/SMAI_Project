@@ -1,0 +1,1 @@
+<p>Is there an expression or anyway of identifying the first column in a column grouping? I'd like the first column in the row to have a certain value and the rest another. </p>  <p>Like this:</p>  <pre><code>If column in group = first, then firstValue, else otherValue </code></pre>  <p>I've been looking and looking and cannot find an answer to this. </p>

@@ -1,0 +1,1 @@
+<p>I have multiple Spring Redis Template with diffrent serializers. Can I use same JedisConnectionFactory instance for both?</p>

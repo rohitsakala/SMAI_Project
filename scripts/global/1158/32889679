@@ -1,0 +1,1 @@
+<p>I have subclassed <code>QStandardItem</code> and I need to clone some items. But the <code>clone</code> method doesn't clone child items. Do you know how I can clone items with children?</p>

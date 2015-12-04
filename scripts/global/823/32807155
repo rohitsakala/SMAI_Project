@@ -1,0 +1,1 @@
+<p>Is it possible to using 4GB ram in real mode through enabling A20, without switching to protect mode, and without loosing BIOS interrupts?</p>

@@ -1,0 +1,1 @@
+<p>I'm questioning the structure of a cl makefile.</p>  <p>I have the changes in place discarding gcc replacing with cl.</p>  <p>How do I tell the compiler where the include files are for the .C files that it is compiling?   Does the same -I tag work that is used in a gnu type makefile?</p>

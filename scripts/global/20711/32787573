@@ -1,0 +1,1 @@
+<p>Unlike C/C++ java enum is an object. Enum can be used in switch case statements. Where as Objects of class cannot be used. Is there any reason behind this ?</p>

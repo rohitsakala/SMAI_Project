@@ -1,0 +1,1 @@
+<p>I recently upgraded the mysql database on a perfectly functioning web app to MariaDB. Now I am unable to get it working because it is not connecting to the database. </p>  <p>My dbdriver is set to 'mysqli'.  I tried setting it to 'mysql' but I got different error. </p>  <p>Is is possible to have these both working together?</p>

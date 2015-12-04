@@ -1,0 +1,1 @@
+<p>I have some png's with different shapes and I arranged them on a website with position:absolute. The images itself are not overlapping but the transparent part of the png's are. Because of that I can't do any hover effects or events on the images.</p>  <p>How can I get around this?</p>  <p>Thank you!</p>

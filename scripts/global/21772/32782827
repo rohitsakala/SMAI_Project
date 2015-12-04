@@ -1,0 +1,1 @@
+<p>I want to align the text to the layout. In build.gradle I install bluejamesbond library that contains DocumentView element. All workes fine, but I have little problem: this DocumentView located in layout file, which set in the listview. After that listview not responding on click. clickable = true does not help. If i change DocumentView on the TextView all work. </p>

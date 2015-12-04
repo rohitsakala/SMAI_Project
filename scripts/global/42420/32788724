@@ -1,0 +1,1 @@
+<p>When using Visual Studio 2015 with Android NDK, I don't see any logging output in the output window in Visual Studio.</p>  <p>I'm using:</p>  <pre><code>__android_log_print(ANDROID_LOG_INFO, "Tag", "%s, %s %s:%d", imessage, ifunction, ifile, iline); </code></pre>  <p>How do I get the logging to show up in the output window? (I'm running from the device)</p>

@@ -1,0 +1,1 @@
+<p>Font is not applied if any number in font name .</p>  <p>EG:- font-family:"3 grammes 5"</p>  <p>Other Eg:- "grammes 5" ,"3 5 grammes" ,"3 grammes 5"</p>

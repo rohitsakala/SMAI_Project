@@ -1,0 +1,1 @@
+<p>I need to write an array for the if statement~</p>  <pre><code>if (EZInteraction.wasMouseLeftButtonReleased()){        if (hatPicture.isPointInElement(clickX, clickY)){         hatsound.play();     } } </code></pre>  <p>How would I go about doing this? My goal is to click on an image and have a sound play.</p>

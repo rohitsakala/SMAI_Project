@@ -1,0 +1,1 @@
+<p>Suppose I have a query <code>SELECT * FROM employee WHERE salary &lt; :salary_limit</code> that should be executed thru ODBC. Using ODBC API, I can get, for example, the number of parameters in my query (<code>SQLNumParams</code>), but how do I get parameter names?</p>

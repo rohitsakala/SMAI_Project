@@ -1,0 +1,1 @@
+<p>Thank you @Telmo for pointing out that we have to use FileConnection instead of File class functions in J2ME. How can I override functions in J2ME?</p>

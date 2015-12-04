@@ -1,0 +1,1 @@
+<p>I have a list <code>[1,2,3,...,13]</code> and a list <code>['clubs','hearts,'spades','diamonds']</code>. How do I make a list of tuples looking like... <code>[(1,hearts),(1,clubs),(1,spades),(1,diamonds),(2,hearts)...</code> and so on?</p>  <p>I have tried using a list comprehension but can't figure it out.  </p>

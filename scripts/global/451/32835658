@@ -1,0 +1,1 @@
+<p>how to read a double number and store the digits of fraction &amp; integer part into 2 different arrays. Example: if Num = 5643.0662, then intArr[] should be {5, 6, 4, 3} and fractionArr[] should be {0, 6, 6, 2}</p>

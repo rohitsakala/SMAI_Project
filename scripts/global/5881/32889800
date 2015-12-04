@@ -1,0 +1,1 @@
+<p>I have an array as follows </p>  <p>array = { a a a a b b b c c c c c c}</p>  <p>in the above array "a" is accured 4 times , b is 3 times , c as 6 times</p>  <p>could you help me with  the proc to get the output as 6 if my input is above array</p>  <p>Thanks</p>

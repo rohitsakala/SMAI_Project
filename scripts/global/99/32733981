@@ -1,0 +1,1 @@
+<p>Modern filesystems use b-tree indexes as they are well suited for disk-storage minimising I/O. But are there situations where inode indexes are good enough?</p>

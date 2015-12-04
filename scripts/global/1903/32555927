@@ -1,0 +1,1 @@
+<p>It is okay if I use the visual studio's iis server. However the project doesn't work if I use local IIS Server on my computer. </p>  <p>The error is "ExceptionMessage=Invalid column name 'GuidId'.Invalid column name 'ModifiedDate'." </p>  <p>Even though I don't have such columns.</p>

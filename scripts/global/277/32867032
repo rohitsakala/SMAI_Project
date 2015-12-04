@@ -1,0 +1,1 @@
+<p>For in-house Wordpress development, I have had the luxury of using PhpStorm + Xdebug. I am wondering, how do you debug on a customer site when it's unlikely they have a debug extension installed and hesitant about installing additional Wordpress debug plugins? Is good ol' <code>var_dump</code> the only answer?</p>

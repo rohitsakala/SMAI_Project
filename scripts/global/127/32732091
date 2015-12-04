@@ -1,0 +1,1 @@
+<p>I was trying to integrate GtkCurve widget within my app, but when I compile the code an error shows that <code>gtk_curve_new</code> is undefined, after searching I found that GtkCurve was removed from GTK+3. Is there any way to use GtkCurve widget with Gtk+3 otherwise, is there a library which I can integrate with my GTK+3 app and replace the GtkCurve behavior ?</p>

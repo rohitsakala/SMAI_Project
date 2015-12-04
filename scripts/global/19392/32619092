@@ -1,0 +1,1 @@
+<p>I have created a Liferay Web Content Structure and Template. This Structure contains an image that can or can not be set. If the image is not set then I do not want to render an IMG tag.</p>  <p>How can I determine in my template if the picture is set / present ?</p>  <p>Best regards,</p>  <p>Daniel</p>

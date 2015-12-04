@@ -1,0 +1,1 @@
+<p>Can I <code>%memit</code> and <code>%timeit</code> an IPython cell at the same time?<br> How many times will it run then in case below?</p>  <pre><code>%memit -r 3 %timeit -r 2 my_awesome_function() </code></pre>

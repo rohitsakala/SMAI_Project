@@ -1,0 +1,1 @@
+<p>I have a string something like this:</p>  <pre><code>&lt;BU Name="xyz" SerialNo="3838383" impression="jdhfl87lkjh8937ljk" /&gt; </code></pre>  <p>I want to extract values like this:</p>  <p>Name = xyz SerialNo = 3838383 impression = jdhfl87lkjh8937ljk</p>  <p>How to get these values in C#?</p>  <p>I am using C# 3.5.</p>

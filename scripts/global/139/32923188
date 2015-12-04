@@ -1,0 +1,1 @@
+<p>I wanted to know how to separate the words in a String for example if I have a string </p>  <pre><code>str = "This is a computer";  </code></pre>  <p>I want to implement a method in each of the words of the string separately and the space is going to be the separator. After that I want to return the words in the implemented way in an only new <code>String</code>. </p>

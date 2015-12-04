@@ -1,0 +1,1 @@
+<p>This issue not occurring every time.</p>  <p>After selecting the camera for image capturing it will show image preview screen. When we click on the ok button it will save the image and then navigates to onActivtyResult method of my fragment.</p>  <p>Sometimes image is getting saved and onActivtyResult is not being called. It should call onActivityResult.</p>

@@ -1,0 +1,1 @@
+<p>When I run sql query spark-sql will use LRU cache.  Why LRU cache usage doesn't reflects in spark's WebUI? According responce time I feel my queries cached, but "Memory Used" says "0.0 B / 707.0 MB" Spark version is 1.3.1</p>

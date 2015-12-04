@@ -1,0 +1,1 @@
+<p>I'm doing this in CMD :</p>  <p><code>php -f index.php </code> I want to run this code constantly in CMD even error happen, How can I make force to run this command ?</p>

@@ -1,0 +1,1 @@
+<p>I am having a bit of trouble determining OCaml Types. Why is the type for the following expression for:</p>  <p>let f x y z = z (y::x)</p>  <p>'a list->'a->('a list->'b)->'b</p>  <p>And what does the z (y::x) mean? I know y::x means to append an element y to list x, but what does the z do?</p>  <p>Thanks!</p>

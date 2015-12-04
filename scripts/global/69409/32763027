@@ -1,0 +1,1 @@
+<p>I have a graph on which i can perform panning using right click. This works perfectly. Then i added menus on right click perfectly</p>  <p>Problem is that "Now right click menus are shown even on mouse release after drag operation completions". Is there a way to differentiate-</p>  <p>-mouse release and mouse release after mouse drag in java swing or javafx?</p>

@@ -1,0 +1,1 @@
+<p>Is there any way to create git tag with forward slash in its name when I already have the similar-looking one?</p>  <p>Suppose that I have "1.16.0" tag and I want to create "1.16.0/1.0.0" tag:</p>  <pre><code>$ git tag "1.16.0/1.0.0" error: 'refs/tags/1.16.0' exists; cannot create 'refs/tags/1.16.0/1.0.0' fatal: refs/tags/1.16.0/1.0.0: cannot lock the ref </code></pre>

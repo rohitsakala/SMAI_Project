@@ -1,0 +1,1 @@
+<p>Below is the problem,</p>  <p>There is a directory,Lets called is user/mydir<br/> Is it possible to trigger  a jenkins job on any change to this direcory (eg:copy a file , delete a file ,create a file in the directory).<br/></p>  <p>Any feedback will be really helpful.<br/></p>

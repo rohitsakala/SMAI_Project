@@ -1,0 +1,1 @@
+<p>I went through difference in after_save and after_commit callbacks in rails and major difference I found is after_commit calls both on create and update,is there a way to call after_commit only on create?? </p>

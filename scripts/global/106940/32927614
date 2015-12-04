@@ -1,0 +1,1 @@
+<p>I would like to store some json data on one of the table's column. Eg.</p>  <pre><code>{option: 1, status: false} </code></pre>  <p>What is the column type be set as, long text? And is the storing json part using attribute casting ?</p>

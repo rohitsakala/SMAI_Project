@@ -1,0 +1,1 @@
+<p>I have a database which is almost full and we have some options to deal with this:</p>  <ol> <li>we can increase the db file size</li> <li>shrink the database</li> </ol>  <p>Before I choose the first option, I want to know how can I check the database size and how much data is really in there so that I may can shrink the database to get some free space.</p>

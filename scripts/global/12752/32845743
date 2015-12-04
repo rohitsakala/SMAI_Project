@@ -1,0 +1,1 @@
+<p>I wrote my first Firefox addon and everything works fine. But since I wrote an "install.rdf", the script in "index.js" no longer gets executed. The installation works without complaints but just the script doesn't seem to run any more.</p>  <p>What could have gone wrong and how can I debug this problem?</p>

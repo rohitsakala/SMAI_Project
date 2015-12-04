@@ -1,0 +1,1 @@
+<p>I'm trying to write a java program that generates a million random numbers, and then use Bubble Sort, Insertion Sort and Merge Sort to sort them. Finally I want to display the runtime in nanoseconds of each sorting algorithm. Is there a class in Java that allows me to do so? </p>

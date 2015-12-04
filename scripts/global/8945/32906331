@@ -1,0 +1,1 @@
+<p>How can I prevent Android Studio to delete the imports with a wildcard if with the <strong>Editor > General > Auto Import > Optimize imports on the fly</strong> option is enabled?</p>  <p>In example with this option all my tests get the junit.Assert import deleted before I can use it</p>  <pre><code>import static org.junit.Assert.*; </code></pre>

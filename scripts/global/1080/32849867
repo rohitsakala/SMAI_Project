@@ -1,0 +1,1 @@
+<p>There is a polyline going through points (0, 0) – (x, x) – (2x, 0) – (3x, x) – (4x, 0) – ... - (2kx, 0) – (2kx + x, x) – ....</p>  <p>We know that the polyline passes through the point (a, b). Find minimum positive value x such that it is true or determine that there is no such x.</p>

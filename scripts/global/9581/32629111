@@ -1,0 +1,1 @@
+<p>I have tried to use the saveAsTextFile() function in PySpark 1.3.1; however, there will be an exception that Output directory already exists, if I did not delete the existing directory. I was wondering that is there a way to store a spark RDD incrementally to an existing folder without overwrite?  </p>

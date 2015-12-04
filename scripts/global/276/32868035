@@ -1,0 +1,1 @@
+<p>I have two almost identical databases but with different names. I want to create a universal SQL for both. So get the database name and then use the table from that. Can I do that?</p>  <p>Code:</p>  <pre><code>SELECT @db := DATABASE();  SELECT   * FROM   @db.table1 t1 INNER JOIN   @db.table2 t2 ON t2.id = t1.table2_id; </code></pre>  <p>Thanks in advance...</p>

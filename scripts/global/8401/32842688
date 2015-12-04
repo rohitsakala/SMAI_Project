@@ -1,0 +1,1 @@
+<p>In case of <strong>POST</strong> method I am not getting any response under Response Data section, while I did not receive any error in my test plan. This happens only for <strong>Post and Get</strong> method and for rest of the others it is working.</p>

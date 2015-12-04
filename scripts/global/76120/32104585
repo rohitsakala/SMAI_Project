@@ -1,0 +1,1 @@
+<pre><code>  = link_to 'AdWords Info', admin_settings_adwords_path, :class =&gt; ('active' if params[:action] == 'adwords') </code></pre>  <p>class to add- :class => “links1"</p>

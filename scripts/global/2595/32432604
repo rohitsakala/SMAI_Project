@@ -1,0 +1,1 @@
+<p>Is there a way to investigate the arguments of a function call from the javascript developer console (am using chrome but any will do)?</p>  <p>[I am currently trying to find the signature for webkitGetUserMedia() but have found no documentation anywhere and the console rather unhelpfully only tells me that it is native code without so much as the number of arguments]</p>

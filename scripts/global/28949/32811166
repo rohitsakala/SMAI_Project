@@ -1,0 +1,1 @@
+<p>I was hoping I could just do:</p>  <pre><code>sprite.color = cc3(0, 0, 0); </code></pre>  <p>But, that does not seem to work.</p>

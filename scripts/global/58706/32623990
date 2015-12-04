@@ -1,0 +1,1 @@
+<p>Working with an application based in Sencha Touch I need to get total amount of a store but with a previous filter implemented.</p>  <p>I can do <code>store.getCount()</code> and to know the total records of a store, but How to know total records with a previous filter?</p>  <p>Thank you in advance</p>

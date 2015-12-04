@@ -1,0 +1,1 @@
+<p>I'm developing a REST-API in asp.net MVC that is dependent on information from another REST-API.</p>  <p>In my case I want some requests to merge movie data from my application database with additional movie information from the other API.</p>  <p>What is the best practice here? Should this generally be done in the controller, the model or some other way?</p>

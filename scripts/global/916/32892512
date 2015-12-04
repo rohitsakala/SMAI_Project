@@ -1,0 +1,1 @@
+<p>I am using Python's <a href="https://docs.python.org/2/library/turtle.html" rel="nofollow">turtle</a>.</p>  <p>I am trying to make the font of the writing bigger:</p>  <pre><code>&gt;&gt;&gt; tina.write("WORDS") </code></pre>  <p>I don't know how to make it do anything different.</p>  <p>How can I change the font size?</p>

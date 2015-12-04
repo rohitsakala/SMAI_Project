@@ -1,0 +1,1 @@
+<p>I want to get a list of all the tables in all the DBs like: <code>db_name, table_name, card</code></p>  <p>I tried <code>sysibm.tables</code>, <code>syscat.tables</code> &amp; <code>sysibm.systables</code> but they all relevant to the current DB I'm connecting to..</p>  <p>what basically I'm looking for is equivalent to DBA_TABLES / CDB_TABLES in oracle..</p>

@@ -1,0 +1,1 @@
+<p>forgive me as I'm new to scripting.. but I'm curious what can be done to take 50+ .txt files in the structure of firstname_lastname_dateofbirth_dateofservice and to parse by "_" and then move to an excel sheet, so ideally the excel sheet would have columns of:</p>  <p>First Name / Last Name / DOB/ Date of Service</p>  <p>Thanks!</p>

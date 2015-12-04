@@ -1,0 +1,1 @@
+<p>How can i set a background color for a sftTree combobox.</p>  <pre><code>ViewSftTree-&gt;StartCombo(Index, ColNum, sList, ","); </code></pre>  <p>When drop down list is shown from above line, i want to apply background color for the drop down list</p>

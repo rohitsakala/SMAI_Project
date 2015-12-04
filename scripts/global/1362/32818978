@@ -1,0 +1,1 @@
+<p>How can I automatize this task?</p>  <p>I have thought using chron, but since it's a MySQL query I don't know how to do that.</p>  <p>This is the query:</p>  <pre><code>select ID, Login, Password from Users into outfile '/tmp/users.csv' fields terminated by ',' enclosed by '"' lines terminated by '\n' ; </code></pre>  <p>Thank you in advance</p>

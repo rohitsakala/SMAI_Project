@@ -1,0 +1,1 @@
+<p>I have very simple setup. There is MainWindow and a QTableWidget in it. I want to resize the table width according to main window when the main window expands. I realy have no idea how to set "sizePolicy" in QTable and QMainWindow to make this work. I use QT Designer from QT 5.5.0.</p>  <p>Thanks in advance</p>

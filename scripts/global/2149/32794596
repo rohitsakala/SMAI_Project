@@ -1,0 +1,1 @@
+<p>Not able to understand <code>MyClass.class.getClassLoader()</code>. What is <code>.class</code> here? Is it a reference of <code>class</code> Class ? </p>  <p>Then what is the difference in getting <code>ClassLoader</code> info using reflection ?</p>

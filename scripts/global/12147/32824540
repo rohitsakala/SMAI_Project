@@ -1,0 +1,1 @@
+<p>I had a webservice which I called at the start of my application for update my local db. Also, it arrive I insert some data in local without call my webservice to add on it. So I would like to know what is the best practise to avoid duplicating id or erase of my data when I update.</p>  <p>Thanks in advance.</p>

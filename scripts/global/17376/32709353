@@ -1,0 +1,1 @@
+<p>I have one admin page. Where I want to add some link such that on click on that link pop up should be visible where we can set some value and alert something. I Don't want to post something in back end. So How we can achieve this without downloading change_list.html and change_form.html from default django site packages.?</p>

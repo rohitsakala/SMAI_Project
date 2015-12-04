@@ -1,0 +1,1 @@
+<p>You always see code like </p>  <pre><code>project(':bluewhale').hello  </code></pre>  <p>This doesn't seem to be Groovy syntax, what is it?</p>

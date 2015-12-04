@@ -1,0 +1,1 @@
+<p>I've adopted iOS9 ATS requirements, but want to be able to open my users websites in a UIWebView. Since I dont know which adresses they have and cannot require them to use https I cant see how I can load their websites.</p>  <p>The only idea I have is to open their website externally in the Safari app.</p>  <p>Any suggestions would be appreciated?</p>

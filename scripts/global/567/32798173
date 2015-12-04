@@ -1,0 +1,1 @@
+<p>I need to get the internet bandwidth of my website's users, download is simple, but my <code>POST_MAX_SIZE</code> for upload is <code>5MB</code>, and i currently can't change it. Is 5 megabytes enough for precise measurement of upload speed?</p>

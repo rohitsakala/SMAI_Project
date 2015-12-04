@@ -1,0 +1,1 @@
+<p>I'm creating a game engine in c++. I'm looking for a way to store textures, sounds, etc. in package file like a .vpk (valve's extension).</p>  <p>Is there a way to create my own file extension to pack files using c++ program and use it with my c++ game engine without extracting files inside the package to other folder Thanks! </p>

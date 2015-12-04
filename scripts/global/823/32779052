@@ -1,0 +1,1 @@
+<p>In ring level in x86 processors there are four ring level 0,1,2,3.  Ring level 0-used for Operating system Ring level 3-used for user application I am able to understand what is use of other two levels ?</p>

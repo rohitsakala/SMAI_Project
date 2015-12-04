@@ -1,0 +1,1 @@
+<p>In pure PHPUnit mocking I can do something like this:</p>  <pre><code>$mock-&gt;expects($this-&gt;at(0))     -&gt;method('isReady')     -&gt;will($this-&gt;returnValue(false));  $mock-&gt;expects($this-&gt;at(1))     -&gt;method('isReady')     -&gt;will($this-&gt;returnValue(true)); </code></pre>  <p>I was not able to do the same thing using Prophecy. Is it possible?</p>

@@ -1,0 +1,1 @@
+<p>I am facing problem in accessibility voice over, and using Sencha touch 2.3 </p>  <pre><code>xtype:'list' </code></pre>  <p>When try to scroll in mode voice over the app say page 1 of 1 same to be not recognize scroll.</p>  <p>I check Sencha forum and not support 2.3 scroll in voice over. is 2.4 support ? is there any workaround to solve the problem  </p>

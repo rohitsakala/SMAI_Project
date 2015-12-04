@@ -1,0 +1,1 @@
+<p>I am doing some html/js/webrtc work with the webcam.  Even though I am hosting files from the web server on my machine (thus 127.0.0.1), Chrome asks me whether its ok to use the camera every time I reload the page.  </p>  <p>How can I get it to stop?</p>

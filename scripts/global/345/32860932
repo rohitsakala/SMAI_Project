@@ -1,0 +1,1 @@
+<p><code>Rethinkdb</code> IO reaches 100% whenever there is a data upload. The load reaches near about 50. Is this a common phenomenon, or do we need to do some optimizations here?</p>

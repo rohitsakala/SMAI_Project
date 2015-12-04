@@ -1,0 +1,1 @@
+<p>I want to close and hide the <code>MessageDialog</code> in Windows Phone 8.1 RT. I've seen multiple solutions from calling <code>.Cancel()</code> and <code>.Close()</code>, but none work on Windows Phone 8.1 RT; they're valid only for Windows 8 RT.</p>  <p>How can I close the <code>MessageDialog</code> from code without interacting with it?</p>

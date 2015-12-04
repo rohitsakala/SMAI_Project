@@ -1,0 +1,1 @@
+<p>I have a field of type <code>Set&lt;MessageType&gt;</code> Set where MessageType is Enum. How to properly annotate in order to map with Cassandra mapper. </p>  <p>There is an option ignore enums and just use Set but it feels wrong so I am looking for a more smart option.</p>

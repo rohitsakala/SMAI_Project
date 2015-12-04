@@ -1,0 +1,1 @@
+<p>I can successfully list users from WSO2 IS using listUsers of RemoteUserStoreManager soap service call. There is only two options that we can pass. One is filter and other is max limit. However there is no paginated service call for the same. Is there any way possible to achieve the same? For example I want to query users from only 10-20. </p>

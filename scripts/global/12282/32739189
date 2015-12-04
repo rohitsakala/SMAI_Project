@@ -1,0 +1,1 @@
+<p>input: rsp (iid 1, rc 0, data (connectId 1, side active));</p>  <p>output:</p>  <p>iid 1</p>  <p>rc 0</p>  <p>value of <strong>data</strong> ,what it contains in the brackets '(---)' ?</p>  <p>and how can i get value of : data (connectId 1, side active) in output...!!</p>  <p><strong>note</strong>: Input will be same format,but differs values every time.!</p>

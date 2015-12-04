@@ -1,0 +1,1 @@
+<p>I'm making a keyframes animation with css using the :hover selector. When I move my mouse out of the element, the animation immediately stops. Is there a way to get it to run the animation in reverse from where it stopped, and if not, is there a way to make sure the animation completes before another can begin?</p>

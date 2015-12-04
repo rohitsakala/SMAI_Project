@@ -1,0 +1,1 @@
+<p>I have installed postfix , dovecot , squirrel mail, i need to know which is better for storing emails file system or database?</p>  <p>1.system is used for storing mails for 100 people.</p>  <p>2.i am using rasberry pi 2 model b+ as a hardware with 16gb memory card.</p>  <p>3.if necessary i am willing to create cluster if users increases.</p>

@@ -1,0 +1,1 @@
+<p>I want to get remote notification received time in ios objective c, but i don't want to use current date and time code in didReceiveRemoteNotification method. I want to get exact time of notification received from Notification object. Is it possible and how to do it? Advance Thanks for any help !</p>

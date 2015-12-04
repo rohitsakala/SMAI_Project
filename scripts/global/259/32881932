@@ -1,0 +1,1 @@
+<p>I have a dataset of around 300.000 vectors, randomly placed around the earth using lattitude and longitude. Say that I'm at 51.9167° N, 4.5000° E, how do I find all vectors around me in a radius of, for example, 100km? Plain math is preferred. Java and pseudo code are fine too.</p>

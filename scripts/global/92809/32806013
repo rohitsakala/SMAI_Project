@@ -1,0 +1,1 @@
+<p>I want to change the Navigation bar title of the second view controller to show the name of a "var wordNames" (Array of words), I got an error "Value of type '[String]' has no member 'string'" happens the same if I change to title = wordNames.text </p>  <pre><code>title = wordNames.string </code></pre>  <p>Any help is more than welcome :)</p>

@@ -1,0 +1,1 @@
+<p>I have a dropdown menu with 3 values and depending on what value you select in the menu I want the textarea MaxLength to change. Is this possible or can it work?</p>  <p>I have looked at jQuery val() and change() but not got it to work. </p>  <p>/best regards</p>

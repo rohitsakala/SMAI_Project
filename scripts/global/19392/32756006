@@ -1,0 +1,1 @@
+<p>I am using velocity in liferay theme. </p>  <p>In init_custom.vm file I want to include CSS for both English and Arabic. </p>  <p>Which CSS works where it depends on present locale selected? </p>  <p>Like:</p>  <pre><code>If(locale=="eng"){  my eng css } else{  my arbic css } </code></pre>  <p>How do I write this in velocity? </p>  <p>Please give some idea or details.</p>

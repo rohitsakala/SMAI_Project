@@ -1,0 +1,1 @@
+<p>When trying to initialize haml-coffee into my Guardfile, I get these messages in my terminal</p>  <pre><code>Could not load 'guard/haml-coffee' or '~/.guard/templates/haml-coffee' or find class Guard::Hamlcoffee ERROR - Error is: No such file or directory - /Users/tommybstitch/.guard/templates/haml-coffee </code></pre>  <p>What do I do to get this plugin to work? Thanks!</p>

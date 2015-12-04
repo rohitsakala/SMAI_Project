@@ -1,0 +1,1 @@
+<p>how can I set radio button checked by default in Weebly using html and css? I'am trying to do something like this:</p>  <pre><code>.wsite-form-radio-container input { checked: "checked"; } </code></pre>

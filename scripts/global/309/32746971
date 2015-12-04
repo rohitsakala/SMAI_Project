@@ -1,0 +1,1 @@
+<p>I am storing entries inside of a database and I would like to store a 3D vector in a field and then later select all rows within X distance of a 3D Vector given. I am thinking storing X,Y, and Z in its own fields and then doing basic greater then and less then signs, but is there a better way I am overlooking?</p>

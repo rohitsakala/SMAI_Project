@@ -1,0 +1,1 @@
+<p>I need a little help with creating a recurrence relation for the Basic Operation for the following recursive algorithm: </p>  <pre><code>int D(int n) {   if (n==0) {     return 0;   }   return D(n - 1) + D(n - 1); } </code></pre>  <p>I think the basic operation for this is addition but I am having trouble setting up the recurrence relation</p>

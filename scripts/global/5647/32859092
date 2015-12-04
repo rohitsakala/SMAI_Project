@@ -1,0 +1,1 @@
+<p>In my project we would like to enable build <code>timeout</code> for particular Hudson jobs. But the requirement is even if timeout occurs the <code>downstream</code> jobs should get triggered.</p>  <p>Is this possible anyway? </p>  <p><h3><b>Please help!</b></h3>.</p>

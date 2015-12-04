@@ -1,0 +1,1 @@
+<p>I am trying to build chrome extension that will invoke function on specific ( what the user select) text areas. My problem: I can't invoke my fuction on information outside the extension. I would like to know which permission I need to write in my manifest to get access to the text areas. Thank you.</p>

@@ -1,0 +1,1 @@
+<p>I'm about to start a game and I will be using spritekit but for the Menu screen and some other generic screens I can easily do it using storyboard. Is it a good practice to mix storyboard and Spritekit? Any downs of why I shouldn't do this? Or should i just stick to doing all scenes in spritekit? </p>

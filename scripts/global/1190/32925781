@@ -1,0 +1,1 @@
+<p>Is there a possible way to redirect a user to a specific page after an amount of time? For example, 3 seconds.</p>  <p>I have already used the built-in function redirect from Slim, but it takes no arguments related to time. How can I use it to redirect after 3 seconds?</p>  <pre><code>$app-&gt;redirect("/new_project/contact"); </code></pre>

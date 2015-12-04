@@ -1,0 +1,1 @@
+<p>I am developing an application. I downloaded the Windows phone toolkit for using the phonetextbox. When i try to create a phone text box control, the control is not rendering in the XAML designer. But it is running in the emulator or phone. I am using Visual studio 2013 community edition</p>  <p>What might be the problem?</p>

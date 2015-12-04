@@ -1,0 +1,1 @@
+<p>I'm debugging a programmer with ollydbg and I saw on the buffer, there are datas already written and it's not supposed to be because it must be empty at the beginning (before the program starts). Can someone explain why?</p>

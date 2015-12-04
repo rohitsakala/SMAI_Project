@@ -1,0 +1,1 @@
+<p>I'm running an Ubuntu Instance and am monitoring processes on it. I see that google is running a lot of code, including dpkg. is there a way to stop the instance to do that, anywhere I review and decide which scripts are to run automatically by google?</p>  <p>thanks.</p>

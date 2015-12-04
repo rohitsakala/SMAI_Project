@@ -1,0 +1,1 @@
+<p>Is there anyway to get this code</p>  <pre><code>&lt;ol&gt;   &lt;li&gt;num&lt;/li&gt; &lt;/ol&gt;  &lt;ul&gt;     &lt;li&gt;num&lt;/li&gt; &lt;/ul&gt;  &lt;ol&gt;   &lt;li&gt;num&lt;/li&gt; &lt;/ol&gt; </code></pre>  <p>to display </p>  <pre><code>1. num    . num 2. num </code></pre>  <p>I need the number to continue even the ol is not continuous.</p>

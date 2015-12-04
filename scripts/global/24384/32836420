@@ -1,0 +1,1 @@
+<p>How to implement swipe to reveal cell from both right and left side using auto layout and swift.</p>  <p>For example when user swipe to right side I need to reveal some labels and if user swipe to left side I want to reveal some buttons.</p>

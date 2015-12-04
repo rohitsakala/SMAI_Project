@@ -1,0 +1,1 @@
+<p>I have a field called FNAME which contains the first name of an employee. For my output I want to show only the first letter of their name. </p>  <p>For example, if their name is "Frederic" I want it to output "F" for their first name. </p>  <p>How would I manipulate this to get only the first letter? Do I do it with EDTWRD in my PRTF file?</p>

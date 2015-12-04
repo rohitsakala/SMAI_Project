@@ -1,0 +1,1 @@
+<p>I am wondering if the symbol <code>&gt;</code> <em>always</em> needs to be converted into <code>&amp;gt;</code>, if the input is coming from a user? I could understand that <code>&lt;</code> (<code>&amp;lt;</code>) would need to, since the next characters could be interpreted as HTML, but what harm could <code>&gt;</code> have?</p>

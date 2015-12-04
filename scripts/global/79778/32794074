@@ -1,0 +1,1 @@
+<p>I'v a progressbar and an image. When Progress Bar value is 50, image loaded by 50%. I tried to add image as the progressbar foreground, but it have green shade. So ugly.</p>  <p>How can I do this?</p>

@@ -1,0 +1,1 @@
+<p>Need help in removing the last string of breadcrumb.</p>  <p>Field1:</p>  <p>Home > Main Category > Sub1 > Sub2 > Item</p>  <p>Home > Main Category > Sub1 > Item</p>  <p>Output:</p>  <p>Home > Main Category > Sub1 > Sub2</p>  <p>Home > Main Category > Sub1</p>  <p>Any help is highly appreciated.</p>  <p>fgwapo </p>

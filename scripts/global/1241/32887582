@@ -1,0 +1,1 @@
+<p>I have object TextLayer with white text color string. Then I animate text color selection (second character changes color white -> blue).</p>  <p>How can I get this selection and color programmatically?</p>

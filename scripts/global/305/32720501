@@ -1,0 +1,1 @@
+<p>In the web application I am currently building, my client insists that he is able to input decimal numbers using comma "," as the separation point. Is there any annotation equivalent to the following:</p>  <pre><code> @DateTimeFormat(pattern = "dd/MM/yyyy") </code></pre>  <p>so that the cast can made automatically or do I have to manually convert the input ?</p>

@@ -1,0 +1,1 @@
+<p>On click of bootstrap modal window, i need to close the entire window. I know window.close() is no more supported by Chrome. Is there any jquery command or any third party plugin to acheive this?</p>  <p>Existing solutions are not working to me.</p>

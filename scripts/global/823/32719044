@@ -1,0 +1,1 @@
+<p>If we have an instruction, say <code>push 0</code>, how is the size of the operand specified if we don't add <code>word ptr</code> or <code>dword ptr</code> or something similar? It assembles without any errors, by the way.</p>

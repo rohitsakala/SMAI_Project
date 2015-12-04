@@ -1,0 +1,1 @@
+<p>I am working on camel restlet. I have to do a kind of Authentication/Authorization before allowing the client to access the restlets. Something like check the header for a API key.</p>  <p>How to add a filter, just like we do for Servlet?</p>

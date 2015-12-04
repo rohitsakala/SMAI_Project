@@ -1,0 +1,1 @@
+<p>In git we do:</p>  <pre><code>$ git check-ignore -v build .gitignore:3:/build     build </code></pre>  <p>Is there any way to determine why a file is being ignored by <code>hg</code>?</p>

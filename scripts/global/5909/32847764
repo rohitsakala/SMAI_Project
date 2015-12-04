@@ -1,0 +1,1 @@
+<p>In my game I give 5 seconds to answer each question. If a user selects the correct answer then I show him/her the next question. If a user can't answer the question, the level is set to the first question (each question is a level). </p>  <p>How can I put a timer in my code?</p>

@@ -1,0 +1,1 @@
+<p>I am trying to access the database that is login and am using a local port </p>  <p><strong>ie:</strong> <code>localhost:8000/admin</code></p>  <p>when i try to login in using the port i get the error </p>  <blockquote>   <p>"Error!: SQLSTATE[HY000] [2005] Unknown MySQL server host 'HOST' (20)"</p> </blockquote>

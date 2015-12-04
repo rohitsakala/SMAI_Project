@@ -1,0 +1,1 @@
+<p>How to retrieve the the em space[M] property value in word using interop.</p>  <p>I have a word document, with Em space special symbol present in it, now I want to retrieve the Em space property for interop in word.<br> I am new to code using interop c#.</p>

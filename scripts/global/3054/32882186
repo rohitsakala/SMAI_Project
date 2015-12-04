@@ -1,0 +1,1 @@
+<p>Example no 1:</p>  <pre><code>$something = [1,2,3,4] foreach ($something as $key =&gt; $value) {     //code code code } $something2 = []; </code></pre>  <p>I can't find clear answer about new live before and after foreach, what PSR-2 say about that ?</p>

@@ -1,0 +1,1 @@
+<p>I need to generate unique string using pattern. let's say I want to have string that should have 3 numbers and 4 letters (###@@@@  - for example 123ABCD or 736HYGR or 582POMM) and I need it to be unique in my SQL Server Table. I use Spring and hibernate technology for my project - is there any way to generate such unique string?</p>

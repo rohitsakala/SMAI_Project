@@ -1,0 +1,1 @@
+<p>Hi I'm trying to apply for jobs on indeed.com assisted by a script written in casperjs but the problem is that when i try to access </p>  <pre><code>http://www.indeed.com/account/login?dest=%2F </code></pre>  <p>The page is not loaded. Everywhere else is working relatively good. Any questions?</p>  <p>Thanks</p>

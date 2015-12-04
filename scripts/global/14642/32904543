@@ -1,0 +1,1 @@
+<p>I am quite new in magento and updated a  store from 1.6 to 1.9.  If i want to see all orders under my account -> orders(<code>http://localhost/en/sales/order/history/</code>) there appears only a white page. No errors are given no entrys in Apache error log. The AdminPanel is shown correctly. I got no idea how to fix it. Hope u can help me out.</p>

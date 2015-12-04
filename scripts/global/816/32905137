@@ -1,0 +1,1 @@
+<p>I have huge no. of points (about million) in 2D plane. I want to group them into cells defined by a square grid of fixed length (each cell side is 3). I don't need no. of points in a given cell rather I need the information about the cell in which given point is. What would be the best and fast way to do this? Is there a python package which can be used?</p>

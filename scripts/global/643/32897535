@@ -1,0 +1,1 @@
+<p>Is there still a reason to use these attributes on iframe videos, or have they been completely phased out in favor of <code>allowfullscreen</code> in modern browsers? Can't find information regarding their deprecation.</p>

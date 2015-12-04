@@ -1,0 +1,1 @@
+<p>I have OptimizePress installed, and I'm trying to add this code to go above the header</p>  <pre><code> &lt;?php echo 'temp3'; define('ROOT', $_SERVER['DOCUMENT_ROOT']);  session_start(); require_once(ROOT. </code></pre>  <p>However, whenever I call it, it's not added anywhere, so I'm assuming I'm adding it into the wrong file.</p>  <p>What should I change?</p>  <p>Tom</p>

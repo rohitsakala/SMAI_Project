@@ -1,0 +1,1 @@
+<p>I'm trying to have a select menu and a button inline, same width as surrounding lines, see this: <a href="http://jsbin.com/hibatehepe/edit?html,output" rel="nofollow">http://jsbin.com/hibatehepe/edit?html,output</a></p>  <p>Here it's done with field-container, but the select menu should be wider.  Any ideas please? </p>

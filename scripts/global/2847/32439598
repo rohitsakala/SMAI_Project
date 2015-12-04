@@ -1,0 +1,1 @@
+<p>We are using Builder::XmlMarkup for creating the XML with Ruby On Rails. Can someone tell me Builder::XmlMarkup is vulnerable to 'External Entity Reference ('XXE')' attack?</p>  <p>Thanks, Tushar</p>

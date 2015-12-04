@@ -1,0 +1,1 @@
+<p>Is there any way to get this query with QueryDSL?</p>  <pre><code>select person.name, count(neighbors.*)  from person, person as neighbors where person.adress = neighbor.adress group by person.name </code></pre>  <p>Adres is not a FK.</p>

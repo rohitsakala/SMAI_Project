@@ -1,0 +1,1 @@
+<p>Are someway <em>schemaless</em> URIs supported by <a href="https://github.com/request/request" rel="nofollow">request</a> module?</p>  <p>I can't find any reference in the docs, nor googling.</p>  <p>Trying to request a schemaless URI (<code>//www.example.com/</code>), it grumbles <em>"Error: Invalid URI"</em>...</p>

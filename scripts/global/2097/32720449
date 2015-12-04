@@ -1,0 +1,1 @@
+<p>Is there, in C++11, something along the line of an object of type <code>Iterator&lt;T&gt;</code> which just stores an iterator without knowing what std container the iterator stems from, only the type of data the container stores?</p>  <p>If such an object does not exist, what is the reason for it's absence?  </p>

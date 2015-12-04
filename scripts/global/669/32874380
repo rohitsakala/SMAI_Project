@@ -1,0 +1,1 @@
+<p>I need to use the Microsoft.SharePoint.WebPartPages.ToolPart class, but I'm developing an on-premise provider hosted app so I can only use the Microsoft.SharePoint.Client library.</p>  <p>Does anybody know what class I can use instead of Microsoft.SharePoint.WebPartPages.ToolPart?</p>  <p>Thanks </p>

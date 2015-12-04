@@ -1,0 +1,1 @@
+<p>I am working on a project involving rest web services. I need to invoke them from apache camel and read in its documentation that cxfrs is the required component but there is no detailed explanation on how to do so. Can anybody please help?</p>

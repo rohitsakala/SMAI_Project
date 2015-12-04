@@ -1,0 +1,1 @@
+<p>my app get data from a php web service and return a NSString</p>  <pre><code>["first name","last name","adress","test@test","000-000-0000","password","code","0"] </code></pre>  <p>How can i get the second element ?</p>

@@ -1,0 +1,1 @@
+<p>This might be simple question but no luck.How to use Classic Dev mode in GWT 2.7 even i read about GWT SDM (<a href="http://stackoverflow.com/questions/31393159/disabling-gwt-2-7-0-super-dev-mode">Disabling GWT 2.7.0 Super Dev Mode</a>) and added –nosuperDevMode in Argument but still its behaving the same as Super Dev Mode. Any thought on this? </p>

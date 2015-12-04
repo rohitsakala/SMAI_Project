@@ -1,0 +1,1 @@
+<p>I want to send constant ajax requests like this but can i get faster than this</p>  <pre><code> setInterval(function(){     $.getJSON(JSONUrl, function(data){     //do stuff });     },1); </code></pre>

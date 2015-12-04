@@ -1,0 +1,1 @@
+<p>I have a dataframe that looks like this:</p>  <pre><code>A     B    abc   5 ABC   6 POP   7 lop   8 tiMe  9 </code></pre>  <p>So I tried this:</p>  <pre><code>example&lt;-tolower(df$A) </code></pre>  <p>This only gave me an output of just that column. I want to keep the entire dataframe. Any ideas on how to do that? </p>

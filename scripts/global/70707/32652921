@@ -1,0 +1,1 @@
+<p>I have a web application that runs on <em>apache-tomcat-7</em>. The framework I use is <em>struts 1.3</em> for which server side language is <em>Java</em>. I searched for 'Login with Google plus' on various sites but I am getting answers that have solutions in <em>android</em> or <em>PHP</em>. How do I implement this in my Java based application?</p>

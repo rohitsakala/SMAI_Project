@@ -1,0 +1,1 @@
+<p>With an android app that uses an <code>i-jetty</code> server, I managed to connect to an android device from a PC web browser over wifi. However, I want to enable connecting over a 3g (mobile data) network. Is there a way to do that?</p>

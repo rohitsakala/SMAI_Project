@@ -1,0 +1,1 @@
+<p>I need to implement geolocation in one of my sites. I have been searching for the different options, but all of them look too slow or not updated.</p>  <p>The only function I need it to do is to return the continent given the visitor's IP. And, as I said, I need it to be as fast as possible.</p>  <p>Which one do you recommend?</p>

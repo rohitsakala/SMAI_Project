@@ -1,0 +1,1 @@
+<p>I want to call a function named <code>my_format_number</code> like:</p>  <pre><code>num = 5.5 formated_num = num.my_format_number </code></pre>  <p>How can I do that in Ruby? And what is the name of these types of functions?</p>

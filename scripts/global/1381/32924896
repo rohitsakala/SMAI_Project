@@ -1,0 +1,1 @@
+<p>As mentioned in the title, I am working on Swing which I use Swingworker with it in order to keep Swing responsive. I just wonder another alternative solution that <strong><em>Can I use Thread and Observer Pattern to keep Swing responsive?</em></strong>.  I have not tried that solution (Thread and Observer) yet because of time limit. Thank You.</p>

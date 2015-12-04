@@ -1,0 +1,1 @@
+<p>I am using this code to open a URL in the browser.</p>  <pre><code>    Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));     getActivity().startActivity(myIntent); </code></pre>  <p>but it always open in the same window.</p>  <p>Is it possible to force to open a new window? (something similar to target="_blank" in the web)</p>

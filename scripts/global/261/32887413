@@ -1,0 +1,1 @@
+<p>The command I am sending is:</p>  <pre><code>ftp -s:ftp.txt </code></pre>  <p>Here are the contents</p>  <pre><code>open host.com user pass   lcd . cd ./public_html/path/to/dumps binary mput "omega.txt2" mput "wo.txt2" </code></pre>  <p>When I run this, it logs in just fine but then stops. How can I make it run the mput commands also once it connects?</p>

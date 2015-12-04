@@ -1,0 +1,1 @@
+<p>I am finding slicing in Python a bit very difficult. Lets say if I want the first five and last five characters of a phrase to display how do i go about it. For example:</p>  <pre><code>words = input("Enter a word ") slice = words[:2] print(slice) </code></pre>

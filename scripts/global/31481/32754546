@@ -1,0 +1,1 @@
+<p>I am new to vb.net and i have to make a crystal report for a bus ticketing project for school.</p>  <p>How do i generate a report for the table:</p>  <blockquote>   <p>Table: busdetails </p>      <p>Fields: bustype,busnumber(primarykey),mincharge,deport,fareincrement,childfare   and adultfare.</p> </blockquote>

@@ -1,0 +1,1 @@
+<p>I created an Application to dial particular contact number. It has one EditText and ten buttons for the digits from 0 to 9 and a BACK button. I want to erase single digit from EditText on each click event of BACK button. Is there any way to do so ?</p>

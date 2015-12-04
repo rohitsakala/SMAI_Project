@@ -1,0 +1,1 @@
+<p>I'm trying to embed FreeCAD on MAC.</p>  <pre><code>import sys sys.path.append(PATH_to_FREECAD_lib) import FreeCAD </code></pre>  <p>generates a system error which says the dynamic library (FreeCAD.so) in not properly initialized.</p>  <p>How do I proceed to resolve the error?</p>  <p>Thank!</p>

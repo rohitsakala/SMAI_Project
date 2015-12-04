@@ -1,0 +1,1 @@
+<p>I have projects from two separate TFS collections that I am migrating to VSO. For this reason, I need two developer groups.</p>  <p>Is it possible to clone a group, with all permissions intact (even inherited ones)?</p>

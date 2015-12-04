@@ -1,0 +1,1 @@
+<p>I have list of dictionaries of date objects:</p>  <pre><code>{ "begin" :date object1, "end" : date object2 } .... { "begin" :date object3, "end" : date object4 } </code></pre>  <p>I want to simplify this list by condition:</p>  <pre><code>if cur.end == next.begin - datetime.timedelta(seconds=1))     cur.end = next.end     delete next </code></pre>  <p>How to do it ?</p>

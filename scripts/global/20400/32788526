@@ -1,0 +1,1 @@
+<p>I'm looking for a Python-based Kolmogorov-Zurbenko filter which receives a time-series input and filters it based on a window size and number of iterations and haven't found anything that seems to work. Has anyone had better luck than I?</p>  <p>Thanks!</p>

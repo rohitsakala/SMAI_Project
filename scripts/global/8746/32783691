@@ -1,0 +1,1 @@
+<p>Suppose I have:</p>  <pre><code>person(bob,50) .  person(joe,60) . </code></pre>  <p>And I want to write a predicate called 'totalAge(A)' that calculates the total value A of both atomic statements?</p>  <p>How would I go on doing this?</p>

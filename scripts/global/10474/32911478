@@ -1,0 +1,1 @@
+<p>I am using jQuery DataTables for a table that loads data from the server using Ajax.</p>  <p><a href="http://i.stack.imgur.com/pFRj1.png" rel="nofollow"><img src="http://i.stack.imgur.com/pFRj1.png" alt="enter image description here"></a></p>  <p>I have added a checkbox column and I need to fire an event every time I check a checkbox.</p>  <p>How can I do this?</p>

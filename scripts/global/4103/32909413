@@ -1,0 +1,1 @@
+<p>A <code>DataGridViewComboBoxColumn</code> allows the value to be one of the members of a list.</p>  <p>I can't figure out what value type this can bind to when binding a <code>DataGridView</code> to a custom class. e.g. if I set <code>DataPropertyName</code> to "MyProperty" what type(s) may <code>MyClass.MyProperty</code> use for getter/setter?</p>

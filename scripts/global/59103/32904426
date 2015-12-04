@@ -1,0 +1,1 @@
+<p>Passing a value to the view with @Model.LayerName Would like to store this value in a JS variable...</p>  <pre><code>var g_tableName = @Model.LayerName; </code></pre>  <p>the semi colan at the the end of LayerName; is flagging as syntax error but I cant figure out why...any ideas? ta</p>

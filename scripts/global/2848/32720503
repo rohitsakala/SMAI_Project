@@ -1,0 +1,1 @@
+<p>I understand that an empty string is falsy in javascript and a not-empty string is truthy in javascript.</p>  <p>However, why is <code>'false'</code> truthy in javascript, is there anything explicit in the specification? Is it a performance issue or are there situations where you would want the string <code>'false'</code> to represent <code>true</code>?</p>

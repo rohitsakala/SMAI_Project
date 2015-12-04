@@ -1,0 +1,1 @@
+<p>I've got this <a href="http://jsfiddle.net/kpfzr86s/" rel="nofollow">fiddle</a>. Basically I have an element, which has <code>position: static</code> and I want to move it around. Is there any way to achieve this?</p>

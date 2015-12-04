@@ -1,0 +1,1 @@
+<p>How to make <strong>pagination</strong> in wp for the items that are outputted by using <strong>PHP</strong> coding.</p>  <p>For example, I have a table <code>tbl_name</code> and <strong>3 fields</strong> <code>id</code>, <code>name</code> and <code>address</code>. I have <strong>50 items</strong> and I want to Paginate this output.</p>

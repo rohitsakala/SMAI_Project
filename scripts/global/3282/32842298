@@ -1,0 +1,1 @@
+<p>I am using Openfire 3.10.2 XMPP server and Strophe library as client. I want to send messages via push notification to all the users in the chat room who did not join the chat room.</p>  <p>How to get Openfire user presence in the chat room</p>  <p>Is there any plugin for it ?</p>  <p>Are the user presence in the chat room saved in database ? How can I achieve this ?</p>

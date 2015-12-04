@@ -1,0 +1,1 @@
+<p>I store my keystore at my assets directory. How can exclude it in the build to create the .apk?</p>  <p>I tried in that way but still there:</p>  <pre><code>android {     ...     packagingOptions {             exclude 'assets/keystore'     } } </code></pre>

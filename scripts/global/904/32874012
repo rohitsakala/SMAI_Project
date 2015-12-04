@@ -1,0 +1,1 @@
+<p>I try to parse post request using serer-side lua nginx(<a href="https://github.com/openresty/lua-resty-upload" rel="nofollow">lua-resty-upload</a>). In my case want to detect size of POST request(and files inside) beforehand. Is it possile to detect those length while request is parsing?Does HTTP-POST contain information aout its own size ?</p>

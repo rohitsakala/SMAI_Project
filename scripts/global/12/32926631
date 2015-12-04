@@ -1,0 +1,1 @@
+<p>It's my first time using azk in my development (Ruby 2.2.3 + Rails 4 project)</p>  <p>I want run the Rspec tests.</p>  <p>How I use Azkfile to create a specific system to test environment? (test gem's + test database + webkit dependencies)</p>

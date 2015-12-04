@@ -1,0 +1,1 @@
+<p><strong>pear/XML_Serializer</strong> can take <strong>indent</strong> parameter which will be used as indentation character(to get human readable, well formatted XML)</p>  <p>I am trying to find a replacement for this package, but no one has similar feature.</p>  <p>Can someone advise a solution?  Thanks in advance.</p>

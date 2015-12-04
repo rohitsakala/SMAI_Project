@@ -1,0 +1,1 @@
+<p>Can someone explain with an example or a tutorial of how can i allow model's view using the permissions that this user has. for example i have 2 users and 6 tables (models), I set that each one have permission for 3 tables, when the user access through the api authentication just allow access to the tables that he has permissions.</p>  <p>PD: sorry i don't speak english.</p>

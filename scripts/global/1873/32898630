@@ -1,0 +1,1 @@
+<p>I am new to angular and was wondering if I could add a directive to a target div that listens to a parent div's height/width like an onchange event on javascript and adjust the target div's height/width accordingly... </p>  <p>I have looked into $scope.watch and suspect that this is what I need.  </p>

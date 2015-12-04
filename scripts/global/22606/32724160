@@ -1,0 +1,1 @@
+<p>I have two view controllers with two UIWebViews. The first one has a grey background and the second one a black background. When I try to access the second one a white background appears for miliseconds. I've setted the UIWebView background color to black in the Attribute Inspector.</p>

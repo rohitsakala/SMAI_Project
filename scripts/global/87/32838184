@@ -1,0 +1,1 @@
+<p>I have this error: </p>  <pre><code>Fatal error: Call to undefined function printer_open() in /home/brownjoi/public_html/thedipaar/sangeetha/printer/test_dll.php on line 6 </code></pre>  <p>I struggled a lot with this problem, can anybody help to solve?</p>

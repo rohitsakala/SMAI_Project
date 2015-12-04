@@ -1,0 +1,1 @@
+<p>In other words, is there an <code>Attribute</code> that marks a segment of code as not too <strong><em>old</em></strong>, but too <strong><em>new</em></strong> and therefore not quite ready for widespread use?</p>  <p>If I'd have to create a custom <code>Attribute</code> to accomplish this, that's fine. I just wanted to make sure first.</p>

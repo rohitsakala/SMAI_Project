@@ -1,0 +1,1 @@
+<p>I created a sqlite database with table quote that have attribute id,text,audio. My application listed all text quotes.Now I want to play audio of quotes listed.For the audios I put them in my server.Please I am asking for some ideas how to that.or tutorial.</p>

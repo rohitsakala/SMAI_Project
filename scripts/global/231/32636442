@@ -1,0 +1,1 @@
+<p>I'm trying to uninstall IBM DB2 Express C in Windows 7. The uninstaller completed successfully (removed files, users, etc) but the databases which I created were not removed. I still have about 1GB of database files in C:\DB2\NODE0000. How do I also remove the databases?</p>  <p>PS: DB2 is now uninstalled. DB2 drop database command will not work now right?</p>

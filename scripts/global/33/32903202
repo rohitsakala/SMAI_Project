@@ -1,0 +1,1 @@
+<p>Is busy wait loop using <code>yield</code> instead of <code>sleep_for</code> is a good idea?</p>  <p>Pseudo-example in C++:</p>  <pre><code>// setting up other threads ...  while (!someConditionOccured) {     std::this_thread::yield(); } </code></pre>

@@ -1,0 +1,1 @@
+<p>Is there a possible way to connect to any open port with bash ? i.e without calling any external command.  :) I wanted to connect to an open port with bash without using nc or telnet, i would be grateful is someone can help me out. </p>

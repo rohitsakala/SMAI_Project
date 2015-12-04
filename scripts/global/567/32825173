@@ -1,0 +1,1 @@
+<p>I want to parse webpage to find all the mp3 files, that can be played, and then start them one by one and download. The problem is how to get url of the currently playing sound? Are there any tools for such things in java?  </p>

@@ -1,0 +1,1 @@
+<p>I am assuming i cannot obfuscate gson POJOs.  if i do then gson cannot do the object mapping and deserialize json to POJO, correct ? Is there any way to obfuscate POJOs then ? Also please let me know if my thoughts are correct that obfuscating POJOs should not be done and if so what would be the proguard command to keep all pojos. </p>

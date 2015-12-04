@@ -1,0 +1,1 @@
+<p>I am heaving a problem trying to parse the values returned from django models to the JSON object. The problem is because of django defaul behaviour which appends 'u' and 'Decimal' automatically to the returned values. It would be a great help if someone suggest me how to remove these 'u' and 'Decimal' from the django quesryset .</p>

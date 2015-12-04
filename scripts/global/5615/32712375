@@ -1,0 +1,1 @@
+<p>Can anyone provide a clue how to configure ForwardedRequestCustomizer in jetty provided by cxf-rt-transports-http-jetty 3.1.1? cxf.xml and httpj namespace  do not seem to have support for it. I need to handle X-Forwarded-Proto headers as SSL is terminated on load balancer before jetty. Version of jetty is 9.2.10. Spring 4.1.7. </p>

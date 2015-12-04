@@ -1,0 +1,1 @@
+<p>I have below table</p>  <pre><code>ID     Color  1       red  2       red  3       red   4       blue  5       blue  6       yellow </code></pre>  <p>The result I need :</p>  <ul> <li>red 3</li> <li>blue 2</li> <li>yellow 1</li> </ul>

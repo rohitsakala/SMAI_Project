@@ -1,0 +1,1 @@
+<p>Can anyone explain why AsyncTask comes with big delay and only in one case, and that is when I have wifi network but there is no internet connectivity on that network.</p>  <p>What could be the reason for that, and is there a way to make bigger priority on async task?</p>

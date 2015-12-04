@@ -1,0 +1,1 @@
+<p>Is there a way to change the limit parameter in async.mapLimit once the function has been called?</p>  <p>I'm creating a http loader and want to reduce the limit if http errors start to occur.</p>  <p><a href="https://github.com/caolan/async" rel="nofollow">https://github.com/caolan/async</a></p>

@@ -1,0 +1,1 @@
+<p>I have a Win RT app, Windows phone 8.1 with pivot control.</p>  <p>I want to disable circular scrolling pivot; when the last item is visible the user can't scroll to the first immediately, it has to go to the previous one.</p>  <p>And when the first item is visible, it can only go to the second one; can't go to the last one by scrolling.</p>  <p>Is it possible?  </p>

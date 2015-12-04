@@ -1,0 +1,1 @@
+<p>My question is simple, i want my program to update itself every time it starts making pull from git. Its there a way to do it?</p>  <p>Also I want the program to make push to the repo at git.</p>  <p>Thanks!</p>

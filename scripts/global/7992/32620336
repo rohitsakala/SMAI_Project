@@ -1,0 +1,1 @@
+<p>I'm getting an error on <code>else</code> saying:</p>  <blockquote>   <p>Syntax error on token "else", invalid OnlySynchronized</p> </blockquote>  <p>Why?</p>  <p>Here is the code:</p>  <pre><code>if (!ans.equalsIgnoreCase("Yes"))      else(!ans.equalsIgnoreCase("no"))     {         System.exit(0);     }     {break;} </code></pre>

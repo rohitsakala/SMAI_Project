@@ -1,0 +1,1 @@
+<p>Using mamp, I have my document root set to htdocs folder. Inside that folder I have the folder with the contents for the site. When I connect to localhost, the page that renders is "Index of /" and then a bullet point with the name of the folder within htdocs. </p>  <p>How can I get the full page to render? What am I doing wrong? </p>

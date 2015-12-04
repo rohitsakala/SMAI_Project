@@ -1,0 +1,1 @@
+<p>I want to save a text to the clipboard when pressing on a label.</p>  <p>I've tried UIPasteboard but is not recognized by Xcode 7</p>  <p>So basically I'm stuck on the really basic:</p>  <pre><code>@IBAction func label1(sender: AnyObject) {  } </code></pre>

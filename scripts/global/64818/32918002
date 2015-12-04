@@ -1,0 +1,1 @@
+<p>When I call this line <code>Gdx.input.getY();</code> The screen origin is the top left corner, but my stage coordinates in buttom left corener. How can I transform the screen coordinates to stage coordinates ? (WITHOUT using camera) i.e. How can I make the screen origin in the bottom left corner ?</p>

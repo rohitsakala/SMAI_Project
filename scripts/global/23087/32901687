@@ -1,0 +1,1 @@
+<p>I have a list of item in which date is also specified and I want that date in header section. And according to date it should be sorted.  If that date is of today then it should show 'Today' in header and if the date is of tomorrow  then it should show 'Tomorrow'. What should I do for this? If anyone wants to help then I'll be thankfull to them.</p>

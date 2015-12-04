@@ -1,0 +1,1 @@
+<pre><code>for(int i = 0; i &lt; N * N; i = i + 1)      for(int j = 1; j &lt; i + 1; j = j + 1)          junk = junk + 1; </code></pre>  <p>I need to determine the relationship between the number of &lt; operations executed and N. I should give an exact answer, such as 27N + 18.</p>  <p>Any help is appreciated! Thanks</p>

@@ -1,0 +1,1 @@
+<p>Is this possible? </p>  <p>For example:</p>  <pre><code>&lt;default-field tooltip="${longDescription}" &gt; </code></pre>  <p>Coded as above, it just prints directly to screen ${longDescription} as the tooltip.</p>

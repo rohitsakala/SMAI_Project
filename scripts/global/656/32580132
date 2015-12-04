@@ -1,0 +1,1 @@
+<p>I am trying to merge my truck copy to branch. Some files are only present in branch. During merge from tortoise svn in windows it showing tree conflicts for files which are not in trunk.</p>  <p>Can somebody help me how to resolve the 'tree conflict' issue.</p>

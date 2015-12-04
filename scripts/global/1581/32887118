@@ -1,0 +1,1 @@
+<p>I am new in PHP. I want to update a MySQL table using variables.</p>  <pre class="lang-php prettyprint-override"><code>$sql = "UPDATE tableName             SET $variable1='$variable2'          WHERE table_no='$variable3'"; </code></pre>  <p>Thanks</p>

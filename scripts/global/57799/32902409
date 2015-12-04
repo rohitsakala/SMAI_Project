@@ -1,0 +1,1 @@
+<p>I have a Twig template (.html file) that I want to render (replace the tokens with values from my PHP file). Instead of sending the rendered result to a browser, however, I want to write it to a new .html file. I would imagine the solution would also be similar for a Django template.</p>  <p>How can I do this in PHP?</p>

@@ -1,0 +1,1 @@
+<p>So I have two strings like <code>mylist&lt;-c('claim', 'cl.bi')</code>, when I do </p>  <pre><code>grep('^cl\\.*', mylist) </code></pre>  <p>it returns both 1 and 2. But if I do</p>  <pre><code>grep('^cl\\.', mylist) </code></pre>  <p>it will only return 2. So why would the first match <code>'claim'</code>? What happened to the period matching?</p>

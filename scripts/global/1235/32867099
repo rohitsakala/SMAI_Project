@@ -1,0 +1,1 @@
+<p>I have a CComboBox of type <code>DropList</code> (i.e. it's not editable). What's the easiest way to set the current selection by string?</p>  <p>I know I can use <code>SetCurSel()</code> to set it by index, but I want the function to search through the list-items by string and set it.</p>

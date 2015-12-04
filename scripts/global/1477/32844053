@@ -1,0 +1,1 @@
+<p>Does GCC support <code>dvec.h</code>, and if not, what can I do to port code written for ICC to work with GCC?</p>  <p>I am getting errors:</p>  <pre><code>fatal error: dvec.h: No such file or directory  #include &lt;dvec.h&gt; </code></pre>  <p>Alternatively, GCC cannot find <code>F32vec8</code>.</p>

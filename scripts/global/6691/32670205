@@ -1,0 +1,1 @@
+<p>Mockito is used to mock the objects for unit testing. Same can be done using java reflection API. Does this mean Mockito is implemented on reflection API of java ?</p>

@@ -1,0 +1,1 @@
+<p>How to include static files/folder (*.json, images, etc.) using webpack into package? The access to the files will be through ajax requests in runtime.</p>

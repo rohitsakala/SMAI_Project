@@ -1,0 +1,1 @@
+<pre><code>Scanner scan = new Scanner(System.in); System.out.println("Enter three positive integers seperated by spaces, then press enter:   "); int a = scan.nextInt(); int b = scan.nextInt(); int c = scan.nextInt(); </code></pre>  <p>How do I make it so that when the users enter the numbers it shows up on the same line as the question and not below it? </p>

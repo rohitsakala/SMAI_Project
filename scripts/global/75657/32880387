@@ -1,0 +1,1 @@
+<p>Does webpack ember-templates-loader load all templates (*.hbs) automatically into <code>Ember.TEMPLATES</code>, or do I need to explicitly write require('ember-templates!./templates/my-view.hbs') into my code before bundling?</p>

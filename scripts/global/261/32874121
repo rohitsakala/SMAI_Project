@@ -1,0 +1,1 @@
+<p>I need to convert code in a batch file from ftp to sftp. The current code is  ftp -id -s:s:\ftpFPCert.txt . How do I rewrite it to sftp ?</p>

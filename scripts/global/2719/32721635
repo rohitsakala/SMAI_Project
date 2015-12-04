@@ -1,0 +1,1 @@
+<p>1) For a given <code>stl</code> algorithm, how does one find out what custom container/iterator features one needs to implement in order to use said container? </p>  <p>2) What needs to be implemented to make container fully compatible with all <code>stl</code> algorithms?</p>

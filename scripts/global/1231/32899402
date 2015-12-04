@@ -1,0 +1,1 @@
+<p>Sublime text command line in OS X El Capitan</p>  <p><code>sudo mkdir -p "/usr/local/bin/" &amp;&amp; ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl</code></p>

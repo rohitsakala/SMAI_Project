@@ -1,0 +1,1 @@
+<p>Hi I am building a new theme in Magento 2 and extended a theme from the luma.</p>  <p>But when I am doing any changes in the less files to customize the look I need to delete the pub folder file every-time after making change in a less css file.</p>  <p>Is there any setting (in less) or way that I can automatically synchronize file changes?</p>

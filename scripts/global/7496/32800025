@@ -1,0 +1,1 @@
+<p>i am using google matrix api to find shortest distance, i am using formatted address in parameters but my requirement is to get shortest distance using latitude and longitude. api-<a href="https://maps.googleapis.com/maps/api/distancematrix/json" rel="nofollow">https://maps.googleapis.com/maps/api/distancematrix/json</a>?....</p>

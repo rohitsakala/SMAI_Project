@@ -1,0 +1,1 @@
+<p>I am trying to find someway to <strong>make an UI Control unfocusabe</strong> in javaFX:</p>  <p>Is something there similar to Swing or i have to override some method ?</p>  <p><strong>UPDATE:</strong></p>  <p><strong>I want to make the Control can not be focusable at all,not change the focus  to other node.</strong></p>

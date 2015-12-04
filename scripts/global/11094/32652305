@@ -1,0 +1,1 @@
+<p>I have a <code>dataset</code> with 59 columns. I want to add a new row where I only know at the moment the first entry. I know I can add the row with</p>  <p><code>mydataset.Tables[0].Rows.Add("Firstentry",,,,and so on for empty columns);</code></p>  <p>Is there an easier way so that I don't have to write 58 commas for the 58 empty colums in my code? Thanks!</p>

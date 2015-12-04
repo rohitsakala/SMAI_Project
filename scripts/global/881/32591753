@@ -1,0 +1,1 @@
+<p>I use Ziparchive class to add textfile to my zip.</p>  <p>The text file is succeffly added but <strong>I can't skip lines with \n</strong></p>  <pre><code>$Zip-&gt;addFromString("Readme.txt", "Please visit \n For help center"); </code></pre>  <p>Thank you for helping</p>

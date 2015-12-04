@@ -1,0 +1,1 @@
+<p>How can I select the 2nd <code>&lt;a&gt;</code> tag using pure Javascript?</p>  <pre><code>&lt;div class="navigation"&gt;     &lt;a href="/page/2/"&gt;Prev&lt;/a&gt;     &lt;a href="/page/4/"&gt;Next&lt;/a&gt; &lt;/div&gt; </code></pre>

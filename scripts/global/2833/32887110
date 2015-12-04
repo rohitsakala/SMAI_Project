@@ -1,0 +1,1 @@
+<p>Is there any way we can detect the data type that is being dragged on a winForm? </p>  <p>for ex: if  data is text then msgbox(data)    else if data is File then copyfile </p>

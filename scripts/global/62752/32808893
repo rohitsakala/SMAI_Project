@@ -1,0 +1,1 @@
+<pre><code>#!/usr/bin/env python3 # -*- coding: utf-8 -*- import time  async def foo():   await time.sleep(1)  foo() </code></pre>  <p>I couldn't make this dead simple example to run:</p>  <pre><code>RuntimeWarning: coroutine 'foo' was never awaited foo() </code></pre>

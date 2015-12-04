@@ -1,0 +1,1 @@
+<p>The MenuItem components are not added to the MenuBar: </p>  <pre><code>&lt;v-menu-bar _id="menu" width="100%" /&gt;    &lt;v-menu-item caption="Option 1"/&gt;    &lt;v-menu-item caption="Option 2"/&gt; &lt;/v-menu-bar&gt;--&gt; </code></pre>

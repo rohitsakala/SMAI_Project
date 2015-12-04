@@ -1,0 +1,1 @@
+<p>In cakephp 3 I have class of demo</p>  <pre><code>class DemosTable extends Table {  } </code></pre>  <p>Like that so I want to create one function as globally for all Table class so how can I define it?</p>

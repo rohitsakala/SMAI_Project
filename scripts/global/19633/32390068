@@ -1,0 +1,1 @@
+<p>I have an API that automatically posts to a callback I set up which ends up saving the data to the database I created.  </p>  <p>Is there a way to detect when new data is saved and, as a result, causes an action like displaying the new data in the view as a refresh?</p>  <p>I'm messing around with the Instagram real time.</p>

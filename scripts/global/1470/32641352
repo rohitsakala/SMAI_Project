@@ -1,0 +1,1 @@
+<p>I am looking for a way to replace the "Done" (Android) or "return" (iOS) label of Softkeyboard by a more accurate one.</p>  <p>I have seen ways to do that natively, by editing properties of each input, but is there a way to just change it for the whole application regardless of the input, via native code of course ?</p>  <p>Thanks.</p>

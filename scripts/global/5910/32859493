@@ -1,0 +1,1 @@
+<p>I'm presently executing the following Linux command in one of my c programs to display processes that are running. Is there anyway I can modify it to show stopped processes and running ones?</p>  <pre><code>char *const parmList[] = {"ps","-o","pid,ppid,time","-g","-r",groupProcessID,NULL}; execvp("/bin/ps", parmList); </code></pre>

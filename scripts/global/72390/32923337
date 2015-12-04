@@ -1,0 +1,1 @@
+<p>Exists some differences between a constructor or destructor be virtual or not? In this case, what should be done</p>  <pre><code>class A { public:     A();     ~A(); } </code></pre>  <p>or </p>  <pre><code>class A { public:     virtual A();     virtual ~A(); } </code></pre>  <p>Have isocpp fot this case?</p>  <p>Thanks...</p>

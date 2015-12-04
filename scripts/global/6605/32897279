@@ -1,0 +1,1 @@
+<p>I am trying to start nginx from a script and want to see it running in foreground.</p>  <p>It is already running when I run the script. Therefore I am trying with the following:</p>  <p>nginx -s stop sleep 5 nginx -g 'daemon off;'</p>  <p>The problem is that it still runs as a deamon - not in the foreground. And it ends the process?</p>

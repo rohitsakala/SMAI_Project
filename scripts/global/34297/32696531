@@ -1,0 +1,1 @@
+<p>If the browser window/tab closes before the download of the export finishes, the HTTP service appears to be locked up. But only for the application I am running the poi4xpages process in. Any idea how to prevent this? I can imagine users doing this and a restart of http service every time is not an optimal solution.</p>

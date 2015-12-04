@@ -1,0 +1,1 @@
+<p>Can SendKeys type a variable? for example</p>  <pre><code>Set ws = CreateObject("WScript.Shell") Set TypeThis = I Want it to type whats here ws.SendKeys [I want it to type the variable(TypeThis] ws.SendKeys "{ENTER}" Wscript.sleep 100 </code></pre>

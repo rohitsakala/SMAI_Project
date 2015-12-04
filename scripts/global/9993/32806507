@@ -1,0 +1,1 @@
+<p>I get a <strong>Uncaught SyntaxError: Unexpected identifier Error</strong> in this line:</p>  <pre><code>if(v=="ZP31"||v=="ZC31"||v=="SX31"||v=="SX71"||v=="SW71"||v=="XM71"||v=="1Z21"){return "&lt;span class="label label-default"&gt;Default&lt;/span&gt;";} </code></pre>  <p>Which identifier is missing? </p>  <p>Thanks :)</p>

@@ -1,0 +1,1 @@
+<p>Whats the difference between:</p>  <pre><code>(transduce (comp fn-1 fn-2 fn-3) conj vector-collection) </code></pre>  <p>and</p>  <pre><code>(eduction fn-1 fn-2 fn-3 vector-collection) </code></pre>  <p>I've read the <a href="https://clojuredocs.org/clojure.core/eduction" rel="nofollow">eduction docs</a> but didn't understand the purpose of the eduction.</p>

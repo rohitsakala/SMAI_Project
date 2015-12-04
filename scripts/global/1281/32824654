@@ -1,0 +1,1 @@
+<p>I have created the package.json using npm init. After some stage I installed few more modules as per the need.Rather than updating the package.json dependencies manually, is there any way to automatically update it??</p>

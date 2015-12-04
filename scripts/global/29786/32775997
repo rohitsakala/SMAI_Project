@@ -1,0 +1,1 @@
+<p>I am getting this error while i am running my project in swift.</p>  <p>The error is as below:</p>  <pre><code>[Swift._SwiftDeferredNSArray _isDefaultFace]: unrecognized selector sent to instance 0x7bf2f160 </code></pre>  <p>Any help would be appreciated.</p>

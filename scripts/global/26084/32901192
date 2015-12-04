@@ -1,0 +1,1 @@
+<p>I have a question that many people find trivial,but still want to get information regarding it.So my scenario is I have a image view with fixed height and width is kept dynamic by pinning it to edges's of the screen,now with screen size width of image view is going to change,so how can I decide size of image that will be used in UIImageView as width is dynamic.</p>

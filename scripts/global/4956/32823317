@@ -1,0 +1,1 @@
+<p>i have centos on my vps and deleted my usr/bin/python now my yum is not working, and when im trying to install src.rpm of python2.7 it says </p>  <pre><code>warning: user mockbuild does not exist - using root warning: group mockbuild does not exist - using root </code></pre>

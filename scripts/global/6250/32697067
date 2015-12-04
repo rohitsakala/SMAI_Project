@@ -1,0 +1,1 @@
+<p>I have a column (datatype is decimal) containing year and month data (like 201507) in which 2015 is year and 07 is month. I want to convert this in 07/01/2015 i.e. in date format.</p>  <p>The catch is, I have to do it in INGRES DB.</p>  <p>Any Help!!!</p>

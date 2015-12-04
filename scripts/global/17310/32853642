@@ -1,0 +1,1 @@
+<p>I can't create the cycle as single line in /bin/sh</p>  <p>I tried:</p>  <p><code>while true; do; sleep 1; done </code></p>  <p>How I can do it?</p>

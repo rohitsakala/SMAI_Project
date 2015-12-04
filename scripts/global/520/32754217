@@ -1,0 +1,1 @@
+<p>I would like to create a distribution network for the mp3 files of my amazon S3 bucket. I managed to achieve it using aws Cloudfront using RTMP protocol. But as android has no native support for RTMP, i am exploring the idea of making it using RTSP protocol.Can some one help in figuring out how to achieve it.</p>

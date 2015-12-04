@@ -1,0 +1,1 @@
+<p>The repl returns 2 when expected to return 5.</p>  <pre><code>(defn counter []    (let [count 1]     (fn []        (+ count 1)     )   ) )  (defn test-counter []   (let [increment (counter)]     (increment)     (increment)     (increment)     (increment)   ) ) </code></pre>

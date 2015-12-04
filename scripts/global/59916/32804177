@@ -1,0 +1,1 @@
+<p>I have a media query in a CSS file that is not working. If I copy and paste it into the head of the html file, it works fine. What is causing it not to work in the CSS file? I've put it through validator.</p>

@@ -1,0 +1,1 @@
+<p>I have created an IIS based FTP server with anonymous authentication on one machine and accessing it through other.I want to demonstrate DOS attack from client machine to the FTP server.How can I do it using Hping3? I tried using  '-p 21' option in command but did not work.  Thanks in anticipation. </p>

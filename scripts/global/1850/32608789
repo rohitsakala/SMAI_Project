@@ -1,0 +1,1 @@
+<p>Does GC runs on run-time constant pool? </p>  <p>If yes, when?  If no, what happen if the string pool is full with string literals?</p>  <p>I did google but dint find any relevant thing on this problem also  tried with program on my machine.</p>

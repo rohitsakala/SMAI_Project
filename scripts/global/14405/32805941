@@ -1,0 +1,1 @@
+<p>I can't figure out how to make a fade-in/fade-out effect on a div, without the mouse leaving the div.</p>  <p>I'll try to explain it better:</p>  <ol> <li>Mouse enters object</li> <li>The object fades in</li> <li>After a delay the object fades out, without the mouse leaving the area.</li> </ol>

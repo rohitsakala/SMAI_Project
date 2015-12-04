@@ -1,0 +1,1 @@
+<p>I'm looking a way to compile Ruby code on OSX. I am using MacVim, and my code says:</p>  <pre><code>puts "test" </code></pre>  <p>I type <code>rubydo %</code>, and I get an error message <code>SyntaxError: eval:1: unterminated quoted string meets end of file</code>. What am I doing wrong?</p>

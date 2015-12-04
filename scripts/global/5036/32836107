@@ -1,0 +1,1 @@
+<p>Why android hasn't references on some assemblies in constructed assembly in <code>project\obj\debug</code> folder? In bin folder assembly has all needed references. To see references I used dotPeek application.</p>

@@ -1,0 +1,1 @@
+<p>I have an SSRS report with several columns in a simple table. When a column value is 'T' I want an picture of a tick and when the column value is 'X' I want a picture of a cross.</p>  <p>Can someone show me how to do this if it is possible. I have the two images saved.</p>

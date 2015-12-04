@@ -1,0 +1,1 @@
+<p>I have a FreeBSD system running into crashes. I think it will be useful to run some ddb commands and collect data before writing the core file. I wanted to do this automatically for all the crashes. Has someone done this before ?</p>

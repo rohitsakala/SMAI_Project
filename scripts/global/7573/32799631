@@ -1,0 +1,1 @@
+<p>I'm new to the SAS Concepts.</p>  <p>Can anyone help me on the below scenario </p>  <p>I have two dataset.</p>  <p>Match  UnMatch</p>  <p>I need to report if the Field1 is exists or >0 and Field2 is exists or >0 then output to Match Dataset else output to UnMatch Dataset</p>  <p>Could you please share your ideas on how to proceed with this ?</p>  <p>Thanks </p>

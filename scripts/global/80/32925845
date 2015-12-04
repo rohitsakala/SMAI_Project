@@ -1,0 +1,1 @@
+<p>I have a script that calls for apache_get_modules function. I checked my host's phpinfo, and the function is in disable_functions section.</p>  <p>My server runs on mod_suphp.</p>  <p>I search the php.ini file, and I was not able to locate the disable_functions section in my php.ini file.</p>  <p>Is there a way to enable it apache_get_modules my script could run?</p>

@@ -1,0 +1,1 @@
+<p>I have a <a href="https://lucene.apache.org/core/4_0_0/core/org/apache/lucene/index/MultiReader.html" rel="nofollow">MultiReader</a> connected to several indexes.</p>  <p>After I run a query and get the results, is there a way to know from which index the result was from?</p>  <p>I know it's not exactly what MultiReader is for. I still need this.</p>

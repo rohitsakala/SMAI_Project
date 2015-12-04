@@ -1,0 +1,1 @@
+<p>I'm trying to fetch a gem from remote source and then extract it into vendor/engines </p>  <p>Is there a way to do this using bundler and Gemfile? Is there a way to specify target directory for a gem?</p>

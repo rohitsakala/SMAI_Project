@@ -1,0 +1,1 @@
+<p>Looking at the code for the Dalvik VM in the AOSP, and I see a bunch of logging calls with "LOGVV". How can I enable logcat to see this? Is it just "adb logcat *:VV"? Or, do I need to get the log from someplace else?</p>

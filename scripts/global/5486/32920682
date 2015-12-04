@@ -1,0 +1,1 @@
+<p>I have two inputs, one named <code>name</code> and the other <code>pass</code>. I would like to do something like the following pseudo code:</p>  <pre><code>IF name="NAME1" AND pass="PASS1" THEN REDIRECT TO profil.php </code></pre>

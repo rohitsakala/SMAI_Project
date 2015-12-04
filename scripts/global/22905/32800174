@@ -1,0 +1,1 @@
+<p>NSOpenPanel can filter files it displays dimming those files not included in: setAllowedFileTypes:.</p>  <p>How do I use this to dim those files that WebView (OS X) can not display?</p>  <p>Thanks</p>

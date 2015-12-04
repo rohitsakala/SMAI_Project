@@ -1,0 +1,1 @@
+<p>I'm using the LibUSBDotNet library in a C# application that communicates with a NFC PAD USB device. I want to send data to device but all Endpoints get win32error.</p>  <p>Only Endpoint 2 on write mode get SUCCESS message but any happen on device screen.</p>  <p>How I connect to this device and communicate with it?</p>

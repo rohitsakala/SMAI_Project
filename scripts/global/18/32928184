@@ -1,0 +1,1 @@
+<p>My code bellow grabs some content. in this content there are some photos. How can i loop through this content find all images and return their src?</p>  <p>my code so far:</p>  <pre><code>$items = $html-&gt;find('div.post-single-content',0)-&gt;children(1)-&gt;outertext; foreach($items $node) {  $node-&gt;find('img'); } print_r ($node); </code></pre>

@@ -1,0 +1,1 @@
+<p>I'm starting with PyQt4 and I'm making a program for practice. In that program I have <code>QDateTimeEdit</code>, <code>QTimeEdit</code> and <code>QCheckBox</code>.</p>  <p>How would I pull values from them into a string using signals and slots.</p>

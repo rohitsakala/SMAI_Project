@@ -1,0 +1,1 @@
+<p>Is there an option you can specify in a Dockerfile that defaults containers built with it to run detached.</p>  <p>This would lead to the same outcome as the -d in:</p>  <pre><code>docker run -d &lt;imagename&gt; </code></pre>  <p>So that </p>  <pre><code>docker run &lt;imagename&gt;  </code></pre>  <p>would run detached by default.</p>

@@ -1,0 +1,1 @@
+<p>Is there any way I can store a range as an object handle in excel, and then do a vlookup on the handle? For example: in cell D1 <code>=create_range(A1:C10)</code>, and then in cell E1 <code>=vlookup_range("foo",D1,2,FALSE)</code>.</p>

@@ -1,0 +1,1 @@
+<p>I have code to plot a gaussian distribution but it is not centered on 0 as it should be:</p>  <pre><code>def gaussn(x):     return 1/(np.sqrt(2*np.pi))*np.exp(-0.5*x**2)  X=np.linspace(-5,5) GAUS=gaussn(X) plt.plot(GAUS) </code></pre>  <p>Why it is centered on 25 and not 0?</p>

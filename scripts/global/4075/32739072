@@ -1,0 +1,1 @@
+<p>Is there a python package that would let me take an existing MySQL database then dump all tables (not the data) and relationships to SQLAlchemy class code.  I could then proceed to copy n' paste into a python file?</p>  <p>I searched high and low for a python package without any luck.</p>

@@ -1,0 +1,1 @@
+<p>I'm thinking to make a singleton function which given some input from one of many threads, the function returns its calculation.  In particular I'll be putting said function into 'Application.java' and accessing it via </p>  <pre><code>retval = ( (SomeAppName) this.getApplication()).Foo(value 1, value 2); </code></pre>  <p>is that thread safe?</p>

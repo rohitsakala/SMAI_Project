@@ -1,0 +1,1 @@
+<p>After upgrading my project to Swift 2.0 and using Xcode 7 (GM) I noticed some of my view controllers freeze the app on navigation. </p>  <p>Instruments show me that CPU usage is over 9000% and is used by UIKit and Foundation. </p>  <p>Have you encountered this problem?</p>

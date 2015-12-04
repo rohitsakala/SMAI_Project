@@ -1,0 +1,1 @@
+<p>Consider Scenario as: Distributed load testing with 1000 users with thread distribution for each 3 Slaves are as follow:</p>  <ol> <li><p>Slave1 : 199 Threads</p></li> <li><p>Slave2 : 600 Threads</p></li> <li><p>Slave3 : 201 Threads</p></li> </ol>  <p>Is there any way we can distribute users specific to our needs on Slaves?</p>

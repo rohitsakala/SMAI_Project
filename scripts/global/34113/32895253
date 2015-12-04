@@ -1,0 +1,1 @@
+<p>Is it possible to integrate Mahout with Cassandra as a input data source for kmeans algorithm?</p>  <p>I have not seen any clear documentation for this case.</p>

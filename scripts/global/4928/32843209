@@ -1,0 +1,1 @@
+<p>im making a rankings sysem where you get all scores from the daabse according to your country.</p>  <pre><code>$q = $con-&gt;query("SELECT * FROM scores WHERE country='USA'"); while($row = $q-&gt;fetch_assoc()){ $score = $row['score']; } </code></pre>  <p>I want to add each piece of score. Like add them all and get the total score from a country.</p>

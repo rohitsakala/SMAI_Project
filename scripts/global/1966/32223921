@@ -1,0 +1,1 @@
+<p>I just want to know if Comments in android(Java/XML) code will affect the size of APK?</p>  <p>example:-</p>  <pre><code>/*ActionBar actionBar = getSupportActionBar();     actionBar.setDisplayHomeAsUpEnabled(true);*/ </code></pre>

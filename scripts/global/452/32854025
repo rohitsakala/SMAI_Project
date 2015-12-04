@@ -1,0 +1,1 @@
+<p>I ask the user to enter a name(String) and age(int), so if the user enters a number in the name space it "crashes". So what can i do to stop the program from crashing. Im using java.</p>

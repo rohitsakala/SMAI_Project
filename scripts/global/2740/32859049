@@ -1,0 +1,1 @@
+<p>I have problem of not getting URL changed after servlet code successfully, It is still showing servlet URL.I am using </p>  <p>RequestDispatcher rd=request.getRequestDispatcher("/index.jsp");                 rd.forward(request,response);   </p>  <p>but it isn't going to  change URL in addressbar</p>

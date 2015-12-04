@@ -1,0 +1,1 @@
+<p>I have found the following code in a JSP</p>  <pre><code>&lt;c:forEach var="user" items="${page.content}"&gt;     ${f:h(user.id)} &lt;/c:forEach&gt; </code></pre>  <p>What does the <code>f:h</code> do?</p>  <h2>Edit</h2>  <p><code>f</code> is mapped to an uri that didn't exist</p>  <pre><code>&lt;%@ taglib uri="http://amateras.sf.jp/functions" prefix="f"%&gt; </code></pre>

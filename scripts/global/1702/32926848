@@ -1,0 +1,1 @@
+<p>I want to solve a system of coupled differential equations using <strong>boost::numeric::odeint::runge_kutta4</strong>. It is a 3D lattice system so it would be natural for me (and convenient) to work with 3D arrays. Is there a way for runge_kutta4 to work with user defined data structures or boost multi_array ? </p>

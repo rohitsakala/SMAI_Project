@@ -1,0 +1,1 @@
+<p>I have a Django site, with a main page and several other pages. How can I use django template tag to link from the main page to one of the other pages? I thought I should do it like this,</p>  <pre><code>{% url 'contact' %} </code></pre>  <p>but it does not work.</p>

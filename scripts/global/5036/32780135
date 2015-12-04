@@ -1,0 +1,1 @@
+<p>When using grunt is it possible to alter the references within a html file.</p>  <p>I am altering the filename from <code>abc.html</code> to <code>abc.0bf5.html</code></p>  <p>What I would like to do is within my index.html file alter the reference to the html template to use the latest html template.</p>

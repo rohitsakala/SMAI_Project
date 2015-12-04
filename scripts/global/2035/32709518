@@ -1,0 +1,1 @@
+<p>I found some function 'renice' that changes the nice value of process.</p>  <p>But I want to know how to change <strong>priority in kernel code</strong>.</p>  <p>Is it okay that just changing the priority value in sched_entity of process?</p>

@@ -1,0 +1,1 @@
+<p>Is there a way to do this?</p>  <pre><code>class Parent   def stuff     #error checking that needs to go first   end end  class Young &lt; Parent   def stuff     super     p 'doing new stuff here'   end end </code></pre>  <p>This code sees to call the parent method via super, and then it never returns to the "doing new stuff" part.  </p>

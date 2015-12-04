@@ -1,0 +1,1 @@
+<p>I have a MySQL database with 20.000 tables. All tables going like table1 table2 ... table20000</p>  <p>Is there a sql code to delete tables within a specific range? Or is there a easy way?</p>  <p>I have searched internet but I couldn't find a way. It would be much easier if there was code or easy way instead deleting table just one by one. Thanks everyone.</p>

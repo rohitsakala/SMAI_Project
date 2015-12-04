@@ -1,0 +1,1 @@
+<p>Need to send a letter to 760 recipients. Used this code </p>  <pre><code>while($res=mysql_fetch_array($result)){         $email[] = $res['email'];       } foreach($email as $to){         mail($to, $subject, $text, $headers);         sleep(2);       } </code></pre>  <p>But is called 500 error. How can I fix that?</p>

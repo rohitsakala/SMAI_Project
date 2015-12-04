@@ -1,0 +1,1 @@
+<p>My need is to check if the mobile is connected to the same WIFI network repeatedly in 10 seconds interval time when then app is not running.</p>  <p>Can it be coded in the below method :-</p>  <pre><code>- (void)applicationWillResignActive:(UIApplication *)application </code></pre>  <p>And how can it be achieved ??</p>

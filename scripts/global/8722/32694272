@@ -1,0 +1,1 @@
+<p>I'm new to Jasper, I'm building a report and embedding it in my web application, which consist of List of names from my database, I want those names to be hyperlink so that if the user click on that name he must be able to view the details page about that person in my web application. Can some one please let me know is this feature possible ?</p>  <p>TIA.</p>

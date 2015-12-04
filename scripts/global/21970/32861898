@@ -1,0 +1,1 @@
+<p>I have a plugin in wordpress that contain 2 php files.  In main file , I added two menus and I want to call second php file when user click on second menu. I have a public method that name list_table_page on second file.</p>  <pre><code>add_menu_page( 'tm-plug', 'test.php', 'manage_options', plugins_url( 'tm_plug/test.php' ), 'list_table_page' ); </code></pre>

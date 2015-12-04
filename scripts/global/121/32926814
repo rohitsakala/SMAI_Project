@@ -1,0 +1,1 @@
+<p>I know that I should use it when I deal with data of TEXT type (and I guess the ones that fall back to TEXT), but is it the only case?</p>  <p>Example:</p>  <pre><code>UPDATE names SET name='Mike' WHERE id=3 </code></pre>  <p>I'm writing an SQL query auto generation in C++, so I want to make sure I don't miss cases, when I have to add quotes.</p>

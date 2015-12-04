@@ -1,0 +1,1 @@
+<p>I want to transform the nodes of a tree (intermediate code) which are </p>  <pre><code>[]   -&gt;   .  For example node [] is developed using LOAD  </code></pre>  <p>The other two nodes how can I expand them ??</p>

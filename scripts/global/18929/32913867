@@ -1,0 +1,1 @@
+<p>I'm trying to create a webapp that can be resized (just like we resize windows in our OS), I know i can easily do this using an absolute position and the resize both property, but I want it to be resized proportionally and have a maximum limit, I tried and googled this but no "precise" answer, Thank you for any help :p !</p>

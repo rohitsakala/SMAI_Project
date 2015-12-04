@@ -1,0 +1,1 @@
+<p>I am working with django 1.4. And this error appeared: </p>  <p><strong>TemplateDoesNotExist at /admin/ admin/login.html</strong></p>  <p>I tried to reinstall django, but i did not work... Please Help! </p>

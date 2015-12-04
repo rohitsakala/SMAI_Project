@@ -1,0 +1,1 @@
+<p>I'm having issue to identify the Computer name on virtual machines in MFC. UNICODE names appear to be garbage, when the following code is being executed:</p>  <pre><code>wchar_t ComputerName[MAX_COMPUTERNAME_LENGTH + 1];        DWORD dwNameLenght = MAX_COMPUTERNAME_LENGTH;  GetComputerNameW(ComputerName, &amp;dwNameLenght); </code></pre>

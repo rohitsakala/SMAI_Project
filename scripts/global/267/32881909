@@ -1,0 +1,1 @@
+<p>Web View on iOS has a bug where a focused text box will the input caret through any layers on top of it.</p>  <p>is there a solution for this?</p>  <p>Is that a problem with ionic or a keyboard ioc problem?</p>  <p>thanks!</p>

@@ -1,0 +1,1 @@
+<p>What kernel API does solaris/illumos have to load firmware in devices, as many drivers are required to load a boot/init microcode for opertaion. I'm looking for something similar to Linux request_firmware(), 'struct firmware' and sysfs interface.</p>  <p>If this is not supported, probably the only way is via ioctl() and copy firmware image?</p>  <p>Thanks.</p>

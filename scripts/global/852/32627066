@@ -1,0 +1,1 @@
+<p>Some parts of my app works a little bit slow. I wonder if there is a way to monitor CPU usage for each function or closure in Xcode? So I can understand, which part has to be optimised.</p>  <p>Thank you!</p>

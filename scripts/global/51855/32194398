@@ -1,0 +1,1 @@
+<p>The plans won't be deleted after user is deleted.</p>  <p>Am i missing something ? </p>  <p>It supposed remove all plans belongs to deleted user.</p>  <pre><code>class User   include Mongoid::Enum   include Mongoid::Document    has_many :plans, dependent: :destroy  class Plan   include Mongoid::Document   belongs_to :user </code></pre>

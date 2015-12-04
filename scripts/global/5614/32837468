@@ -1,0 +1,1 @@
+<p>In my application I've subclassed the NSWindow and set the window level as 25. Since the window level is 25 the alert box and error dialog box were being hidden by the window.</p>  <p>Is there any chance to set the level of NSAlert</p>

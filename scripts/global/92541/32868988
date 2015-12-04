@@ -1,0 +1,1 @@
+<p>I have been using polymer starter kit and have been using iron-ajax to connect to a drupal site using the services module. I can access the data needed but to use it properly and be able to log in and out I need to be able to user authenticate, to do this I need to store the session id and token. How can I do this in my custom element?</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to make a cordova app (IOS and android), I found a plugins that would do 80% of what I want to do and I was wondering, is it possible to make my own plugins and use the class defined in the other plugin ? At first sight, I would say yes, but I don't really know how cordova work with multiple plugin... </p>  <p>Thank for the help.</p>

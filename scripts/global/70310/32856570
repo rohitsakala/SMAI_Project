@@ -1,0 +1,1 @@
+<p>Well the text color should change according to the most-colors in a background image in a slider. For example in windows there's an option to set accent color according to the desktop wallpaper.It checks for most of the colors used in the desktop wallpaper and the color which comes the most is set as the accent color. Is there a way to implement this on websites?</p>

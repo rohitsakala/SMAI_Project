@@ -1,0 +1,1 @@
+<p>I have difficulty compiling this code in Clojure</p>  <pre><code>(def ab (fn [x y z]        (case          (and (&gt; x y)(&gt; y z)) (* x y)          (and (&gt; x y)(&lt; y z)) (* x z)          :else (* z y)          )        ))  (print (ab 4 7 6)) </code></pre>  <p>it does compile is  I comment line with second and.</p>

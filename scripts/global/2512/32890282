@@ -1,0 +1,1 @@
+<p>Today, in Europe, the date is 1 October 2015. Can you tell me why running this code displays the date as 31 Oct 2015?</p>  <pre><code>Calendar yesterday = Calendar.getInstance(); yesterday.roll(Calendar.DATE, false); System.out.println(yesterday.getTime()); </code></pre>

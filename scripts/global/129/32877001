@@ -1,0 +1,1 @@
+<p>Also does that mean opengl is not installed by default because I did check all the boxes when I installed visual studio community 2015. I couldn't find any clear answer anywhere. I'm supposed to add glut and glew header files to the aforementioned folder where gl.h and glu.h should already be there. But I couldnt find the folder include\gl itself. </p>

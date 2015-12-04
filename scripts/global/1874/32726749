@@ -1,0 +1,1 @@
+<p>I need to get the current timezone offset of the machine my program is running on and display it in a textbox or label.</p>  <p>This is the code I have</p>  <pre><code>var offset = TimeZoneInfo.Local.GetUtcOffset(DateTime.UtcNow); </code></pre>

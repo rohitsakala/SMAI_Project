@@ -1,0 +1,1 @@
+<p>Suppose, i am connect to mysql database using mysql_coni(), so that now i am try to connect IBM SQL Database which provide by IBM Bluemix.</p>  <p>Which function or which correct way used to connect PHP With IBM SQL Database within bluemix. </p>

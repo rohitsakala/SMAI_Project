@@ -1,0 +1,1 @@
+<p>We develop a web app, using next technologies: Symfony 2, Angular and Jenkins for CI. We believe, that Behat is great for testing API and Jasmine for testing the front-end. What should we use to test the front end part, according to Best Practice, Behat tests or Jasmine?</p>

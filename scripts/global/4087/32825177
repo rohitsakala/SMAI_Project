@@ -1,0 +1,1 @@
+<p>I am using the Effiel studio to code and I noticed at the ErrorList down the menu, there is an error message showing : "Error code: C Compiler Error</p>  <p>Error: External C/C++ compilation failed. What to do: Check the external C/C++ compilation for details."</p>  <p>Does anyone good at Eiffel know what that means and how to debug it ?</p>

@@ -1,0 +1,1 @@
+<p>When using a class-based views associated with a model to render the form, how can I select the datetime picker widget to be displayed with DateTimeField?  Or can I not use the model to render the form in this case and have to specify my own form class?</p>

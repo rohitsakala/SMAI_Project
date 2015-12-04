@@ -1,0 +1,1 @@
+<p><a href="http://www.primefaces.org/docs/vdl/3.4/primefaces-p/terminal.html" rel="nofollow">p:terminal</a> does not have a update attribute. </p>  <p>Does it support any kind of ajax event?</p>  <p>how do I update another jsf component as a response to a terminal command?</p>

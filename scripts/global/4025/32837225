@@ -1,0 +1,1 @@
+<p>my project is basically developed on EXTjs. Recently we developed one of its module using Angular. Now, i have a requirement to show the EXTjs page inside angular. I tried using routeprovider and it just prints the page as text. Scripts and Styles are not working. Is there any solution for this</p>

@@ -1,0 +1,1 @@
+<p>I am facing issue to reflect changes immediately in AEM after I make some changes in jsp /sightly.</p>  <p>How do I prevent cache in jsp and sightly html in the first instance. I am using AEM6 SP2.</p>

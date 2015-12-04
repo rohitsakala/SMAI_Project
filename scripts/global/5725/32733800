@@ -1,0 +1,1 @@
+<p>Is there way to alter all tables expect table "users" and add foreign key and CASCADE UPDATE on data upate if column with name "user_id" is in table? I can do it manually but is there easier way to do it?</p>  <p>Best regards</p>

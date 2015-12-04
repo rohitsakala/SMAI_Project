@@ -1,0 +1,1 @@
+<p>Hi I am working with Sencha Touch app, and I have in a one store called "Customers" one model associated, I know when you create a model associated, automatically you create a new store in background, my question is: How to get this store called "templatesStore" (I see the result in the Chrome console) to filter later?</p>  <p>Thank you in advance.</p>

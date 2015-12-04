@@ -1,0 +1,1 @@
+<p>Why is it bad to write such a code?</p>  <pre><code>Element.prototype.hide = function () { this.hidden = true };  Element.prototype.show = function () { this.hidden = false }; </code></pre>

@@ -1,0 +1,1 @@
+<p>I am trying to make program for rssi measurement in cooja. Recently, I found that the makefile is a must for running the programs, but the /contiki/examples has so many examples with different makefile contents. For instance, "collect" uses certain apps in makefile. How to understand the apps and tools needed for my work? Please explain.</p>

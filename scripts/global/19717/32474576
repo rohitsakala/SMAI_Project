@@ -1,0 +1,1 @@
+<p>I need to select all children of the last th table element.</p>  <p>I already tried something like this:</p>  <pre><code>th:last-children </code></pre>  <p>Thank you very much in advance.</p>

@@ -1,0 +1,1 @@
+<p>I'm using spring cron jobs to schedule email alerts at the interval of 3 min .There may be 10000 alerts/3 min. So i have to send that all alerts via emails to many of the users with some business logic. It takes to much time and system got hanged. Please suggest any other strategy to do the same.</p>

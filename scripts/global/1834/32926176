@@ -1,0 +1,1 @@
+<p>I have a map that will store a string, and a corresponding address(memory) that contains a integer value or char value.</p>  <pre><code>map&lt;string,address&gt; myMap;  //What datatype would address be? </code></pre>  <p>I'm not sure what datatype I would put here any help would be great</p>

@@ -1,0 +1,1 @@
+<p>when url used like this "domainname.ddns.info/projectname" it works and web becomes accessible but when url used like this "domainname.ddns.info" it popup error saying 'Unauthorized: Access is denied due to invalid credentials'. Users always use domain name to brows the site not full url, where is the error here and how to solve it ?</p>

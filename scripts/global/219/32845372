@@ -1,0 +1,1 @@
+<blockquote>   <p>What kind of algorithm use by WordPress to encrypt the password?<br/>   Does it open to all?<br/>   If not why?<br/>   What about other hashing algorithm?<br/>   I want to know about their wp_hash_password</p> </blockquote>

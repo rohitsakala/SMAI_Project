@@ -1,0 +1,1 @@
+<p>Hello I am running OS X. </p>  <p>I am trying to use du and the -I option to ignore all files of a given type.  I am resorting to -I because OS X du doesnt include the "exclude" option.</p>  <p>Essentially I am trying to find the OS X equivalent to this command:</p>  <p>du -ah --exclude="*.txt" /directory/folder</p>

@@ -1,0 +1,1 @@
+<p>I would like to add compiler directives in the code to say, if we compile with mingw, then don't take this piece of code into consideration.</p>  <p>For example:</p>  <pre><code>#ifdef _MINGW32_   //if this defined then don't compile the code int x; code.... #endif </code></pre>  <p>Is it possible? How to do that?</p>

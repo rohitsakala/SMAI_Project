@@ -1,0 +1,1 @@
+<p>What does the <code>:&gt;</code> operator do in F#? </p>  <p>e.g.</p>  <pre><code>myFunction x :&gt; System.Object </code></pre>

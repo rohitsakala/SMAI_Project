@@ -1,0 +1,1 @@
+<p>I am trying to use gulp-zip in build phase of my project. However it seems it does not add linux hidden files (e.g. .htaccess) to the compressed file. What is wrong with it?</p>

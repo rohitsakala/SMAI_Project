@@ -1,0 +1,1 @@
+<p>I have seen code that use pthread to write multi-threaded programs in C++ and other codes that use the thread library. What is the advantage of using the thread library instead of the ptheard?</p>

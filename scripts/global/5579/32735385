@@ -1,0 +1,1 @@
+<p>I am getting this error after logged into my application.</p>  <blockquote>   <p>Unable to locate element:   {"method":"xpath","selector":".//*[@id='navigatorMenu74201496']/table/tbody/tr/td[1]/table/tbody/tr[1]/td/a"}   Command duration or timeout: 10.15 seconds</p> </blockquote>

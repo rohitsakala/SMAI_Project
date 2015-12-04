@@ -1,0 +1,1 @@
+<p>I have added headers to allow CORS. GET an POST request are qorking fine but my delete is not working in Chorome and Firefox. It only works in IE. </p>  <p>Below is the request from chrome.</p>  <p><a href="http://i.stack.imgur.com/ntCYQ.png" rel="nofollow"><img src="http://i.stack.imgur.com/ntCYQ.png" alt="enter image description here"></a></p>

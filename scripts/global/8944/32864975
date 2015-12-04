@@ -1,0 +1,1 @@
+<p>In PHP i have the following code:</p>  <pre><code>&lt;?php   echo "€&lt;br&gt;";   echo ord("€") . "&lt;br&gt;";   echo chr(128) . "&lt;br&gt;"; </code></pre>  <p>And i get the following output:</p>  <pre><code>€ 128 � </code></pre>  <p>Why can't the chr function provide me the € sign? How can i get the €? I really need this to work. Thank's in advance.</p>

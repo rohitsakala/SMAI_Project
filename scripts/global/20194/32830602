@@ -1,0 +1,1 @@
+<p>Best way to test mobile version of a web app using Watir-Webdriver?</p>  <p>Has anyone successfully used Watir-Webdriver/Cucumber + Appium on Sauce Labs, I haven't found my documentation/resources online for this setup.</p>  <p>For more clarification and recommendations, I'm looking for the best way to test a mobile web app, NOT looking to test a native app.</p>

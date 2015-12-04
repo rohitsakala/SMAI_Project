@@ -1,0 +1,1 @@
+<p>I'm trying to install a file to a pre-existing folder structured like this:</p>  <pre><code>$APPDATA/somefolder/(uncertainFolder) </code></pre>  <p>The "uncertainFolder" would be either "1.0" or "2.0".</p>  <p>The same file will be installed into the "uncertainFolder" despite the folder name difference. How can I achieve this?</p>  <p>Thank you in advance.</p>

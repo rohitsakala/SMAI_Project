@@ -1,0 +1,1 @@
+<p>How do I track interactions between the user and a fancybox component? I would like to send Google Analytics events to Google Analytics when someone initiates a fancybox video watch. This doesnt work the same way an iframe tracking event works. I am running into all sorts of issues and I do not know where to start. Any help would be appreciated.</p>

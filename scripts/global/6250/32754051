@@ -1,0 +1,1 @@
+<p>I want to auto convert cell values to lakh(Indian Unit) decimal</p>  <blockquote>   <p>1) 120212 to 1.20</p>      <p>2) 898982 to 8.98</p> </blockquote>  <p>Is this possible with format-cell?</p>

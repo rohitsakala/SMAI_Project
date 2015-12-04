@@ -1,0 +1,1 @@
+<p>I need copy the .war file that I build from target directory to deploy directory. I know how to do it with Ant but in this project use Maven and I dont know how to make it.</p>  <p>Thanks for your answers!</p>

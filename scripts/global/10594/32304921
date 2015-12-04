@@ -1,0 +1,1 @@
+<pre><code>this is text before the tag \r \t     \begin{aligned}\t \r \r     \left(\frac{130}{100}x\right)  \t     \end{aligned} this is text after the tag \r \t  </code></pre>  <p>I want to delete all occurances of <code>\r</code>, <code>\t</code> and <code>\n</code> between the <code>\begin</code> and <code>\end</code> . How can I do it using <code>preg_replace</code>.</p>

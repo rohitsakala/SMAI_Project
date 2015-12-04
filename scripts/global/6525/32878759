@@ -1,0 +1,1 @@
+<p>Consider the following:</p>  <pre><code>list of hashmaps '({:key 1 :other-key "hello"} {:key 2 :other-key "bye"}) some list of keys: '(1) ;; I want the result to be: [{:key 1 :other-key "hello"}] </code></pre>  <p>Is there a simple way to filter this out?</p>

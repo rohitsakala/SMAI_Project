@@ -1,0 +1,1 @@
+<p>I am new to R. I have one project. There I have 1000 of resumes. I have to write algorithm in R so that it will display skill wise graph over a time period.like if I search java then in chart it will show, jan-10resumes upto dec.Here my data base should be postgres and Indexing for keywords should be done in SOLR. Can anyone suggest me how will be the flow .</p>

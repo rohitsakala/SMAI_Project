@@ -1,0 +1,1 @@
+<p>I need your help in transforming a input value by removing "-' from it.</p>  <p>In my request I am getting data like 123456-2345 and in target system I need to publish it by removing "-" from it like 1234562345.</p>  <p>I need to do this using xslt transformation . Could someone please suggest me how to do that.</p>

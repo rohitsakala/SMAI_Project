@@ -1,0 +1,1 @@
+<p>How can I clear the whole firefox history and cache from javascript (using addon's code)?</p>  <p>I think it can be done using places api, but I could not get around it! </p>  <p>EDIT: It cannot be done using places api (see comments). I roamed around and found that XPCOM interface can do it for addons. </p>  <p>If anyone could write a good answer, it would help others. :)</p>

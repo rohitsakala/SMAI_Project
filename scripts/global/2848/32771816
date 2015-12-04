@@ -1,0 +1,1 @@
+<pre><code>public class Clown {     boolean standing = false;      public Clown(boolean standing) {          Clown clown = new Clown(standing);     } </code></pre>  <p>I want to make a new Clown object with the boolean passed in but everytime I run this I get a stack overflow error. How can I fix this?</p>

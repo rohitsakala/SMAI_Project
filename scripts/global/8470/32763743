@@ -1,0 +1,1 @@
+<p>How do I find the difference of two lists that contains sets?</p>  <pre><code>List 1:     [{0, 1, 3, 9}, {2, 5, 6}, {8, 4}] List 2:     [{6, 7, 8, 9}] </code></pre>  <p><strong>Result should be:</strong></p>  <pre><code>[{7}] </code></pre>

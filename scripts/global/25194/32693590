@@ -1,0 +1,1 @@
+<p>I have a listview dynamically created when page loads, and I want to set the first list item to be clicked by default, how can I do that using jQuery/javascript?</p>

@@ -1,0 +1,1 @@
+<p>How we can capture live stream from gopro device in ios app and send it through opentok ?</p>  <p>I can stream from <a href="http://10.5.5.9:8080/live/amba.m3u8" rel="nofollow">http://10.5.5.9:8080/live/amba.m3u8</a> in browser. </p>  <p>Now I want it to send to the server for live streaming on other devices. </p>

@@ -1,0 +1,1 @@
+<pre><code>&lt;a class="class1"&gt;    &lt;div&gt;       &lt;span class="class2" /&gt;    &lt;/div&gt; &lt;/a&gt; </code></pre>  <p>I want to select all the a tags with class1 which dont have any descendant with class class2. Which jQuery selector should I use?</p>

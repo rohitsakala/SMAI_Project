@@ -1,0 +1,1 @@
+<p>as soon as I open an angle bracket in a cshtml file, Visual Studio crashes.</p>  <p>I deleted the .suo file but no change. I also deactivated every editor related add-in.</p>

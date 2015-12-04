@@ -1,0 +1,1 @@
+<p>I have a requirement where I have to create 1 xml file inside my .zip folder. </p>  <p>Can you please let me know how can I achieve this using java/scala?</p>  <p>Also let me know can I directly update .zip folder Array[Byte] and add extra Array[Byte] for my new xml file ?</p>

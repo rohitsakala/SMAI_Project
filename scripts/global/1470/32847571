@@ -1,0 +1,1 @@
+<p>I'm adding multiple polygons to a Mapbox map using:</p>  <pre><code>L.polygon(polyPoints, polyOptions).addTo(featureGroup); </code></pre>  <p>What's the easiest way to add labels to each polygon?</p>

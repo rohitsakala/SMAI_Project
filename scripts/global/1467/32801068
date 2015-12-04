@@ -1,0 +1,1 @@
+<p>I have created a custom attribute in my woocommerce site called <code>future_availability_qty</code> Now I need to be able to list all products that have a <code>future_availability_qty</code> greater than 5.  </p>  <p>How can I retrieve all products that have a <code>future_availability_qty</code> greater than 5?</p>

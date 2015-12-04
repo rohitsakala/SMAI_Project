@@ -1,0 +1,1 @@
+<p>I need to enable to my users to create events in their Google Calendar. Im reading the documentation, and I have a few questions:</p>  <ul> <li>I have to send my user ID to Google. This ID is the ID that the Console give me? I have to send the user email instead?</li> <li>There is a library or an example of this for Angular.js or Javascript?</li> </ul>  <p>Thanks</p>

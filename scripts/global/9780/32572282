@@ -1,0 +1,1 @@
+<p>I have this problem: I know <strong>Math.sin(someUnknownFloatValue)</strong> output value and I really need to know how just from this single Math.sin() output <strong>find out what was that actual "someUnknownFloatNumber" that created it</strong> - is it possible, isn't there already some Math function that convert this sin() output to degrees/radians?</p>

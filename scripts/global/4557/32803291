@@ -1,0 +1,1 @@
+<p>As the title says i am getting this error when trying to do the following...</p>  <pre><code>DWORD nWritten = 0; ::WriteProcessMemory(GetCurrentProcess(), hookTarget, hookBytes, HLength, &amp;nWritten); Console::WriteLine(nWritten.ToInt32); </code></pre>

@@ -1,0 +1,1 @@
+<p>Chrome will try to pre-load pages that the user types into the omnibar. However, if they do not visit the page, the resources spent on loading the page the user might have wanted are wasted. </p>  <p>Is it possible to either request chrome to stop pre-loading, or to see if a page is being pre-loaded or actually requested?</p>  <p>I am using PHP as my server language.</p>

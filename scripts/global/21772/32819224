@@ -1,0 +1,1 @@
+<p>I have declared textview in relative layout with marginleft and marigntop declared with 30dp. But i need to change those marginleft and margintop dynamically inside class file for one particular thing. Help how to do it.</p>  <p>thanks in advance!!!!!111111</p>

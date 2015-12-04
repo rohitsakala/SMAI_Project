@@ -1,0 +1,1 @@
+<p>I'm trying to set a breakpoint for a c program and I keep getting this</p>  <pre><code>(gdb) file SVM Reading symbols from SVM...(no debugging symbols found)...done. (gdb) b 54 No symbol table is loaded.  Use the "file" command. </code></pre>  <p>Here's what my makefile looks like</p>  <pre><code>SVM: SVM.o         gcc -g -Wall -o0 SVM.o -o SVM </code></pre>

@@ -1,0 +1,1 @@
+<p>I have a <code>doc2vec</code> model build from my data, now I have a new sentence in run time which does not belong to the trained data set.</p>  <p>How can I build or predict a vector for this sentence from my model?</p>  <p>How should I handle unknown words in this sentence?</p>

@@ -1,0 +1,1 @@
+<p>I have a problem with tabBarController, because I have a tabBarController and one of its items is a ViewController. When I tap the items, change view but I don't know how to see the old view under the new view. Solution???</p>

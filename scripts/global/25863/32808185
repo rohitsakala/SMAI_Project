@@ -1,0 +1,1 @@
+<p>I am new to iOS development. I found that instead of using navigation controller, I can simply wire a button with the "show" segue and use unwind segue to implement a simple movement between two views. On the other hand, I also know that it is possible to use navigation controller for this purpose.</p>  <p>What's the difference between these two ways? Thank you.</p>

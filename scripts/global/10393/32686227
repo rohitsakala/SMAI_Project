@@ -1,0 +1,1 @@
+<p>I've read some articles about cursors in sql and most of them says that it eats up a lot of memory and etc., but that was long ago, like 2008 or so? I want to know if is cursor still considered a bad practice up to now?</p>

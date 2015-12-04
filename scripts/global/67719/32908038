@@ -1,0 +1,1 @@
+<p>Using Pandas how would I filter rows and take just a subset of columns from a pandas dataframe please in one command.</p>  <p>I am trying to apply something like this....</p>  <pre><code>frame[(frame.DESIGN_VALUE &gt; 20) &amp; (frame['mycol3','mycol6']))] </code></pre>  <p>Thanks.</p>

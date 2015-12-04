@@ -1,0 +1,1 @@
+<p>How can I change the theme of tinymce to "advanced" with jQuery? I'm using tinyMCE version 3.x.</p>  <p>PD1:Not in the init     tinymce.init({...});</p>

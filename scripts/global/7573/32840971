@@ -1,0 +1,1 @@
+<p>I want to carry down the value of a variable from row 1 to row 2, use it for a calculation in row 2 and then take the output to row 3  in my query. The process repeats for 1000s of rows. Retain does this in SAS, how do I do it in MySql?</p>

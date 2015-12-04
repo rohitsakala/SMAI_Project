@@ -1,0 +1,1 @@
+<p>I have 2 table with same name and structure but it has different DBMS(one in the DB2,and else in the MYSQL). The Scenario is when there is change(insert/update/delete) in DB 2 table it will automatically do the same in MYSQL table.</p>  <p>How to accomplish this in PHP ? Thanks !</p>

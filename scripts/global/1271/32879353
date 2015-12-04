@@ -1,0 +1,1 @@
+<p>I want to use grep to find words that have a specific number of consonants. But using the following command will give me consecutive consonants, How do i modify the command so that non-consecutive consonants are also OK?</p>  <pre><code>grep -iE '[^aeiouy]{3}' filename </code></pre>

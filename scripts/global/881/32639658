@@ -1,0 +1,1 @@
+<p>I have a Maven JavaScript NodeJS project. Following is the project structure </p>  <pre><code>-- Project   -- dist   -- node_modules   -- src   -- target   Gruntfile.js   gulpfile.js   package.json   pom.xml </code></pre>  <p>Is there a way to configure the pom so that it builds a zipped file of the <code>dist</code> folder and saves it in the output target directory?</p>

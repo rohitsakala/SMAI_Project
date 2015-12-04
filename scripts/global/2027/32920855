@@ -1,0 +1,1 @@
+<p>I want to write a wrapper for read and write unix functions, but read has a const void pointer parameter, and write a simple void pointer as a parameter.</p>  <p>So, a prototype like this, will fail for one of the functions:</p>  <pre><code>typedef ssize_t (*genericStreamHandler)(int, const void*, size); </code></pre>

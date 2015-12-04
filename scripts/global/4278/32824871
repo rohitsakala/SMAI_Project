@@ -1,0 +1,1 @@
+<p>I have these two functions:</p>  <pre><code>void MakeNull_List(List L){       L-&gt;Last=0; }  void Empty_List(List L){       return L.Last==0; } </code></pre>  <p>So, can anyone explain this code for me?  What is the difference between <code>L-&gt;Last</code> and <code>L.Last</code>?</p>

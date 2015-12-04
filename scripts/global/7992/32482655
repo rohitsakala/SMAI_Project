@@ -1,0 +1,1 @@
+<p>I wish to check if the value of a variable -  aVar  is equal to one of several letters:</p>  <pre><code>if aVar != "S" || "X" {println("NO")} </code></pre>  <p>This gives the error:</p>  <blockquote>   <p>Binary operator || cannot be applied to operands of type String</p> </blockquote>  <p>A very minor question but can't find an answer</p>

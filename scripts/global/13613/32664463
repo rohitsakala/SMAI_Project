@@ -1,0 +1,1 @@
+<p>I am developing a desktop application using C# .NET and it will run on .NET Framework 4.0.</p>  <p>I want to check if .NET Framework 4.0 exist or not at the time of SETUP and if not setup will automatically install setup. Can anyone guide me how to achieve this functionality? </p>

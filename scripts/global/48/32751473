@@ -1,0 +1,1 @@
+<p>So I've been learning about architectural styles and patterns. From what I can see, when it comes to 3-tier architecture, most people are using a pattern (such as MVC for example). But my question is, does anyone just use a plain old 3-tiered, bi-directional architecture without any patterns? Is that practiced or even acceptable in industry?</p>

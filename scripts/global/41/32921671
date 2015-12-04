@@ -1,0 +1,1 @@
+<p>how to select date between 2 date, when i'm use datetimepicker.</p>  <p>i use </p>  <pre><code>"SELECT * FROM data BETWEEN '"&amp; datetimepicker1.value &amp;"' AND '"&amp; datetimepicker2.value &amp;"'" </code></pre>

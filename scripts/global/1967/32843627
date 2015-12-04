@@ -1,0 +1,1 @@
+<p>My requirement is that 10 different users should be able to login to a particular website and perform different tasks and then after 1 hour all the users should logout simultaneously.</p>  <p>Can this be automated using selenium +testng?? If not,which tool can I use for this particular Load Testing??</p>

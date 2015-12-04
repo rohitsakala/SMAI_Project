@@ -1,0 +1,1 @@
+<p>I want to use following mysql function in JPQL:-</p>  <pre><code>TIMESTAMPDIFF(YEAR, some_start_date, CURDATE()); </code></pre>  <p>Also, I do not have to use Criteria in JPA, since we are following practice of writing Named queries(JPQL). So, how can this function be written in JPQL?</p>

@@ -1,0 +1,1 @@
+<p>This is for either AppleScript or JXA:</p>  <p>I'd like to automate a task in Keynote, which involves Keynote's Shape Styles: if any existing shape has a certain RGB-value, I'd like to assign a specific Shape Style to it. So first question would be: is there a Shape Style class? And can RGB values be read out? (I've seen a similar script for Powerpoint in Visualbasic).</p>

@@ -1,0 +1,1 @@
+<p>I have downloaded tnt4j-api-final-all.jar and TNT4j.jar and kept in <code>lib</code> folder of Grails application. But now requirements has changed I need to give maven central to these two jar. But I found there is no maven so what is best way. How can I upload these plugins to Maven?</p>

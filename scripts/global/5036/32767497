@@ -1,0 +1,1 @@
+<p>My code looks like this:</p>  <pre><code>function x(a,b) {      return a + b; }  var f = x;  function x(a,b) {      return a - b; }  var res = f(2,1); </code></pre>  <p>I expect that the result is 3 as f is pointing to function x before modifying it, but it isn't the case, how can I keep a reference to a function that is foing to be redefined?</p>

@@ -1,0 +1,1 @@
+<p>Please help me to find the name of a <code>UIImage</code> object.</p>  <p>This is the code I have tried:</p>  <pre><code>    let x = self.imageView.accessibilityLabel     println(x) </code></pre>

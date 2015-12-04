@@ -1,0 +1,1 @@
+<p>I want to know how get the database id that parsed in a listview using array adapter or list adapter. and put it in extra so that i can use it in another activity. I did review all the related questions here but unfortunately they are all for cursor adapter. </p>  <p>Thank you in advance :)</p>

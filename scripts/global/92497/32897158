@@ -1,0 +1,1 @@
+<p>I am fairly new to React native, and I am looking for a good way to have a sortable list. To my knowledge, I was unable to find any good examples that I could replicate (though there is one repo being worked on). Without the HTML5 drag and drop, what is the basic strategy for drag and sort with React Native? Thank you.</p>

@@ -1,0 +1,1 @@
+<p>I need to start tomcat application running as a service(application) in windows machine with ANT build script. I am able to do the same with available batch file to start up &amp; shutdown. But, now I want to make this happen without batch file</p>  <blockquote>   <p>Note: Now tomcat is running as application service</p> </blockquote>

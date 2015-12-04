@@ -1,0 +1,1 @@
+<p>I have used this format</p>  <p>MediaPlayer player = new MediaPlayer();</p>  <p>It showing a error "cannot declare a variable of static type 'microsoft.xna.framework.media player'".</p>  <p>How to solve this ? </p>

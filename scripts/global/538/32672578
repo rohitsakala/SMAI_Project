@@ -1,0 +1,1 @@
+<p>I want to isolate some users of Ejabberd. I mean that only specific users within a list (in database, json, or any other format) can interact (chat, subscribe, etc). Is this possible by developing a plugin or I need to hack Ejabbed code?</p>

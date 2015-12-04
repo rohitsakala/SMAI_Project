@@ -1,0 +1,1 @@
+<p>Is it possible for a XMPP client to get a timestamp indicating the last time when he got offline? Something like what's described on <a href="http://www.xmpp.org/extensions/xep-0012.html" rel="nofollow">XEP-0012: Last Activity</a> (this can't be done using this extension since the user should be offline in order for its last activity to be the offline presence stanza).</p>

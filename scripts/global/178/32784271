@@ -1,0 +1,1 @@
+<p>I have an AppStore build that produced a crash and a crash log. I do not have the original archive (it sits in a different computer) but I do have .app.dSYM and .app files. Following the steps of Xcode 6.x related answers does not help as I cannot locate "symbolicate" in Xcode 7. I am sure I am missing something obvious...</p>

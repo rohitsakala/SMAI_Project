@@ -1,0 +1,1 @@
+<p>I have a question. I have an entity which has an not mapped field type in it. How can i use this field in query builder for building queries? The problem is since not mapped fields are not available in mysql tables, we cannot use them in SQL queries directly. is there any way to use them in Doctrine Query builder? thanks ;)</p>

@@ -1,0 +1,1 @@
+<p>I'm using Java, and I want to remove all the occurrences of <code>\</code> from my string (something like <code>http\:\/\/news.investors\/092115\-772034\-red\-hat\-tops\-16\-views\-beat.html</code> ) </p>  <p>I'm using replace all but I don't know how is the regular expression to do this.</p>

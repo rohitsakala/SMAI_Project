@@ -1,0 +1,1 @@
+<p>In my application I am implementing quickblox api for Audio and Video call. Inside CallViewController I have a timer which is callTimer. Now in my application I want user to make  a call only for limited time. This time length is 30 min only. So while 2 users are on call, I want my timer to tun in reverse. Can somebody tell me. How I should set timer before call starts.</p>

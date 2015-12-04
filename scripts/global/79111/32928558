@@ -1,0 +1,1 @@
+<p>I did an update with on meteor and bower and I am experiencing an issue. </p>  <ol> <li>I am getting the error that you can see in the title, and  </li> <li>Whatever I do in my html file it gets rendered twice.</li> </ol>  <p>Any ideas or suggestions guys? </p>  <p>PS: I am not that experienced in meteor.</p>

@@ -1,0 +1,1 @@
+<p>How do I set, let's say a text color on a UILabel, to a color defined in one of my classes like:</p>  <pre><code>func mainAppColor() -&gt; UIColor {     return UIColor(red: 0.2, green: 0.3, blue: 0.4, alpha: 1) } </code></pre>  <p>or</p>  <pre><code>let mainAppColor = UIColor(red: 0.2, green: 0.3, blue: 0.4, alpha: 1) </code></pre>  <p>in storyboard.</p>

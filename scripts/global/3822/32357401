@@ -1,0 +1,1 @@
+<p>Example </p>  <pre><code>String var="welcome     to JSP"; &lt;c:out value=${test}"/&gt;  </code></pre>  <p>the above standard tag library trimming the spaces from string var , also tried to display same var on JSP without JSTL still the whitespaces have been takenout. </p>

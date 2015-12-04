@@ -1,0 +1,1 @@
+<p>In the new TFS build system, I want to configure a continuous integration trigger to only trigger for a subfolder within a git repo.  Is this possible?  How would I do it?  I've tried a number of formats for the filter field and nothing has worked so far.</p>  <p>Thanks.</p>

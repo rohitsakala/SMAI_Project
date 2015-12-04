@@ -1,0 +1,1 @@
+<p>Is there a way to get the current opened Stage in JavaFX, if there is one open?</p>  <p>Something like this:</p>  <pre><code>Stage newStage = new Stage(); newStage.initOwner(JavaFx.getCurrentOpenedStage()); //Like this </code></pre>

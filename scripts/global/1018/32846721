@@ -1,0 +1,1 @@
+<p>Is there a function a function like xrange (of Python) in Lua, so I can do something like this:</p>  <pre><code>for i in xrange(10) do     print(i) end </code></pre>  <p>It's different from that other question, because he is looking for a condition tester, but I'm not looking for a condition tester.</p>

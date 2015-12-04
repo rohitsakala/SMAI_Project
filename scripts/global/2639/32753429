@@ -1,0 +1,1 @@
+<p>my python application records the events it is linked to the sql-db and uses wx-python as gui for front end  i am unable to compile it as it shows the error as attached in the screen shot and is terminated from the compiling process.</p>  <p>it is terminating the process from the line 59 as shown in the screenshot. Can anybody advise me how to sort it out</p>

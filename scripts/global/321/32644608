@@ -1,0 +1,1 @@
+<p>I have a char pointer &amp; have used malloc  like</p>  <pre><code> char *message;  message=(char *)malloc(4000*sizeof(char)); </code></pre>  <p>later I'm receiving data from socket in message what happens if data exceeds 4000 bytes ? </p>

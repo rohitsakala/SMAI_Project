@@ -1,0 +1,1 @@
+<pre><code>req, err := http.NewRequest("GET", "http://example.com", nil) req.AddCookie(&amp;http.Cookie{Name: "c", Value: "ccc"}) resp, err := client.Do(req) </code></pre>  <p>I need to cache resp on disk and keep its type as http.Response after restoring from cache. Any ideas?</p>

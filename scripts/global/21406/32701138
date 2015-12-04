@@ -1,0 +1,1 @@
+<p>Is there a way to bind file inbound transaction with JMS outbound in mule. Use case is to read file from file inbound and do some processing and write to JMS outbound. however if MQ is down it should rollback complete transaction</p>

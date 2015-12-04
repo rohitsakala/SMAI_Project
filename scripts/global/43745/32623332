@@ -1,0 +1,1 @@
+<p>I am developing an android application which is using web api  service. but my emulator can not access internet connection.</p>  <ol> <li>i am using this bundle- adt-bundle-windows-x86-20131030</li> <li>IDE- Eclips</li> <li>internet connection - LAN</li> </ol>

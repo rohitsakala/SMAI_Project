@@ -1,0 +1,1 @@
+<p>I am using dc.js to create charts. I want to export the charts as pdf. Seems like converting to SVG and then using perl scripts to convert SVG to pdf is the only way. Any suggestions?</p>

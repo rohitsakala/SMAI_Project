@@ -1,0 +1,1 @@
+<p>JavaScript</p>  <pre><code> D= new Date('2015'); </code></pre>  <p>in chrome browser, date is created successfully. but throws an error in safari, it shows invalidDate in safari browser. </p>  <p>I want to create a date with only year parameter as an input to date creating object and it should work in safari browser</p>

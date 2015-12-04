@@ -1,0 +1,1 @@
+<p>For example, I have the code     let add_next (data: int * int * int list) : int =</p>  <p>However,the word data is really ambiguous, and I'd like to be able to name the first two integers and then the list in the function header, while preserving the type of int * int * int list.  How can this be done?</p>

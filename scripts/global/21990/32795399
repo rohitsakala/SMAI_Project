@@ -1,0 +1,1 @@
+<p>Suppose i have 2 host1 and host2. I have shared filesystem of host1 to host2 by installong NFS on host1 and mounted to host2. So i m going read shared filesystem from host2 with make 100 parallel script on host2. I want to know in this case which CPU will be loaded ? NFS server host or host2 ( host2 location of read script).</p>

@@ -1,0 +1,1 @@
+<p>Is one of these (or something else) more standard than the alternatives?</p>  <pre><code>verify(message, signature, publicKey) </code></pre>  <p>vs</p>  <pre><code>verify(signature, message, publicKey) </code></pre>

@@ -1,0 +1,1 @@
+<p>HashMap has only one key and Value</p>  <pre><code>Map&lt;String, String&gt; hm = new HashMap&lt;&gt;(); hm.put("one","ele"); </code></pre>  <p>Now how to get key and value from this and assign to string?</p>

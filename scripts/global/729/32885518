@@ -1,0 +1,1 @@
+<p>Tables[1] having list of values.</p>  <pre><code>if (ds.Tables[1].Rows.Count &gt; 0) {     // How to loop through datatable values without using for or foreach loop and then list values add to List?//      testRetrieveResponse.testList.Add();- how to add values to list   } </code></pre>

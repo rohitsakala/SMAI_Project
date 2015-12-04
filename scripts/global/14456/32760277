@@ -1,0 +1,1 @@
+<p>I have project that compiles dll. I'm trying to debug it using host application from  IDE. Application is working, but system not stops at the breakpoints. Where might be problem? Breakpoints are in right places and should be passed.</p>

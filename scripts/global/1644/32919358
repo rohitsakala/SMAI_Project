@@ -1,0 +1,1 @@
+<p>For example <a href="http://jsfiddle.net/skpfknxo/" rel="nofollow">http://jsfiddle.net/skpfknxo/</a></p>  <p>It removes the div <code>#test</code> along with its children <code>#test2</code> and <code>#test3</code>. I want to remove <code>#test</code> without removing its children.</p>  <p>How could this be done?</p>

@@ -1,0 +1,1 @@
+<p>Is there a way to generalized an Assert message? so I dont have to put on every entity the same kind of message, for example</p>  <p><code>@Assert\NotBlank(message = "Blank data is not allow")</code></p>  <pre><code>private $name; </code></pre>  <p>I have a lot of entities with this same message, How can I just say "for every NotBlank use this message"</p>  <p>Thank you</p>

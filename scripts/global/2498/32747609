@@ -1,0 +1,1 @@
+<p>I got stuck on this and I don't know what to do from here.</p>  <pre><code># returns a string that changes all occurrences of its first char have been changed to '*'   def fix_start(str):     results = []     str.startswith(str[1])     results =  </code></pre>  <p>for example: given string = 'bubble' it should return: bu**le</p>

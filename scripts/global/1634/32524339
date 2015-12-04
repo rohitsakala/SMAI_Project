@@ -1,0 +1,1 @@
+<p>I'm completely in the dark on how to remove the last ID from the URL through the use of .htaccess:</p>  <p>www.domain.com/products/vegetables/17</p>  <p>Is there a way to strip the last slash and trailing integer value?</p>

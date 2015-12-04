@@ -1,0 +1,1 @@
+<p>I run a command to find number of instances of a string in file:</p>  <pre><code>find /c /i "pass" result.txt </code></pre>  <p>The output is:</p>  <pre><code>---------- RESULT.TXT: 6 </code></pre>  <p>How can i remove "---------- RESULT.TXT:" so that i have only numeric 6.</p>

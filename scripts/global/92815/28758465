@@ -1,0 +1,1 @@
+<p>When try to load my application on device sometimes i got following  exception</p>  <p><strong>dyld`gdb_image_notifier:0x2beca0cc:  bx     lr</strong>  </p>  <p>but after stop and run again everything works fine, can anyone tell me why this occurs</p>

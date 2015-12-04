@@ -1,0 +1,1 @@
+<pre><code>String a=qw.getStringExtra("19");  int b= Integer.parseInt(a); </code></pre>  <p>During Run time the application is getting crash</p>

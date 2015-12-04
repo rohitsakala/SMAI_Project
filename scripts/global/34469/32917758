@@ -1,0 +1,1 @@
+<p>How can I get the current system time at a button click event and assign it to a <code>String^</code> variable in a (possibly) specified format (like:YYYY-MM-DD-HH-MM-SS)?</p>  <p>I am using Visual Studio 2013.</p>

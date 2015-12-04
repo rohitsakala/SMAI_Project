@@ -1,0 +1,1 @@
+<p>Since HiveQL does not support sub-query/correlated subqueries/ LIMIT a,b construct, is there a way we can find nth salary from an employee table? Below is the employee table schema</p>  <pre><code>employee(emp_id string,emp_name string,dept string,salary int) </code></pre>

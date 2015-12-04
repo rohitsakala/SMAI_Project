@@ -1,0 +1,1 @@
+<p>I am trying to stub a mongoose model to return a json value</p>  <p>the code that i have is</p>  <pre><code>var valueToReturn = {                       name:'xxxxx'                      };  var stub = sinon.stub(MyModel.prototype,'findOne');  stub.returns(valueToReturn); </code></pre>  <p>I get this error : TypeError:Attempted to wrap undefined property findOne as function</p>

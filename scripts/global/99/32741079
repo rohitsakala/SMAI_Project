@@ -1,0 +1,1 @@
+<p>I have seen this python snippet in a video tutorial which checks if the listed item is a directory or a file:</p>  <pre><code>for item in os.listdir("."):     if os.path.isfile(item):         # do something     elif os.path.isdir(item):         # do somethin     else:         # What is this case ?! </code></pre>  <p>is it possible that the else statement could be hit?</p>

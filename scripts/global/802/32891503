@@ -1,0 +1,1 @@
+<p>I need to convert a mercurial project to a git project, but I would like to keep the commit history intact with their sub repository to git. parent repository (HG) -> sub repository (HG) => parent repository (GIT) -> sub repository (GIT) I would like to find the exact revision of sub repository when I checkout a branch</p>

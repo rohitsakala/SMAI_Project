@@ -1,0 +1,1 @@
+<p>I am running a Django project locally using PyCharm and it is returning a 500 error on an API call. I think this signifies an internal server error so I am assuming the reason for and nature of this error will be in a log somewhere. But I can't find where it is.</p>  <p>Is such an error log kept? If so where?</p>

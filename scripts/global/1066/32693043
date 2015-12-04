@@ -1,0 +1,1 @@
+<p>I develop an android app. In our project we use a Jenkins Server. Since the Server is already virtualized, i can't use the android emulator on that server.</p>  <p>i want to emulate the android devices on my windows machine. Can someone explain me what i have to configure for jenkins to do this?</p>

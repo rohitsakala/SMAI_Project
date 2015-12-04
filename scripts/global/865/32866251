@@ -1,0 +1,1 @@
+<p>I have many type of url like this:</p>  <pre><code>http://myhost/path/filename.ogg http://myhost/path/filename.ppt </code></pre>  <p>Now I am getting url having text type files having extension <code>.ogg</code>, <code>.pdf</code>, <code>.ppt</code>, <code>.doc</code>, <code>.docx</code>. </p>  <p>How can I show every type of text file?</p>  <p>Thanks in Advance.</p>

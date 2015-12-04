@@ -1,0 +1,1 @@
+<p>I'd like to implement pagination in my camping web app. I've tried with will_paginate and kaminari gems, but I couldn't set them up to work. I keep getting errors from activerecord. Are they compatible with camping or could be adapted? </p>  <p>regards,</p>  <p>seba</p>

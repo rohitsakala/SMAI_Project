@@ -1,0 +1,1 @@
+<pre><code>mainCourse = tree.xpath('//div[@id="RM1127"]/div[@class="m01"]/text()') </code></pre>  <p>I'm trying to extract a list of elements inside id RM1127. This gives me back a list. How do I make it insert a blank string when the class m01 doesn't exist in id RM1127?</p>  <p>I want to be able to tell whether it skipped over something.</p>

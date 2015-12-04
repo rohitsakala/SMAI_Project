@@ -1,0 +1,1 @@
+<p>I want to get the location of two fingers taped in view in CGPoint.</p>  <p>How can i get that from CCTouchEvent?</p>  <p>i have tried so far:</p>  <pre><code>-(void)touchMoved:(CCTouch *)touch withEvent:(CCTouchEvent *)event{      if ([[event allTouches] count]==2) {         NSLog(@"Detected");        NSLog(@"event: %@",event.allTouches);      }  } </code></pre>

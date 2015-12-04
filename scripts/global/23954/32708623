@@ -1,0 +1,1 @@
+<p>I want to make a popup incoming call app in android. <a href="http://stackoverflow.com/questions/15683952/pop-up-window-over-android-native-incoming-call-screen-like-true-caller-android">Here</a> I found incoming call detection and inserting a text on incoming call screen. But I want the screen to stay with no activity or blank when there's an incoming call.</p>

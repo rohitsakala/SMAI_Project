@@ -1,0 +1,1 @@
+<p>I understand local storage is cleared using:</p>  <pre><code>localStorage.clear(); </code></pre>  <p>How would you use this with a checkbox? Let's say you have a checkbox:</p>  <pre><code>&lt;input type="checkbox" id="all" value="" name="all"&gt; Remove All </code></pre>  <p>I'd prefer if it's done using javascript (instead of jquery).</p>  <p>Thanks!</p>

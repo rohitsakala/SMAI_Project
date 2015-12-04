@@ -1,0 +1,1 @@
+<p>I am trying to register programatically generated images using an specific URL at <code>ApplicationWorkbenchWindowAdvisor.preWindowOpen</code>, but at the moment I have not found a mechanism to do this.</p>  <p>Anyone could give me some advice about the possibility of performing my desired behaviour?</p>  <p>Thanks a lot in advance!</p>

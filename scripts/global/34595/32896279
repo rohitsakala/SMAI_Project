@@ -1,0 +1,1 @@
+<p>I would like to copy the Robocopy.exe file from a Windows 8.1 system and run it on a Windows 7 PC. Both PC's are running the 64bit variant of their respective OS. Is this possible in any way? At present I just get the error that it "is not a valid Win32 application".</p>  <p>The reason I wish to run it is because the newer version has the /J switch.</p>

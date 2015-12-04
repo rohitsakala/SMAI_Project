@@ -1,0 +1,1 @@
+<p>I want the static analyzer to warn me about the invalide rvalue dereference in the following code.How can I do it in clang or cppcheck?</p>  <pre><code>#include &lt;memory&gt;  using namespace std;  unique_ptr&lt;int&gt; myfunc(void) {     unique_ptr&lt;int&gt; a(new int(2));     return a; }   int main() {     const int&amp; ra = *myfunc();     return 0;    } </code></pre>

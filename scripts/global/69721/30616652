@@ -1,0 +1,1 @@
+<p>I am using <code>ELCImagePickerController</code> (<a href="https://github.com/B-Sides/ELCImagePickerController" rel="nofollow">https://github.com/B-Sides/ELCImagePickerController</a>) to pick multiple images in my code. But now I,m having problem with showing images selected in gallery when i reopen the gallery (like in whatsapp ). </p>

@@ -1,0 +1,1 @@
+<p>In Clearcase I have version tree A---->B---->C.</p>  <p>I created a snapshot view on B and made few changes. I did a check out and check in.</p>  <p>I rebased my branch to C and again to B. Now I am not able to see my changes.</p>  <p>Is there any way I can get it back.</p>

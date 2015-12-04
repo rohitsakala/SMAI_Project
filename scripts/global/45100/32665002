@@ -1,0 +1,1 @@
+<p>I want gson to de-serialize JSON arrays like </p>  <pre><code>{     "list" : [] } </code></pre>  <p>to a Java Object where <code>model.list</code> is an empty <code>List</code> rather than <code>null</code>.</p>  <p>What should I pass to the <code>GsonBuilder</code> to get the de-serializing behavior I want.</p>

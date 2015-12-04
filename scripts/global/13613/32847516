@@ -1,0 +1,1 @@
+<p>In Xcode, at the end of the ipa file creation it will ask for the location to save the ipa file. But in Xcode 7.0.1, it is not prompting with the location preference and it is directly saving the ipa file on the Desktop. Does anybody know how to fix it?</p>

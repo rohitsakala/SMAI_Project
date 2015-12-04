@@ -1,0 +1,1 @@
+<p>How can I add a click handler to <code>&lt;li&gt;</code> elements that <em>don't</em> have a certain class?<br> I want to do something like this:</p>  <pre><code>$('ul.listClass li a :not(li.thisLi)').on("click")... </code></pre>

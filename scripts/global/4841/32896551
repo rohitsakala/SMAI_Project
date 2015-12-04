@@ -1,0 +1,1 @@
+<p>What is the difference between creating a JAR file using Eclipse's "Export Runnable JAR" and creating JAR using Maven's package command? Are the resulting JAR files same?</p>

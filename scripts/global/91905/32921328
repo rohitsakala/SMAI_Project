@@ -1,0 +1,1 @@
+<p>while i am running android studio below warning appear </p>  <p>" Dependency org.json:json:20090211 is ignored for debug as it may be conflicting with the internal version provided by Android. In case of problem, please repackage with jarjar to change the class packages "</p>  <p>how to resolve this error,</p>  <p>Thank you. </p>

@@ -1,0 +1,1 @@
+<p>I can't find the answer. I have a query that can return many answer and I want to get the last one. How to do it?</p>  <pre><code>db.users.find({username: "bob", sort: {createdAt: -1}}).first() </code></pre>  <p>I would like something like this.</p>

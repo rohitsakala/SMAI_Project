@@ -1,0 +1,1 @@
+<p>Is there a way to use JavaFX 8 with JRubyFx (which uses JavaFX 2.2 by default). Would it be possible to use JavaFX 8 controls within a 2.2 framework? For example could I use an 8 Tab with a 2.2 TabPane?</p>

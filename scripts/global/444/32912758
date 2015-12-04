@@ -1,0 +1,1 @@
+<p>I need to define a layout page. Currently I have index.cshtml and I am using ng-route. But on opening any opening any other link and after refreshing all the master contents of Index.cshtml are removing. How can I use layout page with angularjs app?</p>

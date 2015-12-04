@@ -1,0 +1,1 @@
+<p>I'm working on a webapp that is not AJAX-based. I have implemented a drag and drop functionality for file uploads but, as expected, the transfer gets cancelled if the user clicks on any link. Is it possible to create a drag and drop functionality so that a popup is created and the file transfer is handled in that window, letting the user continue using the webapp?</p>

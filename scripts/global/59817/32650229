@@ -1,0 +1,1 @@
+<p>I try to retrieve mp3 data from soundcloud through their API, I already have the download_url property and I want to save it directly to KnownFolders.MusicLibrary. The problem is when I try to download it with browser the link ask for save/play. Is it possible for me to bypass this and get the direct download link without have to be prompted to select save or play.</p>

@@ -1,0 +1,1 @@
+<p>I developed my app in xcode 6. Now i'm trying to test my app on ios6. I downloaded xcode 5 and tried to run it. I'm getting this error. Kindly suggest some solution.</p>  <blockquote>   <p>Command /Applications/Xcode   2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool   failed with exit code 255</p> </blockquote>

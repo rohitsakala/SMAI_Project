@@ -1,0 +1,1 @@
+<p>I'm trying to build an app that a user can upload an image and then print in various sizes. How can i detect the resolution or pixels of an image the user selects so as to know the highest possible width size the image can be stretched to and still retain its sharpness.</p>

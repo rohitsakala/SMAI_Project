@@ -1,0 +1,1 @@
+<p>I'm working with glassfish 4.1 and servlet 3.1. Is it possible to authenticate users using a tomcat like configuration ?</p>  <p>source : <a href="http://www.avajava.com/tutorials/lessons/how-do-i-use-basic-authentication-with-tomcat.html" rel="nofollow">http://www.avajava.com/tutorials/lessons/how-do-i-use-basic-authentication-with-tomcat.html</a></p>  <p>Thanks.</p>

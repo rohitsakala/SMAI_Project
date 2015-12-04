@@ -1,0 +1,1 @@
+<p>I use UIContainerView (CV) in the storyboard, but I need content that this CV only in a particular case. In Connections inspector, I can see Triggered Segues part: </p>  <p>"viewDidLoad -> embed MyViewController"</p>  <p>My question is, can I change viewDidLoad to something else or this is not possible and only option is to make custom container views? </p>

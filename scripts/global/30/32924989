@@ -1,0 +1,1 @@
+<p>I just created a new database in phpMyAdmin for a new WordPress installation, but I get an error when testing connection:</p>  <blockquote>   <p>"Connection failed: Unknown MySQL server host 'grow' (1)"</p> </blockquote>  <p>But when I test the default "mysql" db, it's successful.  Anyone know what the problem is?</p>

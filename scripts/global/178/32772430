@@ -1,0 +1,1 @@
+<p>I am trying to edit my info.plist in my Xcode project but everytime i try to edit and save (or just leave the file) it freezes. This even happens when i try to edit it in the TextEdit application outside of Xcode. I have tried to clean the project but it is not working. </p>  <p>Thanks in advance!</p>  <p>Anders</p>

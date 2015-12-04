@@ -1,0 +1,1 @@
+<p>I'm trying my hand at a logistic regression model. I have about 60 features and now would like to try conjunctions of features. Is there a good (principled) way to explore the space of all pairs, triples, etc., short of trying all possible combinations? The data set is large (10s of millions of examples), so I can go as deep as 4- or 5-feature combinations. </p>

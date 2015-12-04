@@ -1,0 +1,1 @@
+<p>Working on a project to migrate web applications/sites/mobile apps running drupal on LAMP to AWS. Need advise on best practices and design guidelines for the migration?</p>  <p>Also  need some Best Practices/design considerations  for choosing between S3/EBS, volumes, ELB, MYSQL/RDS for a drupal web applicatio/design conn migration to AWS?</p>

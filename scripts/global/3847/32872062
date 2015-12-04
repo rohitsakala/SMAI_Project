@@ -1,0 +1,1 @@
+<p>In the video conferencing system I've implemented recording functionality of google chrome browser with using of ffmpeg, alsa and XVFB on virtualbox running on ubuntu server. All works fine except one. When someone talks in parallel with the media file being playing, the sound is recorded only from the media file</p>

@@ -1,0 +1,1 @@
+<p>I have a number of long-running processes that I am trying to convert into Drupal 6 batches. Each process echos lots of diagnostic or report output that I want to show up on the screen, but I don't see an obvious way to do this. </p>  <p>The batch processes start, but all of the echo'd output shows up as a single long error message.</p>

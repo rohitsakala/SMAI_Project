@@ -1,0 +1,1 @@
+<p>Is there any way to use dll without referencing. This common dll contain other dll reference also. Loading dll using reflection is not preferring. Nay other methods??</p>

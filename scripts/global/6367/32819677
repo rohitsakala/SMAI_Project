@@ -1,0 +1,1 @@
+<p>i have a Checkbox in a List.</p>  <p>If it is checked - the Line should get an new Background-color.</p>  <p>Can i do this with SCSS?</p>  <pre><code>&lt;li&gt;&lt;div&gt;&lt;input type="checkbox"&gt;&lt;/input&lt;/div&gt;&lt;div&gt;test&lt;/div&gt;&lt;/li&gt; </code></pre>  <p>Like:</p>  <pre><code>li{@if input:checked{background-color:#ff0000;}} </code></pre>

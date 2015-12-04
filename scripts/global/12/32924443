@@ -1,0 +1,1 @@
+<p>Let's say I have an array like this one:</p>  <pre><code>[   [1, 2, 3, 4],   [3, 4, 5, 6],   [4, 5, 6, 8] ] </code></pre>  <p>I need to get the elements in common between them all. How can I achieve that?</p>  <p>The result should be</p>  <pre><code> common_elements([[1, 2, 3, 4], [3, 4, 5, 6], [4, 5, 6, 8]]) # =&gt; [4] </code></pre>

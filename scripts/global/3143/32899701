@@ -1,0 +1,1 @@
+<p>The different <code>DataType</code>s available for Spark SQL can be found <a href="https://spark.apache.org/docs/1.4.0/api/java/org/apache/spark/sql/types/DataTypes.html" rel="nofollow">here</a>. Can anyone please tell me what would be the corresponding Java/Scala data type for each of Spark SQL's <code>DataType</code>s?</p>

@@ -1,0 +1,1 @@
+<p>my images are base 64 encode and I used them in background image. its coming properly in all browser but not in IE8. Also I reduce the image size to 3kb but still its not working. Any suggestion?</p>

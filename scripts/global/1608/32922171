@@ -1,0 +1,1 @@
+<p>I need to write SOAP service that doesn't need tomcat/glassfish/wildfly to deploy it?</p>  <p>Is there any library in Java that implement JAX-WS specification?</p>  <p>With Spring Boot project I can write SOAP service, but it seems that run embedded tomcat. </p>

@@ -1,0 +1,1 @@
+<p>I'm making a simple GUI where the user can select an item from a list of Strings using the <code>JList&lt;String&gt;</code> component, and I want my program to update a JTextField with some data describing the selected item. I know I need an event listener, but I'm confused as to what I should use to detect a change in selection in my list.</p>

@@ -1,0 +1,1 @@
+<p>Say, I set the cache control(in header) as like below for one of my http resource, will it be removed after 10 mins by system automatically?</p>  <pre><code>private, max-age=600 </code></pre>  <p>or else only it removes the cache when the device storage is low.</p>  <p>Any guidance or Android docs? </p>

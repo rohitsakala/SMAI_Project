@@ -1,0 +1,1 @@
+<p>Is it possible to have scrapy to redirect pages containing a '<a href="https://support.google.com/webmasters/answer/139066?hl=en&amp;rd=1" rel="nofollow">rel="canonical"</a>' in their contents to the canonical url (if the page itself is not the canonical one)?</p>

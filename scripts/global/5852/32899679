@@ -1,0 +1,1 @@
+<p>Let's say I have two vectors</p>  <pre><code>a &lt;- c(NA,"Jan","Feb",NA) b &lt;- c("Mar",NA,NA,"Apr") </code></pre>  <p>How should I combine <code>a</code> and <code>b</code> so that I can get something like this</p>  <pre><code>ab &lt;- c("Mar", "Jan", "Feb", "Apr") </code></pre>  <p>Remember that here <code>NA</code> is different from "NA".</p>

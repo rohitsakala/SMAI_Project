@@ -1,0 +1,1 @@
+<p>I have a RenderAction that returns a partial view to the detail Template of a Kendo MVC grid. This partial view is being shown on top of the grid instead of in the detail part of the grid.</p>  <p>Any ideas?</p>

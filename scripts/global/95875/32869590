@@ -1,0 +1,1 @@
+<p>I have a lot of CSS &amp; JS files in my html, and i'm using YUI Compressor to minify &amp; concat all of these into 1x CSS and 1x JS.</p>  <p>Is there a way for maven to go into my HTML file, remove the 20+ lines of  &amp;  includes and replace with the one that is minified ?</p>

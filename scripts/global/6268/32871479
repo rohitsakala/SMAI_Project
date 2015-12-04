@@ -1,0 +1,1 @@
+<p>I just installed drupal 7 on my local wamp installation and was trying to override the user registration form however it gives me the following error:</p>  <pre><code>include failed (C:\wamp\www\d7/themes/bartik\templates/user-registration-form.tpl.php) </code></pre>  <p>I am not sure how to resolve this forward backslash errors on wamp. Any inputs?</p>

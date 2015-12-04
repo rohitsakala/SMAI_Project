@@ -1,0 +1,1 @@
+<p>I'm a beginner in studying prolog. I have some problem to do this: I want create a global variable and incrementing this variable. I did in this way:</p>  <pre><code>assert(X,10). inc(X,Y):- Y is X+1. </code></pre>  <p>But I have this error:</p>  <pre><code>   ERROR: is/2: Arguments are not sufficiently instantiated  </code></pre>

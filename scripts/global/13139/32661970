@@ -1,0 +1,1 @@
+<p>Good afternoon, Does exist some method which could Listen KeyEvent out of the frame, i mean, Listen without JFrame's Focus. *the Frame is Always on top. </p>

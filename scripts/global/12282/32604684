@@ -1,0 +1,1 @@
+<p>I need a method for getting whole word if matches a pattern, for exemple:</p>  <pre><code>&lt;p&gt;This is some text. &lt;img src="md5_id=12345" &lt;/p&gt; </code></pre>  <p>I'll need to get <code>md5_id=12345</code>, so pattern will be smth like :<code>...md5_id:xxxxx...</code> where <code>x</code> can be 0-9 or a-z/A-Z</p>

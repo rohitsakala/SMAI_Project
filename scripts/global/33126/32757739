@@ -1,0 +1,1 @@
+<p>I have a query which returns 200000 records (5 joins). In SQL Server Management Studio, the query executed in 6 min, but data started to display after 8 sec. </p>  <p>How to get this way of fetching data in Linq-to-SQL? I set up command timeout to 3 min but have command timeout exception. Execution plan doesn't show any suspicious actions. </p>

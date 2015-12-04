@@ -1,0 +1,1 @@
+<p>I want to shift a jquery banner with margin-top: 81px, only for small screens , the medium and extra small screens are looking great.</p>  <p>My media query is:</p>  <pre><code>@media screen and (min-width:780px and max-width:980px) {     .abr {         margin: 81px 0px 10px -16px;     } } </code></pre>  <p>but is not working for me please help me out of this...</p>

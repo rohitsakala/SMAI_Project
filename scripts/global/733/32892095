@@ -1,0 +1,1 @@
+<p>I'm using Eclipse Mars with the TFS plugin. I work with many files that don't have a file extension. Is there a setting to have those files open in Eclipse? Currently, I always get Windows "what do you want to do with this file" selection displays. </p>  <p>All of these non-extension files are plain text that would properly render in Eclipse.</p>

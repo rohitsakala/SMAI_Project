@@ -1,0 +1,1 @@
+<p>I am configuring a python server. I am playing with the number of python processes. Should I set the number of processes that will let go all the cores to 100% in case of high load or should I limit the number of processes to a lower number to avoid all the cores to reach 100%? What is the best practice?</p>  <p>PS: The server runs on the cloud.</p>

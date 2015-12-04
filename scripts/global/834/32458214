@@ -1,0 +1,1 @@
+<p>does schema SEO works with dynamic angular <code>ng-repeat</code> items?</p>  <p>Can i use it as:</p>  <pre><code>&lt;div itemscope itemtype="http://schema.org/Product" ng-repeat="item in items"&gt;     ... &lt;/div&gt; </code></pre>

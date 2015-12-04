@@ -1,0 +1,1 @@
+<p>I am trying to create folder in /Users/Documents. I am using following code:</p>  <pre><code>new File("/Users/Documents/myfolder"); </code></pre>  <p>But it is creating <code>/Users/Documents/myfolder</code> in my working directory.</p>  <p>How can I solve this issue?</p>

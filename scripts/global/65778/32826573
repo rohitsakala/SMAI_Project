@@ -1,0 +1,1 @@
+<p>How i put an update in a SELECT-query at once.  I wish to count a field from the SELECTed row.</p>  <pre><code>SELECT * FROM `_server` order by hits asc LIMIT 1 (update `_server` set `hits`=hits+1) </code></pre>

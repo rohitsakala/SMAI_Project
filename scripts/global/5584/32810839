@@ -1,0 +1,1 @@
+<p>Topic is pretty much the question. I have OpenGL-based game with a lot of shaders. What I wanna do is convert it to Metal, so it can gain some perfomance from conversion, but I also want to have old devices support. Is it possible?</p>

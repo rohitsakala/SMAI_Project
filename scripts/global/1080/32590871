@@ -1,0 +1,1 @@
+<ol> <li>We have an angle in radians, from -PI to +PI</li> <li>We have an offset (0.2rad for instance)</li> </ol>  <p>How can I add this offset to an angle and get a resulting value which should also be from -PI to PI ? Feeling a lil' stupid...</p>

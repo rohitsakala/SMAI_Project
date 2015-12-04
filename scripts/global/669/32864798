@@ -1,0 +1,1 @@
+<p>We have a 5 server setup. 2 web front end servers, 2 web application servers and 1 db server. Currently the farm is patched to June 2011 and we're looking to get it up to June 2015. Whats the best approach to patch a farm that is over 4 years out of date?</p>

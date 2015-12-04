@@ -1,0 +1,1 @@
+<p>I have the next question. Lets imagine during transaction I insert row into <em>projects</em> table and inside the same transaction I want to access this row, should it be in table or only after transaction?</p>

@@ -1,0 +1,1 @@
+<p>I have an azure web app running connected to a gitlab repository. When I manually sync through azure dashboard everything works fine, but when I push new code to the gitlab server, the deployments fails and I get the following error : "Value cannot be null.\r\nParameter name: url".</p>

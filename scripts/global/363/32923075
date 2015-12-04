@@ -1,0 +1,1 @@
+<p>The following  code is working good in offline. But after uploading it online, it doesn’t work. Its not sending value to "question_ajax.php" page. Please help me.</p>  <pre><code>$.post("ajax/question_ajax.php",     {         val:"a"     },     function(data,status)     {         $("#q_list").html(data);     }) </code></pre>

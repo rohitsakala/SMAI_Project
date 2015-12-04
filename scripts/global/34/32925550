@@ -1,0 +1,1 @@
+<p>I am trying to print filenames in my directory with line/word counts all on one line. The way my output is now:</p>  <p>foo.txt</p>  <p>500</p>  <p>bar.txt</p>  <p>210</p>  <p>... What it should be:</p>  <p>foo.txt 500</p>  <p>bar.txt 210 ...</p>  <p>What I am expecting the answer to look like: wc -l | awk {something}</p>

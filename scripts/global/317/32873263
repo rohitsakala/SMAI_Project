@@ -1,0 +1,1 @@
+<p>What is the most straightforward way to do the following in python/numpy?</p>  <ul> <li>begin with random array <code>x</code></li> <li>filter out elements <code>x &lt; .5</code></li> <li>sort the remaining values by size</li> <li>return indices of (original) <code>x</code> corresponding to these values</li> </ul>

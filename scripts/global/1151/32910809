@@ -1,0 +1,1 @@
+<p>I need to select all rows after a particular row (which is found using where clause on multiple columns) in a 8 million rows table. Problem is that the table does not have a primary key / unique identifier and nor can I modify the structure of this table. Can somebody please recommend a solution (a quick run) for this problem? Thanks.</p>

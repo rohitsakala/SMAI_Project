@@ -1,0 +1,1 @@
+<p>does anyone know how to modify this code, so it will animate a slide effect?</p>  <pre><code>$('.carouselNext').click(function() {     var pos = $('.carouselOut').scrollLeft() + 192;     $('.carouselOut').scrollLeft(pos); }); </code></pre>  <p>I hope someone can help me :)</p>

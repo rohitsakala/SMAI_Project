@@ -1,0 +1,1 @@
+<p>In a blank new project, there is only one view. When I try to set the aspect ratio of my view to 1:1, the option is disabled:</p>  <p><a href="http://i.stack.imgur.com/nQgxT.png" rel="nofollow"><img src="http://i.stack.imgur.com/nQgxT.png" alt="enter image description here"></a></p>  <p>How can I add an aspect ratio constrain for the view?</p>

@@ -1,0 +1,1 @@
+<p>I am implementing a Windows Phone 8.1 application that creates BackgroundDownloaders to restore cloud files back to the phone.</p>  <p>The cloud requires to POST the <strong>file ID</strong> as an additional JSON POST request and i cannot find a way to define it the BackgroundDownloader object. </p>  <p>Any ideas?</p>

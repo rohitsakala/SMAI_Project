@@ -1,0 +1,1 @@
+<p>I currently building a website with wordpress, but i can't upload a theme which size bigger than 2mb, i already change the php.ini upload-max-filesize to 100mb but it still didn't work, can anyone help me?</p>

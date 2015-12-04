@@ -1,0 +1,1 @@
+<p>when i was trying to logging then getting Cross-Origin Error. below are  the complete error massage.</p>  <p><code>Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://10.138.31.41:8243/insurance/1.0.0/i_customers/q?{%22username%22:%22q%22}. This can be fixed by moving the resource to the same domain or enabling CORS.</code></p>

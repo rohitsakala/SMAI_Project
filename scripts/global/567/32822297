@@ -1,0 +1,1 @@
+<p>I am trying to create a website on httpd that keeps the whole site locked down unless you are logged in using Google authentication.  </p>  <p>This is a RH 7 VM with HTTPD installed. </p>  <p>Please help! </p>

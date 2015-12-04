@@ -1,0 +1,1 @@
+<p>I am using devexpress mvc grid with batch edit mode. I want to check that if all rows dropdown from grid has been selected or not. So for that I want datascource of devexpress mvc grid in javasctipt/jquery. From that I can check and validate my grid. Can anyone help me?</p>

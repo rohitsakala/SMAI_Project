@@ -1,0 +1,1 @@
+<p>I am trying to make a page that uses a form to upload a photo to a couchDB database, and then try to use a gallery.html page to load all the photos people uploaded.</p>  <p>I can do this efficiently in php and mysql. I just prefer to use couchdb because its based off of AJAX and javascript code.</p>  <p>What should I do</p>

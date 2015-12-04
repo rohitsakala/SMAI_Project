@@ -1,0 +1,1 @@
+<p>I am trying to build an application for Windows Mobile 6. In my boost files there are <code>#include &lt;locale&gt;</code> which I cannot work around. Is there anyway to use locale or work around this issue?</p>

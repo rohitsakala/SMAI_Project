@@ -1,0 +1,1 @@
+<p>If I look into the code source in any site the <code>&lt;br&gt;</code> tags aren't closed with another <code>&lt;/br&gt;</code> tag. Is it possible to force the browser to use the closing tag ?  Why isn't it closing anyway ?</p>  <p>The reason I'm asking this is because some xml parsers are throw errors when a tag isn't closed.</p>

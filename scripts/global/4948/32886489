@@ -1,0 +1,1 @@
+<p>I was wondering if it is possible to verify a signed word document(.doc) without using the Interop libraries in C#. I have come across a port of a popular java library(poi) which does that but have been unsuccessful in verifying the signatures in the file.</p>

@@ -1,0 +1,1 @@
+<p>When I have an ObjC file like "filename.m", I connect it with:</p>  <pre><code>let a = Filename() </code></pre>  <p>but how can I connect if the filename is - "filename+another.m"?</p>

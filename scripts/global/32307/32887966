@@ -1,0 +1,1 @@
+<p>In my build.gradle file I need to add the line:</p>  <pre><code>shadowJar {     mergeServiceFiles() } </code></pre>  <p>Otherwise the jar does not run properly. I wonder what this line does exactly? I use the Gradle plugin in Eclipse Luna. I create the jar on one Java project which depends on another one.</p>

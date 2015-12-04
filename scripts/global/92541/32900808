@@ -1,0 +1,1 @@
+<p>So I am loading a load screen in my app. Then I load my custom elements through HTML imports by making a <code>link</code> element in JavaScript. I need to know when this HTML import has finished loading to display content to the user. Do HTML imports fire an event when the download finishes?</p>

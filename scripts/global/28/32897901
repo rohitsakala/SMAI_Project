@@ -1,0 +1,1 @@
+<p>Can anyone help me why I got error</p>  <blockquote>   <p>at least one object must implement icomparable</p> </blockquote>  <p>from this below code?</p>  <pre><code>item.IndicatorMeasurements     .OrderBy(a =&gt; a.EntryDateRange.ToDateTime)     .Max()     .Color; </code></pre>

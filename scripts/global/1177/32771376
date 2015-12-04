@@ -1,0 +1,1 @@
+<p>I'm currently coding a bot to do something for me and currently it has to open a large number of tabs every iteration and to make the bot fully automatic I have to find a way to close them all except the original the bot is running from. (The tabs have to be closed before the next iteration or what it's doing fails.)</p>

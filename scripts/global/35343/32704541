@@ -1,0 +1,1 @@
+<p>I have a requirement from client to display custom error page when a user gets a List View Threshold error. Am I correct in assuming that I'd have to do that in web.config? If so, how would I do that? If not, how do i tackle this requirement?</p>

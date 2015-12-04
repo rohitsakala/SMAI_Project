@@ -1,0 +1,1 @@
+<p>I have bound my ssdp_socket to 192.168.1.1:1900. To avoid getting upnp msearch requests from the WAN port. But I don't get any SSDP multicast. But if I bind to 0.0.0.0:1900, Every thing works as expected</p>  <p>Do I need to do anything else?</p>

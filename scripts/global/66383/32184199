@@ -1,0 +1,1 @@
+<p>In Dynamics CRM 2015 Email forms I need to know if email is forwarded, replied etc. In Dynamics CRM 2011 there used to be JavaScript variables for this e.g. isReply, isForward, isReplyall</p>  <p>These variables doesn't exists in Dynamics CRM 2013/2015.  Is there any alternative to get this information on email form?</p>  <p>Regards Imran</p>

@@ -1,0 +1,1 @@
+<p>Given a query : </p>  <pre><code>SELECT t1.c1, t2.c1 FROM t1,t2;  </code></pre>  <p>How to write it in Zend framework without using joins ? </p>

@@ -1,0 +1,1 @@
+<p>I use <a href="https://github.com/kahmali/meteor-restivus" rel="nofollow">Restivus</a> for the API in Meteor application. According to the origin of request, I'd like to filter it out or handle it sometimes in a specific way. Is it possible to know, maybe from the request HTTP headers, the URL of the origin? Or should I rather use some hidden field or something?</p>

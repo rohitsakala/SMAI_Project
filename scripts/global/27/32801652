@@ -1,0 +1,1 @@
+<p>Twitter’s website does something like</p>  <pre><code>console.log = function () {}; </code></pre>  <p>to turn the browsers’ built-in <code>console.log</code> method into a no-op. Is there I way to restore the original function? </p>

@@ -1,0 +1,1 @@
+<p>I have this actionscript code </p>  <pre><code>public static function f1(text:String) : void {     aaa = Hex.toArray(Hex.fromString(funcname)) }  public static function get funcname() : String { return "1111"; } </code></pre>  <p>how can I implement this code to java ?</p>

@@ -1,0 +1,1 @@
+<p>How to exit a fragment and go back to previous activity or fragment from toolbar item?</p>  <p>I have tried calling getFragmentManager().popBackStackImmediate(); from onOptionsItemSelected but it's not working.</p>

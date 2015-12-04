@@ -1,0 +1,1 @@
+<p>There are similar posts but I cant find one that exactly suits my requirement.</p>  <p>I have a string in json format that looks like </p>  <pre><code>String mystring = " [   {     name:"alpha",     age : 18 }, {     name:"beta",     weight : 50 }  ]" </code></pre>  <p>I want to convert this into a List of JObjects using Linq</p>

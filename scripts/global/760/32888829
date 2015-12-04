@@ -1,0 +1,1 @@
+<p>When I try to read an url from eclipse, it gives "java.net.ConnectException: Connection timed out: connect" error. I assume that it is cause of proxy settings of eclipse is not same my browser.</p>  <p>I am coding from my company computer, so please let me know how I can make it same as my browser. </p>  <p>Thank you.</p>

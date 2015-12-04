@@ -1,0 +1,1 @@
+<p>I am following a tutorial on <a href="http://obviam.net/index.php/a-very-basic-the-game-loop-for-android/" rel="nofollow">http://obviam.net/index.php/a-very-basic-the-game-loop-for-android/</a> to make an Android game loop. It works really well, except that my SurfaceView is only 526x320 while my phone is 1920x1080 resolution. Can anyone help me fix this issue?</p>

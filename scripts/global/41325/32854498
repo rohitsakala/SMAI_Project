@@ -1,0 +1,1 @@
+<p>I have project declaration like this</p>  <p>lazy val myProject = (Project("name", file("path"))     dependsOn(project1, project2))</p>  <p>is there any way to get project1 and project2 as jar files and get them as path? I need them to to copy in file system when compile myProject</p>  <p>I found projectDependencies contains all of them as ModuleID.</p>

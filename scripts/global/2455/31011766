@@ -1,0 +1,1 @@
+<p>Occasionally, I encounter one argument wanting to reference another. For instance,</p>  <pre><code>def monitor(time: Double, f: Double =&gt; Double, resolution: Double = time / 10) = {...} </code></pre>  <p>Note that resolution refers to time. Are there languages where this is possible? Is it possible in Scala?</p>

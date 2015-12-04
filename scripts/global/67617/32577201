@@ -1,0 +1,1 @@
+<p>My code is in ASP.NET MVC Razor C# and Database is SQL Server 2012. Right now the code is on localhost.</p>  <p>ok. Before moving to the server, I want to test the website design should able to scale/support 100,000 concurrent users. </p>  <p>Question : I am a .NET Developer only. Is there any way to do the testing for 100,000 concurrent users on a single machine ?</p>

@@ -1,0 +1,1 @@
+<p>We have a setup made with Bitrock Install Builder.</p>  <p>Before installing the main application, it checks if Framework .Net already installed, and installs it if needed. But we encountered problems running the setup on windows server 2012, because the framework is already installed but disabled. </p>  <p>Does anyone know how can I fix this issue ?</p>

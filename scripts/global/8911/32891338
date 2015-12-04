@@ -1,0 +1,1 @@
+<p>Submitting a backend modules form (custom extension) leads to an "Invalid form/module token detected" error. Submitting the same form as POST instead works correctly. What is neccessary to get GET-submission work?</p>

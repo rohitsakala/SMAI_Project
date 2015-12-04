@@ -1,0 +1,1 @@
+<p>I have apache server with compressed js/css files with mod_deflate, but proxy server don't pass Content-Encoding header for javascript files.</p>  <p>How to pass this header in Forefront TMG 2010? What should I do?</p>

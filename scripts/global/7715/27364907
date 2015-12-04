@@ -1,0 +1,1 @@
+<p>What is the time complexity of TreeMap.lastKey() part of the SortedMap interface? </p>  <p>The oracle docs mention this about TreeMaps:</p>  <blockquote>   <p>This implementation provides guaranteed log(n) time cost for the containsKey, get, put and remove operations. </p> </blockquote>

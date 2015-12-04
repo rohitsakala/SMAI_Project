@@ -1,0 +1,1 @@
+<p>I need to find out and output 10 lines before pattern and 20 lines after it at once. What am I doing wrong? I don't get the proper result.</p>  <pre><code>grep -B 10 "next" file1.txt | grep -A 20 "next" file1.txt </code></pre>

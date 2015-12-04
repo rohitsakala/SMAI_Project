@@ -1,0 +1,1 @@
+<p>Is there a way to convert a string written in this format: <code>str = "9+3/3+6/2"</code></p>  <p>To a Latex string that looks like this: <code>"9 + \frac{3}{3} + \frac{6}{2}"</code></p>  <p>As <code>sympy.latex(str)</code> returns the original string and if I pass <code>sympy.latex(9+3/3+6/2)</code>, an evaluated value of 13 is returned.</p>

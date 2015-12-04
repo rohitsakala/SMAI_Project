@@ -1,0 +1,1 @@
+<p>i have built my application using xcode 5 to support ios 6 or above.I want the same application to work on versions less than 6. I am not using auto layout.I changed all my nib files to build with os 4.3 or later.But the deprecated methods do not work on the older versions.what is the best possible way to support multiple ios versions(In my case ios 4.3 to ios 7.0)?.</p>

@@ -1,0 +1,1 @@
+<p>Whilst handling passwords in Java, its my understanding that they should always be handled in char[]'s to allow GC and remove hanging references.</p>  <p>My question is would, </p>  <pre><code>char[] password = String.valueOf(authentication.getCredentials()).toCharArray(); </code></pre>  <p>Could the value of authentication.getCredentials() to be interned or not?</p>

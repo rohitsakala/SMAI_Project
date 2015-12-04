@@ -1,0 +1,1 @@
+<p>I've got OurDomain.com on OurServer</p>  <p>I want to redirect NewDomain to OurServer.com/NewFolder</p>  <p>I've got the NewDomain redirected to OurServer but want  <a href="http://NewDomain.com" rel="nofollow">http://NewDomain.com</a>  to show what's at OurServer/NewFolder</p>

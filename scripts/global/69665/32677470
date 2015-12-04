@@ -1,0 +1,1 @@
+<p>As I understood <code>CoreWindow::SetPointerCapture</code> should do the same as the good-old win32-Clipcursor. Actually I found that it does pretty much nothing.</p>  <p>Anybody got this running ?</p>

@@ -1,0 +1,1 @@
+<p>I am developing windows phone 8.1 runtime application, I need to store mp3 files in local folder of app, to avoid access to user.</p>  <p>But to do this Is there any <strong>size</strong> restrictions or <strong>file count</strong> restriction to store files on local storage.</p>  <p>any suggestion is appreciated. Thanks</p>

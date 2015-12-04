@@ -1,0 +1,1 @@
+<p>created a new wcf service project. Renamed the service1 both file to newName.svc and class name. Now when I run it, it says "cant find type namespace.service1" in Service attribute in configurationelement  system.serviceModel/serviceHostingEnvironment/serviceActivations.  No such attribute in web.config. So where is it and how do I change it?</p>

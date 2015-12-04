@@ -1,0 +1,1 @@
+<p>I have a project that is linking in libcrypto.a. But All I'm interested in is, as an example, the SHA functionality. Is there a way to specify that all other unused functions should be stripped from the resulting binary? </p>  <p>GCC 4.8 is part of the toolchain.</p>

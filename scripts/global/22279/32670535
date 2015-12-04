@@ -1,0 +1,1 @@
+<p>I am to play video in android from Vimeo doing online streaming. For this, Right now, I am using VideoView. Now, I wanna control the video playback speed control feature like: 0.5x,1x,1,5x,2x And video cache support.  Are both of these possible with Android VideoView or is there any third player that I can use? Help!</p>

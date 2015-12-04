@@ -1,0 +1,1 @@
+<p>In Visual Studio 2013 when I go to Class View, then search for a class, then expand "Derived Types" folder it shows me only the classes derived from this class in the current project, but not the whole solution. Is there a way to find all the derived classes in the solution in Visual Studio 2013 or perhaps some plugins? The language in focus is C++ (unmanaged).</p>

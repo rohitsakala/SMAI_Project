@@ -1,0 +1,1 @@
+<p>Since iOS 8.0 my multiplayer game play works smoothly with GameCenter API. In iOS 9.0 when I tested I found the matchmaker at the middle is stopped, multiplayer not working and the following error shown.</p>  <pre><code>plugin com.apple.GameCenterUI.GameCenterMatchmakerExtension invalidated </code></pre>  <p>How to solve the issue?</p>

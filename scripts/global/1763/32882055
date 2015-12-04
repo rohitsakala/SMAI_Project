@@ -1,0 +1,1 @@
+<p>How to free space of External CacheDirectory?If i use <code>getExternalCacheDir().delete()</code> it only increase free space by some bytes?What is better way for doing tht?</p>

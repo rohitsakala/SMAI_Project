@@ -1,0 +1,1 @@
+<p>When you set the pageSize or do table.setVisibleRange(0, dataProvider.getList().size()) the entire table will rebuild. This is inefficient for me, is there a way to increase the size (add new rows) and only have the table build the new rows?</p>  <p>Thanks, Will</p>

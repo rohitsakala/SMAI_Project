@@ -1,0 +1,1 @@
+<p>I have a list contains list as elements. I want to convert all elements into data frame. Instead of using for loop. I used lapply function as follow:</p>  <pre><code>myDF=lapply(mylist,FUN=as.data.frame) </code></pre>  <p>However it's not converting. </p>  <pre><code>class(myDF[1]) </code></pre>  <p>still returns list.</p>  <p>Any ideas? Thank you so much for your help, </p>

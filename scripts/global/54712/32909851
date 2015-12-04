@@ -1,0 +1,1 @@
+<p>I'm trying to understand the differences in functionality and purpose between <code>g</code> and <code>session</code>. Both are objects to 'hang' session data on, am I right? If so, what exactly are the differences and which one should I use in what cases?</p>

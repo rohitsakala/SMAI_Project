@@ -1,0 +1,1 @@
+<p>I wonder how is the child array of <code>DefaultMutableTreeNode</code> arranged? Internally, do all the children node share the same parent --- root? (In other words, if I call <code>child()</code> on root, would I be able to access every children nodes?)</p>

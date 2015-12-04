@@ -1,0 +1,1 @@
+<p>I have to create video in mp4 format, and it seems that I can encode it with different pixel formats like <code>yuv420p</code>, <code>yuv422p</code>, <code>yuvj422p</code>. Which one I should use to maximize compatibility with most browsers/players?</p>

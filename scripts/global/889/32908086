@@ -1,0 +1,1 @@
+<p>I have Win32 c++ application which handles files and folders. I would like to be notified whenever the location in the address bar changes (i.e. the user enters/exists a folder).</p>  <p>Does explorer provide an event system for notifying applications of such events? If not can this be achieved in any other way?</p>

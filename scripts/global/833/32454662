@@ -1,0 +1,1 @@
+<p>I have row height as 80 px height in iPhone 5s screen size but when table appears on iPhone 6+ it's same as the as iPhone 5s. Can we adjust the ratio of height and width of cell using <code>Auto layout</code>?</p>

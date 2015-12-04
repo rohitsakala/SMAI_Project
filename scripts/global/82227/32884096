@@ -1,0 +1,1 @@
+<p>I have a problem with the variation prices in woocommerce. Right now they are displayed properly in category page (price incl.tax) when i enter the product it displays the price excl tax.</p>  <p>What do i need to edit in code to have the variation price displayed WITH tax in product page?</p>

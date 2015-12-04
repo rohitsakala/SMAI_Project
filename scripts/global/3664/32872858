@@ -1,0 +1,1 @@
+<p>I've strange problem despite of adding Windows.UI.Popups I can't create MessageDialog object besides I added reference to Windows.winmd </p>  <p>Error list displaying this:CS0246 The type or namespace name 'MessageDialog' could not be found (are you missing a using directive or an assembly reference?)</p>  <p>What should i do?</p>  <p>PS. I use visual studio 2015 community</p>

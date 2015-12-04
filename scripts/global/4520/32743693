@@ -1,0 +1,1 @@
+<p>I would like to delete file (that was created by pyinstaller in C:\Users\User\AppData\Local\VirtualStore\Program Files (x86)\App\tmp ) during Uninstall (using WiX). Any idea on how to do that?</p>  <p>Does anybody know why pyinstaller creates that file and if I can control that?</p>

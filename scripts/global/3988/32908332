@@ -1,0 +1,1 @@
+<p>According to <a href="http://docs.aws.amazon.com/aws-sdk-php/v3/guide/service/dynamodb-session-handler.html" rel="nofollow">documentation</a>, registering dynamodb session handler let you use PHP sessions like normal, but I try registering the dynamo session handler and autoloading it but that doesn't seems to be working.</p>  <p>Any guidance in order to make it work?</p>

@@ -1,0 +1,1 @@
+<p>What is the performance impact when i autowire all the components like Service, DAO in the Action Class itself versus looking up the bean in the Spring Context in each of the components ?</p>

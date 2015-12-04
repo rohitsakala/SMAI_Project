@@ -1,0 +1,1 @@
+<p>I get annoying warnings like shown below and want to suppress them.</p>  <pre><code>warning: (arm64)  could not find object file symbol for symbol _ff_h264_idct_add_neon </code></pre>  <p>My app uses CocoaPods for its dependencies and one of the dependencies is FFmpeg-iOS. </p>  <p>How can I suppress all warnings about missing object file symbols or all linker warnings?</p>

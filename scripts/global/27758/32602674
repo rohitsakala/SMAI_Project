@@ -1,0 +1,1 @@
+<p>Hey I have a UIWebView in a UIViewController. I am also using a UINavigation controller. When oriented portrait the back button on the navigation bar says Back but when I go to landscape it says Root View Controller. Any idea why this is happening and how I can change it? Any pointers would be greatly appreciated!</p>

@@ -1,0 +1,1 @@
+<p>I am creating a Sign-Up form. </p>  <p>I have used <code>setError()</code> to set error messages in all <code>EditText</code> s. now I want to check that whether an <code>EditText</code> has error message or not when I click on the submit button. </p>

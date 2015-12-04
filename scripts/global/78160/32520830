@@ -1,0 +1,1 @@
+<p>I use EF 5.0 and MySql. EntityFramework save Turkish letters as English letters. For example I want to save name of an object as <code>'Çalışma'</code> but it saves as <code>'Calisma'</code> however I set format in database as UTF-8. Do you have any suggestion?</p>

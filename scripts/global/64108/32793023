@@ -1,0 +1,1 @@
+<p>I am new to ruby on rails and i want to understand how this piece of code redirect to the show action thanks :</p>  <pre><code>def create   @article = Article.new(params[:article])   @article.save    redirect_to @article end </code></pre>

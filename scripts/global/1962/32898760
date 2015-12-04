@@ -1,0 +1,1 @@
+<p>I can use adb_gdb to attach chromium app on device, it can work successfully. But when I tried to enter ctrl-c to interrupt gdb and enter some breakpoint, the gdb server will close connection...</p>  <p>Did anyone know why this happened?</p>  <p>I did set interrupt command, but it did not help:</p>  <p>set remotebreak set remote interrupt-sequence Ctrl-C</p>

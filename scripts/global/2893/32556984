@@ -1,0 +1,1 @@
+<p>Currently i'm working with EJB services running on Weblogic 12c Server. When i write a junit test to call EJB services, an error appears with:</p>  <pre><code>java.lang.NoClassDefFoundError: weblogic/i18n/logging/MessageLoggerRegistryListener </code></pre>  <p>Anyone knows where is this class from? I googled it but got no result.</p>

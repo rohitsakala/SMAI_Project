@@ -1,0 +1,1 @@
+<p>Is it possible to call a 64-bit MSI installer from a 32-bit MSI installer? We have 32-bit product installer but a few components are 64-bit (e.g. Windows Shell Extension Handlers) and we want to install these along with our applications. Any ideas on how this can be done? Via MSM or Custom Actions or MSI Chaining? We are using InstallShield.</p>

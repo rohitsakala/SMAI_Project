@@ -1,0 +1,1 @@
+<p>On Debian 7 I have a custom <code>init.d</code> script to start solr.</p>  <p>I get this error though:</p>  <pre><code>Starting solr.../etc/init.d/solr: 18: /etc/init.d/solr: daemon: not found                  failed. See error code for more information. </code></pre>

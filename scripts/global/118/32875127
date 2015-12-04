@@ -1,0 +1,1 @@
+<p>Is it possible to Send/Receive large streams at the same time with <strong>TIdTCPServer/TIdTCPClient</strong> with the same client.</p>  <p>I have create a thread on the client side to handle the incoming requests.</p>  <p>Client receive the request but it will not send it back to the server until the previous requite finished (sent or received).</p>

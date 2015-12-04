@@ -1,0 +1,1 @@
+<p><code>services/data/v34.0/chatter/users/</code> gives <code>hasChatter</code> property for each user returned. </p>  <p>How to get that same data running a soql ? I am running </p>  <pre class="lang-sql prettyprint-override"><code>SELECT Name FROM User  WHERE firstName LIKE '%dum%'    OR lastName LIKE '%dum%' </code></pre>

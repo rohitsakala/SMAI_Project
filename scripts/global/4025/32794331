@@ -1,0 +1,1 @@
+<p>I made an info icon image near a radio field and added tooltip in html My html code for tool tip is:-</p>  <pre><code>&lt;div id="info_icon-tooltip" class="tooltip"  style="max-width:auto; max-height:auto; border-color:#D80000;"&gt; This is the information part &lt;/div&gt; </code></pre>  <p>Pls help me to add mouseover and mouseout functions on this info_icon in ExT JS..</p>

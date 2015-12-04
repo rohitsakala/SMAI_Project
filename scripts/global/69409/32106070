@@ -1,0 +1,1 @@
+<p>I have a combobox with a observable list of "agents", I want to disable,hide,or delete a item when the users already uses it, I tried with <code>combobox.getItem().remove(agent)</code> but it removes in the observableList and I dont want it. Thanks</p>

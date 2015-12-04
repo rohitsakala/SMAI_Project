@@ -1,0 +1,1 @@
+<p>I currently have a JPanel inside a JFrame and i need the view to follow an object, the reason i cant move the world is because the object is orbiting another object and so working out how to move the world would be a little more difficult.</p>

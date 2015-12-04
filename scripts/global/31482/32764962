@@ -1,0 +1,1 @@
+<p>I'm implementing widget to my application which requires login via google+. What is the best way to send session token from this widget? Should I use GoogleApiClient to connect and verify account and then send it to my server, or store session token for example in SharePreferences after login in application and get it inside Widget?</p>

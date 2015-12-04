@@ -1,0 +1,1 @@
+<p>I have read Android documentation, and seen there DiskLruCache class. But I don't understand from which package this class. Environment doesn't see this class. Form example LruCache from 'android.util'. Mabye DiskLruCache need to download. Please help someone.</p>

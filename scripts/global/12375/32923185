@@ -1,0 +1,1 @@
+<p>I am working in amazon EC2 environment i want to change my instance type. which giving following error. (An error occurred while trying to change the instance type for this instance Microsoft SQL Server is not supported for the instance type 't2.large'.) my installed window is windows server 2012 r2</p>

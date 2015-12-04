@@ -1,0 +1,1 @@
+<p>I am using the gmail-api for Android, and can attach files. I would like to refer to google-drive-files without downloading the file before it can be sent.  I know it can be done using the gmail gui, but do anyone know how that can be done using the gmail-android-api?</p>

@@ -1,0 +1,1 @@
+<p>I have a problem that Yii2 model tries to save empty value as null, not as empty string. As far as I have not null mysql column, I am getting mysql error. In Yii 1 there was a config option 'nullConversion' => PDO::NULL_EMPTY_STRING . How can I achieve the same in Yii2? Just want ORM to save empty values as '', not null. Thanks</p>

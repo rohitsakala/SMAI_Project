@@ -1,0 +1,1 @@
+<p>Is there an easy way to have interactive user input in a PhantomJS / CasperJS application (arrow keys, command history, tab-completion, etc.)? NodeJS's Readline module (<a href="https://nodejs.org/api/readline.html" rel="nofollow">https://nodejs.org/api/readline.html</a>) provides much of this functionality, but Casper does not allow importing standard Node modules...</p>

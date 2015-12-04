@@ -1,0 +1,1 @@
+<p>How do i convert a byte variable to a string?</p>  <pre><code>var = 1000       # an integer variable byte_int = var.to_bytes(4, byteorder='little’) byte_str =??? </code></pre>

@@ -1,0 +1,1 @@
+<p>My file is like</p>  <pre><code>k FFFFFFFF s FFFFFFFF t FFFFFF </code></pre>  <p>I want to read the each character and its hex value  from the file and process it and then go to the next. how do I go about</p>

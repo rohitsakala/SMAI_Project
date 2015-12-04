@@ -1,0 +1,1 @@
+<p>When I login to VS 2013, then run VS 2015, the login there, and run VS 2013 again, the logged in user is needed to reenter his credentials. </p>  <p>Same with VS2015 -> VS2013 -> VS2015.</p>  <p>And same with any versions on different PCs: logged in PC1, then logged in PC2, back to PC1 - need to reenter.</p>  <p>Is there any way to fix this behavior or it is by design?</p>

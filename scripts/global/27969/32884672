@@ -1,0 +1,1 @@
+<p>AMPQ URI is defined in the following way: </p>  <p><code>amqp://user:pass@host:10000/vhost</code> (link: <a href="https://www.rabbitmq.com/uri-spec.html" rel="nofollow">https://www.rabbitmq.com/uri-spec.html</a>)</p>  <p>Is there a library for rabbitMQ or regex that can validate and extract the elements from the URI string?</p>

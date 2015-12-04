@@ -1,0 +1,1 @@
+<p>I need to create an action hook based on a particular product being added to the Woocommerce cart:</p>  <p>When PRODUCT-#123 is added to the cart, then doThisFunction();</p>  <p>Any ideas how to do this?</p>

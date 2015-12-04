@@ -1,0 +1,1 @@
+<p>i have read the file in R by using a command.</p>  <pre><code>&gt; my_df &lt;-read.table(file.choose(),header=TRUE,sep=";") &gt; my_df  </code></pre>  <p>what i do not understand is how to convert uetz-Y2H dataset into graph by using plot.igraph function. The data is not integres or edges.</p>  <p>many thanks,</p>

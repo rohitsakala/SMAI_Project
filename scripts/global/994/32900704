@@ -1,0 +1,1 @@
+<p>I'm creating a Cocoa Application using SSHFS but I want to make a package installer when user install, it will install <code>OSXFuse</code> and <code>SSHFS</code> to their macbook. How can I do that?</p>

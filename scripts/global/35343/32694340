@@ -1,0 +1,1 @@
+<p>I have two views. One is Dashboard view, and next one is AllItems View. Here, Dashboard is the Default View. But i have to pull items from Allitems view using CAML Query. Can anybody tell me how to achieve this.</p>

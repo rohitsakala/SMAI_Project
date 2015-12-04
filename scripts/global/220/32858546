@@ -1,0 +1,1 @@
+<p>I am supposed to execute same psql command from a bash script on 5 remote machines using a username and password. </p>  <p>I have read that we have to pass the credentials in .pgpass file and use the -w option while executing the psql command.</p>  <p>But how can I execute the same command on the 5 machines using the same .pgpass file?</p>

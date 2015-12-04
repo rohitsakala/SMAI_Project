@@ -1,0 +1,1 @@
+<p>i have this little problem, i have <code>&lt;span class="a a"&gt;some text&lt;/span&gt;.</code></p>  <p>i would like to apply css like this:</p>  <pre><code>      .a.a{            color: red;          } </code></pre>  <p>but it does not work, can anyone help me with this? </p>  <p>Thanks! </p>

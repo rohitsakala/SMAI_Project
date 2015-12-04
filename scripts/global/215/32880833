@@ -1,0 +1,1 @@
+<p>Instead of getting an error page I would like to get error codes only (e.g. 404) for a Web Application in IIS. How can I disable error pages on a Web Application level?</p>

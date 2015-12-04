@@ -1,0 +1,1 @@
+<p>I just wiped my Windows Phone 8.1 and restored from backup. The app that I wrote now crashes on start up. Obviously I don't want to have to do a factory reset and restore every time I need to test/debug this issue. Is it possible to simulate a restore from backup, either with a physical device or the emulator?</p>

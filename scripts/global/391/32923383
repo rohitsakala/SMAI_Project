@@ -1,0 +1,1 @@
+<p>I want to move down (scroll to the bottom) terminal in my function, and how i can this ?</p>  <pre><code>exemple: void Test(void) { scroll down terminal } </code></pre>  <p>Thank you</p>

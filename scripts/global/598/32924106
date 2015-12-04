@@ -1,0 +1,1 @@
+<p>I'm looking to use Python to write a function that can sum (1/n) for range 1 to 10^8. I've made this using a for loop but it's slow - is there a way I can do this to reduce processing time?</p>  <p>Current code:</p>  <pre><code>def ForLoop(n):     sum = 0     for i in range(1,(10**n)+1):         sum += (1/i)     return sum  </code></pre>  <p>Thanks!</p>

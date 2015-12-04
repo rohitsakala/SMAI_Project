@@ -1,0 +1,1 @@
+<p>I'm using FilteredTree class to filter over my TreeViewer contents, but as there is lots of data now, when I type in something to filter the data, it hangs before I enter my next letter. Is there any way that I can improve the performance.</p>

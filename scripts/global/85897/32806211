@@ -1,0 +1,1 @@
+<pre><code>InfowareEntities Infoware = new InfowareEntities();    IEnumerable admn = Infoware.Admissions.Where(x =&gt; x.AdmissionNo == 1520002); </code></pre>  <p>In my admission database table I have columns- admissionNo, firstname, lastname...<br> now from above lambda expression I need to get firstname.<br> Please help me with this.</p>

@@ -1,0 +1,1 @@
+<p>Usually I am using <code>echo -e "\e[1:32mMessage\e[0m"</code> to print colourful messages out of the makefile. But now I want to print message inside of the <code>ifndef</code> block, so I am using <code>$(info Message)</code> style. Is it possible to make this kind of message colourful ?</p>

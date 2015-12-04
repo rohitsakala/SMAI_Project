@@ -1,0 +1,1 @@
+<p>I'm running a tomcat site on Windows 2012.  The site works for me ( I set it up on the server) but other users get a login prompt when they go to the site.  Any ideas?</p>  <p>The site uses Windows authentication.  At the moment I'm using my credentials for the tomcat service on the server.</p>  <p>UPDATE - I'm using Waffle</p>

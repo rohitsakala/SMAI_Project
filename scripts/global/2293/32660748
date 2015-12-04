@@ -1,0 +1,1 @@
+<p>I'd like to use the new San Francisco font on a site. I've tried:</p>  <pre><code>font: 'San Francisco', Helvetica, Arial, san-serif; </code></pre>  <p>to no avail. I have tried the answers to <a href="http://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website?lq=1">this question</a>, but <code>@font-face</code> is not the solution here.</p>

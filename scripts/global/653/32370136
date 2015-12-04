@@ -1,0 +1,1 @@
+<p>I have a program that at the moment which can handle the installing and uninstalling of .msi files without a problem using msiexec.exe. </p>  <p>However I want to know a way to do the same but with .exe installers? I'm not sure of any existing methods to do this, and understand that I cannot use the msiexec.exe approach to do this?</p>  <p>Thanks</p>

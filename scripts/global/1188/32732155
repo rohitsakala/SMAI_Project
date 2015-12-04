@@ -1,0 +1,1 @@
+<p>I am trying to migrate jBoss from 4.2.2 to 5.0.1, i am getting class loader issue.</p>  <p>jBoss is searching for .class files of .war in D:/ instead of Web-Inf/classes folder.</p>  <p>Please let me know how can i resolve this by changing configurations</p>  <p>Thanks </p>  <p>Nagendra</p>

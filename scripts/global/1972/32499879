@@ -1,0 +1,1 @@
+<pre><code>foreach $ft (@hmfeatures)   {       p,      print "$ft: \t"; print "\t";   print $q-&gt;textfield(-name    =&gt; 'foo[]',);       print $q-&gt;br;    }  print $q-&gt;submit(-name =&gt; 'submit1', -value =&gt; 'Add');  print $q-&gt;end_form; </code></pre>

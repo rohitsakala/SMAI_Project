@@ -1,0 +1,1 @@
+<p>Instead of using wizard for Load test configuration, Can we do custom configuration through XML for Load testing in Visual Studio 2013?  Like define Number of Virtual user, Concurrent executions etc...</p>

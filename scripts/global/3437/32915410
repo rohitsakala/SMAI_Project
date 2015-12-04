@@ -1,0 +1,1 @@
+<p>After adding the following snipped in the routes file I got what I want.</p>  <pre><code>Router::connect('/sites/:name', ['controller' =&gt; 'sites', 'action' =&gt; 'view'], ['pass' =&gt; ['name']]); </code></pre>  <p>But now all actions I want to invoke on the sites controller are gone. How can I enable them? Do I have to add every method before?</p>

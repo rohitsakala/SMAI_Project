@@ -1,0 +1,1 @@
+<p>I have too many files in a folder. I just want my inodes to be get free as soon as possible,So I want tar all small files in a folder to be tar with <code>rm</code> option.</p>  <p>Can I delete files while moving a budnle to .tar ? with <code>&amp;&amp;</code> operator? Is there any better way to <code>tar</code> files in sync with <code>rm</code>.</p>

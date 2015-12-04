@@ -1,0 +1,1 @@
+<p>I was developing an app with node-js. I was trying to install  node-js on one of squeeze debian linux machine.</p>  <p>The issue I was facing, while compiling node code, it needs g++ version >= 4.9, but squeeze has only g++ versions till 4.4.5.</p>  <p>Please let me know how to circumvent this issue.</p>

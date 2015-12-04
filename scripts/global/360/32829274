@@ -1,0 +1,1 @@
+<p>I have a POST Request to an .aspx page and i want to save the received parameters (they are standard and sequencial) to a List.</p>  <p>Parameters example:</p>  <pre><code>ProductList1=1 ProductID1=XPTO ProductQuantity1=2 ProductList2=2 ProductID2=XXXX ProductQuantity2=5 </code></pre>  <p>What is the best way to accomplish (iterate) this? Best regards</p>

@@ -1,0 +1,1 @@
+<p>Usually every new major version of Team Foundation Server comes with a new version of a default XAML build process template. </p>  <p>I'm well aware of the new build vNext system introduced in TFS 2015, but regarding the legacy one - is there a new build process template for it?</p>

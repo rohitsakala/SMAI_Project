@@ -1,0 +1,1 @@
+<p>I have a form with some filters and I want to render a table report from it. In my controller I have a method which handles form submission with specific param and I want to open my result in a popup window . </p>  <p>Can someone give me a code example how to obtain that result?</p>

@@ -1,0 +1,1 @@
+<p>How can docker run on a Debian host maybe an OpenSUSE in a container? It uses different kernel, with separated modules. Also older Debian versions have used older kernels, so how can run it on a kernel version 3.10+ ? Older kernels have only older built in functions, how can an old distro manage new features? What is "the trick" in it?</p>

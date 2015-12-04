@@ -1,0 +1,1 @@
+<p>I have few Solr xml schema for which I need to generate C# classes. I don't have sample JSON data. Are there any tools to generate C# classes from Solr schema files?</p>

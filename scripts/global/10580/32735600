@@ -1,0 +1,1 @@
+<p>I want to track the movement of user between two geofences areas. I want to store in memory (SharedPrefs) the time that user made between the two areas. </p>  <p>Can I do this without use the internet ? Only with GPS ?</p>

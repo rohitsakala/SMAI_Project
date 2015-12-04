@@ -1,0 +1,1 @@
+<p>I am new to android. My android application contains only one class.     public class MainActivity extends Activity implements SensorEventListener</p>  <p>I want to send it in background on a button click and it comes in the foreground again after a fixed time interval. how to implement this?</p>

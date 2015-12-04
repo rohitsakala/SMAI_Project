@@ -1,0 +1,1 @@
+<p>We can set <code>UITabBar</code> item color for the selected state with property <code>tintColor</code>, but how can I set the tintColor for the a tab bar item item in  the unselected state?</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to set global variable 'table' in chrome console and the result is :</p>  <pre><code>var table=5; table function table(data, [columns]) { [Command Line API] }  </code></pre>  <p>'table' isn't a reserved variable so why I cant set it to something else? Thanks.</p>

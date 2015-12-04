@@ -1,0 +1,1 @@
+<p>I need to find all text files with extension .log, which have the last access more than 24 hours ago and contain the required text.</p>  <p>Here is What I have already tried:</p>  <pre><code>find / *.log -mtime +1 -print | grep "next" *.log </code></pre>  <p>but this doesn't work.</p>

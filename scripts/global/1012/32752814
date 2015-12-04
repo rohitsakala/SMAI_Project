@@ -1,0 +1,1 @@
+<p>From what I understand since that I have a server with 29 usable IPs, that means I should be able to make multiple websites on the same machine with a different IP.</p>  <p>My only question is how to do this, I've looked around but it all seems to be just people trying to find out how to do it if they only have one IP. But I have a server running Apache2 and 29 IPS</p>

@@ -1,0 +1,1 @@
+<p>Let n and k be integers with 2 ≤ k ≤ n, and consider the set S = {1, 2, 3, . . . , 2n}. An ordered sequence of k elements of S is called valid if • this sequence is strictly increasing, or • this sequence is strictly decreasing, or • this sequence contains only even numbers (and duplicate elements are allowed). what is the number of valid sequences</p>

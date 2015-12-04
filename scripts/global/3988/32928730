@@ -1,0 +1,1 @@
+<p>It's easy to set the allowed file in code igniter when we want to upload file if the amount is less. But if there are almost extension file I want to set as allowed types of file that can be uploade except file extension of .exe, how the easiest way to set the code ? besides I have to type all of type code in allowed_types configuration. ..</p>

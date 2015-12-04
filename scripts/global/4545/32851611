@@ -1,0 +1,1 @@
+<p>When we use javac option:<br> <code>-source</code> and <code>-target</code><br> how does the compiler "knows" the code to produce ?  </p>  <p>I mean how does any compiler knows the specification of any previous java release or I have to do some setting in order to provide it with some information about them ?</p>

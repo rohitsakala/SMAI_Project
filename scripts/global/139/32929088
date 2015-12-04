@@ -1,0 +1,1 @@
+<p>Why can't we add two C-strings in C++? This is what I know, please correct me, and add to it.</p>  <p>Is it because the '+' operator is not overloaded to do the operation. The compiler essentially interprets the variable name as a pointer. Since, we can not add two pointers, so we can't add two string variables like this: str = str + "str"?</p>

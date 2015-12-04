@@ -1,0 +1,1 @@
+<p>The Babel AMD module formatter works perfectly for modules, wrapping the script in a <code>define</code> statement. However, my project also has 'page scripts' that should execute as soon as dependencies are loaded. These should be wrapped in a <code>require</code> statement.</p>  <p>Does Babel provide a means of accomplishing this?</p>

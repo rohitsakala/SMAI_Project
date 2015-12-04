@@ -1,0 +1,1 @@
+<p>Given an image of an object with a known, solid background color, how can I influence a CNN to ignore/discount the features of the background, thereby emphasizing the object?</p>  <p>For your information, my scenario is feature extraction (e.g. neural codes) for the purposes of content-based image retrieval (CBIR). I am using Caffe.</p>

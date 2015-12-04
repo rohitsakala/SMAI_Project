@@ -1,0 +1,1 @@
+<p>I have a client-server program and the server receives [Process ID, Hostname, App Name, File Path] and I want to put them in a table. As of now they are sent in one string. Is DataGridView applicable to use even if they are not inside a database or is there another option?</p>  <p>Thanks.</p>

@@ -1,0 +1,1 @@
+<p>When I try to create an EC2 Resource with a AWS Data Pipeline, I don't see and option for defining EBS volume that will be associated with that compute engine. Is it possible to set the volume size? If yes, can someone give me an example.</p>

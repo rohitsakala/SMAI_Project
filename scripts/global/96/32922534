@@ -1,0 +1,1 @@
+<p>At server site, I get the following user-agent string:</p>  <p>"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.76 Safari/537.36"</p>  <p>So, how to detect an Android 5 browser?</p>

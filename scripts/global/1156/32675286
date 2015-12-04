@@ -1,0 +1,1 @@
+<p>For example there is a method dog:</p>  <pre><code>void dog(char C,int N) { //here if I want to print the value of C with a print statement,how do I do that? } </code></pre>

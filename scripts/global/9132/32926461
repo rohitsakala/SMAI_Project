@@ -1,0 +1,1 @@
+<p>This is something that always happens, but I never understood.</p>  <p>Why in Interface Builder, if you leading-align a view with the view controller, the margin shows up as -20, instead of 0?</p>

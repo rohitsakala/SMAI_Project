@@ -1,0 +1,1 @@
+<p>I have to run several sprite sheet animations with each sheet having hundreds of frames. I have tried SpriteKit as well as Cocos2D, each having memory and CPU load time issues.  Can anyone please recommend the best way to about it using Cocos2D, SpriteKit or any other method, so as to minimize cpu usage and prevent the app crashing due to memory overload.</p>

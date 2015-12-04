@@ -1,0 +1,1 @@
+<p>I have a view pager consisting of 4 tabs. Each tab holds its own fragment. </p>  <p>How would I be able to use fragment transaction to replace the fragment in tab 3 with a new fragment? </p>  <p>I've tried a lot of things, but I have not been able to come up with a solution at all. I've tried looking around on google and stackoverflow, but with no success. </p>

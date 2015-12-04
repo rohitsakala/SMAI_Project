@@ -1,0 +1,1 @@
+<p>I am trying to use Riggs regression on a data set of 7000 rows and 35 variables and trying to find the optimal model using 29 of those variables and nvmax=9 (i.e. find the 9 best models) but the code never stops running and ultimately R crashes. </p>  <p>Is there a way around this? I am using i7 and with 8 GB of RAM.</p>

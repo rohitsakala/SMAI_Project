@@ -1,0 +1,1 @@
+<p>Is it possible to compile an AST to a binary in Golang? Or does the API not expose that feature. The way libraries currently do this, such as <a href="http://github.com/jcla1/gisp" rel="nofollow">Gisp</a>, is to print out the AST using the go/printer package. Is there a way to skip this process and compile the AST directly to a binary?</p>

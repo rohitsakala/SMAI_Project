@@ -1,0 +1,1 @@
+<p>Are those two expressions identical? </p>  <p>Expression 1:</p>  <pre><code>$this-&gt;a = $r[0]; $this-&gt;a = $this-&gt;a == "" ? "default" : $this-&gt;a; </code></pre>  <p>Expression 2:</p>  <pre><code>$this-&gt;a = $r[0] == "" ? "default" : $r[0]; </code></pre>  <p>Does <em>$this->a</em> hold the same result in both cases? Am I missing something?</p>

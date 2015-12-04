@@ -1,0 +1,1 @@
+<p>I need a container that works like a <a href="https://msdn.microsoft.com/library/xfhwa508%28v=vs.110%29.aspx" rel="nofollow">ditionary</a> but where the type of data (<code>TValue</code>) change from one key to the other.</p>  <p>I also need to iterate trough it.</p>

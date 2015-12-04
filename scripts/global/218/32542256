@@ -1,0 +1,1 @@
+<p>Is it possible to deny access directly to a driectory?</p>  <p>I have images on my site, with a watermark overlay so users cant steal them.</p>  <p>However if they right click they can copy the image URL</p>  <p>Is it possible to deny access to the folder <code>uploads/</code>?</p>

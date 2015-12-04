@@ -1,0 +1,1 @@
+<p>When I execute several different compilation commands via a makefile on one specific sourcecode (c-code). Is there a way to add these compilation commands as a comment to the source code for documentation reason?</p>

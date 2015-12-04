@@ -1,0 +1,1 @@
+<p>I know it is not good way, I retrieve items in wordpress using custom code and sql. All Code is custom to get the items. And now i want to add pagination. I use simple query to retrieve the items from database.</p>  <p>Php pagination doesnot works. How to get pagination for items.</p>  <p>Thanks</p>

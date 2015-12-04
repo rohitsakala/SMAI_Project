@@ -1,0 +1,1 @@
+<p>I am trying to change Navigation bar background color in viewDidLoad using the same example in the link below but that's not working. <code>[[UINavigationBar appearance] setBackgroundColor:[UIColor greenColor]];</code></p>  <p>please help.  </p>  <p><a href="https://github.com/aryaxt/iOS-Slide-Menu" rel="nofollow">https://github.com/aryaxt/iOS-Slide-Menu</a></p>

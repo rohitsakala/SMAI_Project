@@ -1,0 +1,1 @@
+<p>I added the Config: grails.plugin.springsecurity.logout.postOnly = false</p>  <p>And I added link to logout/index in my UI.</p>  <p>Clicking on that link, redirects me to myapp//j_spring_security_logout, which gives me 404 because of the two slashes in the URL.</p>  <p>Removing the extra / the logout works as expected.</p>  <p>What can I do?</p>

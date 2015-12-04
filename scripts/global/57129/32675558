@@ -1,0 +1,1 @@
+<p>How would one write this with the correct coffeescript syntax?</p>  <pre><code>$("select#test").bind({   "focus": function(ev, obj) {     // Do something when the focus event is triggered   } }); </code></pre>  <p>My attempt is not correct:</p>  <pre><code>$("select#test").bind    "focus": (ev, obj) -&gt;      // Do something when focus event is triggered </code></pre>

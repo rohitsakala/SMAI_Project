@@ -1,0 +1,1 @@
+<p>so my question is why do some people use int variables as char variables. exemple </p>  <pre><code>int main()  {   int i;   scanf("%c",&amp;i);  printf ("%c",i);  } </code></pre>  <p>thank's in advance</p>

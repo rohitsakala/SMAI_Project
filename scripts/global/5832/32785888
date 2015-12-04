@@ -1,0 +1,1 @@
+<p>I want to port an app (small to mid size) from Qt5 to Qt4. Do I need to manually rewrite all the connects (which currently use the new Qt5 style)?</p>  <p>I'm looking for an alternative (easy) approach :)</p>

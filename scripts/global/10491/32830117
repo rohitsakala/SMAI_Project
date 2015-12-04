@@ -1,0 +1,1 @@
+<p>Can Django trans tags include HTML tags? For example can I do <code>{% trans "Hold &lt;em&gt;&lt;strong&gt;Ctrl&lt;/strong&gt;&lt;/em&gt;" %}</code> ? Or would I have to do <code>{% trans "Hold" %} &lt;em&gt;&lt;strong&gt;{% trans "Ctrl" %}&lt;/strong&gt;&lt;/em&gt;"</code> instead?</p>

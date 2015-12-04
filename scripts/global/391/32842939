@@ -1,0 +1,1 @@
+<p>After upgrading to El Captain OS X 10.11 (open beta) I can no longer use the sass command to convert my sass back to css.</p>  <pre><code>sass --watch input.sass:output.css -bash sass: command not found </code></pre>  <p>Anyone got a clue?</p>

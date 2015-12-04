@@ -1,0 +1,1 @@
+<p>Assume there is a queue like this (the lines are only for clarity, they don't represent anything):</p>  <pre><code>[1,1,1, 2,2,2, 3,3, 4, 5] </code></pre>  <p>I want to sort it into this:</p>  <pre><code>[1,2,3,4,5, 1,2,3, 1,2] </code></pre>  <p>Is there an algorithm that solves this and if so, how is it called?</p>

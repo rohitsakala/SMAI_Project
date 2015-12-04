@@ -1,0 +1,1 @@
+<p>In my project, I want to get the PC name of the client user  but the methods I am using just give me the PC name of the server:</p>  <pre><code>System.get(user.name) </code></pre>

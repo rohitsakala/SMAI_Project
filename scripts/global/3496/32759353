@@ -1,0 +1,1 @@
+<p>I couldn't find any answer to my problem. I have an input with type="number" and I want the number to automatically add dots to it when it goes up to 1000. So instead of 1000 it should output 1.000, is there a possibility to do that? Like adding some attribute to the input?</p>

@@ -1,0 +1,1 @@
+<p>I build both shared and static of opencv (<strong>I need all the static and shared version</strong>). Sometime I want to link the static opencv libs via ${OpenCV_LIBS} in cmake. But it doesn't work when I use ${OpenCV_LIBS}. Is there an variable to link opencv static version libs </p>

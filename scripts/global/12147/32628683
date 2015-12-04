@@ -1,0 +1,1 @@
+<p>How would I write code that will allow me to check for duplicates in a string of numbers.</p>  <pre><code>alist = [['123456789', '112345678', '123345678', '859403126']] (alist[0][0] = no duplicate) (alist[0][1] = duplicate) (alist[0][2] = duplicate) (alist[0][3] = no duplicate) </code></pre>  <p>Thanks for the help. </p>

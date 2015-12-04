@@ -1,0 +1,1 @@
+<p>I am opening a popup using jquery dialog, this popup contains iframe loading page of another application. (App1)</p>  <p>App1, would like to have a button in a page to close this popup.</p>  <p>This would be a crossdomain access but would it be possible through any work around?</p>

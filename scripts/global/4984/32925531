@@ -1,0 +1,1 @@
+<p>What is the ruby-ish way to do</p>  <pre><code>model/subscription.rb def subscription_create        uri_json = JSON.parse(uri.to_s)      sub = Subscription.new(ibm_response: uri_json) end </code></pre>  <p>other than putting it in controller.</p>  <p>What about <strong>self.new</strong> or <strong>self.build</strong> ?</p>

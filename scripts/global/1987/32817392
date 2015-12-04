@@ -1,0 +1,1 @@
+<p>Do file descriptor are with respect to the processes or with respect to the operating system? What I basically want to know is if in a c program I open a file and that file gets assigned a file descriptor value lets say, 103, so when I open a file with file descriptor 103 in some other c program would I be referring to the same file or some other? </p>

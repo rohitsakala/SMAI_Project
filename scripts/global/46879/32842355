@@ -1,0 +1,1 @@
+<p>i am trying to parse comments from an XML file using DOM in a java file..in the output i am not able to see commented text and rest of the xml is parsed properly.can anyone suggest a solution to this?</p>

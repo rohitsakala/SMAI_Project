@@ -1,0 +1,1 @@
+<p>I want to find non-contiguous empty cells in a specific row and enter data using </p>  <pre><code>For Each Cell In Sheets("Sheet1").Range("A1,A2,A3").Cells </code></pre>  <p>[Code]</p>  <pre><code>Next Cell </code></pre>  <p>How do I name the range to refer to Cells(LastRow,1),Cells(LastRow,2) instead of A1,A2 etc</p>

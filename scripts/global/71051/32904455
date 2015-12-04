@@ -1,0 +1,1 @@
+<p>How do I read non-static values in view using Razor view</p>  <pre><code>// MODEL public int Number1 { get; set; } public int Number2 { get; set; }  // VIEW @using BasicCalculator.Events.Models;  @{     Layout = "~/Views/Shared/_Layout.cshtml"; }  @Html.TextBox("Number1",????? </code></pre>  <p>I have to read the properties(Number1 and Number2) in the view...</p>

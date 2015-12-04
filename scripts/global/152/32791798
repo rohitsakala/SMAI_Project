@@ -1,0 +1,1 @@
+<p>Hi I am new to Java Programming and I want to create small search program in which user can search movies using movie title. I have downloaded plot.list.gz from <a href="http://www.imdb.com/interfaces" rel="nofollow">IMDB Interfaces</a>. I have no idea how to read this 127 MB .list file and index it using Lucene.  Any Help ? Thank you</p>

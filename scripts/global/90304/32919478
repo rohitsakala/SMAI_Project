@@ -1,0 +1,1 @@
+<p>Docker can't modify base image's filesystem, but can't copy it. How can store its changes during container usage? I see that it stores files under <code>/var/lib/docker</code>, but how can store filesys' changes without modifying it? What is the methodology?</p>

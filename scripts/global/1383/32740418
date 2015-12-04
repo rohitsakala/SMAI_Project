@@ -1,0 +1,1 @@
+<pre><code>ipython nbconvert --to latex mynotebook.ipynb </code></pre>  <p>Gives me a tex file with no figures. I have to insert the figures manually. This particular case involves image data, so it's not something I can fix with matplotlib. It seems I don't <em>have</em> to use a converter, Textmate will allow me to put png in directly.</p>

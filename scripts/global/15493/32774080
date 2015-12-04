@@ -1,0 +1,1 @@
+<p>i'm having trouble using the FragmentPageAdapter + ViewPager pattern, the app works good, but when android needs memory it kills my host activity I don't know how to restore the previous state of the FragmentPageAdapter.</p>

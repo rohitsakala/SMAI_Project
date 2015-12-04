@@ -1,0 +1,1 @@
+<p>Should I use CSS transitions or jQuery?</p>  <p>I've seen some jQuery plugins use both with jQuery only being used if the browser does not support the CSS transition.</p>  <p>How is this done?</p>

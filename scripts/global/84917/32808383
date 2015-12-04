@@ -1,0 +1,1 @@
+<p>In Python, I need to format numbers so they align on the decimal point, like so:</p>  <pre><code>  4.8  49.723 456.781 -72.18   5  13 </code></pre>  <p>Is there a straighforward way to do this?</p>

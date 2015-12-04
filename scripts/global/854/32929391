@@ -1,0 +1,1 @@
+<pre><code>function im = Thresholding(I) [r,c] = size(I);`im = zeros(r, c); for i = 1:r for j = 1:c     if I(i,j)&gt; 105         im(i,j) = 1;     end end end im = bwareopen(im, 5); im = imfill(im, 'holes'); end  </code></pre>  <p>I'm trying to use this code and I got this error " Undefined function or method 'bwareopen' for input arguments of type 'double'"please help me</p>

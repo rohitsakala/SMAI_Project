@@ -1,0 +1,1 @@
+<p>I now use a infinite loop  on the server to check the HTTP request from the client. When I do the functional test in grails, the infinite loop couldn't been closed by the test itself. So I couldn't get the test report and finish the test</p>  <p>Is there anyone know how to resolve such problem</p>  <p>Thanks </p>

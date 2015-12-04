@@ -1,0 +1,1 @@
+<p>I am using php and mongodb in one of my project. I am using Yii Framework to build the project. My concern is that I am bit confused regarding to use Doctrine MongoDB ODM for embedding collections in Mongodb or should I use normal PHP and mongodb for embedding collection.</p>

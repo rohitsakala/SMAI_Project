@@ -1,0 +1,1 @@
+<p>My custom class uses QueryDefs and Recordsets throughout. Usually in every method I need a QueryDef or Recordset I provide a variable for CurrentDB()</p>  <p>Is it acceptable to set db=currentDB() in the class Initialize sub and set it to nothing in the terminate sub?</p>  <p>What are the pros and cons for doing this?</p>

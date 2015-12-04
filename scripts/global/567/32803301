@@ -1,0 +1,1 @@
+<p>I'm using owl.carousel plugin for slideshow on one of the website I'm developing and suddenly I've got this error saying Cannot access local image, however i managed to resolve with: C:\Program Files\Chrome\Chrome.exe --disable-web-security . But, my question is When i upload the website on the server, will users have the same problem while accessing the site?</p>

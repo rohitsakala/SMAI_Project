@@ -1,0 +1,1 @@
+<p>How to extratc SOV from a sentance using popular NLP libraries. I have read that one method is to generate a dependency structure and convert it to SOV structure. </p>

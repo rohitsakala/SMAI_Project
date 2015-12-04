@@ -1,0 +1,1 @@
+<p>I have following code</p>  <pre><code> private static int getYear(char[] charArray) {     return (int)charArray[0] * 1000 + (int)charArray[1] * 100 + (int)charArray[2] * 10 + (int)charArray[3]; } </code></pre>  <p>This excerpt calculate a number from a 4-element char array. From "2015" there is 55343.</p>  <p>Any suggestion?</p>

@@ -1,0 +1,1 @@
+<p>This is my code:</p>  <pre><code>cost = input("Enter the expenses: ") cost = cost.split() total = sum([int(i) for i in cost]) print("Total: $",total) </code></pre>  <p>This is the output:</p>  <pre><code>Enter the expenses: 5 6 89 5 Total: $ 105 </code></pre>  <p>I just need help to remove the space after the $ sign. Thank you for your help :)</p>

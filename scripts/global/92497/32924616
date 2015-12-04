@@ -1,0 +1,1 @@
+<p>In React-Native, how do I add font borders to Text-components?</p>  <p>I've tried using <code>border</code> and <code>shadow{Color, Radius, Opacity, Offset}</code>, but haven't gotten that to work. Any suggestions?</p>

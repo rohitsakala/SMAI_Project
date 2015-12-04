@@ -1,0 +1,1 @@
+<p>I have dumps of As400 programs source codes in text files (about 100 programs/files) and I need to find out where all we are using the servers(FTP command)/IP addresses in those programs. I need help in what all commands I should search in the source codes.</p>  <p>Why: We are changing the servers and we need to know what all servers are already there.</p>  <p>Please help.</p>

@@ -1,0 +1,1 @@
+<p>I have come across an article about TDD where author mentions Singleton as an anti-pattern, and in order to avoid this, one solution is that a Singleton should be replaced with single or multiple interfaces. What does this actually mean? An example will be much helpful.</p>

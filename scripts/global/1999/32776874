@@ -1,0 +1,1 @@
+<p>I need to update apache 2.2.22 to support TLSv1.2. I have tried the below command but it is not working</p>  <pre><code>SSLProtocol +TLSv1.2 +TLSv1.1 +TLSv1 </code></pre>  <p>But when I put this command it displays an error in windows event viewer</p>  <pre><code>SSLProtocol: Illegal protocol 'TLSv1.2' </code></pre>

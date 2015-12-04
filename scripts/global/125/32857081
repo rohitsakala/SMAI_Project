@@ -1,0 +1,1 @@
+<p>I am reading up on Theory of Computation. And I have no practical experience of programming compiler.</p>  <p>So it occurred to me, does a C or Java compiler use a huge DFA to Validate a program (String in TOC parlance)?</p>  <p>Are compilers practical implementations of DFA?</p>

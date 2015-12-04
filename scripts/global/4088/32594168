@@ -1,0 +1,1 @@
+<p>I have 32 bit numbers <code>A=0x0000000A</code> and <code>B=0X00000005</code>.</p>  <p>I get A xor B by <code>A^B</code> and it gives 0b1111. </p>  <p>I rotated this and got <code>D=0b111100000</code> but I want this to be 32 bit number not just for printing but I need MSB bits even though there are 0 in this case for further manipulation.</p>

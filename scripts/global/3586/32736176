@@ -1,0 +1,1 @@
+<p>Maybe I am missing something here.</p>  <p>I have a QUEUE with a SUBSCRIBER, which calls a PL/SQL-PROCEDURE. I enqueue a message, the procedure gets called, there is an error in the procedure and the message is now in the exception queue. So, where do I see, what error happened?</p>

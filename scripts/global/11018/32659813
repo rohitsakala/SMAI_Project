@@ -1,0 +1,1 @@
+<p>I'm creating a dashboard using Google Charts and I need a way to include a loading gif or text that reads "Loading.." while my div or canvas loads with the chart. Also, I'm having a hard time figuring out how to get the charts to animate on start up as well as when values are updated.</p>

@@ -1,0 +1,1 @@
+<p>This is the whole function:</p>  <pre><code>    $(document).keyup(function(e) {         delete game.keys[e.keyCode ? e.keyCode : e.which] = true;     }); </code></pre>  <p>This is the line that is throwing the error:</p>  <pre><code>    delete game.keys[e.keyCode ? e.keyCode : e.which] = true; </code></pre>  <p>very new to Javascript, help please.</p>

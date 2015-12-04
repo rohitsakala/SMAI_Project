@@ -1,0 +1,1 @@
+<p>I'm trying to build a mobile/web app using Yeoman generator. </p>  <ul> <li>I want to use Angular in my project.</li> <li>Mobile first approach.</li> <li>Responsive - Works on all viewports.</li> </ul>  <p>Please suggest which generator is best suited for this project.</p>

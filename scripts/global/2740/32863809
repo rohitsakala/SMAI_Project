@@ -1,0 +1,1 @@
+<p>I have use html form for submit information with file upload, I want to upload file on server at predefined location, such as I select a file from our local system drive and upload it on my website when I submit form. I receive all form value in servlet java file with doPost method. </p>

@@ -1,0 +1,1 @@
+<p>I am using runSASJob to execute SAS programs in a UNIX environment.</p>  <p>I was wondering if there was a way to execute a portion of a SAS program from the command line.</p>  <p>For example, say I have a SAS program with 100 lines and there is a data step in that program that takes up lines 5-10.</p>  <p>Can I run lines 5-10 only from the command line?</p>  <p>Thanks</p>

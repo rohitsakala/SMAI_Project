@@ -1,0 +1,1 @@
+<p>I am required to sync two databases, for example DB1 and DB2 that contain tables with the same names. Can I use a macro such that when data gets updated in DB1 in tables 1,2,3 it automatically gets updated in DB2 as well? </p>  <p>Relatively new to MS Access macros, so a step by step explanation would be helpful! </p>

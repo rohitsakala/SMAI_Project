@@ -1,0 +1,1 @@
+<p>I want to write a CGI script for Jython for websphere application server task. The CGI script required shebang where in I need to give jython file path. I have WAS 8.5 and I couldnt fine the jython jar anywhere . where in Jython jar in WAS home directory.</p>

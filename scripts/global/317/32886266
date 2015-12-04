@@ -1,0 +1,1 @@
+<p>I need help to know the value of an index position in a string using powershell.</p>  <p>for an instance $array[]= "AH3756997,HLD68900,GIG39707"</p>  <p>I could like to know the value positioned at 3 if this is integer or a char. Example:for AH3756997 the output should be "3" or "intiger". At the same time for HLD68900 the ouput should be "D" or "char" Regards, Suman Rout</p>

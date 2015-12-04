@@ -1,0 +1,1 @@
+<p>I am trying to port a Drupal Module and I am stuck. I understand first function that's called inside the class is url_stat for upload. But what is called after that, I don't have any idea.  I want to understand a complete PHP File Stream. Please give any Pointers, where I can learn. </p>

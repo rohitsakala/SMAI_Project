@@ -1,0 +1,1 @@
+<p>I am trying to use pandoc to convert a large thesis from latex to html.  I want my latex internal references (\ref) to sections (\label), equations, tables,figures etc. to appear as links in the resulting html. As the source is quite large (~350 pages) I would appreciate if anybody knew of an automatic way to do it.</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to set special color for variables wchich one start with <code>$</code> ? I know that jQuery objects are start with <code>$</code> but i want other color to variables looking like this: <code>$foo</code>, <code>$dollarVariable</code>  etc.</p>

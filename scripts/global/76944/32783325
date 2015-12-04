@@ -1,0 +1,1 @@
+<p>I have the flow of activities in two different ways..</p>  <p>Flow 1:<br>    act 1 -> act 2 -> act 4-> act 5-> act 6... Flow 2:    act 1-> act 2-> act 3-> act 4-> act 5-> act 6...</p>  <p>From this, how to set Parent activity for act 4 to set setDisplayHomeAsUpEnabled for action bar?</p>

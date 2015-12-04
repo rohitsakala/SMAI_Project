@@ -1,0 +1,1 @@
+<p>Usually I can find everything I need already on SO but not this time. I'm looking for a very simple way to exclude labels, for example <code>(pseudo code)</code>: </p>  <pre><code>match (n) where n not in (Label1, Label2) return n </code></pre>  <p>Sorry about crappy query. In short I have labels x,y,z and I want to return all of them apart from z.</p>  <p>Thnx!</p>

@@ -1,0 +1,1 @@
+<p>we are using Ionic framework for an app which runs on ipad device, We have recently migrated to IOS9, several things are not working, Modal dialogues box is not getting opened, it goes to login page which we have declared in otherwise. $urlRouterProvider.otherwise('login')</p>  <p>The same thing works in IOS8</p>

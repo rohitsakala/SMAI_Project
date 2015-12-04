@@ -1,0 +1,1 @@
+<p>I had a look at alot of examples of package diagrams but my lecturer wants our packages to be specifically the following: - Interface layer - Application Layer - Network Layer - Database Layer</p>  <p>If i were to draw a package diagram say for this site what objects/subsystems would be allocated into the those layers.</p>  <p>Cheers</p>

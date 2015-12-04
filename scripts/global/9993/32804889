@@ -1,0 +1,1 @@
+<p>On <code>ruby 1.8.7</code></p>  <p>Why this is ok:</p>  <pre><code>string += method "value" </code></pre>  <p>But this raise a syntax error:</p>  <pre><code>string &lt;&lt; method "remove reviewer" </code></pre>  <p>Is the same behaviour in newer versions of ruby?</p>

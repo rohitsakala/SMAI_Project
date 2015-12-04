@@ -1,0 +1,1 @@
+<p>When I execute </p>  <pre><code>exec sp_columns TABLE_NAME </code></pre>  <p>it returns many columns, I need to display specific columns only and add a description column as well. </p>  <p>Is there anyway for me to customize the table to do this?</p>  <p>I am using SQL Server 2012 Management Studio</p>

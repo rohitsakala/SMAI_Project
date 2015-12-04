@@ -1,0 +1,1 @@
+<p>I've made a code playground and I want it to have SCSS support. I use codemirror for text highlighting so I can get its value easily. But is there some javascript plugin which can convert it to css.</p>

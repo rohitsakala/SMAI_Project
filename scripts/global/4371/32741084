@@ -1,0 +1,1 @@
+<p>A column in my table in Postgres has <code>varchar</code> values in the format: <code>'str1/str2'</code> or <code>'str1/str2/str3'</code> where <code>str</code> represents any string.</p>  <p>I want to write a select query which will return me <code>str2</code>. I surfed but couldn't find any proper function.</p>

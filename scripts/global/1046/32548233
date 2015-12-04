@@ -1,0 +1,1 @@
+<p>I'm trying to make a 3D game with MonoGame which has some spheres on the plane xz (all the spheres have the y-coord equal to 0, with x and z having random values).  </p>  <p>I would like to know how to select a sphere by clicking with the mouse on it.  </p>

@@ -1,0 +1,1 @@
+<p>May be <a href="http://stackoverflow.com/questions/32430689/what-does-django-rest-framework-mean-trade-offs-between-view-vs-viewsets">relevant</a>.</p>  <p>What is the difference between <strong>views</strong> and <strong>viewsets</strong>? And what about <strong>router</strong> and <strong>urlpatterns</strong>?</p>

@@ -1,0 +1,1 @@
+<p>I have build a flat package installer (meaning it is just a single pkg file) for Mac. Normally Mac installers are distributed inside a disk image (dmg) file. I know how to create a dmg file containing the pkg file, but I am wondering if this is necessary. Is there are reason why it is better to distribute the installer inside a disk image?</p>

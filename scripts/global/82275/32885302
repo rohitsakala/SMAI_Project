@@ -1,0 +1,1 @@
+<p>While testing on IE11, When I click on the link to download a doc, a new blank window opens up with save and Cancel option popup. I want to hit cancel, Switch back to my current window and continue validation. Can anyone help me how to handle this without the use of AutoIT.</p>

@@ -1,0 +1,1 @@
+<p>I have tried to append the values using +_ in less, but it throws the error expected '}' but found '{'in dotless compiler. Is there anything I missed?</p>  <pre><code>.gradient(@brow){           @{brow}+_: ~"; background: @{brow}linear-gradient(top";      // some content   } } </code></pre>  <p>Error indicates in this line <strong>@{brow}+_:</strong>.</p>

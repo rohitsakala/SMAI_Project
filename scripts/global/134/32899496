@@ -1,0 +1,1 @@
+<p>Algorithm: distanceSort(array, target) <br>Input: An array of ints <strong>sorted</strong> from least to greatest and an int to measure distance from <br>Output: The array sorted by distance from target</p>  <p><br><strong>Example</strong> <br>distanceSort([-10,-6,3,5], 1) <br>returns [3, 5, -6, -10]</p>

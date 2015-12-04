@@ -1,0 +1,1 @@
+<p>In Chrome, I can open up the developer console and switch to the network tab to see what resources are being loaded and how long each one has taken. Is there anyway to access similar information from Chrome webdriver or selenium?</p>

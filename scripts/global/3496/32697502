@@ -1,0 +1,1 @@
+<p>Im trying to round up 2 number and adding them after.</p>  <p>var a = 12.24; var b = 12.27;</p>  <p>i want them to round up to 12.5 so when i add these 2 numbers the result will be 12.5 + 12.5 = 25</p>

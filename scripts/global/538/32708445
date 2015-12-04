@@ -1,0 +1,1 @@
+<p>It is possible to call <code>link(pid)</code> in Erlang to link the currently executing process to the process identified by <code>pid</code>. Is it possible to link a process to another if it is not currently executing?</p>

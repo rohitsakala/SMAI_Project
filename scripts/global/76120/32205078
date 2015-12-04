@@ -1,0 +1,1 @@
+<p>I have not included the Bootstrap file into my view but still class 'btn-default' is working how? </p>  <p>And I am not using any gem for Bootstrap.</p>  <p>Here is the code -</p>  <pre><code>&lt;%= submit_tag "Get Order Details", class: 'btn btn-default' %&gt; </code></pre>

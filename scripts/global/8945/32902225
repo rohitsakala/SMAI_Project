@@ -1,0 +1,1 @@
+<p>Is there any way of creating custom commands with IdeaVim (like <code>:command</code> in <code>vim</code>)? Trying to run <code>:command ... ...</code> spits out <code>Not an editor command: command</code>.</p>

@@ -1,0 +1,1 @@
+<p>I'm just need to select text on the page.</p>  <pre><code>VERSION BUILD=8940826 RECORDER=FX TAB T=1  EVENT TYPE=CLICK SELECTOR="#post-3175&gt;DIV&gt;H2" BUTTON=0 EVENT TYPE=CLICK SELECTOR="#imacros-highlight-div" BUTTON=0 EVENT TYPE=CLICK SELECTOR="#imacros-highlight-div" BUTTON=0 </code></pre>  <p>This does not work,The text is only outlined.</p>

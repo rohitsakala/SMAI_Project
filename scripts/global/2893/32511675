@@ -1,0 +1,1 @@
+<p>We have configured OID/OAM as our security providers in weblogic security.</p>  <p>On checking user attributes, only user id is visible.</p>  <p>How to get all attributes available in OID/OAM to available in Weblogic Security User and Groups?</p>

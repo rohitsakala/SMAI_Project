@@ -1,0 +1,1 @@
+<p>I have a a field which accepts value as <strong>"Patient_1077,ELLA(161st Pharmacy address)"</strong> i.e: Patient ID, name and Address, that I want to parameterize, CSV is not helpful in this case as value contains comma itself, is there any alternative way where I can inject these kind of values from file and parameterize the same?</p>

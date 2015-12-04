@@ -1,0 +1,1 @@
+<p>I am using c# and WebDriver to automate some web pages and my program worked fine in Windows 7, but running it for the first time in Window 10, the code crashes at this line:</p>  <pre><code>IWebDriver driver = new FirefoxDriver(); </code></pre>  <p>Has anyone else run into this error or can someone explain why this has happened?</p>

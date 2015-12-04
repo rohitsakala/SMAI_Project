@@ -1,0 +1,1 @@
+<p>I have a column which has pipe delimited data for example "FT1|20150110||123.45|1|15". So I need help with writing a query which displays  primaryID and data between 4th and 5th index of pipe symbol for each row in that table. </p>  <p>For Example:</p>  <p>ID     TEXT 1      123.45 2      abc.rf 3      1ad.454</p>  <p>Thank in advance.</p>

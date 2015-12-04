@@ -1,0 +1,1 @@
+<pre><code>for x in range(xBtns):     for y in range(yBtns):          btn = Button(board, width=2, height=1)         btn.grid(column=x, row=y)         btn.bind('&lt;Button-3&gt;', btnFunction) </code></pre>  <p>Where btnFunction deletes the button that was right-clicked</p>

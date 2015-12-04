@@ -1,0 +1,1 @@
+<p>I'm using Flash Builder 4.7, Windows 10, and Apache Flex 4.14.1 to update a mobile app.  In the debugger the app looks correct but when I put it on an iPad, iOS 8, it flattens all the components.  For example, a button has no edges or definition, just the title on the button shows. It shows fine on my iPhone 3gs.</p>  <p>How can I get this to display properly on the iPad?</p>

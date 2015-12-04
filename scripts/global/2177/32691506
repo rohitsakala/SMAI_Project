@@ -1,0 +1,1 @@
+<p>Change data type <strong>varchar to timestamp</strong> along with <strong>null values</strong> in PostgreSQL I have a column with empty rows and few with timestamp rows. How to convert that into timestamp data type in PostgreSQL?</p>

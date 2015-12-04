@@ -1,0 +1,1 @@
+<p>Can you give me an example of chartrangefilter control in google graph that show a column chart that has aggregate function.</p>  <p>for example: based on month column chart shows Month and aggregate avg of performance group by month.</p>  <p>Date   Team     Performance Jan 1  Devlop   20 Jan 5  OS       60 Feb 1  Devlop   40 Mar 4  MR       50 Mar 5  OS       30</p>

@@ -1,0 +1,1 @@
+<p>I am trying to search for strings of words in a corpus using R. Are disjunctive statements allowed in grep, e.g., grep("a" or "b" or "c"...)? If so, once I have that subcorpus, how do I then refine it further to contain only those examples with at least two tokens of the original condition? </p>

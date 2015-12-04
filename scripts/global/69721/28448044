@@ -1,0 +1,1 @@
+<p>I want use a custom touch event in a view. There is a web view which is the subview of this view. I override touchBegan and other functions but it does not run.</p>

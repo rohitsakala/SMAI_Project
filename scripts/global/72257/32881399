@@ -1,0 +1,1 @@
+<p>I have been checking out cachegrind information for a view of one of my Yii 1 applications which only show info about   a specific model and I have realised that the validations rules are being called on the view, why is it happening ?</p>  <p>Could it be just to show required elements sign (*) </p>

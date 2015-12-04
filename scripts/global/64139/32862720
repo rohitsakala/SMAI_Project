@@ -1,0 +1,1 @@
+<p>Here is my model:-</p>  <pre><code> public class myClass  {        [Remote("IsUnique","Catalog",AdditionalFields="CatalogName",ErrorMessage="This   classId is already used.")]     public List&lt;string&gt; classIds{get;set;}    } </code></pre>  <p>I am unable to bind remote validation for classIds.as it is list.  Please suggest something.</p>

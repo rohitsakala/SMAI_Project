@@ -1,0 +1,1 @@
+<p>My system has already Ruby version 1.9.3 and Rails version 3.2.19.I have one existing project which Gem file contains <code>ruby version 2.1.5</code> and <code>Rails version 4.2.0</code>.Here i need to set up this project in my system and i want how can i upgrade my ruby and rails version and set up this project successfully.</p>

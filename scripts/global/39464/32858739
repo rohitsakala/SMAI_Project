@@ -1,0 +1,1 @@
+<p>Can the width of the inline toolbar changed to a fixed width?</p>  <p><code>config.width=400;</code> doesn't work for an inline toolbar.</p>

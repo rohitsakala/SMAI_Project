@@ -1,0 +1,1 @@
+<p>When IE performs a scroll, it scrolls to the item, and the item is at the top of the page. But at the same time, Chrome scrolls to the item and displays it at the center of the screen. How can I do the same action in IE?</p>

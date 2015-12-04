@@ -1,0 +1,1 @@
+<p>Why can't you make httprequests cross-domain (REST for example) directly from a https, towards a http? It seems like it's the browser that's blocking it.</p>

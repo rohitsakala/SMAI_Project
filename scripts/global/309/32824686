@@ -1,0 +1,1 @@
+<p>I want to create 3D histogram with percentages on Z axis. I used hist3 function, but it only creates histogram with frequency on Z axis. Can someone please help me to change frequency to percentage in the hist3 function?</p>

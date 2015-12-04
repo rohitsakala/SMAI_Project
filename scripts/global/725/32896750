@@ -1,0 +1,1 @@
+<p>When I run command <code>pwd</code>  in Putty , it says the current directory is :</p>  <pre><code>/home/coffee </code></pre>  <p>But where does this correspond to on my Windows-machine? I searched online and found that there's an environment variable called  <code>%USERPROFILE%</code> , but is that the correct one ?</p>

@@ -1,0 +1,1 @@
+<p>I have two 2-D arrays and I want the cosine distance between each set of vectors equivalent to the output of scipy.spatial.distance.cdist but I want to run it on my GPU.  I've done a bunch of research into PyCUDA, CUDAMat, sci-kit CUDA, etc and it seems I'll have to write my own.  Wondered if someone has an implementation out there that works already.</p>

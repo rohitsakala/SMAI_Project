@@ -1,0 +1,1 @@
+<p>I want to pass a parameter to a method which may only have a predefined value. </p>  <pre><code>   method send-http($url, $http_method) { .... } </code></pre>  <p>Should I create an enum to pass <code>$http_method</code>? If so then how?</p>  <p>Or does Perl 6 have something like symbols in Ruby? </p>

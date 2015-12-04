@@ -1,0 +1,1 @@
+<p>I have project which targets just .Net 4.0. I also heard about that new Roslyn compiler arrived with Visual Studio 2015, and it provides new analyzer feature.Can I write analyzers for projects what are building for .Net 4.0 using Roslyn compiler?</p>

@@ -1,0 +1,1 @@
+<p>I have been writing a main script which call other shell script. That 2nd script have a exit command which terminate my both script.I am note able to modify 2ns script bcoz of the permission problem...I want to continue my main script after termination of 2nd script</p>

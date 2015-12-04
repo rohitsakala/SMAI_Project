@@ -1,0 +1,1 @@
+<p>Looking for some advice on how I can achieve the following:</p>  <p>I'm currently building an C# wpf application and i want to add where the application on start up check if a specific usb is attached any of the usb ports and if not the application cant be interacted till said usb is attached?</p>  <p>any ideas on how this can be done?</p>

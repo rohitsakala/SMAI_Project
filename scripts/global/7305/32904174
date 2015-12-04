@@ -1,0 +1,1 @@
+<p>I have implemented the jquery date picker on my website and all dates seem to appear as unselectable.</p>  <p>Below is the code that is outputted </p>  <p><code>&lt;td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled"&gt;&amp;nbsp;&lt;/td&gt;</code></p>  <p>Please help</p>

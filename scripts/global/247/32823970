@@ -1,0 +1,1 @@
+<p>I have sdk of logging android.<br> Client (app) can use other logging sdk like mine. I want to handle the call of external method log. For example, I want to log "Hello word" for each call of Log.i. I have some idea for intercept (MethodInvocationHandler).</p>

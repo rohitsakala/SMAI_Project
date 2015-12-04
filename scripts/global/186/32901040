@@ -1,0 +1,1 @@
+<p>any idea if support for camel-test-scala package is planned ?</p>  <p>Since the deprecation of the RouteBuilder in favour of ScalaRouteBuilder, I would want to make use of the ScalaTestSupport class for convenience. </p>  <p>Thanks for the update</p>

@@ -1,0 +1,1 @@
+<p>Does somebody know a tool that generate XML fixtures (for PHPUnit) based on a query on a SQL server ?</p>  <p>I have to write the tests for payments authorization and it needs a lot of information to do so. It'll be a big time saver for me.</p>

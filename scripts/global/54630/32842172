@@ -1,0 +1,1 @@
+<p>I have multiple html files in my script project.I want to link different html files using the anchor tag.Like a href="link to another html file in the same app script project". How do i achieve this? The file must reload on the same window.</p>

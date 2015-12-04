@@ -1,0 +1,1 @@
+<p>I want to mock my java class in such a ways so that each and every new instance of it should return the mocked response.</p>

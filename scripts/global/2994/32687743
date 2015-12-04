@@ -1,0 +1,1 @@
+<p>I have devexpress datagridview that have 10 columns with first column as Name which is non-editable but the user should be able to copy the cell content(Name).</p>

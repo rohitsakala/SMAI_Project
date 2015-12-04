@@ -1,0 +1,1 @@
+<p>for example:</p>  <pre><code>obj1 = tcpip('127.0.0.1', 8001, 'NetworkRole', 'server'); s.BytesAvailableFcn = @Callback; fopen(obj1); </code></pre>  <p>the matlab will exit Busy state after Callback function been called, and the server(obj1) no longer running. how to make the server continuously run? </p>

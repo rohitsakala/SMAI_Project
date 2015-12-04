@@ -1,0 +1,1 @@
+<p>Created a svn patch with the folder and then applied the base directory and the path file in the review board. It shows that it is unable to parse diff revision header 'non existent' in review board.</p>

@@ -1,0 +1,1 @@
+<p>I want to connect to MySQL. Unfortunately target server is accessible only from localhost. It is able to work around for example by uploading some PHP script on the server? I mean a single file rather than the entire PHPMyAdmin or something similar.</p>

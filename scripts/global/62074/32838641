@@ -1,0 +1,1 @@
+<p>in requirejs there is a way to configure modules <a href="http://requirejs.org/docs/api.html#config-moduleconfig" rel="nofollow">configure modules</a>, so the configuration is available in the module using <code>module.config()</code>. what's webpack's alternative?</p>

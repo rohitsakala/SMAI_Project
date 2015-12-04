@@ -1,0 +1,1 @@
+<p>How can I programmatically display the IMEI number of J2ME? I used <code>System.getProperty("com.nokia.mid.imei")</code>, and it shows it's running but displays nothing. My device is a Nokia 210 model. Is there any code for this model phone?</p>

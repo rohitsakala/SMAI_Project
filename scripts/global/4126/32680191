@@ -1,0 +1,1 @@
+<p>I'am using tinymce 4.2.5 and I want to add background-image property to table>table options>advanced options menu</p>  <p>I've founded something like this in version 3 table_default_attributes but it doesn't work for tinymce 4</p>  <p>Any suggestions?</p>

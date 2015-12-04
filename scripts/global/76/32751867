@@ -1,0 +1,1 @@
+<p>I'm developing HTML5 apps.</p>  <p>When user uploads image from their mobile, the size was too large.</p>  <p>I want to compress the image as PNG like the pngcrush way.</p>  <p>Is there any good way to choice on the frontend (like a javascript library)?</p>  <p>Or is it possible to port the pngcrush library to javascript?</p>

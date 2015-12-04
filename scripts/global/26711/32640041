@@ -1,0 +1,1 @@
+<p>What is the best way (in performance and code maintenance) to draw a shadow?</p>  <ul> <li>Have it in the image (png) you want the shadow to be in.</li> <li>Draw with CALayer properties</li> </ul>  <p>Thanks.</p>

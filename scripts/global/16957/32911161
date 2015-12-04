@@ -1,0 +1,1 @@
+<p>I have a database where users will enter requests and ideally click a submit button.  Once this button is clicked, it would change the status from new to submitted.  I would also like to use similar button for reviewed, completed, etc., but if I can get one, I can get the rest.  I have seen it done, but not sure how to do this in VBA.  Can anyone with this?</p>

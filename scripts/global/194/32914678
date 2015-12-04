@@ -1,0 +1,1 @@
+<p>I need to check if a database user is valid. </p>  <p>I will allow users to change their passwords using the <strong>ALTER</strong> command, but before I do I want to validate their current password to make sure they are the who they say they are. Is it possible inside of pl/sql to take the user/password combination and check if it is valid or not?</p>

@@ -1,0 +1,1 @@
+<p>It is easy to update an EditText with Espresso, but I can not find a way to change a text (like with a TextView.setText("someText"); method) during the testing process.</p>  <pre><code> ViewAction.replaceText(stringToBeSet); </code></pre>  <p>Is not working, cos it should be an EditText;</p>

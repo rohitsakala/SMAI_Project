@@ -1,0 +1,1 @@
+<p>I need to create a timer for my website. I am setting up a form with multiple choice questions. i want users to submit the form/ answers at a specified time say 30 minutes,.. if the time elapses the submit button get disabled and alert message; time is up, Test failed.  Help with entire code; Jquery, and PHP Pease; </p>

@@ -1,0 +1,1 @@
+<p>I am using RAD 9.1 and Websphere 8.5.</p>  <p>The webservice classes are already generated but whenever I manually edit the generated Java file, the server regenerates and my changes are lost.</p>  <p>I don't want this to happen; how can I switch off the regeneration of the Java classes when I modify them?</p>  <p>I didn't see this behaviour in my old version of RAD.</p>

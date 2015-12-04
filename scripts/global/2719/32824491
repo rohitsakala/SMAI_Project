@@ -1,0 +1,1 @@
+<p>From my experience, it seems that the result of</p>  <pre><code>std::this_thread::get_id() </code></pre>  <p>is unique across process: ids are different from one process to another.</p>  <p>Is this guaranteed by the standard?</p>

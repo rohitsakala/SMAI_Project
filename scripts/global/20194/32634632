@@ -1,0 +1,1 @@
+<p>Does anybody know how to find if a page has a text more than once?</p>  <p>I know I can use </p>  <pre><code>expect(page).to have_content("my-text") </code></pre>  <p>to check if text appears once. However, I need something like</p>  <pre><code>expect(page).to have_content("my-text").twice </code></pre>  <p>(which doesn't work).</p>  <p>I'm using capybara v2.1.0.</p>

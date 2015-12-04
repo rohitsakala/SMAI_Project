@@ -1,0 +1,1 @@
+<p>I am getting the following error:</p>  <pre><code>Undefined function: 7 ERROR: operator does not exist: json = unknown </code></pre>  <p>As 2 of my columns are of type <code>JSON</code>.</p>  <p>The code which throwing error is:</p>  <pre><code>$this-&gt;firstOrCreate($records); </code></pre>

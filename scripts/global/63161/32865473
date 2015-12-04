@@ -1,0 +1,1 @@
+<p>I want to add to Object with variables, like this</p>  <pre><code>a = 'name' object = {'age': 12, 'weight': 120} </code></pre>  <p>I want this to  </p>  <pre><code>{'name': 'bob'}   </code></pre>  <p>I do this  </p>  <pre><code>object = {a: 'bob'}  </code></pre>  <p>but it give me  </p>  <pre><code>{'a': 'bob'} </code></pre>  <p>how can I fixed it? I must use variables</p>

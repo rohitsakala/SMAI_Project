@@ -1,0 +1,1 @@
+<p>i want to add data in 3 tables in one database from 3 AsyncTask object. because the AsyncTask objects may run or finish at the same time and i'm adding data in my database in onPostExecute() , i want to know is it possible to do such a thing or not ? thanx</p>

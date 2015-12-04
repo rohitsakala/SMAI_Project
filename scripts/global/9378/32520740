@@ -1,0 +1,1 @@
+<p>I want to bind text in span tag but visible=false, and hover on image show span text in tooltip.</p>  <pre class="lang-html prettyprint-override"><code>&lt;td class="calign"&gt;&lt;img src="~/Images/Approval.png" height="15" width="15" alt="" data-bind="tooltip:ApprovalText" /&gt;&lt;/td&gt; </code></pre>  <p>Tooltip can't display on image hover.</p>

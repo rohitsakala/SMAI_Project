@@ -1,0 +1,1 @@
+<p>I'm not sure how, but I seem to have triggered some setting that causes IntelliJ to ignore 'java.io.File' when importing, it does not show up in the import menu and the only way to import it is to do it manually. I'm not sure how I triggered this setting, but I'd like to turn it off, does anyone know how? Thanks for any help!</p>

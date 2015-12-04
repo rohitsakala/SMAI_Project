@@ -1,0 +1,1 @@
+<p>I have an <strong>sql</strong> table with <em>3 columns</em> and one of the columns is <em>xml</em>. Some of the elements in the xml are duplicates.</p>  <p>How do I query the table where the xml elements occur more than once??</p>  <p>Any help is appreciated. Thanks.</p>

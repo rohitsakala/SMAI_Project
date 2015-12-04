@@ -1,0 +1,1 @@
+<p>I have some image which I get from a camera and I need to detect red color in the image.</p>  <p>The problem is that is not an ideal <code>red(255,0,0)</code>, so i need to write some matlab code which include all the possible shades of red.</p>  <p>Do you have some ideas to do it?</p>

@@ -1,0 +1,1 @@
+<p>Are there any frameworks for webdriver to help it adapt to testing a website where new pages are rapidly added which feature new and bespoke functionality? I know selenium is good at regression but what are its capabilities with UAT?</p>

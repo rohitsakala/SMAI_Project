@@ -1,0 +1,1 @@
+<p>So i'm trying to install the SDL library for use with Code::Blocks on a Mac (running Yosemite) I've compiled all the libraries so i have the .a, .h and .dylib files but am really struggling to link them with Code::Blocks. I've scoured Google and although there are tutorials, them seem to be Windows based or Xcode based. Does anybody have any tutorials?</p>  <p>Thanks</p>

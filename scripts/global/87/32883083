@@ -1,0 +1,1 @@
+<p>I would like to send a "~HI" command to the printer and get back information about the printer. I'm not sure if I'm doing it right</p>  <pre><code>            var data = "~HI";         serialport.on('data', function (response) {             var info = "";             info += response;             console.log('printer info : ' + info);         }); </code></pre>

@@ -1,0 +1,1 @@
+<p>How I can change the display of Month and Year display to Japanese style (i.e. Year Month) as in Header of Flex DateField. What I would like to convert the style July　2011年　to 2011年　7月.[![enter image description here][1]][2]<br> How can we change the calender header format ? i have used DateField in flex.</p>

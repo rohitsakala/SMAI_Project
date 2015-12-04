@@ -1,0 +1,1 @@
+<p>I know in devExpress version 15.1 there is a property AxisLabelResolveOverlappingOptions available to resolve the Axis Label Overlapping issue. But we don't have version 15.1 yet, we are using 10.1. Is there an alternative way so I can achieve the same as AxisLabelResolveOverlappingOptions in version 10.1?</p>  <p>Thank you!</p>

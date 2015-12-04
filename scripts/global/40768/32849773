@@ -1,0 +1,1 @@
+<p>Is it possible to see/monitor the data exchange through developer tools of browsers , like chrome already has the developer tools > network > websocket,But it only displays the communication handshake but no data exchange unlike the xhr </p>

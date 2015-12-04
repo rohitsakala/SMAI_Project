@@ -1,0 +1,1 @@
+<p>In my webview I have image in very high resolution ( 9000x5000px ). So is there a way to zoom in in the webview up to 100x ?</p>  <p>I have used this code, but it allows me to zoom up to 10x:</p>  <pre><code>// Enable Zoom myWebView.getSettings().setBuiltInZoomControls(true); myWebView.getSettings().setSupportZoom(true); </code></pre>

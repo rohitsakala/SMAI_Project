@@ -1,0 +1,1 @@
+<p>I am wanting to geocode a large number of coordinates, sometimes hundreds. I would love to pass an <code>NSArray</code> to <code>CLGeocoder</code>, but the docs say that you should only make one request per minute.</p>  <p><strong>Is there any other service that allows a larger number of geocodes?</strong></p>

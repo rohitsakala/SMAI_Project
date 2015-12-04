@@ -1,0 +1,1 @@
+<p>The first entity is commonly referred to as an array of pointers.  Does the second entity have a name that distinguishes it from the first entity (I would like to be able to search for it in order to learn more about it)?</p>  <p>Entity 1: <code>int *p[SIZE]</code></p>  <p>Entity 2: <code>int (*p)[SIZE]</code></p>

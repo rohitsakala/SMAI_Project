@@ -1,0 +1,1 @@
+<p>I need to make a form with a label (or any other thing, doesn't matter) which will change it's state every second (for example, show the mouse cursor position).</p>  <p>How can I do that, using PyQt?</p>

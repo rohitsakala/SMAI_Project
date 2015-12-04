@@ -1,0 +1,1 @@
+<p>My DCHP server have a long TLL of the leases. We were forced to change the DNS IP in the network, and we are not able to force Windows Phone 8.1 (Lumia 730) to get a new lease.</p>  <p>Does anybody knows a way to do this?</p>

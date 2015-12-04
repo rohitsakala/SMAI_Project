@@ -1,0 +1,1 @@
+<p>I have developed a PhoneGap application with in-app purchases. I used PhoneGap Build for that. But how do I test in-app purchases?</p>  <p>The problem is that every in-app purchase sends an error that the product is not available. Guess it's because the app does not have any contact with the iTunes Connect and my in-app purchase. But how do I get it and work?</p>

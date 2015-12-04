@@ -1,0 +1,1 @@
+<p>I want to develop a Hive Interface, which is uploading contents a excel file to Apache Hive(Big Data) Database using Java. And also, i will get data from other sources using Restful Api and data will store in Hive.</p>  <p>Is it possible to develop this type of application using Appfuse, Openxava, etc framework or can you suggest the frameworks for this type of application</p>

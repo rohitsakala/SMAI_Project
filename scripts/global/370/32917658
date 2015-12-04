@@ -1,0 +1,1 @@
+<p>Let's say I'm restructuring some text including a line that contains the text "log". After a bit more editing, I want to paste the log line, but its now in some far-off register. Is there a way to search all registers for the first that contains the term "log" and paste its contents?</p>

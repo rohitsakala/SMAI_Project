@@ -1,0 +1,1 @@
+<p>I tried to shift cassandra listener from rpc port to native port. However, after I turn off rpc port, opscenter would not work. I had to start both native and rpc port.</p>  <p>Is there any way let opscenter use native port? Also, if cassandra listerns on both native and rpc port, is there any performance penalty?</p>

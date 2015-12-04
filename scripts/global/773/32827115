@@ -1,0 +1,1 @@
+<p>I am working on a small php script and i have some links like this</p>  <pre><code>*-phones-*.html </code></pre>  <p>* are variables i want to disallow google to index this kind of links using robots.txt, it is possible ?</p>

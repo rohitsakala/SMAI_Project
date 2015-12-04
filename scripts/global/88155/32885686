@@ -1,0 +1,1 @@
+<p>I've got a ng-repeat creating multiple directives, each with an isolated scope. I want to be able to call a single function that calls a function on each directive, so it resets a variable on each isolated scope. I can't work out anyway to do this? I realise this might not be best practice, but I just need a solution at the moment. </p>

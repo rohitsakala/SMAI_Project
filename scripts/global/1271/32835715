@@ -1,0 +1,1 @@
+<p>I can't tail the last n lines of a file on linux, likewise i can grep  e.g <code>grep "2015-09-29 04:" filename.ext</code>  But how can i combine both such that i display from a certain grep to the end of the file.</p>

@@ -1,0 +1,1 @@
+<p>Here is an <a href="http://dojo.telerik.com/akAwe/9" rel="nofollow">example kendo treeList</a>. How can i sort the data in the treeList, depending on values based only on parent element?</p>  <p>In the example, if i sort the data on column 'P names', the child elements are also sorted. How can i sort only parent elements?</p>  <p>Thanks in advance.</p>

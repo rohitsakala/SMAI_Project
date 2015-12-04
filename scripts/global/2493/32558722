@@ -1,0 +1,1 @@
+<p>I have a JSON field <code>data</code> that contains following data-</p>  <pre><code>{"name":"xx"} </code></pre>  <p>I want to perform a full text search on this field using Hibernate. Is there any way I can achieve this? I followed some examples but nothing worked for me.</p>

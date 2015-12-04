@@ -1,0 +1,1 @@
+<p>I want to 301 redirect home.html to the root to avoid duplicate content. I can do this like this:</p>  <pre><code>RewriteRule ^/home.html$ / [NC,R=301] </code></pre>  <p>However there is a legacy affiliate program that use home.html like this:</p>  <pre><code>home.html?a=companyname </code></pre>  <p>Is there a way to allow the affiliate links, but still 301 home.html?</p>

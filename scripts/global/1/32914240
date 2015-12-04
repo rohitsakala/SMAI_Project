@@ -1,0 +1,1 @@
+<p>Is it possible to get a collection of ITypeSymbol's for the types exported by an assembly that's been added to a compilation as a MetadataReference?</p>  <p>I want to inspect the types available to the referencing project.</p>

@@ -1,0 +1,1 @@
+<p>I've been playing with Scheme for about 10 minutes and stumbled across this error:</p>  <pre><code>scheme@(guile-user) [2]&gt; (define (a one two) ((* one two))) scheme@(guile-user) [2]&gt; (a 2 3) ERROR: In procedure 6: ERROR: Wrong type to apply: 6 </code></pre>  <p>I was expecting this to return 6. How does "apply" enter into this? What does this error mean?</p>

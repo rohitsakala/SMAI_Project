@@ -1,0 +1,1 @@
+<p>I am trying to show current location in map but fails . It gives error as location is null . Which option should be selected in simulator debug location options . If i tries to use none than it returns null location nd for custom it gives location of pre decided coordinate . i wanna get current location !</p>

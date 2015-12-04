@@ -1,0 +1,1 @@
+<p>I am new to php/mysql. Using this example how do I insert an expiration time along with a row?</p>  <pre><code>INSERT INTO ajaxfavourites (user, favid) VALUES ('$user', '$favid') </code></pre>  <p>Let's say if I want both user and favid to expire in 30 days.</p>

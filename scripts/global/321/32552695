@@ -1,0 +1,1 @@
+<p>Is there a difference between those two variants of calling <code>free</code> after allocating memory on the heap: </p>  <pre><code>// variant 1 int* p1 = (int*) malloc(sizeof(int)*4); free(p1);  //variant 2 int* p2 = (int*) malloc(sizeof(int)*4); free(*p2); *p2 = NULL; </code></pre>

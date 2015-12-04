@@ -1,0 +1,1 @@
+<p>I know that is possible to disable editing <code>EditText</code>.</p>  <p>Answers is <a href="http://stackoverflow.com/a/29433912/2956344">here</a>, and <a href="http://stackoverflow.com/a/13283833/2956344">here</a>. </p>  <p>But, when i disable EditText it also disabled vertical scroll in this text.</p>  <p>Is it possible to disable only editing, but allow scrolling?</p>

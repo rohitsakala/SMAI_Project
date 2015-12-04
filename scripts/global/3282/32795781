@@ -1,0 +1,1 @@
+<p>How to make XMPP stanza в Java? I use libs "Smack"</p>  <pre><code>&lt;message id=""&gt;   &lt;gcm xmlns="google:mobile:data"&gt;   {       "to":"REGISTRATION_ID",  // "to" replaces "registration_ids"      "notification": {         "title": "Portugal vs. Denmark”,         "text”: "5 to 1”       },       "time_to_live":"600" }   }   &lt;/gcm&gt; &lt;/message&gt; </code></pre>

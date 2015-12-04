@@ -1,0 +1,1 @@
+<p>I can't run server when I type command rails server the error that: Could not find gem 'tzinfo-data (>= 0) x86-mingw32' in the gems available on this machine. Run <code>bundle install</code> to install missing gems.</p>  <p>How to solve it? Thanks.</p>

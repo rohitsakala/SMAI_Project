@@ -1,0 +1,1 @@
+<p>Testing my JME3 program (Java) on a Windows 8 Surface I discovered that during a pinch gesture the key code 29 (control key) is sent. </p>  <ol> <li>Why is the control key code sent during a pinch gesture?</li> <li>Is there a way to prevent Windows from sending the key code during a pinch gesture?</li> </ol>

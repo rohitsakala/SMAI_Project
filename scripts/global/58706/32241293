@@ -1,0 +1,1 @@
+<p>I am trying to write a simple Sencha Touch mobile application.</p>  <p>in ExtJs there is a Ext.Window class, but I couldn't find it in Sencha Touch. </p>  <p>What should I use in Sencha Touch to do the same job of ExtJs Ext.Window.</p>

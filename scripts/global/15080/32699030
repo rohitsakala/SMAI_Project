@@ -1,0 +1,1 @@
+<p>I would like to know, if there is any wildcard selector for an <code>input[type=""]</code>.</p>  <p>Something like <code>input[type="*"]</code>?</p>

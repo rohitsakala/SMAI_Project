@@ -1,0 +1,1 @@
+<p>I understand that do_timer is responsible for updating jiffies counter. Therefore my question, can it be executed on different cores or always on the same core on which the timer tick occurred?</p>

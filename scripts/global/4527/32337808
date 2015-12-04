@@ -1,0 +1,1 @@
+<p>I have this formula in one of the report's fields:</p>  <pre><code>Sum ({@MarketValue}, {IA.AS_AT_DATE}, "daily") </code></pre>  <p>But I'm not sure what is the intent here or what "daily" does in this case.</p>  <p>Any ideas ?</p>

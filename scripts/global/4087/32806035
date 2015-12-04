@@ -1,0 +1,1 @@
+<p>When I use fab spawn instance I get the following error. Can anybody help me out? fabfile/django_fabric_aws.py", line 179, in _create_ec2_instance     image = conn.get_all_images(ec2_amis).AttributeError: 'NoneType' object has no attribute 'get_all_images'</p>

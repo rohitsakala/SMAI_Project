@@ -1,0 +1,1 @@
+<p>Is there a way to use Haskell web frameworks like Yesod to make cross-platform mobile applications? More specifically, are there any libraries or packages that could allow me to use Yesod with Ionic and Cordova/PhoneGap?</p>

@@ -1,0 +1,1 @@
+<p>i want to divide a text into (roughly) equal parts in order to calculate the dispersion values of the words in the text (that is, not just how often they occur, but how the tokens are distributed throughout the text). is there an algorithm to determine how many partitions a text should be divided into for calculating dispersion values?</p>

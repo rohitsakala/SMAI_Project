@@ -1,0 +1,1 @@
+<p>I'm new to Raspberry Pi.</p>  <p>I want to run some c++ code (for GPIO controls) on apache webserver on my RPi. I've tried creating a .php file and opening it with browser, it was successful. It was a basic LED function and turned it on.</p>  <p>Can I do it with C++ ?</p>

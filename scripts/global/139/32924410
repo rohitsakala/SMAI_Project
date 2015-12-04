@@ -1,0 +1,1 @@
+<p>I have a multiline textbox that constantly gets updated. I need to read only the last word/sentence in the textbox.</p>  <pre><code>string lastLine = textBox1.ReadLine.Last(); </code></pre>

@@ -1,0 +1,1 @@
+<p>Do I have to use private constructor to make a class singleton ? Is there any other way than using private constructor ? Can't I make a class singleton using public constructor ?</p>

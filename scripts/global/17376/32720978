@@ -1,0 +1,1 @@
+<p>Is there a way to make ModelAdmin.changeform_view non-atomic other than copy-pasting it without atomic decorator in my class definition? If i just try to decorate this method with @non-atomic it works incorrectly.</p>

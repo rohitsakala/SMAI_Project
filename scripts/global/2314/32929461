@@ -1,0 +1,1 @@
+<p>Consider the following code:</p>  <pre><code>int number; double factorial = 1.0;  for(int i=2; i&lt;=5; i++) {     factorial *=i;     System.out.println(number + "! = " + factorial ); } </code></pre>  <p>Why is the output</p>  <pre><code>2.0 6.0 24.0 120.0 </code></pre>  <p>I know it starts from 2 until 5.</p>

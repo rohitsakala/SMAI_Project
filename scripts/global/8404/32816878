@@ -1,0 +1,1 @@
+<p>I have a form, and i want to redirect after update. I using this code, but it doesn't work:</p>  <pre><code>&lt;input type=button onClick="calendar.update(&lt;?php echo $info['id']; ?&gt;); location.href='index.php';" value='Save'&gt; </code></pre>  <p>How can i add multiple events (include redirect script) for this?</p>  <p>Thanks any help!</p>

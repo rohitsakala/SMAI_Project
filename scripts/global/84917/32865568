@@ -1,0 +1,1 @@
+<p>the output of the following code on my machine is strange</p>  <pre><code>#include &lt;stdio.h&gt;  void main() {      int x = 5,y=6,sum=0;     sum=x+y;     printf("%d %d %d %d %d %d", sum = x +y );     getch();  } </code></pre>

@@ -1,0 +1,1 @@
+<p>I have two kendo treeview. When I do a drag and drop, I duplicate the item. (no node is removed on drop)</p>  <pre><code>treeright.append(itemSource, itemDestinationKitem); </code></pre>  <p>and it's work fine.</p>  <p>When I click on item (just be <em>drop</em>) the node opens, <strong>BUT</strong> the <code>itemSource</code> too !</p>  <p>Thx</p>

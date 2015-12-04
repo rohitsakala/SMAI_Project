@@ -1,0 +1,1 @@
+<p>I have an application (a simple C code) running on top of Linux kernel. I am measuring time between two points of the code. I would like to know whether any other process or the scheduler itself has preempted my application between these two points. Is there a way to find this.</p>

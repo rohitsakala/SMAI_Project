@@ -1,0 +1,1 @@
+<p>I'm building libc++ and libc++ abi with llvm and clang 3.7 with mingw-w64 64bit posix threads, sjlj.</p>  <p>I configured the project with <code>cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=C:\LLVM ..\llvm</code></p>  <p>The build error is <a href="https://gist.github.com/2bdkid/0c44bc7b7010e8afabc2" rel="nofollow">here</a></p>

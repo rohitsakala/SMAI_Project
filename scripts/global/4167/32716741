@@ -1,0 +1,1 @@
+<p>I am exporting data from SQL Server in csv fle using Talend. The date format I specified in tMap component is "YYYY-MM-DD 00:00:00.000". The date in SQL is 2015-04-28 00:00:00.000 which changes to 2015-04-118 00:00:00.000 in csv after export.</p>

@@ -1,0 +1,1 @@
+<p>I want to know how the <code>rm</code> command works in Linux. What system calls does it invoke? Which file operations are used to execute this command?</p>  <p>Sorry if my question looks trivial, but I'm new to Linux file systems.</p>

@@ -1,0 +1,1 @@
+<p>I wrote the <code>PHP</code> code  using <code>Regular Expression</code> to check the string  contains  the combination of <code>UPPER CASE</code> and <code>DIGITS</code> only. I am not able to test the $str.</p>  <pre><code>$str = "ABCD1234"; if(preg_match('[A-Z0-9]', $str)){     echo "yes";  }else{    echo "No"; } </code></pre>

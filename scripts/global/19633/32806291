@@ -1,0 +1,1 @@
+<p>when I saw the source code of sinatra framework , I was confused about why the author future define Apllication class in main.rb while the Application is defined in the base.rb. what's this according to or the benefits is what? </p>

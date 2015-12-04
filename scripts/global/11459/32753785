@@ -1,0 +1,1 @@
+<p>I try to send a mail from admin like order, invoices or shipment mail in Magento. After the click on <em>send mail</em> or <em>invoices</em>, Magento admin shows a blank page. The email is not sent.</p>  <p>Why does this happen?</p>

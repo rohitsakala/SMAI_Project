@@ -1,0 +1,1 @@
+<p>I have a cc1:ComboBox that resizes automatically, and that much is working. However, regardless of the length of the longest option, it will cut off half of the last letter. It's not a major problem, but it's certainly a nuisance. This is only the width of the dropdown, the width of the textbox at the top is fine. </p>  <p>Has anyone ran into this or know how to fix it? </p>

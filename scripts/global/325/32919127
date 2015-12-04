@@ -1,0 +1,1 @@
+<p>I want to change name-server of my domain, but Azure websites services only offer CNAME and not name-server, Somebody told me we can host our DNS on Azure using virtual machine,, So anybody here which can provide all steps to create DNS server on Azure and how to setup name-servers out of it?</p>

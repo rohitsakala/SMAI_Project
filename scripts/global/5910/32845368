@@ -1,0 +1,1 @@
+<p><code>os.spawnlp</code> vs. <code>subprocess.Popen</code></p>  <p>What is the difference between these two calls, from any point of view?</p>

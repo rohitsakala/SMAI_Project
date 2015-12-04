@@ -1,0 +1,1 @@
+<p>I have an Express.js application with many routes. The response time is too long for me. And I think that the reason is that the request parsing by Express.js takes much time. Is it possible to cache the routes searching results (not the response)?</p>

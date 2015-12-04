@@ -1,0 +1,1 @@
+<p>I am trying to understand how namespace manager works in google app engine.</p>  <p>Example : namespace_manager.get_namespace().</p>

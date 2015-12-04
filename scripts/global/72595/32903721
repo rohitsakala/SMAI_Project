@@ -1,0 +1,1 @@
+<p>I need to show text below image but with horizontal swipe functionality. That is every time a person swipes horizontally image and text is updated. But the problem is I don't know the number of images with text beforehand as they are returned by server. How can I proceed with this?</p>

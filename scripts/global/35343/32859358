@@ -1,0 +1,1 @@
+<p>I changed the default label of an option in the Term Store Management under site settings, in sharepoint 2010. After doing that, the news feed that has that name which was changed is not diplaying any data, rather it says No Data For This Area. I tried changing the name back to the previous one, but the issue still exists.</p>

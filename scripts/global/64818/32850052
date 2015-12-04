@@ -1,0 +1,1 @@
+<p>Why can you dispose a sprites texture like this: <code>sprite.getTexture().dispose();</code></p>  <p>Don't you get the texture by value (a copy) because of java, wouldn't you just dispose the copy of the texture? Im misunderstanding something here.</p>

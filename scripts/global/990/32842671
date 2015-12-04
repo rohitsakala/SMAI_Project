@@ -1,0 +1,1 @@
+<p>I have a file (details.txt) with content in below format.</p>  <pre><code>Serial Number: 0xf Name: XXX Age: 25 Sex: Male Serial Number: 0xe Name: YYY Age: 27 Sex: FeMale </code></pre>  <p>I want to retrieve <strong>complete record</strong> of a person with Name say "XXX".</p>  <p>How can it be achieved with <strong>cut</strong> command? </p>

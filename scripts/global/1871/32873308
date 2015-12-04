@@ -1,0 +1,1 @@
+<p>I've got a Python GUI (wxPython) which wraps around a fortran "back-end," using f2py. Sometimes, the fortran process(es) may be quite long running, and we would like to put a progress bar in the GUI to update the progress through the Fortran routine.  Is there any way to get the status/progress of the Fortran routine, without involving file I/O?</p>

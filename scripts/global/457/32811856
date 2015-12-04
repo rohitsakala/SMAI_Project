@@ -1,0 +1,1 @@
+<p>I currently have a registered DLL made in C# for COM. A method that returns a list of strings <code>List&lt;string&gt;</code> is not being recognised. I assume it's because of the List type. Is it not possible to pass .Net types around like this? Must I stick to basic array's and custom structures / classes as returns?</p>

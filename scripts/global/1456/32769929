@@ -1,0 +1,1 @@
+<p>How to convert a 4 types/Uint8 array into its corresponding Int</p>  <p>let array: [UInt8] ==> let value : Int</p>  <p>Example:</p>  <p>Input: \0\0\0\x0e</p>  <p>Output: 14</p>  <p>Some code I found on the internet doesn't work</p>  <pre><code>let data = NSData(bytes: array, length: 4) data.getBytes(&amp;size, length: 4) // the output to size is 184549376 </code></pre>

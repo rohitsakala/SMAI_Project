@@ -1,0 +1,1 @@
+<p>How can we filter LDAP with multiple OUs.</p>  <p>For example:  URL for single OU: LDAP://xxxx.com/OU=Users,OU=xxx,OU=xxxx,DC=xxxxx,DC=xxxxx</p>  <p>But I need result for multiple OU. Solution can be in LDAP URL or it can be in c# code which ever is suitable. I am using DirectoryEntry and DirectorySearcher classes for it in c#</p>

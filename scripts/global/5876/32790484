@@ -1,0 +1,1 @@
+<p>Need to know how to show the full URL of my website, I would need to pass: www.ejemplo.com.ar to www.ejemplo.com.ar/<strong>index.html</strong> I've tried all types of redirect and rewrite, but none worked out. I hope you can help me.</p>  <p>Over Apache2</p>

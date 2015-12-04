@@ -1,0 +1,1 @@
+<pre><code> data: {         table: 'freq',         startRow: 1,         endRow: 17,         endColumn: 7     }, </code></pre>  <p>please help, how to use json for Wind rose polar highchart instead of table data.  <a href="https://jsfiddle.net/id10922606/26njzy7k/1/" rel="nofollow">https://jsfiddle.net/id10922606/26njzy7k/1/</a></p>

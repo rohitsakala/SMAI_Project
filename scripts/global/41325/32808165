@@ -1,0 +1,1 @@
+<p>Using the plugin sbt-proguard, how do I make <code>sbt publish</code> depend on it and use its output jar rather than using the regular "package" and its output? Out-of-the-box if you type "publish" in the sbt shell then proguard is not invoked.</p>  <p>(Note: sbt-proguard is different from xsbt-proguard-plugin)</p>

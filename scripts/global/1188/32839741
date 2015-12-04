@@ -1,0 +1,1 @@
+<p>I have a JBoss 5.0 running a server application that provide client connections to a web service (wsdl). Since the web service is over TLS I was thinking of using a pre-loaded (pre-connected TLS sessions) thread pool to connect to it from JBoss. </p>  <p>How would I make this thread pool?  Or is there a better way to solve this?</p>

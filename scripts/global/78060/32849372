@@ -1,0 +1,1 @@
+<p>I am using Anjlab's IAB library. What is the best approach on finding out whether or not a user has a product prior to the main part of the app loading? My current approach is to have a launcher activity that waits to load products from Google and once it has starts the main activity.</p>  <p>Is there some other method that is recommended instead?</p>  <p>Thanks, Daniel</p>

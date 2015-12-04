@@ -1,0 +1,1 @@
+<p>I have a problem with chrome scrollbar,on Mozilla there is no such a problem. I have couple of synchronous ajax requests and then some info appending on the page,they need about 2 secs to load.During this time the scrollbar freezes and is not usable,when the ajax end the scroll works fine.</p>

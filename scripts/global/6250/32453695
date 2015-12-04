@@ -1,0 +1,1 @@
+<p>Current convert decimal to hex in C#, i using code :</p>  <pre><code>private string Dec2Hex(int value) {     return value.ToString("X2"); } </code></pre>  <p>Please help port to C++ Jni. Thanks</p>

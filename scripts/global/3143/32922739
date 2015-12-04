@@ -1,0 +1,1 @@
+<p>When setting <code>cache</code> to <code>false</code> of ajax, jQuery adds a parameter <code>getlist?_=1343234</code>. The HTTP Get request then becomes <code>http://hello.com/getlist?_=1343234</code>. </p>  <p>It only occurs on IE 9 at least, but not on Chrome. </p>  <p>How to handle <code>?_=1343234</code> in Play framework?</p>  <p>Could anyone help with this? Thanks. </p>

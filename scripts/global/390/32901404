@@ -1,0 +1,1 @@
+<p>I need to Run R interpreter within a shell script an issue some predefined R commands through the shell script. Is this possible?</p>  <p>Right now I have a shell script as follows.</p>  <pre><code>#!/bin/bash  echo "Starting R"  R </code></pre>  <p>This starts an interactive R shell. Now I need to issue some R commands using the same shell script. any ideas?</p>

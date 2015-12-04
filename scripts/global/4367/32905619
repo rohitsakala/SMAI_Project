@@ -1,0 +1,1 @@
+<p>I have an application, which needs to send gift payment to unregistered in PayPal users through their email after delay specified by gift sender.</p>  <p>Can i create PayPal Chained Payment to unregistered in PayPal user as receiver? </p>

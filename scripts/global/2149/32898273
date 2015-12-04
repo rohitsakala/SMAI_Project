@@ -1,0 +1,1 @@
+<p>While running an application, I am getting this as error-</p>  <p>"platform not supported,check Vm properties os.name and os.arch. No Java found, pls install java"<br> whereas I do have Java 32 and 64 bit. My path is set for 64 bit but even changing the path didnt resolve the issue. This application runs on 32 bit Java-1.6.0</p>

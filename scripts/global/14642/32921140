@@ -1,0 +1,1 @@
+<p>I have products collection.</p>  <pre><code>$_products = Mage::getModel('catalog/product')-&gt;getCollection(); </code></pre>  <p>In admin panel in Catalog->Manage Categories->Category products i have position for each product.  <strong>How i can sort $_products by position ?</strong></p>

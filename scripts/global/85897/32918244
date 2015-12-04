@@ -1,0 +1,1 @@
+<p>I created a simple WCF application. I created the database with EF code first approach on my local DB (SQLExpress 2014). The service works fine and I can get the data properly. However, I cannot find the connection string for local DB in any config files. Any ideas where it could be?</p>

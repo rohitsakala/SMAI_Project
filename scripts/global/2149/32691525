@@ -1,0 +1,1 @@
+<p>I wanted to see the memory consumption of already running java program.</p>  <p>If i write a program to get <code>Runtime.freeMemory()</code>, this program will run under new JVM.  </p>  <p>How to get already running Java program's JVM and run  <code>Runtime.freeMemory()</code>?</p>

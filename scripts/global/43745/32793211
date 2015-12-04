@@ -1,0 +1,1 @@
+<p>I'm developing an application with <code>ionic</code> on IntelliJ IDEA. I've created a new project <code>PhoneGap/Cordova App</code>, also I deploy the <code>.apk</code> perfectly on the device of android emulator. But I don't know how to access to Database of the emulator, to see if I'm inserting my data correctly. How to connect to the emulator to access the Database?</p>

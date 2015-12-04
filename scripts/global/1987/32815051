@@ -1,0 +1,1 @@
+<p>I am reading multi threading in operating system concepts by Galvin, I am stuck on this topic. I am not able to understand how LWP(virtual processor) works and schedules threads or maps to kernel threads and why LWP are important and how does this whole thing works.Please explain it with an example. Also throw some light on Many to many mapping. Thank You</p>

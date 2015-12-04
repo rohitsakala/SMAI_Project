@@ -1,0 +1,1 @@
+<p>I have the following list : <code>L = [&lt;&lt;"str1"&gt;&gt;, &lt;&lt;"str2"&gt;&gt;, true]</code> Need to extract second element (string representation ) </p>  <pre><code>"str2" </code></pre>  <p>I tried <code>list:nth(2,L).</code> Thanks</p>

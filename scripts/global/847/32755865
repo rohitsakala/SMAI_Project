@@ -1,0 +1,1 @@
+<p>If this isn't possible please let me know!</p>  <p>I'm hoping there's a solution to what I'm asking.</p>  <p>I need to move the <strong>Next/Prev buttons</strong>, located in the pagenavigation plugin to after the <code>&lt;jdoc:include type="component" /&gt;;</code> Basically render it anywhere in my templates' index.php?</p>  <p>Is there any way to do this?</p>

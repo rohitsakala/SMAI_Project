@@ -1,0 +1,1 @@
+<p>How would I create a text widget with bold text?  I'm not sure what I'm doing wrong.</p>  <pre><code>text.config(weight="bold") </code></pre>

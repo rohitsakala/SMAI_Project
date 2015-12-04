@@ -1,0 +1,1 @@
+<p>I know there is a <code>NSStrokeWidthAttributeName</code> property can set stroke width.</p>  <p>However, is there a way to control whether to stoke inside or outside or center? I found the lib <a href="https://github.com/MuscleRumble/THLabel" rel="nofollow">THLabel</a> can set it. But is there a official way to do this?</p>

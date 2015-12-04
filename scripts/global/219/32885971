@@ -1,0 +1,1 @@
+<p>I use crypt() and gen_salt() in postgresgl and I need an equivalent functions in Java. I couldn't find anything like it so far.</p>  <p>What are other ways to encrypt a password in postgresql, so there is an equivalent function in Java?</p>

@@ -1,0 +1,1 @@
+<p>I have some <code>ng-view</code> in my template. One is uses for preloader, another for routing.</p>  <p>Problem is that routing taked all <code>ng-view</code> in template. How to use some <code>ng-view</code> in template seperated?</p>

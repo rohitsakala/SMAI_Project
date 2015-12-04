@@ -1,0 +1,1 @@
+<p>I want to share a content with an image, an url of my app on store and a caption of image. I tried to using SLComposeViewController, but it not working on iOS 8. I tried to using FaceBook share link, but it need an image url. How can I share image + url + text without any server to store image? Thanks all!</p>

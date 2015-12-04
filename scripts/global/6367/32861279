@@ -1,0 +1,1 @@
+<p>I've noticed that whilst doing a manual scss files compilation through compass, the old .css files are removed before compiler compiles the new files. </p>  <p>Is there a way in which I can configure my config.rb so that the old .css files are removed once the new .css files are created?</p>

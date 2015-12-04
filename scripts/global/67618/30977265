@@ -1,0 +1,1 @@
+<p>Currently I have MVC2 web application(on going). If I'm to use Azure PaaS (Platform as a Service), Can I use the existing project. Or should I create new project (using Cloud service project template)? Can it be migrated? And what kind of effort will it take for migration? Or should I rewrite the entire application with new project template?</p>

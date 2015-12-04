@@ -1,0 +1,1 @@
+<p>I'm looking for something like this :</p>  <pre><code>dataGridView1.CurrentRow.Cells[0].Value != null </code></pre>  <p>thanks for your time.</p>

@@ -1,0 +1,1 @@
+<p>I'm asking myself how to show an example of an output in java docs.  See here...</p>  <pre><code>/**  * Returns the app's version-info (e.g.: "App 1.2").  */ public static String getAppVersionInfo() {     return getAppName() + " " + getVersionName(); } </code></pre>  <p>How to express the 'e.g.' in a convenient way?</p>

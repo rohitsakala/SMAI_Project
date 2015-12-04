@@ -1,0 +1,1 @@
+<p>Using Parse I am downloading images, text etc. and using them in table view cells. However, while refreshing (when the indicator is animating in the navigation bar) I cannot scroll or move on the app. It is as if the app has become unresponsive until the table view is done refreshing.</p>  <p>Any help is greatly appreciated.</p>

@@ -1,0 +1,1 @@
+<p>I am using Materialize dropdown with its default initial config.</p>  <p>But it always opens below the dropdown button, I want this to open above the button when there is no space left at bottom in Viewport,</p>  <p>Please suggest some way out</p>

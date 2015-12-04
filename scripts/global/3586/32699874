@@ -1,0 +1,1 @@
+<p>Is it safe to use <code>std::cerr</code> like this?</p>  <pre><code>try  {       Something(); }  catch(std::bad_alloc)  {     cerr &lt;&lt; "Out of memory!"; } </code></pre>  <p>Does it use dynamic memory?  If it fails, will it throw an exception or just not output anything?</p>

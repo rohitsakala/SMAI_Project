@@ -1,0 +1,1 @@
+<p>i want make a list of favourite videos in windows phone 8. I think a xml file will help me, now i want to creat xml file as</p>  <pre><code>&lt;Videos&gt;   &lt;video&gt;abc&lt;/video&gt;   &lt;video&gt;xyz&lt;/video&gt;   ........ &lt;Videos/&gt; </code></pre>  <p>but i dont know how to do creat that xml file and the way to read it out . Can you help me, Thanks a lot !</p>

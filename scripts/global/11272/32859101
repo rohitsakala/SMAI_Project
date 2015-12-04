@@ -1,0 +1,1 @@
+<p>I am using spring security 3.2.0.RELEASE I want to redirect user in another url if he has not permitt to page, how can I  do this?</p>  <pre><code>.antMatchers("/cabinet/control/members/*").hasRole("OWNER").redirectTo(..) </code></pre>

@@ -1,0 +1,1 @@
+<p>Everybody knows that client always request to server to execute script and get required data and we can give lot of examples of this.</p>  <p>But the question is that. Is there any example that server directly communicate/request to client. The server is not categorized i mean that any server.</p>  <p>Thanks in advance </p>

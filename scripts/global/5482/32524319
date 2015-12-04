@@ -1,0 +1,1 @@
+<p>I have a function in C:</p>  <pre><code>void start_fun() {    // do something } </code></pre>  <p>I want to use <code>pthread_create()</code> to create a thread and the start routine is <code>start_fun()</code>, without modifing <code>void start_fun()</code>, how to get the function pointer to <code>start_fun()</code>;</p>

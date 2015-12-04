@@ -1,0 +1,1 @@
+<p>I'm looking to search and replace a bunch of URLs in Wordpress with this format: </p>  <p>www.domain.com/2009/03/7/post-name/ to www.domain.com/post-name/ yet I don't know how to search for all the different dates, is there an expression I can use? </p>  <p>Thanks!</p>

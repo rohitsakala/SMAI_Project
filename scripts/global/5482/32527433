@@ -1,0 +1,1 @@
+<p>I know I can set a timer, but I have too many Mutex'es, all over the code. I use windows 10, mingw32, pthreads and legacy c++ (but not c++11)</p>

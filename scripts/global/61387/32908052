@@ -1,0 +1,1 @@
+<pre><code>npm install css-sprite --save  npm install css-sprite -g </code></pre>  <p>What does 2 different command above do? I know -g is global, but why do you want it to be global? What's --save?</p>

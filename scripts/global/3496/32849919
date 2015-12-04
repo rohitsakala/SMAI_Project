@@ -1,0 +1,1 @@
+<p>This is not about truncating to decimal places. Rather, truncating whole numbers with Oracle 12c. </p>  <p>Select CAST('123456789' AS NUMBER(4)) from DUAL;</p>  <p>It would be great if this returned '1234' instead of throwing an exception. </p>  <p>Seems like a simple request!</p>

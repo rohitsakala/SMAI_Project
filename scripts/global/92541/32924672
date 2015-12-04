@@ -1,0 +1,1 @@
+<p>I try to change the size of paper-spinner.By setting the css height and width properties.  This change the size of the element but the element corrupted.</p>  <p>Their is a way to change the size that the spinner will be also small or bigger?</p>

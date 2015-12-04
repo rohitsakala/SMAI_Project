@@ -1,0 +1,1 @@
+<p>I have a device which has a small webserver running into it. The device has RJ45 port through which a laptop can be connected and the setup page of the device can be accessed. I want to add wi-fi functionality to device using its RJ-45 connector. Basically i want to access the setup page of the device over wi-fi using an iPad. Is it possible?</p>

@@ -1,0 +1,1 @@
+<p>In PHP Manual, has a class called EmptyIterator</p>  <p>The manual says of the <code>EmptyIterator::rewind()</code> method:</p>  <blockquote>   <p>No operation, nothing to do.</p> </blockquote>  <p>And the other methods of this class throw exceptions or return false</p>  <p>what is the objective of an empty iterator?</p>

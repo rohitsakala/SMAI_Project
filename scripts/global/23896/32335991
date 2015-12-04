@@ -1,0 +1,1 @@
+<p>I opened a Fancy box with the below code,</p>  <pre><code> jQuery.fancybox.open([ {    href : imghref,    title : jQuery('.ms-info').text() }]); </code></pre>  <p>and how will i set the close callback for this, fancybox default method didn't help me because of I opened it directly. I need to run a js function the fancybox closes..</p>  <p>Help me pls ..</p>

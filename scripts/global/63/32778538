@@ -1,0 +1,1 @@
+<p>Due to a human error, we had to restore svn data on server from a backup. The backup is 1 day old.</p>  <p>What happens when someone commits with a higher rev number than the server version? How should we mediate this problem?</p>

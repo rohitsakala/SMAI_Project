@@ -1,0 +1,1 @@
+<p>I want to configure SonarQube so it can analyze Delphi project too, and when I search online I saw there used to be a delphi plugin for SonarQube. But when I look at the plugins with the latest build it doesn't show the delphi plugin.</p>  <p>Is the plugin still available in an other way?</p>  <p>Or is it possible to configure SonarQube for delphi without the plugin?</p>

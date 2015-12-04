@@ -1,0 +1,1 @@
+<p>I have a web project  in asp.net. So I have used Client Printing using javascript here is my code</p>  <pre><code>function Print(){ Window.print(); } </code></pre>  <p>It is working find but when there are multiple pages in crystal report it's printing only current page.</p>  <p>Please help guys....</p>

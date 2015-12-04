@@ -1,0 +1,1 @@
+<p>I am displaying a unicode character in a <code>UIButton</code> by creating custom accessory view in cell. The issue is the text looks very small in iPad. If i set some other string like "ABC" it displayed properly. How can I make unicode character appear Large ?</p>

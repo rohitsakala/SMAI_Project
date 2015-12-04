@@ -1,0 +1,1 @@
+<p>I have a <code>tomcat</code> running a web application. Now I'd like to prevent access to <code>my-dns</code>, so that users don't see the default tomcat start page (as also shown by <code>localhost:8080</code>.</p>  <p>But any applications, eg <code>my-dns/my-app</code> should be accessible public.</p>  <p>Is that possible? If yes, how?</p>

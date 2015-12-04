@@ -1,0 +1,1 @@
+<p>I need to protect entering cyrillic text in my application.</p>  <p>Is there some method how can I detect which encoding of the entered symbols in the editText?</p>

@@ -1,0 +1,1 @@
+<p>I can insert .txt data into SQL using <code>Bulk Insert</code>, but how can I add data from multiple sources into same table using a query?</p>

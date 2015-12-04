@@ -1,0 +1,1 @@
+<p>I want to use phpmyadmin by this git.  <a href="https://github.com/dmikusa-pivotal/cf-ex-phpmyadmin" rel="nofollow">https://github.com/dmikusa-pivotal/cf-ex-phpmyadmin</a></p>  <p>but I have to change max_file_uploads in php.ini.</p>  <p>Any ideas how to solve this?</p>  <p>Sorry for my bad English.</p>

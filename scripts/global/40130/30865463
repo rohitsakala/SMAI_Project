@@ -1,0 +1,1 @@
+<p>I found an Adobe document that defines the amfChannel <a href="https://flex.apache.org/asdoc/mx/messaging/channels/AMFChannel.html" rel="nofollow">Adobe amfChannel</a>. Is there a big difference between amfChannel and pollingAMFChannel? FlashBuilder 4.7 does not provide any documentation.</p>

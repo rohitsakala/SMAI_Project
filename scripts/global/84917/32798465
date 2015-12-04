@@ -1,0 +1,1 @@
+<p>I'm having a problem trying to format a field.</p>  <p>(<code>s</code> in my example represents space).<br> I need to make this: <code>sssssssss$37,189.50</code> </p>  <p>I tried using like this <code>$%1$,.f</code> but I get this: <code>$37,189.50sssssssss</code></p>  <p>I tried also make like this <code>$%1$18s</code> but I get this: <code>$sssssssss37189.50</code></p>

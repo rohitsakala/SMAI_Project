@@ -1,0 +1,1 @@
+<p>I did a push to Heroku, modified a little code (but no gem and no asset changes) and then pushed again.</p>  <p>The second time, the deploy messages indicated all the gem were 'installed' instead of saying 'using' the prior gems.</p>  <p>Why might Heroku re-install all the gems when none changed?</p>

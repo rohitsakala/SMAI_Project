@@ -1,0 +1,1 @@
+<p>I have a modal dialog with 2 tabs in it, In one tab I have a form with say 10 rows and 2nd tab another form with 2 rows, Now switching between these tabs makes the dialog height to vary, I think the ideal is the height remains constant to show the tallest form (and not jump arround when switching the tabs) - any idea how to fix</p>

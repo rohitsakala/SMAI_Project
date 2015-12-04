@@ -1,0 +1,1 @@
+<p>What happens in the follwing code, does program executes 'return 1' or exits before?</p>  <pre><code>int cmd_quit(tok_t arg[]) {   printf("Bye\n");   exit(0);   return 1; } </code></pre>

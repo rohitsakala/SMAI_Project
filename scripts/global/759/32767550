@@ -1,0 +1,1 @@
+<p>Is the currentAccessToken received from Facebook already hashed? It is a issue regarding server side implementation. I believe the token is already hashed and that the server is doing it as well causing authentication issues.</p>  <p>iOS SDK, Facebook 4.x</p>

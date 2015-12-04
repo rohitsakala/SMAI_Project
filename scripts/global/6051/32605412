@@ -1,0 +1,1 @@
+<p>I want to create a loop to append files that are similar but only differ on the date:</p>  <pre><code>C:\AAA_201001.dta C:\AAA_201002.dta C:\AAA_201003.dta ... C:\AAA_201501.dta ... </code></pre>  <p>I want to create a loop to change the year (given by the first four numbers) and the month (last two numbers). How can I do this?</p>

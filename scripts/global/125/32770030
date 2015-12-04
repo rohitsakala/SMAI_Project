@@ -1,0 +1,1 @@
+<p>I wrote a C programm and saved it with a .c extension. Then I compiled with the gcc but after that I only see my .c file and an .exe file. The program runs perfectly. But where is the .o file that I learned in theory? Has it been overwritten to .exe and all done by the gcc in on step? (Preprocessing, compiling, assembling and linking)</p>  <p>I'm on a VM running Debian.</p>

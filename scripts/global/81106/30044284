@@ -1,0 +1,1 @@
+<p>I used the original UITableViewCell, and settled the <code>cell.selectedBackgroundView.backgroundColor =[UIColor whiteColor]</code>. </p>  <p>When I select the cell, the <code>textlabel</code> was covered which means that only the white was showing. </p>  <p>When I selected another cell, the first <code>textLabel</code> was visible and the new one was covered. </p>

@@ -1,0 +1,1 @@
+<p>I have list of records which I want to assign to three people (eg.) equally.</p>  <p>So for example with 15 records, to split to three people named XYZ, PQR and ABC: </p>  <pre><code>Case  Name 123   XYZ 124   XYZ 135   XYZ 138   ABC 145   ABC 167   ABC 258   PQR 259   PQR 260   PQR </code></pre>

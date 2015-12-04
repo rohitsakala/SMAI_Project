@@ -1,0 +1,1 @@
+<p>It seems scheme-send-definition and scheme-send-last-sexp works with same result in gnu emacs. What's the difference between them?</p>

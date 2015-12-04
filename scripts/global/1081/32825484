@@ -1,0 +1,1 @@
+<p>I have java applet that draw ellipse. If I double-click on the ellipse, it must be filled with color. All methods that used gave me incorrect information about "Inside ellipse" or "Outside ellipse".  In one scene can be more than 1 ellipseand only if point of mouse (x,y) would be into ellipse, it must be filled. I create it by drawOval().</p>

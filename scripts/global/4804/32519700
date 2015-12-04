@@ -1,0 +1,1 @@
+<p>My end goal is that I want every form in my project to handle the escape key.</p>  <p>I could just override the ProcessCmdKey method in every single form in my project but that's very time consuming and in my eyes, a little bit untidy.</p>  <p>Is there a way to apply this change to every class that inherits the Form Class?</p>

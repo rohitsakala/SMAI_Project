@@ -1,0 +1,1 @@
+<p>Can anyone shed any light on why the method is getting called with <code>contact.bodyA.node = NULL and contact.bodyB.node = NULL</code>?</p>  <p>Is this normal behaviour or is it something I am doing that is resulting in this?</p>  <p>If it is normal then is the correct action to check for <code>NULL</code> nodes and to then simply ignore the calls?</p>

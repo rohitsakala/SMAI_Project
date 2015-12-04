@@ -1,0 +1,1 @@
+<p>I'm scaling an NSView with scaleUnitSquareToSize.  My view has an NSImageView, as well as 3 NSScrollViews each with an NSImageView. </p>  <p>The problem is my testing shows that the images inside NSImageViews within my view is not scaling.  Is this something that scaleUnitSquareToSize doesn't handle, or is there a setting I need so NSImageView.</p>

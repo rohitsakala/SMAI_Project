@@ -1,0 +1,1 @@
+<p>Is there an API or some other way to find out how much disk space a field is taking in an Elasticsearch index?  We'd like to pare down on some fields but without knowing how much space a field takes, it's shooting in the dark.</p>  <p>We use Elasticsearch, but I'm also OK with looking at a single Lucene index (=ES shard) for this information.</p>

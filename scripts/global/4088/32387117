@@ -1,0 +1,1 @@
+<p>I'm trying to translate a code from C to Lua and I'm facing a problem. How can I translate a Bitwise AND in Lua? The source C code contains:</p>  <p>if ((command&amp;0x80)==0)    ...</p>  <p>How can this be done in Lua?</p>  <p>I am using Lua 5.1.4-8</p>

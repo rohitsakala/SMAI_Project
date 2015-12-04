@@ -1,0 +1,1 @@
+<p>The problem is to match all punctuation marks in a given text. There is the descriptor <strong>\W</strong> that matches any non-word character (including white-space character), and there's <strong>\S</strong> that matches any non-white-space character. How do I write a regular expression that matches any non-word non-white-space character?</p>

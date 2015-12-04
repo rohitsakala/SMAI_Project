@@ -1,0 +1,1 @@
+<pre><code>HttpClient httpClient = HttpClientBuilder.create().setSSLSocketFactory(socketFactory).build(); </code></pre>  <p>The HttpClientBuilder cannot be resolved. Anyone any idea how to fix this?</p>

@@ -1,0 +1,1 @@
+<p>I'm building an iOS (Swift) app that needs realtime chat as part of the functionality. While Parse works well for push, data storage, etc..., it doesn't support realtime. I would like to use Firebase for the realtime support, but need help authenticating to Firebase using a Parse user. I really don't know where to start with this. Any help would be greatly appreciated.</p>

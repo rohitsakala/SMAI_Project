@@ -1,0 +1,1 @@
+<p>I'm trying to open a css file via the html markup of a website, all I want to do is change the hex values of colors.</p>  <p><strong>Note</strong>: I am doing this from my own website, hence I cannot <em>just change the values</em>.</p>  <p>I am using the ASP.NET MVC 4.5 Framework.</p>

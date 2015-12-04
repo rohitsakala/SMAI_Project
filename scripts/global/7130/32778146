@@ -1,0 +1,1 @@
+<p>I have a for loop which calls click event every time. I want to append some string to the function name.  say, button_click then I want it to be Button_click1, Button_click2 etc..</p>  <p>I want to perform some operation on values 1, 2 etc..  Please suggest if there is any other way to access this information.</p>  <p>Thread can be the last option I would opt.</p>

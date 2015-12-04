@@ -1,0 +1,1 @@
+<p>I'm trying to send envelopes using the API and am receiving a bug where it creates the status and is working with Salesforce, but isn't associating it to the opportunity.</p>  <p>I'm getting an error "Object reference not set to an instance of an object"</p>  <p>Any ideas or help would be amazing. Thanks.</p>

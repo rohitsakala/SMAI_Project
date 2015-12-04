@@ -1,0 +1,1 @@
+<p>Are these the only collection types in Python 3.x?</p>  <ol> <li>List </li> <li>Sets </li> <li>Dictionaries</li> </ol>  <p>From the documentation <a href="https://docs.python.org/3/tutorial/datastructures.html" rel="nofollow">Data Structures</a>  section , there appear to be the only three.</p>

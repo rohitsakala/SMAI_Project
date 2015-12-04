@@ -1,0 +1,1 @@
+<p>I need to prevent screen auto lock from <code>SpringBoard</code> tweak of iOS(Jailbroken), I tried <code>[[UIApplication sharedApplication] setIdleTimerDisabled:YES];</code> and <code>[(SpringBoard *)[UIApplication sharedApplication] resetIdleTimerAndUndim];</code>. Does anyone know that?</p>

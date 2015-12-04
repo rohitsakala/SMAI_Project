@@ -1,0 +1,1 @@
+<p>I've been trying to find a way to remove a string from a table kind of like this:</p>  <pre><code>myTable = {'string1', 'string2'} table.remove(myTable, 'string1') </code></pre>  <p>but I haven't been able to find anyway to do it. Can someone help?</p>

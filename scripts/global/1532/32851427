@@ -1,0 +1,1 @@
+<p>I need to build an XML document with XML version 2.0.</p>  <p>I specify <code>&lt;?xml version="2.0"?&gt;</code>. But what else needs to be different? Can anyone please explain the basic difference between XML 1.1 and XML 2.0?</p>

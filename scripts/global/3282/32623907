@@ -1,0 +1,1 @@
+<p>Anybody knows how to parse XMPP-stream in the right way in C#? I had problem with malformed XML in XMPP, because you didn't get <code>&lt;/stream&gt;</code> tag, until end of stream(connection) and how to handle namespaces?</p>  <p>Thanks!</p>

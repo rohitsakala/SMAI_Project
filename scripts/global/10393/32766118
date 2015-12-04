@@ -1,0 +1,1 @@
+<p>I'm using a WinForms Webbrowser inside a WPF application,  Because of the Webbrowser is in a touch screen I need to hide the mouse cursor but don't know how to it with this element architecture ! I'm using WinForms Webbrowser instead of WPF one to get access to the ScriptErrorsSuppressed property.</p>

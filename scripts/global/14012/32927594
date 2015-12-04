@@ -1,0 +1,1 @@
+<p>Well, i m making an app , who can parse html and show graphs and readings in different way. problem is how to parse html ? , i have tried several things like</p>  <p>1- accessing DOM but web-view and webViewBridge Both are failed. 2- can not find parser who work on starling.</p>

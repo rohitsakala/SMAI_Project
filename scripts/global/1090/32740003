@@ -1,0 +1,1 @@
+<p>While studying the Linux kernel, I just found out that, by default, an executable has an 'executable' stack area. I naturally thought the only (necessary) executable area is the text section. Is there any historical reason related to this, or any practical usage?</p>

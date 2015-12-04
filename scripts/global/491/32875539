@@ -1,0 +1,1 @@
+<p>We are passing a datatable over a web service.  We would like to encrypt the datatable, send over wcf and then decrypt for use on the other end. What would be the best easiest way to accomplish this?</p>

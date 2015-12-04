@@ -1,0 +1,1 @@
+<p>I want to use a SHA 256 hash as key for all paths on a big data storage.  Now I want to know if I should use a database like mysql to store the keys or an index tool like lucene.  I have around 1 billion SHA 256 keys to search for them. With which tool (mysql or lucene) I could search faster for a specific SHA 256 key?</p>

@@ -1,0 +1,1 @@
+<p>Can someone explain what does this mean <code>tcp[13] &amp; 4 == 4</code>?</p>  <p>I'm not sure how to explain this in Layman's term.</p>

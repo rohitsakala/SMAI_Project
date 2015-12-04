@@ -1,0 +1,1 @@
+<p>I am working on a windows application wherein I am unable to set the page size to a4 sheet. While taking print or saving the report as pdf the content of the report is expanded to 2-3 pages.How to overcome this?</p>  <p>I do have tried using using these</p>  <p>iTextSharp.text; using iTextSharp.text.pdf; then also i am unable to get it.</p>

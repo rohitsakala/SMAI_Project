@@ -1,0 +1,1 @@
+<p>I have defined   </p>  <pre><code>dynamic "false" </code></pre>  <p>in my _default mapping tag.<br> This restricts new fields from being created.<br> Is there a way to restrict new document types (entity type) to be created?<br> Thanks. </p>

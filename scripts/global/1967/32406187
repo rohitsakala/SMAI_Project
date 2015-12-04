@@ -1,0 +1,1 @@
+<p>I load a html page from url in a webview in swift and I would like to know how can I get the URL of a link in my html after click to load a new html. After some search I found something like shouldStartLoadWithRequest and LinkClicked but it's not really helpful.</p>  <p>If someone has a idea, thanks ^^</p>

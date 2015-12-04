@@ -1,0 +1,1 @@
+<p>I am Joining Query A to B in order to get C but C only shows Data from A but not B.. Does anyone know why?</p>  <p>if it helps, A is a query coming from a Union. </p>  <p>My join has the cardinality of 1.1 - 0.1 </p>  <p>If I try 1.1 - 1.1 no data appears.</p>  <p>Please Help</p>

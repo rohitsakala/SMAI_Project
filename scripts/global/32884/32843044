@@ -1,0 +1,1 @@
+<p>I have my application developed on <code>iOS 8</code> . I have implemented <code>push notification</code> in my application. In <code>iOS 8</code> clicking on <code>notification</code> automatically clears that particular notification. But my requirement is notification should stay until clear manually. Please give suggestion how to achieve this.</p>

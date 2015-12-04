@@ -1,0 +1,1 @@
+<p>The Timer always jumps right into the function instead of waiting 2000 milliseconds</p>  <pre><code>stop();  var hey:Number= 2000;  function exercise(frame) {   trace("sup");    this.gotoAndStop(frame); }  setTimeout(exercise(2),hey);  trace(hey); </code></pre>

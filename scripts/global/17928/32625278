@@ -1,0 +1,1 @@
+<p>I am trying to put one div on top of another and let the top one scroll, see <a href="http://www.bootply.com/z5B5YBWS5Y" rel="nofollow">http://www.bootply.com/z5B5YBWS5Y</a></p>  <p>just setting adding</p>  <pre><code>body. home { width: 100% </code></pre>  <p>doesn't work.</p>  <p>But i like the top div to be 100% width?</p>

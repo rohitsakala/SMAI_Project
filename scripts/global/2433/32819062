@@ -1,0 +1,1 @@
+<p>I have a single data structure that holds a relatively small amount of objects (ca. 1500) and several methods that are acting on it. Is there a programming pattern to iterate the methods over the data instead of writing significantly more boilerplate code?</p>

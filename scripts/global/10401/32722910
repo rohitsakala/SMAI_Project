@@ -1,0 +1,1 @@
+<p>I would like a powershell script to find the domain of an user.</p>  <p>I tried with <code>Get-ADUser &lt;user&gt; -Properties *</code> It shows the <code>domain(CN=Domain Users,CN=Users,DC=nam,DC=nsroot,DC=net)</code>. But I want it to display on the domain because I have a huge list of users</p>

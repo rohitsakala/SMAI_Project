@@ -1,0 +1,1 @@
+<p>In API21 Google modified shouldInterceptRequest method to use <code>WebResourceRequest request</code> instead of <code>String url</code>.  Is there any way I could write a generic class extending <code>WebViewClient</code> and handle both methods?  My minimum API version is 18.</p>  <p>Thanks Krystian</p>

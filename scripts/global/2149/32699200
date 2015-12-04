@@ -1,0 +1,1 @@
+<p>I come across this word several times such as <code>The JDBC driver is not loaded at all.</code> or when <code>container loads</code>.</p>  <p>My best guess is loading means fetching it into the memory from disk.</p>  <p>Am I correct?</p>

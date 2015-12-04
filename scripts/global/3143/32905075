@@ -1,0 +1,1 @@
+<p>What does this code mean (with scala on apache spark)</p>  <pre><code>def hash(rdd: RDD[String]): RDD[Vector] = {   val doc=rdd.map(line =&gt; line.split(",").toSeq)   val hashingTF = new HashingTF()   val tf = hashingTF.transform(doc)   tf.foreach(println)    val idf = new IDF().fit(tf)   idf.transform(tf) }  </code></pre>

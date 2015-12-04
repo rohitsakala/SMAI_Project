@@ -1,0 +1,1 @@
+<p>We use Entity Framework and this leads to big performance problems whenever we use Count() on child collections of database entities. As workaround I've used joins of root collections of data context. Then the resulting sql query uses the desired COUNT(*). But this solution is really ugly.</p>

@@ -1,0 +1,1 @@
+<p>I work with architect. I added new ListPaginPlugin in views and I used it my list view with reference. But when page is loading, get an error as 'Uncaught Error: [Ext.createByAlias] Cannot create an instance of unrecognized alias: widget.listpagingplugin'. </p>  <p>It seen in view array of app.js.</p>  <p>How can fix it ? Thanks</p>

@@ -1,0 +1,1 @@
+<p>I'm using pygame with a joystick controller. The joystick controller is not calibrated correctly, though. The right horizontal controller continually outputs bad values and does not zero correctly upon return to center position. Is this fully a hardware issue, or is there a method of calibration/continual calibration using pygame or another library?</p>

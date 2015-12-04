@@ -1,0 +1,1 @@
+<p>I am setting up a bridge javascript -> iOS with <code>WKWebView</code>. <code>UIWebView</code> did have a <code>delegate</code>, but <code>WKWebView</code> didn't? Why, how? I want to implement <code>didReceiveScriptMessage</code> method. How can I indicate, that method is implemented in self?</p>

@@ -1,0 +1,1 @@
+<p>I'm using askbot which is a Django based Q&amp;A site like stackoverflow. I want to use Memcached to avoid frequently querying database. </p>  <p>But here's the problem, <strong>how can I make people see their question&amp;answer immediately when the webpage is in the cache?</strong> Is there any best practice for this? Thank you.</p>  <p>dv and close? Are you kidding me??</p>

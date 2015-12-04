@@ -1,0 +1,1 @@
+<p>I can't understand how to make css animations to an element no sooner than it appears on page, like css3 transform rotate. when I set in <code>attached(){performRotation()}</code> when the element appears on page it's already rotated. I couldn't find in all documentation which event I need to subscribe to in order to start animation.</p>

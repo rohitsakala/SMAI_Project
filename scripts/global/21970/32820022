@@ -1,0 +1,1 @@
+<p>I use wordpress and it's plugin Custom Permalink. There is a place in this plugin, where added / before custom permalink and i want to delete it, because it make final link such as href="http://domain.com//post-title".  Please help me find a place, where added this second /. Any help, please!</p>  <p>PROBLEM disappears, when turn off WPML plugin</p>

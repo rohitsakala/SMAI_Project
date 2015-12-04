@@ -1,0 +1,1 @@
+<p>We have lots of Ninject Singletons in our code, they are working great.  We've run into the scenario with a windows service (runs forever) where I want a singleton but I'd like to dispose it every N minutes and have ninject create a new singleton.</p>  <p>What is the best way to accomplish this?</p>

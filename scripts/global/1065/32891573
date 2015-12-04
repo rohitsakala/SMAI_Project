@@ -1,0 +1,1 @@
+<p>I'm trying to update my RecyclerView at <code>onActivityResult</code>, but the animation of ItemAnimator doesn't work.</p>  <p>However, if I post delayed this update for a second, the animation works.</p>  <p>Is there a better workaround with this problem?</p>

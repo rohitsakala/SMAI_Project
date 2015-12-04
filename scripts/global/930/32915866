@@ -1,0 +1,1 @@
+<p>I am using this expression in a calculated field InStr(-1,"Beejal Larkin"," ")</p>  <p>When I submit it, each field is filled with #Func!. I don't understand why this is.</p>  <p>Thanks in advance</p>

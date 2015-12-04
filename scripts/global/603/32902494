@@ -1,0 +1,1 @@
+<p>I want to write a code that takes input from user in 5 seconds. After 5 seconds, if it gets any input in the last 5 seconds, do something, if not continue with default. How could i do it in c?</p>  <p>Thanks a lot. </p>

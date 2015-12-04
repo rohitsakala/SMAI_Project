@@ -1,0 +1,1 @@
+<p>When you include dates and times in an email, Gmail will automatically parse it, and Google Now will ask you if you want to create a reminder for it.</p>  <p>I have a use case where I want to send users a list of dates and times that are definitely NOT something they will want a reminder for.</p>  <p>Is there a way to tell Gmail to ignore a date/time?</p>

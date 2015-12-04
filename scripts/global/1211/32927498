@@ -1,0 +1,1 @@
+<p>I heard a lot of times that one of modern concepts of java apps structure creation is effectively thread-safe objects concept. This means that we only use final entity classes in our app. Where can I find comprehensive guide of that concept? How can I apply this concept to ordinary MVC web app, based on hibernate and spring, using DAO and DTO approach? </p>

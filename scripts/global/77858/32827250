@@ -1,0 +1,1 @@
+<p>can anyone please explain the meaning of this command. I know it records audio, but what is this flag for and "plughw:1,0" ??</p>  <p>command:</p>  <pre><code>arecord -D plughw:1,0 test.wav </code></pre>

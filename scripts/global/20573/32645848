@@ -1,0 +1,1 @@
+<p>I m trying to apply a slide animation from left to right using Titanium. On window open I am running this code <strong>doctorDetailsWindow.animate({             left:0,             duration:300         });</strong> This code is working fine on IOS devices but not on Android devices. Is there any way if we can apply the same on android device too?</p>

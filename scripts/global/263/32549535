@@ -1,0 +1,1 @@
+<p>Found out that entries at HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\ that contain "verb" subkey represent OLE containers.</p>  <p>Like</p>  <pre><code>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{GUID_HERE}\verb\ </code></pre>  <p>Question:</p>  <p>Is this necessary and sufficient condition to distinguish COM and OLEs (i.e is this trait necessary for all OLE's or not)?</p>

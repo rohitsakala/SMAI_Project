@@ -1,0 +1,1 @@
+<p>I am trying to simulate arduino in Proteus 8. But whenever I compile the source code, it gives the error:</p>  <p>mksketch -C mega2560 -N atmega2560 -F 16000000  ../main.ino Can't change to Arduino core directory make: *** [main.cpp] Error 1</p>  <p>Error code 2</p>  <p>Please help.</p>

@@ -1,0 +1,1 @@
+<p>A colleague of mine mentioned that it is bad practice to debug unit tests and I'm wondering if this is true. If it is, why is this considered bad practice?</p>  <p>Edit: What was meant was debugging a unit test to fix an issue that can be reproduced by that test.</p>

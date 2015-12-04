@@ -1,0 +1,1 @@
+<p>I know there are methods <code>shiftLeft(int n)</code> and <code>shiftRight(int n)</code> for <code>BigInteger</code> class which only takes int type as an argument but I have to shift it by a <code>long</code> variable. Is there any method to do it?</p>

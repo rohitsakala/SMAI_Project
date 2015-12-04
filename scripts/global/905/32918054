@@ -1,0 +1,1 @@
+<p>I'm going create a simple test of <code>html</code> files. I want to insert my own icon at the taskbar windows.</p>  <p>i has insert on event new tab this is the code :</p>  <pre><code>&lt;link rel="icon" href="favicon.ico"&gt; </code></pre>  <p>can somebody tell me what's the code? I'll apreciated if can give some example too.. thank's for advance..</p>

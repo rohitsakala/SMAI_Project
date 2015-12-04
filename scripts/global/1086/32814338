@@ -1,0 +1,1 @@
+<p>Exists a more elegant way to create an object from an array than this one?</p>  <pre><code>var createObject = function(){ var myArray= generateArray(); var myObject = {     question : myArray[0],     answerA : myArray[1],     answerB : myArray[2],     answerC : myArray[3],     answerD : myArray[4]     }; return myObject; } </code></pre>

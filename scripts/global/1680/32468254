@@ -1,0 +1,1 @@
+<p>In objective-c NSAssert statements inside a block would cause retain cycles because NSAssert references self. The block would capture and retain self.</p>  <p>Does the assert statement in swift reference self ? </p>

@@ -1,0 +1,1 @@
+<p>I have camelCase by default in my Web API, but I need disable this setting in a specific controller (or in specific http action). This is possible?</p>

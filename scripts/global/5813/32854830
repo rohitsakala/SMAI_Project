@@ -1,0 +1,1 @@
+<p>With <strong>bash</strong> everything is fine:</p>  <pre><code>$ yes | bash -c 'read -sn 1 -p "[Y/n] " RESPONSE ; echo $RESPONSE' y </code></pre>  <p>But with <strong>zsh</strong> I have trouble:</p>  <pre><code>$ yes | zsh -c 'read -sk 1 "RESPONSE?[Y/n] " ; echo $RESPONSE' [Y/n] </code></pre>

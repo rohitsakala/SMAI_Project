@@ -1,0 +1,1 @@
+<p>I am using a gcc cross compiler arm-elf-gcc-4.4.2. It can compile normally; however, when I want to view the intermediate file by adding <code>-fdump-final-insns</code>, it gives me the following error:</p>  <pre><code>cc1.exe: error: unrecognized command line option "-fdump-final-insns" </code></pre>  <p>Is there any other way to dump the intermediate file?</p>

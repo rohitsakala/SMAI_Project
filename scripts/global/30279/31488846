@@ -1,0 +1,1 @@
+<p>I am using InstallShield for deploying my C# Application.</p>  <p>I want to enable .net 3.5 in windows 8.</p>  <p>I found on MSDN, for enable .net 3.5 in windows 8 using DISM script.</p>  <p>Can anyone give some suggestion to enable that feature at application installation time?</p>

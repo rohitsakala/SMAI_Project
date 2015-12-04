@@ -1,0 +1,1 @@
+<p>I have a <code>List&lt;List&lt;String&gt;&gt;</code> and I would expect the <code>iterator()</code> method to  return an <code>Iterator&lt;List&lt;List&lt;String&gt;&gt;</code>, but what I get is an <code>Iterator&lt;List&lt;String&gt;&gt;</code>.</p>  <p>I cannot figure out what is going on???</p>  <p>I am using JDK 1.7.</p>

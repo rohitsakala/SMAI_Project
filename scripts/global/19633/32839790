@@ -1,0 +1,1 @@
+<p>I'm getting the following error the first time I try to access the localhost route in the browser.</p>  <pre><code>Errno::ENOENT at / No such file or directory @ rb_sysopen - /Users/admin/Workspace/site/(__TEMPLATE__).haml </code></pre>  <p>After refreshing, it works fine until I restart the server. </p>  <p>Can someone help me fix this issue?</p>  <p>Thank you very much!</p>

@@ -1,0 +1,1 @@
+<p>I'm developing a application that take advantages of restaurants dataset. Every 1 week my system will run a cron job to synchronize the restaurants that is available on a public api to my database. </p>  <p>However how do i draw the sequence diagram for this cron job? Who is the actor? </p>

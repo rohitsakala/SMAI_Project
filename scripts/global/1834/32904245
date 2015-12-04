@@ -1,0 +1,1 @@
+<p>I need to create a print preview of the original map but on a print preview layout.</p>  <p>I was thinking of using the same as of <a href="http://openlayers.org/en/v3.9.0/examples/teleport.html#" rel="nofollow">Teleport Example</a> but instead, clone the map (deep clone) into the print preview layout.</p>  <p>Whats the best way to accomplish this?</p>  <p>Thanks</p>

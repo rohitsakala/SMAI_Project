@@ -1,0 +1,1 @@
+<p><code>FluentIterable</code> has only one final field -- the delegate <code>Iterable</code>.</p>  <p>So it seems it's thread-safe as long as the internal <code>Iterable</code> instance is thread-safe, but I can't find it stated anywhere in the docs. Am I missing something?</p>

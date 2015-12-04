@@ -1,0 +1,1 @@
+<p>I'm really just curious what is being passed to the constructor when you use the keyword this when initializing an object.</p>  <pre><code>protected void onCreate(Bundle savedInstanceState) {     super.onCreate(savedInstanceState);      RelativeLayout firstLayout = new RelativeLayout(this); } </code></pre>

@@ -1,0 +1,1 @@
+<p>My server receives a string message that is sent by the client. It receives the following in a string  [Process ID, Hostname, App Name, File Path]  of the client. How should I split the received string into 4 types and store them individually in another string?</p>

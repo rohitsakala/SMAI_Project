@@ -1,0 +1,1 @@
+<p>When ever i want retrieve date from date, first I will try to look into from cache, I am using here servletcontext, I have 2 servers, if i do any changes, that changes cached only in that particular server, not getting cached in another server, how to mange cache in other server also without restarting servers. Please suggest</p>

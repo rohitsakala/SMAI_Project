@@ -1,0 +1,1 @@
+<p>i have a database which is used by a magento site. The problem is that the database does not have any foreign keys on tables. My question is if there's a way to restore this relations between tables. thank you</p>

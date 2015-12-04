@@ -1,0 +1,1 @@
+<p>In some situations, I find it is clearer if I pass two arguments to a function, e.g. two lists, rather than passing a tuple containing the two lists.  Which is considered better style?  Any differences in efficiency?</p>  <p>Thanks.</p>

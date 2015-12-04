@@ -1,0 +1,1 @@
+<p>Does InstanceIDListenerService#onTokenRefresh get called in all cases where a gcm token may have changed, like when an app gets updated, or gets restored from an auto-backup, etc? Or do I still have to worry about catching those types of things like in older versions of GCM?</p>

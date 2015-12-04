@@ -1,0 +1,1 @@
+<p>I want to do something really basic, yet i didn't find how to do it. So i'm trying to create a custom field, and i want to render hard coded HTML (like below) when i call <code>{{ form.myfield }}</code> in my template.</p>  <pre><code>&lt;script ...&gt;&lt;/script&gt; &lt;div ...&gt;&lt;/div&gt; </code></pre>

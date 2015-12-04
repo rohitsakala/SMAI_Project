@@ -1,0 +1,1 @@
+<p>Is it a good practice in c#, to set all event handler to null in a class destrcutor to be sure, that no <em>memory leaks</em> can occure?</p>  <p>For example:</p>  <pre><code>~SomeClass() {     OnLoaded = null;     OnUnloaded = null; } </code></pre>  <p>Or is this really bad practice?</p>  <p>Thank you!</p>

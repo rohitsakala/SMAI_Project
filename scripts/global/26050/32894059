@@ -1,0 +1,1 @@
+<p>How can I hide separator between master and detail ViewController in Portrait mode?</p>  <p>I use this code to hide it in landscape mode, but it do not works then I rotate device to Portrait</p>  <pre><code>  self.splitViewController.view.backgroundColor = self.view.backgroundColor; </code></pre>

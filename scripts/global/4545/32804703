@@ -1,0 +1,1 @@
+<p>Is there a command to do this? For example, in C#, you can rename the .exe file after compiling by using the <code>/out: [name-of-file].exe</code>. </p>

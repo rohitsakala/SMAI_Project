@@ -1,0 +1,1 @@
+<p>I read many questions on how to print from android straight to printers. I guess since Android 4.4 everyone should just use androids print API.</p>  <p>Do print-calls to the API always involve or require user interaction (like printer dialogs)? </p>  <p>Is it possible to write code that prints via androids default printer without bothering the user with "print-dialogs"?</p>

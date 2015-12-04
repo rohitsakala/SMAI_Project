@@ -1,0 +1,1 @@
+<p>I have a <code>UITextField</code>. On first click I want to <code>select all</code> the text programatically. So I called <code>[textField selectAll:nil]</code> in <code>textFieldDidBeginEditing:</code> delegate method. When I make a next click I want it to become normal editing mode. How to implement this programatically?.</p>  <p>Thanks in advance.</p>

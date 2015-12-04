@@ -1,0 +1,1 @@
+<p>Is it possible to reuse Java's reserved name "Exception" to define your own class with the same name "Exception" but in the package?</p>  <p>Below obviously wouldn't compile:</p>  <pre><code>package mypackage; public class Exception extends Exception { ... </code></pre>

@@ -1,0 +1,1 @@
+<p>I had created a android app those data updates from MySQL server when connection is available, Now I need to store previously fetched data in app  and update them if new data is available. my data size is not more than 1 MB, which will the best solution  Sqlite or SharedPreferences? </p>

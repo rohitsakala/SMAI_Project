@@ -1,0 +1,1 @@
+<p>I have web-page with 2 buttons. And when clicking on them I want to call mouse wheel up/down events. Not scrollTo or scrollBy - I need mousewheel.<br> How can I do this? Is it possible with jquery.mousewheel plugin or with usual javascript?</p>

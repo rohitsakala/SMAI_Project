@@ -1,0 +1,1 @@
+<p>When I am working on a file in my application in emacs/elpy, I always have to jump back into my main file buffer and do <code>C-u C-c C-c</code> (i.e. ) in order to run and debug it in the python shell. This is rather time consuming, so I was wondering, how can I define a corresponding <code>C-u C-c C-c</code> binding but which always runs my defined main file?</p>

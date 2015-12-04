@@ -1,0 +1,1 @@
+<p>I am trying to access a key value into the another key in app.config but it does not work.</p>  <pre><code>&lt;appSettings&gt;  &lt;add key="KEY1" value="dev.cloud" /&gt;  &lt;add key="url" value="https://www.[KEY1].com"/&gt;  &lt;/appSettings&gt; </code></pre>  <p>I tried ${KEY1} like valumanifest.xml but this does not work in app.config. am I missing something here ?</p>

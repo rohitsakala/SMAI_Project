@@ -1,0 +1,1 @@
+<p>I am facing the following error while installing the gems on windows machine.</p>  <p>They were couple of similar questions on the stack overflow,but that didn't help.</p>  <p>My system Configurations</p>  <pre><code>Windows:7 Ruby:2.2  Error:ERROR:  Could not find a valid gem 'watir' (&gt;= 0) in any repository </code></pre>

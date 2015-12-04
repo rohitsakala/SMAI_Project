@@ -1,0 +1,1 @@
+<p>Both <kbd>o</kbd><kbd>Esc</kbd><kbd>p</kbd> and <code>:lineput</code> cause the text to be pasted at the beginning of the line. I want a way to paste text as if I hit <kbd>o</kbd> and just started typing.</p>

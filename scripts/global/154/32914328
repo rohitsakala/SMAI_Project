@@ -1,0 +1,1 @@
+<p>I am using SERevealViewController with swift , after I made a segue from a button on the sidebar menu to another <code>Viewcontroller</code> and set the Segue Class to the <code>SWRevealViewControllerSeguePushController</code> I got a warning that said</p>  <p>Only Custom segues support class name prior to iOS 9.0</p>  <p>any help to bypass this warning ?</p>

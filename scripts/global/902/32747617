@@ -1,0 +1,1 @@
+<p>How can I fill a serie on a chart in Dojo Toolkit in declarative way?? In a programmatic way is:</p>  <pre><code>chart.addSeries("Visits",[10,20,30,40,50],{ stroke: { color: "blue", width: 3 }, fill: "#123456" }); </code></pre>  <p>But in a declarative way I can't found It.</p>

@@ -1,0 +1,1 @@
+<p>I have the following integer:</p>  <pre><code>target = 0xd386d209 print hex(target) </code></pre>  <p>How can I print the nth byte of this integer? For example, expected output for the first byte would be:</p>  <pre><code>0x09 </code></pre>

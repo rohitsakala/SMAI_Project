@@ -1,0 +1,1 @@
+<p>I want to develop universal windows apps using C++/DirectX/XAML. But it seems like there's no way to escape Microsoft's C++/CLI language. I've already browsed through the code that isnthere by default when you make an pty project, and it is all C++/CLI.</p>

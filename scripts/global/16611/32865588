@@ -1,0 +1,1 @@
+<p>I am trying to extract images from a PDF using iTextsharp. The problem is when I extract images some masking is applied on top of it. But how can i get the same image as we can see it in the PDF file. Is there any solution in iTextsharp or any other solution for this.</p>  <p>Please help me..</p>

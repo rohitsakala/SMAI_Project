@@ -1,0 +1,1 @@
+<p>Before go to production, I have to test a windows application in several windows versions (from 7 to 10, 32 and 64 bits), what supposes download the ISOs (luckily we have licenses), create the virtual machines and install all the versions one by one. Is there any faster way to do it? Like a cloud solution as an example.</p>

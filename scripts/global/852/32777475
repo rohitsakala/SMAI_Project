@@ -1,0 +1,1 @@
+<p>Let -moi explain, I have a web service that can send me the translations I want to XML. I can create an .xml file exactly the same as the string.xml located in the resources of my project. My question is, is it possible to use my xml file instead of it while the program is running?</p>  <p>PS: I use Xamarin Studio.</p>

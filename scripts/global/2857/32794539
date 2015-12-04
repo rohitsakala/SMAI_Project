@@ -1,0 +1,1 @@
+<p>Everything was working fine but suddenly the fatal error appeared on the server:</p>  <blockquote>   <p>Fatal Error : Class 'Zend_Validate_Ip' not found in   magento/lib/Zend/Validate/Hostname.php on line 416.</p> </blockquote>  <p>Can anybody please help me to fix that?</p>

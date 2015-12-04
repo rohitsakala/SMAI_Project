@@ -1,0 +1,1 @@
+<p>it is possible to use C++ templates to controle code generation?</p>  <p>Something like (pseudocode...)</p>  <pre><code>template&lt;int i, int j&gt; void f() { #if i &gt; j #define   //code... #else   //code... #endif } </code></pre>  <p>(i'm starting to get used with the templates, but i would like to know how much powerful they are).</p>  <p>Thank you!</p>

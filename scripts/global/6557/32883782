@@ -1,0 +1,1 @@
+<p>I want to add some extra string information to my image file, so that I can extract it anytime I want again. I want to add location where this image was captured, so that I can extract later, where this was captured. If I store this info to DB, clearing the data will cause me to lose the information, so I want to know if there is a way to store the info with image only.</p>

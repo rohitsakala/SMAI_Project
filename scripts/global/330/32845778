@@ -1,0 +1,1 @@
+<p>I use Ionic framework and have $ionicPlatform.ready method. Which way I can use to debug this piece of code? Because when my app will foreground from background, method not called, but when I close app, Safari will be closed. So when I run my app, Safari don't connected to app.</p>

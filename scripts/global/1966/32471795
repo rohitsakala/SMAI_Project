@@ -1,0 +1,1 @@
+<p>I usually put comments in the YAML so that the reader could understand YAML parameters quickly.</p>  <pre><code>%CommentC: "~~~~~~~~~~~~~~~~~~~Filtering Setting~~~~~~~~~~~~~~~~~~~" WindowSize: 3 Sigma: 3 LowerThreshold: 25 HigherThreshold: 35  </code></pre>  <p>But how can I write the comment programmatically in OpenCV using <code>FileStorage</code>?</p>

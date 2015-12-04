@@ -1,0 +1,1 @@
+<p>how to custom an iterator can traverse list which element is also a list, for example {{1,2,3},{4,5,6}}, this custom iterator can output {1,2,3,4,5,6}</p>  <pre><code>class CustomIterator&lt;E&gt; implements Iterator&lt;E&gt;{  public CustomIterator(Iterator&lt;Iterator&lt;E&gt;&gt; root){     //add implement code... }  //add implement code...  } </code></pre>

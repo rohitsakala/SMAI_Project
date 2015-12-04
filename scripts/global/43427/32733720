@@ -1,0 +1,1 @@
+<p><code>price_single = hoteldata.xpath("//*[re:match(@id, 'js_item_[0-9]+')]/div[1]/div[2]/div[3]/strong[2]/text()").extract()</code></p>  <p>how to get html text without &amp;lrm because of &amp;lrm i m getting  u'\n        \u200eRs.9,068\n    ', this output is there any chance to remove that spaces and give Rs.9,068 output</p>  <p>thanks</p>

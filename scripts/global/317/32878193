@@ -1,0 +1,1 @@
+<p>Is there a way that I can list all the columns that have an index in MySQL based on the table</p>  <p>For e.g. something like</p>  <pre><code> select indexes where table_name='Person'; </code></pre>

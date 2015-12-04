@@ -1,0 +1,1 @@
+<p>My question is, does Webwork supports wild card in its configuration file xwork.xml?.</p>  <p>Example:</p>  <pre><code>------ Can we write :  &lt;action name="login_*" class="com.xyz.LoginAction" method="{1}"&gt;   ------------ &lt;/action&gt; </code></pre>  <p>I know struts2 supports it, but my question is related to webwork.</p>

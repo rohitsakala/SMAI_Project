@@ -1,0 +1,1 @@
+<p>When the user tape www.site.com/p=12 the user is redirected to www.site.com/post-permalink I want to disable redirection for 'p=' ! I want that the post be able just with the permalink. How can i disable this ?</p>

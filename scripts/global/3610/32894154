@@ -1,0 +1,1 @@
+<p>Using loops, how can I write a function in python, to sort the longest chain of proteins, regardless of order. The function returns a substring that consists only of the character 'A','C','G', and 'T' when ties are mixed up with other elements: Example, in the sequence: 'ACCGXXCXXGTTACTGGGCXTTGT', it returns 'GTTACTGGGC'</p>

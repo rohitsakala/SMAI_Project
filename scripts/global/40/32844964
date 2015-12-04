@@ -1,0 +1,1 @@
+<p>I cannot get this to work. </p>  <p>Parent:</p>  <pre><code>padding: 40px 0; margin: 0; display: table; height: 100%; float: left; </code></pre>  <p>Child</p>  <pre><code>display: table; height: 100%; background: #fff; </code></pre>  <p>It works perfectly in both Chrome and Firefox, yet Safari isn't showing the correct format. Does anybody know how to solve this?</p>

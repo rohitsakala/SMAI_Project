@@ -1,0 +1,1 @@
+<p>I was trying to use <code>FLAG_ACTIVITY_CLEAR_TOP</code> but I found out it's little different from my situation.</p>  <p>In my project, there is three activities, A, B, C.</p>  <p>It moves like A -> B -> C and when activity C is created, activity A and B is destroyed. Should I use <code>FLAG_ACTIVITY_CLEAR_TOP</code> or other apis?</p>  <p>Thanks.</p>

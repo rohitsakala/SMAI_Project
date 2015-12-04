@@ -1,0 +1,1 @@
+<p>i made mi own UITableView, this UITableView read and shows data from a NSArray, i just want to know How should I instantiate the class by sending this vector as a parameter?</p>

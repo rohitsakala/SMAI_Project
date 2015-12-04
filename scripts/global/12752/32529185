@@ -1,0 +1,1 @@
+<p>I have created an extension in Chrome. Now I need to transfer it into a Firefox extension. The extension makes cross origin requests. I am new to developing Firefox add-ons and I've heard about /request API, but it is only available in the main script of the application.</p>  <p>How do I make cross-origin requests from the panel opened with Firefox add-on?</p>

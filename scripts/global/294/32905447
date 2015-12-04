@@ -1,0 +1,1 @@
+<p>I write the following in CMD in Windows:</p>  <pre><code>ipconfig /release ipconfig /renew </code></pre>  <p>I looked at my IP address before and after the commands and it is the same. Why is it? And how can I change my IP address?</p>

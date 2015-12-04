@@ -1,0 +1,1 @@
+<p>I tried the below code in both java and c++ , but it throwed an error in java while it does not throw an error in c++. Why is it so ? </p>  <pre><code>while("abc"){ } </code></pre>  <p>I do know it purely depends on the property of languages. But I would like to know why java set a condition that only boolean values should be allowed in loops ?</p>

@@ -1,0 +1,1 @@
+<p>This code works fine in all browsers except IE8. Internet Explorer 8 gives exception saying not able to find object or object is null .The exception that pops up in IE8 console is </p>  <blockquote>   <p>'parent().next(...).0' is null or not an object"</p> </blockquote>

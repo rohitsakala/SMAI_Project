@@ -1,0 +1,1 @@
+<p>Can we drop and recreate a composite primary key in a SQL Server table in production environment? Do we have take down the server for it, or can we do it live?</p>  <p>Because we have to add more columns to the primary key. If we done it in live what are the problems we have to face?</p>

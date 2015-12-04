@@ -1,0 +1,1 @@
+<p>I want to implement a <code>MutableDataContainer</code> with thread safe. Of course, I can simply add lock for writing and reading operation. But in my project, I should read data frequently, so I don't want to do like this.</p>  <p>Does any one know how does <code>NSCache</code> implemented?</p>

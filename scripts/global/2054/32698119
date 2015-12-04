@@ -1,0 +1,1 @@
+<p>I want to use mathematical expression in my Android app, I am using int data types only. But sometimes the output of the expression gets too big to hold by a int. What kind of data type should I use to convert the large output into a number with "E" in it?</p>

@@ -1,0 +1,1 @@
+<p>I am making a simple table using kendo ui and am new to the Api.</p>  <p>I was wondering how I could make a global search that would search for numbers as well as strings. Right now, I can only get the search working for strings, but it always fails for numbers.</p>  <p>Any help would be appreciated! thanks</p>

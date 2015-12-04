@@ -1,0 +1,1 @@
+<p>When trying to execute shell commands on Lollipop I am getting permission denied error.</p>  <p>Runtime.getRuntime().exec("su")</p>  <p>I do have super user permission in the manifest</p>  <pre><code>&lt;uses-permission android:name="android.permission.ACCESS_SUPERUSER"/&gt; </code></pre>  <p>The device is rooted. </p>

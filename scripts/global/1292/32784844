@@ -1,0 +1,1 @@
+<p>Is the value of this field calculated every time I access it or is it replaced at start by 1.73... ?</p>  <pre><code>private static final double SQRT_3 = Math.sqrt(3); </code></pre>  <p>I think not but is there any advantage to put the value directly ? I saw that in someone code</p>

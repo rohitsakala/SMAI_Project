@@ -1,0 +1,1 @@
+<p>I was trying to write a Matlab wrapper for the SoundTouch DLL but Matlab does not support C++ syntax and classes, so I was not able to load the library.</p>  <p>Has someone already found a workaround for that?</p>

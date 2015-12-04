@@ -1,0 +1,1 @@
+<p>What I'm trying to do is display a dataset based on the users city. I'm aware that I can use the HTML5 Geolocation method. But is there a less intrusive way that doesn't involve "this webpage wants to know your location"?</p>  <p>Thanks!</p>

@@ -1,0 +1,1 @@
+<p>Check syntax is in cperl menu disabled. If I try <code>M-x cperl-check-syntax</code>, I got error message </p>  <blockquote>   <p>Cannot open load file: no such file or directory, mode-compile.  </p> </blockquote>  <p>I found no hint on <a href="http://www.emacswiki.org/emacs/CPerlMode" rel="nofollow">emacswiki</a>.</p>

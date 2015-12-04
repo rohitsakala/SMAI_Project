@@ -1,0 +1,1 @@
+<p>Does anyone know how to set custom fonts in ruby environment? Will be perfect - step by step instruction.</p>  <p>In my case It is Myriad Pro font, that was extract to app/assets/fonts. Additionally I use bootstrap. And work over scaffold.css, not application.css.sass. Thanks</p>

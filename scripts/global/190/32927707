@@ -1,0 +1,1 @@
+<p>I am not able to deploy 35MB Android wlapp on my IBM MobileFirst 7.1 server and got this message "The resource or service cannot be found. Try again later." but can deploy it if I have reduced its size. I am using Liberty profile.</p>

@@ -1,0 +1,1 @@
+<p>We are building an Android application with a server backend which is a simple Java project. These two projects should now share some classes.</p>  <p>We are developing the Android app with Android Studio and the server backend with Intellij IDEA.</p>  <p>We have been unable to properly import the backend project or use it as a dependency properly. How do you do this?</p>

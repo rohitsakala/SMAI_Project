@@ -1,0 +1,1 @@
+<p>So I'm doing this linear regression problem that asks me to find ε10 and σ^2. I'm not sure how to find error of a particular term using R. and for σ^2 do you just compute the summary of lm y~x then look at the residual error then square it?</p>

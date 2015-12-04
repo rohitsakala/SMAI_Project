@@ -1,0 +1,1 @@
+<p>Trying to calculate average number of books borrowed per member. <br> member(<strong>memb no</strong>, name, age)<br> book(<strong>isbn</strong>, title, authors, publisher)<br> borrowed(<em>memb no, isbn</em>, date)<br> Bold - Primary Key<br> Italic - Foreign Key<br> Can anyone here help me out? Thanks in Advance</p>

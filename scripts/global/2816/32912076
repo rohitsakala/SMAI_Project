@@ -1,0 +1,1 @@
+<p>I have the relatively standard configuration where I have a PouchDB instance in the client syncing against a CouchDB server. </p>  <p>What I'm wondering is if there is any way to test whether the two databases are in sync at any given moment in time.</p>

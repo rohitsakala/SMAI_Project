@@ -1,0 +1,1 @@
+<p>I'm running an asp.net web site (.Net 4.5 framework, hybrid web forms and mvc) on IIS 7.5. I'm interested in knowing how often the site exhausts the asp.net thread pool and begins queueing requests. Is there any way to monitor or log that?</p>

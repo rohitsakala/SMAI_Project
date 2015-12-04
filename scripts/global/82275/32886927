@@ -1,0 +1,1 @@
+<p>I have a page whose source code is not available, but there is a input box where cursor is blinking.    </p>  <p>Can i write something into the text box without finding the element. I mean, some way where send key can automatically look for focussed inputbox and type input to it.</p>  <p>My code does not work obviuosly</p>  <pre><code>driver.send_keys("testdata") </code></pre>

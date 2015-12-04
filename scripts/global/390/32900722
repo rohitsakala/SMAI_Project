@@ -1,0 +1,1 @@
+<p>I have a terminal , and i run some shell script there, the shell script is execute some text every 5 second to terminal, then, i want php get text from text that are executed by shell script to terminal,then execute it to website, how to doit?</p>

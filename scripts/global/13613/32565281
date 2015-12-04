@@ -1,0 +1,1 @@
+<p>I am working on Android Studio and I cannot see my package inside <strong>Android>Data</strong> folder of my device when I run <code>apk</code> on it. I am unable to run monkey without it. I have also mentioned <code>installLocation="auto"</code> in manifest and gave <code>WRITE_EXTERNAL_STORAGE</code> permission still cannot see my package name.</p>

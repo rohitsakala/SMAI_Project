@@ -1,0 +1,1 @@
+<p>I'am trying to confirm, that our server will be ready for the SSL Certificate Change.</p>  <p>According to Microsite migration on www.sandbox.paypal.com is complete.</p>  <p>Running: <code>openssl s_client -CApath /etc/ssl/certs/ -connect www.sandbox.paypal.com:443</code></p>  <p>returned 0 (ok)</p>  <p>Does this test definitively confirm that our server is ready?</p>

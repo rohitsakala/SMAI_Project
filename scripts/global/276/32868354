@@ -1,0 +1,1 @@
+<p>I am making a paint program in Processign and want to allow the user to type 3 numbers to change r, g, and b. I want to know if I could do something to take three typed numbers and assign them to a single variable like int r. </p>

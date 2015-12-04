@@ -1,0 +1,1 @@
+<p>I start learning ZF2 and create my first products catalog module using <a href="http://framework.zend.com/manual/current/en/user-guide/modules.html" rel="nofollow">oficial tutorial</a>. It works fine in "site.name/catalog" section. My question is how can I use my catalog module on site homepage to show products?</p>

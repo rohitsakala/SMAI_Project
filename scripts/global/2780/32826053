@@ -1,0 +1,1 @@
+<p>Because of the automated download of localization files in my app I was wondering if it was possible to localize <code>Root.plist</code> in Settings.bundle using <code>Localizable.strings</code> instead of <code>Root.strings</code></p>

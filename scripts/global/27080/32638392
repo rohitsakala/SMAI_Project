@@ -1,0 +1,1 @@
+<p>I am trying to do some server side validation in PHP. I tried hard but I found still no solution. I am trying to allow only Polish characters in the input.</p>  <p>For this I have used:</p>  <pre><code>preg_match('/^[\x{0104}-\x{017c}]*$/u',$titles) </code></pre>  <p>This doesn't work however.</p>  <p>Anyone has any idea how to write it properly?</p>

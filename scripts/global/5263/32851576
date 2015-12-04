@@ -1,0 +1,1 @@
+<p>I am trying to play a video with <code>AVPlayer</code> but I don't have the URL for it saved, I do have the NSData of the video saved in Core Data however. Is it possible to covert <code>NSData</code> into a <code>NSURL</code>? Or should I just save all the videos into say the documents folder and reference those. </p>

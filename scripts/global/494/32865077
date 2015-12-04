@@ -1,0 +1,1 @@
+<p>1) Can anyone please give a list of databases with which a connection can be established and data can be retrieved using UFT/VBscript.</p>  <p>I am aware of the following: MSaccess SQLserver MySQL Oracle Sybase Teradata</p>  <p>2) Will UFT/VBscript support all databases that have an ODBC driver?</p>

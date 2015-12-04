@@ -1,0 +1,1 @@
+<p>I want to know how to generate reports in WPF app. I found some tutorial in msdn. They say that i need to add new reference to: Microsoft.ReportViewer.WinForms  But I dont have such thing on list. I want to design report in Visual Studio and open it with code.</p>

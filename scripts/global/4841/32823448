@@ -1,0 +1,1 @@
+<p>I have an application <strong>(Say A)</strong> which included some external jars.</p>  <p>I want to create a new application <strong>(Say B)</strong>, In which I want to use same external jars(Included in A) without adding same again in project B.</p>  <p>Both Applications will always present in device  I am using Android Studio. </p>

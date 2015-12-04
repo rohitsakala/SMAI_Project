@@ -1,0 +1,1 @@
+<p>Is it possible to implement Tibco RV like multicasting in ActiveMQ? i.e. If Producer publish at X.Y.Z and there are subscriber registered with X.Y.> they will receive the message.</p>  <p>As per my knowledge ActiveMQ having no provision of X.Y.> like subscription, it is always point to point messaging using Topic / Queue.</p>

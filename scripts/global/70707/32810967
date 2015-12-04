@@ -1,0 +1,1 @@
+<p>Since there is a Login API from Google for Android, I would like to make it that when Google websites are accessed in my WebView, users are already logged in from their Google accounts saved on their phone. How would I go about this? Thank you!</p>

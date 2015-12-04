@@ -1,0 +1,1 @@
+<p>I am trying to write a function which will run on multiple sheets and over a range in each sheet. Is there any way to have each formula to know the sheet it's in and it's row and column?</p>  <p>I'm thinking similar to Excel's VBA's ThisWorksheet property. Reading through the reference pages I don't see anything but I hope I'm just missing something.</p>

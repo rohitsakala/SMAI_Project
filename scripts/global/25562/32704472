@@ -1,0 +1,1 @@
+<p>Is there any way to get Intellisense for classic ASP for Visual Studio 2015, and still have html and JavaScript formatting/Intellisense? I tried adding an extension and using html forms but it seems to not detect &lt;% and %> tags.</p>

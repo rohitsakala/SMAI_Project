@@ -1,0 +1,1 @@
+<p>I am trying to open the IIS manager by using Inetmgr command but getting the error </p>  <blockquote>   <p>"Activation context generation failed for   "C:\Windows\system32\inetsrv\InetMgr.exe".Error in manifest or policy   file "C:\Windows\system32\inetsrv\InetMgr.exe.Config" on line 0.   Invalid Xml syntax.".</p> </blockquote>

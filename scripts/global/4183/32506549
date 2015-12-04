@@ -1,0 +1,1 @@
+<p>Making form validation I want to focus on wrong filled input and show tooltip. But in ios Safari browser after focusing on field there is open keyboard, which is moving viewport, and input became out of screen. There is ugly solution - js scroll to input after f.e. 500ms from focus event, but is there is a good way to hold input in viewport?</p>

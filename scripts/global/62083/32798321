@@ -1,0 +1,1 @@
+<p>I'm using the code-first approach and because of that I do not have the <code>.edmx</code> file so I cannot change the <code>StoreGeneratedPattern</code> attribute. How do I then make EF auto-increment the IDs? (right now all IDs are zeros by default)</p>

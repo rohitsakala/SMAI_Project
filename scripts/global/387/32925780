@@ -1,0 +1,1 @@
+<p>I am writing a bash function.</p>  <p>How do I make the control exit the function as soon as any command in it error out?</p>  <p>I have tried this:</p>  <pre><code>function myFunc() {     set +e     cmd1     cmd2     set -e } </code></pre>  <p>It works but it closes my terminal as well.</p>  <p>Appreciate any ideas.</p>  <p>Thanks.</p>

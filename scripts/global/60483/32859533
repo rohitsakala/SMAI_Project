@@ -1,0 +1,1 @@
+<p>Hi I'm using <em>jQuery Mobile</em> to build a cross platform mobile app and I have the following issue:</p>  <p>Whenever there is a list with many items, the user scrolls down and when taps to stop the scrolling, the item gets clicked instead of stopping the scroll, what should I do?</p>

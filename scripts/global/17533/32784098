@@ -1,0 +1,1 @@
+<p>Who is the best optimized way?</p>  <p>Create objects in my UITableView using storyboard (Drag and drop in my cell), or create objects programmatically (cellForRowAtIndexPath)? </p>  <p>When the project compile and run in device which of the two options will run faster?</p>

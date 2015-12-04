@@ -1,0 +1,1 @@
+<p>I am writing a paper in latex in two coloumns. When i put * with these following labels \begin{algorithm2e*} or \begin{table*}, i can see the same figure or table in both columns as one in pdf but when i dont put * in label, table or figure do not appear in pdf. I want o put my algo and table in single column rather than two coloumns. Any suggetion for this problem.</p>

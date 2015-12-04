@@ -1,0 +1,1 @@
+<p>Using ORM Doctrine, I noticed that an array Doctrine generate a longtext field in database. Is there a way to generate text field ?</p>  <p>Thanks</p>  <pre><code>/**  * @var array  *  * @ORM\Column(name="my_field", type="array", nullable=true)  */ private $myField; </code></pre>

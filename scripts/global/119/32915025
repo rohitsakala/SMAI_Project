@@ -1,0 +1,1 @@
+<p>I have freshly, locally cloned git branch. When I start meld and choose "version control view" it unfortunately shows all my files, including ".git" with all its contents, as unversioned. Why does it happen? The OS is windows 7.</p>

@@ -1,0 +1,1 @@
+<p>I know I can use grep -v '^#' to remove lines starting with #</p>  <p>now I run into issues when I try to do this to remove the [  ie. grep -v '^[' or even sed '/^[/ d'</p>  <p>Why is this happening and how can accomplish this?</p>

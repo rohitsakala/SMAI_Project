@@ -1,0 +1,1 @@
+<p>I am confused about the <code>EJb-jar.xml</code>.</p>  <p>Can anyone help me to understand if I can have multiple <code>EJBs</code> defined in single <code>EJB-jar.xml</code>. If it is possible, then how?</p>  <p>Am I correct if I say in <code>EJB 2.0</code> appilcation number of <code>ejb-jar.xml</code> would define number of <code>EJBs</code> in the application?</p>

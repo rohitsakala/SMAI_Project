@@ -1,0 +1,1 @@
+<p>I am trying to post a tweet with emoji characters but when I try to escape them I get a 401 error. I tried using <code>Uri.EscapeDataString</code> and then <code>HttpUtility.UrlEncode</code>. I even tried this:</p>  <pre><code>string escapedStr = ""; foreach (char ch in emoji)     escapedStr += Uri.HexEscape(ch); </code></pre>  <p>Is there a special way of escaping them?</p>

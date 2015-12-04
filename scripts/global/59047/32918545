@@ -1,0 +1,1 @@
+<p>I am creating a game and i need to rotate the ship, how can i rotate the ship from the center rather than the top left corner? I am using python 2.7 and Pygame 1.9.</p>  <p>Here is the code that i already have to rotate the image.</p>  <pre><code>shipImg = pygame.transform.rotate(shipImg,-90) </code></pre>  <p>However this rotates the image from the corner.</p>

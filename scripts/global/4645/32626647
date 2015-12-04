@@ -1,0 +1,1 @@
+<p>I inputed this cli :/usr/local/openldap/sbin/slappasswd on the terminal.And it created a cryptographic number. But the rootpw in the slapd.conf didn't change. why?..</p>

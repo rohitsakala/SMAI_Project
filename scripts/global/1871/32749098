@@ -1,0 +1,1 @@
+<p>I am using g77 (gcc 3.4.6) in my fedora 20. I got compiler errors:</p>  <blockquote>   <p>g77: unrecognized option `-trapuv'</p>      <p>f771: error: invalid option `ips2'</p> </blockquote>  <p>How can I solve this problem?</p>  <p>Also, if I want to use gfortran instead, what are the equivalent options?</p>  <p>Thanks.</p>

@@ -1,0 +1,1 @@
+<p>I have added an android aar to my Cordova project. When I build my cordova project in command line with the command "cordova build android" cordova is removing the include in the settings.gradle file of my android studio project. How can I solve this problem?</p>

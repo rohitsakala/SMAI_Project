@@ -1,0 +1,1 @@
+<p>How can i capture anything after the <code>Total Payout: -&gt;Capture&lt;-</code> Ignore all numbers</p>  <pre><code>Confirmation code:   Payout:  €66 x 7 Nights: €461 Airbnb Service Fee: -€17 Total Payout: €444 </code></pre>  <p><a href="https://regex101.com/r/gM6pO2/1" rel="nofollow">Live Example:</a></p>

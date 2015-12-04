@@ -1,0 +1,1 @@
+<p>I am new in Android. My question is logical. Is there any side effect in using dependencies. For instance , i use </p>  <pre><code>compile 'com.astuetz:pagerslidingtabstrip:1.0.1' </code></pre>  <p>for viewpager.</p>  <p>Is this can be a problem in any way for me ? </p>

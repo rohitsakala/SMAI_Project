@@ -1,0 +1,1 @@
+<p>I am having one accordion with four TitledPane. If you count entire window as 100% and divide those TitledPane into 25% each. Then if I close one Pane then window should contain the height only 75%. It will auto resize with respect to opening and closing the titledPane.</p>

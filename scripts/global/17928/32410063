@@ -1,0 +1,1 @@
+<p>I basically have a contents div which is set to a width of 1000. In my contents div, I also have a footer div. WHen i set the footer div to width:100%, then the footer width will be as large as the contents div. How do I make my footer scale to 100% of my browser window if it is already in a div?</p>

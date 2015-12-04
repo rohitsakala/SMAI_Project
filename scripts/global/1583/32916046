@@ -1,0 +1,1 @@
+<p>I am using Silica components because I am making application for Sailfish OS, but those components are just extended QML components, so it shouldn't matter.</p>  <p>You can see the code <a href="https://gist.github.com/Huholoman/a014fed9c0dcb7f2e6f9" rel="nofollow">here</a>.</p>  <p>Can anyone tell me, why my application stops responding?</p>  <p>Thanks!</p>

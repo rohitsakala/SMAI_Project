@@ -1,0 +1,1 @@
+<p>This is my <strong>apache2.conf</strong> file. I have restarted the apache2 service after making the changes in the <strong>apache2.conf</strong> file</p>  <p>CustomLog "|/usr/bin/cronolog /home/log/apache2/%H_domain.com_access.log" combined</p>  <p>But I don't see the logs in <code>/home/logs/apache2</code>, </p>  <p>Can someone point me in right direction?</p>

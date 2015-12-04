@@ -1,0 +1,1 @@
+<p>In a file I can do this:</p>  <pre><code>(:require [clojurewerkz.neocons.rest :as nr]) </code></pre>  <p>how can I import this into the repl and still be able to refer to it by 'nr'?</p>  <p>thanks</p>

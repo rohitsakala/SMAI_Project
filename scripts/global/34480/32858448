@@ -1,0 +1,1 @@
+<p>I want to create a relationship in neo4j having properties as day, time, year of the current date.</p>  <p>how can I get the current day,month, year using cypher neo4j?? </p>

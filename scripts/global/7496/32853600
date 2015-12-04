@@ -1,0 +1,1 @@
+<p>Just wondering if there's any means to allow for the PHP Client Library's services to access their API's sandbox environment, instead of just their real ones. (I'm doing this for dfareporting, myself)</p>

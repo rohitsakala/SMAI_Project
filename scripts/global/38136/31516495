@@ -1,0 +1,1 @@
+<p>How do I output the text in the line below in drupal 6?</p>  <pre><code>a:2:{s:5:"title";s:75:"Open Weekend Summer 2015 - A willow coffin on The Willows NBG funeral bier ";s:3:"alt";s:0:"";} </code></pre>  <p>How can I output the text after <code>s:75</code>?  </p>

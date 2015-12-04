@@ -1,0 +1,1 @@
+<p>What is the meaning of <code>'*'</code> ... in this example line?</p>  <pre><code>javac -classpath .:classes:/opt/pi4j/lib/'*' ...   </code></pre>

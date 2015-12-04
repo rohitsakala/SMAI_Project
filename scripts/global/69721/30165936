@@ -1,0 +1,1 @@
+<p>I am working on application where you are able to save the text from TextView to "Notes" and then use the "Notes" to email that text to your ID, send message etc. First, Can we access apples default "Notes" SDK. If not, Is there any similar API exists that I can use for my app. Thanks for your suggestions.</p>

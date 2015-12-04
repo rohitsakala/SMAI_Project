@@ -1,0 +1,1 @@
+<p>Hi I want to change the text opacity when hovering a image. I tried to use this but it doesn't work:</p>  <p>HTML:</p>  <pre><code>&lt;div class="text"&gt;         SOME TEXT     &lt;/div&gt;  &lt;img src="image1.jpg" class="first-image"&gt; </code></pre>  <p>CSS:</p>  <pre><code>.text { opacity: 0; }  .first-image:hover { text.opacity: 1; } </code></pre>

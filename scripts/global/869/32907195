@@ -1,0 +1,1 @@
+<p>I am using d3.js to draw a bar chart similar to mbostock's at <a href="http://bl.ocks.org/mbostock/3885304" rel="nofollow">http://bl.ocks.org/mbostock/3885304</a>. I want to add a heading at the top of the canvas. How do I move the whole chart down? Everything I try seems to stretch the chart rather than translate it. </p>

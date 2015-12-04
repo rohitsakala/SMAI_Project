@@ -1,0 +1,1 @@
+<p>I am not able to create multiples tables in the hive database. Every time I create a new table, my previous table data is changed. It's not deleted but not showing the correct data.</p>

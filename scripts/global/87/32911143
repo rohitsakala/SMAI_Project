@@ -1,0 +1,1 @@
+<p>my current time is 4:50 PM my timezone is UTC + 1</p>  <p>why it gives me date in UTC when I print it. and in Debug Area it's UTC</p>  <p>I can't understand this 1 hour difference between the same NSDate()</p>  <p>NSDate()          // prints: "Oct 2, 2015, 4:50 PM" print(NSDate())   // prints: "2015-10-02 15:50:52 +0000\n"</p>

@@ -1,0 +1,1 @@
+<p>I am using phone-gap and currently creating an app that needs to work offline, but needs a log in for protection. I need to be able to log-in WITHOUT using the internet/php. So if there is a way using JS that can verify log-in information from a file and then proceed to the homepage.</p>  <p>Thank You :) </p>

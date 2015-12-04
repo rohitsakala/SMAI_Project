@@ -1,0 +1,1 @@
+<p>I am trying to get tab-i18n running local with my android-device.</p>  <p>I start meteor with  <code> meteor run android-device --mobile-server="http://local_network_server_ip_address:3000/" </code></p>  <p>On my pc, in the browser the tab-i18n functions are running but not on the android device.</p>  <p>Any hint or advice?</p>

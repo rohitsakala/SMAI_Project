@@ -1,0 +1,1 @@
+<p>Following is the structure of my document:</p>  <pre><code>{ 'id':1 'urls':[           {'index':0, 'text':'http://ex1.com'},            {'index':1, 'text':'http://ex2.com'}        ] } </code></pre>  <p>My question is, what is the type to be specified for the field 'urls' in the XML schema for it to be indexed?</p>

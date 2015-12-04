@@ -1,0 +1,1 @@
+<p>rangeOfComposedCharacterSequenceAtIndex works differently in playground and in App, in playground mentioned below code returns as expected (location: 0, length: 4)</p>  <pre><code>let flagRange = "🇳🇴".rangeOfComposedCharacterSequenceAtIndex(0) </code></pre>  <p>But in application it returns (location: 0, length: 2)</p>

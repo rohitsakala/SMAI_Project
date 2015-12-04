@@ -1,0 +1,1 @@
+<p>I want to write script for measure latency of application real-time by measure time since application call library to request read or write file until application receive data. </p>  <p>But I don't know library that most application use for call systemcall?</p>

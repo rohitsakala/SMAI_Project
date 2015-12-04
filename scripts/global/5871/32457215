@@ -1,0 +1,1 @@
+<p>I know the basics of operator overloading and how function</p>  <pre><code>int operator+(int a, int b) </code></pre>  <p>works, as it overloads '+' operator as per my understanding. Which operator is overloaded in function:</p>  <pre><code>bool operator()(int a, int b) { return a&lt;b; } </code></pre>

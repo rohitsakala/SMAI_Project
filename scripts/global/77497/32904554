@@ -1,0 +1,1 @@
+<p>I want to get an ASP.Net web api v2 to work with NHibernate. I have been searching how to do the security but all I can find is how to do it with Entity Framework.</p>  <p>We already have an existing database with a project with business classes and the doa classes. </p>  <p>Can someone send me in the right direction</p>

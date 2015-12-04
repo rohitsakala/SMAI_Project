@@ -1,0 +1,1 @@
+<p>I took IP addresses from Hyper-V 2008 R2 Stand alone using PowerShell with this library: <a href="https://pshyperv.codeplex.com/" rel="nofollow">https://pshyperv.codeplex.com/</a></p>  <p>It is possible to get IP Addresses from SCVMM 2008 R2 using Windows PowerShell-Virtual Machine Manager? There exist a library similary with pshyperv.codeplex.com from SCVMM 2008 R2?</p>

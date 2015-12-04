@@ -1,0 +1,1 @@
+<p>I have a CF and set TTL as 10 days. I also have a cron job which runs every 2 days. I can see merged sstable after compaction. however,sometime, I can still see some sstables which were created/updated by full compaction more 10 days ago in disk. Even restarting could not force Cassandra to delete those old files. Anyway to get rid of them.   </p>

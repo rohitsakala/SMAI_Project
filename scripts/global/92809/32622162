@@ -1,0 +1,1 @@
+<p>i'm trying to make an transition like the one on Apple news, where as you select an item on the list of news, the image used on the tablecell expands and go to the top of the article. </p>  <p>I'm trying to do the same usina a custom uiviewcontroller transition, but can't figure how to configure the animation to make it happens. </p>  <p>Thanks a lot. </p>  <p>Georges</p>

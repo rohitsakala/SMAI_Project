@@ -1,0 +1,1 @@
+<p>I am developing one chat application in windows phone. I am using "Deployment.Current.Dispatcher.BeginInvoke" method to update the UI ,but at the time of using "Dispatcher.BeginInvoke" the screen will struck .how to solve this or any way to update the UI without stuck.</p>

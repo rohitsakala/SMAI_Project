@@ -1,0 +1,1 @@
+<p>Are Swift binary literals interpreted as big endian or little endian? If Apple devices are little endian platforms, shouldn't binary literals be interpreted as little endian? </p>

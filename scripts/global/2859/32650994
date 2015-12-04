@@ -1,0 +1,1 @@
+<p>I want to create coustom logs, which I want to write to a database. The problem is that I need to have additional, custom rows. I'm wondering if it's a good idea to write my own appender and use extended LoggingEvent class, or is there another way.</p>

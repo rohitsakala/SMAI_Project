@@ -1,0 +1,1 @@
+<p>I am looking for a parser that can analyse transcripts of spoken data. GATE is a good tool but the grammar of transcripts is not the same as written text and is unstructured. Stanford parser for tweets is another good example but it still is mostly focused on links, user mentions and etc. Could anyone please suggest a tool or a plug-in for that?</p>

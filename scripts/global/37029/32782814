@@ -1,0 +1,1 @@
+<p>If the device is offline for some period, APNS will only keep the last notification and re-send it when the device is back-online. My question is, if Parse or any other Push serivces provider has a feature to re-send the notifications that I missed during the offline period. If not, is there any way I can achieve this with current Parse features?</p>

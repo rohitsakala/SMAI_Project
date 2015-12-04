@@ -1,0 +1,1 @@
+<p>When setting up NetBeans on Mac OS X 10.10.5, I cannot use the C debugger. I need to use the C debugger to step through my C code. It is asking me to specify the debugger command. What is the debugger command and what should I choose for it?</p>  <p>Side note: I also have the command line tool installed into terminal if that is any help.</p>

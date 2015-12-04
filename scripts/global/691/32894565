@@ -1,0 +1,1 @@
+<p>I am using Jupyter in Firefox on OSX. Is there a way I can ensure the notebook opens in a window without any of the toolbars etc of firefox? I currently use it for julia by running</p>  <pre><code>using IJulia notebook() </code></pre>  <p>but I guess the kernel should not matter. Thanks.</p>

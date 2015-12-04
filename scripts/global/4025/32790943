@@ -1,0 +1,1 @@
+<p>In earlier version of extjs we have the initEditor to override the config of row editor plugin. </p>  <p>In 4.2.2 we do not have initEditor , could some one please tell me how we can override configuration in 4.2.2 to update the button text.</p>  <p>Thanks in Advance.</p>

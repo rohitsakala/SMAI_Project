@@ -1,0 +1,1 @@
+<p>Ok so I want to conserve space,and not write out all my variables,and a command.  I want to do something like this</p>  <pre><code>a = 1 b = 1 def add(var):    var += 1 both = a and b  </code></pre>  <p>Can I do something like this or is it impossible. Thanks in advance</p>

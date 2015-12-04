@@ -1,0 +1,1 @@
+<p>I've stumbled upon a <code>List&lt;T&gt;</code> behaviour that I'm not quite sure I can understand. I have the following example code </p>  <pre><code>List&lt;int&gt; myInts = new List&lt;int&gt;() {1, 2, 3, 4, 5}; myInts.ForEach( x =&gt; x += 1); </code></pre>  <p>The list however, remains unchanged after the ForEach statement. Can someone explain to me why?</p>

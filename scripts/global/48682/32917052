@@ -1,0 +1,1 @@
+<p>I want to:</p>  <pre><code>var foo, bar; getFoo().then(function(f){ foo = f; });  getBar().then(function(b){ bar = b; });   if(foo &amp;&amp; bar){  //keep coding } </code></pre>  <p>this obviously doesn't work, but what is the best proven way to do it? </p>

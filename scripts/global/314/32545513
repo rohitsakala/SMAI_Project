@@ -1,0 +1,1 @@
+<p>What is the size of <code>MediaStore.Images.Thumbnails.MINI_KIND</code> in megabytes in android? The dimension of the bitmap is said to be <code>MINI_KIND: 512 x 384</code>. </p>  <p>In case you need to know: My use case is the thumbnail of a video using ThumbnailUtils.</p>

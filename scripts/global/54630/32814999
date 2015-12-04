@@ -1,0 +1,1 @@
+<p>Have a small web-app that submits a web form to the same URL. Works fine in Chrome. </p>  <p>In IE11, after form submission, nothing returns. Is there headers or some other thing to set ? Where should I poke around?</p>

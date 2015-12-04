@@ -1,0 +1,1 @@
+<p>Hi When i execute the elastic search java API using jest client i face the following error</p>  <blockquote>   <p>org.apache.http.client.ClientProtocolException: URI does not specify a valid host name:localhost:9200/index/type/_search</p> </blockquote>  <p>i try various possibilities to fix this error,but it wont works is any one guide me to fix this?.Thanks in advance.</p>

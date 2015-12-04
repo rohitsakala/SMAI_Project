@@ -1,0 +1,1 @@
+<p>I am using <code>QFileDialog</code> to ask user to choose a file to be opened. But it works for single files only. How can I use it to open multiple and add them one by one to <code>QListWidget</code> component?</p>

@@ -1,0 +1,1 @@
+<p>When I run something like <code>python file.py</code>, the system is (I think) executing some file with <code>file.py</code> as an argument. How do I find out exactly which file it is executing or at least the directory?</p>  <p>Is there a Linux command that let's you find the targets of other commands?</p>

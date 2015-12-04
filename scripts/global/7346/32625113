@@ -1,0 +1,1 @@
+<p>I have to open a popup when I click on the points of the map built with Leaflet library. In this popup i need to draw a chart, generated with the C3.js libray. How can I put the code of the chart into the Javascript poput to generate it?</p>

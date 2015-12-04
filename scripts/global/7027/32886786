@@ -1,0 +1,1 @@
+<p>He there,</p>  <p>I am using hibernate 4.2.7.SP1 and do see that it loads persistence context with org.hibernate.ejb.Ejb3Configuration class.</p>  <p>I don't have any EJB and my application uses plain spring + jpa. Is it ok? How to specify something like JpaConfiguration?</p>  <p>Thanks</p>

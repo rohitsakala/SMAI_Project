@@ -1,0 +1,1 @@
+<p>In the book Implementing domain driven design by Vaughn Vernon, he has employed a super type called ConcurrencySafeEntity, but couldn't find a specific explanation as to what is the exact purpose of this class, would appreciate any explanation in this regard</p>

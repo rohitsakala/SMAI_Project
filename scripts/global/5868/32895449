@@ -1,0 +1,1 @@
+<p>The solution(s) to the SO question <a href="http://stackoverflow.com/questions/2834016/how-to-get-a-list-of-mysql-views">How to get a list of MySQL views?</a> give a query that can list all the views in a mysql database.</p>  <p>Is there a way to find out what tables were used in constructing those views ?</p>

@@ -1,0 +1,1 @@
+<p>I'm not well familiar with Java and try to build a grid in a window but I'm not sure which Class I should extend (like JFrame) and which method is the best way to get that grid.</p>  <p>My goal is to create a grid and let the squares blink randomly.</p>  <p>I tried it JPanel but not sure if it is the right way</p>  <p>JPanel content = new JPanel(new GridLayout(4,4));</p>

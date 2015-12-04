@@ -1,0 +1,1 @@
+<p>This is a bit of a broad question. </p>  <p>I am tasked with setting up HAProxy to use as a load balancer for our API servers for our mobile application. How do I verify that it is set up correctly? What are the common pitfalls with switching to a load balancer?</p>

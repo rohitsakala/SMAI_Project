@@ -1,0 +1,1 @@
+<p>Would it be considered worsening the future readability of the code if I used them throughout the code? For example using:</p>  <pre><code>import static java.lang.Integer.*; </code></pre>  <p>so I can use this code</p>  <pre><code>int a = parseInt(scanner.nextLine()); </code></pre>

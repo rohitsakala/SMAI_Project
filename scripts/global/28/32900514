@@ -1,0 +1,1 @@
+<p>I'm new to Linq-to-SQL and ASP.NET MVC.</p>  <p>Is there any way to use stored procedures in Linq-to-SQL using ASP.NET MVC?</p>  <p>OR is it feasible to use stored procedures with LINQ in ASP.NET MVC?</p>  <p>I want to use CTE inside my stored procedures.</p>  <p>Please give your suggestions to achieve this.</p>

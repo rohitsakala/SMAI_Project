@@ -1,0 +1,1 @@
+<p>If I have a mysql table with auto_inc PK lets say, </p>  <p>and I have many threads writing data to it, how much locking occurs in mysql ? </p>  <p>Does every thread take a lock, insert and so on making the whole thing sequential? or are there other optimizations that mysql does </p>  <p>Comparing innodb, tokudb and myISAM ? </p>

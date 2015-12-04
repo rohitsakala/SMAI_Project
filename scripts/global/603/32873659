@@ -1,0 +1,1 @@
+<p>The thing is, I have to somehow get current time of day in milliseconds in convenient format.</p>  <p>Example of desired output:</p>  <blockquote>   <p>21 h 04 min 12 s 512 ms</p> </blockquote>  <p>I know how to get this format in seconds, but I have no idea how to get my hands on milliseconds?</p>

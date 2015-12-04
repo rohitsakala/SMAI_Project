@@ -1,0 +1,1 @@
+<p>Is there an expression that I can use in MS Access ,to highlight Duplicate entries in Reports? I tried something like Expression is : <code>Count(*)&gt;1</code> but it doesn't work.</p>  <p>Br,</p>

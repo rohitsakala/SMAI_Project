@@ -1,0 +1,1 @@
+<p>I need add some json in comment to let the comment clearly. But I found IntelliJ will remove all indentation, so is there plugins or methods let IntelliJ format the json in comment correctly? I have tried to find such plugins but they do not take effect at comment.</p>

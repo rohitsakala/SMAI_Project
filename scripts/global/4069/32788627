@@ -1,0 +1,1 @@
+<p>I have to create a JMS client application with multiple <code>MessageListeners</code>, and I want to allocate specific memory to each <code>MessageListener</code> (I would create a separate process for each one). Is there a way to do this programmatically in Java?</p>

@@ -1,0 +1,1 @@
+<p>I wrote in Swift 1.2 the next:</p>  <pre><code>self.pageViewController.setViewControllers(viewControllers as [AnyObject], direction: .Forward, animated: true, completion: nil) </code></pre>  <p>but now, in Swift 2 it prints me the next error:</p>  <pre><code>Could not find member 'Forward' </code></pre>  <p>How can I fix it?</p>

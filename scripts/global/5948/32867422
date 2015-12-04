@@ -1,0 +1,1 @@
+<p>I am using the following code to compare packetbuffer to a string, </p>  <pre><code>char packetBuffer[UDP_TX_PACKET_MAX_SIZE]; !strcmp(packetBuffer, "turn on light") </code></pre>  <p>however how could I use to compare it to a string should packetbuffer = testing1234 and the string to be compared to equal "testing", with out the last 4 digits?</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to find a function in scipy or numpy that calculates the exact first order derivative not the finite difference (which seems to be the method that both numpy.gradient and scipy.misc.derivative use. Does that exist?</p>  <p>I am trying to find the numeric derivative for several functions.  I would rather not use sympy! </p>

@@ -1,0 +1,1 @@
+<p>How do we use one hot encoding if the number of values which a categorical variable can take is large ?</p>  <p>In my case it is 56 values. So as per usual method I would have to add 56 columns (56 binary features) in the training dataset which will immensely increase the complexity and hence the training time.</p>  <p>So how do we deal with such cases ?</p>

@@ -1,0 +1,1 @@
+<p>Is there any compiler capable of compiling an ember-cli application as a native Windows application? If so, is there any plugin to get access to the windows API, filesystem, DLL, etc in this case?</p>

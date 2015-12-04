@@ -1,0 +1,1 @@
+<p>I have simple *.lib project that I would like convert to console executable one. </p>  <p>After setting property in <code>General-&gt;Configuration</code> Type to <code>Application(.exe)</code> and compile I got error:</p>  <pre><code>error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup </code></pre>  <p>How to fix this problem?</p>

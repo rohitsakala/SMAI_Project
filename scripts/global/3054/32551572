@@ -1,0 +1,1 @@
+<pre><code>final String outputDir = ctxt.getOptions().getScratchDir().getAbsolutePath(); </code></pre>  <p>where Law of Demeter says that a method f of a class C should only call the methods of these:</p>  <ul> <li>C</li> <li>An object created by f</li> <li>An object passed as an argument to f</li> <li>An object held in an instance variable of C</li> </ul>

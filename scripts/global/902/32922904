@@ -1,0 +1,1 @@
+<p>I'm using dijit/Editor in my application.The issue is that when user types something and presses Enter, the text is automatically duplicated in second line.</p>  <p>But if the user tries to select/highlight text in second line, the first line text automatically disappears. This issue is available only in ie 10 browser.</p>

@@ -1,0 +1,1 @@
+<p>We have a WinService installed under Administrator account. </p>  <p>From the WinService, we launch a silent InstallShield installer. </p>  <p>Under what privileges does the installer run? Will it be executed with Administrator privileges (inherited from the WinService) or will it run under the Logged User Account privileges?</p>

@@ -1,0 +1,1 @@
+<p>I am developing an Android project with Apache Avro, but it depends on two Jackson libs(core-asl.jar and mapper-asl.jar). Unfortunately, these two libs are too large for an Android application. I wonder if there is any way to simplify the Avro source code, or can I replace Jackson with org.json directly?</p>

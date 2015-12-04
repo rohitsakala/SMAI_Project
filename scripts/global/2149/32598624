@@ -1,0 +1,1 @@
+<p>I'm doing 100's of logarithmic and power calculations inside a Java program. The second time onwards the time it takes (Using System.nanotime()) is way faster than the first instance. Why? Does Java (I use JDK8) use any in-memory caching for Math calculations?</p>

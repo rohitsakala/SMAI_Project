@@ -1,0 +1,1 @@
+<p>Slide 33 of <a href="http://www.bracha.org/pluggable-types.pdf" rel="nofollow">that</a> presentation of optional typing (by Bracha) presents common constructs that should be precluded by optional typing, like public fields or class-based encapsulation. However, doesn't Dart have those constructs although it is is said to support optional typing? </p>

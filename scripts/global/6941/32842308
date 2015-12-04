@@ -1,0 +1,1 @@
+<p>In a lot of research papers I read about Convolutional Neural Networks (CNN), I see that people randomly crop a square region (e.g. 224x224) from the images and then randomly flip it horizontally. Why is this random cropping and flipping done? Also, why do people always crop a square region. Can CNNs not work on rectangular regions?</p>

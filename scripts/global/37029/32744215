@@ -1,0 +1,1 @@
+<p>I have a problem: I didn't receive push notification in AD_HOC app version.(through crashlitycs) But I tested and I know that the device tokens in both environments are equal (development and AD HOC).How can it be?What can I do? I have checked everything, but didn't understand how device tokens can be equal. Thanks</p>

@@ -1,0 +1,1 @@
+<p>I need to prevent a double click event on a highchart series (point). I checked the Highchart documentation and it doesn't seem to support doubleclick event. Does anyone know how to go about it?</p>

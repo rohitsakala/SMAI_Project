@@ -1,0 +1,1 @@
+<p>Recently I added interstitial ads in my iOS App. Although during development phase we are supposed to use testDevice id for test ads. The google admob faq says that you can submit the app with the testDevice id code still in it. I did submit it with this. Will my app serve real ads when its on the store??</p>

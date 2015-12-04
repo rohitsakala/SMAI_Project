@@ -1,0 +1,1 @@
+<p>We use apache poi API to export a report to xls in our web application it loads slow and some time because of it heap space is exhausted and server crashes eventually after garbage collector process hungs up.</p>  <p>Any expert please suggest me efficient way to implement this.</p>

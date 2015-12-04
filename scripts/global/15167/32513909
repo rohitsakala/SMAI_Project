@@ -1,0 +1,1 @@
+<p>I need to map one entity to two tables (table x and table y). It's not up to me to merge the two database tables in one and add a discriminating column to differentiate them.</p>  <p>The two tables have the exact same structure, but, names of these two tables in database are different.</p>  <p>What should be done ?</p>

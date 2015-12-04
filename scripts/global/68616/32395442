@@ -1,0 +1,1 @@
+<p>I am using devise as authentication in my application.</p>  <p>I need to  implement feature in devise. After first login user should ask to change password.</p>  <p>I tried through model</p>  <pre><code> after_create :update_pass_change      def update_pass_change      self.pass_change = true      self.save     end  </code></pre>

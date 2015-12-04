@@ -1,0 +1,1 @@
+<p>Is it possible to get the placeholder value of UITextField, which is designed in storyboard? </p>  <p>I need to validate the form which is having more textfields, so instead of giving static value, I want to give placeholder string of particular textfield as alert message.</p>

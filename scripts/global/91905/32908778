@@ -1,0 +1,1 @@
+<p>I have created two modules(libraries). Libraries have jar files. I have an project. Every thing is good But When I add the module(Image Slider) to project, gives 'Package R does not exist' error in the mentioned module.</p>  <p>Whats problem ? and How to solve it?</p>  <p>Thanks in advance</p>

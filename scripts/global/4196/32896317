@@ -1,0 +1,1 @@
+<p>I'm currently using Bootstrap 2.0.0, jQuery 1.7.1 and jQueryui-1.8.16. Trying to figure out if I can upgrade jQuery first without anything in Bootstrap breaking. Or do they have to be upgraded in tandem? Where can I find out what's the highest version of jQuery that is supported by Bootstrap 2.0.0.</p>  <p>Thank you!</p>

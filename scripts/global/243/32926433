@@ -1,0 +1,1 @@
+<p>I have a django(1.7) project on aws with apache2 server. All the other static files are loading except the admin site files. </p>  <p>I have given the path of static url and also run the command <code>manage.py collectstatic</code>. </p>  <p><code>collectedstatic</code> folder has also been created but admin files are still not being served.</p>

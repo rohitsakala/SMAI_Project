@@ -1,0 +1,1 @@
+<p>I'm Using this Code For Programmatically enable the focus of EDITTEXT,But KeyPad is Not Visible.How to resolve this?                       </p>  <pre><code>edittextmanagedby.requestFocus(); edittextmanagedby.performClick(); edittextmanagedby.setFocusableInTouchMode(true); </code></pre>

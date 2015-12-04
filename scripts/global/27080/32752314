@@ -1,0 +1,1 @@
+<p>How to use php to preg_match the string in the following case?</p>  <p>the string will be like 20150923_1111. The date format if this case would be Ymd_Hi.</p>  <p>Just wondering whether it would be achievable to validate the date format.</p>  <p>I just need to make sure the string is in digit and with the same length and does not have to validate the actual time.</p>

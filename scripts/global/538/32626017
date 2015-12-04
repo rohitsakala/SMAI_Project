@@ -1,0 +1,1 @@
+<p>The normal way to do a list appending is via:</p>  <pre><code>10&gt; [1,2,3] ++ [4]. [1,2,3,4] </code></pre>  <p>But after I convert it to the following way, I actually don't get the point what does the result means here:</p>  <pre><code>11&gt; [1,2, 3] ++ 4.   [1,2,3|4] </code></pre>  <p>Could anyone give me a explanation? Many thanks.</p>

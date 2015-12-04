@@ -1,0 +1,1 @@
+<p>I have tried connecting with</p>  <p><code>redis-cli -h $OPENSHIFT_REDIS_HOST -p $OPENSHIFT_REDIS_PORT</code></p>  <p>Response is</p>  <p><code>Could not connect to Redis at 127.5.216.130:16379: Operation timed out</code></p>  <p>Is is necessary to make OpenShift ports open for incoming connections somehow ?</p>  <p>Thanks</p>

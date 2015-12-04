@@ -1,0 +1,1 @@
+<p><strong>In my framework i'm redirecting users from page-5.html to page-3.html if max page in my catalog is 3.</strong></p>  <p><em>What error code i should to send with that redirect?</em></p>  <p>I tried to making 404, the robots will not index page-5.html, when i add new products in future. I tried to make 500 - but it is not a error, as i think.</p>

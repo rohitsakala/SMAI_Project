@@ -1,0 +1,1 @@
+<p>Not sure if that was mentioned before, but I could not find the answer anywhere.</p>  <p>I have <code>UITextView</code> with bunch of text (about 130 lines) varies, I need to get height of 5 lines of that text in my <code>UITextView</code></p>

@@ -1,0 +1,1 @@
+<p>The question is, How to remove a device group in google cloud messaging, the oficial documentation <a href="https://developers.google.com/cloud-messaging/" rel="nofollow">https://developers.google.com/cloud-messaging/</a> explain how to Create the group and how to add devices, but i need to remove the group to recover the notification_key_name Thanks for your answers</p>

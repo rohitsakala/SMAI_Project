@@ -1,0 +1,1 @@
+<p>I want to create a crosstab for LeaveCount for Employees for respective Months with Ireport (JasperReports). I'm using Oracle database.</p>  <p>The problem is, I'm getting only the months where the measure exists, I want to display all months of the year whether the measure(Leave of Employee) exists for this month or not.</p>  <p>Any help would be appreciated!!!</p>

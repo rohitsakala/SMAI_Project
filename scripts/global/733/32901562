@@ -1,0 +1,1 @@
+<p>I want to provide source code updates to my customers who uses my library. Is there a way to create a TFS changeset or shelveset and copy it to a file system? Basically a file which I can share with the customer and they can apply on their local source to get my changes?</p>

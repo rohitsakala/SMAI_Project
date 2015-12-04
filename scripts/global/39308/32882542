@@ -1,0 +1,1 @@
+<p>I'm using</p>  <pre><code>google.maps.places.Autocomplete(..., {types:["geocode"]}); </code></pre>  <p>to get destination geo code. But I need to hide Continents and Countries from this list.</p>  <p>SDK say nothing about this. <em>cities</em> argument doesn't fit to my requirements as doesn't cover all places I need.</p>

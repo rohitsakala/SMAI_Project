@@ -1,0 +1,1 @@
+<p>I have an array <code>A</code> of boolean values, indexed by integers <code>0</code> to <code>n</code>, all initially set to <code>true</code>.</p>  <p>My current implementation is :</p>  <pre><code>for i := 0; i &lt; n; i++ {     A[i] = true } </code></pre>

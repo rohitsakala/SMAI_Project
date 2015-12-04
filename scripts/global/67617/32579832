@@ -1,0 +1,1 @@
+<p>For updating the information of employee in my scenario, i have two tables and two models classes, how can i update two tables using a single view. Many of my Information is stored/fetched from one table and only one information is stored in one table.</p>

@@ -1,0 +1,1 @@
+<p>I have tried to access Netsuite by account id, username and password using PHP Toolkit. And I can get customer details using the above credentials. i have access token. But Now I tried to access Netsuite using the access token. I need PHP code to access Netsuite using token and I want to get customer details.</p>  <p>Thanks in advance</p>

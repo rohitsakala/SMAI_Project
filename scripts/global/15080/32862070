@@ -1,0 +1,1 @@
+<p>Is there a difference in behaviour or browser support for using the CSS3 selectors <code>:enabled</code> or <code>not(:disabled)</code>?</p>  <p>I expect them to be functionally identical, and as they are both CSS3 selectors, browser support should be identical too.</p>

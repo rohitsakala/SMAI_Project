@@ -1,0 +1,1 @@
+<p>Is the maximum allowed length for a string 1024 in golang? How to read lengthier strings?</p>  <p>fmt.Scan(&amp;str)</p>  <p>This truncates the string to length 1024.</p>

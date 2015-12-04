@@ -1,0 +1,1 @@
+<p>With the class javacard.security.KeyAgreement (Java Card 3.0.1 classic) it is possible to make an EC-DH key agreement. But there's no specific curve defined. As i understood, the standard IEEE P1363 does not specify domain parameters. So what curve is used in the Java Card implementation?</p>

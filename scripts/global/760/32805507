@@ -1,0 +1,1 @@
+<p>It is possible to use self signed certificates in the Apache Ripple emulator? Currently the proxy tells me:</p>  <pre><code>"code": "UNABLE_TO_VERIFY_LEAF_SIGNATURE" </code></pre>  <p>In my test environment I've only a self signed certificates available. It is possible to add the certificate to the proxy manually?</p>  <p>Thanks for any suggestions.</p>

@@ -1,0 +1,1 @@
+<p>Is there any doc i can read about this kind of function?</p>  <pre><code>// return the capital of char c char a(char c){     return c &gt;= 'a' &amp;&amp; c&lt;='z' ?            c +'A' - 'a':c; } </code></pre>

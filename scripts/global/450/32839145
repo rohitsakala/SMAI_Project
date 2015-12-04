@@ -1,0 +1,1 @@
+<p>Considering the following string:</p>  <pre><code>Page 1 of 100 </code></pre>  <p>Where <code>1</code> and <code>100</code> are not fixed values.</p>  <p>How could I define a C macro in order to render that string by passing the two values as arguments?</p>  <p>To be clear, the format has to be as follows:</p>  <pre><code>#define PAGE_IDX_MACRO(x,y) </code></pre>

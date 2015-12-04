@@ -1,0 +1,1 @@
+<p>I was wondering if there's any tool or utility that can automate the migration process from oracle 10g to Mysql. The problem I am facing is that I only have "READ ONLY" permission in oracle DB.  All I want to do is export tables and their data form oracle and import it in Mysql. Is there any tool which can automate this process.</p>  <p>THANKS.</p>

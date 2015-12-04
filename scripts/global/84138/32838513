@@ -1,0 +1,1 @@
+<p>In Windows 8.1 you can disable notifications for 1, 3 or 8 hours or from app's settings -> permissions you can disable notifications.</p>  <p>How do I identify it in c# code so that I can display that same information as a <code>MessageDialog</code> rather using <code>ToastNotificationManager</code></p>

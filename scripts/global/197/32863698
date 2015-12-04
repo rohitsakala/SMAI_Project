@@ -1,0 +1,1 @@
+<p>Is there a way to calculate the square of a number (closest approximation), say 4, using Gaussian distribution where mu is the number and sigma is 0.16. and for 1000 random points?</p>  <p>I searched the internet a lot, but couldn't find a solution to this. Any piece of code would be very much helpful as i am new to python.</p>

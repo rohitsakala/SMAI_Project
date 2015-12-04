@@ -1,0 +1,1 @@
+<p>Am using <code>mediaplayer</code> to play URL songs in android APP, while <code>mediaplayer.prepare()</code> method called app was freezing I'm using <code>async Task</code> for handling. But it won't work.</p>

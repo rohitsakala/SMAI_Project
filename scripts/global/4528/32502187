@@ -1,0 +1,1 @@
+<p>I need a rewrite rule to redirect the root URL for a subfolder to the root of the domain, but I want to allow URLs in the subfolder. In other words:</p>  <ul> <li>www.domain.com/subfolder redirect to www.domain.com</li> <li>www.domain.com/subfolder/ redirect to www.domain.com</li> <li>www.domain.com/subfolder/page1 this should NOT redirect</li> </ul>  <p>Thanks! </p>

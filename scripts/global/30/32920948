@@ -1,0 +1,1 @@
+<p>I have a table with a column that holds int values, I need to know how to write a JPQL query that, instead of overriding the existing value, it add the new value to the existing one and persist the sum. Here is the JPQL that sets a value.</p>  <pre><code>UPDATE Transaction t SET t.amount = :amount WHERE t.id = :id </code></pre>

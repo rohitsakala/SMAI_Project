@@ -1,0 +1,1 @@
+<p>I need to send the request XML file to {url} as multipart form data. How this do in <strong>Restful</strong> web service. Before I use in there in,</p>  <pre><code>RequestDispatcher rd = request.getRequestDispatcher("/file/message.jsp"); rd.forward(request, response); </code></pre>  <p>But this isn't sent in specific {url}, How to sent it? </p>

@@ -1,0 +1,1 @@
+<p>I need to remove occurrences of string1 from string2. This is a trivial case:</p>  <p>string1 = ")(" string2 = "((()))"</p>  <p>The result should be "((()))" because ")(" does not occur in string2.</p>  <p>Another example:</p>  <p>string1 = "ab" string2 = "aabb" The result should be an empty string "". Does anyone have an idea?</p>

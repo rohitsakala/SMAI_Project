@@ -1,0 +1,1 @@
+<p>From my understanding, the wp_postmeta extends the schema for wp_post.  So basically the standard fields/structure for a post will be found in wp_posts, and if any post(s) needed their own set of fields/attributes etc, they would be defined in wp_postmeta table.  So I wanted to know if I'm right about this or not?</p>  <p>thanks.</p>

@@ -1,0 +1,1 @@
+<p><code>Treeview.item</code> just gets the other columns from <code>1</code> on. How can I get <code>c#0</code> column value?</p>  <pre><code>tree.insert("", 0, text="this is what I want to get", values=record) </code></pre>

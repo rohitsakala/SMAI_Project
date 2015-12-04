@@ -1,0 +1,1 @@
+<p>I am trying to encrypt the file from Oracle ERP side and sending it to another external server.</p>  <p>I have used GPG console for file encryption, I am not getting how to automate the same process, as the ERP program which generates the file everyday is runs everyday and generates the file in the Unix server.</p>  <p>Please help me out.</p>  <p>Anusha</p>

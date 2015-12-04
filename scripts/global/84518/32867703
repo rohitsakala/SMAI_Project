@@ -1,0 +1,1 @@
+<p>I have bunch of Angular modules written in JavaScript and would like to import them into TypeScript. I tried using import and require, but it doesn't find my angular module since import checks for TypeScript Modules only.</p>  <pre><code>import myModule= require('myModule'); </code></pre>  <p>Is there any other way to do this instead of converting my Js in TypeScript?</p>

@@ -1,0 +1,1 @@
+<p>For example I will have this line in the text file:  RTL      N23 U 194.0    |        SYSTEM   N24 U 978.9 744.3     | etc</p>  <p>I want to copy the value until the "|" then insert into an excel file.</p>  <p>Any help or ideas would be much appreciated.</p>

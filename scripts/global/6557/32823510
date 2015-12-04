@@ -1,0 +1,1 @@
+<p>eo.net browser  in my application </p>  <p>when I runs this code </p>  <p>1) load url code and then inject jquery (this code is working fine) then </p>  <pre><code>Image bitmap = wb.WebView.Capture(); </code></pre>  <p>bitmap is null (not in all only on some random pages)</p>  <p>can anyone help?</p>

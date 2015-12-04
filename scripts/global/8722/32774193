@@ -1,0 +1,1 @@
+<p>I want to dynamically change the value of the timeseries chart. </p>  <p>EX)  value >= 1000000 ? value/1000000+"M" :        value >= 1000 ? value/1000+"K"</p>  <p>Please help me</p>

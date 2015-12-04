@@ -1,0 +1,1 @@
+<p>For example, a emoji 👍 is represented in utf-16 as \ud83d\udc4d </p>  <p>Another emoji ✌ is represented in utf-16 as \u270c</p>  <p>Now, suppose I have a string like: Hello \ud83d\udc4d bye \u270c</p>  <p>Then how can I have a regex that finds these utf-16 strings?</p>  <p>Because the first result should include \ud83d\udc4d and second result should include \u270c</p>

@@ -1,0 +1,1 @@
+<p>I want to show a loader in a Video.js player while my video is being loaded from S3 bucket.</p>  <p>I have a Video.js player which shows a "Play" button, when this button is clicked the player shows a black screen until the video is loaded from S3 bucket. How can  I show a loader in place of that black screen?</p>

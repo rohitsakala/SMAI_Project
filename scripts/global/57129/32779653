@@ -1,0 +1,1 @@
+<p>Wondering how to comment out one line in HAMLC.  I Tried </p>  <pre><code># this is commented out </code></pre>  <p>But it doesn't work. It creates a <code>&lt;div&gt; this is commented out &lt;/div&gt;</code> Can't find many resources on HAMLC.</p>  <p>Knowing how to comment out multi-line would also be appreciated.</p>

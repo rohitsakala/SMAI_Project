@@ -1,0 +1,1 @@
+<p>I have a session variable that I am appending to a string in the layout page of an MVC application.</p>  <pre><code>&lt;p class="text-primary text-strong"&gt;Logged in as: @Session["DisplayName"]&lt;/p&gt; </code></pre>  <p>I would like the "Logged in as:" to display in black and the "@Session["DisplayName"]" to be blue. Is it possible to format razor syntax like that? </p>

@@ -1,0 +1,1 @@
+<p>How can I run the background task immediately after registering it? It is found that background task runs in every 15 minutes interval but what is the exact time it takes to start background task after registering it?</p>

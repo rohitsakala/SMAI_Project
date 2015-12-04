@@ -1,0 +1,1 @@
+<p>I am trying to create a discrete normal distribution using something such as</p>  <pre><code>x &lt;- rnorm(1000, mean = 350, sd = 20)  </code></pre>  <p>but I don't think the <code>rnorm</code> function has a built in "discrete numbers only" option. I have spent a few hours trying to search this on StackOverflow, Google and R documentation but have yet to find anything. </p>

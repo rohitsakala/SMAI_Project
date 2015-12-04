@@ -1,0 +1,1 @@
+<p>I want to add custom button in my pdf form, and the action performed by that button should fetch field data of form on a blank page at same position where it is filled in the form and Print it i.e while printing only data on the form should be there not the fields. I am using C# and itextsharp. </p>

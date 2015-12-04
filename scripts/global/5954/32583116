@@ -1,0 +1,1 @@
+<p>I don't understand a concept. As I understand when I go to some site under https client certificate will be installed automatically if it's approved by CA. So I don't understand why do I need to install some client certificate manually and add it to HttpWebRequest?</p>

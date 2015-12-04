@@ -1,0 +1,1 @@
+<p>In android app development, how does one allow a key in a keyboard IME to have a value of and display said value of Unicode outside the range of BMP? That is above U+FFFF? I am only a beginner app developer.</p>

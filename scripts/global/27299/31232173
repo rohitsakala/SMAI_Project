@@ -1,0 +1,1 @@
+<p>In simple words, is it possible to center a StringItem or fit it to the width of the screen? I know that I may need to provide no example code, but for instance: </p>  <pre><code>StringItem Addbutton = new StringItem("", "Add New", Item.BUTTON); </code></pre>  <p>How to apply it on this button for example?</p>

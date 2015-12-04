@@ -1,0 +1,1 @@
+<p>How can I view a stored procedure by using <code>sp_HelpText</code> </p>  <p>I am not sure about its exact spelling? I am looking for something like below,</p>  <pre><code>EXEC sp_HelpText WHERE storeprocedurename Like '%spInsert%' </code></pre>  <p>Is it possible way to view the store procedure?</p>

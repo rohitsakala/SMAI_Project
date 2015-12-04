@@ -1,0 +1,1 @@
+<p>I want to create a watch app for an existing iOS app.</p>  <p>But I am in a situation that i don't own a apple watch and my existing iOS app will run only on real devices not on simulator.</p>  <p>Is it possible to run the app on the iphone device and test my watch app in the watch simulator?</p>

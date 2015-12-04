@@ -1,0 +1,1 @@
+<p>There is no WM_KEYPRESS message in winuser.h. The OS will process the message WM_KEYDOWN all the time? Or some other message type?</p>

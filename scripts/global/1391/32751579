@@ -1,0 +1,1 @@
+<p>I am trying to convert Hex decimal to Binary( 32 bit). Some of my Hex values are like just FF or FFF , so I need to append zeros to my Binary.  When I try to have a char array[20]; cout&lt;&lt; array[i] for the appended zeros, I am not able to see the appended zeros in my output.</p>

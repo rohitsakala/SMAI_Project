@@ -1,0 +1,1 @@
+<p>I'm using this to return a pressed key.</p>  <pre><code>KeyboardState.GetPressedKeys();  if (KeyboardState.GetPressedKeys().Count() &gt; 0) {      middlekick = KeyboardState.GetPressedKeys()[0]; } </code></pre>  <p>Is there anything like that for pressed button?</p>  <p>As GamePadState.GetPressedButtons(); doesn't exist.</p>

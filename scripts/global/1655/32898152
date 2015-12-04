@@ -1,0 +1,1 @@
+<p>Hi how can i find cell in parent grid view from child grid view. </p>  <p>row.Cells[1].Text the value i want to get from parent grid view</p>  <p>Parent grid view is gvAgreement</p>  <p>child grid view is gvProducts</p>  <pre><code>protected void gvProducts_RowCommand(object sender, GridViewCommandEventArgs e) {  //your suggested code } </code></pre>

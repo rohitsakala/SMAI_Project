@@ -1,0 +1,1 @@
+<p>I'm using Cucumber with Ruby and I want to execute some code after each step of the scenario. I have implemented the AfterStep hook, but I have found that it is not running after every step.</p>  <pre><code>AfterStep do |step|   puts "After step" end </code></pre>  <p>Is there any reason why Cucumber wouldn't run this hook after a particular step in the scenario?</p>

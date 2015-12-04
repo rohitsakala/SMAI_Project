@@ -1,0 +1,1 @@
+<p>CkEditor (Media embed plugin) fails for https applications when trying to embed youtube (ex : <a href="https://www.youtube.com/watch?v=RQOJgEA5e1k" rel="nofollow">https://www.youtube.com/watch?v=RQOJgEA5e1k</a> ) urls.</p>  <p>It gives a 403 (forbidden) error. Ckeditor version used :  4.5.3</p>

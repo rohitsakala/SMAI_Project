@@ -1,0 +1,1 @@
+<p>Why is my classifier's performance dropping on average by 1% F1 score when I scale the features? I was expecting to improve the performance. I am using scikit-learn fro this. Here is how I do it:</p>  <pre><code>scaler = preprocessing.StandardScaler(with_mean=False).fit(X_features)  X_features_scaled =  scaler.transform(X_features) </code></pre>

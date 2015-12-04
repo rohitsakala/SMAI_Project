@@ -1,0 +1,1 @@
+<p>I mm building xcode workspace in terminal only (xcodebuild - Internal build). It has five schemes. But, at a time I can build only one scheme. I would like to build all the scheme at a time. A single workspace may have more than one scheme.</p>

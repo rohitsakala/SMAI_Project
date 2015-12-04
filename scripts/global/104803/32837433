@@ -1,0 +1,1 @@
+<p>Whenever i run my application, i get the following error;</p>  <pre><code>PFUserAuthenticationController authenticationDelegateForAuthType:]: unrecognized selector sent to instance  </code></pre>  <p>I tried to look for PFUserAuthenticationController class but cant find it. Any help?</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to have Tomcat's Default Servlet create directories for a new resource using a PUT request?</p>  <p>I've set the value of "readonly" to "false" in web.xml.</p>  <p>When I try the PUT request with a new resource path I get an HTTP 409 (conflict).</p>  <p>I'm just curious if I'm missing some other configuration setting.</p>  <p>Thanks!</p>

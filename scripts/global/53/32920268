@@ -1,0 +1,1 @@
+<p>I am running Eclipse Mars on Ubuntu 15.04. I have seen instructions to change GTK3 tooltip fg/bg color at system-wide level. My question is how can I change the GTK3 tooltip fg/bg color only for Eclipse without affecting other applications. </p>  <p>(GTK3 and CSS are not my fields of expertise so I really need some help here)</p>

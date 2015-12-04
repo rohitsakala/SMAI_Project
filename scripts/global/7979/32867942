@@ -1,0 +1,1 @@
+<p>How do I add a black edge line (border) to the errorbars?</p>  <p>I have the following plot command.</p>  <pre><code>for j, l, c, s in zip(y,label, colors, sol):     line = ax.errorbar(r,j, yerr=[(0,0,0), (s)], marker='o', markeredgecolor='black', linestyle='-', markersize=10, linewidth=3, label=l, ecolor=c, capsize=3, capthick=3, barsabove=True) </code></pre>

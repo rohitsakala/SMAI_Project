@@ -1,0 +1,1 @@
+<p>How can I replace escape character in Android? I have tried this but with no success:</p>  <pre><code> String a =finalObject.getString("icon").replaceAll("\ ", ""); </code></pre>  <p>Before I  can replace it, Android Studio is already giving me error.</p>

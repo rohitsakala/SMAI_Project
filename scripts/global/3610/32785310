@@ -1,0 +1,1 @@
+<p>Looking for a way/suggestions on tracking changed attributes/data in a Ractive instance. I've tried using observers and maintaining changed values in a separate object, but the keypath is generally not the full keypath when the observer is called -- so tracking changes on nested objects becomes a bit of a hassle. </p>  <p>Any other ways to handle this? </p>

@@ -1,0 +1,1 @@
+<p>I'm trying to create the diagram below (without ASCII chars obviously and as solid lines) without using images. How would I go about it? I was thinking of canvas, or CSS3 unless there's something better.</p>  <pre><code> \                       /   \                     /    ---------------------   /                     \  /                       \ </code></pre>

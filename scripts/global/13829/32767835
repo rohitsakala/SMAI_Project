@@ -1,0 +1,1 @@
+<p>I have a non singleton actor that is creating an object  that I want created only only once. How is this achieved? Can an actor be singleton? If yes, how?</p>  <pre><code>class NonSingletonActor extends UntypedActor {     public static onReceive(Object arg)  throws Exception {           *block of code that needs to be executed once!* } } </code></pre>

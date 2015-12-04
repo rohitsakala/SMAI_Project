@@ -1,0 +1,1 @@
+<p>All examples on binary literal is like: <code>int a=0b1011</code> My question is, can I translate existing variables to this form? For example, from<code>int b=10000011;</code> I want to get <code>int c=0b10000011</code>. </p>

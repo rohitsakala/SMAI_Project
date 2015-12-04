@@ -1,0 +1,1 @@
+<p>I am making an app that sends user data to a javascript server hosted locally. It sends the data fine when my phone is on WiFi, but it gives an error ('failed to connect to: "/MY_LOCAL_IP"("PORT")) when I turn off WiFi. Is it even possible to connect to my local ip when on 3g/4g? </p>

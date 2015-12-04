@@ -1,0 +1,1 @@
+<p>I try to use CDI with JUnit. I saw lot of example that implement a custom Runner that uses non-static methods. But i have one more constraint. I use the Cucumber runner on top of JUnit and selenium. So i can't use the BlockJUnit4ClassRunner. I must use the Cucumber Runner.</p>  <p>Any Idea</p>

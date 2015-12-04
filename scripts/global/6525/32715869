@@ -1,0 +1,1 @@
+<p>With many go blocks going at once, all writing to the console, the text can get jumbled/intermingled when it arrives at the console. How to avoid this, so trace output forms as correctly in the console as intended when it was emitted from within the go block?</p>

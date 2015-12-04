@@ -1,0 +1,1 @@
+<p>When we push any viewController, then the next controller comes from right to left. But when we present any view controller then the next controller comes from bottom to top. I want when we present any controller it comes from right to left same as that comes in pushing. I donot want to use modalViewController.</p>

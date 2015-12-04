@@ -1,0 +1,1 @@
+<p>I am using echo cmd to write some text into file,  The length of the text is around 4403 chars. The cmd works fine in SUSE11 OS. and i get error 'Word too long.' in SUSE10, </p>  <p>any suggestion if the error can be solved ?  or any other setting to change the length limits?</p>

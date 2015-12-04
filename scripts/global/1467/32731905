@@ -1,0 +1,1 @@
+<p>I want to know the difference between using getAttributeNode and setAttributeNode:</p>  <pre><code>var x = document.getElementsByTagName("IMG")[0]; x.getAttributeNode("src").value = "pic_bulbon.gif"; x.setAttributeNode("src").value = "pic_bulbon.gif"; </code></pre>

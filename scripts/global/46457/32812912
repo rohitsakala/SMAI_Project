@@ -1,0 +1,1 @@
+<p>What is sql group by equivalent of R  For example  I want perform this on a data.frame</p>  <pre><code>SELECT MAX(temp) from table group by day </code></pre>  <p>by subset function<br> Note::  </p>  <blockquote>   <p>I know about sqldf and I don't want use it for some purpose</p> </blockquote>

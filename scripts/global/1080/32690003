@@ -1,0 +1,1 @@
+<p>I want to use OpenCV Hough Circles' implementation, but I have a question:  <strong>the circles that this function returns are already sorted by vote?</strong></p>  <p>Since Hough transform is based on a voting mechanism, I want to know if this circles are return in order from the most voted to the least voted, or in a random order.</p>

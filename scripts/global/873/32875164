@@ -1,0 +1,1 @@
+<p>Is there a way to accomplish the following pseudo-code?</p>  <pre><code>$var = true; if ($var) {   $var = false;   if ($var) {    } } catch else {   //should execute due to second if statement } </code></pre>

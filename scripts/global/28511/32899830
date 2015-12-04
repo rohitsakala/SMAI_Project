@@ -1,0 +1,1 @@
+<p>Trying to test my unity app in xcode and when I click run it says:</p>  <blockquote>   <p>An app ID with Identifier 'com.Company.ProductName' is not avalible, please enter a different string</p> </blockquote>  <p>Any ideas? Thanks</p>

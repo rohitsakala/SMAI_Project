@@ -1,0 +1,1 @@
+<p>I'm trying to understand if it is possible to retrieve a list of order statuses from the Magento backend via the Magento API. I'm not looking (at this point) to amend the status of an order which is the only answer I've been able to find so far.</p>

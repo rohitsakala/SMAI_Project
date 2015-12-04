@@ -1,0 +1,1 @@
+<p>I'm doing an example of a message queue. When I look at the documentation, QueueConnection is an interface, but it's being instantiated in sample code. How is this possible? I know it extends the Connection interface. All explanations would be nice to help further my knowledge :)</p>

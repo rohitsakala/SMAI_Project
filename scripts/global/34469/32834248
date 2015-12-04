@@ -1,0 +1,1 @@
+<p>As I enter C code, I want Visual Studio to immediately highlight errors as I type them.  But it doesn't do it.  No red underline or nothing.</p>  <p>I could not find a command to do this in tools menu > Text Editor > c/c++ > Advanced and other sections.</p>

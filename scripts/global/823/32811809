@@ -1,0 +1,1 @@
+<p>I want to multiply the register bl by 8 and store the result in bl. However when I run:</p>  <pre><code>mov bl,1 mov al,8 mul bl </code></pre>  <p>bl still equals 1, not 8. I vaguely remember something about the value moving into bx or ax or something...could someone give a helping hand? Thanks!!</p>  <p>Wanted behavior:</p>  <pre><code>bl*=8 </code></pre>

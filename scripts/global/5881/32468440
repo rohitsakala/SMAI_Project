@@ -1,0 +1,1 @@
+<p>How do I make value "long double" in TCL? C/C++ suffix "L" doesn't work:</p>  <pre><code>% expr pow(2.0L,63)  invalid bareword "L" in expression "pow(2.0_@_L,63)"; should be "$L" or "{L}" or "L(...)" or ... </code></pre>

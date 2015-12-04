@@ -1,0 +1,1 @@
+<p>When uprading foundation-rails from 5.4.5 to 5.5.1.2 and sass from 3.2.19 to 3.4.16 the dropdowns are right aligned to the button, instead of left aligned like before.</p>  <p>The 'alignment' is actually generated per javascript absolute positioning. </p>  <p>Does anybody know how to properly fix it?</p>

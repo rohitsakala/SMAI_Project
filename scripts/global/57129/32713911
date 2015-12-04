@@ -1,0 +1,1 @@
+<p>I am new to coffeescript. Please help me.</p>  <p>How do you find duplicated values in an array?</p>  <pre><code>var arr = ['manager','manager','employee','manager',            'director','employee','manager','operatives']; </code></pre>  <p>In this case it should return ['manager','employee'].</p>

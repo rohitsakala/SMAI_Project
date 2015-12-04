@@ -1,0 +1,1 @@
+<p>When i am not able to cross compile sqlite3 for arm.I am following the following steps</p>  <p>npm install sqlit3 --build-from-source --target_arch=arm</p>  <p>When i execute above command command prompt stops at following message</p>  <blockquote>   <p>node-pre-gyp install --fallback-to-build</p> </blockquote>  <p>and then nothing happening. Any help is appreciated</p>

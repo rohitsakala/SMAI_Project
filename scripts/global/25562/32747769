@@ -1,0 +1,1 @@
+<p>Getting a 500 error on this line in classic asp.  Strange thing is that an Identical windows server 2008 server with IIS 7 it works fine (Test server).</p>  <pre><code>Set objGroup = GetObject("WinNT://MYCORP/BoxReplacement_Users") </code></pre>  <ol> <li>Do I need to give more permissions to the IIS website?</li> <li>Do I need to install some WinNT thing?    </li> </ol>

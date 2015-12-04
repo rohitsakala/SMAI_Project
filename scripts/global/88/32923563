@@ -1,0 +1,1 @@
+<p>I am using facebook sharer to share youtube links in my website:</p>  <pre><code>&lt;a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=123456" target="_blank"&gt; </code></pre>  <p>In the opened window the description is taken from the youtube video. Is it possible to set custom description ?</p>

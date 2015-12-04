@@ -1,0 +1,1 @@
+<p>I have a number of jasper reports with multiple parameters, some of which are hierarchical, like user groups and users. Can I create Jasper OLAP view for such paameters, say clicking on Groups expands  groups, then choosing and clicking on one group expands into Users, then selecting user and passing it to my report, which would be called then on click?</p>

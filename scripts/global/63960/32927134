@@ -1,0 +1,1 @@
+<p>Twig won't process PHP tags. Hence, it is a challenge to create a <code>phpinfo()</code> page based on a layout (say <code>base.html.twig</code>). </p>  <p>Is it possible to dump the HTML content of <code>phpinfo()</code> into some variable and pass it as body content to the layout? Or, is there a better way to proceed?</p>

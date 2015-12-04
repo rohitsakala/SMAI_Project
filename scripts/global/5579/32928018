@@ -1,0 +1,1 @@
+<p>e.g. if I get an instance of an element using</p>  <pre><code>var termsLink = driver.findElement(webdriver.By.id('wd-terms')); </code></pre>  <p>There dont seem to be any methods available on the resulting WebElement object to set focus on the target element, in that case how can I do this using Webdriver JS?</p>

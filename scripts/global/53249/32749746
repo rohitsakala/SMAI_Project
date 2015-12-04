@@ -1,0 +1,1 @@
+<p>I need to detect the onBlur event inside a WebView indicating that the Android Soft Keyboard has been hidden so I can reactivate the Immersive property that hides the title and navigation buttons lost with the Keyboard.</p>

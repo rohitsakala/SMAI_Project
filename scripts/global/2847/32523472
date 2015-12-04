@@ -1,0 +1,1 @@
+<p>I am running ruby version 2.00, and would like to update this. I heared that pik would be the best option. When running gem install pik I get the following error:</p>  <pre><code>ERROR:  While executing gem ... (ArgumentError) invalid byte sequence in UTF-8 </code></pre>  <p>Any help would be greatly appreciated.</p>

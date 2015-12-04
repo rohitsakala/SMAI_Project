@@ -1,0 +1,1 @@
+<p>I am trying to use <a href="http://i18next.com/" rel="nofollow">i18next</a> together with <a href="http://dhtmlx.com/" rel="nofollow">dhtmlx</a> framework. I can include the library and get the translations to work, but when I include the i18next javascript library my layout is failing. </p>  <p>Have anyone tried those libraries together?</p>

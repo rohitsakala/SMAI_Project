@@ -1,0 +1,1 @@
+<p>I need to know the remainder of a division:</p>  <pre><code>(remainder (/ 3 2) 2) </code></pre>  <p>But as (/ 3 2) is not integer gives me an error.</p>  <p>modulo: contract violation  expected: integer?  given: 1.5  argument position: 1st </p>  <p>How could I solve it?</p>

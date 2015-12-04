@@ -1,0 +1,1 @@
+<p>I am attempting to capture an event when a user stops scrolling, I've read the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event" rel="nofollow">JavaScript Event API</a> but am still a bit confused on where to begin. </p>  <p><strong>Question:</strong> How can I capture the event when the user stops scrolling?</p>

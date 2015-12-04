@@ -1,0 +1,1 @@
+<p>I'm updating a Grails plugin to Grails 3. The code is using <code>ConfigSlurper.parse()</code> to parse a Groovy config script into a <code>ConfigObject</code>.<br> It appears the default config style for Grails 3 is YAML, so is there a similar utility to parse YAML into a ConfigObject?  </p>

@@ -1,0 +1,1 @@
+<p>I would like to run <code>test.vbs</code> when a Office 15 program such as <code>Outlook.exe</code> opens. I would need a to schedule a task and for trigger select on event right? How would I find the event ID of Outlook.exe when it opens?</p>  <p>Could I create this task from command line as well?</p>

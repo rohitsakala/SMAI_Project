@@ -1,0 +1,1 @@
+<p>I'm using Python 3.4. I'm writing a little program and I have this behavior:</p>  <p>2.07/0.01</p>  <p>and I have this result 206.999999999997 and not 207</p>  <p>Why that is happening???</p>

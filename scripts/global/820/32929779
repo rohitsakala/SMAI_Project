@@ -1,0 +1,1 @@
+<p>I am using Froala editor, and it worked fine until I migrated to their second version. Every time I insert a youtube or any kind of video using their video plugin the entire page reloads, and then everything is lost. I was wondering if there is a way to prevent a page reload. </p>

@@ -1,0 +1,1 @@
+<p>I need to export files from one folder, and want to mark (extend the file name) with the real file revision. There is not that sort of option in <code>svn export</code>. However, maybe someone has a script that does this?</p>

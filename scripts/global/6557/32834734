@@ -1,0 +1,1 @@
+<p>I am trying to build an app which displays images from external storage. I want to display images faster and i have already used A sync Task.  1-What is the best way to cache images in external storage ?  2-How do you cache images in imgcache.idx(i think it is very popular) file?</p>

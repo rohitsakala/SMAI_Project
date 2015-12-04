@@ -1,0 +1,1 @@
+<p>Trying to find an example of how to build an application using solr 5.x with django-haystack, but most examples online are using solr 4.x or solr 3.x. Can anyone give some instructions on how to work with solr 5.x using django-haystack, or just offer some example project? Thanks!</p>

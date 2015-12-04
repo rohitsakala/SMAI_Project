@@ -1,0 +1,1 @@
+<p>How do I access the <code>z</code> instance in a non-static method in the <code>Y</code> class?</p>  <pre><code>class X {     Y y = new Y();     Z z = new Z();     y.doSomething(); }  class Y {     void doSomething() {         z.foo();     } } </code></pre>

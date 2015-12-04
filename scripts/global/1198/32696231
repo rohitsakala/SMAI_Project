@@ -1,0 +1,1 @@
+<p>How can I write a function that finds intersection between 2 lines?</p>  <p>All I can come up with is:</p>  <pre><code>type StraightLine = float*float  let StraightLineIntersection x y =  </code></pre>  <p>I want the returned value as a tuple(x,y).</p>

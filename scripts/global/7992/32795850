@@ -1,0 +1,1 @@
+<p>By mistake, I wrote:</p>  <pre><code>++number++; </code></pre>  <p>and got this:</p>  <pre><code>Uncaught ReferenceError: Invalid left-hand side expression in prefix operation </code></pre>  <p>Why? I would except this to to first increment <code>number</code> by one and then increment <code>number</code> by one again.</p>

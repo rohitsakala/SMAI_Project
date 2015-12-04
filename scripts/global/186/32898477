@@ -1,0 +1,1 @@
+<p>How do I start my test in a specific activity? Say I'm testing a favorites tab in my app, but I'd like my test to start on the login screen, what method would I use to do that? I can't find anything about it anywhere and I'm sure it's just a simple call. </p>

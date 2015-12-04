@@ -1,0 +1,1 @@
+<p>Say I have a loaded JSON file. It's a rigged (skeleton) biped character model exported from a 3D rendering software. </p>  <p>After I load it in Three.js using JSONLoader, is it possible to access the individual parts of this object (head, arms, legs, etc..) ? </p>

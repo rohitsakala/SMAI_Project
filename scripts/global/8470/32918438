@@ -1,0 +1,1 @@
+<p>I'm trying to find an efficient manner to generate a powerset of a set that has the subsets of a certain size k. I have found answers of how to generate all powersets and powersets within a range, but I'm not sure how I would do it if I only wanted one certain size.</p>  <p>thanks!</p>

@@ -1,0 +1,1 @@
+<p>I would like to edit the contents of wwwroot at runtime, how could <code>~/wwwroot</code> be mapped (is there some utility like <code>VirtualPathUtility</code>)?</p>  <p><code>VirtualPathUtility.ToAbsolute("~/wwwroot")</code> doesn't work (expected)</p>

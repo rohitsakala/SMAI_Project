@@ -1,0 +1,1 @@
+<p>[!] Unable to add a source with url <code>git@github.com:CocoaPods/Specs.git</code> named <code>master-1</code>. You can try adding it manually in <code>~/.cocoapods/repos</code> or via <code>pod repo add</code>.   please any help</p>

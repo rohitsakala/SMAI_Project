@@ -1,0 +1,1 @@
+<p>I am trying both frameworks django and rails following some books exercises.</p>  <p>In Rails to validate input in a form I could check in the model using <strong>Validate Uniqueness</strong> this way it wont be in the database if that input is already in the database.</p>  <p>How can I do this in django?</p>

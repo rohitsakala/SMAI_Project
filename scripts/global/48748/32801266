@@ -1,0 +1,1 @@
+<p>I've created a separate Devise log-in form to login to my Admin interface. The log-in itself works fine. How do I specify a different redirect action after a successful log-in? The documentation only states how to change the global redirect action.</p>

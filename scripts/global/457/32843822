@@ -1,0 +1,1 @@
+<p>The company I just began with has an older legacy project, that is for VS 2010. The library it creates contains a bunch of custom controls, and is referenced in their current project with 2013. I am wondering how i can debug the dll so I can see what happens during the data binding of the custom control while I am in the main application in VS 2013.</p>

@@ -1,0 +1,1 @@
+<p>I designed a download manager in vb.net, but I don't know how to get file size after downloading started, or when I put the url.</p>  <p>I searched on internet and here, and I found the <code>httpwebrequest</code> class,  but I don't know how does it work and how can I add it in my project.</p>

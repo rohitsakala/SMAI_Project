@@ -1,0 +1,1 @@
+<p>Is it possible to build a JAR file from a clojure file using the <code>jar cf jar-file input-file(s)</code> command, and then running it on another machine (without clojure) like with java file command?  </p>  <p>What is the best way to execute a clojure program on another computer which has access to java but not to clojure? </p>

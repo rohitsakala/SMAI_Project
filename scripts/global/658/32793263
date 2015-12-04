@@ -1,0 +1,1 @@
+<p>The goal is to:</p>  <ol> <li>Be able to upload a file from browser</li> <li>Be able to stream the upload directly to S3</li> <li>Relay the upload progress to browser</li> </ol>  <p>It took me a while to figure this out (and didn't quite find an answer to do all 3 on StackOverflow yet) so posting my answer in case anyone else has the same problem</p>

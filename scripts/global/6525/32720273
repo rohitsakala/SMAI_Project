@@ -1,0 +1,1 @@
+<p>Is there a convenient way to check the name of a function which is a parameter of another function? For example,</p>  <pre><code>(defn foo [a-fun] ...) </code></pre>  <p>how should one get the actual name of a-fun inside foo in runtime?</p>

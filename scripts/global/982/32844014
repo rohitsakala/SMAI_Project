@@ -1,0 +1,1 @@
+<p>Im giving date as a string and then trying to convert it to ISO. </p>  <p>Here is what I have been doing:</p>  <pre><code>var dateValue = "Tue Sep 29 2015 16:50:00 GMT+0530 (IST)" alert(dateValue.toISOString()); </code></pre>  <p>But this is returning me the following error  <strong>"toISOString is not a function"</strong></p>  <p>Why is this?</p>

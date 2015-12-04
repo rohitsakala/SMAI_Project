@@ -1,0 +1,1 @@
+<p>OPenCV Error : GPU Api call NCV Assertion failed : NCV Stat=28, file=...\cascadeclassifier.cpp line=168> in unknown function, file ....\cascadeclassifier.cpp line 202</p>  <p>I am getting this error when i run my detection program</p>

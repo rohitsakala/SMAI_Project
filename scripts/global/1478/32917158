@@ -1,0 +1,1 @@
+<p>I am trying to generate a html file from start with template. I have a problem about the font size as I cannot configure it with the code I provide.  </p>  <p><code>buildhtml.append("&lt;p style=" + "font-size:" + fontsize * 0.1 + " align=" + "center" + "&gt;F&lt;/p&gt;");</code></p>  <p>It moves the letter F to the center, but no difference at fontsize.</p>

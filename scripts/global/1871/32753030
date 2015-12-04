@@ -1,0 +1,1 @@
+<p>I came across to the following:</p>  <pre><code>POINTER(A,B(*)) ;INTEGER B </code></pre>  <p>What is the <strong>C/C++ equivalent</strong> of the above code?</p>  <p>What is <code>;INTEGER B</code> at the end?</p>

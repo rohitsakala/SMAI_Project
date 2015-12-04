@@ -1,0 +1,1 @@
+<p>I am studying common lisp tutorials but I am not familiar with it. </p>  <p>How can i get the following result? </p>  <pre><code>(function '(a b a a b c)) =&gt; ((a a a) (b b)) </code></pre>

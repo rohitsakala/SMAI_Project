@@ -1,0 +1,1 @@
+<p>I am using dojo in my local application. The dojo.js is uploaded on some website.</p>  <p>I have some packages which are in my local application.</p>  <p>How can I specify the location of these local packages in dojoConfig of this web dojo.js</p>

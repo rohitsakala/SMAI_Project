@@ -1,0 +1,1 @@
+<p>How can I trigger change event if I click on already selected option. For example I have following options in dropdown</p>  <ul> <li>Red</li> <li>Blue</li> <li>Green</li> </ul>  <p>and Blue option is selected. Now I want that if I click again on blue item then the change event should fire.</p>

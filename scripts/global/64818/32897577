@@ -1,0 +1,1 @@
+<p>So I have a .framework file. I need to be able to utilize its classes and objects inside my java code. I read there is a way but I'm not sure where I place the .framework file inside my project?</p>

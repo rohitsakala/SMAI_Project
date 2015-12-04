@@ -1,0 +1,1 @@
+<p>In my windows app there is a textfield to input numbers(binary 1 or 0) for users. I'm building this app to convert binary numbers into decimal. Now What I want is , when user enter a binary number in textfield, other numbers should disable, or should give an error message. help me with this. thanx.!!!!</p>

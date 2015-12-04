@@ -1,0 +1,1 @@
+<p>From the scrapy <a href="http://scrapy.readthedocs.org/en/latest/topics/api.html" rel="nofollow">api</a> I know that a crawler contains the stats attribute, but how can I access it from a custom pipeline?</p>  <pre><code>class MyPipeline(object):      def __init__(self):          self.stats = ??? </code></pre>

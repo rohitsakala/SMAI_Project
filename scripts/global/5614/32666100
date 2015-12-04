@@ -1,0 +1,1 @@
+<p>I have a form (Bootstarp3) with jquery form validation plugin. Now I want to submit the form after validating the form and when I submit the form, I want modal to confirm the form submit. How can I do that?</p>  <p>Do I need to put the modal within submit handler?</p>  <pre><code>$("#dischargeform").validate({ submitHandle : { ??? } }). </code></pre>

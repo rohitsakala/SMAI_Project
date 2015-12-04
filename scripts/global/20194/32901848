@@ -1,0 +1,1 @@
+<p>I'm using Watir and Cucumber for testing and I want to check if the title of a page includes some given string.</p>  <p>I tried with: </p>  <pre><code>    Then(/^the title page should include (.*)$/) do |title|      @browser.title.include?title      @browser.close     end </code></pre>  <p>but doesn't work. Any ideas?</p>

@@ -1,0 +1,1 @@
+<p>I have 3 group fields in my report, my details section only contains 1 field of data, I tried creating a formula with <code>count()</code> to count the number of records in the details section but it counts everything, how do I get my formula to consider the groups?</p>

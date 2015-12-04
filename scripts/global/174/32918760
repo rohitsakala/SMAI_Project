@@ -1,0 +1,1 @@
+<p>I am thinking whether the WeakReferences and WeakEvents are suitable in case of server modules interface. Could it be good design?</p>  <p>But question also performance, there is certainly need for Invoke in WeakEvent pattern and accessing WeakReference, perhaps too</p>

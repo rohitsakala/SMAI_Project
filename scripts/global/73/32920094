@@ -1,0 +1,1 @@
+<p>I am importing csv file into google calendar and getting below error:</p>  <pre><code>Failed to import events: Unable to process your iCal/CSV file.. </code></pre>  <p>The format in csv file is:</p>  <pre><code>Family Name First Name  Date of Birth   Gender  Country Acharya     Acnvdfknkd  14/12/85        Male        India </code></pre>

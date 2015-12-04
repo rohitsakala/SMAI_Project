@@ -1,0 +1,1 @@
+<p>Is Rails <code>find</code> method deprecated?</p>  <p>In the olden days, <code>find(1)</code> was the preferred way to find by id.</p>  <p>Is it better to use <code>find_by(id:1)</code> instead of <code>find(1)</code>?</p>

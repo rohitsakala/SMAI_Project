@@ -1,0 +1,1 @@
+<p>I have troubles with exporting data from VB6 program to Excel. I can't get Polish special letters <code>ś ń ć ź ż ą ę</code>. I get strange symbols instead. I tried to use chr() function but none of 0-255 possibilities give me what I need.  How can this problem be solved?</p>

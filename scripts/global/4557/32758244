@@ -1,0 +1,1 @@
+<p>Please consider the following line of code:</p>  <pre><code>port-&gt;DataReceived += gcnew SerialDataReceivedEventHandler(DataReceivedHandler); </code></pre>  <p>What difference does the preceding <code>+</code> mean when used with the <code>gcnew</code> keyword?</p>

@@ -1,0 +1,1 @@
+<p>I am worried about the performance of the following query:</p>  <pre><code>SELECT      MAX(CAST((CONVERT(bigint, DBTimeStamp)) AS decimal)) AS DBTimeStamp  FROM Category  WHERE DepartmentID = 5 </code></pre>  <p>Is there a faster way of getting the biggest/latest timestamp as integer from a table?</p>

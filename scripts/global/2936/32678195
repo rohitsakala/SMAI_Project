@@ -1,0 +1,1 @@
+<p>How can I compare version string in the format of x.x.x.x </p>  <p>e.g. compare <code>3.0.1750</code> to <code>3.0.1749</code> </p>  <p>meaning </p>  <pre><code>if (3.0.1750 &gt; 3.0.1749) {    // do this } </code></pre>

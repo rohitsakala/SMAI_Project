@@ -1,0 +1,1 @@
+<p>my XAMPP php version is 5.4 and its Architecture is x86. i want to add pecl ssh2 extension and i've downloaded ssh2 pecl dll extension file for my xampp php and Architecture version . but when i add it to php\ext , it doesn't shown up into php.ini </p>

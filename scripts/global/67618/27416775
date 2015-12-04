@@ -1,0 +1,1 @@
+<p>I am trying to attach a file from my server to an email attachment using Server.MapPath</p>  <p>When I run the code I get the following error</p>  <p>Could not find a part of the path Error</p>  <pre><code>string docOutputPath = Server.MapPath("~/Content/Invoice/fileneame.docx"); </code></pre>

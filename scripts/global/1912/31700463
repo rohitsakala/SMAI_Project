@@ -1,0 +1,1 @@
+<p>I have a project with multiple modules</p>  <p>When I build a module from module's pom it will go to a central repo mentioned in my setting files for maven</p>  <p>BUT</p>  <p>When I package the project from parent pom the same modules are not packaged using central repo :S</p>  <p>any thoughts? </p>

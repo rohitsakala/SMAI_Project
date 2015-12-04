@@ -1,0 +1,1 @@
+<p>It is possible to launch compilation of a C# program via web (ubuntu server) and make the client download the executable ?</p>  <p>I know it's possible to compile C# with mono on ubuntu and how to force a download but i don't know how to launch a compilation server-side from a web site (in php) by pressing a button and even if it's possible.</p>

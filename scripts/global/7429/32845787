@@ -1,0 +1,1 @@
+<p>I am currently working in Speak Ui .I need to display all child of Root which belongs from some specific template . For that I am using "SearchPanel Config" to do template and root setting . After doing this setting I noticed its not talking template setting from "SearchPanel Config" and displaying all Items . I am new to speak UI . Please help me . </p>

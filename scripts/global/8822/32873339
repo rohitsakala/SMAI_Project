@@ -1,0 +1,1 @@
+<p>I have a single project (with sub-projects) for which I would like to generate multiple NSIS installer executables, instead of having multiple components listed in a single NSIS installer.  Is this possible?  Or do I need to organize my code into separate projects?</p>

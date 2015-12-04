@@ -1,0 +1,1 @@
+<p>I am using Symfony and i want to access a javascript which is located in /web/js to create a worker.</p>  <pre><code>        var worker = new Worker('/web/js/recorderWorker.js'); </code></pre>  <p>Does someone knows how symfony links the javascripts, because this is not working.</p>

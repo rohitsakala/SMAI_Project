@@ -1,0 +1,1 @@
+<p>I have a windows form with a webbrowser control. Using this control, I need login to a website, and get and post data. </p>  <p>The login part will remain manually because various headers and cookies and created and stored.</p>  <p>However, is it possible to use the control to send post/get requests?</p>

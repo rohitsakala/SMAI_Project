@@ -1,0 +1,1 @@
+<p>Hello I have been trying to run WebGL content in a number of android emulators( BlueStacks, Andy, Duos, and VirtualBox ). When I try to access any WebGL content in a browser( chrome, firefox ) I get a message stating that WebGL is not supported by my video card. Of course WebGL works fine outside of the emulator. Thanks in advance for any advice.</p>

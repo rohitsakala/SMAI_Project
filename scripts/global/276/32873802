@@ -1,0 +1,1 @@
+<p>My code has variables <code>mri1_tasks</code> and <code>mri2_tasks</code>. Is there a function to have python interpret <code>'mri%d_tasks'%num</code> (where <code>num</code> is equal to either 1 or 2) as the stored value of <code>mri1_tasks</code> or <code>mri2_tasks</code> based on the value of <code>num</code>?</p>

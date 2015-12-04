@@ -1,0 +1,1 @@
+<p>my application is running normally on IIS7 but when i upgraded to IIS 8 i found this exception The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.  ??</p>

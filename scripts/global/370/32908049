@@ -1,0 +1,1 @@
+<p>I have recently started using vim plugins and was trying to setup python-mode with pep8. I wanted to see split the window vertically. I was able to achieve it using autocmd commad as : </p>  <pre><code>:autocmd FileType qf wincmd L  </code></pre>  <p>But now height of file window and quickfix window reduces to 10. Is there a way to change this to max possible height ? </p>

@@ -1,0 +1,1 @@
+<p>Application A sends a request with certificate X, to B. Can service B send the same certificate X to another service C?</p>  <p>In .Net web api applicaiton (B), is there any configuration that handles this?</p>

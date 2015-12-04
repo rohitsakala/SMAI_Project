@@ -1,0 +1,1 @@
+<p>Is it possible to run systemd with (r)syslog instead of journal?<br> This would probably at least require, that the (r)syslog daemon listens again to the /dev/log socket and additionally to /run/systemd/journal/dev-log. Furthermore the (r)syslog daemon must be able to process native journal log messages.<br> Is there any (r)syslog extension which can do this?</p>

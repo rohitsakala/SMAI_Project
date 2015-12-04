@@ -1,0 +1,1 @@
+<p>I have js code, I want to run on node js server. But I have one problem - js code, I use, uses activeX plugin that supported only by IE. Is there any way of solving such problem?</p>  <p>Below is part of code </p>  <pre><code>var ECR;  ECR = new ActiveXObject ("AddIn.FPrnM45"); ECR.ShowProperties ();   </code></pre>

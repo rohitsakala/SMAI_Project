@@ -1,0 +1,1 @@
+<p>How can I print a report without the preview, and taking the default  local printer?  I try to put this code lines, but does´nt work:</p>  <pre><code>Dim rep As New XtraReport1() rep.DataSource = DataSet rep.CreateDocument() rep.Print() </code></pre>  <p>Thank you</p>

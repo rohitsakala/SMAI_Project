@@ -1,0 +1,1 @@
+<p>I created a restful controller with the command <code>grails generate-restful-controller Domain</code>, how to set <code>scaffold = true</code> in the controller created, to use the template RestfulController.groovy</p>

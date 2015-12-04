@@ -1,0 +1,1 @@
+<p>I have a report created using a Report Builder 3.0. Now I want to manage it in Visual Studio using SSRS but even though the file type is <code>.rdl</code>, when I click to open the report what I get is <code>XML</code> file. How do I accomplish this task?</p>

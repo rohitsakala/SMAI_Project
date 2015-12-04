@@ -1,0 +1,1 @@
+<p>I need to design a UIView as the tableview cell with separate xib file. I also tried it with creating a separate xib and design its view matches to tableview cell type. But it is failed, there is any programming guide to create a custom, reusable, tableview cell creation?</p>  <p>After creating custom tableview cell how can we add it to the table view?</p>

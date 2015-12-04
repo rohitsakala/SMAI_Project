@@ -1,0 +1,1 @@
+<p>Is it currently possible to use iOS 9's new San Francisco font in SpriteKit's <code>SKLabelNode</code>? Apple has explicitly asked us not to instantiate the font by name, but that's the only way <code>SKLabelNode</code> provides for selecting fonts.</p>

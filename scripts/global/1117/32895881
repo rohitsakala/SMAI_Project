@@ -1,0 +1,1 @@
+<p>I would like to ceate a text block inside a scroll view. I want the scroll view to be automatic on every device and every screen size. But for the moment, I am forced to fix an height, in pixels. Otherwise, the scroll view will adapt to the text size... Without doing its scrolling job. How to do this properly?</p>  <p>Thanks!</p>

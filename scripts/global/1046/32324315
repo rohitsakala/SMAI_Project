@@ -1,0 +1,1 @@
+<p>I have create a game with Mono Game 3.4 distributed by Click-Once wizard, using Visual Studio Express 2015. I would like to distribute only on windows. The Click-Once wizard works well, but I don't want the program to automatically run after Click-Once. But I don't know how to do it, please help me.</p>

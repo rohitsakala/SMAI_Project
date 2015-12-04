@@ -1,0 +1,1 @@
+<p>I am using CVX to solve my Generalized GP problem. The process is rather slow. I would like to know if parallel processing in MATLAB can let the CPU cores use the CVX in parallel form.</p>

@@ -1,0 +1,1 @@
+<p>Let's say I'm sending a <code>POST</code> request with <code>Angular</code> to a server which makes an HTML output from the object I have sent and then I want to redirect the user immediately to that new HTML page, so I kind of need to redirect that user to that page. How can I do this without using <code>Html Form</code>?</p>

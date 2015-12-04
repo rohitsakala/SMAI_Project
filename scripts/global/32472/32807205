@@ -1,0 +1,1 @@
+<p>I have an external class which contains my SQL functions.  The Data Reader Lookup function performs most checks in a database. When i try and assign my DataList Datasource to the result from my SQL statement. On debug my DataList does not show at all.</p>

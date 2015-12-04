@@ -1,0 +1,1 @@
+<p>I have a request to sort array of Strings but not using default encoding. I need to convert it to "IBM500" to sort it, and to convert the result to default encoding and return it. </p>  <p>We already have a function in db that is doing that but we need to reimplement this with Java. I don't have much experience with encoding, so every hint or example would be great!</p>

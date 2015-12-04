@@ -1,0 +1,1 @@
+<p>I am trying to use the brushing tool for 3D plots in GUI Matlab, It works just fine in the console but when done through .m files it doesnt even activate the brush. Any help would be appreciated</p>

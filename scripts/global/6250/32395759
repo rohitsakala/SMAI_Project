@@ -1,0 +1,1 @@
+<p>So I have this :</p>  <pre><code>dim nonDecString as string = "12" dim decimalPlaces as integer = 2 //this value can be changed dynamically </code></pre>  <p>What I want is to convert that nonDecString to have decimal places as "12.00" or "12.000", or "12.00n0".</p>

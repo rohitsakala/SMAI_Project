@@ -1,0 +1,1 @@
+<p>MySQL (5.5.17) 64 bit was working fine until I installed XAMPP (1.7.7) which contains MySQL (5.5.16) 32 bit. </p>  <p>Now it (MySQL (5.5.17)) says: </p>  <blockquote>   <p>Can't connect to MySQL server on 'localhost' (10061)</p> </blockquote>  <p>I tried everything (changing port etc) including uninstalling/installing MySQL server &amp; XAMPP. Still no use.</p>

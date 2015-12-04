@@ -1,0 +1,1 @@
+<p>How can I update remote branches list in git?</p>  <p>I have pushed any branch to git on server. On second local copy of repository I want to get this branch and make</p>  <blockquote>   <p>show branch -r</p> </blockquote>  <p>but i haven't new branch in this list</p>  <p>how can I update git's remote branch list???</p>

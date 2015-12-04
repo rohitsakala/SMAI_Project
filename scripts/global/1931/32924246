@@ -1,0 +1,1 @@
+<p>I have following class:</p>  <pre><code>public class UsersHolder {     private Set&lt;User&gt; users = new HashSet&lt;&gt;();      public void addUser(User user) {         users.add(user);     }     ... } </code></pre>  <p>users have not setter method</p>  <p>Is there way to test <code>addUser</code> method?</p>

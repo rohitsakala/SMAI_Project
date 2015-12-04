@@ -1,0 +1,1 @@
+<p>I am making a number of calls from a java client application to a server using a TLS connection.  To avoid the TLS handshake overhead, I would like to resume the session using a session ID, similar to what a web browser does.  I am currently establishing each request using an HttpsURLConenction object.</p>  <p>How is this accomplished in Java?  What API am I looking for?</p>

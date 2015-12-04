@@ -1,0 +1,1 @@
+<p>I'm a newbie of Linux.</p>  <p>I'm modifying kernel/sys.c in Linux kernel source.</p>  <p>To see the fluctuation of system calls, I want to modify this source to print the time. </p>  <p>But I think I can use printf in kernel source. </p>  <p>How can I print time????</p>

@@ -1,0 +1,1 @@
+<p>Why does <code>(9 &gt; 8) === true</code> result in "<code>true</code>" but <code>(10&gt;9&gt;8) === true</code> results in "<code>false</code>"?</p>

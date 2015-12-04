@@ -1,0 +1,1 @@
+<p>Hi in the app I am making I have a tab bar so the map view doesn't reload whenever you change views using the tab bar.  I am trying to have my map view reload every time it appears.  How do I do this?  Im assuming it has to do with the <code>viewDidAppear</code> function. </p>  <p>Can anyone help me? Thanks</p>

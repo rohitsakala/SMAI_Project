@@ -1,0 +1,1 @@
+<p>I have a timestamp and I want to check whether the time is before or after a certain time (9:00 AM). To be more specific, I want to know whether a person is late or not and the cut-off time is 9 AM. How do I code this?</p>  <pre><code>2015-09-22 08:59:59 //Print on time 2015-09-22 09:00:00 //Print on time 2015-09-22 09:00:01 //Print you are late </code></pre>

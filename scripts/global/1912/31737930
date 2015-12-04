@@ -1,0 +1,1 @@
+<p>I am using mvn dashboard plugin to create the dashboard of surefire and cobertura test reports. I have 2 projects and it is creating two different dashboards for two different projects. How i can combine these two dashboard report into one in maven.</p>  <p>This is required as i am using jenkins to execute my two projects independently and create report for me !! </p>

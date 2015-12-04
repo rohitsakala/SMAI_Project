@@ -1,0 +1,1 @@
+<p>WeasyPrint doesn't support some of the CSS3 features (yet, I hope), and running a Python script throws a long list of ignored entries (eg. box shadows, gradients), then a job summary. Is it possible to run WeasyPrint in silent mode, without any information shown?</p>

@@ -1,0 +1,1 @@
+<p>using the following as an example:</p>  <p>var1, err1 = class.method</p>  <p>here is the pseudo code of what I would like to write a compound rspec expect statement to handle:</p>  <p>If var1 is nil then err1 should not be nil</p>

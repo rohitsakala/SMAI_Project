@@ -1,0 +1,1 @@
+<p>I have fluentd setup in 6 machines, all the machines are sends application logs and syslogs to elastic search, but i would like to add the IPaddress along with the message.</p>  <p>Please help.</p>

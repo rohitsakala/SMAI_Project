@@ -1,0 +1,1 @@
+<p>After finishing my project, I found that there is a huge (55 MB) <code>dump.txt</code> file inside <code>app\build\outputs\mapping\release</code> in android studio project. I googled and found that this is from ProGuard. </p>  <p>Now, my question is if I delete that file, will there be any problem? It's making my whole project size greater than 100 MB</p>

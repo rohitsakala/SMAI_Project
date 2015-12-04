@@ -1,0 +1,1 @@
+<p>How to maintain session in Jmeter so that each user should login, search tickets and then logout ? and this process kept going until loop completes for all users. As I am trying to test our web application with multiple users. </p>

@@ -1,0 +1,1 @@
+<p>I need to populate an array </p>  <pre><code>String[] imageURLs; </code></pre>  <p>With all the urls of the files contained in a specific online directory such as "<a href="http://www.example.com/gallery" rel="nofollow">http://www.example.com/gallery</a>". How can I do this?</p>

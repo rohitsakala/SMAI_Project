@@ -1,0 +1,1 @@
+<p>Or hold the return of <code>list.begin ()</code> to erase the just <code>push_front</code>ed element later?</p>  <p>Or hold the return of <code>list.end ()</code> to erase the just <code>push_back</code>ed element later?</p>

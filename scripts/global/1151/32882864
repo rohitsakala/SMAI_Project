@@ -1,0 +1,1 @@
+<p>How to get the 2nd letter of city using SQL?</p>  <p>table employee consists EmpID,FirstName,LastName,salary and city.</p>  <p>I have to get Employee details  which have city start with 'N' and city 2nd letter not equal to 'E'</p>

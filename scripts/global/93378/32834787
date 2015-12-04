@@ -1,0 +1,1 @@
+<p>I wrote this class:</p>  <pre><code>public class SomethingViewModel {     public IEnumerable&lt;EnumType&gt; Items { get; set; }     ... } </code></pre>  <p>How can I extend <strong>@Html.EnumDropDownListFor</strong> to use in this way:</p>  <pre><code>@Html.EnumDropDownListFor(model =&gt; model.Items, htmlAttributes: new { @class = "form-control" }) </code></pre>

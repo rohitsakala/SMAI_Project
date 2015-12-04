@@ -1,0 +1,1 @@
+<p>I used regex for the hex. <code>/^\#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/</code> but I dont know what I should for do for finding rgb, rgba and hsl. I am getting the input in string. For example, the input will contain "rgb(0,0,0)"or "rgb(0,0,0,0.2)".</p>

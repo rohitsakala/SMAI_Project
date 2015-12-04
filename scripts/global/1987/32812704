@@ -1,0 +1,1 @@
+<p>Why are interrupts disabled when the kernel is currently handling an interrupt ?</p>  <p>What if an interrupt carrying an important message is missed ?</p>

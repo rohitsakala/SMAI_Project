@@ -1,0 +1,1 @@
+<p>people!</p>  <p>I'm creating a site with AngularJS that is working fine on every single browser, except for Firefox.  When I use firebug, the console shows "400 Bad Request" errors while trying to get the bower_components for the modal and ui-router services.</p>  <p>Could you help me?</p>  <p>Thanks!</p>

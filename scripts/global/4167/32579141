@@ -1,0 +1,1 @@
+<p>In the following url </p>  <pre><code> http://www.indiavotes.com/ac/details/1/32051/216 </code></pre>  <p>There is link to "EXPORT to CSV", but I could find neither table info nor download.csv link in pagesource().</p>  <p>How can I download this csv using R? </p>

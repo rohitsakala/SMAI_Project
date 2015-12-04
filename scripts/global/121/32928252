@@ -1,0 +1,1 @@
+<p>I am looking for an SQLite Alternative. SQlite, while it is good, it does not compress it's database, making 6 months worth of data almost 3-4 GB in my case.</p>  <p>Does anyone know whether the Firebird Embedded Server compressed it's database?</p>

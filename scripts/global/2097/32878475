@@ -1,0 +1,1 @@
+<p>I have a list</p>  <pre><code>List&lt;Widget&gt; specialWidgets = WidgetUtil.getInstance().findAllWidgetsForType(WidgetType.UNIQUE); </code></pre>  <p>which returns a list with widgets ids and names</p>  <pre><code>[Widget [id=4f90b95d-8eb3-41e0-b3b1-d9ea516e1012, name=blue widget] </code></pre>  <p>How do I get just the ids into a list using java 7? </p>

@@ -1,0 +1,1 @@
+<p>I'm building a project with the help of AngularJS with multiple apps in one projects sharing components / modules. I also have a Grunt build task to "optimize" the sources to a bundled version.</p>  <p>So the question is: Should I run my tests in Jasmine for an AngularJS project on the orginal sources or the builded version?</p>

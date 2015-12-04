@@ -1,0 +1,1 @@
+<p>I am trying to incorporate certain security functions in Hadoop mapreduce and I want to know this. For a mapreduce program, How can I know which mapper gets allocated. <br> <br> Suppose I am writing wordcount example and using 5 files and there is a cluster of machines. How can I know which file is accessed by which machine? </p>

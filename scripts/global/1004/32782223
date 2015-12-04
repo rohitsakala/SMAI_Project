@@ -1,0 +1,1 @@
+<p>i want to change the default icon of a windows form programm. The problem is, when i select a name.ico file comes this error message:</p>  <p>Argument 'picture' must be a picture that can be used as a Icon.</p>  <p>My Icon is 32X32 pixel. Can anyone say what i'm doing wrong?</p>

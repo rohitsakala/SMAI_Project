@@ -1,0 +1,1 @@
+<p>A client of ours migrated a Classic ASP application to Windows Server 2012 and pages that send email stopped working. They would like to start sending email via a remote office365 host.  Do they need to have SMTP set up on their own server in order to use CDO.Message to send mail through a remote host?</p>  <p>Thank you</p>

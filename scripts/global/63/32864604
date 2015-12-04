@@ -1,0 +1,1 @@
+<p>In my personal machine (windows 7) I can find subclipse's configuration folder under: C:\Users\My-User\AppData\Roaming\Subversion</p>  <p>however, under the machine I'm working on (windows 7 as well), the "Subversion" folder cannot seem to be found. Subclipse is already installed and seem working, but I need to set some proxy preferences and I can't find them!</p>

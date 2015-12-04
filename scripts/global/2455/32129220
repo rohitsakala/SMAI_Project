@@ -1,0 +1,1 @@
+<p>Go 1.5 managed to release a bootstrapped compiler written in Go. Assuming Go is slower than C, and the earlier Go compiler is written in C, is the bootstrapped compiler going to be slower in compilation time?</p>

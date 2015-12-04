@@ -1,0 +1,1 @@
+<p>I'm trying to create an android application which depends on JSON responses. Sometimes it takes a lot of time for the server to respond and ends in a time out exception. Therefore I would like to add a restriction like my webservice call should abort after 20seconds if there is no response. Can you please help me achieving this idea.</p>  <p>Thanks in Advance.</p>

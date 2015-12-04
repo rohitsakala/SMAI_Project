@@ -1,0 +1,1 @@
+<p>Am working on a spring-jsf project, am trying to follow a layered approach, which layer should a servlet filter fall into ? business or cross-cutting or is it another layer?</p>

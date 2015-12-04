@@ -1,0 +1,1 @@
+<p>does anyone of you know an event that triggers every time there is a new paragraph and not just every time someone presses the "Enter"-Key?</p>  <p>Maybe something like the "onChange" event but only for the creation of a new <code>&lt;p&gt;</code> or <code>&lt;div&gt;</code> and not for every character. </p>

@@ -1,0 +1,1 @@
+<p>Is there any way to use more than one material for Line geometry, in similar fasion it's used for Faces?</p>  <p>Basically what I need is a grid with dashed lines, and every 4-th line should be solid.</p>

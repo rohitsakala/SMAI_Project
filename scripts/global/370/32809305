@@ -1,0 +1,1 @@
+<p>RStudio has a nice vim editing mode. However, having to reach all the way to the escape key for escaping is demoralizing. Vim allows you to use ctrl-c to e.g. exit editing mode. Is it possible to enable ctrl-c escaping in RStudio's vim editing mode?</p>

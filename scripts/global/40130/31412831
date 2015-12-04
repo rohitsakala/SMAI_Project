@@ -1,0 +1,1 @@
+<p>I am loading some data from a database table in a datagrid in Flex and I require a custome component on the first empty row or on empty rows, so user can add data in to that row. How can I do that? I do not want to make the datagrid column editable.</p>

@@ -1,0 +1,1 @@
+<p>Can I consume some date from session within rewrite module rule ?</p>  <p>What I want to accomplish is to add on each URL (a href or redirect)  additional query string parameter that has current tenant name. Tenant name information I have in user's session.</p>

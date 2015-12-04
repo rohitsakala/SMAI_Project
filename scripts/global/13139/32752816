@@ -1,0 +1,1 @@
+<p>I am doing a project. To create a matrimonial site. In this,the registration datas are stored in mysql db system.now i need to get this details in another jframe when i click my profile. This registration data are retrieving from an another jframe. So is it possible to get the datas from registration jframe to my profile jframe? I have tried many ways but not working</p>

@@ -1,0 +1,1 @@
+<p>I have to find the first k digit for all Fibonacci number up to fibonacci sequence 2*10^6.</p>  <p>It is clear that we can not store the value of the fibonacci number in any variable. Even calculating all the fibonacci number itself take huge computational time. So, is there any way just to get the first k digit of fibonacci number without generating the whole number?</p>

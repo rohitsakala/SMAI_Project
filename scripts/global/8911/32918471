@@ -1,0 +1,1 @@
+<p>I have a form in wordpress page template. When the user submit the form it will be sent to a php file inside my template dir. but i dont know how to do that whithout creating a blank page which will confuse the client. any help?</p>

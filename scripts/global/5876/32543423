@@ -1,0 +1,1 @@
+<p>I need to give write permission to apache on all my files, I checked apache user in config file and with exec("whoami"), it's www-data, but if I had www-data to root group apache isn't able to write a file. I tried to set run-group as root and restart apache, but nothing change. How can I do to give this permission to apache ?</p>

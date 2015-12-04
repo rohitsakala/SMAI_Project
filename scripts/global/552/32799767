@@ -1,0 +1,1 @@
+<p>In Java, it is possible to register some sort of system callback to be executed on out of memory error by using -XX:OnOutOfMemoryError option. </p>  <p>Is there such a option in Mono C#?</p>

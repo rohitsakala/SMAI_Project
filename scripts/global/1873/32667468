@@ -1,0 +1,1 @@
+<p>I want to manipulate some attributes of my page elements in a java script function , take a look at this example and maybe you find a solution to do this.</p>  <pre><code>function doubleup(attr){ attr*=2; } doubleup(myDIV.style.zIndex); doubleup(myDIV.style.opacity); </code></pre>

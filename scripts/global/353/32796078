@@ -1,0 +1,1 @@
+<p>I have a university project composed of two part, first crawling data from a website, second analyze it. So can i use spark to parallelize the first part?</p>  <p>e.g. parallelize a function that extract data from a website</p>

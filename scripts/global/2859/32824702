@@ -1,0 +1,1 @@
+<p>Is there a tutorial on how to configure JmsAppender for WebSphere MQ? The one on the IBM site (<a href="http://www.ibm.com/developerworks/websphere/library/techarticles/0207_barcia/barcia.html" rel="nofollow">http://www.ibm.com/developerworks/websphere/library/techarticles/0207_barcia/barcia.html</a>) is not really usefull as they write their own appender.</p>

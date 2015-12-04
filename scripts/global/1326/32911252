@@ -1,0 +1,1 @@
+<p>I have following svg code :</p>  <pre><code>&lt;rect x="0" y="0" width="200" height="17"  style="stroke:#FFFFFF;stroke-width:3;stroke-dasharray:2,8; fill:none;stroke-linejoin:inherit;"&gt; &lt;/rect&gt; </code></pre>  <p>strocke is dashed but have no equal corners. Is it possible to have same corner for strocke ?</p>

@@ -1,0 +1,1 @@
+<p>I am a newbie to selenium recently saw this piece code and was not able to understand.</p>  <pre><code>String frnd = names.get(i).getText(); if (!frnd.trim().equals("")) {     System.out.println(frnd); } </code></pre>  <p>Whats the difference between <code>.equals("")</code> and <code>.equals(" ")</code>?</p>

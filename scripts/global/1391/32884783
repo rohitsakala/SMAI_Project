@@ -1,0 +1,1 @@
+<p>I have a simple ASCII string and i want to convert it to hexadecimal (base16). I'm using xCode 7 (so i'm on IOS9) but i can't find any solution anywhere.</p>  <p>I tried to change the format of my string:</p>  <pre><code>StringToConvert(String(format: "%02hhx", $0)) </code></pre>  <p>Thanks for your help :)</p>

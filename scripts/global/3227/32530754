@@ -1,0 +1,1 @@
+<p>I've been searching trying to find out what is the maximum number of mutexes in Linux for a c/c++ process without success. Also, is there a way to modify this number. The book I'm reading mentions how to find the max number of threads allowed in Linux and how to modify this number but no mention of mutexes.</p>

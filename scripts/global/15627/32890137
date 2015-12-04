@@ -1,0 +1,1 @@
+<p>I read the <a href="https://golang.org/pkg/reflect/#Value.Slice" rel="nofollow">reflect document</a> and I'm a little confused about why it doesn't have a <code>func (v Value) Slice() slice</code> function, which to get the underlying value from a reflect.Value which holds a slice in.</p>  <p>Is there a convenient way to get the underlying slice from a reflect.Value ? </p>

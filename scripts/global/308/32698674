@@ -1,0 +1,1 @@
+<p>Within an HLSL vertex shader (vs_3_0), how do you access a transform matrix that you set using <code>device-&gt;SetTransform(D3DTS_WORLDMATRIX(n), matrix)</code> , without using the effect system? Is there a default semantic available? If you have to manually make these matrices available to the shader, how is that done?</p>

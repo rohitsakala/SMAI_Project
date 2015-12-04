@@ -1,0 +1,1 @@
+<p><br>Say I have this TCL code (this is a simplistic example):</p>  <pre><code>proc foo {} {    set k {0}    foreach a { 1 2 3 4 } {       lappend k [ expr { [lindex $k end ] + $a } ]    } } </code></pre>  <p>I want to trace the k variable within proc foo, just as I would trace it, had it been a global or a namespace variable. How can I do that, in TCL 8.5?<br> Thanks.</p>

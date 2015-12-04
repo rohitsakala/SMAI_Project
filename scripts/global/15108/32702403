@@ -1,0 +1,1 @@
+<p>I am wonder if there any serializer for the model form, like <a href="https://github.com/WiserTogether/django-remote-forms" rel="nofollow">django-remote-forms</a>.</p>  <p>I noticed there is HTMLFormRenderer class for rendering, but I don't know how to use this in the view. Does it work like django-remote-forms?</p>

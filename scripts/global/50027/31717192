@@ -1,0 +1,1 @@
+<p>I am currently using ItemRealized event to get the newly added item in the loglist selector but the problem is ,it fired during pageload .during pageload i added more than 20 items to list ,that time i don't want to fire itemrealized event.  any other way equal to ItemRealized .or how to achieve this problem .</p>

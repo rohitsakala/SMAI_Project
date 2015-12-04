@@ -1,0 +1,1 @@
+<p>Why is it that my code only worked when I turned the divisor into a float?</p>  <pre><code>a = 50/1000.0*100 </code></pre>  <p>When I did the below, it returned a 0.</p>  <pre><code>a = 50/1000*100 </code></pre>

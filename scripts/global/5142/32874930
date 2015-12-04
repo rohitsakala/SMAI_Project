@@ -1,0 +1,1 @@
+<p>Sample code structure:</p>  <pre><code>init   - loop     - goroutine1   - loop     - goroutine2 main   - init   - loop     - func1     - func2     - func3 </code></pre>  <p>Lets assume that I missed an exception in any of the goroutines/funcX; how can I no matter what on program crash (e.g. panic) print a stacktrace?</p>

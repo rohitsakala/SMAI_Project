@@ -1,0 +1,1 @@
+<p>When I save a figure from MATALB, I'd like the resulting image to have very high resolution so that I can zoom in to see detail in the image. When I use 'File --> Save As' on a figure, the image is not high resolution. </p>  <p>How can I save a figure to a high resolution image in MATLAB?</p>

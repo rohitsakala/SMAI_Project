@@ -1,0 +1,1 @@
+<p>Is there a way to find out the</p>  <pre><code>  java.lang.Class  </code></pre>  <p>that is the one having </p>  <pre><code>@Entity(name = "X")? </code></pre>  <p>In other words use the Entity Name to get the classname of the Entity, of course at runtime :)</p>

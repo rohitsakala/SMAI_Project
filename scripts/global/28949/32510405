@@ -1,0 +1,1 @@
+<p>Is there a way to stop a particle system gracefully -- ie. I call stop, and the particles dissipate naturally, no new particles are generated.</p>

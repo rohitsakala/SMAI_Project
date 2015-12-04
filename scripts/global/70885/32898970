@@ -1,0 +1,1 @@
+<p>How I can hide, Y axis bottom line only in d3.js where the Inner Ticks will stay ?</p>  <pre><code>var yAxis = d3.svg.axis()     .scale(y)     .orient("right")         .ticks(3)     .innerTickSize(width)     .tickPadding([20])     .outerTickSize([1]); </code></pre>

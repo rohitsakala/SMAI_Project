@@ -1,0 +1,1 @@
+<p>Can scalable group option on Bluemix container infrastructure work with protocols other than HTTP? I created a simple TCP server, deployed in a single container on Bluemix and works fine. If I try to deploy it as a scalable group I can only assign HTTP port and it does not respond any more. Is this a current limitation? Thank you very much</p>

@@ -1,0 +1,1 @@
+<p>I am trying to find a function which will switch back to the original window in a split view for vim. I know about  shortcut and I also know about the function :call cursor. But is there a function which can let me switch back to the previous split window so I could stick it in my vim function?</p>

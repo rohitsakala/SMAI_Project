@@ -1,0 +1,1 @@
+<p>After reading <a href="https://doc.rust-lang.org/book/crates-and-modules.html" rel="nofollow">this</a> I'm wondering why is there "mod" keyword and <code>mod.rs</code>? The folder hierarchy can describe the module as well?</p>

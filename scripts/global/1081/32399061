@@ -1,0 +1,1 @@
+<p>I have an Apache Webserver with a signed certificate from StartSSL, I tried creating a Applet and now I need to sign it, but how do I do that? Do I need a new certificate, where to put what? I havent found any good explanations on Google or Oracles site.</p>

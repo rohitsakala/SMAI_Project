@@ -1,0 +1,1 @@
+<p>When the page is invalid before the form is posted, the mvc validation is switching focus to the element requiring validation but the element is hidden by a fixed bootstrap navbar. Is there a way to scroll to display the element when the validation is triggered?</p>

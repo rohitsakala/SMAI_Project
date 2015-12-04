@@ -1,0 +1,1 @@
+<p>Unknown Property – yii\base\UnknownPropertyException</p>  <p>Setting unknown property: yii\web\UrlManager::urlFormat 1. in /server/www/xmgstudent/vendor/yiisoft/yii2/base/Component.php at line 197</p>

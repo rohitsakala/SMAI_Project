@@ -1,0 +1,1 @@
+<p>I have come upon these lines in the build.gradle file:</p>  <pre><code>compile 'com.android.support:support-v13...' compile 'com.android.support:appcompat-v7...' </code></pre>  <p>Until now I thought that for supporting older versions of android you use the AppCompat libs. </p>  <p>So what exactly is the difference between "support" and "appcompat"?</p>

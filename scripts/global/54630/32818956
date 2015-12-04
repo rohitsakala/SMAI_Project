@@ -1,0 +1,1 @@
+<p>My Google script, which I'm runnig from <code>script.google.com</code> invokes a PHP script on a remote server. This PHP script works for a few minutes, maybe more.</p>  <p>How much time can the Google script wait for a response from server?</p>

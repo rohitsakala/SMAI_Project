@@ -1,0 +1,1 @@
+<p>I'm developing an application using Google Endpoints, and I created various custom exceptions which will be thrown when the user performs some unauthorised calls. However I am getting a lot of log messages from "/_ah/spi/BackendService.logMessages" as well as the whole stack trace in the method, is there a way to hide this in the App Engine Console logs? </p>

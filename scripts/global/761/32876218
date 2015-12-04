@@ -1,0 +1,1 @@
+<p>I'm looking for a method to track all our used CSS and javascript so that I can start trimming down unnecessary and legacy code.  I found the deadweight gem, but I'd like something that keeps track while doing UI testing so that if new styles are getting used after AJAX responses are resolved we get a list of those as well.</p>  <p>Any suggestions?</p>

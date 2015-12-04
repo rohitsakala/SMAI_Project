@@ -1,0 +1,1 @@
+<p>Time dependent signal is input to a Simulink model which give time dependent output, both are continuous functions, we can separately plot input/output signal values as a function of time but we want to plot input value with output value for a particular time. Does Simscape have block for that? please help. Thank you in advance.</p>

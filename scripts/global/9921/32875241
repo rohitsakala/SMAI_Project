@@ -1,0 +1,1 @@
+<p>I wanted to send a get request in python and return it as a string. I wanna eventually use that string as something later on. Also by default does python return it in json format? </p>  <pre><code>req = requests.get(server, auth=('user',"pass")) </code></pre>  <p>thanks</p>

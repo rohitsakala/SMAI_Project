@@ -1,0 +1,1 @@
+<p>I am new to android and i have to use 256 matrices in my app, i have tried to store them directly in one or more classes but the JVM returns an error : code to large. What's the most efficient way to do that ?</p>

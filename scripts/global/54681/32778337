@@ -1,0 +1,1 @@
+<p>I don't know how to top the placeholder text in a entry box. I have a entry box that is very big and want to put the placeholder text in the top.</p>  <pre><code> &lt;Grid&gt;&lt;Entry Grid.Row="1" Placeholder="Enter notes about the item" Keyboard="Text" VerticalOptions="Start" HeightRequest="80" /&gt;&lt;/Grid&gt;  </code></pre>

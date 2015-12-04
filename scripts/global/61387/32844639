@@ -1,0 +1,1 @@
+<p>adding a private repo can be cone via</p>  <pre><code>"devDependencies": {   "my-foo-bar": "git+ssh://git@ssh.foobar.com:foo/bar.git" } </code></pre>  <p>How can I now tell npm to always install the latest available tag?</p>

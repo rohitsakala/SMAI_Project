@@ -1,0 +1,1 @@
+<p>I am planning on making an OS from scratch using <strong>Python</strong>. However I only know how to make it by writing in <strong>Assembly.</strong></p>  <hr>  <p>Is it possible for me to still <strong>write the kernel in Assembly,</strong> convert it to a binary and during boot execute the Python script?</p>  <p><em>I hope this made sense</em></p>

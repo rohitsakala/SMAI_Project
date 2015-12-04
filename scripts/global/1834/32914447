@@ -1,0 +1,1 @@
+<p>I have a pandas series of integers (they are restricted to some smallish finite subset) and a dictionary of those possible integers to doubles. I'd like to create a new series that looks like <code>dictionary[series]</code>. What's the pandas idiomatic way to do so?</p>

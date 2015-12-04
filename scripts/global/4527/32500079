@@ -1,0 +1,1 @@
+<p>I have a column name Allowed I want MSSQL query to count of both values 0 and 1</p>  <pre><code>Allowed  0 0 0 1 1 1 </code></pre>

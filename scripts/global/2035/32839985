@@ -1,0 +1,1 @@
+<p>Im trying to use irq_to_desc api to obtain the chip data and to set the irq affinity from kernel module. But the api irq_to_desc is not exported in linux kernel. Is there any way through which I can obtain the irq chip data or set irq_affinity through any other means?</p>  <p>Thanks, dev</p>

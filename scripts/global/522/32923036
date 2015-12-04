@@ -1,0 +1,1 @@
+<p>I need to find the character count of last/second word in Excel cell. Example: <code>John Smith</code> - I need a function, that would calculate the length of the word <code>Smith</code>. In that case, that would be <code>5</code>.</p>

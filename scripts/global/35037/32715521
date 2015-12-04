@@ -1,0 +1,1 @@
+<p>I am new to HBase. As per <a href="http://stackoverflow.com/questions/9192202/hbase-put-shell-command">answer on this question</a> HBase does not allow putting more than one cell value.  something like in Oracle SQL </p>  <pre><code>insert into table1 values ('abc','pqr'); </code></pre>  <p>Is there a reason why HBase does not allow this ?</p>

@@ -1,0 +1,1 @@
+<p>I have an NSString like this <code>@"uE604"</code> that I want to add a backslash too in order to use it as a unicode character. However I am having issues trying to get that to work. If I add <code>@"\\"</code> to the front of it, it doesn't work. </p>  <p>Any way I can get it working?</p>

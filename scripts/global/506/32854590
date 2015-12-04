@@ -1,0 +1,1 @@
+<p>I am looking for a quadtree/octree/2^n tree that self-balances as it accepts new observations, without knowledge of every other point, iow, it cannot rely on the median as I am writing in a 'streaming' context.  The avl tree balances as it goes by pivoting, is there another similar data structure for higher dimensioned data?</p>

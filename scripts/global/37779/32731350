@@ -1,0 +1,1 @@
+<p>how to map this json to java object ? <strong>JSON:</strong></p>  <pre><code>    {"data:{     "group_id":1,     "0":{"id":"1-1","a":"","b":"9999"},     "1":{"id":"1-1","a":"","b":"9999"}      } } </code></pre>  <p>how i suppose to map 0 and 1 as java class field ?</p>

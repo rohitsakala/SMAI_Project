@@ -1,0 +1,1 @@
+<p>How do you tell <a href="https://github.com/brigade/scss-lint" rel="nofollow">scss-lint</a> to ignore a particular line in a .scss file?</p>  <p>i.e. can you do something like this:</p>  <pre><code>.example {   display: block !important;  // sass-lint: ignore } </code></pre>

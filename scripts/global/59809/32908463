@@ -1,0 +1,1 @@
+<p>In short, my pseudo-layout is</p>  <pre><code>&lt;View&gt;  &lt;ListView&gt;    &lt;Row&gt;      &lt;CheckBox/&gt;      &lt;Other controls/&gt;    &lt;/Row&gt;  &lt;/ListView&gt; &lt;/View&gt; </code></pre>  <p>What I need is to allow user check the boxes, but the rest of the clicks should go to a handler within a View. Couldn't find how to achieve this. Help, anyone?</p>

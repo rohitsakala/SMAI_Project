@@ -1,0 +1,1 @@
+<p>hi I want to change my /etc/my.cnf file (mysql's config file).</p>  <p>What should the below values for better performance on my queries.</p>  <pre><code>query_cache_type = 1 query_cache_limit = 1M query_cache_size = 16M </code></pre>  <p>Is there an optimal ratio for cache_size / RAM ? I have 8GB of ram on my ubuntu machine.</p>

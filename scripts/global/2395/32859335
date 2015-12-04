@@ -1,0 +1,1 @@
+<p>I'm connecting to an Amazon EMR hivethriftserver2. I always got this information:</p>  <p>Could not open client transport with JDBC Uri: jdbc:****:10000: Peer indicated failure: Error validating the login</p>  <p>What is the right password to validate the login?</p>

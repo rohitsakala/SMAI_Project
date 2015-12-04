@@ -1,0 +1,1 @@
+<p>I am adding parse push notifications to a couple existing apps. This worked well the first time, but on my second app I am getting: "Parse APNS no certificates - certificates not valid" in the delivery report. I have gone through the certificate process over and over. This is driving me crazy. Does anyone know what may be causing this error or how to troubleshoot it?</p>

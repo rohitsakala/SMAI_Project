@@ -1,0 +1,1 @@
+<p>See this screenshot:</p>  <p><a href="http://i.stack.imgur.com/QhQUv.png" rel="nofollow"><img src="http://i.stack.imgur.com/QhQUv.png" alt="enter image description here"></a></p>  <p>In the timeline you can see that the page generates ~200MB of objects, but Allocations tab only reports 470400 / 0.1621 ~ 2901912 bytes in the corresponding interval - why is that?</p>

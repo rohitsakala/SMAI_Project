@@ -1,0 +1,1 @@
+<p>The actual thing I want to know is "How can i get first 10 and then next 10 messages from activemq for page 1 and 2 respectively".</p>  <p>I want to know how to consume specific number of messages, 10 for examle, within a certain range, (10,20) for example.</p>

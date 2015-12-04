@@ -1,0 +1,1 @@
+<p>I'm working with Android webview, i have disabled server js by the following code:</p>  <pre><code>webview.getSettings().setJavaScriptEnabled(false); </code></pre>  <p>But i wanna execute my javascript (to change background color, text color, etc) Is there any way to do this without re-enable js?</p>  <p>Thank you very much!</p>

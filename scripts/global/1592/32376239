@@ -1,0 +1,1 @@
+<p>How to retrieve the hyphenation values in word document using interop dll. Example- In one word document, I have enabled the autohyphenation option and the hyphens have been enabled in my word document.Now i want to know the code for retrieving the hyphenation values uisng interop dll </p>

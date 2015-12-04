@@ -1,0 +1,1 @@
+<p>I am using visual studio 2015 on windows 10. I want to compile a windows 7 compatible binary file. But there is no windows 7 option in the project properties. When I put the binary on windows 7, it told me "The procedure entry point CreateEventExA could not located in the dynamic link library api-ms-win-core-synch-l1-2-0.dll"</p>

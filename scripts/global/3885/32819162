@@ -1,0 +1,1 @@
+<p>I want to display changelog in first run after plugin update. I interested where should I keep information about version of plugin. I'm thought about preference <code>/.metadata/.plugins/org.eclipse.core.runtime/.settings</code> but I'm not sure it's good idea.</p>

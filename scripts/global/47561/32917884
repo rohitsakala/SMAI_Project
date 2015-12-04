@@ -1,0 +1,1 @@
+<p>I'm trying to scrape what the user has entered into an  field with HtmlAgilityPack and vb</p>  <pre><code>&lt;p&gt;Cost: &lt;input id="cost" type="text"/&gt;&lt;/p&gt; </code></pre>

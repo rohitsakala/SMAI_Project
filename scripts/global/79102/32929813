@@ -1,0 +1,1 @@
+<p>I'd like to send a few parameters to to cloud, including the password parameter, but I want to make sure it's safe to do so.</p>  <pre><code>NSDictionary *parameters = @{@"username" : self.username,                              @"password" : self.password,                              @"phoneNumber" : self.phoneNumber}; </code></pre>

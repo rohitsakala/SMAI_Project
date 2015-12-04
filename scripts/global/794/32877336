@@ -1,0 +1,1 @@
+<p>I have a machine running Linux mint(host) and another running Ubuntu server(client). </p>  <p>The host has access to via <code>wlan0</code> and I would like to connect the client to the internet via <code>eth0</code> with a static IP.</p>

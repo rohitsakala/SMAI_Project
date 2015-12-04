@@ -1,0 +1,1 @@
+<p>When will valgrind prints its error log?</p>  <p>It is dumping every error into the log file at onetime. How can I get memory lost messages instantaneously whenever I tried particular input. </p>  <p>Please help me out with this issue. Thanks in advance.</p>

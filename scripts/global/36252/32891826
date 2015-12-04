@@ -1,0 +1,1 @@
+<p>I need to validate an identity number in my WinForm textbox.</p>  <p>format: ddmmyy-xxxxx</p>  <p>I have an idea to check if 6th char is '-' and xxxxxx are random numbers, but i have no idea what to do with ddmmyy.</p>  <pre><code>Validation rule: dd = 01 - 31 mm = 01 - 12 yy = 1900 - 2015 - = - xxxxxx = random 6 numbers </code></pre>

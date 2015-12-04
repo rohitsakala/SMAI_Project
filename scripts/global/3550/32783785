@@ -1,0 +1,1 @@
+<p>How can I check for open transactions on a <a href="http://initd.org/psycopg/" rel="nofollow"><code>psycopg2</code></a> connection? I intend to add it to my unit/functional tests since Python's DB API uses implicit transactions.</p>

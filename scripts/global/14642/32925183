@@ -1,0 +1,1 @@
+<p>Followed these instruction to display a 3 column layout for page/post: <a href="http://fishpig.co.uk/magento/wordpress-integration/layout-xml/" rel="nofollow">fishpig layout XML.</a></p>  <p>Used the local.xml of the theme in <code>app/design/frontend/my_theme/default/layout/local.xml</code> but view is still default 2 column layout.</p>

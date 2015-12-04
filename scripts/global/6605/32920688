@@ -1,0 +1,1 @@
+<p>I have a webapp which required authentication to access any page of it. But for my ELB to work I have to setup health-check page for ELB so that ELB discover django app.</p>  <p>This page should return HTTP 200 and no auth required. How do I setup this with django/nginx world.</p>

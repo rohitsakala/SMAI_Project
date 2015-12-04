@@ -1,0 +1,1 @@
+<p>I have a script that uses tkinter and this is how I start:</p>  <pre><code>    import tkinter.messagebox     from tkinter import *     from tkinter.filedialog import askdirectory     from tkinter import ttk </code></pre>  <p>I am mixing here both import and from..import. Is it ok? Is there another way so I do not mix them both?</p>  <p>Thanks</p>

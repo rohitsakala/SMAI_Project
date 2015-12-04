@@ -1,0 +1,1 @@
+<p>I want to read system-properties for <code>appengine-web.xml</code> in my Java code. I have tried using <code>System.getProperty()</code> but it did not work.</p>

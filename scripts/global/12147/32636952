@@ -1,0 +1,1 @@
+<p>I have a table named weatherdata and the table currently have just over 5 million rows. </p>  <p>I am looking for a way to delete duplicate records where the combination of EventDate and EventTime are the same in multiple records. </p>

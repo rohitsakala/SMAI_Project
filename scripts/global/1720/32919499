@@ -1,0 +1,1 @@
+<p>Does cv::imencode have an identical behavior to cv::imwrite when converting cv::Mat to JPEG? I know that first one write to buffer and the second write to file but I am asking about the written content.</p>

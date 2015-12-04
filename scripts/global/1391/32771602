@@ -1,0 +1,1 @@
+<p>How can I take a string like </p>  <pre><code>John, Smith~2C John, Jones~2CMike </code></pre>  <p>And replace these hex values indicated by ~ with their ASCII counterparts? </p>

@@ -1,0 +1,1 @@
+<p>I want to get current index of a pageViewController, I don't know how I get the visible pages index.</p>  <pre><code>func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool,previousViewControllers: [UIViewController],transitionCompleted completed: Bool) {     // How to get it?  } </code></pre>

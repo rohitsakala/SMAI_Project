@@ -1,0 +1,1 @@
+<p>The vertices of triangle is given in <code>tri = [1 2 2 1; 1 2 -2 1]</code></p>  <p>I see that tri has 4 columns and 2 rows, but how does they define the vertices?</p>  <p>What are the vertices defined in the tri and how to plot them in Matlab?</p>

@@ -1,0 +1,1 @@
+<p>A simple pattern should do the job but I can't come up with/find something that works. I am looking to have something like this:  </p>  <pre><code>lines = string.gmatch(string, "^\r\n")  </code></pre>

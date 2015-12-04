@@ -1,0 +1,1 @@
+<p>I am developing a Cordova based application.I have a "Notification.wav" audio file in the resources . I want to play this file using javascript when my downloadSucess method is called.  </p>

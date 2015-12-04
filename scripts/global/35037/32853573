@@ -1,0 +1,1 @@
+<p>I'm new in Cassandra DB, and I have a very trivial question: how much parallel queries can O do without compromising perfomance? The queries are going to be like </p>  <pre><code>Select data from table where id='asdasdasd'; </code></pre>  <p>Its a server in a datacenter, it should work properly with 3000 read querys? Sorry for the poor information but its all i have.</p>

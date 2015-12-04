@@ -1,0 +1,1 @@
+<p>I'm new in Android. Need to do an application wich contain listview. I need to put in listView phone-logo(ImageButton) on each row, and when i'll tap on logo - popup menu shows with phone numbers. (phone numbers will be getin from server) And finaly onPopupItemClick - i need to app calls a number wich was tapped. thanks a lot 4 help </p>

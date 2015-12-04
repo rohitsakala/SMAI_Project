@@ -1,0 +1,1 @@
+<p>Can anyone tell me how can we achieve the functionality of SQL join in <strong>sphinx search</strong>? I want to index few columns from table1 and few from table2.</p>  <p>Tables are in MySQL.</p>

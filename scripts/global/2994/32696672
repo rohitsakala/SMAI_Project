@@ -1,0 +1,1 @@
+<pre><code>SqlDatasource1 :     Table1 ----------- Result_1 ----------- Result_2 </code></pre>  <p>I have a query, and I want to get a  <strong>Result_2 value</strong> from the query in code behind, in the BeforePrint event, and I don´t want to put a label in the report, how can I do this?</p>  <p>Thanks</p>

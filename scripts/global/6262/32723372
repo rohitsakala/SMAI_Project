@@ -1,0 +1,1 @@
+<p>I have multiple scenarios in my story file and I am running the scenarios using meta tag that will filter out the scenarios I don't want to execute. But in Serenity report it shows them as ignored and that makes it looks ugly as the ignored scenarios are lot more then the executed one. Is there any way I can remove those ignored scenarios from serenity generated report?</p>

@@ -1,0 +1,1 @@
+<p>So I type in ssh-keygen -y, then it brings up, </p>  <pre><code>Enter file in which the key is (home/name/.ssh/id_rsa):  </code></pre>  <p>, and I don't know what to type, because I don't know what my RSA key is, so my question is, how do I find my RSA key?</p>

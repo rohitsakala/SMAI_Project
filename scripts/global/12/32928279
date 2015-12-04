@@ -1,0 +1,1 @@
+<p>I need a function <code>car()</code> that returns a <code>Car</code> object. A file with the following code works:</p>  <pre><code>class Car   def something     true   end end  def car   Car.new end </code></pre>  <p>Is it right to place the function in the same file outside of the class?</p>

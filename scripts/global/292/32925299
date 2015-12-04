@@ -1,0 +1,1 @@
+<p>How can i make a cookie removed while someone clicks the logout button?</p>  <p>Here is the code which i used but didn't work through:</p>  <pre><code>&lt;?php setcookie('name','value',time()-600, '/', '', 0); ?&gt; </code></pre>  <p>Since I am not that much expert in PHP. Any Help?</p>

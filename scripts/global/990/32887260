@@ -1,0 +1,1 @@
+<p>Is there any possibility to get value from BASH array using index defined in AWK?</p>  <pre><code>Bash: table=(a b c d e) instructions | awk " BEGIN {index=0} {print \"${table[**index**]}\"; index++} " </code></pre>

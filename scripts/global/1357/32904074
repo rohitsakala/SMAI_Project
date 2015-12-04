@@ -1,0 +1,1 @@
+<p>We know that using the "stop" method we can stop the document parsing like below.</p>  <pre><code>window.stop(); </code></pre>  <p>Is there any way to restart the parsing of the document without reloading the page?</p>

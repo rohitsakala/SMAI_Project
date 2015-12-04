@@ -1,0 +1,1 @@
+<p>I used google direction API to get the direction. Now i need to plot the point in the mapview in such a way that the route drawn will be in the exact road. I find out the in order to plot exact way we need decode the polyline points.  So please give me a way to decode polyline points in swift.</p>  <p>Thanks in advance.</p>

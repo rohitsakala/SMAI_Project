@@ -1,0 +1,1 @@
+<p>How do I remove all triggers that exist in a MySQL database, where I don't exactly remember the names? They are the reasons I can't create new triggers, since they occupy events like <code>BEFORE INSERT</code>.</p>  <p>I know the syntax <code>DROP TRIGGER IF EXIST</code>, but how do I just remove ALL of them?</p>

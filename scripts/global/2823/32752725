@@ -1,0 +1,1 @@
+<p>Code:</p>  <pre><code>Response.Write(DateTime.Now.ToShortDateString()); </code></pre>  <p>Output:23/09/2015</p>  <p>Instead of: 09/23/15</p>  <p><a href="http://i.stack.imgur.com/dgsvv.png" rel="nofollow"><img src="http://i.stack.imgur.com/dgsvv.png" alt="enter image description here"></a></p>

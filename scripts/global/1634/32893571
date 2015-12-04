@@ -1,0 +1,1 @@
+<p>I have a URL <code>https://www.localhost/sitpoint/cellphone?id=Apple</code> I want to convert <code>cellphone?id=Apple</code> into to <code>/Apple</code> like <code>https://www.localhost/sitpoint/Apple</code> using .htaccess url rewrite code. </p>

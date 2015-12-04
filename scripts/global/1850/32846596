@@ -1,0 +1,1 @@
+<p>Spring Boot exposes the following 4 metrics related to GC. I am configuring Nagios to send two alerts (Warning and Critical) when they reach certain value. I am wondering what that thresholds should be? I have a 16GB heap.</p>  <ul> <li>gc.ps_marksweep.count </li> <li>gc.ps_marksweep.time </li> <li>gc.ps_scavenge.count</li> <li>gc.ps_scavenge.time</li> </ul>

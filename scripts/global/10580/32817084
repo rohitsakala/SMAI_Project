@@ -1,0 +1,1 @@
+<p>How to redirect user visiting my sites to location specific sites using the IP Address.</p>  <p>I have one website.</p>  <p><strong>For Example :</strong> </p>  <p>Site Name is <code>ab12.com</code></p>  <ol> <li>some one from India typed this url <code>ab12.com</code>,</li> <li>then the page redirects to <code>ind.ab12.com</code></li> </ol>

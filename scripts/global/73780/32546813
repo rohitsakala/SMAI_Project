@@ -1,0 +1,1 @@
+<p>I installed the <a href="https://chocolatey.org/packages/dart-sdk" rel="nofollow">Dart SDK</a> using Chocolatey on Windows 8.</p>  <pre><code>&gt; choco install dart-sdk </code></pre>  <p>What do I do next? How can I launch dart? Is there something more I need to install?</p>

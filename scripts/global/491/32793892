@@ -1,0 +1,1 @@
+<p>Is there a way to make search in all columns in chumper datatable? like <code>-&gt;searchColumns('*')</code>.</p>  <p>I don't want to specify column names in <code>searchColumns()</code> and want search in all columns.</p>  <p>Any help is appreciated.</p>

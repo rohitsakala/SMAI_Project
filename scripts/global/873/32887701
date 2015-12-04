@@ -1,0 +1,1 @@
+<p>I have some edittext for getting some integer numbers. Now I want to control their contents. e.g. if the written number is between 1 and 22 do something.</p>  <p>How do I get texts from editText and convert them into int to compare them?</p>

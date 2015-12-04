@@ -1,0 +1,1 @@
+<p>Encountered this problem in coding contest. Could think only O(n^2 log(n)) solution. I guess the expected was O(n log n).</p>  <p>I am given n numbers, I have to find 3 numbers that follow triangle inequality and have the smallest sum.</p>  <p>I hope this is quite easy to understand.</p>  <p>Eg. 10,2,5,1,8,20</p>  <p>Answer is 23 = (5+8+10)</p>

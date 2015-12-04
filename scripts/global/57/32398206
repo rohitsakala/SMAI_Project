@@ -1,0 +1,1 @@
+<p>Running StageWebView on a Windows Desktop machine, uses IE as it's browser, no matter what is the systems default Internet Browser. Is it possible to change this to Chrome?</p>  <p>I'm not interested in the built in Webkit browser in AIR</p>

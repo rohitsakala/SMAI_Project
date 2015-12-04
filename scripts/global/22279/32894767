@@ -1,0 +1,1 @@
+<p>I have a DVR camera with a serial port and also an ethernet port. 4 cameras are connected to this DVR. I can connect this ethernet or serial port to my controller. From my controller board (running on ubuntu ) which also has GSM, would I be able to stream the video to a server ?</p>

@@ -1,0 +1,1 @@
+<p>I cannot find a way to figure out which ubi device is attached to which mtd device. For instance, ubi0 can be attached to mtd1 and ubi1 to mtd0.</p>  <p>Does anyone know a way to figure out which is connected to which?</p>

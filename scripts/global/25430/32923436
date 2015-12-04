@@ -1,0 +1,1 @@
+<p>How can i save values that came back from the method to the multidimensional array ? would it be something like this : array[1][x] = methodname(...); and that in a for loop. can maybe someone help me over skype ? </p>

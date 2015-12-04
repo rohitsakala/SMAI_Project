@@ -1,0 +1,1 @@
+<p>Ok.is it possible to set url for the pages of type "localhost:5454/user/details/1" to localhost:5454/somenameofuser .. can i do it in mvc4? "somenameofuser" is an url for concrete page. I want to set this field to the class user. and this field would unikalnym..thanks for the help!</p>

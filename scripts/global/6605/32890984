@@ -1,0 +1,1 @@
+<p>Assume I have a website test.com. I have installed wordpress on it. Now I want to redirect <a href="http://test.com/postid" rel="nofollow">http://test.com/postid</a> to <a href="http://test.com/author/postid" rel="nofollow">http://test.com/author/postid</a> .</p>  <p>Server has nginx + php-fpm . What redirection rule will help me to achieve this?</p>  <p>thanks</p>

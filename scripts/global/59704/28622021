@@ -1,0 +1,1 @@
+<p>i am trying to load a gif image to the web view but while image was loading in Web view it become large... it means the size of the image is not fit to the web view..</p>  <pre><code>NSString *path = [[NSBundle mainBundle] bundlePath]; NSURL *baseURL = [NSURL fileURLWithPath:path];  [self.webview loadHTMLString:@"&lt;img src='use001.gif'&gt;" baseURL:baseURL]; </code></pre>

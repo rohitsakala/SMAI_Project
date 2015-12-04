@@ -1,0 +1,1 @@
+<p>I have a jsonarray and for that i have created pojo class. Now, i want to set jsonarray into a string. When i am doing that it throws error of <code>The JsonDeserializer StringTypeAdapter failed to deserialize json object given the type class java.lang.String</code> . And this question is differ because i want to set that jsonarray into String So, any one have any idea ?</p>

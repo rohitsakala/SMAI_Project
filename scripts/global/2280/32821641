@@ -1,0 +1,1 @@
+<p>I am working on ARM platform ,I am trying to move pin configurations in kernel files to board/SOC specific DTS|DTSI files.. can somebody in light me , how can I achieve this... or any link where ican get some help ?</p>

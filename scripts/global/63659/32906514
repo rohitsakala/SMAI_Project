@@ -1,0 +1,1 @@
+<p>I have a task, which uses a lot of size of ram memory, after that, browser crashes.. I use CANVAS, load a big model, and after that browser crashes.</p>  <p>Is there any way to limit browser process's memory, or change browser's limit and not crash it? I have to load this model in canvas, but cant do cause of this problem.. Anyone can help? Thanks.</p>

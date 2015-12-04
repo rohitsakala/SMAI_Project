@@ -1,0 +1,1 @@
+<p>I get an error at this line of code and I used reflector to go through the dll and the function fontfactory.getfont works. Is it because of the system architecture? The application is built for AnyCPU. Thank you</p>  <pre><code>static readonly Font Font7Bold = FontFactory.getFont("Arial", 7, Font.BOLD); </code></pre>

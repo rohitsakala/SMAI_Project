@@ -1,0 +1,1 @@
+<p>Let's say I have a LinkedList, <code>l1</code>. If I create a new variable <code>l2</code> and point to <code>l1</code> as follows:</p>  <pre><code>LinkedList l2 = l1; </code></pre>  <p>Am I creating a new linkedlist or am do I just create a pointer, <code>l2</code> pointing to <code>l1</code>. </p>

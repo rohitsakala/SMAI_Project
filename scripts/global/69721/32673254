@@ -1,0 +1,1 @@
+<p>1) I cant use my iPad with iOS 5.1.1 in XCode 7.0 (7A220).  In "Devices" window: </p>  <p>"Unsupported device model: "iPad is of a model that is not supported by this version of Xcode..."</p>  <p>2) Is impossible to upload iOS 5 simulator to Xcode 7; the oldest available is iOS 6.</p>  <p>What can I do to work this iPad withXcode 7?</p>

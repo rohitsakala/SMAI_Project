@@ -1,0 +1,1 @@
+<p>I'm writing a small app that automatically uploads data to a website that uses CKEditor. The language I am writing in is Java and the library I'm using is Jsoup. Does anyone know of a way to insert text into the CKeditor textbox, programmatically? I do not have admin access to the server, so setting the data on the server side is out of the question.</p>

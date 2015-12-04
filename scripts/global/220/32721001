@@ -1,0 +1,1 @@
+<p>Is it possible, with Youtrack 6.x, to:</p>  <ul> <li>enforce a password minimal complexity for all user accounts ?</li> <li>reset all passwords at once ?</li> </ul>  <p>So far, I'm only able to change passwords, one user at a time.</p>

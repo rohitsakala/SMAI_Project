@@ -1,0 +1,1 @@
+<p>I have a side navigation menu and top navigation menu rendering using partials on all pages. On the welcome page, I am trying to check the clicks. I have this, but it is not working at the moment. </p>  <pre><code>it "Checks the home link"   get '/welcome'   sleep 5   page.should have_content("Basis tool") end </code></pre>

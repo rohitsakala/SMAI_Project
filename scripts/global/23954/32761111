@@ -1,0 +1,1 @@
+<p>I am creating a chat application(kind of watsapp) in Android.</p>  <p>Here one of the core and important point is that , i need to use my own server instead of GCM.</p>  <p>So that , how can i code my manifest file so that whenever there is new message from server it will automatically detect in my broadcast receivers.?</p>

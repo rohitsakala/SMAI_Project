@@ -1,0 +1,1 @@
+<p>Instead of using google analytics <code>User ID</code> feature I want to read User Id which <code>ga.js</code> automatically generates and stores in browser cookies. I want to read this id so I can send it to my server. Is it possible?</p>

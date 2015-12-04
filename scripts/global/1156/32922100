@@ -1,0 +1,1 @@
+<p>I have to set given ( from user) precision for my <code>printf</code>. </p>  <p>How i can do it? </p>  <pre><code>int prec; float myFloatNum = 1.123123123; scanf("%d",prec); //user give me precision prinf("%.[there should be my prec specified]f", myFloatNum); </code></pre>

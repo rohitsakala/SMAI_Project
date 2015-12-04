@@ -1,0 +1,1 @@
+<p>I actually have a simple question, but couldn't find an answer. Maybe you can point me to a duplicate. So, the question is: is it possible to tell cmake to instruct a compiler to automatically include some header at the beginning of every source file, so there would be no need to put #include foo.h? Thanks!</p>

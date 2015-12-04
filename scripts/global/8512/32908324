@@ -1,0 +1,1 @@
+<p>I need to generate some random 2D points (for example 30 points) near the y=x line, insert them in a matrix, plot it and then calculate the SVD of the matrix. But since I'm new to MATLAB I don't know how can I generate my desired matrix. </p>

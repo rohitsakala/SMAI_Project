@@ -1,0 +1,1 @@
+<p>I am not using the "Default.png" files for Splash Screen for my App. When I launch my App it is showing black screen for few seconds(Ex: 4 to 5 seconds) and showing the initial screen.</p>  <p>During App launch I want to see initial view-controller UI without the black screen.</p>  <p>How can I fix this?</p>  <p>Please help</p>

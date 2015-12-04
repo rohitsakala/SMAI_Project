@@ -1,0 +1,1 @@
+<p>Is there a way to keep a thread active for a fixed period of time and the destroy it using pthread? I was hoping to run any all server function within a while loop in a thread. This way, for as long as the thread is active, the server can keep getting requests without creating a new thread.</p>

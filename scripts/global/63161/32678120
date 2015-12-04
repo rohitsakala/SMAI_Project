@@ -1,0 +1,1 @@
+<p>How can I arrange an array like a gaussian function, meaning max values in the middle, min values in edges?</p>  <p>e.g. </p>  <pre><code>var Array = [5,2,7,4,1] </code></pre>  <p>will output the following array:</p>  <pre><code>[1,4,7,5,2] </code></pre>

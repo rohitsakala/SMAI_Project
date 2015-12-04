@@ -1,0 +1,1 @@
+<p>I am writing the log generated using logd into a csv file but every time it collects the log from socket the size of log is getting bigger and bigger.Is it possible to clear the log from memory as soon as it is written into an example csv file??? How???</p>

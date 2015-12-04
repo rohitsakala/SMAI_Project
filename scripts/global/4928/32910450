@@ -1,0 +1,1 @@
+<pre><code>SUM(CASE WHEN [dbo].[tblHits].IsLike = 1 THEN 1 ELSE 0 END) as Likes      </code></pre>  <p>i want some thing like this  ,below code is giving me error </p>  <hr>  <p>cannot implicitly convert type bool? to decimal?</p>  <p><code>TotalLikes = grouped.Sum(d =&gt; d.IsLike == true ? d.IsLike = true : d.IsLike = false  )</code></p>

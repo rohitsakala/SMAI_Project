@@ -1,0 +1,1 @@
+<p>when I type a long text in textarea (or in a conteneditable div), the textarea create automatically break lines (without typing Enter key) when the long text exceed the textarea width.</p>  <p>So, how I can count new lines ? </p>  <p>Thank you in advance, cordially.</p>

@@ -1,0 +1,1 @@
+<p>There is a requirement where user want to control his location sharing (or not sharing) from custom setting screen inside the application. But as per my understanding Xtify SDK keeps on sending location always to Xtify if user has initially accepted to share location at the time of install.</p>  <p>Can we control the location sending option to Xtify by SDK function?</p>

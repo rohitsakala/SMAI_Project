@@ -1,0 +1,1 @@
+<p>As part of my compiler, I need <code>alex</code> and <code>happy</code> to run as part of my build process. How does Stack support this scenario?</p>  <p>Bonus: how can I register <code>alex</code> and <code>happy</code> as compile-time dependencies?</p>

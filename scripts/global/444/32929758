@@ -1,0 +1,1 @@
+<p>I read <a href="http://stackoverflow.com/questions/15295820/why-is-this-data-not-sending-to-view-but-data-is-in-codeigniter">this question</a> but it can't help me a lot...</p>  <p>Using Ion_auth library I noted that the data to a view are passed by $this->data[] and not simple by $data.</p>  <p>Why? Where is the difference or the vantage to do this?</p>

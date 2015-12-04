@@ -1,0 +1,1 @@
+<p>Is there a way to run a sas program with an external 'header' file (similar to python? For example, in python I can put 'import var_names.py' at the top of main.py, and change what I want in var_names.py instead of having to alter main.py. Is there something similar for SAS? Thank you!</p>

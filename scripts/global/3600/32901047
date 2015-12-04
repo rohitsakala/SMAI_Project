@@ -1,0 +1,1 @@
+<p>I'm using a chrome with version 47.0.2522.0 dev (64-bit) on Mac OS 10.11 It works well until I right click on a page and click "Inspect" When refresh with the tools open, I will get a message of "Unable to connect to the Internet", then if the tools are closed, it works well immediately. What's going on with my chrome? I have to use firefox as the developing browser now.</p>

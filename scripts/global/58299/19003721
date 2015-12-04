@@ -1,0 +1,1 @@
+<p>My application needs to access the call history of the <code>iPhone</code>, it's possible to access </p>  <pre><code>"/private/var/wireless/Library/CallHistory/call_history.db" since iOS 5. </code></pre>  <p>So i had like to know if Apple has changed the security in <code>iOS7</code> to allow third party apps to access the <code>"call_history.db"</code></p>  <p>Thanks.</p>

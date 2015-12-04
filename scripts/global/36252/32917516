@@ -1,0 +1,1 @@
+<p>My C# form (Visual Studio 2008) has an advanced mode with more bells and whistles (larger form size) and also a normal mode (smaller form size).</p>  <p>If a user clicks on the maximize button, I'd like the form to toggle to either advanced mode or normal mode, instead of maximizing the form itself.</p>  <p>Is this possible? </p>

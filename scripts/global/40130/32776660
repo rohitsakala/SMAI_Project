@@ -1,0 +1,1 @@
+<p>Is there a basic layout in the Spark classes that support padding? VerticalLayout and HorizontalLayout both support padding but BasicLayout does not. </p>

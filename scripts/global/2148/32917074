@@ -1,0 +1,1 @@
+<p>This plsql is returning the error:</p>  <blockquote>   <p>ORA-00922: missing or invalid option</p> </blockquote>  <pre><code>DECLARE BEGIN  EXECUTE IMMEDIATE 'ALTER USER upper(:USERNAME) IDENTIFIED BY :NEW_PASSWORD REPLACE :OLD_PASSWORD';  END; </code></pre>

@@ -1,0 +1,1 @@
+<p>I have tabhost with 5 tabs, If i select any tab i have to create lot of textviews dynamically, but while selecting other tab its taking more time to render textview in view..?</p>  <p>How to improve this performance..?</p>

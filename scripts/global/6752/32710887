@@ -1,0 +1,1 @@
+<p>I am developing site in <code>php with responsive HTML</code>. Now, I want to hide menu if user open that site in <code>mobile browser (iOS and Android)</code>.</p>  <p>Then how i can verify in <code>HTML or jQuery</code> so i can <code>hide menu.</code> I tried to find but not get any proper solution.</p>  <p>Let me know if any one have.</p>  <p>Thanks</p>

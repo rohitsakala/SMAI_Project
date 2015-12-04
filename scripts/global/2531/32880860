@@ -1,0 +1,1 @@
+<p>The following simple Python code in the second iteration gives me the error: 'str' is not callable.</p>  <pre><code>for i in range(1,3):   print(i)   str1="onestring";   str3="thirdstring";   str=str1+str(i)+str3;   print(str); </code></pre>  <p>How can I solve this problem?</p>

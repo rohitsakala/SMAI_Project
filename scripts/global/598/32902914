@@ -1,0 +1,1 @@
+<p>I am trying to measure the performance off all the akka actors involved in the system, focusing mainly on the duration of reply to messages. </p>  <p>Is there any way to do this automatically or I should rely on the information lgged on preStart and preStop?</p>

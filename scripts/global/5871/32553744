@@ -1,0 +1,1 @@
+<p>copy assignment operator not called in first case but not on second</p>  <pre><code>class Shape { //Shape class  };  Shape func() {     return Shape(); }  int main() {     Shape sh1 = func(); // copy assignment operator not called     Shape sh2;     sh2 = func(); // copy assignment operator called } </code></pre>

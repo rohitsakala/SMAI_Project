@@ -1,0 +1,1 @@
+<p>I use line breakpoints in PyCharm (CE 4.5.4) with Python 2.7.10 on a Mac (OS X 10.10.5).</p>  <p>It also uses PyQt4 and their threading mechanism (QtCore.QThread).<br> Any breakpoint on a line of code executed on a such thread (i.e. other than the main thread) is never hit.  </p>  <p>At some point it worked for a while, but now it doesn't, no matter what I tried.</p>

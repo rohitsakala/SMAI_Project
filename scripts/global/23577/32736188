@@ -1,0 +1,1 @@
+<p>I have a text as:  sometext[string1 string2]someText </p>  <p>I want to retrieve string1 and string2 as separate strings from this text How can i parse it in objective - c?</p>

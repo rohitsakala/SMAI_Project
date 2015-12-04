@@ -1,0 +1,1 @@
+<p>If I mouseenter on img with ID #ASC-01 I want to add class to li with same ID but with different path, is that possible to do this? I mean to write a path in braces, see the code.</p>  <pre><code>    $(".pile img#ASC-01").mouseenter(function(){     $(".option ul li#ASC-01").addClass("highlight_option"); }); </code></pre>  <p>thank you for any help</p>

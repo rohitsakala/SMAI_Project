@@ -1,0 +1,1 @@
+<p>I have a problem with checking OpenSSL version in android device. I've tried to: <code>grep</code> </p>  <blockquote>   <p>OpenSSL</p> </blockquote>  <p>from <code>system/lib/</code> with java <code>runtime.exec</code>, but it doesn't work. How do I check the version properly?</p>

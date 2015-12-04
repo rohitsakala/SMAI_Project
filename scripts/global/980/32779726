@@ -1,0 +1,1 @@
+<p>I am working on making a user login with with google plus in my android app. So on click of the button an account picker is shown to him which just contains a list of mail ids registered on device and an option to add new account.(This is done using account picker api of android) Now I also want to display the profile picture of the registered ids along with their mail id.</p>

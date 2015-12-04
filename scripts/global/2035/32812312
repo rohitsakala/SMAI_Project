@@ -1,0 +1,1 @@
+<p>I've tried char pointer taking parameter by <code>module_param()</code>, but compiler says: </p>  <blockquote>   <p>"Expected string literal before..."</p> </blockquote>

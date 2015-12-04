@@ -1,0 +1,1 @@
+<p>When I query field System.Environment.OSVersion in my Windows Phone it shows value {Microsoft Windows NT 8.10.14219/0} an it appears to be public, but I can't get the value in the code, since property OSVersion is not listed.</p>  <p>Can I get it using reflection?</p>

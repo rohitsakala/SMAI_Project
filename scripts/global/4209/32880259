@@ -1,0 +1,1 @@
+<p>I want to develop an app in which I may need to support resumable file upload. Is there any way to support resumable file upload.Please note that I may queue up file uploads also.</p>  <p>I'm using AFNetworking. Server: IIS.</p>  <p>If possible, please provide a robust solution to it. I'm open for both (server-client side) solutions.</p>

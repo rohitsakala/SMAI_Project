@@ -1,0 +1,1 @@
+<p>I have websocket based application which requires to run as <strong><em>php server.php</em></strong>.</p>  <p>In my local Ubuntu computer I run on terminal as <strong><em>php server.php</em></strong>. And it works without a problem unless I break that up with <kbd>Ctrl</kbd> + <kbd>C</kbd></p>  <p>So, how can I achive that in live server? Is there some features in cpanel?</p>

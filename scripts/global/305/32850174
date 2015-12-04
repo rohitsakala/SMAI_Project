@@ -1,0 +1,1 @@
+<p>Can I always trust that when I divide two IEEE 754 doubles that exactly represent integers, I get the exact value?</p>  <p>For example: </p>  <pre><code>80.0/4.0 =&gt; 20.0 </code></pre>  <p>The result is exactly <code>20.0</code>.</p>  <p>Are there some potential values where the result is inaccurate like <code>19.99999999</code>? </p>

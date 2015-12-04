@@ -1,0 +1,1 @@
+<p>I am trying to test a function of aspx page which returns an html string. The problem occured at line of code which calls page.aspx.resx file and loads a string from there.</p>

@@ -1,0 +1,1 @@
+<p>i got error in sqoop in oozie workflow Main class [org.apache.oozie.action.hadoop.SqoopMain], exit code [1]</p>  <p>i got error at hive in oozie workflow</p>  <p>Main class [org.apache.oozie.action.hadoop.HiveMain], exit code [12]</p>  <p><strong>please give step by step example for done to slove this problem</strong>  i want solution hortonworks </p>

@@ -1,0 +1,1 @@
+<p>I tried to build binutils with arm-linux-gcc on x64 debian. But it failed.</p>  <pre><code>readelf.c:4978:9: error: duplicate case value </code></pre>

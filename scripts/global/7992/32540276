@@ -1,0 +1,1 @@
+<p>Please refer to the following method:</p>  <pre><code>public static Boolean valueOf(boolean b) {     return b ? Boolean.TRUE : Boolean.FALSE; } </code></pre>  <p>I always thought the first part of a Ternary operator must be a condition, but here it's a return statement instead and I'm confused.</p>

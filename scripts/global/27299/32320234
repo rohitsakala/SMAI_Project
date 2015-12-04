@@ -1,0 +1,1 @@
+<p>I do an aplication that reports valance I simply call</p>  <pre><code>platformRequest("tel:*222#"); </code></pre>  <p>Where *222# is the way to get valance in my network Work in Samnsug for the moment  But in Some Lg istead of do ussd do a voice call and of course fail</p>  <p>I want to know if are a way to force do a ussd intead a voice call to *222# for this phones.</p>

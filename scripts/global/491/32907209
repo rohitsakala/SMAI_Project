@@ -1,0 +1,1 @@
+<p>Is there a way to update a single row in a Primefaces datatable made of dynamic columns  (programmatically or not) rather than updating the whole datatable or each cell of the row ? Omnifaces method Ajax.updateRow works only for non dynamic columns. Thanks in advance.</p>

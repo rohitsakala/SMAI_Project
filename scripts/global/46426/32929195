@@ -1,0 +1,1 @@
+<p>I am having difficulties finding the correct module for Parse when deploying onto IBM BlueMix. I have tried the following:</p>  <pre><code> var Parse = require('node-parse-api').Parse; </code></pre>  <p>This works locally because I used npm-install for parse but I am unsure of how to include this module on IBM BlueMix.</p>

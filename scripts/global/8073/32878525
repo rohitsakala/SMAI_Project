@@ -1,0 +1,1 @@
+<p>I want to add a custom secondary user store with a custom UserStoreManager. The documentation doesn't say anything on how the roles should be configured.</p>  <p>What is the simplest way to add dummy role data? All users in the secondary user store can have the same role. Which role method in JDBCUserStoreManager can I override?</p>

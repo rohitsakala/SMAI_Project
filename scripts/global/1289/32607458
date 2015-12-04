@@ -1,0 +1,1 @@
+<p>I need to create a really simple table in Excel with data from a Postgres db in localhost.</p>  <p>I've managed to do it with <a href="http://uda.openlinksw.com/odbc-postgres-st/" rel="nofollow">OpenLink PostgreSQL Lite Driver</a> but doesn't look friendly or manageable. I used to use ODBC on Windows, but I'm not sure on OS X. I need it to be open source.</p>

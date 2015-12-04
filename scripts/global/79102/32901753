@@ -1,0 +1,1 @@
+<p>Parse is awesome. But I want to handle all request from my own server. Since parse has been open sourced. I'd like to know if it is possible to replace the default server api.parse.com to api.mydomain.com. </p>  <p>Sorry no code. I just need a way to implement such.</p>

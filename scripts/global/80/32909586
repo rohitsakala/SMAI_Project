@@ -1,0 +1,1 @@
+<p>For some reasons, my ispconfig setup when I create a new FTP or SSH user, add /home/USER at the end of the path, like this:</p>  <p>/var/www/clients/client1/web12/home/user</p>  <p>Instead of just</p>  <p>/var/www/clients/client1/web12/</p>  <p>Someone has an idea? Thanks</p>

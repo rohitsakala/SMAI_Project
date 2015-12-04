@@ -1,0 +1,1 @@
+<p>Suppose I want some mercurial settings to be avaliable to whole team. Is it ok (true way?) to have /.hg/hgrc under version control? Is there any other solutions?</p>

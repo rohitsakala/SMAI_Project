@@ -1,0 +1,1 @@
+<p>I need the answer of the question or know how to force "cairo.queue_draw" for get the text_extents whenever I need. Normaly queue_draw runs at the last of the procedure and I need get the text width in the middle of the procedure. Maybe is posible using Pango?</p>

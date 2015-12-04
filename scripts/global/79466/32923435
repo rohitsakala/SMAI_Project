@@ -1,0 +1,1 @@
+<p>I want to convert the firebase result to JSON list (dynamially).</p>  <pre><code>ref.child("USERS").child(localStorage.getItem('id')).child("ADDRESS").on("child_added", function(snapshot)   {     var data = snapshot.val();           });  </code></pre>  <p>I need the list like this:</p>  <pre><code>$scope.AddressList =  [     { Name: "Sampel" },          ]; </code></pre>

@@ -1,0 +1,1 @@
+<p>Can Lucene counts documents after having grouped them by a NumericField?</p>  <p>Only counting, not loading all documents content.</p>

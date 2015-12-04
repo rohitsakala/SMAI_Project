@@ -1,0 +1,1 @@
+<p>I'm designing a system that has a linux machine communicating serially with a microcontroller over a USB to RS-485 interface. I'd like to do this in Go if possible.</p>  <p>How can I programmatically send data over the linux machine's USB port?</p>

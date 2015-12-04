@@ -1,0 +1,1 @@
+<p>If I had a IP address range (e.g. 192.168.0.0 - 192.168.0.255) and I was counting up (say incrementing by a random number), how could I determine whether I've gone past the range?</p>

@@ -1,0 +1,1 @@
+<p>I need to archive a few files into a zip file and upload the zip to an FTP server.How do i create a zip,then directly upload it without having to save it locally?(I'm using the ftplib.FTP and zipfile modules in python)</p>

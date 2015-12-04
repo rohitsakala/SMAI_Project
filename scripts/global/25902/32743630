@@ -1,0 +1,1 @@
+<p><a href="http://i.stack.imgur.com/W2Vjr.png" rel="nofollow"><img src="http://i.stack.imgur.com/W2Vjr.png" alt="enter image description here"></a></p>  <p>It seems I cannot use "Popover" or "Form Sheet". Then how do I implement this?</p>  <p>I do not want to use a container view controller, or a view that is hidden.</p>  <p>Can I make a custom segue class to achieve this?</p>

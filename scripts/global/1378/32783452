@@ -1,0 +1,1 @@
+<p>I have a large table with a few million records.</p>  <p>Have got an MVC5 solution and using PagedList.MVC with Entity Framework I have a page showing the paged table with sorting and filters.</p>  <p>But every filter and page-change operation requires a postback.</p>  <p>Is there any way to prevent postbacks without pre-loading the entire table into memory?</p>

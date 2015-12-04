@@ -1,0 +1,1 @@
+<p>I have an application that uses a single file as a read input, I'd use a queue to acess this file,</p>  <p>I'd like to implement a singleton threadpool, with waiting queue but I do not know how,</p>  <p>The queue must contain the http request of all client request,</p>  <p>Thank you for your help</p>

@@ -1,0 +1,1 @@
+<p>Hi i want to monitor the count of a mutable array in swift. Whenever i add/remove objects to array, i need a notification regarding the count. Does KVO helps here?, if not what are the other possible solutions. Any help will be appreciated.</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to create a global INSERT INTO query using macro only?  Something like:</p>  <pre><code>#define INSERT_INTO(TABLE,...) "INSERT INTO " #TABLE "(" #ARG1 "," #ARGS2 .....")" </code></pre>

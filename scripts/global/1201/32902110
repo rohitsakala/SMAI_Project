@@ -1,0 +1,1 @@
+<p>Im using a the sapui5 router to navigate between views. But i have trouble to implement the login screen.</p>  <p>How can i tell the router to redirect to the login screen if there is no authenication made by the user?</p>  <p>i configured the router in the component.js</p>

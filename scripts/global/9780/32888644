@@ -1,0 +1,1 @@
+<p>How to convert <code>UnsafePointer&lt;UInt8&gt;</code> to array <code>[Float]</code> in Swift?</p>  <p>Any idea about how can I make this conversion? Thanks!</p>

@@ -1,0 +1,1 @@
+<p>I'm unable to get fsharp-mode to display the type signatures. I turned on the debug output and there's the following message: 'Cached typecheck results not yet available'. Any ideas how to get it working?</p>

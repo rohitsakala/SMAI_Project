@@ -1,0 +1,1 @@
+<p>For example the following text (in the file):</p>  <p>18[tab]Robert[tab]Nice to see you again</p>  <p>I want my code capture: - 18 - Robert - Nice to see you again</p>  <p>I tried it with fscanf(file,"%s\t",buffer) but it captured words separated by spaces</p>  <p>Thanks</p>

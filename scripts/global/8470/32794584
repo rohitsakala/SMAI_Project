@@ -1,0 +1,1 @@
+<p>Suppose I want to create a class <code>Myset</code> that implements <code>sets</code>, with some methods like </p>  <pre><code>-void Insert(Object o)  -Union(Myset a) -Intersection(Myset a).  </code></pre>  <p>Using <code>Vector</code>/<code>HashSet</code>/<code>Linkedlist</code>.</p>

@@ -1,0 +1,1 @@
+<p>i am trying to do a facebook integration but it shows me error "ReferenceError: plugin is not defined" then how to set plugin? Here is my line of code </p>  <p><code>var facebook = plugin.FacebookAgent.getInstance();</code></p>

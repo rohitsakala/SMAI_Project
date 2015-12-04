@@ -1,0 +1,1 @@
+<p>I am making an app that reacts to TelephonyManager.SIM_STATE_NETWORK_LOCKED.</p>  <p>can i simulate this state on an emulator, though adb or through some other measure ?</p>

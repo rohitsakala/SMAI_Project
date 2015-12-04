@@ -1,0 +1,1 @@
+<p>I'm having trouble finding some explaination on how to encode/decode various types in Distinguished Encoding Rules. How are strings (IA5String, PrintableString) and time (UTCTime, GeneralTime) encoded?</p>

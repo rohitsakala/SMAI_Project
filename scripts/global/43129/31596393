@@ -1,0 +1,1 @@
+<p>Why these operators does not work within these examples?</p>  <pre><code>person.CityName = personInfo.Cities.CityName ?? "-";  </code></pre>  <p>or</p>  <pre><code>person.CityName = personInfo.Cities.CityName == null ? "-" : personInfo.Cities.CityName;  </code></pre>  <p>View generates System.NullReferenceException. If they are not allowed what do you advice?</p>

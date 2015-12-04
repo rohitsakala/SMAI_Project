@@ -1,0 +1,1 @@
+<p>Im trying to fetch all comments from an Instagram picture but i seem only to recieve last 8 pictures. And when I'm trying to var_dump it, it only shows me the last 8 while the count has 14 for instance. When I var_dump other items like pictures there is a pagination. But with comments there aint no pagination. You guys have any idea?</p>  <p>Cheers,</p>  <p>Armando</p>

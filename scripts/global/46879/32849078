@@ -1,0 +1,1 @@
+<ul> <li><p>Am using XML not DB to store simple data, is this a good or bad approach and why?</p></li> <li><p>Also am using Php with the XML, and am facing some issues to search with specific query in multiple XML files, could someone tell me how to read multiple XML files in the same query?</p></li> </ul>

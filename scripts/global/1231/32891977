@@ -1,0 +1,1 @@
+<p>I want to create an alias command that only works in the current directory</p>  <pre><code>$ foo BAR!!! $ cd .. $ foo bash: foo: command not found </code></pre>  <p>Is there a way to define local bash aliases that are not global?</p>

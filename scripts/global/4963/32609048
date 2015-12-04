@@ -1,0 +1,1 @@
+<p>I use java and vaadin</p>  <p>I do window.getURL() and it returns me, for example - 99.22.22.22:8080/2/ However, it's supposed to return app.server.com/2/</p>  <p>of course, app.server.com is the same as 99.22.22.22:8080</p>  <p>But how I can replace it by app.server.com??</p>

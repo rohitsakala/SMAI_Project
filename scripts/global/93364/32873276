@@ -1,0 +1,1 @@
+<p>I have an SQL database that I have to store date and time in the records. I am making a project on Visual Studio and I'm using 2 datetime picker controls to prompt for date and time respectively. </p>  <p>I want to know what kind of variable (or class) I should use to store the time and date so that I can store it in the single datetime record in my database.</p>

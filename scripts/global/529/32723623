@@ -1,0 +1,1 @@
+<p>What I tried:</p>  <ol> <li><p>Navigating to <code>usr/bin/</code> and typing <code>nscurl -h</code>.</p>  <p>I got: <code>-bash: nscurl: command not found</code></p></li> <li><p>I then tried: <code>install nscurl</code>.</p>  <p>It just return a bunch of help options for <code>install</code></p></li> </ol>

@@ -1,0 +1,1 @@
+<p>I am developing a report where it will be downloaded in excel sheet. My codes works well and i can download report in Firefox. But when i am trying to download report which has 5000 + rows in chrome , Its not getting downloaded. But same is happing in Firefox. Can anyone suggest me what should be done? Should i have to use in inbuilt plug in.</p>

@@ -1,0 +1,1 @@
+<p>For example:</p>  <pre><code>String str = "123"; </code></pre>  <p>I want to parse the string to be able to:</p>  <ol> <li>Parse a string from one point in the string, i.e. everything after the "1" or before the "3"</li> <li>Use math operations on certain parts of the string, i.e. 1 * 3</li> </ol>

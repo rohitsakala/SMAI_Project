@@ -1,0 +1,1 @@
+<p>I am working on a linter tool which written as a python script (similar to cpplint.py) and while I found a way to integrate it in my VS2013 workflow, I'm struggling to find a way to do it in XCode.</p>  <p>The goal would be to run the linter.py with a set of parameters over the file every time I save it.</p>  <p>Does anyone know if this is possible at all?</p>

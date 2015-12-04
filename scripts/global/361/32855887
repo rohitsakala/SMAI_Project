@@ -1,0 +1,1 @@
+<p>The following code generates an output of 9. I understand <code>send</code> is simply calling the method <code>:[]</code>, but am confused how the parameters work.</p>  <pre><code> x = [1,2,3]  x.send :[]=,0,4                             #why is x now [4,2,3]  x[0] + x.[](1) + x.send(:[],2)              # 4 + 2 + 3 </code></pre>  <p>How do line 2 and line 3 work?</p>

@@ -1,0 +1,1 @@
+<p>I'am developing an application with a cross platform C++ core. I used c++ rest sdk for REST requests but with the latest version of Visual Studio 2015 it's not working.</p>  <p>Is there a simple networking library in C++, without dependencies,  compatible with iOS, Android and Windows Phone 8.1?</p>  <p>I tried also Poco libs without success.</p>  <p>Thanks.</p>

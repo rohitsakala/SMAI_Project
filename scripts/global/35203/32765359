@@ -1,0 +1,1 @@
+<p>I have an iOS app written using Xamarin. Is there a way to save some file (in my case Image) to a shared folder on Windows PC? iOS device and PC are in the same WiFi network, so I can get access to PC machine by IP address. But how can I save a file to that shared folder? If that is possible I would be grateful for some code example.</p>

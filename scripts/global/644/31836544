@@ -1,0 +1,1 @@
+<p>In HTML, you can denote a simple element tag as such. <code>&lt;div&gt;&lt;/div&gt;</code>. But I am seeing in code something like, <code>&lt;x:div&gt;&lt;/div&gt;</code>. </p>  <p>Can anyone tell me roughly what that 'x' means? I can't seem to find information on it simply because I don't know how to describe it properly.</p>

@@ -1,0 +1,1 @@
+<p>This a very simple for loop:</p>  <pre><code>for (byte i = 0; i &lt;= 255; i++) {     //do something } </code></pre>  <p>the loop after i becomes 0 the loop hangs until visual studio finally stops running, but why?</p>  <p>If I change the counter type to int it works perfectly.</p>

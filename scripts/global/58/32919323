@@ -1,0 +1,1 @@
+<p>I am aware that an implementer has a choice of whether he wants to zero a malloc page or let OS give him a zeroed page (for more optimization purposes). </p>  <p>My question is simple - in Ubuntu 14.04 LTS which comes with linux kernel 3.16 and gcc 4.8.4, who will zero my pages? Is it in user land or kernel land?</p>

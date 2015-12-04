@@ -1,0 +1,1 @@
+<p>JSON.NET comes with property attributes like <code>[JsonIgnore]</code> and <code>[JsonProperty]</code>.</p>  <p>I want to create some custom ones that get run when the serialisation runs e.g. <code>[JsonIgnoreSerialize]</code> or [<code>JsonIgnoreDeserialize]</code></p>  <p>How would I go about extending the framework to include this?</p>

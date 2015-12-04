@@ -1,0 +1,1 @@
+<p>What is the right way to create a user on MacOS X, from the command line, which will be used only for running a sever application? For example, there is already the '_www' user for Apache httpd, but for the new application I want it to be using its own account.</p>

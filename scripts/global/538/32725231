@@ -1,0 +1,1 @@
+<p>How to convert this string  <code>"[{type,a},{to,room01023123},{body,hey what's up mister},{by,someone}]"</code> into a tuple like this <code>[{"type","a"},{"to","room01023123"},{"body","hey what's up mister"},{"by","someone"}]</code></p>

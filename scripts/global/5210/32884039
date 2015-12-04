@@ -1,0 +1,1 @@
+<p>If I set document.domain to be "domain.com" in both "www.domain.com" and "example.domain.com", will setting cookies in one of them will affect cookies of the other? Will their cookies be seen to each other?</p>

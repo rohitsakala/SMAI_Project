@@ -1,0 +1,1 @@
+<p>how to load vaadin jar from local system in eclipse instead of downloading it.</p>  <p>When i create a new vaadin project eclipse starts downloading vaadin jar from internet and takes lot time. how to stop this and instead of downloading jar again n again eclipse load vaadin jar from local system i.e vaadin-all-7.5.6 folder.</p>

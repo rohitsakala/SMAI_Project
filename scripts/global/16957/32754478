@@ -1,0 +1,1 @@
+<p>I have a function that I want to use with all my DBs, without adding the module containing the function to each DB. In excel I can create an add-in containing the function that'll work with any excel file I open, is there something similar in access?</p>

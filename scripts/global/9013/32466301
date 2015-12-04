@@ -1,0 +1,1 @@
+<p>I recently saw an example where a command was invoked with the following option passed to <code>env</code>: </p>  <pre><code>TMPDIR="${TMPDIR:-/tmp}" </code></pre>  <p>What does the <code>-</code> in <code>$TMPDIR</code> do? This was for an unspecified version of linux.</p>

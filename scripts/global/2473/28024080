@@ -1,0 +1,1 @@
+<p>i am having an big application developed in symfony1 with different modules. Now i developed some new modules in symfony2.</p>  <p>Authentication is used in the modules (symfony1) with username and password. I want to authenticate within the symfony2 modules with the username and password from the database in symfony1.</p>  <p>How do i make this?</p>  <p>Thanks!</p>

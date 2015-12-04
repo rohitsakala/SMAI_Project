@@ -1,0 +1,1 @@
+<p>my code is not working. please help me</p>  <pre><code>if(isset($_GET['search'])){  $search_query = $_GET['user_query']; $get_pro = "select * from products where product_keywords like   '%search_query%'"; </code></pre>

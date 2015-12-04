@@ -1,0 +1,1 @@
+<p>I have a string of 19 characters, if my string is :</p>  <blockquote>   <p>123456789012345789</p> </blockquote>  <p>I want to display it like this :</p>  <blockquote>   <p>123456*********7890</p> </blockquote>  <p>Meaning from the 7th character ot the 15th character I want to mask the characters with a <code>*</code>. What approach can I use to achieve this?</p>

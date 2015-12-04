@@ -1,0 +1,1 @@
+<p>If cudaFree() is not used in the end, will the memory being used automatically get free, after the application/kernel function using it exits?</p>

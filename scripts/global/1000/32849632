@@ -1,0 +1,1 @@
+<p>I have been asked a interview question on how to skip a protected method call execution when testing a public method which calls a protected method with in using Junit?</p>  <p>Any help ?</p>

@@ -1,0 +1,1 @@
+<p>I use <code>tail -f filename</code> monitoring a text file,and use <code>vi</code> editor adding a line at the end of the file. </p>  <p>But after saving the file I did not see the update on the terminal which '<code>tail -f</code>' are monitoring.</p>  <p>What is the problem? Is <code>vi</code> editor has buffer or something?</p>

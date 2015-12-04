@@ -1,0 +1,1 @@
+<p>I have a Tumblr page where all the images have the same width</p>  <pre><code>img.photo_img {max-width: 500px} </code></pre>  <p>is there a way to style differently the portrait and the landscape ones maybe working on their aspect ratio?</p>  <p>I would love to have:</p>  <p>PORTRAIT: width 500px LANDSCAPE: width 750px</p>  <p>Thanks.</p>

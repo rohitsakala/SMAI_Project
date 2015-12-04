@@ -1,0 +1,1 @@
+<p>Is there a way to compile FXML files to binary.</p>  <p>My problem is that some FXML files are loading to long and users can modify them in the JAR files. </p>

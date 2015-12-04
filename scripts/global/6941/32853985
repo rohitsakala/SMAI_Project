@@ -1,0 +1,1 @@
+<p>I have two transparent png files with identical width and height in my cordova/Ionic app. I wish to combine the two png files into a new png file of the same width and height with one file overlayed on top of the other file. i.e., one image is a layer on top of another image. The result must be a transparent png. How can I do this in my javascript cordova app?</p>

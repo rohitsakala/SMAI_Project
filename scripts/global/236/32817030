@@ -1,0 +1,1 @@
+<p>In my Application I want to make a kind of auto-calibration of the internal RTC. I want avoid (if possible) to use external equipment for the calibration. My idea is to use the Smooth calibration with 32 second calibration window. I want to check the correct 32 second using an internal timer (clocked by Sytem Clock). There is someone with success in this ?</p>

@@ -1,0 +1,1 @@
+<p>I'm trying to use auto layout to position a view on the Home button's side of the device, independent from it's orientation.</p>  <p>My question is, can this be achieved through auto layout? And if yes, how?</p>

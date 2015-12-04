@@ -1,0 +1,1 @@
+<p>Can I export a class from a dynamic link library written in C++? How do I use this exported class and its non-static methods in a C++ program? How can I use this exported class and its methods and members in a C# program?  Is there a way to Instantiate an object from this Dll in a C# program?  How?</p>

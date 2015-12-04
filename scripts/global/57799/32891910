@@ -1,0 +1,1 @@
+<p>I need to display in the footer of my app the assets version set in app/config.yml file:</p>  <pre><code>framework: templating:     engines: ['twig']     assets_version: v2.6.2 </code></pre>  <p>How can I get in Twig or in a controller the <strong>assets_version</strong> value?</p>

@@ -1,0 +1,1 @@
+<p><a href="http://i.stack.imgur.com/Un4ed.png" rel="nofollow"><img src="http://i.stack.imgur.com/Un4ed.png" alt="enter image description here"></a></p>  <p>I want to update status/flag without calling web service, so i implemented silent push but if app is killed then silent push will not updating my status/flag. Please tell me the other way to handle this situation.</p>

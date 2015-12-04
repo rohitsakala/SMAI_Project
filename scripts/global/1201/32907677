@@ -1,0 +1,1 @@
+<p>I want create a Routing how in Cakephp/Laravel/etc...Them I can do routing a controller, action and params, like this:</p>  <pre><code>/mycontroller/myaction/param1/param2 </code></pre>  <p>However, I not know how to do this in PHP. My purpose is to uses in RESTful.</p>  <p>Thanks....</p>

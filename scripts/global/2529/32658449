@@ -1,0 +1,1 @@
+<p>Code:</p>  <pre><code>import pygame pygame.init() screen = pygame.display.set_mode((400, 400)) </code></pre>  <p>What happens: The pygame screen pulls up, but there is a black box covering the top right-hand corner of the screen. I would post a picture but stack overflow wouldn't let me.</p>

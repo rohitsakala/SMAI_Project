@@ -1,0 +1,1 @@
+<p>How to disable fish-eye symbol for passwords in IE11(with Compatibility mode on)?</p>  <p>NOTE: I tried using the following code.</p>  <pre><code>input[type=password]::-ms-reveal, input[type=password]::-ms-clear {     display: none; } </code></pre>  <p>This code is not working for IE11 with compatibility mode on.</p>

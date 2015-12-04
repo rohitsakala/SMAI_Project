@@ -1,0 +1,1 @@
+<p>The usage of Hystrix which I have seen (i.e. with Spring cloud) uses an AMPQ broker?<br> Can Netflix Hystrix be used without RAbbitMQ? i.e. with JMS?</p>

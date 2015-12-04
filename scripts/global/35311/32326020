@@ -1,0 +1,1 @@
+<p>I registered my domain and added the key but want to test the site on my local machine. I publish the project on my machine to wwwroot and at the moment it runs on port number 8080.</p>  <p>I get the error <code>ERROR: Invalid domain for site key reCaptcha</code> when trying to run it on my local machine.</p>  <p>Is there a way testing this on the local machine?</p>

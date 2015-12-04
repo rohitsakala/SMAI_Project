@@ -1,0 +1,1 @@
+<p>i'm using padrino for an app, that needs a custom view folder. so i've used in apps.rb</p>  <p>set :views, Proc.new { File.join(root, "customfolder") }</p>  <p>but as it applies both to my app and the admin part, so obviously the later doesn't work.</p>  <p>where is the best place to set up that view so it applies only to my app and not other gems?</p>

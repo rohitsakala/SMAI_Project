@@ -1,0 +1,1 @@
+<pre><code>// Displays 'illa' the last 4 characters var mystring = 'Mozilla';  var mystring4 = mystring.substring(mystring.length - 4);  alert(mystring); </code></pre>  <p>But how I will get string <strong>"Mozi"</strong> except last <strong>3</strong> character. when <strong>"mystring"</strong> length is <strong>unknown</strong>.</p>

@@ -1,0 +1,1 @@
+<p>Alt+Q shows the context of where I'm editing, the name of the inner class, class, etc, by pressing it repeatedly.</p>  <p>But it does it automatically all the time, and it is making the editor very sluggish. I can't seem to find an option turn this auto context popup info off.... I want it to be off, while still being able to pop it up using Alt+Q.</p>

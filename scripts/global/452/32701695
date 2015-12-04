@@ -1,0 +1,1 @@
+<p>I have following code:</p>  <pre><code>list = ["1", 0] list2 = ["2", "0"]  str(list[1]) int(list2[1])  print(type(list[1])) print(type(list2[1]))  input() </code></pre>  <p>My problem is, <code>list[1]</code> stays an integer just as <code>list2[1]</code> stays a string. Where is the logic behind this, and are there any other ways for a successful conversion?</p>

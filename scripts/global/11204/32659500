@@ -1,0 +1,1 @@
+<p>I have created a table using jqgrid. I made the first column to be frozen and it works. I have also appended a button to a particular cell and its present in frozen column too.</p>  <p>Now I have a requirement that when I click on that button the below rows should be expanded/collapsed accordingly.</p>  <p>Is there a way to do it?</p>

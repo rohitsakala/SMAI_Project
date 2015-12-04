@@ -1,0 +1,1 @@
+<p>I have a file that reads</p>  <blockquote>   <p>;Layer count: 400</p>      <p>;LAYER:1</p>      <p>;RAFT</p>      <p>G0 F4200 X37.754 Y37.835 Z0.300</p>      <p>;TYPE:SUPPORT</p>      <p>G1 F1200 X59.877 Y38.583 E4.14132</p> </blockquote>  <p>How would I iterate through this file, and write the lines that start with "G1" to a new file?</p>

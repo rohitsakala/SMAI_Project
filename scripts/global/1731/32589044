@@ -1,0 +1,1 @@
+<p>I am using CLion and downloaded the Clang package from Cygwin, but CLion cannot find any compilers. Also, I noted that in my Cygwin folder, I have a Clang folder, but I don't think I have a file called Clang++. Can someone please advise me how to set this up? I thought it was a one stop shop using Cygwin but maybe I need to download/install LLVM/Clang manually?</p>

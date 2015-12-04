@@ -1,0 +1,1 @@
+<p>We have a mounted shared folder in the system, Window 2012 operating system.The folder is not accessible by Tomcat application which is running as "Local System Account".</p>  <p>I believe this might be a permission issue, but how can I change this. We don't want to run tomcat from the login account username as it expires every month.</p>

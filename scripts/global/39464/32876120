@@ -1,0 +1,1 @@
+<p>so my website is being built to support mobile as well, the problem is that i need to set the <code>minWidth</code> of the editor in order to be able to put the one i want.</p>  <p>Can anybody guide me or tell me what config to add in order to set minimum width for the editor?</p>

@@ -1,0 +1,1 @@
+<p>I have a variable in the vb script , x and I want to change the current value of the variable while running exe. application. </p>  <p>I want to use an a text box and a button so that no matter which numeric value i enter will be entered in the text box, it will assign to the variable X.</p>

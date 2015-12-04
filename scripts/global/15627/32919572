@@ -1,0 +1,1 @@
+<p>How do you find the FQDN of the local host in GO (golang)?</p>  <p>BTW: net.LookupAddr() doesn't work on Windows.  So that's not an option.</p>

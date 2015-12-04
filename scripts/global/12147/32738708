@@ -1,0 +1,1 @@
+<p>Is there anyway to detect image duplication in PHP, having the images: - Different names; - Different file sizes; - Different image widths and heights?</p>  <p>Example as follows:</p>  <p><a href="http://i.stack.imgur.com/luthl.jpg" rel="nofollow"><img src="http://i.stack.imgur.com/luthl.jpg" alt="Use case"></a></p>

@@ -1,0 +1,1 @@
+<p>when i try to enter Float numbers this is what i get  error message "Exception : Prelude.read: no parse" here is a code...</p>  <pre><code>add2Nums = putStrLn " Enter number 1 " &gt;&gt; getLine &gt;&gt;= \a -&gt;         putStrLn " Enter number 2" &gt;&gt; getLine &gt;&gt;=          \b -&gt; putStrLn (show((read a) + (read b)))  </code></pre>

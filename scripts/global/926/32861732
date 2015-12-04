@@ -1,0 +1,1 @@
+<p>I am deriving a class From <code>String</code>. but it wont allow me to inherit from that class:what i need to do if i want to inherit like this?</p>  <pre><code>public class a : string {    //class definition } </code></pre>

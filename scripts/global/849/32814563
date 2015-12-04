@@ -1,0 +1,1 @@
+<p>In Groovy could someone explain to me why the following code does not fail despite not having a return type?</p>  <pre><code>protected assertRequired(String name, String tag, attrs) {     if (!attrs.containsKey(name)) {         throwTagError "Tag [$tag] is missing required attribute [$name]"     }     return attrs[name] // conserva la propiedad en attrs. } </code></pre>

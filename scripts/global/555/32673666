@@ -1,0 +1,1 @@
+<p>How do I set my JSbeautify package in sublime to add spaces before and after function parens like so?</p>  <p>function () {</p>  <p>}</p>  <p>Note the spaces before and after the parens.</p>  <p>Scoured the docs and couldn't find an option for this in js beautify.  trying to go by the AirBnB Javascript style guide.</p>

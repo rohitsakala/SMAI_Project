@@ -1,0 +1,1 @@
+<p>I want regular expression to accept 1 - 9 numeric digits.</p>  <p>May not be in the ranges:</p>  <pre><code>-0090000000 - 009499999,0900000000 - 094000000 </code></pre>  <p>I have tried the following, but it is not working:</p>  <pre><code>^([^0900000000-009499999]|[^0900000000-094000000]|\d{9}|\d{1}|\d{2}|\d{3}|\d{4}|\d{5}|\d{6}|\d{7}|\d{8})$ </code></pre>

@@ -1,0 +1,1 @@
+<p>I have to change length of symmetric key in my database. I'm currently using TRIPLE_DES algorithm with key length 128 and I have to use key length  168 or 192, or AES_256 algorithm.</p>  <p>Is there any simple solution? If not please give me some pointers in how to do this</p>  <p>Regards, Ante </p>

@@ -1,0 +1,1 @@
+<p>My site is based on LAMP stack and I am fetching few values from the mysql database to be shown on the top menu part. I don't want to query the mysql db each time when a member traverse from one page to another. What's the best client side caching method</p>  <p>Please suggest one best approach to take it forward.</p>  <p>Thanks in advance!</p>

@@ -1,0 +1,1 @@
+<p>When I am trying to connect Google Cloud instance phpMyAdmin using root username password, it's throw below error.</p>  <blockquote>   <p>Connection for controluser as defined in your configuration failed.</p> </blockquote>  <p>Help me how to solve this issue. Last three days my site is down for this issue.</p>

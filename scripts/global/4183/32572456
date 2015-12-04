@@ -1,0 +1,1 @@
+<p>I have a simple Windows Form containing a TextBox and a ListView.</p>  <p>I want to allow the user to write text into the TextBox while focusing on the ListView (typing text into the TextBox while controlling the ListView with the keyboard arrow keys).</p>  <p>How can I do this?</p>

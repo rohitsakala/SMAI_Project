@@ -1,0 +1,1 @@
+<p>I have a png image. I need to rotate the image. But with respect to particular point in the png image. That point should be fixed while rotating. Using transform-origin only helps if we have to rotate with respect to particular border. But what should be done to rotate by the point inside the image.</p>

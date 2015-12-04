@@ -1,0 +1,1 @@
+<p>I want to browse a page on webBrowser control after getting response from httpwebrequest that I make earlier. And I want to be able to click links on the webpage opened in the webbrowser control, to make it browse the next page. How can I do this? I am using C# WinForms. Thanks in advance !</p>

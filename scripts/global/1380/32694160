@@ -1,0 +1,1 @@
+<p>if  our Application have any controller, why we must  have unit test cases for controller and it's functionality or in which scenario we skip unit test cases for controller ?</p>  <p>what is good practice, if we are going to write unit test case? </p>  <p>let me specific this question in term of symfony2 framework.   </p>

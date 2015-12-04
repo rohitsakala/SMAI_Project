@@ -1,0 +1,1 @@
+<p>When I export data from MySQL Workbench some original text in DB that are stored eg. "Banda Oriental Latinoamérica" are changed to "Banda Oriental LatinoamÃ©rica" when I export.</p>

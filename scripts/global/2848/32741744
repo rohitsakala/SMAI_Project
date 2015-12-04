@@ -1,0 +1,1 @@
+<p>Does java calculate the second condition in ( test1 || test2 ) if the first one is true ?</p>  <p>I use Optional and I have something like that :</p>  <pre><code>if (!opt.isPresent() || opt.get() == currentPlayer.getSelectedRegion()) </code></pre>  <p>and there will be a problem if the first test is true and java compute the second test.</p>

@@ -1,0 +1,1 @@
+<p>Trying to use one type from another type doesn't seem to work:</p>  <pre><code>(deftype Foo [^int a ^int b]) (definterface Bars (^Foo makefoo []))  (deftype Bar [^int a ^int b] Bars (^Foo makefoo [this] (Foo. 1 2))) ;java.lang.NoClassDefFoundError: java/lang/Foo. </code></pre>  <p>How do I get Foo to be visible to Bar?</p>

@@ -1,0 +1,1 @@
+<p>I deal with numbers of this form <code>1.446267186999E7</code> and i want to represent them without <code>E</code>. For example <code>1.446267186999E7</code> i want it to be <code>14462671.86999</code> .  How do i convert it to this form without getting the :</p>  <pre><code>error: integer number too large. </code></pre>  <p>Thanks for the helpers.</p>

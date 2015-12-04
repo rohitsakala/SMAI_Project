@@ -1,0 +1,1 @@
+<p>I'm trying to move records from one table (upcoming) to another table (today) when the date of the record (from upcoming) equals today's date. How would I go about doing so using recurring events in phpmyadmin?</p>

@@ -1,0 +1,1 @@
+<p>In the gcc compiler we can provide a macro to be used by the preprocessor in C using -D flag (example- gcc -DN=10 test.c)</p>  <p>What is the flag that can be used to do the same in the clang compiler?</p>  <p>When I give the same -D option to the clang compiler on Windows, it gives an error "Directory not found.".</p>

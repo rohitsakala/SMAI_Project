@@ -1,0 +1,1 @@
+<p>in Laravel 4.2 by using <a href="https://github.com/JeffreyWay/Laravel-4-Generators" rel="nofollow">JeffreyWay/Laravel-4-Generators</a> we could use </p>  <pre><code>php artisan generate:view my-view </code></pre>  <p>to create a view named my-view.blade.php.</p>  <p>Now in Laravel 5.1 what we should use to generate a view?</p>  <pre><code>php artisan make:??? </code></pre>

@@ -1,0 +1,1 @@
+<p>I'm trying to install Xamarin Studio on my flash drive.  The issue is that it needs gtk# installed, and that seems to require a local hard drive.</p>  <p>Is there a way to get around this? I'm thinking there might be some way to trick the installer into thinking it's installing on a local hard drive, but am unsure if that would simply break it.</p>

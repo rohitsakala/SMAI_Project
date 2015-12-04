@@ -1,0 +1,1 @@
+<p>I am extending a project and decided to use ORM approach for the new features.</p>  <p>So I've added some entity models.</p>  <p>Now I'm wondering, do I need to create the tables in database and then fluent-map them to models, or can I use the code-first approach so that Nhibernate generates the new tables itself?</p>

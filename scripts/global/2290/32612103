@@ -1,0 +1,1 @@
+<p>I want to do the next query using the query builder of doctrine:</p>  <pre><code>select * from table1 where field_x in (select field_x from table1 where field_y = '2603'); </code></pre>  <p>How to do it?</p>  <p>Thanks</p>

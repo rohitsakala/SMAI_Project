@@ -1,0 +1,1 @@
+<p>How do you print only the <code>MediaBox</code> of a PDF ?</p>  <p>I tried changing <code>MediaBox</code> into <code>CropBox</code> and <code>TrimBox</code> but it didn't help (the PDF has garbage outside the MediaBox I want to get rid off before printing).</p>  <p>The solution should preferably be automatizable and usable under GNU/Linux.</p>

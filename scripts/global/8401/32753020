@@ -1,0 +1,1 @@
+<p>What are the recommended performance testing tools for testing Netty HTTP server. Here are some issues that we faced with JMeter and AB. Do we have a Netty based performance testing tool that is recommended by the Netty community. </p>  <p>JMeter : Results are inconsistent and did not perform well when the concurrency goes beyond 500. </p>  <p>AB : Only support HTTP 1.0</p>

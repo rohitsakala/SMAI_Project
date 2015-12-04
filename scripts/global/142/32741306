@@ -1,0 +1,1 @@
+<p>When executing the command <code>ant -v</code>, it gives me the error:</p>  <blockquote>   <p>Apache Ant(TM) version ${project.version} compiled on ${TODAY}. </p> </blockquote>  <p>How do I fix this?</p>

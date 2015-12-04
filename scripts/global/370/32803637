@@ -1,0 +1,1 @@
+<p>In eclipse, if you hold Ctrl and click on a function or a class declared/defined in a different file, the different file opens and the cursor is moved to the declaration/definition. Is there something like that in vim?</p>

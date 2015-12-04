@@ -1,0 +1,1 @@
+<p>What's the use at feed-level and at entry-level? </p>  <p>I suppose that they are used in a feed reader (intended as client application) like the one into firefox when it wants to notify a new article to the user.</p>  <p>Precisely, in detail, what does a client feed reader do to check that a new article is available?</p>

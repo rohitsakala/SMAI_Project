@@ -1,0 +1,1 @@
+<p>I want to have an activity class, e.g. <em>ActivityLegacy</em>, for API levels older than level x and an activity class, e.g. <em>ActivityNew</em> for newer devices.</p>  <p>Is it possible that I choose the proper implementation at runtime and load it? I don't want to start a new intent.</p>

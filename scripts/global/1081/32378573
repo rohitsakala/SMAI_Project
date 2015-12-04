@@ -1,0 +1,1 @@
+<p>Today I'm using an applet to modify client-side information, considering the new browsers i have to found out a new workaround to continue modifying file and execute windows command at client-side because some browser are suspending the applet execution.</p>  <p>Any ideia for solution that has allow windows command execution and access file at client side like Activex ?</p>

@@ -1,0 +1,1 @@
+<p>I am learning VXLAN protocol these days and know that the original payload is encapsulated in a udp header. I wonder why not just encapsulate it in a ip header since the udp header seems useless?</p>

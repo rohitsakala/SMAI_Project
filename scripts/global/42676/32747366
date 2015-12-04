@@ -1,0 +1,1 @@
+<p>I am trying to clear two cookies in my clients browser via the following:</p>  <pre><code>this.response.set('Set-Cookie', 'mycookie1=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; ,mycookie1.sig=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT;'); </code></pre>  <p>I can only seem to get rid of <code>mycookie1</code> and not the <code>mycookie.sig</code>.</p>

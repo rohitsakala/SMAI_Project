@@ -1,0 +1,1 @@
+<p>I need to work with a site where they don't remember the super admin password and user name. I can access to the database but with a no full access account.</p>  <p>If I have access to all the files in php my admin, can I get the password and the user name of the super admin?</p>

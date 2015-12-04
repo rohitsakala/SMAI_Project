@@ -1,0 +1,1 @@
+<p>I would say all kinds of entities including self-tracking entities, POCOs, and EntityObject entities.</p>  <p>I guess that EntityObject has ObjectStateManager. But how about others? Can STE and POCO entities also have ObjectStateManager?</p>

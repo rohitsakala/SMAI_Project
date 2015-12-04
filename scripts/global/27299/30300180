@@ -1,0 +1,1 @@
+<p>When I export a jar of my j2me code I can install it on an emulator but not on my mobile phone with the error :</p>  <blockquote>   <p>Not Supported</p> </blockquote>  <p>But I can install others jar from net on my phone.</p>

@@ -1,0 +1,1 @@
+<p>When I try this command on my VPS setuped LEMP on Centos 6.5</p>  <pre><code>curl -sS https://getcomposer.org/installer | php -bash: php: command not found curl: (23) Failed writing body (0 != 16133)      </code></pre>  <p>anyone can help me ? I want to setup composer in order to install Laravel framework.</p>

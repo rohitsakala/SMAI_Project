@@ -1,0 +1,1 @@
+<p>There are several links on third party websites to a URL on my website: <a href="http://example.com/cgi-bin/sp000000.pl" rel="nofollow">http://example.com/cgi-bin/sp000000.pl</a></p>  <p>That script is no longer present.</p>  <p>Is there a way to redirct that URL to another using .htaccess or a .pl script?   </p>

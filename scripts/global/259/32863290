@@ -1,0 +1,1 @@
+<p>I would like to truncate a power series in sympy and use the result as a polynomial. What I'm doing now is a bit ugly (example for degree 4):</p>  <pre><code>truncated_series = 0 for i,term in zip(range(5), f.lseries()):     truncated_series += term </code></pre>  <p>Is there a better way?</p>

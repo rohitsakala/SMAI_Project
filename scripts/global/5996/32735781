@@ -1,0 +1,1 @@
+<p>Currently what i get URL: www.test.com</p>  <pre><code>Index of /      backend/     ajax/     cron/     files/     includes/     install/     languages/     frontend/     postback/ </code></pre>  <p>What i want is to access frontend folder when url is www.test.com not www.test.com/frontend and this should work with localhost and live.</p>

@@ -1,0 +1,1 @@
+<p>I'm  developing a custom keyboard and I've added the buttons programmatically and they're doing great but when the device rotate the buttons in the bottom disappear -because of the changing of the screen size- so I need to reposition the buttons in new positions -I wanna have four lines instead of six - when the device rotate , how can I do that ?</p>

@@ -1,0 +1,1 @@
+<p>I'm working on a webform that has multiple fields, is it possible to set the values of those fields into a single row?</p>  <p>phone: <br> telephone: <br> email:<br> local:<br></p>  <p>so these are the fields and I would like to insert them into my contact_value column.</p>

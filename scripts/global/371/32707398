@@ -1,0 +1,1 @@
+<p>I have some settings for my emacs.</p>  <p>Let's say this settings can be separated to "B(both)+P(personal_computers)+R(remote_computers)"</p>  <p>I want in my personal computers, I can git pull/push "B+P" while in remote_computers, I can git pull/push "B+R".</p>  <p>The most important is that the repository includes all of the things "B+P+R".</p>  <p>Thank you very much.</p>

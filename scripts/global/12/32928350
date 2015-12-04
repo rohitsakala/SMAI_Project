@@ -1,0 +1,1 @@
+<p>Suppose I am developing a Ruby gem that will be installed in a project by being added to its gemfile. From my gem, I want to know the root directory path to the project. How can I get that?</p>

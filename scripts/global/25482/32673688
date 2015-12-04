@@ -1,0 +1,1 @@
+<p>How can you access specific lines of a <code>UITextView</code>? If the text view is 10 lines long and I wanted to change the style properties of the first two lines how could I do that?</p>  <p>Response to duplicate mark: Question is not a duplicate. Moderator you directed to an Objective-C tag.</p>

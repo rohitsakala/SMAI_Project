@@ -1,0 +1,1 @@
+<p>Now i am try to create new instance on my machine using cmd follow command like</p>  <p>ORADIM -new –ASMSID +ASM –STARTMODE manual -ASMSRVC asmsrvc1 -PFILE E:\app\ShreeGanesh\product\11.2.0\dbhome_1\database\SPFILEORCL.ORA</p>  <p>cmd shows me error like  DIM-00003: An argument is missing for the parameter.</p>  <p>give me better solution , so i can create new instance. </p>

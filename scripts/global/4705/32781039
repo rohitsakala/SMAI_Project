@@ -1,0 +1,1 @@
+<p>How can I stop a script from continue executing? Example:</p>  <pre><code>var a = $(".divclass");  if(a.length == 0){ //If div doesn't exist     //stop execution, exit, break or whatever }  ... ... ... </code></pre>  <p>As you can see I'm not in a function, so <code>return</code> throws me error...</p>

@@ -1,0 +1,1 @@
+<p>One for the books.  I comment out a piece of code in the main program; hit cntrl-S to save the changes; recompile and run; the commented code still shows up.  Not a nested comments problem.  Double and triple check the code.  Effect does not show up in subroutines in other files.  Netbeans 8.0 is silent and happy.  (Ubuntu.)</p>

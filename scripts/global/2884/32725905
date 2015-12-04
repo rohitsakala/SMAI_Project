@@ -1,0 +1,1 @@
+<p>I'm writing a service that will call REST service every x seconds. I could do that with EJB @Schedule annotation as well as with ScheduledExecutorService.</p>  <p>which one is better to use? and why?</p>

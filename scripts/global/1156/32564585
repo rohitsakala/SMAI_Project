@@ -1,0 +1,1 @@
+<p>I have this output:</p>  <pre><code>30.1.2003 3.3.2003 25.12.2003 </code></pre>  <p>I want to make print each value except the year in two digits (might have leading values). i.e</p>  <pre><code>30.01.2003 03.03.2003 25.12.2003 </code></pre>

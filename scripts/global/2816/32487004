@@ -1,0 +1,1 @@
+<p>I am trying to call a design doc I wrote in CouchDB however when I make the call I get the following error:</p>  <pre><code>{"error":"forbidden","reason":"CSRF Cookie/Header mismatch"} </code></pre>  <p>I am calling this design doc from an HTML form as a POST. Can anyone help me?</p>  <p>Thanks.</p>

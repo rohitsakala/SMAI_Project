@@ -1,0 +1,1 @@
+<p>Our .NET/C# application takes a very long time to save a DataTable with Epplus when runs in Windows 10. </p>  <p>Saving 150.000 lines takes 2 minutes on Windows 8 or Windows 7 and over 15 minutes on Windows 10. </p>  <p>Saving 150.0000 lines takes 15 minutes on Windows 8 or Windows 7 and over 2 hours on Windows 10.</p>  <p>Any experience?</p>  <p>Andrea</p>

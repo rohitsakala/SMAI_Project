@@ -1,0 +1,1 @@
+<p>I have a scrolled window and I am placing multiple tree control in the scrolled window. When ever i add more child items to the root of any treectrl it creates a scrollwindow to make sure all child will be accessible. What i need to achieve is increase in size allocated to tree ctrl instead of scrolled window. How do i achieve this</p>

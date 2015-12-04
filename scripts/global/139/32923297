@@ -1,0 +1,1 @@
+<p>I'm trying to uppercase the first letter in a string that is located after the first space:</p>  <pre><code>string name = "Jeffrey steinberg"; </code></pre>  <p>I'm trying to uppercase the S in steinberg. I'm not sure how to do this. I've tried messing around w/ the toupper function but don't know how to reference the character "s" since c# strings aren't arrays like in c.</p>

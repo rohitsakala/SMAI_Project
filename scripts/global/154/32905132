@@ -1,0 +1,1 @@
+<p>I need to make some things in my app, once device is connected to wifi. It is not about "does it connected to wifi?", instead "tell me when device connected to wifi, while it was offline before?"</p>  <p>In other words I need to response on event when iPhone just connected to internet with any way.</p>  <p>Is it possible with <code>AFNetworking</code> or maybe custom API?</p>

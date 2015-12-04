@@ -1,0 +1,1 @@
+<p>I try to add new line inside <code>Label ContentStringFormat</code>:</p>  <pre><code>Content="{Binding Path=(my:MyData.Files)}" ContentStringFormat="{}Number of files:\n {0:#,0}" </code></pre>  <p>Any suggestions ?</p>

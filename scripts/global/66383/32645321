@@ -1,0 +1,1 @@
+<p>Is it possible to develop Android mobile applications that can connect to the Dynamics CRM organization web service and perform various operations (CRUD) without using OAuth authentication (Azure Active Directory Authentication Library) ?</p>  <p>Is it possible to authenticate with SOAP ?</p>

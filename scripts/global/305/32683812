@@ -1,0 +1,1 @@
+<p>I am working on program that requires me to iterate through all single precision floating point (23 fractions bits) numbers in the range of [1,2). I am not quite sure how to go about this. I am writing this program in C#.</p>  <p>If someone could give me some help with this, that would be awesome. Thank you!</p>

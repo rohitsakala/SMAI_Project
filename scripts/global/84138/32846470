@@ -1,0 +1,1 @@
+<p>I am developing a windows runtime app for windows phone, i need to scale the text based on the screen dimension.</p>  <p>for handle the image scaling i have used the 3 folder(scale-100, scale-140 and scale-240)</p>  <p>In the app I have different style for different kind of text(title, subtitle...)</p>  <p>is there any way to apply different style based on the screen size?</p>

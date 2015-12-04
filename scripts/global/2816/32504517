@@ -1,0 +1,1 @@
+<p>I'm quite new to CouchDB... let say that I have a multiple databases in my CouchDB, one per user, each of db have a one config document. I need to add a property to that document across all dbs. Is it possible to update that config document in all databases (not doing it one by one)? if yes what is the best way to achieve this? </p>

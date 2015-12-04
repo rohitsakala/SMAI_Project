@@ -1,0 +1,1 @@
+<p>I'm trying to change the content of a primefaces datatable on the client side using jQuery(adding rows,updating cells ...).</p>  <p>The problem is that I will need to have the model updated on the server side.</p>  <p>So my question is is there a way to make the server side aware of the changes made on the client side ?</p>  <p>Any help will be appreciated..</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to filter by branch creator using tortoisehg? The filter by author option does not shown commits by others to a branch I have created. Ideally I would like a filter that shows all commits to only the branches that I have created. Thanks for any advice you might have.</p>

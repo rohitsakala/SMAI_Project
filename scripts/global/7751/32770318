@@ -1,0 +1,1 @@
+<p>I typed this code to create a view in a pre created database:</p>  <pre><code>CREATE VIEW NHTrips AS SELECT TripID, TripName, StartLocation, State, Distance, MaxGrpSize, Type, Season FROM Trip WHERE State = 'NH'  ; </code></pre>  <p>When I try to run Access(2007) responds with a an error message: <em>"Syntax error in CREATE TABLE statement."</em> </p>  <p>Why? </p>

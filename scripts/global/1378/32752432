@@ -1,0 +1,1 @@
+<p>I need to fetch around 1 Billion records and process them in Java. </p>  <p>It might not be possible to fetch all in single select statement. How can I do pagination or can I use cursors?</p>  <p><a href="http://stackoverflow.com/questions/1028521/sybase-iq-pagination">This</a> solution provides stored proc as answer. Is that the only option, if this works?</p>

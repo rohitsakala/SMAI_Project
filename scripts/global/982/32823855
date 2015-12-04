@@ -1,0 +1,1 @@
+<p>My MySQL database is saving the time users register on my website using CURRENT_TIMESTAMP. THe thing is that it is the hosts timezone which is completely different from the one the website is used in. Is there any way to change the timezone in MySQL?</p>

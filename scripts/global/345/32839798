@@ -1,0 +1,1 @@
+<p>I know that <code>skip(long)</code> method of <code>FileInputStream</code> skips bytes from the starting position of the file and places the file pointer. But If we want to skip only 20 characters in the middle of the file, and the remaining part of the file as to be read, what we should do?</p>

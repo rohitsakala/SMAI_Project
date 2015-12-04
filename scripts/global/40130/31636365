@@ -1,0 +1,1 @@
+<p>I have an MXML component and I'd like to get an array of all the elements of a specific type but I don't think this functionality is built into Flex. </p>  <p>For example, I would like to get all "Label" and all "HGroup" components in a document. </p>

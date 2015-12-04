@@ -1,0 +1,1 @@
+<p>I use tortoise svn in a project.  Is there a possibility to only checkout a special type of file from a folder (e.g. *.cpp or *.h)? Or is this possible through an option that cleans the working copy from not wanted files after an update? </p>  <p>Thanks in advance,  Kai.</p>

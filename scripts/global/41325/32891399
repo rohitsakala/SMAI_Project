@@ -1,0 +1,1 @@
+<p>I tried the following:</p>  <pre><code>update &lt;&lt;= update dependsOn myTask </code></pre>  <p>But it runs myTask in parallel of update where myTask is needed to be finished before update starts.</p>  <p>I then tried the following that doesn't work at all:</p>  <pre><code>update &lt;&lt;= update runBefore myTask </code></pre>  <p>Any idea?</p>  <p>Cheers</p>

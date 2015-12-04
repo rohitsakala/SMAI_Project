@@ -1,0 +1,1 @@
+<p>FineUploader fires submit event event after each file is selected, and you can run a counter in that event. </p>  <p>However, I need to know when all files were submitted to start the upload process. There is an "allComplete" event. Is there an equivalent for when all files were submitted?</p>

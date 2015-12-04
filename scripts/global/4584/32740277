@@ -1,0 +1,1 @@
+<p>I'm trying to initialize an object and I get this error: <code>Variable used within its own initial value</code></p>  <p>Here is my code:</p>  <p><a href="http://i.stack.imgur.com/kzggJ.png" rel="nofollow"><img src="http://i.stack.imgur.com/kzggJ.png" alt="enter image description here"></a></p>  <p>Why can't I do it like this?</p>

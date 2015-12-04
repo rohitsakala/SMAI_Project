@@ -1,0 +1,1 @@
+<p>How can I unit test the hidden variable <em>aVar</em> ?</p>  <pre><code>// .h file     @interface Class: NSObject  @end  // .m file     @implementation Class{  id aVar }  @end </code></pre>

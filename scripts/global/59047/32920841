@@ -1,0 +1,1 @@
+<p>c1 = CallistoSpectrogram.read('BIR_20110922_101500_01.fit')</p>  <p>c2 = CallistoSpectrogram.read('BIR_20110922_103000_01.fit')</p>  <p>d = CallistoSpectrogram.join_many([c1, c2])</p>  <p>If I want to join approximately 40 files like this, it is throwing the following error</p>  <p>ValueError: Too large gap.</p>  <p>Is there any limit in number?</p>

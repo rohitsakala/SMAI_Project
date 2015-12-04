@@ -1,0 +1,1 @@
+<p>I applied the below table border to all of the tables on my site</p>  <pre><code>table {     width: 100%;     border-collapse: collapse;     border-spacing: 0; } th, td{     border: 1px solid #999; </code></pre>  <p>How do I do no border on some of the tables while keeping the border on the others?</p>

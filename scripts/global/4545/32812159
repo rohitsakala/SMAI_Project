@@ -1,0 +1,1 @@
+<p>After I installed the Theano and genesim by pip install xxx --user on server side, I tried to import them in python code, but I had this error: </p>  <p>Exception: Compilation failed (return status=1): /usr/bin/ld: cannot find -lInclude. collect2: ld returned 1 exit status. </p>  <p>In addition, I have no root permission, how can I make it?</p>

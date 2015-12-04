@@ -1,0 +1,1 @@
+<p>I would like to change style of one row in asp:repeater control after button click which is in selected row cell. </p>  <p>Especially I would like to disable this row and with styles show that it is disabled. I don't want only to disable button and change row visibility. I want to change style. </p>  <p>How to do that?</p>

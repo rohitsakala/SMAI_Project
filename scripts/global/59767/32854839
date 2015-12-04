@@ -1,0 +1,1 @@
+<p>Assume you have an array A of length 1000000. In a test you find out that reading the element A[999] takes 1 ms. How long will it take to read the element at index 999999? 1/10ms 1ms 10ms 1000ms</p>

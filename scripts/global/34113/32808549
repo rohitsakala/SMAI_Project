@@ -1,0 +1,1 @@
+<p>I have a keyspace with replication factor set to 3 but I have only a single node. Will then the disk space be used 3 times the data size? As the replicas are not yet assigned to any other nodes, will cassandra stop creating replicas unless new nodes join the cluster?</p>

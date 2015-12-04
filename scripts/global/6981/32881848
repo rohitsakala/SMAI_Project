@@ -1,0 +1,1 @@
+<p>I would like to access an object property based on the first value in it's array.</p>  <pre><code>var LANGS = {     "C#": [10, "text/x-csharp", "code"],     "C/C++": [7, "text/x-c++src", "code"] }; </code></pre>  <p>So I want to be able to access <code>"C#"</code> by the <code>10</code> in its array, how would I do this?.</p>

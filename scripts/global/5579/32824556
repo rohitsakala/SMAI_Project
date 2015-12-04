@@ -1,0 +1,1 @@
+<p>I need to assert if page body contains text "error", how would I do that? I got to this point and I am getting error on .getText</p>  <pre><code>driver.FindElement(By.TagName("body")).getText().Equals("Error") </code></pre>

@@ -1,0 +1,1 @@
+<p>I have a situation where I have to do about 25000 insertions in the DB. The primary key is generated using a DB sequence. I can see that first it tries to generate 1000 unique ids and then inserts 1000 records in the DB. Is there a mechanism to stop this ?</p>

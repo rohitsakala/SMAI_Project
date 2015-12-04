@@ -1,0 +1,1 @@
+<p>I have a wide range of temporal data. I have over 100 years to work. I need rescue (abstract) only the summers of each year, and do not know how in R. For example, I need the time period 06/20/2015 to 09/20/2015, and the previous years as 2014, 2013, which are contained all together in the same series. Can anyone help me with a formula or command?</p>

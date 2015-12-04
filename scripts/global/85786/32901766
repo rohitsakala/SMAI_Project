@@ -1,0 +1,1 @@
+<p>is there any way to keep a group of Rails 4 controllers or models in a specific subfolder inside controllers? (because they all match a concrete related functionality)</p>

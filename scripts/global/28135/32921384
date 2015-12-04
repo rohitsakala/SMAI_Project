@@ -1,0 +1,1 @@
+<p>I have a table empl and data like this</p>  <pre><code>EMPNO   ENAME _____    _____ 101       BILL 102       ADAMS 103       CODD </code></pre>  <p>If I am inserting like this</p>  <pre><code>INSERT INTO EMPL VALUES(104,'JHON@16');  1 ROW INSERTED. </code></pre>  <p>I want to avoid wildcard character entries like @,?,* in ENAME column...</p>

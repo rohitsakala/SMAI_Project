@@ -1,0 +1,1 @@
+<p>I'm trying to copy a line from a table to another table. But the seconde table have to received two additional parameters (hour and autor) wich are not in the first table. Here is my try:</p>  <pre><code>INSERT INTO Individus_corbeille (SELECT * FROM Individus WHERE ID_individu='706782','NOW()','autor') </code></pre>  <p>But it absolutely doesn't work...</p>

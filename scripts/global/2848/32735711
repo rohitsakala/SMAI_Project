@@ -1,0 +1,1 @@
+<p>I have an sql query that retrieves a column which values are strings. I want to create a column next to it that takes a value of 1 if the substring 'MB' is contained in the value or 0 otherwise</p>

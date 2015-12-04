@@ -1,0 +1,1 @@
+<p>I want to create directory in ubuntu at location /opt/ and the code is</p>  <blockquote>   <p>File file=new File("/opt/myFolder");   file.mkdir();</p> </blockquote>  <p>executed successfully but directory is not created because the location is read only.Is there any way to give the write permission to ubuntu directory using java program.</p>

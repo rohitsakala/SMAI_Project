@@ -1,0 +1,1 @@
+<p>How do I count the occurrences of a substring in a string if they overlap? For example: I want to count how many single Os are there in the string:</p>  <pre><code>string = 'xooxxoxoxoooxxoxoxxoxxxooxox' string.count('xox') </code></pre>  <p>This way, it gives only 4, because where there is 'xoxox', it only counts once. How can I make it work?</p>

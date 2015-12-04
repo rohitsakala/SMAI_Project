@@ -1,0 +1,1 @@
+<p>what happens if I do <code>connection.setAutoCommit(false);</code> does it creates a new transaction at database side?</p>

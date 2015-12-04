@@ -1,0 +1,1 @@
+<p>I need to create a file ending with the standard DOS EOF character that no computer currently uses (It is required for a course).</p>  <p>I have tried CTRL-Z, but today it just deletes the last character input.  Any editor, or method currently available would be greatly appreciated.</p>

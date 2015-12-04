@@ -1,0 +1,1 @@
+<p>I have one php project which have two different branch and inside it some content is different.  I want to create 2 branches for it in SVN but now question is how to use one branch in trunk? If some files are common in both branches and want to commit data in both branches then how can I do it? Is it possible to update some file in both branches or not?</p>

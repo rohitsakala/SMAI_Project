@@ -1,0 +1,1 @@
+<pre><code>let version:String = NSBundle.mainBundle().objectForInfoDictionaryKey(kCFBundleVersionKey) as? String ?? "unknown" </code></pre>  <p>I'm getting an error: '(String?, StringLiteralConvertible)' is not convertible to 'StringLiteralConvertible'</p>

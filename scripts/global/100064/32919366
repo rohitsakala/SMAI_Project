@@ -1,0 +1,1 @@
+<p>I'm developing an mobile application using Ionic which get data from a wordpress site. I had enabled the API in that site, and test tested ok. But when I call API from my Ionic application, I received message "This site requires JavaScript and Cookies to be enabled". Need your help!</p>

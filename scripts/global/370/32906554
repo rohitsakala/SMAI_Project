@@ -1,0 +1,1 @@
+<p>I've enabled vim spellchecking for markdown files.  It works fine when the file just contains plain text, but when I begin a file with an H1 hash like so</p>  <pre><code># My Title </code></pre>  <p>spellchecking does not work. I assume that vim spell is treating this as a code comment and ignoring everything that follows. Any suggestions?</p>

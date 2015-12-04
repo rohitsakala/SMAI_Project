@@ -1,0 +1,1 @@
+<p>I've configured Apache2 for a specific directory, so that it lists all its contents over HTTP (I put <code>+Indexes</code>in config). </p>  <p>I was wondering if it is possible to list the contents of that folder from my terminal? So basically instead of opening up a browser and visiting that directory over HTTP, is it possible to do it just from terminal?</p>

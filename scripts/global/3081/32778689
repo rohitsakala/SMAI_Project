@@ -1,0 +1,1 @@
+<p>I have these two input fields in my modal:</p>  <pre><code>Amount: &lt;%= f.text_field :prin, :onKeyPress=&gt;"return isNumberKey(event)"  , :required =&gt; 'true'%&gt; Rate: &lt;%= f.number_field :interest_rate, :min =&gt; "12", :max =&gt; "30", :required =&gt;'true'  %&gt; </code></pre>  <p>Typical <code>fill_in</code> doesn't work for this in spec test.</p>

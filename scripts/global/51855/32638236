@@ -1,0 +1,1 @@
+<p>I would like to publish a webhook so that the users subscribing to my webhook gets all the new updates</p>  <p>So basically, how would create a webhook where I can publish the data for insert, update, delete on mongodb with ruby</p>

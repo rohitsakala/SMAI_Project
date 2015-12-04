@@ -1,0 +1,1 @@
+<p>I have the following in my .htaccess file in my /var/www on my Ubuntu 14 Wordpress install.</p>  <pre><code>order allow,deny deny from 123.45.6.7 allow from all </code></pre>  <p>However, when I browse to the website I get internal server error 500. It seems that all ip addresses are being blocked, not just the one I specified.</p>

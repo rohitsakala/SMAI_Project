@@ -1,0 +1,1 @@
+<p>In storyboard, I can't add View Objects (like View or TableView) but just (Table)View Controller Objects? I could think that it's because my storyboard just wants controller.. But I can add Buttons,labels, and other objects that hasn't "controller".. why this behavior?</p>

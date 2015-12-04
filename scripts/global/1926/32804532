@@ -1,0 +1,1 @@
+<p>I'm trying to make a type (int option list) list variable.</p>  <p>let blah :(int option list) list   = [Some 30    ; Some 77] :: [Some 2 ; Some 3] ;;</p>  <p>However, this does not type check. I guess I'm just really lost on the syntax. </p>

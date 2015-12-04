@@ -1,0 +1,1 @@
+<p>I'm using the Quartz Grails Plugin and I need to schedule a job that runs at 3am, 9am, 3pm, 9pm every day. This seems like a valid cron expression:</p>  <pre><code>* 3,9,15,21 * * * </code></pre>  <p>But Quartz doesn't support that. Is what I need to do possible?</p>

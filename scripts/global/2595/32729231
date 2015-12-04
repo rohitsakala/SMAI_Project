@@ -1,0 +1,1 @@
+<p>When using the Media Source Extensions (MSE) API to play a video stream, a single seek works OK; but if I try to seek many times during a short period (by remote control), sometimes only one source buffer (audio or video) data is appended, while the other is not been appended.</p>  <p>Why?</p>

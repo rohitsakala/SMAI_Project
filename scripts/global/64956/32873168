@@ -1,0 +1,1 @@
+<p>How do I use <code>Textwatcher</code> for change of the background color of an <code>EditText</code> array when we want to guess the word of the <code>EditText</code> correctly?</p>  <p>example:</p>  <pre><code>public EditText[] edts=new EditText[9]; String[] etd={"f","m","v","f","m","v","f","m","v"}; </code></pre>

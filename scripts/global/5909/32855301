@@ -1,0 +1,1 @@
+<p>I am working on an app that needs a timer to fire at a specified time in the background.  I then want to start a timer that ticks every 10 minutes or so till a specified time.  In all this I do not want the user to have to open the app.  What is the best way to achieve this?  I have looked around and haven't found a good, straight forward, answer.</p>  <p>Thanks!</p>

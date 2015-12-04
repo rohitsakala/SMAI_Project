@@ -1,0 +1,1 @@
+<p>The difference should be 60.55 but it shows 60.91. How can I fix it?</p>  <p>I am using the function: </p>  <pre><code>=sum(first_cell : last_cell) * 24 </code></pre>  <p>where <code>first_cell</code> through <code>last_cell</code> contains the times of work.</p>

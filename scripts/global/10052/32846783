@@ -1,0 +1,1 @@
+<pre><code>  &lt;accordion-group ng-repeat="group in results.groups" ng-if="group.rooms.length &gt; 0"                    is-open="isOpen" ng-init="isOpen = $index === 0"&gt; </code></pre>  <p>How do I make isOpen go to $index === 1, when 0 is being hidden by the ng-if?</p>

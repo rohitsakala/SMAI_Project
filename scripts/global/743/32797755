@@ -1,0 +1,1 @@
+<p>I have a textview in my android messaging app I get messages of my android phone and I show them in textviews I want to set layout_gravity to right if the text is persian so how can I detect language of text that I get from below uri?</p>  <pre><code>Uri uri = Uri.parse("content://sms/"); </code></pre>

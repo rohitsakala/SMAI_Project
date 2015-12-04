@@ -1,0 +1,1 @@
+<p>How can I spoof the user agent on demand in Internet Explorer via VBScript?  There is a site I want to access that is intended for mobile only devices.  My goal is to spoof an iOS mobile device.  I need to be able to fake the agent, display the page, ad interact with it. Google is failing me.  </p>  <p>TIA</p>

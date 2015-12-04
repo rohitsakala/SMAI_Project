@@ -1,0 +1,1 @@
+<p>Basically I want a way to export the uvs from one model to another as a part of our pipeline where rig and texture/lookdev models(created simultaneously) need to be merged I would like a solution other than importing the model into the scene and copying the uvset. Something like an xml export.  Is there any way.</p>  <p>Thanks in advance</p>

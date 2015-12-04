@@ -1,0 +1,1 @@
+<p>Just installed heroku.</p>  <p>After running the command;</p>  <pre><code>heroku login </code></pre>  <p>I get the error bad URI(not URI?) followed by the IP and port of my proxy server.</p>  <p>How do I fix this error?</p>

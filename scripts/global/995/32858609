@@ -1,0 +1,1 @@
+<p>In one of my application I need to read all the coming notifications in android. Is it possible to use the broadcast receiver to listen the coming notifications and the ability to read the notifications information.</p>  <p>I need to read all notification sender and notification message notification can be anything it can be SMS or whats-app message or any other.</p>

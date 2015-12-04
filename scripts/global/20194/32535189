@@ -1,0 +1,1 @@
+<p>Is this formatting okay?</p>  <pre><code> Background:     Given I am at the homepage     When I supply my shopify url   Scenario: New install     Then I get taken to Oauth page     When I supply my shopify credentials     Then I get taken to the app index page </code></pre>  <p>I don't want the Oauth page to run before every scenario, only the first two steps.</p>

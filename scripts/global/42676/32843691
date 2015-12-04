@@ -1,0 +1,1 @@
+<p>I need to know where and in which context can I find the <code>Authorization</code> header in <code>HTTP</code>protocol?</p>  <ul> <li>Is it always in Base64?</li> <li>Can it be found only in GET headers or also in POST/PUT?</li> </ul>

@@ -1,0 +1,1 @@
+<p><br> I have a domain (ex: abc.com) and two servers (one in US and one in HK) and the source code is the same in two server. <br> If a client in US access to my domain, I want the US server is used and simillar to HK server, if client is in HK, the HK server is used. How can I do like this?</p>

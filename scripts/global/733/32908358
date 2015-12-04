@@ -1,0 +1,1 @@
+<p>Using fairly slow TFS system(can't be speed up) run on slow hardware.</p>  <p>This causes Read Timeout's.</p>  <p>Project cann't be checked out via the Intellij therefore, is it possible to configure retry period or increase timeout in some way?</p>

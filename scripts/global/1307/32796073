@@ -1,0 +1,1 @@
+<p>Is there a way to trigger style on a current row/item? If only one row is selected, this</p>  <pre><code>&lt;Trigger Property="DataGridCell.IsSelected" Value="True"&gt; </code></pre>  <p>works, but what if more then one row is selcted. I only want to style the cells/rowheaders, that belong to the current item.</p>

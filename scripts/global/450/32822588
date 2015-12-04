@@ -1,0 +1,1 @@
+<p> Here i got some macro for multiline commenting</p>  <p>copy-to-clipboard delete-previous "/* " paste-from-clipboard " */"</p>  <p>I assigned shortcut key as "ctrl+8".But i want to uncomment same block of code and again comment viceversa by using same shortcut.Is there any possibility</p>

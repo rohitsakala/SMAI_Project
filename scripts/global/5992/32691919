@@ -1,0 +1,1 @@
+<p>In a complex program, in which I am trying to apply functional programming patterns whenever I can, one problem is that many config files are just loaded and become a global variables accessible from everywhere in the program. This approach leads to entanglement. How should I handle config files in a functional programming style?</p>

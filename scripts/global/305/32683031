@@ -1,0 +1,1 @@
+<p>so I have this little piece of code and I cannot make it work. I just want to insert my integer into float plain number.</p>  <pre><code>// Should return: 1.50 $var = 50; echo 1.$var; </code></pre>  <p>I tried to isolate variable like <code>echo 1.($var);</code>, but nothing appears to work.</p>  <p>What I am doing wrong? I believe there is syntax workaround.</p>

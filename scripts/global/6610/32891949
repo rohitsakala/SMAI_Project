@@ -1,0 +1,1 @@
+<p>I tried to send a JSON via XHR request from Chrome console to localhost where is placed my handler.php I set XHR url to <em>localhost/handler.php</em>, but it doesn't works. It was just appended to end of current url.</p>  <pre><code>www.current-url.com/something/text/localhost/handler.php </code></pre>

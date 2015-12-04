@@ -1,0 +1,1 @@
+<p>i want to insert an new element ( Integer ) into a sorted linked list without change the order e.g : if linkedlist like this : 4 --> 6 --> 8-->10  and after calling the the method sortedl(7) , the linkedlist will be :  4-->6-->7-->--><strong>8</strong>-->10</p>  <p>I've tried writing a code, but it always adds it after number six !</p>  <p>any idea?</p>

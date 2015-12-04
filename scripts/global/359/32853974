@@ -1,0 +1,1 @@
+<p>I am trying to connect to a remote host in PhpStorm 9 via FTP and it connects to the host but does not display any files/directories. </p>  <p>I am able to ftp and see files/directories just fine via FileZilla with the same ftp profile/settings I used in PhpStorm 9. </p>  <p>Why am I not able to see files/directories via FTP in PhpStorm 9?</p>

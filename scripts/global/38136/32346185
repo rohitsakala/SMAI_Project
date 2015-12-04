@@ -1,0 +1,1 @@
+<p>I'm not able to echo <code>$_COOKIE</code> variable for not logged-in users and for logged-in user on certain pages. </p>  <p>For example when I am on <code>http://www.example.com/?abc=true</code> I am able to output <code>$_COOKIE</code> variable, but when I move to any other page I can't access this variable. This problem is occurring in drupal6 with varnish setting on.</p>

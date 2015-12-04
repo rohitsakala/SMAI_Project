@@ -1,0 +1,1 @@
+<p>How can I copy a resource file (named asd) to a path in C# Windows forms? This doesn't work:</p>  <pre><code>File.Move(System.Text.Encoding.Default.GetString(Resources.asd), @"D:\asd"); </code></pre>

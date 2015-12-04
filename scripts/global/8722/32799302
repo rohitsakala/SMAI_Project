@@ -1,0 +1,1 @@
+<p>Please advice how to set report parameter of type Date default expression to previous work day. Tried WORKDAY function but it returns next work day, and I need one in the past I don't need to take in account local holidays, all I need to have parameter set to date that is closest work day in the past. Week starts from Monday.</p>

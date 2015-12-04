@@ -1,0 +1,1 @@
+<p>Is it possible to user UTF-8 in the filename for Jad and Jar files in Java ME?  I can't find any information about it, and it appears to not be working for me.  Perhaps a different type of encoding is required?</p>  <p>If a letter such as 'ó​' in the the name, it is ill behaved in wtk functions.</p>

@@ -1,0 +1,1 @@
+<p>Is there a make equivalent to distribute task among several computer, all operating on the same filesystem? (without having to </p>  <p>example : instead of calling directly the compile command, juste raise it and then one computer available execute it ? (without rsh like dmake)</p>

@@ -1,0 +1,1 @@
+<p>Is there a way I can retrieve all the classes that can respond to a particular selector method? Instead of looking at one particular object, I was expecting to print the classes in UIKit framework that can satisfy this condition. Any help on this?</p>  <pre><code>respondsToSelector:@selector(setText:) </code></pre>

@@ -1,0 +1,1 @@
+<p>Is there any cucumber command to get the skipped scenarios in cucumber ruby framework. like</p>  <pre><code>after do |scenario|   scenario.skipped? end </code></pre>

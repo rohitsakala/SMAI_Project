@@ -1,0 +1,1 @@
+<p>Currently we have 2 resque servers running to balance the load coming on a single resuque server . Can it be possible to run background scheduled job on 1 resuqe server it can be on master redis or slave redis ??</p>

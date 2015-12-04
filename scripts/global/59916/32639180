@@ -1,0 +1,1 @@
+<p>It's just as the title says, all CSS selectors which are inside of media queries are showing in the inspector as [object Object]. Has anyone else run into this? Does anyone have any idea how I can force it to show the actual selectors being used? Here is a screenshot: <a href="http://prntscr.com/8hhljm" rel="nofollow">http://prntscr.com/8hhljm</a></p>

@@ -1,0 +1,1 @@
+<p>I am using autoform-map. I am trying to resize the map but I can't figure out how to do that. In google map api its done like this <code>google.maps.event.trigger(map, 'resize');</code> but how would I do it in autoform maps </p>

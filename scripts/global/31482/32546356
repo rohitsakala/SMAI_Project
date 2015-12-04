@@ -1,0 +1,1 @@
+<p>In Android API from API level 21 field label is deprecated and advised to use loadLabel(android.content.pm.PackageManager) instead. </p>  <p>Just curious if anybody happen to find any example of how to use loadLabel(...) to set the label to Android Widget?</p>  <p>Thank you in advance for sharing.</p>

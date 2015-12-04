@@ -1,0 +1,1 @@
+<p>I was wondering about the compilation of jython code. Before 2.2 jythonc could have been used in order to achieve this, then I could've used launch4j to make it into an exe. But since jythonc has been removed and is unsupported after 2.2 (current version is 2.7), how could compile jython code now?</p>

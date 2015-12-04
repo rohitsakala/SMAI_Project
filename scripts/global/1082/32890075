@@ -1,0 +1,1 @@
+<p>i have two Choice List in a program, i have added ItemListener to both the lists. How to know which list has been selected by user in itemStateChanged(ItemEvent ie)?</p>  <p>is there any method to identify the source of event in case of ItemListener as there is getSource() in ActionListener.</p>

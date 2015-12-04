@@ -1,0 +1,1 @@
+<p>I don't have the mysqlnd driver on my shared server.</p>  <p>How do I write this:</p>  <pre><code>$stmt = $conn-&gt;prepare($query); $stmt-&gt;execute(); $result = $stmt-&gt;get_result(); $servers = mysqli_fetch_all($result,MYSQLI_NUM); </code></pre>  <p>Without having the mysqlnd driver?</p>

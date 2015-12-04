@@ -1,0 +1,1 @@
+<p>I'm making a backend API using RESTlet and JAX-RS on app engine. I'd like to make a method that is called before each request to check whether the user is authenticated (has to make a query to an external API via HTTP) and then continue or stop depending.</p>  <p>How could I do this?</p>  <p>Thanks, Daniel</p>

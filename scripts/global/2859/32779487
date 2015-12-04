@@ -1,0 +1,1 @@
+<p>i want to do some work in my program when anybody change log level in log4j.xml. Is there anyway to do it? Please Note that we are not changing log level programmatically. It can only be changed by configuration log4j.xml</p>  <p>Thanks in advance...</p>

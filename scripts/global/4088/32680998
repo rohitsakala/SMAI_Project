@@ -1,0 +1,1 @@
+<p>Assuming AX contains a number between 0 and 15. Now the "AXth" bit in BX has to be complemented.<br> For example, AX contains the value <code>6</code> then the 6th bit in BX should be complemented.</p>  <p>How can I achieve that?</p>

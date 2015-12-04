@@ -1,0 +1,1 @@
+<p>I tried to create amazon instance but I encountered this error make_bu. cket failed: s3://bucket_test/ 'module' object has no attribute 'sslwrap' and I am using python 2.7.6. I had the same error using even when I switched to python 2.7.9. I really don't know how to handle this error.</p>  <p>Thanks</p>

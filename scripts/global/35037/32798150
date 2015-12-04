@@ -1,0 +1,1 @@
+<p>I'm working on a project for uni, that is building a URL shortener. I've studied the different types of NoSQL databases, but I can't figure out which is better for my purpose and why.</p>  <p>I can choose between a key/value db, document-oriented, column-oriented or graph. I'm sure the graph one is not good for my goal. </p>  <p>Do you have any suggestions please? </p>

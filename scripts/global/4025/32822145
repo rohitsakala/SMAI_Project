@@ -1,0 +1,1 @@
+<p>I'm stuck with a problem related to the extraParams of an ExtJS store.. I need to change the default params separator &amp; to a customized ; since the web service I'm accessing doesn't respond to &amp;.</p>  <p>Is there a way to change the separator?</p>  <p>Bests, Andreas</p>

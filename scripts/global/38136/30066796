@@ -1,0 +1,1 @@
+<p>I need to make custom link to a comment form in drupal like so: </p>  <p><div class="snippet" data-lang="js" data-hide="false"> <div class="snippet-code"> <pre class="snippet-code-html lang-html prettyprint-override"><code>&lt;a href="http://mypage/comment/reply/NID#comment-form"&gt;Reply&lt;/a&gt;</code></pre> </div> </div> </p>  <p>How to get node NID?</p>

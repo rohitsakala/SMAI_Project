@@ -1,0 +1,1 @@
+<p>When I use <code>zipfile.ZipFile.writestr</code>, the file contains the correct amount of characters afterwards, but all of them are null bytes.</p>  <p>Minimal example:</p>  <pre><code>import zipfile z=zipfile.ZipFile("test.zip", "w") z.writestr("foo", "test") z.close() </code></pre>  <p>The resulting test.zip has a file "foo" inside, which contains 4 null bytes.</p>

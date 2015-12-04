@@ -1,0 +1,1 @@
+<p>If loading an image using the CSS3D renderer is there a way to get a callback for the image loaded?</p>  <p>Example just shows them being loaded from an array then applied to a side of a box.</p>  <p>Many thanks</p>

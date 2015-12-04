@@ -1,0 +1,1 @@
+<p>What is the best way to do the following on a couchdb database?</p>  <p><code>select count(distinct("some_field"))</code> where the <code>start_date_field&gt;=date1</code> and <code>end_date_field &lt; date2</code> ;</p>  <p>The start_date and end_date "fields" are not the same fields in the database.</p>  <p>Should I use a list?</p>

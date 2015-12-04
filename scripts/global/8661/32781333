@@ -1,0 +1,1 @@
+<p>I have used Jersey for Rest Services.I have added the jersey-core,jersey-server jars in WEB-INF/lib folder but tomcat does not deploy the WAR and specifies the following exception:</p>  <p>java.lang.ClassNotFoundException: javax.ws.rs.ApplicationPath</p>  <p>Please help. Thanks.</p>

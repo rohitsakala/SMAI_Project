@@ -1,0 +1,1 @@
+<p>I am offering a 1 year subscription in my app. Each time the user enters the app, i need to know that the user is subscribed. I know i can use the 'Restore' procedure but according to apple documentation i should not do that.</p>  <p>So what is the correct way to check if user is already subscribed?</p>

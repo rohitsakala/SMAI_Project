@@ -1,0 +1,1 @@
+<pre><code>import re import codecs  with open(input('enter a file name'),'r') as file:     for line in file:         number = line         rege = u'^# [a-z][a-z]\w+ [a-z]\w+'         re.encode('utf-8')         print(rege) </code></pre>

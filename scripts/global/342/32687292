@@ -1,0 +1,1 @@
+<p>I've heard that this way of implementation is cost-effective since Qing and deQing has amortized constant time complexity. Isn't that queueing with 2 pointers (head and tail) has also almost constant time complexity?</p>

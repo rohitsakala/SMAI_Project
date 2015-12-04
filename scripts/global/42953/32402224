@@ -1,0 +1,1 @@
+<p>In my SSRS report I am attempting to incorporate entitlements. If a user puts a specific person ID in the parameter, I'd like to be able to compare it against the up to 50,000 ids they are entitled to use and to put up an error message if not. </p>  <p>The available values feature only allows me to use a dropdown, which is incovenient for so many ids. What are my options?</p>

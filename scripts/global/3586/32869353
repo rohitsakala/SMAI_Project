@@ -1,0 +1,1 @@
+<p>we specify the exception in try and catch.If we know what exception is gonna be generated why go for exception handling rather than just debug that part of the code?</p>

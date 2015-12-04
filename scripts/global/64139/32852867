@@ -1,0 +1,1 @@
+<pre><code>public ActionResult Hello(IEmployee employee)     {         employee.Name = "ABC";         employee.Company = "XYZ";         employee.SSN = "****";         return View(employee);     } </code></pre>  <p>I am passing the employee object by abstraction.</p>

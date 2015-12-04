@@ -1,0 +1,1 @@
+<p>I want to get the first letter of a post title in wordpress, then use <code>substr</code> on it to get the first letter by using this snippet but it still displays the full word.</p>  <pre><code>&lt;?php      $get_title =  the_title();      $ltr_group = mb_substr($get_title, 0, 1);     echo $ltr_group; ?&gt; </code></pre>

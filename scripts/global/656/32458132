@@ -1,0 +1,1 @@
+<p>Can't commit <code>svn</code> external to <code>github</code> repository, server response is:  </p>  <blockquote>   <p><strong>Error:</strong> Invalid PROPPATCH property. </p> </blockquote>

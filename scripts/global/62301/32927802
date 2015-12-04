@@ -1,0 +1,1 @@
+<p>I have to set up a continuous build process using jenkins for an express js app. I don't know where to get started. Can anyone help? I need to figure out how to get jenkins to run the tests for the nodejs app? and also how to set up the databases and tables to test?</p>

@@ -1,0 +1,1 @@
+<p>Is it possible to compare two vectors in GAMS directly? For example,</p>  <pre><code>set i 'plants' /i0*i9/ parameter a(i),b(i); a(i)=uniformint(1,9); b(i)=uniformint(1,9); if(a(i)=b(i), display a; else display b; ); </code></pre>  <p>Directly using this code will result in errors. However, is it possible to use comparison of two vectors in my if condition? Thanks, Sophia</p>

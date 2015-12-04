@@ -1,0 +1,1 @@
+<p>I am creating a chrome extension and now I am facing issue regarding the hotkey. I am using backbone js framework. Basically when I click command+enter hotkey event in the body its does not work but its work on the toolbar. </p>

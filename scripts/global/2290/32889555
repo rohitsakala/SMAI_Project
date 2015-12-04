@@ -1,0 +1,1 @@
+<p>My entity momentary uses this annotation for it's ID:</p>  <pre><code>/**  * @ORM\Id  * @ORM\Column(type="integer")  * @ORM\GeneratedValue(strategy="AUTO")  */ protected $id; </code></pre>  <p>I need to generate an ID, but I want to represent the last inserted one increased by a <strong>random</strong> value.</p>

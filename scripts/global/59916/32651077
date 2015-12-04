@@ -1,0 +1,1 @@
+<p>I want to detect the mobile devices using js and after the device detected, the browser will refering to specific css file. Is it possible? Tried use media queriesg but the css for iphone 6 conflicted with iphone 5 which is has the same screen range.</p>  <p>Thanks for any help</p>

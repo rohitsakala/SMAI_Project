@@ -1,0 +1,1 @@
+<p>What exactly does Docker do with Union File system (like AUFS) to create the containers ? If Docker had to use a regular file system instead of a union file system what will be the disadvantages ?</p>  <p>I am looking for specific technical details/internals and not a high level answer.</p>

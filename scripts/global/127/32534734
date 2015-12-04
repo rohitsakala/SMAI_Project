@@ -1,0 +1,1 @@
+<p>I simply have a drawing area, contained in a <code>GtkWindow</code> toplevel.</p>  <p>How can I hide the window / make it fully transparent without doing that to its children too (in that case the the drawing area) ?</p>  <p>I am aiming to the case in which everything drawn by the program is just the canvas drawing.</p>

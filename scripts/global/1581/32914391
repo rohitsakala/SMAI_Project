@@ -1,0 +1,1 @@
+<pre><code>Declare      Total integer;       i integer;  Begini:= 1;      total:=1;     loop        total := total * i;        i := i+1;      exit when i &gt; 4;    End loop;    dbms_output.put_line('total is ' || total);  End;   </code></pre>

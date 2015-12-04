@@ -1,0 +1,1 @@
+<p>shellcheck gives a warning if you put a variable in the printf(1) format string.  Why?  Is</p>  <pre><code>printf "$file does not exist\n" </code></pre>  <p>inferior in some way to</p>  <pre><code>printf "%s does not exist\n" "$file" </code></pre>

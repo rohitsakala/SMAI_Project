@@ -1,0 +1,1 @@
+<p>It seems docker depends on docker itself to compile, and running <code>make build</code> from it downloads a docker container that only runs on x86 machines.</p>  <p>How can I run this on arm?</p>

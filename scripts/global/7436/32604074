@@ -1,0 +1,1 @@
+<pre><code>while($true) { try  { copy-item C:\Users\...\Desktop\1gb F:\ -recurse -force -ea Stop }  catch  { echo "Drive not found" } } </code></pre>  <p>Here I am able to catch the exception and display "Drive not found"</p>  <p>But my question is once the drive destination is available I want the copy to continue. Is it possible to do that?</p>  <p>All help appreciated</p>

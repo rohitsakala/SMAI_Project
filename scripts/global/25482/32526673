@@ -1,0 +1,1 @@
+<p>When calling textView <code>becomeFirstResponder</code> from <code>cellForRowAtIndexPath</code> returns false, why?</p>  <p>But from other method i.e. from <code>didSelectRowAtIndexPath</code> it works.</p>  <p>Is it in connection that I am using iOS 8 introduced <code>UITableViewAutomaticDimension</code> row height approach?!</p>

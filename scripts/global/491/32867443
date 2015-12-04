@@ -1,0 +1,1 @@
+<p>I am using large amount of data for comparison, while fetching records from DB getting hundreds of thousands of records and inserting to datatable, but its using more memory and performance is very very slow.. is there any idea for paging the data to datatable.</p>

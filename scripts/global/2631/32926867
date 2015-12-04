@@ -1,0 +1,1 @@
+<p>I am new to Python and trying to use cmd2 framework to implement a CLI. I have multi-word commands like the following:</p>  <p>"cmd-first-word cmd-second-word cmd-thrid-word "</p>  <p>The cmd2 framework treats only the first word above as the command and treats the rest as command arguments. Is there a way to make it work for the above kind of multi-word commands? Thanks.</p>

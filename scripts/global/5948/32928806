@@ -1,0 +1,1 @@
+<p>I am looking to play a game app that I created on my iPhone but do some of the controls through my arduino. Due to limits on what I can do, I need to connect my arduino serially (through USB cable) to my computer and then transfer the data to my iPhone to play the game. Any ideas on how I can do that?</p>

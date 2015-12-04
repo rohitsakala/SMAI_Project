@@ -1,0 +1,1 @@
+<p>How to override selenium <code>Click()</code> method  using C#. Currently I am using Click method as below -</p>  <pre><code>driver.FindElement(By.ClassName("overflow-wrapper")).Click(); </code></pre>  <p>Upon calling Click method in the script, Selenium should invoke Click method overridden by me.</p>  <p>Thanks. Amol.</p>

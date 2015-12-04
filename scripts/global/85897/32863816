@@ -1,0 +1,1 @@
+<p>The problem I have is that I need to update 15000 rows by deleting them and reinsert them. This has to happen in a single transaction. When I remove the rows row by row this is very slow. Inserting goes fine.</p>  <p>Is there a possibility to execute an ExecuteSqlCommand statement in the same transaction as the savechanges of the context with the insert statements?</p>

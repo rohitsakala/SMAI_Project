@@ -1,0 +1,1 @@
+<p>After lot of analysis I figured out that hive expects table names in small letters. Same is the case for partitions.</p>  <p>Just curious to know if any one could create a working table name in CAPs.</p>

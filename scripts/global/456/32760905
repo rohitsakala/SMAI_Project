@@ -1,0 +1,1 @@
+<p>I would like to migrate a project from SVN to Git and retain history.</p>  <p>But because there are some configuration files with production passwords and other sensitive data in the SVN repository, I would like to exclude those few files from the migrated history.</p>  <p>How would I go about doing this?</p>

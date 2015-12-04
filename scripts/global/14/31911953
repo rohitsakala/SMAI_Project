@@ -1,0 +1,1 @@
+<p>Why does <code>(defun boolimplies (a b) (or (not a) b))</code> if called as  <code>(boolimplies 'a 'b)</code> return <code>B</code>?</p>  <p>How does it arrive at this conclusion even when I don't use any boolean value (NIL,T) but just variable names?</p>

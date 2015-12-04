@@ -1,0 +1,1 @@
+<p>Does this statement:</p>  <pre><code>INSERT INTO table (...) VALUES (...)  WHERE NOT EXISTS (...) </code></pre>  <p>exists using Sqlite3?</p>  <p>EDIT:</p>  <pre><code>INSERT OR IGNORE  </code></pre>  <p>Is not working in my case</p>

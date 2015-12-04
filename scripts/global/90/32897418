@@ -1,0 +1,1 @@
+<p>When I write function documentation in R and I reference an external package I use  <code>\code{\link[package]{function}}</code> and that works great for the <code>?</code> function in interactive R.</p>  <p>But then my pdf files have linked text for "function" and the link just goes to my table of contents. How can I turn off these links for the pdf?</p>

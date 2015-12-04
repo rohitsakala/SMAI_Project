@@ -1,0 +1,1 @@
+<p>How can I convert a native byte (unsigned char) type variable to a managed byte array which is array^ in C++? </p>  <pre><code>byte sData[255]; // convert to System::Byte array or copy content to byteArray?? How?  array&lt;System::Byte&gt;^ byteArray; </code></pre>  <p>Thankyou for your assiastance... </p>

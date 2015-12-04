@@ -1,0 +1,1 @@
+<p>This is my CMakeLists.txt:</p>  <pre><code>ADD_SUBDIRECTORY(third) ADD_SUBDIRECTORY(utils) ADD_SUBDIRECTORY(rpc) </code></pre>  <p>But the directory 'rpc' will be compiled before directory 'utils', actually the 'rpc' is depends on 'utils', so I will get a link error.</p>  <p>How can I make the 'rpc' compiling after 'utils'?</p>  <p>Thanks.</p>

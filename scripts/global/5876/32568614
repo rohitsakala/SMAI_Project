@@ -1,0 +1,1 @@
+<p>I have debain os server which has vpnserver and ownclould installed. vpnserver listens to 443 port which cannot be changed. Owncloud has https uses 443 port. </p>  <p>I need to change the port number of owncloud from 443 to other port number.</p>  <p>Can anyone help me on this?</p>

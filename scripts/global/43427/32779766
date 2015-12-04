@@ -1,0 +1,1 @@
+<p>I using <a href="http://scrapy.org/" rel="nofollow">scrapy</a>, and I would like to get Ignoring response URL.I just see in the output console this:</p>  <p>DEBUG: Ignoring response &lt;999 <a href="https://www.mywebsite.com" rel="nofollow">https://www.mywebsite.com</a>>: HTTP status code is not handled or not allowed.</p>

@@ -1,0 +1,1 @@
+<p>I have a problem with Serialization and Deserialization of an object. I have an object Foo with different properties and some of the properties have the attribute NonSerialized. I have some cases when I want to serialize the fields and to read the serialized object with all the fields. Is this possible to do?</p>

@@ -1,0 +1,1 @@
+<p>While hosting my web app on cloud, should I install my db on the EC2 instance or should i use RDS service ? Some points come up :</p>  <ol> <li>Backing up would be automatic as EC2 instances are also backed up.</li> <li>Wouldn't automatic scaling of resources compensate for any automatic scaling of db that RDS would provide ?</li> </ol>

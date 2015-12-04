@@ -1,0 +1,1 @@
+<p>Question: User unable to register in Cybage_Marketplace</p>  <p>Error:</p>  <pre><code>Fatal error: Call to undefined method Cybage_Marketplace_AccountController::_getCustomer() in /hermes/bosoraweb172/b2129/dom.onloxe/public_html/app/code/community/Cybage/Marketplace/controllers/AccountController.php on line 47 </code></pre>

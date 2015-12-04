@@ -1,0 +1,1 @@
+<p>I need a get method for a readonly attribute </p>  <pre><code> public readonly string accountNumber { get;} </code></pre>  <p>doesn't work. Is there a way to create a get methode without creating a new extra attribute?</p>

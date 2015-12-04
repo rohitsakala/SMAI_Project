@@ -1,0 +1,1 @@
+<p>I believe that the caching on my Nginx server is set up correctly but on the header when checking in firebug I am seeing 'Cache-Control:max-age=0'.</p>  <p>I am assuming this means that the cache is not working correctly. Any ideas?</p>

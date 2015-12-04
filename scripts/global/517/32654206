@@ -1,0 +1,1 @@
+<p>I need to build a tree for showing and download pdf files in AngularJS. The thing is that i have to get the path of the local store from an appSettings field in the Web.Config xml. How can i obtain the path in the client side and then pass it to a TreeBuilder?</p>

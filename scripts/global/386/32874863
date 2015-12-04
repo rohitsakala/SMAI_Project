@@ -1,0 +1,1 @@
+<p>I'm using JSch connect to a server. I'm converting my private key to the OpenSSH because this is what is needed (so I'm told). My two questions are:</p>  <ol> <li>How should I name this OpenSSH file?</li> <li>Does this converted file also have to be added to the server similar to when adding the private key generated  when connecting using PuTTY?</li> </ol>

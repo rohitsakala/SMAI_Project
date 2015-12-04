@@ -1,0 +1,1 @@
+<p>I saw drupal 7 file upload path is default to "public//" but, I want to change it to my ubuntu machine specific path e.g. "/tmp/upload" . I have my customized drupal7 installed so, currently I could not find the uploaded file. Please help me out. </p>

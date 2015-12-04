@@ -1,0 +1,1 @@
+<p>If I have a list of 48 remote branches for a repo, I can do</p>  <pre><code>git branch -a </code></pre>  <p>To list all of them, how do I <code>grep</code> through those to only return the ones whose name contains <code>Theme</code>?</p>

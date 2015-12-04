@@ -1,0 +1,1 @@
+<p>I'm using the following NSTimer class method:</p>  <pre><code>NSTimer.scheduledTimerWithTimeInterval(  3,   target: self,   selector: Selector("setWaitThreeSecondsFalse"),   userInfo: nil,   repeats: false ) </code></pre>  <p>does the returned timer get deallocated after the selector runs? or do I have to explicitly invalidate the timer?</p>

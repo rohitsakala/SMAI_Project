@@ -1,0 +1,1 @@
+<pre><code>mutArray = [[NSArray alloc]initWithObjects:@"Titanic",@"Batman",@"Spiderman",@"Avatar",@"Pirates ofcarrrabiean",@"Avengers",@"Harrypotter",@"starwars",@"Lordofrings", nil]; </code></pre>

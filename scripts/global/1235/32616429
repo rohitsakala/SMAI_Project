@@ -1,0 +1,1 @@
+<p>I have an object of the my own class and <code>CTreeCtrl</code>. I have opportunity add items to <code>CTreeCtrl</code> like</p>  <pre><code>hTree = treeObject-&gt;InsertItem(L"All object", TVI_ROOT); </code></pre>  <p>This code add items with text. Have i opportunity to add items with consist pointer of my object?</p>

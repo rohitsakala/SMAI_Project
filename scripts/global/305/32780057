@@ -1,0 +1,1 @@
+<p>Can someone please take me through the steps of how to multiply any single precision floating point number by 2? or any other constant for that matter. The math/steps confuse me a little. I am aware that I can use &lt;&lt;1 to multiply by 2 for an int but the I don't know where to start for a fp number.</p>  <p>Thanks!</p>

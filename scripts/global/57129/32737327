@@ -1,0 +1,1 @@
+<p>I need to match such thing:</p>  <pre><code>pid = '0000000001' redirectUrlMatch = /https:\/\/example.com\/products\/.*?\/pages\/(pid)\/redirect\/(pid)/ assert.equal validator.matches(html, redirectUrlMatch), true </code></pre>  <p>But it fails, because how I think <code>pid</code> cant be placed to regex How I can perform this?</p>

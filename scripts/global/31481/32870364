@@ -1,0 +1,1 @@
+<p>I have a local MSAccess database file and when I want to get report on other machines crystal shows a logon prompt and asks for Login info. </p>  <pre><code>CrysRep.SetDataBaseLogon("?","?"); </code></pre>  <p>any ideas what should I put in username and password fields ?</p>

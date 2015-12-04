@@ -1,0 +1,1 @@
+<p>I am trying to change "=" in formulas to "'=" (basically trying to keep formula as text) but it doesn't work.</p>  <pre><code>Set rng = Range("A1:A500")  rng.Replace "=", "'=", xlPart </code></pre>  <p>But it is not working for some reason.</p>

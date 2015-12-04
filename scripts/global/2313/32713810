@@ -1,0 +1,1 @@
+<p>I have a string. Something like this:</p>  <pre><code>myapp.exe email --to myemail@mail.com --subject "EmailSubject" --body "Test message". </code></pre>  <p>How to parse every param value?</p>

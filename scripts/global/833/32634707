@@ -1,0 +1,1 @@
+<p>In my app, I want to use animations before I slide the keyboard up because the built in transitions are horrible. Since it has proven difficult to retrieve the keyboard height for all devices/apis, is it safe to assume that the keyboard will never be more than half of the screen height?</p>

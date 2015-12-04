@@ -1,0 +1,1 @@
+<p>How do you remove the <a href="http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/pie-drilldown/" rel="nofollow">underlined data labels</a> for a drilldown pie chart in Highcharts? Adding:</p>  <pre><code>textDecoration: 'none' </code></pre>  <p>to the <code>dataLabels</code> doesn't seem to work </p>

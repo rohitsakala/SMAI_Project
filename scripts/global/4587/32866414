@@ -1,0 +1,1 @@
+<p>I want to create restful api for hadoop which will be called from my front-end. Basically the api will call mapreduce program which will process my hbase data and will response JSON. I don't how to do this. Any useful resource will be appreciated.Thanks   </p>

@@ -1,0 +1,1 @@
+<p>How I can insert a default button on a right of a navbar that works with mobile and don't collapse with a 3 bars button.</p>  <p>I tried to use this</p>  <pre><code>&lt;div class="navbar navbar-default"`&gt;&lt;/div&gt; </code></pre>

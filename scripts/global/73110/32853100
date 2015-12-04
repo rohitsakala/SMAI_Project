@@ -1,0 +1,1 @@
+<p>I have fairly simple question regarding SignalR, is it possible that SignalR messages would arrive in an out of sync order. i.e if you send messages A,B,C from server, is it possible that the client might get those messages in an order other than A,B,C?</p>  <p>Thank you in advance!</p>

@@ -1,0 +1,1 @@
+<p>I would like to use an <code>UIView</code> subclass from an external framework in my project's Storyboard. I tried with different projects but each time I can't see the class name in the custom class dropdown menu.</p>  <p>Is it possible to make it work? </p>  <p>I guess the frameworks are fine, it should be an import/linking problem.</p>

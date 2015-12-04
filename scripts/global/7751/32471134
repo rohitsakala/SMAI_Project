@@ -1,0 +1,1 @@
+<p>I have a formula in Excel "<code>IF(D3=D2,SUM(K2+E3),E3)</code>" which need to be imitated in MS Access. Can anybody tell me how to convert it to a query ?</p>  <p>I tried putting it in access by using <code>IIF</code> and <code>dlookup</code> but I was getting circular reference error. So can anyone help me on this please ?  </p>

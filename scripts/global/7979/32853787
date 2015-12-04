@@ -1,0 +1,1 @@
+<p>Is there a way to query basemap to extract all coastal coordinates? Say user provides <code>lat/lng</code> and the function returns <code>true/false</code> if the coordinates are within 1km from the coast?</p>

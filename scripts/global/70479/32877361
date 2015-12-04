@@ -1,0 +1,1 @@
+<p>I made a webpage, but when I look at it on my phone, everything looks small and I have to zoom in to read everything clearly. I even used this code: </p>  <pre><code>&lt;meta name="viewport"content="width=device-width, initial-scale=1"&gt; </code></pre>

@@ -1,0 +1,1 @@
+<p>How instead of href="img/1.jpg, get the image thumbnail Url with WordPress function..</p>  <pre><code>&lt;a class="popup-link" href="img/1.jpg"&gt;&lt;/a&gt; </code></pre>

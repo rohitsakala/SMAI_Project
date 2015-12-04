@@ -1,0 +1,1 @@
+<p>I want to use JsonConvert.Serialize in order to serialize a c# array class object into a json non-array object.</p>  <p>public list&lt;<strong>employee</strong>> employees;</p>  <p>Output:</p>  <pre><code>"{\"employees\": {\"name\":\"Alex\",\"number\":\"25860340\"}, {\"name\":\"Tom\",\"number\":\"94085345\"} }"  </code></pre>

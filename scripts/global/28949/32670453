@@ -1,0 +1,1 @@
+<p>while loading resources from remote, I could not use https in cocos2d-js. Mean while if I try with http protocol, it's working fine. Why can't we do pinning certificates in cocos2d-js?</p>

@@ -1,0 +1,1 @@
+<p>I am using the new Camera2 api trying to implement touch focus and can't seem to find an equivalent to the Camera1 api setFocusArea().  I want a user to be able to touch the preview screen and have the camera focus on that area.  There doesnt seem to be any function relating x-y position to focus in the new API.</p>

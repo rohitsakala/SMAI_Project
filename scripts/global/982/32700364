@@ -1,0 +1,1 @@
+<p>I'm going crazy with this simple stuff:</p>  <pre><code>$scope.targetData=new Date("09 21 2015 18:04:00"); $scope.clock = new Date(); </code></pre>  <p>This render : <code>targetData="2015-09-21T16:04:00.000Z"</code> and <code>clock="2015-09-21T16:36:53.314Z"</code></p>  <p>but in Italy it is 18:04:00... so how can I set correct ?? Thanks..</p>

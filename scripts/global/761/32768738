@@ -1,0 +1,1 @@
+<p>I achieved multi-tenancy using act_as_tenant <a href="https://github.com/ErwinM/acts_as_tenant" rel="nofollow">https://github.com/ErwinM/acts_as_tenant</a>.  Here is my scenario. I want to share the record of tenant A to tenant B based on some condition. So that tenant B can access the A's record.</p>  <p>How can I achieve that?</p>

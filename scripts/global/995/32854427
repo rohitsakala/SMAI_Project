@@ -1,0 +1,1 @@
+<p>I have an ELK stack. I need to have a notification system which will query the elastic search for particular query and trigger email notification if it finds one.Can anyone suggest any such open source notification tool?</p>

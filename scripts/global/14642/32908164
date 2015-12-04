@@ -1,0 +1,1 @@
+<p>In my <strong>Magento</strong> I have some modules that do changes to DB manually. For ex., changing some attributes, or importing new products from some catalog etc.</p>  <p>So, <strong>Algolia</strong> hooks not used in this case.</p>  <p>Is there some way to proceed <strong>algolia</strong> reindex from php-script?</p>

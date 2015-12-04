@@ -1,0 +1,1 @@
+<p>For example: </p>  <p>list_with_smallest([[1, 2, 3], [6, 5, 4], [6, 7, 8]]) should return 14 (the sum of 6, 5 and 3)</p>

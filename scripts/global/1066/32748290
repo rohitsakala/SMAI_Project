@@ -1,0 +1,1 @@
+<p>I am getting below error when I tried to upload build (ipa) from jenkins to hockeyapp</p>  <p>"Got unexpected response code from HockeyApp: 200"</p>  <p>I have added team ID, upload version, ipa file, No release notes and allow Downloads as part of jenkins configuration hockeyapp.</p>  <p>Please let me know. </p>  <p>Thanks</p>

@@ -1,0 +1,1 @@
+<pre><code>value: .asciiz "ABcd1234"  main:     lw $a0 value #Stores the value in a0      li $t0 0     #counter starts a 0  </code></pre>  <p>Doing this gives me:</p>  <pre><code>    $t0 = 0      $a0 = 64634241 </code></pre>  <p>How would I go about getting $t1 = 41  and then after another loop and incrementing the counter by 1, get $t1 = 42 then 63 and 64 finally. </p>

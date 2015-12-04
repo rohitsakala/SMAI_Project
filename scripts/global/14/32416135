@@ -1,0 +1,1 @@
+<p>I am newbie in lisp I have installed Clisp in my ubuntu 14.04 machine and SBCL too.</p>  <p>My Program in TextEditor looks like this:</p>  <pre><code>( hello world ) </code></pre>  <p>but i am getting the following error:</p>  <pre><code> user@user:~/Desktop/lisp$ ./test.lisp     ./test.lisp: line 1: i: command not found </code></pre>

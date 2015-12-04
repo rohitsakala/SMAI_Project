@@ -1,0 +1,1 @@
+<p>I created a user by <code>CREATE USER TEST1 IDENTIFIED BY TEST1; </code> <br/> How can I grant all privileges within the schema along with the create session privilege to the schema user so that the schema user can only handle it's own objects/tables.</p>

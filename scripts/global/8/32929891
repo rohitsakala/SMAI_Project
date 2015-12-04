@@ -1,0 +1,1 @@
+<p>I have a program that uses an environment variable to get a list of paths, like $PATH. I would like to know the easiest way to parse out the individual paths from this environment variable.</p>

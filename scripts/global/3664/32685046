@@ -1,0 +1,1 @@
+<p>I am trying to namespace my jQuery app.</p>  <p>Example:</p>  <pre><code>var app = {     data : {      data1: ''    },    fn: {     setData1: function(value){       app.data.data1 = value     }   }   } </code></pre>  <p>This works, but is there a better solution which doesn't use the full path? Moreover, is this a good code structure for a medium-sized application?</p>

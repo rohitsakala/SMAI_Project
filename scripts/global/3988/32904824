@@ -1,0 +1,1 @@
+<p>my view:</p>  <p>I have an array like this in my view:</p>  <pre><code>$posts = array("Volvo", "BMW", "Toyota"); </code></pre>  <p>I want to use my <code>$cars</code> array in my script.</p>  <p>My script:</p>  <pre><code>var car= &lt;?php json_encode($posts); ?&gt; </code></pre>  <p>I tried like above but it will show an error.</p>

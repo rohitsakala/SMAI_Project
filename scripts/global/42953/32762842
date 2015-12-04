@@ -1,0 +1,1 @@
+<p>How to use this expression in ssrs</p>  <pre><code>=NOT(isnull({Command.AAID})) or NOT(isnull({Command.HDomain})) or NOT(isnull({Command.Adomain})) </code></pre>  <p>Thanks.</p>

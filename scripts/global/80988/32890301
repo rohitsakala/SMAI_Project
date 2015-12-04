@@ -1,0 +1,1 @@
+<p>I have a windows server PC with nodejs installed.</p>  <p>I need to execute my grunt application automatically at startup, and I would like to use a windows service.</p>  <p>A workaround could be to launch "cmd" within "startup" folder with a link, but windows service is better... is there a way?</p>  <p>thank you in advance</p>  <p>Luca</p>

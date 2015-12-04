@@ -1,0 +1,1 @@
+<p>i need drag nodes in same level on treeview c#, im trying but not working.</p>  <pre><code>-Node      --First      --Second      --Third      --Four    -Node      --Second      --First      --Four      --Third </code></pre>  <p>Only have one level in treeview i need realign nodes. Sorry my english level, i hope you can help me.</p>

@@ -1,0 +1,1 @@
+<p>I have long list of components which in turn calls a sub setup file to installs the selected components. All the components comes with check box which user can select and deselect. I need a check box at the top clicking which will Check/Uncheck all in the component list.</p>  <p>Can this be done ?</p>  <p>Thanks for reading</p>

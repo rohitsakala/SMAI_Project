@@ -1,0 +1,1 @@
+<p>Let's say, we have the following code.</p>  <pre><code>x = sc.textFile(...) y = x.map(...) z = x.map(...) </code></pre>  <p>Is it essential to cache <code>x</code> here? Would not caching <code>x</code> make spark read the input file twice?</p>

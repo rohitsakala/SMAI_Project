@@ -1,0 +1,1 @@
+<p>I am a newbie to Sqlite/Oracle integration. I am presently using a product having SQLite database.. Since there are large transactions, I want to locally do the database operations in Sqlite and then push it to Oracle Db automatically . Can anyone provide me what is the best approach and the steps to do the same.</p>

@@ -1,0 +1,1 @@
+<p>I have a MVC WebApp which is called from clients running in a Citrix Environment. Is it possible to detect the IP address of the Citrix Server (where the Client is executed)  from the http request?</p>  <p>Thanks for your help.</p>

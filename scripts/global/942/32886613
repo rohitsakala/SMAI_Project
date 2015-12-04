@@ -1,0 +1,1 @@
+<p>I couldn't found any loggers for windows 10 universal app, i have tried out log4net, Microsoft enterprise library, Nlog but none of them are supported in windows 10 Universal platform.</p>  <p>Can anyone suggest me good logger for the windows 10 UWP?</p>

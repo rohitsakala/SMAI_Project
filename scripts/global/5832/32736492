@@ -1,0 +1,1 @@
+<p>What happens, in this code:</p>  <pre><code>QString s; if(s!=0) </code></pre>  <p>which operator or cast will be applied here?  Is it valid? (it does compile) Is it similar to isNull or isEmpty?</p>

@@ -1,0 +1,1 @@
+<p>A program have too many screen print out.</p>  <p>I want to save STDERR to a file (if save all STDOUT &amp; STDERR, file will be too large)</p>  <p>As the same time, I still want to see STDOUT in screen.</p>  <p>How to pipe STDERR only to a file?</p>

@@ -1,0 +1,1 @@
+<pre><code>sed -n 's/^@(#)*/    /p' </code></pre>  <p>The input is piped in for this sed command. However, I am having tough times understanding this expresion <code>'s/^@(#)*/    /p'</code></p>

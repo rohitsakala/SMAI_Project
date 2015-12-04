@@ -1,0 +1,1 @@
+<p>I'm using suppressMarkers =true. This works for IE >=10 and other browsers, but this is not working for IE9, and google display its own markers on direction path. I'm using following code.</p>  <pre><code>var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true}); </code></pre>

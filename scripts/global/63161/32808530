@@ -1,0 +1,1 @@
+<p>I find myself using often the following pattern</p>  <pre><code>var line = "12|John Doe" var pieces = line.split("|") var user = {    id : pieces[0],    name : pieces[1] }  console.log(user) </code></pre>  <p>How would you use underscore to make this more concise and elegant ?</p>

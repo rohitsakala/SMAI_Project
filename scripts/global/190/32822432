@@ -1,0 +1,1 @@
+<p>How does HAProxy and Consule relate each other? </p>  <p>The vendor sites mentioned Consule is use for service discover and configuration while HAProxy use to load balance.</p>  <p>So is it like first we have to make our service discoverable using Consule and then use HAProxy for load balance? Cant we do load balance only with Consule?</p>

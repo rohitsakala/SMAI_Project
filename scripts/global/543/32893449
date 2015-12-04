@@ -1,0 +1,1 @@
+<p>Is there a way (in Eclipse, preferably) to simulate JIT optimizations of my code? I can use Bytecode Visualizer to see the non-optimized version, but what I also want to see is how the code changes over time with the JIT optimizations. I want to make sure that I'm writing JIT friendly code.</p>

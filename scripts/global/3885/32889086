@@ -1,0 +1,1 @@
+<p>When I try to import org.eclipse.core.resources.IFile for a Plug-in project in Eclipse  I get the following error:</p>  <pre><code>The type org.eclipse.core.resources.IFile cannot be resolved. It is indirectly referenced from required .class files </code></pre>  <p>How do I add it to Plug-in Dependencies? </p>

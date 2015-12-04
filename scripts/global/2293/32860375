@@ -1,0 +1,1 @@
+<p>I have created Home using HomeKit and become Admin user as per Apple guideline. I have added guest users in Home.<br> How do user know is he is Admin or Guest of the Home?<br> Is their any API of HomeKit like user.currentUserType.   </p>

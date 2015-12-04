@@ -1,0 +1,1 @@
+<p>I have a running Jboss 7.1 and i want to add:<br> timeout<br> idle-timeout-minutes 1 idle-timeout-minutes <br> timeout<br></p>  <p>in my datasource (standalone.xml) via cli. I can't stop this Jboss-server.  Is it possible to add the idle timeout via cli? </p>

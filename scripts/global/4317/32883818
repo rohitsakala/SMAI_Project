@@ -1,0 +1,1 @@
+<p>I'm creating a report app, so I render images saved as html in the DB on a web browser using c# and take a screen shot of it to put it in the report.</p>  <p>The problem is if the image is large it doesn't appear fully in screenshot, so I need a method to capture a screen shot for the whole content of the browser regardless of it's size and regardless of scrolling.</p>

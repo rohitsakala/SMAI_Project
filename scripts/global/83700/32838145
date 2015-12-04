@@ -1,0 +1,1 @@
+<p>I have MySQL database tables, of which names are in "yyyymmdd" format. I need to select several tables, for example, from "20150901" to "20150930". I think there might be a way to implement only one model for those tables.</p>  <p>If somebody knows how to do so, please help.</p>  <p>Thanks.</p>

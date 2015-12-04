@@ -1,0 +1,1 @@
+<p>In my application I programmed that the system <strong>plays an audio</strong> to notify the user when he received a notification.</p>  <p>If the user have a lot of browser tabs opened, this audio is played a lot of times (one for tab).</p>  <p>Is there any way to do that the audio <strong>only plays once</strong>?</p>  <p><em>Thank you!</em></p>

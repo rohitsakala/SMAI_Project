@@ -1,0 +1,1 @@
+<p>I was wondering if it's possible to set different camera parameters for front and back camera. If so, how to do it? If not, I was wondering if there was another solution for crashing when a device does not have one of the set parameters available, such as FLASH_MODE_ON or SCENE_HDR.</p>

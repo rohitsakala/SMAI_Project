@@ -1,0 +1,1 @@
+<p>If i release(publish) a mvc project to a folder. Lets say I make a change to _layout later in my solution and publish again, what files do i need to update on the ftp? bin or (_layout in views folder)?  When do I need to update stuff in View or bin? </p>

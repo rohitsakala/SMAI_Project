@@ -1,0 +1,1 @@
+<p>I tried to run a simple container and got the error message</p>  <pre><code>docker run docker/whalesay boo Error response from daemon: Cannot start container 843b258e583b1e9966dc9b771f613e60b887ecc2059376473e06ede68e1bd347: [8] System error: exec: "boo": executable file not found in $PATH </code></pre>  <p>What am I doing wrong?</p>

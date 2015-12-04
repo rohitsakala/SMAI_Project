@@ -1,0 +1,1 @@
+<p>We have an application sending notifications through GCM. We want to make performance testing of this appliction. We are using fake regiterIds. Is it a problem using fake ids? Can we produce and use valid ids? Or is there another way to make this test? </p>

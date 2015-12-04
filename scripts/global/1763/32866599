@@ -1,0 +1,1 @@
+<p>Is it possible to add a setting to cache my docker image anywhere in the travis configuration ? Mine is a bigger docker image and it takes a while for it to download. </p>  <p>Any suggestions ?</p>  <p>-Naga</p>

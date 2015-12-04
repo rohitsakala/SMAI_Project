@@ -1,0 +1,1 @@
+<p>When application X fires an implicit Search intent  and user decides to "Always Open with App Y", I am wondering what is being saved?</p>  <ul> <li>Are all Search Intents open with app Y?</li> <li>Are only Search Intents coming from app X opened with app Y?</li> <li>Are only Search Intents generated from that specific part of application X open in app Y? </li> </ul>

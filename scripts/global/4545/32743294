@@ -1,0 +1,1 @@
+<p>I'd like the <code>CFBundleShortVersionString</code> in my main project's <code>plist</code> file to have value derived from <code>SomeOther.plist</code> file that resides in some <code>SomeOther.bundle</code> file included in the project.</p>  <p>Is there a way to achieve this in XCode? Maybe using <code>${SOMETHING}</code> references?</p>

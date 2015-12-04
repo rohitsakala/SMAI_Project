@@ -1,0 +1,1 @@
+<p>I have an XML document Main.xml which refers to another xml document instructions.xml. I'm using the concept of ID/IDREF to implement this. I have implemented the xml code which takes only a particular set of instructions with the ID defined. Should i use XSL to implement this? or is it possible with XML using ENTITY?</p>

@@ -1,0 +1,1 @@
+<p>normally when writing to console the current line (where one can enter stuff) is erased and new empty one is added for input.</p>  <p>Is there a way to write a new line without clearing the current. I know that the "Minecraft-Server" somehow manages that. But it also would be useful for a console chat programm.</p>  <p>How can i do this ?</p>

@@ -1,0 +1,1 @@
+<p>There is an external CMD window running. The requirement is to get the handle/id of that CMD and pass it arguments at run-time from the C++ application.</p>  <p>Is there any direct way of doing it, ie running something in system("....") , a command which redirects to terminal addressed by handle or WinAPi needs to be used in this case.</p>

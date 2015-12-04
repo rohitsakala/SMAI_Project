@@ -1,0 +1,1 @@
+<p>I'm using the HeyZap mediation SDK. I have all the mediation set up perfectly fine, but I would like for the interstitial ad to show every 3rd game. </p>  <p>I've tried some solutions here on Stack Overflow but they apply to AdMob.</p>  <p>Right now, I have:</p>  <pre><code>-(void) GameOver {   ....   [HZInterstitialAd show]; } </code></pre>  <p>How do I achieve this?</p>

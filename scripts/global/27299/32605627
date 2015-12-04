@@ -1,0 +1,1 @@
+<p>I need to convert from an integer to a hexadecimal string (Character string) in Java ME (v3.2). I tried to try String.format() but that is not supported in this version. Any other alternatives? Sample code would be helpful.</p>

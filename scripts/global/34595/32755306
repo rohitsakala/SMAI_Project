@@ -1,0 +1,1 @@
+<p>This is the scenario:</p>  <pre><code>Node 1 is connected to Router A Node 2 to n is connected to Router B Router A is connected to Router B  Node 1 want to share its media to Nodes 2 to n. </code></pre>  <p>Normal sharing techniques in Windows 7 will allow such requirement?</p>

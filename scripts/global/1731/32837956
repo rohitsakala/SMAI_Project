@@ -1,0 +1,1 @@
+<p>Can I get sys/epoll.h header file and library on Windows? Does cygwin contains it? I have a source code that uses this header file and I'm unable to compile it.</p>

@@ -1,0 +1,1 @@
+<p>I developed an android application in which shows the current location of the user and updates the movement on google map API 2 in that application. My requirement is to remotely track and draw the path of this android device on java application on desktop/laptop.</p>  <p>usage: Cab driver uses the android application. Cabs owner uses the desktop application.</p>

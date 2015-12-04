@@ -1,0 +1,1 @@
+<p>What meta-data does Firebase automatically collect, if any?</p>  <p>I know you can build a form that passes data to Firebase (like name, email, message, etc.) however does Firebase collection other meta-data like IP address, timestamp, location, browser, etc?</p>

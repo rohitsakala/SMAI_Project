@@ -1,0 +1,1 @@
+<p>I am trying to figure out how to convert my window width to the world coordinates. As I understand it, it ranges from -1 to 1. However, internal testing has shown that at 512 width by 512 height, the coordinates go up to around 10 (assuming depth of 0).</p>  <p>I want to find out how I can get the x and y limit at depth 0 as the screen size changes.</p>

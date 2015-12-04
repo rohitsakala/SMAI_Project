@@ -1,0 +1,1 @@
+<p>If I have a list <code>list1=[1,15,9,3,6,21,10,11]</code> how do I obtain the smallest 2 integers from that?</p>  <p><code>min()</code> gives me one number, but what about 2?</p>

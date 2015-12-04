@@ -1,0 +1,1 @@
+<p>I need to access to my Web App using HTTP GET and POST requests in my console application, but unfortunately I can't use anonymous access option in "Who has access to the web app". Is there any chance to do it using any approaches (OAuth2 client Id, service account, even my login and password....) ?</p>

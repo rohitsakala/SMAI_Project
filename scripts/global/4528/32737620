@@ -1,0 +1,1 @@
+<p>How can we add list or multiple values for a single key in web.config?</p>  <p>For example: I have key named "xyz" it has a list of values, that is , val1, val2, val3 etc.</p>  <p>And this can be obtained in my code as other keys are accessible.</p>

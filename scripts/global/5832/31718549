@@ -1,0 +1,1 @@
+<p>I have a struct</p>  <pre><code>struct control_data{     int column_number;     QString cell; }; </code></pre>  <p>I need to send it to another thread with the help of QShareMemory. I <a href="http://www.qtcentre.org/threads/26254-QSharedMemory-and-C-objects" rel="nofollow">read</a> that you can't do this because QString contains pointers inside. Any other ways?</p>

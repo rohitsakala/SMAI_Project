@@ -1,0 +1,1 @@
+<p>What do <code>enum</code>s become at runtime in TypeScript?</p>  <p><em>Fruit.ts</em></p>  <pre><code>enum Fruit {APPLE, ORANGE}; </code></pre>  <p><em>main.ts</em></p>  <pre><code>var bowl = [Fruit.APPLE, Fruit.ORANGE]; console.log(bowl); </code></pre>  <p>The generated <code>main.js</code> file just stays the same as the <code>.ts</code>, however that won't work.</p>

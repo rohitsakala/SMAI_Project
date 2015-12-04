@@ -1,0 +1,1 @@
+<p>I am using <code>video.js</code> to play flash(.flv) video. But when I press play button it does not play video?<br> I have used the <code>"techorder:"["flash","html"]</code>. But it made no difference.<br> Is there any plugin to for flash video in <code>videojs</code>? How can I play .flv video in <code>video.js</code>?  </p>

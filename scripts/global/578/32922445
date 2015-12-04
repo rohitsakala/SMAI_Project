@@ -1,0 +1,1 @@
+<p>Can someone explain how this piece of code works? The output is a vector with the letters of input but without repetition.</p>  <pre><code>var uniqueInOrder = function (iterable) {   return [].filter.call(iterable, (function (a, i) {     return iterable[i - 1] !== a   })); } console.log(uniqueInOrder("aaaaaBBBDSJJJJ")) </code></pre>

@@ -1,0 +1,1 @@
+<p>How to reject a delayed Promise:</p>  <pre><code>const removeDelay = Promise.delay(5000).then(() =&gt; {     removeSomething(); });  //Undo event - if it is invoked before 5000 ms, then undo deleting removeDelay.reject(); // reject is not a method </code></pre>

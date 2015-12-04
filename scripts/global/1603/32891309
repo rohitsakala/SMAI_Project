@@ -1,0 +1,1 @@
+<p>I was wondering if there is any performance difference between embedded Servlet container, lets say Tomcat, and the external one.</p>  <p>Can this be roughly compared?</p>  <p>I have in mind mostly single web app war but if it depends on the type and architecture of web apps I would like to hear also about these details.</p>

@@ -1,0 +1,1 @@
+<p>The Apache webserver uses port 80 to listen for incoming requests and replies over port 80. Firefox uses port 80 to send requests to webservers and then listens on port 80 for the response from the webserver. I have run Apache and Firefox simultaneously before and am just wondering how two different programs can share the same port.</p>

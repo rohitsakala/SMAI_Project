@@ -1,0 +1,1 @@
+<p>I am developing a web app inside Eclipse, using struts2. I have an action class that creates an array full of string. </p>  <p>How can I realize a <code>&lt;li&gt;</code> inside the jsp I call retrieving string values from my array?</p>

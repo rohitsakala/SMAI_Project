@@ -1,0 +1,1 @@
+<p>I'm trying to build a program that will format a USB. I would like there to be a menu that the user can pick from listing the possible drive choices. However, I'm having a hard time finding any information about interacting with drives in Swift. Certainly there is an API or something, since Swift is the native language. </p>

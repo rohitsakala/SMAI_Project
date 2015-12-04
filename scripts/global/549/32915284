@@ -1,0 +1,1 @@
+<p>Is it possible to modify the source code of hping3 and install it manually on Ubuntu? I want to modify icmp type file to get timestamp in UTC rather than in epoch.Please guide me. Normally when we type "sudo hping3 --icmp-ts 12.0.0.1" then it gives us originate/rceive/sending time with epoch format. I want to see this time in UTC.</p>

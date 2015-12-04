@@ -1,0 +1,1 @@
+<p>i have a jacoco coverage graph coming up on the jenkins build job. However I don't want to display the line coverage but only method or class coverage. Else i could also work with the coverage stats alone by disabling the line coverage graph. How can i set this up?</p>

@@ -1,0 +1,1 @@
+<p>How can i make the function return an int and not None in this code.?</p>  <pre><code>def num():    try:       user_input = int(raw_input('Enter an number:'))       return user_input   except:      print 'PLZ enter an number'      num() print num() </code></pre>

@@ -1,0 +1,1 @@
+<pre><code>int base = 12;  double number = 12.2112;  double c = number - base; //// c=0.211199999999999983    </code></pre>  <p>this is c++ code, How could I get the outcome: c= 0.2112, </p>

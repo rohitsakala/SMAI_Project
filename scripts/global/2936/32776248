@@ -1,0 +1,1 @@
+<p>I want to compare if two or more chars are different in two strings. For example </p>  <pre><code>var string1 = "test1"  var string2 = "trsz1" </code></pre>  <p>And now I want to check, if >= 2 chars are different in this 2 strings, it should output false. How you will do it?</p>

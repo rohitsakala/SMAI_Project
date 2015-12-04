@@ -1,0 +1,1 @@
+<p>I'm working with a memcached version of Laravel... memcache was added by a previous developer despite instructions for things to be stateless. In trying to remove memcache, I either cause php to fail horribly, or I later discover that, somehow, caching remains. </p>  <p>How can I remove caching from laravel?</p>

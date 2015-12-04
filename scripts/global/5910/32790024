@@ -1,0 +1,1 @@
+<p>I want to have an error message and exit normally in case <code>-np</code> is set to zero on the command line. Is there any way to do this? It seems like the program stops working without even starting.</p>

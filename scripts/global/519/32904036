@@ -1,0 +1,1 @@
+<p>I Want to Show a Video For Example : <a href="http://abcd.com/file.mp4" rel="nofollow">http://abcd.com/file.mp4</a> in a Windows Form Application. I Tried to use WindowsMediaPlayer:</p>  <p><code>AxWindowsMediaPlayer.URL = "http://abcd.com/file.mp4"</code></p>

@@ -1,0 +1,1 @@
+<p>My Eclipse project has no source and a lot of referenced librairies built automaticaly with a script. I want to create multiple subproject which include all these referenced libairies. When I add the parent project as a dependency for my subproject, referenced librairies are not imported. How can I fix it ? (I use Mars Eclipse)</p>

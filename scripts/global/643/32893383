@@ -1,0 +1,1 @@
+<p>I want to load another site's page (e.g: www.a.com/b.html) on my site's page. TO do that I use an iframe to do that. But in that page (b.html), there is a button that I need to hide. Is there any way to hide that button with javascript or jquery.</p>  <p>Is there any other way to get the content of that page and edit some and display on my page.</p>

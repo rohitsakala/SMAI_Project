@@ -1,0 +1,1 @@
+<p>This C program prints <code>Done</code>, then enters an infinite loop.</p>  <pre><code>#include &lt;stdio.h&gt;  int main(int argc, char const *argv[]) {     printf("Done");     while (1) {}     return 0; } </code></pre>  <p>But when I run it, this code does <em>not</em> print <code>Done</code>. Why is that?</p>

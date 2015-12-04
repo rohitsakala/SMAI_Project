@@ -1,0 +1,1 @@
+<p>my web service has a function which launch process for 1.5 Go but never finish it. it stop at about 300 Mo. The process is an instance of softimage for a render process. When i launch the same batch file from PC, it works fine.</p>  <p>thank you for your help.</p>

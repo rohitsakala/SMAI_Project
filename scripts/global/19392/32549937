@@ -1,0 +1,1 @@
+<p>I have been trying to access liferay using my Active Directory account but i am not able to sign in, knowing that the users are imported successfully but it seems that liferay doesn't import the passwords. How can I solve this issue?</p>  <p>AD Environment: Windows Server 2012 Liferay 6.2</p>

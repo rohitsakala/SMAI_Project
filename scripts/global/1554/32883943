@@ -1,0 +1,1 @@
+<p>Hi when I try to right click and save page as the web page is saved as .xhtml . But when I try to download it using wget or curl it is being downloaded as .html. Is there any way that I can download it as it is like .xhtml? I really need it.</p>

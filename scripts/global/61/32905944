@@ -1,0 +1,1 @@
+<p>So I was asked this question. Given the code below (in Java):</p>  <pre><code>String a = "10"; String b = "10"; </code></pre>  <p>So does address of a and b the same ? or different. Well in C/C++, I know it depends on how the compiler run. Depend on the compiler, it could be the same address for those 2, or not. But in Java I have no clue. So what do you think about this ?</p>

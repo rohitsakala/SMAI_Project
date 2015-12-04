@@ -1,0 +1,1 @@
+<p>How would I code the following in a custom button on the case object? If a picklist field equals billing then give me a specific CES and CEM string. Otherwise leave CES and CEM null.</p>  <p>Any help would be great. </p>

@@ -1,0 +1,1 @@
+<p>I have a sbt project and I want to include a Java project as a dependency in my sbt project. The Java project has a maven pom.xml and its on github. Its located here: <a href="https://github.com/ggrandes/bouncer" rel="nofollow">https://github.com/ggrandes/bouncer</a></p>  <p>How to use a java project as a dependency within sbt?</p>

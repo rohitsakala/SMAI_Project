@@ -1,0 +1,1 @@
+<p>for example we have 2 Strings.</p>  <pre><code>string1 = "abcdef" string2 = "abvdtf" </code></pre>  <p>How i can check now if more than 2 chars are different, it should return me false.</p>

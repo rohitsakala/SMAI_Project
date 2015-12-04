@@ -1,0 +1,1 @@
+<p>click.rb:</p>  <p>require 'win32ole'</p>  <p>WIN32OLE.new("AutoItX3.Control")</p>  <p>error: <a href="http://i.stack.imgur.com/SOZSd.png" rel="nofollow"><img src="http://i.stack.imgur.com/SOZSd.png" alt="enter image description here"></a></p>  <p>i should use this url :</p>  <p><a href="https://www.ruby-forum.com/topic/207990" rel="nofollow">sample1</a></p>

@@ -1,0 +1,1 @@
+<p>I'd like to know if it's possible that if there is a canvas tag in the html I'd like to attach an event listener to it so that each time it's programmed to draw something the callback function would do something like increment a value or something</p>

@@ -1,0 +1,1 @@
+<p>I am trying to write a program that finds and counts the number of characters in a a repetitive sequence in visual basic. </p>  <p>For example, the string is :- ABCCCCCDEFFF</p>  <p>Expected output:- </p>  <p>C = 5</p>  <p>F = 3</p>

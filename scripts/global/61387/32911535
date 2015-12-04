@@ -1,0 +1,1 @@
+<p>This is from nodejs official doc.</p>  <pre><code>Document Your Dependencies Installing new module dependencies using the --save flag will help keep your project’s package.json file up to date:  $ npm install --save cloud-env </code></pre>  <p>What is the use of depencies in nodejs? And what is the --save for? I saw some use another stuff than the --save.</p>

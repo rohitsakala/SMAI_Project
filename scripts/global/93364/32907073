@@ -1,0 +1,1 @@
+<p>(listBox1->SelectedItem)("Tomato salad-------5,00 KM");</p>  <p>listBox1->Items->Remove("Potato salad-------5,00 KM");</p>

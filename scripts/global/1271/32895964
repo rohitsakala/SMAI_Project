@@ -1,0 +1,1 @@
+<pre><code>file.txt example=0x12; non-match   grep -w "example=0x0" file.txt </code></pre>  <p>I am trying to match exact string using grep and it looks like echo $? always returns 1.</p>  <p>In this case, the output should have been 0. I have tried -F too.</p>

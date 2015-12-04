@@ -1,0 +1,1 @@
+<p>I am trying to write the following message in JMS queue (ActiveMQ)</p>  <pre><code>Object[] paramArray = {argsList, result}; logger.info(" Arguments: {} Returned Value: {}",paramArray); </code></pre>  <p>But it does not read the param Array and write the message  Arguments: {} Returned Value: {} as LoggingEventVO object in the queue. </p>  <p>Please help.</p>

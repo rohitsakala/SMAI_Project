@@ -1,0 +1,1 @@
+<p>In Term mode, autopair-mode doesn't do quite what I want. When I type a parenthesis <code>(</code>, it types it, but then moves the cursor back one spot, so if I type a letter x, I'd get <code>x(</code>, when I wanted <code>(x</code>. How can I fix this?</p>

@@ -1,0 +1,1 @@
+<p>If I have a list of n numbers and want to generate a new list only the numbers that are multiples of any of the other numbers in the same list.</p>  <p>For example, for this list: <code>'(2 4 5 7 10)</code> the result should be the list <code>'(4 10)</code>.</p>

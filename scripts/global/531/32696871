@@ -1,0 +1,1 @@
+<p>How to concat variable and string in bash script ?</p>  <pre><code>val1 = Variable1 + "any string " </code></pre>  <p>eg :</p>  <pre><code>val1 = $i + "-i-*" </code></pre>  <p>where i = 24thMarch</p>  <p>I want echo val1 : </p>  <pre><code>24thMarch-i-* </code></pre>  <p>What is proper proper to get the solution ? </p>

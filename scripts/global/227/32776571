@@ -1,0 +1,1 @@
+<p>What will happen if I expand a container while iterating through it, may I meet the new elements or just the old ones</p>  <pre><code>std::vector&lt;int&gt; arr(0); arr.push_back(1); arr.push_back(2); arr.push_back(3);  for (auto&amp; ele : arr) {     if (4 == ele) std::cout &lt;&lt; "meet new eles" &lt;&lt; endl;     arr.push_back(4); } </code></pre>

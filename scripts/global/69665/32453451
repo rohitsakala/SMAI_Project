@@ -1,0 +1,1 @@
+<p>I can't install Postgresql. I've tried everything:</p>  <ul> <li>I run the setup as Administrator.</li> <li>I create a postgresql user an I add it to the Administrator group. </li> <li>I install it directly on C:\postgresql.</li> </ul>  <p>but without any success. for information: I have windows 8</p>

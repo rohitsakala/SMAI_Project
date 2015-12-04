@@ -1,0 +1,1 @@
+<p>I was able to get the context menu up with applescript  tell perform action "AXShowMenu"</p>  <p>This got the menu up. But I am not able to access any of the menu items. How can I access menu items for a file in finder?</p>

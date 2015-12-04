@@ -1,0 +1,1 @@
+<p>I'm  newbie with Redis, I tried to delete a key on Ram done, but it has been existed on disk in dumb file. After restart server, the key on Ram has been existed. Please help me. How to sync data between ram and disk?</p>

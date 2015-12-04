@@ -1,0 +1,1 @@
+<p>I have a Data table like this:</p>  <pre><code>Name        Grade Jim          5 Jim          4 Charlie      3 </code></pre>  <p>I would like to get another Result table like this:</p>  <pre><code>Name        Grades Jim          5,4 Charlie      3 </code></pre>  <p>How can I list or sort out the grades of a child in one column?</p>

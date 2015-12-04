@@ -1,0 +1,1 @@
+<p>I want to write a macro like this: </p>  <pre class="lang-rust prettyprint-override"><code>macro_rules! a {     ( $n:ident, $t:ty ) =&gt; {          struct $n {              x: $t          }     } } </code></pre>  <p>But <code>$t</code> should implement <code>Add</code>, <code>Sub</code> and <code>Mul</code> traits. How can I check it at compile-time?</p>

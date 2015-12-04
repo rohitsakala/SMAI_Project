@@ -1,0 +1,1 @@
+<p>In the messaging subsystem of jboss there are two possibilities to create a queue:</p>  <p>hornetq-server=default/queue= and hornetq-server=default/jms-queue=</p>  <p>What is the difference between these two queues?</p>  <p>In which case we should use "queue" instead of jms-queue?</p>  <p>Thank you</p>

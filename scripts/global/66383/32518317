@@ -1,0 +1,1 @@
+<p>I'm trying to send a notifications to a client (node.js) when a certain task occurs. For exemple, if an incident is created, it should send a notification to the client.</p>  <p>Is there a solution to do that in Dynamics CRM out of the box or do I have to write a specific plugin ?</p>  <p>Thanks for your help</p>

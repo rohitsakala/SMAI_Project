@@ -1,0 +1,1 @@
+<p>Somehow after running buildout and restarting my website, dates translations are not correct. I receive <code>28 month_aug_abbr 2015</code>, not <code>28 Aug 2015</code>.</p>

@@ -1,0 +1,1 @@
+<p>I have a small doubt. When we implemement more than one listeners on an applet, is a seperate thread created for each listener implemented apart from the applet thread? Or only one thread created for all the listeners?</p>

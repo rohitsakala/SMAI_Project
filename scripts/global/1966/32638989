@@ -1,0 +1,1 @@
+<blockquote>   <p>"/* "[^* /]* "* /"</p> </blockquote>  <p>It matches the first /* then it waits for any character except for the */, and then when it gets the */ it will match the entire regex, bur for this comment for example: </p>  <blockquote>   <p>/*bruno / braga */</p> </blockquote>  <p>Can someone tell me why the / dont match? Thank you.</p>

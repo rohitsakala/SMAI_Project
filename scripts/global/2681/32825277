@@ -1,0 +1,1 @@
+<p>I'm new in app development for IOS and I'm having a problem  to create socket client with NSInputStream and NSOutStream and I can not connect,  send or receive data.</p>  <p>I based in this code : <a href="https://gist.github.com/rjungemann/446256" rel="nofollow">https://gist.github.com/rjungemann/446256</a></p>

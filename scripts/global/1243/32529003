@@ -1,0 +1,1 @@
+<p>Outlook has an annoying habit of autodiscovering (aggressively) the internal server and switching your configuration, no matter how many times you manually set it. This script will switch off autodiscover so that it will keep whatever manual configuration you give it.</p>

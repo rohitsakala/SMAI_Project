@@ -1,0 +1,1 @@
+<p>I want to use command export event log file for backup purpose.<br>  wevtutil is only support windows servers 2008 above.  So is there any command can I use for export the event log file in window server 2003? The mostly solutions I found is need to use other tool which is not provide by windows server 2003, If possible I don't want use third party tool.  Thank you </p>

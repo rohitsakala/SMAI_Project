@@ -1,0 +1,1 @@
+<p>I have a Uitextview with Datadetector enabled in UItableViewCell.Uitextview successfully detects phone number,email etc,but when tried to send message to phone number detected,app crashes.</p>

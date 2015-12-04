@@ -1,0 +1,1 @@
+<p>My game has a character which whenever I touch the screen, goes to that location. </p>  <p>However I would like that character to keep following the touch until I let go. </p>  <p>I have tried to do this in the update method, but to no avail. </p>

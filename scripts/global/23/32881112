@@ -1,0 +1,1 @@
+<p>When I insert multiple rows into my SQL Server 2008 database table as such:</p>  <pre><code>INSERT INTO MyTable (Name, ID) VALUES ('First',1), ('Second',2), ('Third',3), ('Fourth',4), ('Fifth',5) </code></pre>  <p>How many of those values am I allowed to use in a single <code>INSERT INTO</code> statement?</p>

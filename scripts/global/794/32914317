@@ -1,0 +1,1 @@
+<p>I am trying to find a way to redirect all outgoing connections of my pc on port 80 to port 8080.</p>  <p>In addition I want to do this in Java, I've read that I need to create some sort of proxy, but to be honest I don't know how to do that, hence I don't have any code yet.</p>  <p>Every help appreciated!</p>

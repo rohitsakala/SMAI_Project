@@ -1,0 +1,1 @@
+<p>I'm using Virtuemart 2.6.20. The payment method is paypal standard When I place order, it redirects me to paypal gate. If I cancel the payment, it goes back to website and the order status is changed from pending to canceled. But when I make payment (completed), it doesn't go back to website and order status is not changed to "comfirmed"</p>

@@ -1,0 +1,1 @@
+<p>I have successfully made it possible for exchanging data between the watch and the phone by making use of <code>WCSession</code>.<br> However, the problem I find is that the parent app will not automatically go to foreground when it receives a message.<br> Is there a way to make it happen? Because I saw some watch app able to awake their parent apps.<br> Thanks a lot.</p>

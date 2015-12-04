@@ -1,0 +1,1 @@
+<p>I have <code>NSMutableArray</code> with data like: "John","Phillip","John","Andrea". I have also a String "John". I need to find that string in <code>NSMutableArray</code> and define which index is to show other data in other arrays. In my case index is 0 and 2.</p>  <p>This show only first</p>  <pre><code>NSInteger index = [array indexOfObject:String]; </code></pre>

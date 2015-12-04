@@ -1,0 +1,1 @@
+<p>I've just read some code in a JAX-RS class where a @Path annotated method is static - this is a new one to me. It compiles (doesn't make use of any instance variables) and I believe, for a single user at least, behaves as expected.</p>  <p>Will it make any difference? Are there multi-threading concerns or performance limitations being imposed by it?</p>

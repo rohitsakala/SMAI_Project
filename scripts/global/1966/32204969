@@ -1,0 +1,1 @@
+<p>I there a way to make Eclipse "recognize" C++ comments when writing C code. I mean that I'd like Eclipse to continue C++ comments on new lines. In other words that:</p>  <pre><code>// My comment&lt;Enter&gt; </code></pre>  <p>produces</p>  <pre><code>// My comment // &lt;cursor&gt; </code></pre>  <p>Thanks!</p>

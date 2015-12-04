@@ -1,0 +1,1 @@
+<p>Suppose you have this low level work Java class with a public method with input parameters and other private methods to manipulate this input data . Which is the preferable approach : set the input data into member fields so no need to pass it between private methods, or pass it as parameters to private methods?</p>

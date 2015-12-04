@@ -1,0 +1,1 @@
+<p>I want to compare 2 web.config files by content, so that the difference is shown in terms of line number. I don't want to use Compare-Object as it compares line by line, which is not exactly the proper method for comparison.</p>

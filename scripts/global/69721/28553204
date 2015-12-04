@@ -1,0 +1,1 @@
+<p>I have an old iOS that was originally built for iOS5 that I need to port to iOS8. The code base seems fine, it works well but the design uses iOS5 interface elements for their design (they're the stock Xcode elements). Is there a way that I can migrate these to the iOS8 styling?</p>

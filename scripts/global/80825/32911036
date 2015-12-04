@@ -1,0 +1,1 @@
+<p>I have set up my local Visual Studio (VS2012) to run tests after I build. That works OK, however to see the test results, I have to manually open the TestExplorer. Is there a way to either open the TestExplorer automatically, or show something on screen, or play some sound, when the tests fail?</p>

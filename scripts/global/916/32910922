@@ -1,0 +1,1 @@
+<p>I'd like to add a fontawesome icon to a shortcodes ultimate tab title.</p>  <p>When I try to do it inline</p>  <pre><code>&lt;i class="fa fa-500px"&gt;&lt;/i&gt; </code></pre>  <p>nothing comes up. Is it possible, either using CSS or some other means?</p>  <p>[font-awesome-icon] Tab text 1</p>  <p>[font-awesome-icon] Tab text 2</p>  <p>[font-awesome-icon] Tab text 3</p>

@@ -1,0 +1,1 @@
+<p>I migrated an website from iis6 to iis7. this site hosts a webservice (...asmx).</p>  <p>When other websites try to consume the webservice, it does not work. I don't have an proper error code.</p>  <p>When I try to consume or invoke the webservice from its own domain, it works.</p>  <p>I guess this is an problem with users in iis7?</p>  <p>thanks for tipps.</p>

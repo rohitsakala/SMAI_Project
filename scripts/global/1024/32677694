@@ -1,0 +1,1 @@
+<p>It says that Angular JS Services are singleton objects which are instantiated only once in app. In terms of instantiation, how different is it from Angular JS factories or controllers?</p>  <p>Answers with a fiddle will be helpful.</p>

@@ -1,0 +1,1 @@
+<p>I inherited a project and am having what seems to be a permissions issue when trying to interact with the database. Basically we have a two step process of detach and then delete. </p>  <p>Does anyone know where the user would come from if the connection string only has driver, server, and database name. </p>  <p>EDIT I am on Windows Server 2008 standard</p>

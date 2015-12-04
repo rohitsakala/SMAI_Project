@@ -1,0 +1,1 @@
+<p>I wrote a dll for an IIS Http Handler. I then added this dll to the gac. Now I want to add in a single config file for this dll. Where and how do I do this. </p>  <p>I initially tried creating a config file called mydll.dll.config, but that didn't seem to work.</p>  <p>Thank you</p>

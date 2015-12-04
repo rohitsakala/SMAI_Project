@@ -1,0 +1,1 @@
+<p>I have this thing my log, can somebody help me to trace what does this show ?</p>  <pre><code>::1 - - [02/Oct/2014:00:00:04 -0500] "OPTIONS * HTTP/1.0" 200 - </code></pre>

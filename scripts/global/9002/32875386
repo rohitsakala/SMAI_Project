@@ -1,0 +1,1 @@
+<p>As you may have know, '.radio4' is a class and it was assigned some value. If '.radio4' is clicked then it must show an alert message." </p>  <pre><code>$(document).ready(function() {   $('.radio4').click(function(){     if($(this). is(':checked')){         alert('Hello');     });   });    }); </code></pre>

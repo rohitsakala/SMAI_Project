@@ -1,0 +1,1 @@
+<p>I'm working in a code to minify html/css/js but i got a problem.</p>  <p>I need to replace // with /* and */.</p>  <p>Example:</p>  <pre><code>$(funcion(){ // Do something }); </code></pre>  <p>Replace to:</p>  <pre><code>$(funcion(){ /* Do something */ }); </code></pre>  <p>How do that?</p>

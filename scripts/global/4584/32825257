@@ -1,0 +1,1 @@
+<p>I have a function pointer: void (*boot_loader)(void); and I would like to assign the address 0x7800 to that pointer,</p>  <p>The direct assignment:  void (*boot_loader)(void) = 0x7800; does not work --> "Warning    1   initialization makes pointer from integer without a cast"</p>  <p>How I have to do?</p>  <p>Thank you</p>  <p>Domenico</p>

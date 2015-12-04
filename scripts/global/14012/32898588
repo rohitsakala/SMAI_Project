@@ -1,0 +1,1 @@
+<p>I'm trying to convert something written in AS3 to JavaScript and the AS3 application uses Flash's built in <a href="http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/filters/BlurFilter.html" rel="nofollow">Blur Filter</a></p>  <p>Does anyone know what blurring algorithm this used or how to replicate it in JavaScript?</p>  <p>Thanks</p>

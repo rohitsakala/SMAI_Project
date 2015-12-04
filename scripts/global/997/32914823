@@ -1,0 +1,1 @@
+<p>I am trying to generate a x-y plot in R with the regression line on the same plot. I am using <strong>cars</strong> dataset. So I tried:</p>  <pre><code>plot(dist ~speed, data = cars, pch = 16);  abline(coef(cars)) </code></pre>  <p>But it only drew the x-y plot, but didn't draw the regression line.</p>

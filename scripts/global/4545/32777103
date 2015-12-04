@@ -1,0 +1,1 @@
+<p>I compile the code and have the JAR file the code will read from some txt files and edit them also, but every time i open the JAR the txt file is blank, is there anyway to make them permanently?  i used eclipse to compile and the txt files are in the same directory of the  .java files</p>

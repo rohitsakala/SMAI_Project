@@ -1,0 +1,1 @@
+<p>having problems with this call on 32-bit Windows 8.1/10.</p>  <p>The call works fine on 64-bit and calls to midiOutOpen() work fine 32/64 bit, but this call always fails with on 32-bit and is fine on 64-bit.</p>  <p>Anyone come across this situation?</p>  <p>thx</p>

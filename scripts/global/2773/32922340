@@ -1,0 +1,1 @@
+<p>my question is what is difference between else and else if for example</p>  <pre><code>if(----){  printf("--");  }else{  } </code></pre>  <p>and</p>  <pre><code>if(----){  printf("--");  }else if("---"){  } </code></pre>

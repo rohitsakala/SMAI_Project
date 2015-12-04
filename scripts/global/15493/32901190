@@ -1,0 +1,1 @@
+<p>IPv6 requires a minimum MTU of 1280. Of that, there's a minimum 40 bytes required for the IPv6 header. There's no defined limit to how many bytes the IPv6 extension headers can consume. What's a reasonable maximum to assume for normal UDP usage? I've seen it suggested, that at least 8 bytes for the fragment header, what else may crop up?</p>

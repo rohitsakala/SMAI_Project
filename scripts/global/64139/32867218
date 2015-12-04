@@ -1,0 +1,1 @@
+<p>I have a list of 200 hotels. I want to make a web service call then two database operations for each hotel. Suggest a best way to implement this to work for all hotels parallelly  </p>

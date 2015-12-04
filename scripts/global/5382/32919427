@@ -1,0 +1,1 @@
+<p>"Given a connected undirected weighted graph, find the maximum weight of the edge in the path from s to t where the maximum weight of the edges in the path is the minimum."</p>  <p>This seems like a Floyd–Warshall algorithm problem. Is there an approach faster than O(V^3)?</p>

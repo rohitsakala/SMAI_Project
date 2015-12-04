@@ -1,0 +1,1 @@
+<p>How can I parse this JSON text in Android?</p>  <pre><code>{"blog":[{"title":"Test","picture":"android\/armin.jpg","content":"text text text text text text text text text text text text text text text text"},{"title":"Test2","picture":"android\/armin.jpg","content":"text text text text text text text"}]} </code></pre>

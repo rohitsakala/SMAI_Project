@@ -1,0 +1,1 @@
+<p>Could anyone here tell me how to get rid of the white spaces of the String(a)!!</p>  <pre><code> String a = "GET /?led=21 HTTP/1.1";  void setup() {    Serial.begin(9600);     Serial.print(a);    }  void loop() {   } </code></pre>

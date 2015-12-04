@@ -1,0 +1,1 @@
+<p>What is <code>LocalResource</code> in hadoop ? Is it similar to <code>DistributedCatche</code>. means can we use <code>LocalResource</code> for distribution of files in map-side join.</p>

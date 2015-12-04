@@ -1,0 +1,1 @@
+<p>I cannot get mock locations to work in Android Marshmallow. I have installed app in Android 6.0 . Now, When I want to set mock location for this app by Setting >> Developer Option >> Select Mock location app . I can not see any Application to select. Has anyone had success enabling mock locations under Marshmallow?</p>

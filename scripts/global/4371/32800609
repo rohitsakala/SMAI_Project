@@ -1,0 +1,1 @@
+<p>I have a substring for example:</p>  <pre><code>43ab??12??56??ef </code></pre>  <p><code>??</code> are wildcard and the count of <code>??</code> is unknown. I want to check the main string contains this substring or not. The substring is not unique and it changes always. </p>

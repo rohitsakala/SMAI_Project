@@ -1,0 +1,1 @@
+<p>I try to get a script running, which needs python3 and networkx</p>  <p>python3-networkx is not in the apt-repository, so I installed it using:</p>  <pre><code>apt-get install python-networkx </code></pre>  <p>But still my script crashed saying networkx is not found.</p>  <p>How can I install the python3 version?</p>

@@ -1,0 +1,1 @@
+<p>Two tables:  Topics Comments (There is a Topic field, so I know in which topic the comment is)</p>  <p>And I want to get only the newest comment in each topic (highest value in Date field) and then order the topics in that way.</p>  <p>Query I've tried:</p>  <pre><code>SELECT User, Topic, Date  FROM   Comments  GROUP BY Topic  ORDER BY Date DESC </code></pre>

@@ -1,0 +1,1 @@
+<p>Mule ESB has an <a href="https://docs.mulesoft.com/mule-user-guide/v/3.7/http-listener-connector" rel="nofollow">HTTP Listener Connector</a> that accepts all types of HTTP calls. I am trying to migrate a project from Mule to WSO2. I couldn't find how to create a similar listener on WSO2. Does a similar feature exists?</p>

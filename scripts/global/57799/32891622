@@ -1,0 +1,1 @@
+<p>When is Assetic better than Gulp or vice versa? Or do you just use Gulp to manage your assets in <code>Symfony</code>, like <code>minify</code>, <code>less</code>, <code>uglify</code> etc. and does not use Assetic at all?</p>

@@ -1,0 +1,1 @@
+<p>I am having an issue with nested loops when I have too much data inside multiple loops (7-8 loops)..</p>  <p>inside the last loops I have a function call that also has some loops.</p>  <p>So what is the best way to handle this, as am not able to complete processing this data when I have large numbers (10000)</p>

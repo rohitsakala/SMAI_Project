@@ -1,0 +1,1 @@
+<p>Say, one has got a <code>javafx.scene.control.Spinner</code> with following arguments passed into its constructor:</p>  <pre><code>Spinner spinner = new Spinner(0.0, 100.0, 0.0, 0.1); </code></pre>  <p>How now one can change its value programatically, ie. by using for example something like this:</p>  <pre><code>spinner.setValue(10.0); </code></pre>

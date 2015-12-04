@@ -1,0 +1,1 @@
+<p>I only found how to kill a thread that I have assigned to a variable:<br> <code>(setf *foo* (bt:make-thread (lambda () (loop)) :name "Foo2"))</code> --> <code>(bt:destroy-thread *foo*)</code>  </p>  <p>How can I kill just any thread that I can see with <code>(bt:all-threads)</code>:<br> <code>(bt:make-thread (lambda () (loop)) :name "Foo")</code> --> ?</p>

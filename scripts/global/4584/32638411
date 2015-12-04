@@ -1,0 +1,1 @@
+<p>In Xcode 7, if you specify a new designated initializer in the subclass with <code>NS_DESIGNATED_INITIALIZER</code>, you must override the superclass's designated initializers. Does this mean all of the superclass's designated initializers automatically become convenience initializers unless specified in the <code>.h</code> file of the subclass?</p>

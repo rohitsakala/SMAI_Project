@@ -1,0 +1,1 @@
+<p>I want to create SQL login and user that user mapped to login. And then my DB owned by login. But I get this error:</p>  <blockquote>   <p>"The proposed new database owner is mapped as user in this database"</p> </blockquote>  <p>In fact I want to have login with public server role and also have user mapped to that login to restrict access to my DB. How can I do that?</p>

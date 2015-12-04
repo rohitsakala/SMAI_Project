@@ -1,0 +1,1 @@
+<p>Is is possible to conditionally hide rows and/or columns using formulas but NOT the API? Ex: =IF(A1=0,HIDEROW(1),SHOWROW(1))</p>

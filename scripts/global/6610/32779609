@@ -1,0 +1,1 @@
+<p>As the title mentioned, I'm using jQuery.ajax method to post a set of data:</p>  <pre><code>$.ajax({     url: 'http://example.com/api',     method: 'post',     data: { name: 'dudu', age: 12 },     beforeSend: function(xhr, settings) {         // I want to change the data here.     } }); </code></pre>  <p>Is this possible? How?</p>

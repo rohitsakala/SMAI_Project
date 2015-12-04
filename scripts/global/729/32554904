@@ -1,0 +1,1 @@
+<p>Working on a legacy application where Data Access repository always returns a data set. Changing to any ORM frameworks is not an option for me at this point, looking for best options to map result set to a CLR type</p>

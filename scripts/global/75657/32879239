@@ -1,0 +1,1 @@
+<p>I have a object when any of the value to the keys inside the object changes I want to update a computed property. Is there a way to observe the value changes of an object with computed property.</p>

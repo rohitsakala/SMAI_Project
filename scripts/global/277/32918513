@@ -1,0 +1,1 @@
+<p>I tried the following code and expected an image sequence to be produced, but when I ran it, no files were generated.</p>  <pre><code>reset set terminal png size 640, 480 set dummy x  do for [i=1:12] {     set output sprintf('sumofsinusoids.%03.0f.png', i)     plot sin(x) } </code></pre>  <p>I suspect that the plot function is creating the problem.</p>

@@ -1,0 +1,1 @@
+<p>For a quad we provide a <strong>texture image</strong> and <strong>texture coordinates</strong>. What does the <a href="https://www.opengl.org/wiki/Sampler_%28GLSL%29" rel="nofollow">sampler</a> do ? </p>  <p>There are varieties of it, but what basic task it does ? </p>

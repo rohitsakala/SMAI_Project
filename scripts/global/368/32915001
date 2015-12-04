@@ -1,0 +1,1 @@
+<p>In C# how can i count how many zeroes i turned to 1.</p>  <p>For example  240  is 11110000. I turn it to 501 -- 0001 1111 0101. I have turned 3 zeros to one. How can i count them.</p>  <p>Thank you</p>

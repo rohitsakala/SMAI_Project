@@ -1,0 +1,1 @@
+<p>My app needs to access the user's storage in near to every activity. How can I access the storage without making the app ask at every app startup for the permission to access it with the new Android M permission model? (Read and write)</p>  <p>Thanks!</p>

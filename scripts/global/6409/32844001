@@ -1,0 +1,1 @@
+<p>How can i add to wordpress thumbnail, class with img-thumbnail I made like this, but it's not working..</p>  <pre><code>&lt;div class="img-thumbnail img-responsive" id="thumbnail"&gt;     &lt;?php the_post_thumbnail(); ?&gt; &lt;/div&gt; </code></pre>

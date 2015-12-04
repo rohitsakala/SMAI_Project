@@ -1,0 +1,1 @@
+<p>I am trying to redirect IE7 and IE7 with NGINX.</p>  <p>In my config I have</p>  <pre><code>location / {                 if ($http_user_agent ~* '(MSIE 8.0|MSIE 7.0)') {         return 301 http://browsehappy.co.uk     } </code></pre>

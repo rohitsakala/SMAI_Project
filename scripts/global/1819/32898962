@@ -1,0 +1,1 @@
+<p>What I want to do is to load a map with predefined markers on it. I could write code in map initialization to do this. I wonder if google offer REST api that I call it instead of coding to load the map and its predefined markers? </p>

@@ -1,0 +1,1 @@
+<p>I want to be able to enter a word such as "hello" and have the program add up the char values of 'h' 'e' 'l' 'l' 'o' and add them up and print it out.  h = 104, e = 101, l = 108, and o = 111. So it should print out 532. please help thanks</p>

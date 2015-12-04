@@ -1,0 +1,1 @@
+<p>is there a way in Perl to get a number of trailing slashes in a given string, ideally in one line? For example, if the string is <code>abc\\\</code>, it would return <code>3</code>. </p>  <p>I know how to do it on multiple lines, but I was looking for a solution that would allow me to do it inline, e.g. inside the if-statement condition.</p>  <p>Thanks!</p>

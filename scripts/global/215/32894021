@@ -1,0 +1,1 @@
+<p>I am using asp.net state server in my applications to store session data, I have 2 applications(app1 and app2) hosted on same server using state server, I am able to access session values of app1 in that application only, but when i access the same values in app2 they are null, I see the same session id is being used by both applications.</p>

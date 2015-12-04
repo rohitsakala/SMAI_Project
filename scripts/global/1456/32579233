@@ -1,0 +1,1 @@
+<p>In the code below which is part of a tutorial found, i thought that ater running it the expected result of byte0 would be the same value as of int, 190:</p>  <pre><code>int i = 190; byte byte0 = (byte)((i &amp; 0x000000FF)); </code></pre>  <p>Though, the result given by Netbeans is -66. Any ideas why?</p>

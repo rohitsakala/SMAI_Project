@@ -1,0 +1,1 @@
+<p>How can I run single command on multiple servers in Ruby</p>  <p>example: I have 100 servers which has open connection from main server. I need to run the "find" command from main server to see what are the files modified for last 7 days for 100 Servers</p>

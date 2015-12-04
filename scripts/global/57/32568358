@@ -1,0 +1,1 @@
+<p>I'm running a desktop application written in adobe actionscript/air flex.</p>  <p>Some webpages are embedded via the <code>mx:HTML</code> component.</p>  <p>Question: does this component provide caching of <code>js</code> and <code>css</code> files from the page? If yes, are they cached only as long as the application is running? Or do they survive application restarts?</p>

@@ -1,0 +1,1 @@
+<p>I have a activity where I am creating 3-4 threads for doing different tasks in a  Activity, where I insert data into database and get some data from net and POST on a site for data and else. I wanted to ask that i have counter via which  I will know when that thread's work has been finished, so should I close(stop) that thread ? Does the same apply to asyncTask too?</p>

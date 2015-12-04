@@ -1,0 +1,1 @@
+<p>Consider a code:</p>  <pre><code>&lt;input type="1 == 1 ? 'radio' : 'checkbox'" value="myValue"/&gt; </code></pre>  <p>But it renders as text box input. It seem that javascript do not set <code>type</code> value.</p>  <p>How set html attribute value by javascript?</p>

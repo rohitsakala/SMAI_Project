@@ -1,0 +1,1 @@
+<p>I'm newbe to SSIS. I can't create a SSIS project.When I open SSDT and create Integration Services Project ,It just immediately say <code>"creating project 'ProjectName' ... project creation failed."</code> I'm using sql server 2012 and vs 2012 . Thnaks.</p>

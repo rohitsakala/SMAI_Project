@@ -1,0 +1,1 @@
+<p>Is there a way in python to get data from object like this:</p>  <pre><code>box = BoxWithOranges() print box['color'] print box['weight'] print box['count'] </code></pre>  <p>And more compliant:</p>  <pre><code>for index in range(box['count']):     box[index].eat() </code></pre>

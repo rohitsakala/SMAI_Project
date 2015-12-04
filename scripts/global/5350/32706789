@@ -1,0 +1,1 @@
+<p>In Perl, in what context could you do something like this:</p>  <pre><code>delete $ALIGN{$rna}{$dnaB}; print qq[deleted $dnaB\n] if ! exists $ALIGN{$rna}{$dnaB};  </code></pre>  <p>and then not have the print statement execute? This is giving me a huge headache. Thanks!  </p>

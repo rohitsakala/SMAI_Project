@@ -1,0 +1,1 @@
+<p>I have a number with an exponent field of 4 and a fraction field of 5.</p>  <p>The number I need to round is −(1.0110101)2, and I have to round down, round up, round to zero, round nearest.</p>  <p>So I have -(1.0110101) = -(1.01101|01), but I don't know where to go from there.</p>

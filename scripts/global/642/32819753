@@ -1,0 +1,1 @@
+<p>I am using <code>NSString *strURL=[NSString stringWithFormat:"https://mytest.com/19"]</code></p>  <p>and allow <code>[NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[URL host]];</code> so manually login .. Please let me know if i have multiples URL then how can    ?</p>

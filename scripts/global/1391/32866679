@@ -1,0 +1,1 @@
+<p>How can I add the following hex value using java method</p>  <pre><code>A28904048E </code></pre>  <p>as</p>  <pre><code>A2 + 89 + 04 + 04 + 8E </code></pre>  <p>to get the value as 1C1</p>

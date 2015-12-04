@@ -1,0 +1,1 @@
+<p>Is there existing a way to switch keyboard layouts from inside of my Tcl/Tk program?<br> Several years ago I implemented separate shared library through which I did it. But I've lost that code and now try to find a more easy way.  </p>  <p>Link to ready to use Windows 8 dll is also acceptable.</p>

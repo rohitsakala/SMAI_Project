@@ -1,0 +1,1 @@
+<p>I am using macros in my project for storing keys, But I am confused is it correct way?  Or we should use <code>static function</code>, <code>static Inline function</code>. Please tell me which is better from three, which will take less time to execute. </p>

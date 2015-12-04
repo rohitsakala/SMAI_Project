@@ -1,0 +1,1 @@
+<p>I want to install a windows service with a user account. Also need to fetch the credentials from DB through WCF service. Service is with me.. But don't know how to call the service while installation. Is it possible??</p>  <p>I tried the following, but failed:</p>  <p>1) calling the service in OnBeforeInstall() 2) calling the function while/before InitializeComponent()</p>

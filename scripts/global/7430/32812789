@@ -1,0 +1,1 @@
+<p>When is it usually method <code>putTreeVal()</code> used in HashMap?</p>  <p>When does this case, after invoking <code>put(K key, V value)</code>:</p>  <pre><code>else if (p instanceof TreeNode) e = ((TreeNode&lt;K,V&gt;)p).putTreeVal(this, tab, hash, key, value); </code></pre>  <p>usually take place?</p>

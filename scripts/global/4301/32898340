@@ -1,0 +1,1 @@
+<p>I have a custom rom based on AOSP and I am working on a system app that is packaged during the rom build just like any other system app.</p>  <p>Is it possible to switch this app to a gradle style app and build that specific app with gradle during the AOSP build? i.e. - Start the gradle build from a makefile?</p>

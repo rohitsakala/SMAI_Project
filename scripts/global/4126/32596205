@@ -1,0 +1,1 @@
+<p>By default, the tinymce input gets passed to the DOM as a paragraph tag:     <p>   I would like to remove that element wrapper so that tinymce passes exactly what I entered in the text editor. How do I do that ? Please if you provide a code, can you also let me know where that code gets added ? Regards !!!</p>

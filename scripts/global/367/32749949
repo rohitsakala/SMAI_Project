@@ -1,0 +1,1 @@
+<p>I am reading this code and I don't quite understand what line #2 does:</p>  <pre><code>resp := route.Handler(req) _, nilresponse := resp.(NilResponse) if !nilresponse {  type NilResponse struct { } </code></pre>  <p>Thank you</p>

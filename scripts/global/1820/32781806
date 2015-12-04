@@ -1,0 +1,1 @@
+<p>I have a directory with two folders, <code>src</code> and <code>bin</code> with the makefile at root directory. This makefile keeps compiling (not up to date) even without changes. Am I missing something with this makefile?</p>  <pre><code>all:     make a b  a: ./src/a.cpp     g++ -o ./bin/a ./src/a.cpp  b: ./src/b.cpp     g++ -o ./bin/b ./src/b.cpp </code></pre>

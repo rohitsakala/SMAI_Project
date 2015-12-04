@@ -1,0 +1,1 @@
+<p>Is it possible to divide the <code>fc-event-container</code> Div and add three more divs inside to have color coded div (<code>bg:color</code>) inside the event container?</p>  <p>I have been looking into the <code>.js</code> and <code>css</code> files, but I haven't been able to figure it out how to modify it to have it render the way i would like to.</p>

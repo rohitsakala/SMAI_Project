@@ -1,0 +1,1 @@
+<p>There is an attribute (LinqToQueryable) in the webapi package for LinqToQuerystring, but I wasn't able to find a good explanation how it works.</p>  <ul> <li>Does it modify the returning results? </li> <li>Does it enable LinqToQuerystring? (but how do I get the querystring then?) </li> <li>Other?</li> </ul>

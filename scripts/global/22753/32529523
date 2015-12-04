@@ -1,0 +1,1 @@
+<p>I need to subclass a <code>UITabBar</code> and increase its size.</p>  <p>I made it with code</p>  <pre><code> -(CGSize)sizeThatFits:(CGSize)size {    CGSize sizeThatFits = [super sizeThatFits:size];    sizeThatFits.height = kTabBarHeight;    return sizeThatFits; </code></pre>  <p>But this stretches it. How can I increase it without stretching? I need some clear area.</p>

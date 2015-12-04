@@ -1,0 +1,1 @@
+<p>With this code I managed to the get the object's pk and name (return value of the  __str__ method), however I need access to the object instance itself (I need some of its methods/fields in the template). How can I do that?</p>  <pre><code>{% for value, name in form.stuffs.field.choices %}     {{ value }} + {{ name }}           {% endfor %}    </code></pre>

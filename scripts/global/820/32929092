@@ -1,0 +1,1 @@
+<p>I am re-writing a large web form that is written using Perl Dancer and Template Toolkit to handle the submitted form data and display a results page. I would like to abandon Template Toolkit and Dancer in favor of a Javascript-only solution. How can I write the form to pass all of the data to Javascript and have it display the data on a nice formatted results page?</p>

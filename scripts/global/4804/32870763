@@ -1,0 +1,1 @@
+<p>I'm using uwsgi to implement a crontab. I'd like to call the unix date command from the crontab. Something like this:</p>  <p>cron2 = minute=50 some_job.py `date "+%Y-%m-%d"` `date -v -1d "+%Y-%m-%d"`</p>  <p>But uwsgi interprets the % modifiers as magic variables. Is there any way to avoid this?</p>

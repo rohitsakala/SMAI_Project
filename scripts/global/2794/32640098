@@ -1,0 +1,1 @@
+<pre><code>new_form = f.input :contents, input_html: { class: 'contents-input' } haml %p= newsitem.contents </code></pre>  <p>How to render <code>newsitem.contents</code> exactly way the author created with whitespaces? e.g.</p>  <p>I love apple</p>  <p>Yes You are</p>  <p>awesome person.</p>

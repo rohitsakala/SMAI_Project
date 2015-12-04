@@ -1,0 +1,1 @@
+<p>I basically want to get the location of a MessageBox's top right corner (Where it's red x button is located on the screen), but I don't know how. I don't want to change its position/location, but only get it.</p>  <p>Please help!</p>  <p>(using the windows.h header)</p>

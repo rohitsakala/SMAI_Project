@@ -1,0 +1,1 @@
+<p>What are the pros &amp; cons of Javascript Promises vs jQuery Deferred Objects?</p>  <p>For example, what issues do they each have, if any?</p>  <p>A fellow stack overflow member stated:</p>  <blockquote>   <p>"...real promises are real, and fake promises are fake."</p> </blockquote>  <p>What did he mean by this?</p>

@@ -1,0 +1,1 @@
+<p>For example, if I have a operation contract as GetData() I dont want it to be in wsdl but the method should be accessible by client using Action Attribute and would be able to be consumed.</p>

@@ -1,0 +1,1 @@
+<p>I want to create a server side using ATEASY- and inside the ATEASY tests ill send tests information to LABWINDOWS\CVI which will implement the client side.</p>  <p>My question is, does someone has a good tutorial or example on how to use TCP in ATEASY as a server?</p>  <p>The winsock example from the ATEASY examples isn't good enough and its hard to understand.</p>

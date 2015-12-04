@@ -1,0 +1,1 @@
+<p>I need to create a certain number of UIImageViews based on the amount of objects inside of an NSMutableArray. For example, if there are 5 UIImage's inside of this NSMutableArray, how do I create 5 UIImageView's with those images?</p>  <p>Thanks</p>

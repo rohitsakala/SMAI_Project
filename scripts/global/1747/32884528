@@ -1,0 +1,1 @@
+<p>I have developed a console application which takes input from the user and make a post method to webapi and return complex object as response. I want to write an integration test for this.</p>  <p>As I am completely new to writing testing, can someone help me to write an integration test for this scenario?</p>

@@ -1,0 +1,1 @@
+<p>I would need to extract a number from the first line of a .rtf document. The first line is:</p>  <p>1 of 51 DOCUMENTS</p>  <p>I need to extract the number 51.</p>  <p>How can I do? (Probably easy question but I am not good at textual analysis yet)</p>  <p>Thank you in advance,</p>

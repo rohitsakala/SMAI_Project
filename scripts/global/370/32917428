@@ -1,0 +1,1 @@
+<p>How to go (move the cursor) to the start of the contents of a string or any wrapper ([], {}. (). "". ..etc).</p>  <pre><code>'some text here' </code></pre>  <p>I want my cursor to be here:</p>  <pre><code>'|some text here' </code></pre>

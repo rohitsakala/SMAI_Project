@@ -1,0 +1,1 @@
+<p>I am trying to initialize Apache velocity macro with spring and tomcat maven plugin. But since it uses only jndi I am unable to configure it as I am using tomcat maven plugin.</p>  <p>Can any one help</p>

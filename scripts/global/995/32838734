@@ -1,0 +1,1 @@
+<p>Is there a possibility to get feedback or a callback from registerUserNotificationSettings? </p>  <p>I will only ask for permission if the user clicks the notification button, but I don't want him to tap it twice to actually enable the notification.</p>  <p>Something like:</p>  <pre><code>if registerUserNotificationSettings.success {     saveNotification() } </code></pre>

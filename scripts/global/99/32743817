@@ -1,0 +1,1 @@
+<p>I am looking for the absolute fastest method of performing unlink and rmdir commands on a path containing millions of files and thousands of folders.</p>  <p>I have found following perl one-liner, but this does not recurse and also performs a stat before each unlink (this is unnecessary):</p>  <pre><code>perl -e 'for(&lt;*&gt;){((stat)[9]&lt;(unlink))}' </code></pre>

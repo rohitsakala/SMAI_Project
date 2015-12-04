@@ -1,0 +1,1 @@
+<p>After I installed XCode7 I have a lot of problems to debug a WatchApp on real device (watchOS2). Even if the App is very very simple (on button only) Xcode take a lot of time to deploy the App on Apple watch and start debug. Someone with the same problem? I'm using Xcode 7.01, WatchOS2 and iOS9.02 on iPhone</p>

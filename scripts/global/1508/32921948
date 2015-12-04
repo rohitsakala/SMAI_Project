@@ -1,0 +1,1 @@
+<p>What is the best way to loop through a json object that contains integer values and select the smallest values?</p>  <p>For example, if I had an object that looks like this </p>  <pre><code>var z = {"a": 4,  "b":2,  "c":5,  "d":1,  "e":3 } </code></pre>  <p>And I wanted to pick out the 3 smallest numbers - 1,2,3 in this case- what's the best approach?</p>

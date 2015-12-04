@@ -1,0 +1,1 @@
+<p>Using pillow version of Image module I am trying to open a PNG image and when I try to show() the image it is blacked out...I've hunted around for why this might be but I've only found people trying to make transparent images and none trying to pull the "mask" off...any pointers?</p>  <p>I am on a windows machine, using Python3.3.</p>

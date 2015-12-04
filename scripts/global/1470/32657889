@@ -1,0 +1,1 @@
+<p>In my program, I'm drawing a String like this:</p>  <pre><code>graphics2D.drawString(string, x, y); </code></pre>  <p>However, in order to determine the x and y, I would like to know the dimension (height and width) which this string is going have. How can I do this?</p>

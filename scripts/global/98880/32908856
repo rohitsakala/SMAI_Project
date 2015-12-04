@@ -1,0 +1,1 @@
+<p>we are experimenting with Spark on YARN. We observed wierd behaviour of Hadoop GUI (ResourceManager). When Spark application FAILs I see on <strong>"All Applications"</strong> page of Hadoop GUI: Final status <strong>SUCCEEDED</strong>.</p>  <p>We would expect it to be FAILED.Is there something we're doing wrong?</p>  <p>Thanks</p>

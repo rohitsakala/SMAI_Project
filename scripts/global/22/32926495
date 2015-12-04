@@ -1,0 +1,1 @@
+<p>I'm making a Windows application in vb.net to create and edit sql ce databases, but i can't find anywhere the code to read a "show create table" statement. I tried with a datareader but it doesn't work. Could you help me?</p>

@@ -1,0 +1,1 @@
+<p>which expression is more accurate and why? I think if it is not 10.0 and it's 2^k for some integer k, then we just need to subtract k in the exponent. But there is 10, I can not think of a way of comparing them...</p>

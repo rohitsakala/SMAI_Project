@@ -1,0 +1,1 @@
+<p>I'm working on an RMarkdown pdf document and am trying to convert a table formatted in html using the FlexTable object of the RepoRters package and want to convert it into latex so that I can ouput the table into a pdf.</p>  <p>Is there a way to do this?</p>  <p>Thanks! Rafael</p>

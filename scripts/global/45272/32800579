@@ -1,0 +1,1 @@
+<p>I'm planning to use gsklee/ngStorage in my application and according to the docs you inject sessionStorage and localStorage into your module/controller. My question is in which situations should I use sessionStorage and when should I use localStorage? Also is the session going to be dead when the user closes his browser? </p>

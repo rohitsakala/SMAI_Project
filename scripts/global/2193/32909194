@@ -1,0 +1,1 @@
+<p>about that i need return all elements from the array split function without loop, but i dont know which it is the sintyaxis, i think that:</p>  <pre><code>#!/bin/ksh set -a MyArray echo 'hello world' | awk '{     split($0, arrSplit)      print arrSplit[all elements] }' </code></pre>  <p>someone could help me with this?</p>

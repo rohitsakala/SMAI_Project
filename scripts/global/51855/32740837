@@ -1,0 +1,1 @@
+<p>I have the code below and I would like to know if it possible to reduce the code.</p>  <pre><code>bank_accounts = self.client_bank_account_id.nil? ? self.client.bank_accounts : self.client.bank_accounts.where(_id: self.client_bank_account_id) </code></pre>  <p>I only need the <code>where</code> call when <code>client_bank_account_id</code> is not <code>nil</code>.</p>

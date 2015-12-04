@@ -1,0 +1,1 @@
+<p>I am trying to check memory consumption by a particular IE instance. I am on IE11 and using dotnet 4.0 and in order to map memory consumption with IE instance; I need to get URL for a particular process id (system.diagnostic.process). Please let me know if there is any way to achieve this.</p>

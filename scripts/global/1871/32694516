@@ -1,0 +1,1 @@
+<p>I am translating some FORTRAN code to java, but there is a formatter type that I can't really understand, and I didn't find its meaning on the internet.</p>  <p>I have line like this <code>ENCODE(2,'(R2)',BUFFER) MY_DATA</code> but I don't know what the '(R2)' formatter means.</p>  <p>Someone knows ?</p>

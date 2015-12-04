@@ -1,0 +1,1 @@
+<p>Specifically, WebForms controls let you call this:</p>  <pre><code>Dim value = txtMyTextbox.Text </code></pre>  <p>but under the covers it checks <code>Request.Form("txtMyTextbox")</code></p>  <p>I'd like to be able to be able to hook this logic so that I could examine and modify the value returned by the <code>Text</code> property. Is there any way to do this?</p>

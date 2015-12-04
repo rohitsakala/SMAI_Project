@@ -1,0 +1,1 @@
+<p>In Unix , I want to use ? and * to find files starting with . followed by at least six characters. Here is the command :</p>  <pre><code>find . -name ".??????*" -print </code></pre>  <p>Now I want to use ? and * to find files starting with . followed by at least 1 character and at most 6 characters. How do I write the command ?</p>

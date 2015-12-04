@@ -1,0 +1,1 @@
+<p>I was wondering why websocket protocol  did not use ( say the designers did not choose)  the same response code of http ( like 200,404 or 403 ) etc to convey the response  ?  Instead there are 101 which means the communication is established.</p>

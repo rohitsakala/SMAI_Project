@@ -1,0 +1,1 @@
+<p>I have many models that defines all my db tables; I wondering which is the best way to create one single CRUD ServiceStack interface for all these models without write the same code for each one. I'd like to keep it DRY to ease future maintaining.</p>  <p>Thank you.</p>

@@ -1,0 +1,1 @@
+<p>I am using Laravel 5.1 , how I can find my current address Route?</p>  <pre><code>{{ URL::current() }} </code></pre>  <p>but i want find only route address?</p>

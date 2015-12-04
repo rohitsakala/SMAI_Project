@@ -1,0 +1,1 @@
+<p>Has Apple documented any means (such as a UIRequiredDeviceCapabilities key) for requiring 3D Touch on a device?</p>  <p>Am looking into things that will need 3D Touch.  Wouldn't be the best experience to run an alert telling the user their new app won't work...</p>  <p>Thanks in advance.</p>

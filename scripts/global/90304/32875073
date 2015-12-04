@@ -1,0 +1,1 @@
+<p>I would like to generate a <code>Dockerfile</code> as a "top-down approach". I have a fully configured system and would like to make an image from it to ship it away. It was built to a base image.</p>

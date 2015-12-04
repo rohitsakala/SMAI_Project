@@ -1,0 +1,1 @@
+<p>I wonder what really happens, internally, when you try to access to an illegal memory address.</p>  <p>I mean, I know you'll get a segmentation fault, but what really happens in the device (microchip or CPU)?</p>  <p>For example:</p>  <pre><code>int *p = NULL; *p = 0; </code></pre>  <p>Thank you in advance!</p>

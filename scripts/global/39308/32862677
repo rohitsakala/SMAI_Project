@@ -1,0 +1,1 @@
+<p>I'm setting up the gmaps API for a current project, and would like the map to load as a direction map with the destination set (dynamically populated address), but the origin blank so that the user can quickly/easily put in their own address. All examples I've seen require the origin to be put in as well. Is there a way around this?</p>

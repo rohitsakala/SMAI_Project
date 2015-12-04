@@ -1,0 +1,1 @@
+<p>Which Cloud Virtual Machine providers (e.g. Amazon EC2, Google, Microsoft Azure, etc) have Windows with OpenGL 2.1 or better?</p>  <p>My application requires OpenGL 2.1</p>  <p>I started a W2012 machine on EC2, but it is OpenGL 2.0, so my app could not run.</p>

@@ -1,0 +1,1 @@
+<p>It's like all clients connect to server and waitig for other in one "server-room". As soon as all clients connected servers sends signal to start new Activity for each client. My clients realised with AsyncTask, but it works for only one activity, and when I change it i can't pass connection for clients. I thought to get the new one, but it seems like a bad way...</p>

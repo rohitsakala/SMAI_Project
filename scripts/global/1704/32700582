@@ -1,0 +1,1 @@
+<p>I have such code:</p>  <pre><code>\begin{equation*}         max_X (min_{\vec{Y}} F(X, \vec{Y})) = sup_{X} (inf_{\vec{Y}} F(X, \vec{Y})) = \Gamma_1, \newline         min_{\vec{Y}} (max_X F(X, \vec{Y})) = inf_{\vec{Y}} (sup_{X} F(X, \vec{Y})) = \Gamma_2             \end{equation*} </code></pre>  <p>How I set a break line? <code>\\</code> doesn't work too.</p>

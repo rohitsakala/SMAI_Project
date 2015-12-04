@@ -1,0 +1,1 @@
+<p>I am using Doorkeeper gem with device to authenticate my rest api application calls.</p>  <p>While deleting the user, I am just inactivating the user in back-end database so I wanna to revoke access token while  I am deleting the account to prevent access by deleted user access token.</p>

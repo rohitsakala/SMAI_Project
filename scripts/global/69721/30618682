@@ -1,0 +1,1 @@
+<p>i want to call the method <code>[self methodName];</code> in class method but it will not call in same class.</p>  <p>i tried</p>  <pre><code>+(void)myMehod  {    [self methoName]; } </code></pre>

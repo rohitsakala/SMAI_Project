@@ -1,0 +1,1 @@
+<p>I try installing opencv3.0 on bloodshed Dev cpp  (windows 7) and could not find any updated guidelines.</p>  <p>When adapting earlier opencv installation guidelines,  I'm getting build error, mainly due to linkage problem (opencv3.0 has new files' structure )</p>  <p>Please point me to appropriate instructions. </p>

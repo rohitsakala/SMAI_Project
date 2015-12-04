@@ -1,0 +1,1 @@
+<p>I can not perform the function <code>doFilterOffer()</code> on the page , it 's the following error <code>missing ; before statement</code> , what's wrong with this syntax below?</p>  <pre><code>    if (driver instanceof JavascriptExecutor) {          ((JavascriptExecutor) driver).executeScript("Function doFilterOffer();", "click");     } </code></pre>

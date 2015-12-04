@@ -1,0 +1,1 @@
+<p>I am developing a password complexity requirements. One requirement is not have the user input 3 consecutive numbers in the password. What is the regular expression?</p>  <p>For example</p>  <pre><code>Allowed: Stack254! Allowed: Stack254!36@ Disallowed: Stack8763^ </code></pre>  <p>Thank you in advance.</p>

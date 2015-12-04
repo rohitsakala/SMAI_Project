@@ -1,0 +1,1 @@
+<p>Hi i have used the Calibration_tool in Matlab, to calibrate the Raspycam of my Raspberry, and i have obtained a mat file. Now i want to use this file on openCV, for thi reason is need to translate the calibration.mat file in a file.yml. Please can explain me, how to make this conversion?</p>

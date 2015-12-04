@@ -1,0 +1,1 @@
+<p>In Interface Builder, is it possible for custom UIButton to scale to the size of the background image that it is set to automatically?</p>  <p>Right now I have to find out the size of the image, and then go to UIButton's Size Inspector and set its width and height to the correct dimension.</p>

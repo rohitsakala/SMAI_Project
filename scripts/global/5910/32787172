@@ -1,0 +1,1 @@
+<p>I kicked off my Java application in linux. I gave the config and command:  <code>java -Xms2g -Xmx2g ...</code> But after running a while, when I used "top" command, I saw the java process used memory 30% (%MEM), the server has 100g memory, that means it took 30g, but my configuration was 2g. Why this happened, the config -Xmx2g didn't take effect please? Thanks!  </p>

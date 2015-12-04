@@ -1,0 +1,1 @@
+<p>More and more compilers make use of immutable strings (because of string interning, but are there other reasons?). However, string buffers are much faster when concatenating strings. Is there any reason why not all compilers use string buffers internally instead of immutable strings?</p>

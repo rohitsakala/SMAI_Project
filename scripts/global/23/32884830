@@ -1,0 +1,1 @@
+<p>I have query in a stored procedure with error detection</p>  <pre><code>exec @Error = spCreateBillingForET @BillingGroupID, @JournalCodes out  if @Error &gt; 0 goto ExitSp </code></pre>  <p>How can I change that query with <code>sp_executesql</code> ?</p>

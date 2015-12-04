@@ -1,0 +1,1 @@
+<pre><code>#include&lt;stdio.h&gt; main() {    printf("\n Hello world"); } </code></pre>  <p>In the above code, how can i make the lexical analyzer to recognize only <strong>main( )</strong> and ignore rest of the code such that the output displays only <strong>main( )</strong> and its line number.</p>  <p>(<em>Without adding too many cases, in case of a lengthy code</em>)</p>

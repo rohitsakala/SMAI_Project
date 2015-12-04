@@ -1,0 +1,1 @@
+<p>I have seen a lot of answers but doesn't seems to find one. I am using new FAB in one of my fragments and want to remove it when that particular fragment goes to backstack, but I am not sure which method in fragment gets called when it is added to back stack and replaced by other fragment.</p>

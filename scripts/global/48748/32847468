@@ -1,0 +1,1 @@
+<p>I'm using the 'forem' gem with Devise on my website.</p>  <p>From what i've read in the forem documentation only users who are logged in can post. I'd like to allow Guest users to post in certain forems without having to login. Perhaps just by providing a name and email address.</p>  <p>Does anybody know if this is possible, and if so how?</p>

@@ -1,0 +1,1 @@
+<p>I am using $cordovaOauth for google/facebook login in ionic. I need to configure it to use the AWS services for authentication. </p>  <p>I am not getting exactly how to do the setup and what needs to be added where, to get ID from AWS.</p>

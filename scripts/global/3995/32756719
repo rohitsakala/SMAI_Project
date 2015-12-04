@@ -1,0 +1,1 @@
+<p>I'm working on an app that uses Django/Python and Node.js as backend. For POST/GET requests Django is used. I get an error when I try to do the POST request with Node.js (using Express.js framework). Is there a way of using Node.js for POST/GET requests?</p>  <p>Thanks in advanced!</p>

@@ -1,0 +1,1 @@
+<p>I am trying to convert UTC time into the users local time, it works fine until I try to convert the time to +14:00 timezone, the result is always null, anyone has idea? Here is my code:</p>  <pre><code>select CONVERT_TZ(now(), '+00:00', '+14:00') </code></pre>

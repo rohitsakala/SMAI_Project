@@ -1,0 +1,1 @@
+<p>Let's say we have a site that uses CSRF tokens in a form.</p>  <p>Now we have a browser/chrome extension (css, js, html), that uses the CSRF that is hidden in an input to do a post request and change the state of our application.</p>  <p>How can one protect against such an attack? Or am I missing something?</p>

@@ -1,0 +1,1 @@
+<p>I have two recordsets rs1 and rs2 in vb6.i want to compare each record in rs1 with each record in rs2.and automatically generate a new recordset rs3 which contains records different from rs1 and rs2.for example if val in rs1 is 1 and in rs2 is 2 then value in rs3 will be 3.</p>

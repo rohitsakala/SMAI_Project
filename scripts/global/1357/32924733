@@ -1,0 +1,1 @@
+<p>I have request for proposal which require to parse complex excel document (2013 standart) which contains complex formulas (we need to import) and cross references between sheets. We can choose any technology stack (.NET or Java POI). Please advice what is more mature and powerful to use in that case? </p>

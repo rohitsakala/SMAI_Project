@@ -1,0 +1,1 @@
+<p>Using java return method, program a Java class (String Str, char H) to convert non-space characters in String Str with any character(H) inserted. For example</p>  <p>("Life is wonderful" , "&amp;") into ("&amp;&amp;&amp;&amp; &amp;&amp; &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;") </p>

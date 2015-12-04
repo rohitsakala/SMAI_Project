@@ -1,0 +1,1 @@
+<p>Here is how my perform method looks like:</p>  <pre><code>def perform(name, github_token)   fetch_data(opts) end </code></pre>  <p>I want to terminate it in the <code>#fetch_data</code> at a specific criteria. How to do that?</p>  <p>My adapter is Sidekiq.</p>

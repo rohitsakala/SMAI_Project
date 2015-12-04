@@ -1,0 +1,1 @@
+<p>Trying to run this project in visual studio 2010 (dont tell me to update it), and all of the includes for standard libraries are underlined in red:  Error: cannot open source file "math.h" etc. </p>  <p>Include directories of the project has: $(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);‌​</p>

@@ -1,0 +1,1 @@
+<p>I have more "Location documents" in my couchdb with longitude and latitude fields. How to find all location documents in database which distance to provided latitude and longitude is less than provided distance.</p>

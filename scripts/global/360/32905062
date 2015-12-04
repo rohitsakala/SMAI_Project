@@ -1,0 +1,1 @@
+<p>I have a lot of static methods that require a SqlConnection as parameter. In the <code>&lt;param&gt;</code>-tag I always write "opened Connection to DB". As I am a programmer I am lazy. Is there any way to define a default description for a parameter? The name is always the same.<br> I haven't found any hint in the options of Visual Studio or in a google search.</p>

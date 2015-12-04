@@ -1,0 +1,1 @@
+<p>I have added a Fuzzy Lookup to an SSIS package.  When it runs a DOS windows appears, then disappears, then nothing happens.</p>  <p>Changing the project from 32 bit to 64 bit resolves the issue. Why do I have  to run the project is 64 bit mode?</p>  <p>I am using Visual Studio 2008.</p>

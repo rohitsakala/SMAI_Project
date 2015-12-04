@@ -1,0 +1,1 @@
+<p>i have two wars A and B . Also my CAS server is on same JBoss application server.I have integrated two applications separately with CAS authentication. Now, i have to use ticket generated for A should use application B. but, when i redirects to application B it again calls CAS authentication. Is their any way to use already generated ticket. </p>

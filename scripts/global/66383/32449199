@@ -1,0 +1,1 @@
+<p>In MS dynamics CRM, Can we determine where our custom workflow activity is used. All I want to know is the list of parent workflows.</p>  <p>For example if our custom workflow name is 'abc'. Then is there any utility who give us all workflows which used 'abc' as child workflow custom activity.</p>

@@ -1,0 +1,1 @@
+<p>So this is my code</p>  <pre><code>private void viewGroundMaintenance_CellBeginEdit(object sender, GridViewCellCancelEventArgs e) { MessageBox.Show("Message"); } </code></pre>  <p>when I'm clicking the cell the message box appears two times. Why is the message box showing two times. I want it to make it appear only one time per click.</p>

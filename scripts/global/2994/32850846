@@ -1,0 +1,1 @@
+<p>There are multiple series in my line chart. Each series contains multiple points. I wonder is there a property I can easily use to get the min/max X Axis value among all of those points for all series? Or whether the chart doesn't support this I have to get the value from my data set?</p>  <p>Thanks</p>

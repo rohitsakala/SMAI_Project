@@ -1,0 +1,1 @@
+<p>I'm trying to change the layout of my Activity through AsyncTask.</p>  <p>In onPostExecute() I'm calling: </p>  <pre><code>MyActivity.this.setContentView(R.layout.activity_sub); </code></pre>  <p>but it wont let me, saying "MyActivity is not an enclosing class".</p>  <p>Can anyone please help?</p>

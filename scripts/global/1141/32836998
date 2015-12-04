@@ -1,0 +1,1 @@
+<p>I want  Rails Active Record query for the in case of below sql query</p>  <p>Any help is appreciated</p>  <pre><code>SELECT parent_id FROM categories INNER JOIN categories_coaches ON categories.id = categories_coaches.category_id </code></pre>

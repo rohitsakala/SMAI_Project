@@ -1,0 +1,1 @@
+<p>I set tooltip for buttons,but it looks so small(font size),how can I make it bigger?I have tried <code>myTooltip.setFont(new Font(20))</code>,but it dosen't work,why?And how can I make the font bigger? Thank you all guys!</p>

@@ -1,0 +1,1 @@
+<p>(Hi people, excuse my english)</p>  <p>I am using <code>AbstractBaseUser</code> and <code>UserCreationForm</code> with my Django app. When registering users through my app, the password gets saved in hash format and saved in the database. But when I try to do the same thing using Django admin site, the password gets saved in raw format.</p>

@@ -1,0 +1,1 @@
+<p>I am trying to follow <a href="https://groups.google.com/forum/#!topic/spray-user/rc9bYO_SxU8" rel="nofollow">this advice</a> to debug my Spray routes, i.e. using <code>logRequestResponse</code>. I am using debug logging level. However, no debug messages appear on the console.</p>

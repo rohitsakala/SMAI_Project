@@ -1,0 +1,1 @@
+<p>I have a PySide project with many modules, files and folders. I also used Numpy, Matplotlib and many other modules.</p>  <p>I want to build this project with cython. The code is pure python, and i want cython to add all dependencies together, just like when using <code>pyinstaller</code></p>  <p>is it possible or cython is just made for writing extensions (dll, so, lib) ?</p>

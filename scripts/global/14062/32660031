@@ -1,0 +1,1 @@
+<p>I am new to apache camel. I want to invoke a bean method. Inside the bean method i want to set a header which i want to use in a subsequent step to conditionally skip the flow or next destination.i also want to know how to pass output of method response as route output or as input to next destination which would be another bean. Can someone share me snippet for the same.</p>

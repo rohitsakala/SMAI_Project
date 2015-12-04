@@ -1,0 +1,1 @@
+<p>I'm looking for a function that will retrieve the last two elements of a list in erlang.</p>  <p>I've tried </p>  <pre><code>lists:nthtail( lists:length(List) - 2, List) </code></pre>  <p>without luck, any help appreciated.</p>

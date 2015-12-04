@@ -1,0 +1,1 @@
+<p>I am appending image to the div and i want to get image natural width and height to set loader while image loading inside that div. That div should be the size of the image width and height. Plz give me a solution using jquery or javascript.</p>

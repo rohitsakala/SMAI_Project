@@ -1,0 +1,1 @@
+<p>Trying to do a simple rename in ArcGIS 9.2 - field calculator. Using !dsm_loc!.replace("H:\", "F:\") where dsm_loc is the field name. Keep getting a syntax error! Any thoughts??</p>

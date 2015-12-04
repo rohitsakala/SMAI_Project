@@ -1,0 +1,1 @@
+<p>For example, I have a Post model:</p>  <pre><code>Class Post(models.Model):     title = models.Charfield(max_length=200)     # other fields </code></pre>  <p>I wonder is there a way to create multiple posts at once in admin. In other words, I need a formset instead of single form on post creation page.</p>

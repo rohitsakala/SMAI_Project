@@ -1,0 +1,1 @@
+<p>I have windows 7 64 bit OS with python 2.7.10 64 bit running and installed the Oracle Instant Client for 64 bit OS and as well as the cx_Oracle package for the 64 bit. I am getting the error like below</p>  <pre><code>import cx_Oracle </code></pre>  <p>ImportError: DLL load failed: %1 is not a valid Win32 application.</p>

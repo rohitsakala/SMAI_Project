@@ -1,0 +1,1 @@
+<p>I like ido, but for some situations I would like to restrict its searches to files that have a particular ancestral (parent, grandparent, etc.) directory. Is there an easy way to do this?</p>  <p>Note that I already have ido-auto-merge-work-directories-length set to -1.</p>

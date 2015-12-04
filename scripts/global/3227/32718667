@@ -1,0 +1,1 @@
+<p>I have two jobs which should be executed at one time. Both of them updating  and pushing changes to central git repo.  Is there way to lock central repo, so first job will lock it, perform update and realize at the same time second job will wait until repo would be unlocked. </p>

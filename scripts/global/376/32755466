@@ -1,0 +1,1 @@
+<p>I am wondering if an overridden <code>OnApplyTemplate</code> method can be called before the non-static constructor of the Control is called?</p>  <p>I am currently investigating possible <code>NullReferenceException</code> sources and was wondering if such scenario could be the cause of it, thanks.</p>

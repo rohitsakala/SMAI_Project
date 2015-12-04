@@ -1,0 +1,1 @@
+<p>This might sound silly, but I'm trying to double 1000 with itself using a interest of 4%.</p>  <pre><code>$startnumber = 1000; $interest = 1.04; $endnumber = 0;  if ($startnumber &gt; $endnumber) {     for ($i = 0; $i &lt; 20; $i++) {         $endnumber = $startnumber * $interest;     } } echo $endnumber; </code></pre>  <p>Can someone tell me what I'm doing wrong?</p>

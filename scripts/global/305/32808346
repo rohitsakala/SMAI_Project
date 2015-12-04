@@ -1,0 +1,1 @@
+<p>The floating point numbers come from an output string. Here is my sample code:</p>  <pre><code>#!/bin/bash      output="0.15 0.11"     cputime=${output[0]}     gputime=${output[1]}     echo $cputime $gputime      diff=`echo "$cputime - $gputime" | bc`     echo $diff </code></pre>

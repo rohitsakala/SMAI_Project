@@ -1,0 +1,1 @@
+<p>My android phone get damaged and I sent it for repair So I have no device with me but emulator. I have to implement Broadcast action messages like <code>ACTION_POWER_CONNECTED</code>, <code>ACTION_POWER_DISCONNECTED</code>. My question is can I check that with emulator.</p>

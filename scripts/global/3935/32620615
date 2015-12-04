@@ -1,0 +1,1 @@
+<p>I am looking at way to optimize my application. We are currently using struts2 framework. Is there any way to configure struts.xml to send only non - null values to UI ? </p>

@@ -1,0 +1,1 @@
+<p>I have downloaded some pdf books from archive.org. These books are very heavy and needs a lot of system resources. However, if we remove the yellow background of pdf pages it runs smoother. Is there anyway I can remove all the yellow backgrounds skipping some pages which have certain images using itextsharp. </p>

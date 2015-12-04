@@ -1,0 +1,1 @@
+<p>Unable to open liblaunch_sim.dylib.  Try reinstalling Xcode or the simulator runtime. It seems that all iOS simulators below 9 are not available (after updating to Xcode 7 from Xcode 6.4), though Xcode lets me build for it...<a href="http://i.stack.imgur.com/kxzem.png" rel="nofollow"><img src="http://i.stack.imgur.com/kxzem.png" alt="enter image description here"></a></p>

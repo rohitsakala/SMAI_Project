@@ -1,0 +1,1 @@
+<p>How can I select start time and end time for an appointment, e.g.</p>  <pre><code>Select : start_time, select :end_time </code></pre>  <p>Is there any gem that will let <code>end_time</code> be forward from start time?</p>

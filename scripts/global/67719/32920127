@@ -1,0 +1,1 @@
+<p>Is there a way of making pandas (or sqlalchemy) output the SQL that would be executed by a call to <code>to_sql()</code> instead of actually executing it? This would be handy in many cases where I actually need to update multiple databases with the same data where python and pandas only exists in one of my machines. </p>

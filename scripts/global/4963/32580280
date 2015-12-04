@@ -1,0 +1,1 @@
+<p>Can anyone gander as to why this is always false?</p>  <pre><code>    SYSTEM_POWER_STATUS lpSystemPowerStatus;     GetSystemPowerStatus(&amp;lpSystemPowerStatus);     int charging = (lpSystemPowerStatus.BatteryFlag &amp; BATTERY_FLAG_CHARGING) ? 1 : 0; </code></pre>

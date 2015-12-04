@@ -1,0 +1,1 @@
+<p>I have created a Comparer in .Net 4.5:</p>  <pre><code>public static Comparer&lt;Room&gt; RoomComparer =    Comparer&lt;Room&gt;.Create((a, b) =&gt; a.RoomId.CompareTo(b.RoomId)) </code></pre>  <p>How can i create Comparer in c# .NET 4.0? </p>

@@ -1,0 +1,1 @@
+<p>I tried to add custom header with this:</p>  <pre><code>let manager = Manager.sharedInstance manager.session.configuration.HTTPAdditionalHeaders = [     "Authorization": "Token \(token)" ] </code></pre>  <p>But it doesn't work, what am i doing wrong?</p>  <p>I need to add this after login, so that header will be used in all requests.</p>

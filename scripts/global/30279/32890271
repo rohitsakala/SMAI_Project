@@ -1,0 +1,1 @@
+<p>In .Net 4 or higher we can use <a href="https://www.nuget.org/packages/System.Net.Http/" rel="nofollow">System.Net.Http</a> to call a URI. But how this can be done in .Net 3.5? I found this Nuget but it is still beta version <a href="https://www.nuget.org/packages/Rackspace.HttpClient35/1.0.0-beta003" rel="nofollow">System.Net.Http for .NET 3.5</a></p>

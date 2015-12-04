@@ -1,0 +1,1 @@
+<p>I tried using htpasswd but Safari on iOS does not allow for remembering of username and password.</p>  <p>Is there a script somewhere that may be of use?  Or do I need to set up a mysql database.</p>  <p>the username:password@mysite.com solution is not ideal unfortunately.</p>

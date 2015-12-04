@@ -1,0 +1,1 @@
+<p>I would like to mock the backend for quicker development by providing json response without reling on the real backend. The frontend app is an Angular app and we use Gulp as a development and build tool. </p>  <p>E.g. have a specific api (.../custumers/123) return a static json result. </p>  <p>Is there perhaps already a gulp tool for this?</p>

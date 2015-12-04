@@ -1,0 +1,1 @@
+<p>I have some problems with prolog, specifically I can't compare a value of a predicate with a constant.</p>  <pre><code>predicate(9). compare(X,Y) :- X&lt;Y. </code></pre>  <p>Running the program:</p>  <pre><code>?-compare(predicate(X),10). </code></pre>  <p>Why doesn't it work? Thank you for your answers.</p>

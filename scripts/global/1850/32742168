@@ -1,0 +1,1 @@
+<p>I have a simple IronPython class which implements a destructor (<code>__del__</code>) and write some thing to the console  in it. If there is not reference to the instance any more and i call <code>GC.Collect</code> for testing purpose, the destructor will never be called. Is this correct? Does the DLR/IP has it's own memory management on top of the clr/gc?</p>

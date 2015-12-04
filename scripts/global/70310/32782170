@@ -1,0 +1,1 @@
+<p>I am trying to launch game locally, but i have some problems. Sources seems to be ok , down from github. Here is one of these mistakes.</p>  <p>Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.</p>

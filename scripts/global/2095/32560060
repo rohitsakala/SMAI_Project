@@ -1,0 +1,1 @@
+<p>Can I convert logic expression to SMT-Lib format using tool or library. For example: with expression: !(1>0), the corresponding SMT-Lib format is: not (> 1 0). Thanks in advance.</p>

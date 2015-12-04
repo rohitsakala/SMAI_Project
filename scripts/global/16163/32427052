@@ -1,0 +1,1 @@
+<p>I have 2 different databases (e.g. BETA and DELTA),  I need to compare the table "STUDENTS RECORD" in BETA and DELTA database and report an error if the tables don't match.I am using oracle sql developer.</p>

@@ -1,0 +1,1 @@
+<p>hi I'm using devise token auth and doorkeeper . When I'm trying to send a post request from postman data is coming correctly how to replicate that in a browser? I'm using rails 4</p>

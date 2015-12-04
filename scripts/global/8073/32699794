@@ -1,0 +1,1 @@
+<p>I'd like to write an extension to Siddhi that changes the way it finds event sequences and patterns, but I'm not sure which classes I should override/look into. Is anyone familiar enough with the source code to give me pointers? Is there an active dev mailing list?</p>

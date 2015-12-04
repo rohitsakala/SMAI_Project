@@ -1,0 +1,1 @@
+<p>When I use <code>System.loadlibrary()</code> to load my so file, rarely, it fails and the Logcat says </p>  <pre><code>Cannot load library: reloc_library[1286]: 121 cannot locate '__cxa_atexit' </code></pre>  <p>Most of the time, it can work well, but rarely crash as above.</p>

@@ -1,0 +1,1 @@
+<p>I have a text box that contains an expression, however i dont want it to be affected by the selections in the list boxes.</p>  <pre><code>=SUM(IF( (date(Monthname(C_DATE),'MMM-YY')) &gt;=(AddMonths(Today(),-12)),1,0)) </code></pre>

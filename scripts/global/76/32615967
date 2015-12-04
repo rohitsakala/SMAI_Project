@@ -1,0 +1,1 @@
+<p>I would like to have the mysqldump compressed.</p>  <p>I tried both gzip and bzip2 and saw that bzip2 compresses it smaller compared to gzip.</p>  <p>But, in most of the places online, I see the examples using gzip</p>  <p>gzip and bzip2 - which one is better?</p>

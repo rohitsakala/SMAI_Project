@@ -1,0 +1,1 @@
+<p>I have some very long labels for points on a map (Avg 35 chars per label).</p>  <p>Is there a "word wrap" of sorts in ggmap annotate (or other labeling function) so the lines are not stretched across the map? I'd like to either limit by number of chars or force a linebreak at a space.</p>  <p>Thanks!</p>

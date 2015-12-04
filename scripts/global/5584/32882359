@@ -1,0 +1,1 @@
+<p>I'm trying to write an Android application that uses OpenGL. <br/>What I want, is to send vertices from MainActivity to Renderer and then render this vertices on GLSurfaceView.<br/><br/>Is this possible? And how could I do this?</p>

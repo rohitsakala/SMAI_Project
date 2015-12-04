@@ -1,0 +1,1 @@
+<p>I have two <code>numpy</code> arrays:</p>  <pre><code>array_1.shape = (10000,15) array_2.shape = (435,) </code></pre>  <p>I want to select a sub array from <code>array_1</code> where the first column (<code>array_1[:,0]</code>) is equal to one of elements of <code>array_2</code>. Something like <code>array_1[array_1[:,0]==array_2]</code>.</p>

@@ -1,0 +1,1 @@
+<p>I need to carry out a weighted semi-partial correlation. That is, I have a vector with weights that I need to assign to the variable Z, to find out the predictive power of X over Y.  The package "weights" contains a function to carry out a weighted correlation but I cannot find a command to execute a weighted semi-partial correlation.</p>

@@ -1,0 +1,1 @@
+<p>Tried all day, couldn't help it, really need your help am new to PDO STATEMENTS here is my code </p>  <pre><code>$like_sql = mysql_query('SELECT COUNT(*) FROM  likes WHERE ip = "'.$user_ip.'" and id_item = "'.$pageID.'" and rate = 1 '); $like_count = mysql_result($like_sql, 0);   </code></pre>  <p>how do i archive this using PDO statement. THANKS IN ADVANCE.</p>

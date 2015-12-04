@@ -1,0 +1,1 @@
+<p>How can I get Xcode to ignore this warning:</p>  <blockquote>   <p>Disabling segue animation is not available prior to iOS 9.0</p> </blockquote>  <p>I understand why the warning's there and am happy to ignore it because the app works just fine in 8.</p>  <p>I need to continue supporting iOS 8 and I don't want to suppress all storyboard warnings - just this one.</p>

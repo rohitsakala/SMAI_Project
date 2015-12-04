@@ -1,0 +1,1 @@
+<p>I'm working on a website that uses a lot of javascript animations to display content and I noticed jQuery does a poor job when it comes to making animations appear smooth?</p>  <p>How can I overcome this apparent limitation of jQuery?</p>

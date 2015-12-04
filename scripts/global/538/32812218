@@ -1,0 +1,1 @@
+<p>I have a query in mnesia that returns a list of tuples like this:</p>  <pre><code>[{"str", 10}, {"str2", 20}] </code></pre>  <p>I want to convert it to json using <code>jiffy</code> but it seems <code>jiffy:encode/1</code> can't do it. Is there anyway to solve my problem?!</p>

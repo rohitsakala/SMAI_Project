@@ -1,0 +1,1 @@
+<p>I want close my app using code in Windows Phone 7.1<br> (when clicked on button, the app closes). In Windows Phone 8 it's easy:</p>  <pre><code>Application.Current.Terminate() </code></pre>  <p>But how to do this on WP 7 (using VB.Net) ?</p>

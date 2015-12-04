@@ -1,0 +1,1 @@
+<p>Is there a header I could apply to the request <code>/speakers</code> to specify an aggregate function output, for instance </p>  <p><code>SELECT MAX(speaker.lastModified) AS lastModified FROM speaker</code> </p>

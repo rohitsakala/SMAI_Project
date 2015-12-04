@@ -1,0 +1,1 @@
+<p>I'm trying to copy a few rows from one table to a table on a different server. The table structures the same in both. People mentioned using a trigger but that wouldn't work for my solution. </p>  <p>We could create a script but it's going to be done several times, and that adds to much risk. Any other options? </p>  <p>Edit: We aren't able to do Linked Servers :( </p>

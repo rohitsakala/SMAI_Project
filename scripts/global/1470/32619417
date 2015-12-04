@@ -1,0 +1,1 @@
+<p>From the docs, I am unable to determine how in vis.js (Graph3d, in particular) I can cause labels to appear on my graphs dynamically.</p>  <p>I would like to modify the appearance of data for different sets of x, y and z; yet, it seems that vis.js favors the configuration of a graph's appearance prior to rendering.</p>

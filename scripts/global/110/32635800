@@ -1,0 +1,1 @@
+<p>I created a docker container.  I can ssh into the docker container.  How can I view files in my docker container with a GUI (specifically the WebStorm IDE)?</p>  <p><em>I'm running a MAC on OSX Yosemite 10.10.5.</em></p>

@@ -1,0 +1,1 @@
+<p>I have a C++ object of the type <code>vector&lt;char,allocator&lt;char&gt; &gt;</code>. Conceptually, I expect it to be a list of Boolean values. How should I access it (for example, to print the Boolean value of each of its elements)?</p>

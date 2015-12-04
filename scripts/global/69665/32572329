@@ -1,0 +1,1 @@
+<p>I need java to use a socks5 proxy.<br> I found the instructions.<br> How do I get to the $ prompt to enter them?<br> Google completely fails at this.</p>  <pre><code>$ System.getProperties().put( "proxySet", "true" ); $ System.getProperties().put( "socksProxyHost", "127.0.0.1" ); $ System.getProperties().put( "socksProxyPort", "1234" ); </code></pre>  <p>Thanks</p>

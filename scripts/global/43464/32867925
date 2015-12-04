@@ -1,0 +1,1 @@
+<p>I am working on symfony 1.4 framework with PHP 5.2.17. Earlier for saving sessions memcache was used but now my boss is asking me to save the sessions using redis database. Can anyone help me on how to save session using redis?</p>

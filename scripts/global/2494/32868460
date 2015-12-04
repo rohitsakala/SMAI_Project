@@ -1,0 +1,1 @@
+<p>I have stored procedures in Schema A and the schema would be called differently in production environment. e.g "XYZ". Is there a way to have dynamic schema? </p>  <p>For example: <code>String sql = "{call {schema}.storedProcedureName(?,?,?,?)}";</code> is it possible to do something like that?</p>

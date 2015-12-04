@@ -1,0 +1,1 @@
+<p>I'm working on a small .Net project, I used in my project EntityFramework with  MySQL server, i tried the official Full MySQL installer, but i need only the server from that package to reduce the size of my application installer, like that used in PHPMyAdmin Installer, please show me how/where find that.</p>

@@ -1,0 +1,1 @@
+<p>I'm working with Visio Interop in C#, my program queries some catalogs and drops the object results in the visio page as shapes. Now, I just want to select all the shapes and auto-align, and auto-space them. So how can I do this? Thanks in advance.</p>

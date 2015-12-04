@@ -1,0 +1,1 @@
+<p>I have an Android Project in Eclipse 4.5. I have a jni folder with .c and .h files. I also have .so file which needs to be added to lib folder. But I dont know how to add these to my Android Project and make my Project running. Any kind of assistance would help me.</p>

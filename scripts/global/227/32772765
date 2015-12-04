@@ -1,0 +1,1 @@
+<p>I'm trying to write a code that looks for a specific text in a file and gets the line after.</p>  <pre><code>f = open('programa.txt','r')  for line in f:     if (line == "[Height of the board]\n"):       ## skip to next line and saves its content      print(line) </code></pre>

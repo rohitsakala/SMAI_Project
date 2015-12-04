@@ -1,0 +1,1 @@
+<pre><code>    i have several pages in in my application     suppose      a.html,b.html,c.html </code></pre>  <p>and user can navigate from one page to another frequently but when user want to go back and when it click to cancle button he should be automatically redirect to the previous page which was accessed by him.is there any solution for it?</p>

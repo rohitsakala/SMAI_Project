@@ -1,0 +1,1 @@
+<p>What is the most suitable? windows service to be implemented as a separate abstract class and reuse it when you need to create a service application or directly create a windows service outside of a class(C style) which is in the <a href="http://www.codeproject.com/Articles/499465/Simple-Windows-Service-in-Cplusplus" rel="nofollow">CodeProject</a>.</p>

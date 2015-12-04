@@ -1,0 +1,1 @@
+<p>Is there any way to create object outside the class in singleton design pattern?</p>  <pre><code>public class Test {      private Test() {}      private static final Test t=new Test();       public static Test getTest() {         return t;        }  } </code></pre>

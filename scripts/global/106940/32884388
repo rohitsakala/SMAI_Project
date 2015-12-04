@@ -1,0 +1,1 @@
+<p>I am using Lumen framework. How can I change Timezone to Europe/Paris CEST?</p>  <p>I added a varaible in my <code>.env</code> file:</p>  <pre><code>APP_TIMEZONE=Europe/Paris </code></pre>  <p>But this doesnt work. What is the right way to update timezone?</p>

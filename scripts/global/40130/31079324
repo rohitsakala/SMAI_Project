@@ -1,0 +1,1 @@
+<p>I am using flerry as a bridge between Java and Flex. Sometimes if I call a function in Java from flex which takes more time to execute, there will be no action performed in the flex i.e it will neither produce a fault event nor a result. How to handle this type of Problems? Is there any Timeout value that can be configured?</p>

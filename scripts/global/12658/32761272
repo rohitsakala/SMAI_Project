@@ -1,0 +1,1 @@
+<p>We have an Eclipse project with several developers. The default character encoding differs between machines. How can I configure Eclipse to use a specific character encoding, so that the setting persists between machines with <strong>no manual intervention needed</strong>?</p>

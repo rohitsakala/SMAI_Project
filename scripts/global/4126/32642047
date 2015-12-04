@@ -1,0 +1,1 @@
+<p>I am using the TinyMCE WYSIWYG editor for a ASP.NET MVC project.  Although the editor is working, when the page loads the underlying textarea is visible for a brief moment before the editor kicks in - the raw textarea is visible for about, give or take, a second.  Is there a way to only load the content once the TinyMCE editor is ready?</p>

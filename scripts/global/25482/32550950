@@ -1,0 +1,1 @@
+<p>I have textview on iPad. I have handled events on done click of textview. But however iPad lower right hide keyboard button behaves differently on click. It should call the same methods which are called in done click. However it doesn't happen. Is there any any other method which is called?</p>

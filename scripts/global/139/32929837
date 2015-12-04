@@ -1,0 +1,1 @@
+<p>I am having a small trouble. I hope I am not outputing string properly.Here is the code</p>  <pre><code>$icon = ( isset( $tab['icon'] ) &amp;&amp; $tab['icon'] ) ?'&lt;i class="$tab['icon']"&lt;/i&gt;' : ''; </code></pre>  <p>I want to output this <code>&lt;i class="$tab['icon']"&lt;/i&gt;</code></p>  <p>Thank you.</p>

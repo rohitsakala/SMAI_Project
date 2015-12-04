@@ -1,0 +1,1 @@
+<p>Every calculator gives me this:</p>  <p><code>14 * 2.7 = 37.8</code></p>  <p>Yet JavaScript seems to have a different value.</p>  <p><a href="http://jsfiddle.net/cLrbz9Lw/" rel="nofollow">http://jsfiddle.net/cLrbz9Lw/</a></p>  <p>What's wrong here...</p>

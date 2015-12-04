@@ -1,0 +1,1 @@
+<p>I am trying to access a shared folder via Windows Run as follows :</p>  <pre><code>\\INLN50846506A\Users\ABCD\Desktop\Shared Folder\Random Shared SubFolder </code></pre>  <p>However this breaks at the "spaces". Is there any way i can escape the spaces? I am on Windows 8.</p>

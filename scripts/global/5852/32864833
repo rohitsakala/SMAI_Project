@@ -1,0 +1,1 @@
+<p>I have a discrete variable P represents propabilites </p>  <pre><code> p &lt;- c(0.5,  0.4,  0.5,  0.1,  0.8,  0.9 ) </code></pre>  <p>I want to rearrange this variable and change it into ordinal </p>  <p>the categories :</p>  <pre><code>01 less than 0.2 02 from 0.2 up to 0.4 03 More than 0.4 up to 0.6  04 More than 0.6 up to 0.8 05 More than 0.8  up to 1  </code></pre>

@@ -1,0 +1,1 @@
+<p>We are looking for a command to delete multiple records within Rails <code>transaction</code>. To make it trigger within <code>transaction</code>, we used <code>destroy_all!</code> and <code>delete_all!</code> and received <code>method not defined</code> error. What's the right delete command (or right way) for multiple records which triggers in Rails transaction?</p>

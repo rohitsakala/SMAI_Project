@@ -1,0 +1,1 @@
+<p>I'm using cocos2d to build kof. I want to use box2d to do physics stuff. Now there is a problem.  How to make a current sprite size box when sprite is changing? eventlistener?  hope someone has similar experience can help </p>

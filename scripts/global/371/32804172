@@ -1,0 +1,1 @@
+<p>For the following c comment (<code>^</code> is the cursor)</p>  <pre><code>/*  * foo bar^ </code></pre>  <p>If I push enter with the cursor after <code>bar</code>, I get</p>  <pre><code>/*  * foo bar ^ </code></pre>  <p>But I want to have</p>  <pre><code>/*  * foo bar  *^ </code></pre>  <p>What should I do?</p>

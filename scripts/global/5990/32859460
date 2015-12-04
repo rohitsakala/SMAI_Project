@@ -1,0 +1,1 @@
+<p>I have text classification data with predictions depending on categories, 'descriptions' and 'components'.  I could do the classification using bag of words in python with scikit on 'descriptions'. But  I want to get predictions using both categories in bag of words with weights to individual feature sets x = descriptions + 2* components How should  I proceed?</p>

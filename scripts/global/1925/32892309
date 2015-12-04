@@ -1,0 +1,1 @@
+<p>Is there any way to ask GHC to expect <code>libiconv</code> to be in a static as opposed to dynamic library? Currently GHC (7.10.2), expects that <code>libiconv.so</code> is in the <code>LD_LIBRARY_PATH</code>.</p>

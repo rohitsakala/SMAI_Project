@@ -1,0 +1,1 @@
+<p>Can anyone suggest the command to check the JVM heap parameters in Linux Operating System? I want to see the <code>-Xms&lt;memory&gt;</code> <code>-Xmx&lt;memory&gt;</code> parameters of Java JVM installed in the Linux OS.</p>  <p>Can anyone suggest the Linux command for this?</p>  <p>Regards Deb</p>

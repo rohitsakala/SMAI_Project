@@ -1,0 +1,1 @@
+<p>I'm working on an existing GWT app . I'm seeing this warning </p>  <blockquote>   <p>the constructor Date(int, int, int) is deprecated</p> </blockquote>  <p>Since java.util.Calendar is not supported in GWT client side , I'm looking for how to replace this methode .</p>

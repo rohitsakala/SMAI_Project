@@ -1,0 +1,1 @@
+<p>Does the built in SQL Connector have a built in retry mechanism? If not, is it acceptable to simply use a Do-until until status is ok or it maxed out on the configured Do-until count is reached?</p>

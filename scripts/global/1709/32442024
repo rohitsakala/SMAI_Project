@@ -1,0 +1,1 @@
+<p>is there any way to send credentials to FMS using Actionscript ? Something like the /ap userID:password command line of FMLE. I tried several codes using NetConnection but I can't find a solution. Thank you ! :-)</p>

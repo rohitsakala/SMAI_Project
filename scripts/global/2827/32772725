@@ -1,0 +1,1 @@
+<p>i need to know how to setup background randomly on one activity, 'android:background="@drawable/backG"' only show one image  the background come randomly with the launch of the application, and it keep on showing until the user quit the app, and when he reopen it, it will show a new background note : i have only one activity in my project thanks in advance</p>

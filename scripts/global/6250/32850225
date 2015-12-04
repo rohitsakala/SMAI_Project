@@ -1,0 +1,1 @@
+<p>I have a text file with a string like 0.0.1 and I want to remove the decimals to make it 001 or just 1. So for example a 1.0.1 would become a 101.</p>  <p>I thought about using the round() but it would turn 0.0.1 into 0 and that's not what I want.</p>

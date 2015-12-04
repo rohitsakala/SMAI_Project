@@ -1,0 +1,1 @@
+<p>I see that Facebook has Identity Verification tools for their own users, is it possible to poll their API and determine whether or not a User has had their id verified?  I'm assuming we'll have to get permissions to access this information as well as access their names.</p>  <p>Thank you!</p>

@@ -1,0 +1,1 @@
+<p>I must say that I disabled orientation events for my purposes, so I could only use the accelerometer. I'd like to rotate an image, according to the acceleration vector. Tell me if I should use another sensor. For example, if the app is in portrait mode the image is normally upright, when the phone is in landscape mode the image should make a rotation of 90°.</p>

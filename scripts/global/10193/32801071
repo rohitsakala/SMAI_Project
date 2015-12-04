@@ -1,0 +1,1 @@
+<p>How to use this function in a cepcific range of vector? For ex: from vector[2] to vector[5]? Why this code doesn't work correctly?</p>  <pre><code>    if (std::find(begin(vector)+1, begin(vector)+4, 30)!= vector.end())         {             search = true;         } </code></pre>  <p>Thanks!</p>

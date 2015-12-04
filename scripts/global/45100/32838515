@@ -1,0 +1,1 @@
+<p>hey i want to download data and parse it in a textview. Which one should i use? f i am correct groovy does not use a model class but jackson does similar to Gson. A model class improves understanding. So what should i use? please shed some light on this</p>

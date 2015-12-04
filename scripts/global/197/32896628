@@ -1,0 +1,1 @@
+<p>I'm trying to generate random integers that are are multiples of 30  in JavaScript.</p>  <p>That is:</p>  <pre><code>0 60 0 180 120 ...... and so on  in range between 0 to 360 for example  </code></pre>  <p>So I am looking for a function something like this:</p>  <pre><code>function (_range,_multi) {    Math.round(...);    return rndNum; } </code></pre>

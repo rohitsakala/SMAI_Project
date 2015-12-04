@@ -1,0 +1,1 @@
+<p>Does Java NIO memory map file system allow you to write the data at a particular location of the disk? For example is there a way to tell Java NIO package to write the data at a particular sector on a disk?</p>

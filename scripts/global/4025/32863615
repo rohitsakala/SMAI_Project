@@ -1,0 +1,1 @@
+<p>My extjs version is 4.1.2. I have set all columns' width to "auto" and check out the behaviour both in Chrome and Firefox. It looks normal in chrome, every column doesn't resize after updating, whereas in firefox it gets smaller and smaller. Is there any way to fix such behaviour and stop decreasing of width? Chrome version: 43.0.2357.130 (64-bit) Firefox version: 38.0</p>

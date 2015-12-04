@@ -1,0 +1,1 @@
+<p>What is the easiest way to output a map?</p>  <pre><code>map &lt; int , string &gt; BIG_MAP; </code></pre>  <p>The method I use for insertion is:</p>  <pre><code>BIG_MAP[x] = y; </code></pre>  <p>I can't find any way which works.</p>

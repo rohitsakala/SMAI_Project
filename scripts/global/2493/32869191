@@ -1,0 +1,1 @@
+<p>Is there a way to find words that often appear close together with PostgreSQL. I know MySQL supports this with <strong>InnoDB</strong> tables when using <strong>proximity search</strong>.</p>  <p>Example:</p>  <pre><code>select quote as "Too Far Apart"  from quotes where match(quote) against ('"early wise" @20' in boolean mode); </code></pre>

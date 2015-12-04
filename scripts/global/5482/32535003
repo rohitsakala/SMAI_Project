@@ -1,0 +1,1 @@
+<p>Let's say I have two threads running and each one has a for loop , is it possible for the scheduler to shift from thread1 to thread2 while thread1 is in the middle of an iteration in the for loop ? So let's say for loop is running the nth iteration and while in the middle of it scheduler schedules the other thread. Is that possible ?</p>

@@ -1,0 +1,1 @@
+<p>I need to track each character that the user types in the <code>EditText</code>.</p>  <p>Is there any way to do that ?</p>  <p>Currently I have an <code>EditText</code> and I need an image to be displayed when user enters the first character. Thanks in advance.</p>

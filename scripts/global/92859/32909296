@@ -1,0 +1,1 @@
+<p>I'm looking for a way to remove a node when the player comes in contact with it. (Ex Coins in a game)</p>  <pre><code>func didBeginContact(contact: SKPhysicsContact) {      if contact.bodyA.categoryBitMask == ColliderType.Coin.rawValue || contact.bodyB.categoryBitMask == ColliderType.Coin.rawValue {          //Delete that coin  } </code></pre>

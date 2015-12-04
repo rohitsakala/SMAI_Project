@@ -1,0 +1,1 @@
+<p>I am using Code composer studio (CCSv6) to program my LCD. I am trying a real time display, but the output which i am getting is a frozen time. Can anyone provide me with the c/c++ code that shows the time continuously with some notification on call/Messages. I am using a SmartRF06 Board. Please help me out on this. Thanks,</p>  <p>Regards Nithin</p>

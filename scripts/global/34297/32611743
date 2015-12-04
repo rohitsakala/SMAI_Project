@@ -1,0 +1,1 @@
+<p>I am generating an excel 2010 sheet (.xlsx) containing a formula. This sheet is made available to the user via download from a server.</p>  <p>It works fine, however formula is not initially enabled on the generated excel: user has to click on an "enable content" popup in order to display its results.</p>  <p>Why is that? And is there a way to prevent this?</p>

@@ -1,0 +1,1 @@
+<p>I am writing a program where you insert some numbers in a listbox and then a button click should get the values from the listbox and check whether they are positive or negative and display each other's count in a textbox. I tried getting the value by: <code>string x = listBox1.Items[index].Value;</code> but it doesn't seem to work.</p>

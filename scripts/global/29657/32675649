@@ -1,0 +1,1 @@
+<p>I was wondering why does this work</p>  <pre><code>&amp;:extend(.test all); </code></pre>  <p>but</p>  <pre><code>&amp;.a_class:extend(.test all); </code></pre>  <p>doesn't work?</p>

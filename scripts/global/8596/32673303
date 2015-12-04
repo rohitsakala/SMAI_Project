@@ -1,0 +1,1 @@
+<p>I just updated the support design library from 22.2.1 to 23.0.1 and immediately noticed the presence of a scrollbar in the navigation drawer. I tried to use </p>  <pre><code>android:scrollbars="none" </code></pre>  <p>But that didn't fix it. Is there any other way to remove the scrollbar?</p>

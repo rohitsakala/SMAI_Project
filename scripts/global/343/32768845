@@ -1,0 +1,1 @@
+<pre><code>result = collections.Counter(words).most_common(3)  print result </code></pre>  <p>The result is:</p>  <pre><code>[('want', 3), ('dtype', 1), ('object', 1)] </code></pre>  <p>Now I want to plot a histogram with the selected 3 words. How can I do this? The following way does not work.</p>  <pre><code>plt.hist(result,histtype='bar') plt.show() </code></pre>

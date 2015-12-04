@@ -1,0 +1,1 @@
+<p>I'm playing with Racket today, and trying to produce an indefinite sequence of numbers based on multiple applications of the same function. </p>  <p>In Clojure I'd use the <em>iterate</em> function for this, but I'm not sure what would be the equivalent in Racket.</p>

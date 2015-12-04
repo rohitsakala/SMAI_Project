@@ -1,0 +1,1 @@
+<p>I have these properties :</p>  <pre><code>Property(S) ScreenX = 1024 Property(S) ScreenY = 768 Property(C) ScreenX = 1920 Property(C) ScreenY = 1080 </code></pre>  <p>If I use the ScreenX property for example, I obtain only the ScreenX value for property(S).</p>  <p>I would like to get the ScreenX value for property(C) -> client.</p>  <p>Is it possible?</p>

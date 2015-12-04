@@ -1,0 +1,1 @@
+<p>For each new workspace, it is time consuming in Eclipse to configure amongst other settings the type filters.</p>  <p>Is there a reasonable default set of filters that avoids in most setups that hardly ever called classes called "Map" or "List" are being suggested when 99,9% of all cases java.util.Map and List is desired?</p>

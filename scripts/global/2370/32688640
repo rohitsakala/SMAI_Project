@@ -1,0 +1,1 @@
+<p>I'm using StanfordCore NLP Library for my project.It uses PTB Tokenizer for tokenization.For a statement that goes like this- <code>go to room no. #2145</code> or</p>  <pre><code>go to room no. *2145 </code></pre>  <p>tokenizer is splitting #2145 into two tokens: #,2145. Is there any way possible to set tokenizer so that it does't identify #,* like a delimiter?</p>

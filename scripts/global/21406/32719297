@@ -1,0 +1,1 @@
+<p>I am trying to get information of attached file in mule application.I am using POSTMAN to POST a text file .But After HTTP receiver in mule application Inbound Attachment Names have size=0.How to resolve such scenario?</p>

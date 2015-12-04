@@ -1,0 +1,1 @@
+<p>i am currently using data conversion with data flow to convert a field returned from an SQL Database to  datatype date[DT_DATE], this results in the date displaying in the following format: “2013-04-08 00:00:00".</p>  <p>How can I convert it to appear instead as dd/mm/yyyy eg: “08/04/2013”? SSIS does not seem to have a preset datatype for this.</p>

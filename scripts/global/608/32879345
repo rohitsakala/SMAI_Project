@@ -1,0 +1,1 @@
+<p>.htaccess code: </p>  <pre><code>RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule ^(.*)$ /index.php?/$1 [L] </code></pre>  <p>also change in config file:</p>  <pre><code>$config['index_page'] = ' ';  $config['uri_protocol'] = "REQUEST_URI"; </code></pre>  <p>mod_rewrite is also enabled. although this code doesn't work.</p>

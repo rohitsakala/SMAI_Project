@@ -1,0 +1,1 @@
+<p>Please help me with this. I wrote this but nothing occurs. What are doing wrong?</p>  <pre><code>$sText = preg_replace("#: (\w)#", ': ' . mb_strtoupper("$1"), $sText); </code></pre>

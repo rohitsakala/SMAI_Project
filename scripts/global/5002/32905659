@@ -1,0 +1,1 @@
+<p>I want to convert date to seconds. I  can't find any way to do it.  I have dates stored in files. I want to get the dates from the files and convert it to seconds. My date format looks like that.</p>  <p><code>2015-23-02-12-23-43</code></p>  <p>Here is the line where i format my date</p>  <pre><code>[dateFormatter setDateFormat:@"yyyy-mm-dd-hh-mm-ss"]; </code></pre>

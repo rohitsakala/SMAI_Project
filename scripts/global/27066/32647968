@@ -1,0 +1,1 @@
+<p>I implemented the Sulu default Search in my project. It doesn't return anything. When i try to reindex things on the console I get the following error:</p>  <pre><code>Error indexing or de-indexing page (path: .../contents/ueber-uns/team, locale: de): There is no search mapping for object with class "Sulu\Component\Content\Compat\Structure\PageBridge" </code></pre>

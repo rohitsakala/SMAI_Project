@@ -1,0 +1,1 @@
+<p>I am getting the following error when writing into a sql-alchemy varchar string element</p>  <pre><code>....You must not use 8-bit bytestrings unless you use a text_factory that can interpret 8-bit bytestrings (like text_factory = str).... </code></pre>  <p>How can I determine the type of a string in python?</p>

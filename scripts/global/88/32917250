@@ -1,0 +1,1 @@
+<p>Is there a way to detect if the progress bar in a youtube iframe is visible or hidden? Since the autohide parameter is deprecated it became hard to get control over the progress-bar.</p>

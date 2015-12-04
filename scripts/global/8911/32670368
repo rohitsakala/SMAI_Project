@@ -1,0 +1,1 @@
+<p>I'm creating a form that uses a function to manipulate the form data and then  calls $.post to post to a node.js server (instead of using standard form post methodology). How do I go about sending the recaptcha response?</p>

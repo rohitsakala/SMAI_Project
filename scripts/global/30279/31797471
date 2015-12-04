@@ -1,0 +1,1 @@
+<p>I am using .NET 3.5. I need to use Accord.Math. I installed Accord.NET 2.7.1, 2.8.1, 2.11 and 2.15. But non of them worked. The error message is: The type or namespace name 'Accord' could not be found (are you missing a using directive or an assembly reference?)  </p>  <p>Is there anyone to know what version of Accord.Math work with .NET3.5?</p>

@@ -1,0 +1,1 @@
+<p>I've been using Netbeans and SVN for many years, and it rocks. But recently we started using VPN to our development environment, and since then Netbeans is extremely slow. It takes 1-3 minutes to diff, commit etc.</p>  <p>I'm using SvnKit as the client, because of the old version of SVN we're running, CLI is not an option. </p>  <p>Is there anyway you can speed it up?</p>

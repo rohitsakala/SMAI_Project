@@ -1,0 +1,1 @@
+<p>In my WPF application, I have a rect on screen. It is animated to move from left to right.</p>  <p>Is there a way to check the position of the rect at runtime? Say I want to stop the animation if the rect is moved out of screen?</p>

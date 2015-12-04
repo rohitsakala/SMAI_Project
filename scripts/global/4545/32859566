@@ -1,0 +1,1 @@
+<p>Is there a way, how to get <code>typeid</code> into variable in compile time using constexpr?</p>  <p>This is not working, since <code>std::type_index</code> has no constexpr ctor</p>  <pre><code>constexpr std::type_index i = typeid(double); </code></pre>

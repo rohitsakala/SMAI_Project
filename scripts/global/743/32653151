@@ -1,0 +1,1 @@
+<p>I have a question, I have an ArrayList of phone numbers, for example : </p>  <pre><code>phones = [09119281234, 09118291273, 09218271238, 09882127823, 09771281232]  </code></pre>  <p>I want to send a SMS to them with a specific text. </p>  <p>Is there any optimized solution for that ? </p>  <p>Thanks.</p>

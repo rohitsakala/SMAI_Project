@@ -1,0 +1,1 @@
+<p>We want that invoice is autosend when it is created... For example, if a customer makes an order with paypal, the invoice is created automatically, but we need to send the email manually... is there any way to send the email automatically for this payment methods? (its not only payolution)</p>

@@ -1,0 +1,1 @@
+<p>I must combine values in a set in this way:</p>  <p><strong>Input:</strong></p>  <pre><code>{A,B,C,D} </code></pre>  <p><strong>Result:</strong></p>  <pre><code>{AB, ABC, AC, AD, ACD, ABD, ABCD, BC, BD, BCD, CD} </code></pre>  <p>How can I do this?</p>

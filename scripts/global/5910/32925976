@@ -1,0 +1,1 @@
+<p>I have the following code:</p>  <pre><code>builder = new ProcessBuilder("cmd"); builder.inheritIO(); p = builder.start(); p.waitFor(); </code></pre>  <p>And in the created commandline, I would like to write e.g. "dir". How is this possible?</p>  <p>Best regards</p>  <p><strong>Edit:</strong> I have to run multiple commands and I can't use multiple cmds for that.</p>

@@ -1,0 +1,1 @@
+<p>I have road all the tricks to make inline-block and inline-table works for FF and IE but none of 'em worked for me please take a look at this <a href="http://codepen.io/anon/pen/xwqYYz?editors=110" rel="nofollow"><code>codePen</code></a> and tell me what should I do to make this work in IE and FF. It's working in Chrome and Opera as expected.</p>

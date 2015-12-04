@@ -1,0 +1,1 @@
+<p>What are other ways to split a string without using the split() method? For example, how could ['This is a Sentence'] be split into ['This', 'is', 'a', 'Sentence'] without the use of the split() method?</p>

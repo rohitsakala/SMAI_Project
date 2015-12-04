@@ -1,0 +1,1 @@
+<p>Using custom rendering of a UIElement in WPF based on two, non-touching closed geometries.  I'm trying to determine which of the two the user has clicked on.  Is there any API which you can ask if a point falls within the specified closed geometry?</p>

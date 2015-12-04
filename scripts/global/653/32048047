@@ -1,0 +1,1 @@
+<p>I have created an installer using IZPACK 4.3.5 Currently it is making use of the system installed JRE/JVM.  i want to ship/bundle the JRE with the installer so that we can run the installer even the end user doesn't have any JRE installed in his machine.</p>  <p>Could you please give me suggestions/idea to achieve this in izpack?</p>

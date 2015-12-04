@@ -1,0 +1,1 @@
+<p>To find the most recently created user named "Jeff",</p>  <pre><code>User.order_by(created_at: :desc)     .find_by(name: "Jeff") </code></pre>  <p>Which indexes should be created for this query? Would it be 2 indexes, on <code>created_at</code> and <code>name</code>?</p>  <p>Or a compound index on both?</p>

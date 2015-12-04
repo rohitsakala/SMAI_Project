@@ -1,0 +1,1 @@
+<p>I know that from the terminal, one can do a <code>find</code> command to find files such as :</p>  <pre><code>find . -type d -name "*something*" -maxdepth 4  </code></pre>  <p>But, when I am in the hadoop file system, I have not found a way to do this.</p>  <pre><code>hadoop fs -find .... </code></pre>  <p>throws an error.</p>  <p>How do people traverse files in hadoop?  </p>

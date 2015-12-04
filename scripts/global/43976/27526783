@@ -1,0 +1,1 @@
+<p>In silverlight Datepicker, I have set a property for changing Datepicker visibility. When creating new rows Datepickers are in visible state, but while scrolling its property changing automatically(become disabled state) </p>

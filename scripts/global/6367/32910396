@@ -1,0 +1,1 @@
+<p>I am trying to set up rails with sass, I have remove the require tree and trying to @import the files to the application.css the following</p>  <pre><code>@import '_variables.scss'; </code></pre>  <p>is working, any other @import I am trying to do is not working.</p>  <p>example</p>  <pre><code>@import '_layout.scss' </code></pre>  <p>is not working.</p>

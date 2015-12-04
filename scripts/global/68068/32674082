@@ -1,0 +1,1 @@
+<p>how to get the message from messageProperty in Ext.data.reader.Json using extjs 4.X ?  using something like store.getProxy().getReader()..?</p>  <p>getMessageProperty() is available in 6.x, not in 4.x.</p>  <p>Thanks</p>

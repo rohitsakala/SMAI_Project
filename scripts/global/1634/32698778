@@ -1,0 +1,1 @@
+<p>Apache rewriting gives me headaches. What I need:</p>  <p>URL: <a href="http://sub.domain.com/item/" rel="nofollow">http://sub.domain.com/item/</a>* Should be rewrited to <a href="http://sub2.domain.com/item/" rel="nofollow">http://sub2.domain.com/item/</a>*</p>  <p>Thanks in advance!</p>

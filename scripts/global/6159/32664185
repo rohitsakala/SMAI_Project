@@ -1,0 +1,1 @@
+<p>I have a QGraphicsView with some QGraphicsItems inside it. When I resize the window, the items in the scene move to stay inside the scene. I want to be able to resize the window and have the items stay in place, so that if I shrink the window, some items would go out of view.</p>  <p>Any thoughts?</p>

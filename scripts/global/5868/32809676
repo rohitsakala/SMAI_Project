@@ -1,0 +1,1 @@
+<pre><code>$this-&gt;view-&gt;cats=array('name_tr'=&gt;'tr val', 'name_en'=&gt;'en val', 'name_de'=&gt;'de val'); $this-&gt;view-&gt;site_lngs=explode(",","tr,en,de");   {% for key,lng in site_lngs %}     {{ cats.name~"_"~lng }} {% endfor %} </code></pre>  <p>I want to add to "name" value in for values with "_tr , _en .."  Like name_tr, name_en</p>

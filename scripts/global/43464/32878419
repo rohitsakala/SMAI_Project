@@ -1,0 +1,1 @@
+<p>Is there an easy way (like a config setting) to tell <a href="http://redis.io/" rel="nofollow">Redis</a> to dump the database when shutting down the server (or just redis) and restoring when it is back up?</p>  <p>I'm ok to lose some data if someone pulls the plug, but not while restarting.</p>

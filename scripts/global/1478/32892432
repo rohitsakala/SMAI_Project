@@ -1,0 +1,1 @@
+<p>It's possible to give a templated constructor template parameters that cannot be deduced:</p>  <pre><code>struct X {     int i;      template&lt;int N&gt;     X() : i(N)     {     } }; </code></pre>  <p>How would you use such a constructor? Can you use it at all?</p>

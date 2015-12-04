@@ -1,0 +1,1 @@
+<p>I want to show some description for some title in android. So IOS will use Popover to display the content.</p>  <p>And i don't want use any third-party popovers. and i want the native style and there is no mandatory to show in popover. UI was not mandatory but the functionality should satisfy. Is there any widget which fulfills the above condition.</p>

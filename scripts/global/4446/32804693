@@ -1,0 +1,1 @@
+<p>I'm looking for a tool that minifies/compresses/uglifies my whole project, HTML, CSS and JS. I'm thinking stuff like give all the <code>class</code> and <code>id</code> attributes single letter names and then sync that over to my scripts and styles etc. Ideally I can run this once for my whole compiled site just before it goes up on the server.</p>

@@ -1,0 +1,1 @@
+<p>I have a slidebox and in one slide, I have some content and one more slidebox. If I slide on content main slidebox should slide. If I slide on second slidebox, inner slides should slide.</p>  <p>But now, If I slide on inner slidebox, both the slideboxes are sliding. </p>  <p>I need to stop main slidebox sliding while inner slidebox is sliding. Can anyone help me.</p>

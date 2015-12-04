@@ -1,0 +1,1 @@
+<p>how to write this query using where and and conditions on active record rails</p>  <p><code>SELECT c.name FROM</code>categories<code>as c join categories_coaches as cc on cc.category_id=c.id where cc.coach_id=16 and c.parent_id=1</code>  </p>

@@ -1,0 +1,1 @@
+<p>I recently noticed that in Visual Studio 2015 when I paste a bunch of images that are of type jpg or png into my solution they are hidden by default and not included in the project.</p>  <p>I would like to know if this is a normal feature of VS2015 since you really can't do anything with images in VS or if something is wrong with my setup.</p>

@@ -1,0 +1,1 @@
+<p>I have the list with some values, i want to exclude <strong>not</strong> the values from my list and replace them with 0.</p>  <p>That is pseudocode:</p>  <pre><code>for i in range(0,img.shape[0]): for j in range(0,img.shape[1]):     if img[i][j]!=[some values]:         img[i][j]=0 </code></pre>

@@ -1,0 +1,1 @@
+<p>While trying to understand the difference between LineStringSegment and GeodesicSegment, I concluded that the difference is the interpretation of the segment (correct me if I am wrong).</p>  <p>Could someone explain the difference between <strong>linear</strong> and <strong>geodesic</strong> interpretation.</p>

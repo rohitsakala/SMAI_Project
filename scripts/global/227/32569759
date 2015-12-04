@@ -1,0 +1,1 @@
+<p>I am using tbb::concurrent_hash_map. I understand insertion and deletion are safe operations. Is iterating over hash map considered safe with respect to insertion and deletion. If not are there any data structures which I can use for safe iteration. </p>

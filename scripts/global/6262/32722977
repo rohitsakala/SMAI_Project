@@ -1,0 +1,1 @@
+<p>When generating an invoice there is overlapping where the customer address should be and in cases where the invoice is more than one page, the table header and rows write over each other. Using the latest Odoo system and have already updated the WKHTMLTOPDF library to the latest stable release, 0.12.2.1 </p>

@@ -1,0 +1,1 @@
+<p>I want to know the yuv data format from <code>onPreviewFrame</code>. As we know, we can set the <code>parameter.setPreviewFormat(ImageFormat.NV21)</code> before <code>startPreview</code>. After setting that, is the format from <code>onPreviewFrame</code> NV21 ? Is that suitable for all android phone?</p>

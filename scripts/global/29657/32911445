@@ -1,0 +1,1 @@
+<p>How should we write in <code>.less</code> to obtain</p>  <pre><code>left: calc(50% - 38px); </code></pre>  <p>I have </p>  <pre><code>@myWidth: 38px; left: calc(50% - @myWidth); </code></pre>  <p>I obtain</p>  <pre><code>left: calc(12%); // ?? &gt; (50-38) = 12% </code></pre>

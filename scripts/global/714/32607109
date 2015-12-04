@@ -1,0 +1,1 @@
+<p>is it possible to list all currently (at runtime) available components for which you can change the log level? So you don't have to know the exact name beforehand for some deployed application. E.g a command  listing all available loggers for server1 in a websphere cluster.</p>  <p>Thank you, ralf</p>

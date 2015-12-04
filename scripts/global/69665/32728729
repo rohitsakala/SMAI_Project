@@ -1,0 +1,1 @@
+<p>I am developing a universal windows app. When I try to create package using Store->Create App packages, it is creating only test packages. In AppPackages directory, I can find only one folder with _test. </p>  <p>How do I ensure that .appxupload package gets created that can be uploaded to windows store.</p>

@@ -1,0 +1,1 @@
+<p>when I open a web page with python lib (urllib2 for example),I want to open all scripts within a page context in order to have the env variables I need. I do not want to execute javascript . I need to access to env variables for check value of them.</p>

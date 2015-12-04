@@ -1,0 +1,1 @@
+<p>I have rspec test which creates a tmp file and it is read in the test. CircleCI fails saying </p>  <pre><code>Failure/Error: file_name = generate_csv_file(items)  Errno::ENOENT:    No such file or directory @ rb_sysopen - /home/ubuntu/project/tmp/batch_1443573588.csv </code></pre>

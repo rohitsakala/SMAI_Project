@@ -1,0 +1,1 @@
+<p>suppose i have three models, at my view I am showing all the item of these models, i want to give my user privilege to set which model's objects are to be shown at view at first, second and third.</p>  <p>what is the best way to implement this?</p>

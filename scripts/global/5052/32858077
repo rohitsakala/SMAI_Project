@@ -1,0 +1,1 @@
+<p>I have 4 viewcontrollers ,so how can i link  various actions from each viewcontrollers to Main menu menu items, i have done by creating menu items in each conttroller but menu item vanishes after it is closed </p>

@@ -1,0 +1,1 @@
+<p>In the callback function "OnSuccess",i can't get the element which i've clicked. After click the "Del" button ,i try to remove the "tr" element which one the "Del" button in that i just clicked.how to do this?</p>

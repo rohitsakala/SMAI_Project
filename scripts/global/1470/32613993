@@ -1,0 +1,1 @@
+<p>I am using the following code to copy a label's text to the clipboard when a button is clicked:</p>  <pre><code>Private Sub CopyToClipBoardButton_Click()      CopyText labelName  End Sub </code></pre>  <p>But instead of clicking the button,I wish I could directly select the text on the form and right click the mouse button to copy it. Is it possible? </p>

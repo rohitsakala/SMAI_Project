@@ -1,0 +1,1 @@
+<p>Can I fire a trigger in sqlite whenever anything changed on a database (except for the trigger changes itself of course)? I want to save file modification date and modification revision in sqlite database, whenever anything is inserted, updated or deleted. Can I do that without applying triggers for every table?</p>

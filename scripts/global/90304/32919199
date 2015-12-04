@@ -1,0 +1,1 @@
+<p>I've setup TeamCity inside a docker image and I can access it via localhost but everytime I restart my docker, TeamCity always ask for configuration again (from the beginning, meaning that I have to reconfigure the whole TeamCity again). </p>  <p>How do I make my configuration persist?</p>

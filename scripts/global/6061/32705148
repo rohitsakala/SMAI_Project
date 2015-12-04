@@ -1,0 +1,1 @@
+<p>Is it possible to integrate Spring security with  an already created web app that use jsp/servlet 3.0 + ejb 3.1 ? I'm running the app on glassfish 4.1 . Thanks.</p>  <p>NB: All the tutorial that I have found use automatically Spring with Spring security.</p>

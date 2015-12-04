@@ -1,0 +1,1 @@
+<p>Here is my code:</p>  <pre> (def partial-join (partial (clojure.string/join ",")))  =>(clojure.string/join "," ["foo" "bar"]) "foo,bar"  => (partial-join ["foo" "bar"]) </pre>  <p>And it raises this exception:</p>  <blockquote>   <p>ClassCastException java.lang.String cannot be cast to clojure.lang.IFn  .repl/eval12557 (form-init2162333644921704923.clj:1)</p> </blockquote>

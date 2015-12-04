@@ -1,0 +1,1 @@
+<p>Is there any way to add an appointment in your outlook 2013 calendar, that has been initiated from a webportal (hosted on an internal server) via an ASP.Net VB website (not C#)?</p>  <p>I don't want to use third party API's, only the ones provided by MS. Can anyone point me in the right direction?</p>

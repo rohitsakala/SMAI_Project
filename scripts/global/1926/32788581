@@ -1,0 +1,1 @@
+<p>can I use the setInt method for a preparedStatement in the c++ connector, to input data when a tinyint type is expected? tinyint is only 1 byte in size, I'm wondering if the int will just be converted. Or I should use setBlob?</p>

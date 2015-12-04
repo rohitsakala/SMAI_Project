@@ -1,0 +1,1 @@
+<p>I have a custom function abc(). When I create node I changed $form_status['redirect'] to go to this function so that after node creation this function will be called. Is there any way to get created node id in this function and is there any way to get $form and $form_status in abc() function ?? like this abc($form,$form_status). Please help. Thanks in advance.</p>

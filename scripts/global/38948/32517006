@@ -1,0 +1,1 @@
+<p>I'm trying to find an easier way to set and get a "zoom level" for an <code>MKMapView</code> than being changing its region's span, something more intuitive such as an integer zoom level... I need to programmatically change zoom and to frequently check the zoom level to determine if I should show or hide certain map overlays.</p>  <p>Thanks in advance.</p>

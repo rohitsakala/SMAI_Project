@@ -1,0 +1,1 @@
+<p>I've been seeing a lot of answers online but none of them give me exactly what I need.</p>  <p>Example:</p>  <p>12345_helloworld_328923_haha.txt</p>  <p>I need to grab everything before the SECOND "_"</p>  <p>output:</p>  <p>helloworld</p>  <p>How do I do this as an expression in SSIS?</p>

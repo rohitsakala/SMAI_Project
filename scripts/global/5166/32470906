@@ -1,0 +1,1 @@
+<p>How to upload a Image in Asp.net MVC using Ajax request I have single controller and its view file have to use Ajax request.</p>  <p>Index Controller </p>  <pre><code>public ActionResult Index() {      return View(); } </code></pre>  <p>and its view </p>

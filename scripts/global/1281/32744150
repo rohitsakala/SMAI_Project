@@ -1,0 +1,1 @@
+<p>Exactly what the title says.</p>  <p>I've inherited a legacy project using gradle and the interdependence of modules is giving me a headache. Is there a plugin/process/black magic that'll fail the build on unused dependencies?</p>

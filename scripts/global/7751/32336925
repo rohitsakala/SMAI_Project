@@ -1,0 +1,1 @@
+<p>I am having problems coming up with a solution to the following problem:</p>  <p>I have a booking form, but when the user adds details I want to check my database to see if the exact vehicle has been booked out for those dates already. If it has, an error message would appear. </p>

@@ -1,0 +1,1 @@
+<p>I am using jqgrid 3.8.2.When I save the row by calling the saverow API as below,</p>  <pre><code>jQuery('#list').jqGrid('saveRow', rowId, '', '', '', afterSaveFunction, saveErrorFunction); </code></pre>  <p>my grid flashes for a second and then saves the data and comes back to the normal state.How can I avoid the flashing?</p>  <p>Please help. Thanks, Poorna</p>

@@ -1,0 +1,1 @@
+<p>On <a href="https://github.com/FriendsOfPHP/Sami" rel="nofollow">Sami's github page</a>, it provides a link to Symofny's API.</p>  <p>But in <a href="http://symfony.com/doc/current/contributing/documentation/format.html" rel="nofollow">Symfony's documentation</a>, it says they use Sphinx.</p>  <p>I'm mostly curious because I can't find what markup Sami uses.</p>

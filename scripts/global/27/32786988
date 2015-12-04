@@ -1,0 +1,1 @@
+<p>I am trying to create a dialog box which has two input fields in it: username and password with javascript or jQuery, but alert() won't allow input fields and with prompt()function I can not add more than one input. Any ideas? thnx</p>

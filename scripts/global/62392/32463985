@@ -1,0 +1,1 @@
+<p>I'm trying to let my users send facebook invites using the send dialog. At the moment, those invites create a group chat if the user selects multiple friends.</p>  <p>Is there a way to send the messages individually? Instead of creating one big group chat?</p>

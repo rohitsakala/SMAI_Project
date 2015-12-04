@@ -1,0 +1,1 @@
+<p>In some areas of my app ive made my own custom navigationbar with a UIView and colored it using a hex, other areas ive used the actual navigationbar and set the bg color to the same hex. For some reason the official navigation bar seems to have a nasty tint on it that becomes very apparent when using colors like yellow.Any ideas what this is and how to strip it out? </p>

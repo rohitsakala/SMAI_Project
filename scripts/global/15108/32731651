@@ -1,0 +1,1 @@
+<p>Lets say I have a list</p>  <pre><code>mylist = ['name', 'username'] </code></pre>  <p>And I want to create a form from this list:</p>  <pre><code>class MyForm(forms.Form):     for field in mylist:         field = forms.CharField(max_length=100) </code></pre>  <p>Its not giving me the form for name and username. How can I create a form from list ?</p>

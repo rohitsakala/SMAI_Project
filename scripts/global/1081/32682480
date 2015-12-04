@@ -1,0 +1,1 @@
+<p>I need to know whether an applet could use direct file access functionality, NOT via JNLP.</p>  <p>Is it possible for applet to access files via standard file classes:</p>  <ul> <li>java.nio.file.Files; </li> <li>java.io.FileInputStream;</li> </ul>  <p>Is this possible for "Next Generation applet"?</p>  <p>Is this possible for pre "Next Generation applet"?</p>

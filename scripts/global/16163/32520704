@@ -1,0 +1,1 @@
+<p>Here I am using query to insert a value into table for every 1 minute cycle through event but its showing Invalid SQL Statement.I am using oracle 10g </p>  <pre><code>ON GRANT CREATE EVENT test_event_02 ON SCHEDULE AT SYSTIMESTAMP + INTERVAL '1' MINUTE ON COMPLETION PRESERVE DO insert into tablename values('shree2',SYSTIMESTAMP); </code></pre>

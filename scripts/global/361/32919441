@@ -1,0 +1,1 @@
+<p>I am trying to use method chain with sub-methods. </p>  <p>IE: <code>foo("bar").do.stuff()</code></p>  <p>The catch is <code>stuff()</code> needs to have a reference to the value of <code>bar("bar")</code>  </p>  <p>Is there any <code>this.callee</code> or other such reference to achieve this?   </p>

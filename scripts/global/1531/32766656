@@ -1,0 +1,1 @@
+<p>I need an attribute that can't be changed after initialisation in the constructor</p>  <p>somthing like this:</p>  <pre><code>private const string banknr;  public ClassName(string banknr) {     this.banknr = banknr;     //from now on "banknr" can't be changed something like a final or const } </code></pre>  <p>but it just doesn't work, I realy don't understand</p>

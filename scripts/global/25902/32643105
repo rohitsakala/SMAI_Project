@@ -1,0 +1,1 @@
+<p>When I change the value of font is called <code>_setContentOffsetWithoutRecordingscrollposition</code>, which sets the <code>contentOffset</code> value to <code>0.0</code>. How to avoid it? </p>  <p>In previous versions this was not.</p>

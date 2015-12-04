@@ -1,0 +1,1 @@
+<p>I am working with http secure connection in j2me. While throwing url it is showing exception as "Caught IOException: java.io.IOException: getNextMsg refill failed". First of all I am not getting the point what is mean by getNextMsg???</p>

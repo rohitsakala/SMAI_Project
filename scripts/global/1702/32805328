@@ -1,0 +1,1 @@
+<p>Is something like following </p>  <pre><code>typedef boost::mpl::map&lt;       pair&lt;int,"int"&gt;     , pair&lt;long,"long"&gt;     , pair&lt;bool,"bool"&gt;     &gt; m; </code></pre>  <p>possible? If not, what are the alternatives ?</p>

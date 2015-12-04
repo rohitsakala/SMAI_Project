@@ -1,0 +1,1 @@
+<p>I have a small question in my mind. I searched it on the internet but no one is providing the exact answer. My question is :</p>  <p>In data flow coverage criteria; say there is a method which finally returns variable <strong>x</strong>; When drawing the graph for that method is it considered that return statement as a use of x ?</p>

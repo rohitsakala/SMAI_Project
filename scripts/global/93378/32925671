@@ -1,0 +1,1 @@
+<p>I have 2 related table: Project and File. I want to use file tables fields in project view  for example:  model.File.Name Please help</p>

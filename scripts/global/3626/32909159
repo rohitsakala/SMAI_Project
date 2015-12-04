@@ -1,0 +1,1 @@
+<p>When joining a small relation with a huge one in pyspark, which way round is the right one for efficiency? Should you join the small to the large or the large to the small?</p>  <p>That is, should it be <code>x.join(y)</code> or <code>y.join(x)</code> if <code>x</code> is much larger than <code>y</code>.</p>

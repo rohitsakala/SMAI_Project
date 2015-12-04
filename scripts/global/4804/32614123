@@ -1,0 +1,1 @@
+<p>I define <code>LEGAL_ESCAPE</code> token like this:</p>  <pre><code>LEGAL_ESCAPE: '\\'('b'|'f'|'r'|'n'|'t'|'"')?; </code></pre>  <p>Is there any way for me to use negative of this token to define another <code>ILLEGAL_ESCAPE</code> token?</p>

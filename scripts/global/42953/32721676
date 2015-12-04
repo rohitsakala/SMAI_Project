@@ -1,0 +1,1 @@
+<p>I have a bar chart that can display various number of bars depending on user multi-select. How do I get the bar chart to dynamically adjust to the number of bars being displayed? The only solutions I found online were dated 2008 and weren't good solutions either, surely there must be a proper way of doing this?</p>  <p>Thanks</p>

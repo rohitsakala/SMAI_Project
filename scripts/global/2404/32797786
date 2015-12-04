@@ -1,0 +1,1 @@
+<p>Say if have configuration in both deployment descriptor and annotations which one will be effective. Will annotations override the deployment descriptor. </p>
